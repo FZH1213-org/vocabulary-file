@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>代码人生：项目攻坚 · 复习版</title>
+<style>
+  :root { --pill-review: #C8E6C9; --accent: #4CAF50; --bg-soft: #E8F5E9; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 12px; text-align: justify; }
+  .r { background-color: #C8E6C9; border-radius: 999px; padding: 2px 8px; margin: 0 2px;
+    white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .r:hover { opacity: 0.85; }
+  .r .h { color: transparent; user-select: none; }
+  .r.show .h { color: #333; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 复习版</div>
+      <h1>代码人生</h1>
+      <p class="sub">科技 · 程序员 · 梦想</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 2：看单词回忆中文释义</div>
+      <h2><span class="no">Story28</span>项目攻坚</h2>
+      <div class="meta">本篇约 1529 字 · 融入 48 个重点词汇 · 点击词汇显示/隐藏中文释义</div>
+      <div class="text">
+<p>科技公司办公室里，程序员陈伟盯着电脑屏幕，眉头紧锁。项目已经进行了两个月，距离上线只剩一周时间，但核心<span class="r" onclick="toggle(this)">module(<span class="h">模块</span>)</span>还存在严重的bug。作为项目的主要负责人，他必须尽快解决这些问题。这是一个巨大的<span class="r" onclick="toggle(this)">challenge(<span class="h">挑战</span>)</span>。他感受到了前所未有的<span class="r" onclick="toggle(this)">pressure(<span class="h">压力</span>)</span>。</p>
+<p>团队成员们同样焦头烂额。他们日夜奋战，试图找到bug的根源。每次修复一个问题，又会冒出新的错误。这种循环让整个团队感到<span class="r" onclick="toggle(this)">pressure(<span class="h">压力</span>)</span>巨大。每个人的脸上都写满了<span class="r" onclick="toggle(this)">worry(<span class="h">担忧</span>)</span>。这是一个艰难的<span class="r" onclick="toggle(this)">period(<span class="h">时期</span>)</span>。</p>
+<p>陈伟召集团队开会，严肃地说："我们必须换一个思路，不能再这样被动地修复bug。"他<span class="r" onclick="toggle(this)">propose(<span class="h">提议</span>)</span>团队暂停修改，先系统性地分析问题的根源。这是一个明智的<span class="r" onclick="toggle(this)">decision(<span class="h">决定</span>)</span>。团队需要新的<span class="r" onclick="toggle(this)">approach(<span class="h">方法</span>)</span>。</p>
+<p>会议后，陈伟带领团队进行代码审查。他们逐行检查每一部分代码，寻找可能的逻辑漏洞。经过一整天的分析，他们终于发现了一个关键的<span class="r" onclick="toggle(this)">issue(<span class="h">问题</span>)</span>——某个核心函数的实现存在设计缺陷，导致多个模块之间的数据不一致。这个发现让大家看到了<span class="r" onclick="toggle(this)">hope(<span class="h">希望</span>)</span>。问题终于有了<span class="r" onclick="toggle(this)">solution(<span class="h">解决</span>)</span>的方向。</p>
+<p>找到问题的根源后，陈伟迅速制定修复方案。他决定重新设计这个函数，并调整相关模块的接口。这意味着大量的代码需要修改，但这是解决问题的唯一<span class="r" onclick="toggle(this)">solution(<span class="h">方案</span>)</span>。团队必须<span class="r" onclick="toggle(this)">work(<span class="h">努力</span>)</span>。每个人都需要付出更多的<span class="r" onclick="toggle(this)">effort(<span class="h">努力</span>)</span>。</p>
+<p>接下来的三天，团队进入攻坚状态。每个人都全身心地投入到修复工作中。陈伟作为负责人，除了编写代码，还要协调各个模块之间的配合。他每天工作十几个小时，几乎不离开办公室。这份<span class="r" onclick="toggle(this)">effort(<span class="h">努力</span>)</span>令人敬佩。他的<span class="r" onclick="toggle(this)">dedication(<span class="h">奉献</span>)</span>感染了大家。</p>
+<p>修复过程中，新的问题不断出现。团队成员开始感到疲惫和焦虑。陈伟注意到大家的情绪，他主动与每个人交流，鼓励他们坚持下去。他说："我们已经走了这么远，不能放弃。只要齐心协力，一定能<span class="r" onclick="toggle(this)">overcome(<span class="h">克服</span>)</span>这个难关。"他的<span class="r" onclick="toggle(this)">confidence(<span class="h">信心</span>)</span>感染了大家。团队的<span class="r" onclick="toggle(this)">energy(<span class="h">能量</span>)</span>重新焕发。</p>
+<p>第四天深夜，核心模块的修复终于完成。陈伟启动测试程序，所有人的目光都集中在大屏幕上。测试逐项进行，每一个功能都正常运作。当最后一项测试通过的标志出现时，整个团队欢呼起来。这个<span class="r" onclick="toggle(this)">moment(<span class="h">时刻</span>)</span>值得铭记。这是他们共同的<span class="r" onclick="toggle(this)">success(<span class="h">成功</span>)</span>。</p>
+<p>项目经理对陈伟的工作给予高度评价："你的领导力和技术能力让这个项目得以成功。你是团队的<span class="r" onclick="toggle(this)">core(<span class="h">核心</span>)</span>力量。"这份认可让陈伟感到深深的成就感。所有的付出都有了<span class="r" onclick="toggle(this)">return(<span class="h">回报</span>)</span>。他为自己的<span class="r" onclick="toggle(this)">role(<span class="h">角色</span>)</span>感到自豪。</p>
+<p>项目上线当天，用户反馈非常积极。产品的稳定性和性能都达到了预期，客户对团队的表现感到满意。陈伟站在窗前，望着城市的夜景，感到无比的<span class="r" onclick="toggle(this)">relief(<span class="h">宽慰</span>)</span>。他为自己的团队感到<span class="r" onclick="toggle(this)">proud(<span class="h">骄傲</span>)</span>。这是一次完美的<span class="r" onclick="toggle(this)">launch(<span class="h">上线</span>)</span>。</p>
+<p>他明白，这次项目攻坚的成功不仅源于个人的技术能力，更源于团队的团结协作。每一个成员都付出了巨大的努力，每一个细节都经过了精心的打磨。这种团队<span class="r" onclick="toggle(this)">spirit(<span class="h">精神</span>)</span>是成功的关键。这是他们共同的<span class="r" onclick="toggle(this)">success(<span class="h">成功</span>)</span>。团队的<span class="r" onclick="toggle(this)">collaboration(<span class="h">协作</span>)</span>至关重要。</p>
+<p>项目结束后，陈伟整理了完整的文档，记录了整个过程中的经验教训。他决定将这些经验分享给其他团队，帮助他们在未来的项目中避免类似的<span class="r" onclick="toggle(this)">trouble(<span class="h">麻烦</span>)</span>。这是一种宝贵的<span class="r" onclick="toggle(this)">experience(<span class="h">经验</span>)</span>。他的<span class="r" onclick="toggle(this)">knowledge(<span class="h">知识</span>)</span>值得传承。</p>
+<p>这次经历让陈伟的职业能力得到了进一步的<span class="r" onclick="toggle(this)">improve(<span class="h">提升</span>)</span>。他更加坚信：技术只是基础，团队协作和问题解决能力才是真正的核心竞争力。未来的路上，他将继续追求技术进步，同时培养更强的团队领导力。他有明确的<span class="r" onclick="toggle(this)">goal(<span class="h">目标</span>)</span>。他对自己的<span class="r" onclick="toggle(this)">development(<span class="h">发展</span>)</span>有清晰的规划。</p>
+<p>陈伟也从这次经历中学到了很多。他明白了面对<span class="r" onclick="toggle(this)">difficulty(<span class="h">困难</span>)</span>时要保持冷静，要善于倾听团队的意见，要勇于承担责任。这些都是宝贵的<span class="r" onclick="toggle(this)">lesson(<span class="h">教训</span>)</span>。他获得了很多的<span class="r" onclick="toggle(this)">insight(<span class="h">领悟</span>)</span>。</p>
+<p>团队成员们也从这次项目中成长了很多。他们学会了如何在<span class="r" onclick="toggle(this)">pressure(<span class="h">压力</span>)</span>下工作，如何更好地协作，如何快速解决问题。这些能力将伴随他们的整个<span class="r" onclick="toggle(this)">career(<span class="h">职业</span>)</span>生涯。这是他们宝贵的<span class="r" onclick="toggle(this)">growth(<span class="h">成长</span>)</span>经历。</p>
+<p>项目攻坚的故事，成为陈伟职业生涯中的重要里程碑。他知道，未来还有更多的挑战等待着他，但他已经准备好迎接每一个新的机遇。每当回想起那几天的紧张与奋斗，他都会感谢那段<span class="r" onclick="toggle(this)">experience(<span class="h">经历</span>)</span>，因为它让他成长为一名更优秀的工程师。团队成员们的支持与合作，让他明白了什么是真正的<span class="r" onclick="toggle(this)">professional(<span class="h">专业</span>)</span>精神。他对自己的<span class="r" onclick="toggle(this)">future(<span class="h">未来</span>)</span>充满了信心。这段<span class="r" onclick="toggle(this)">journey(<span class="h">旅程</span>)</span>让他更加成熟。这是一个值得铭记的<span class="r" onclick="toggle(this)">milestone(<span class="h">里程碑</span>)</span>。</p>
+      </div>
+    </section>
+    <footer>代码人生：项目攻坚 · 复习版　|　看故事记单词</footer>
+  </div>
+  <script> function toggle(el) { el.classList.toggle('show'); } </script>
+</body>
+</html>
