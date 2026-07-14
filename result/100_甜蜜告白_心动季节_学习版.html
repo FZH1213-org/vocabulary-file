@@ -3,280 +3,64 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>100. 甜蜜告白 - 心动季节 (学习版)</title>
+<title>甜蜜告白：心动季节 · 学习版</title>
 <style>
-* {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
-body {
-font-family: "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
-background: linear-gradient(135deg, #ffeef8 0%, #e8f4f8 100%);
-min-height: 100vh;
-padding: 40px 20px;
-line-height: 2;
-}
-.container {
-max-width: 900px;
-margin: 0 auto;
-background: white;
-border-radius: 20px;
-padding: 50px;
-box-shadow: 0 10px 40px rgba(255, 182, 193, 0.3);
-}
-h1 {
-text-align: center;
-color: #d63384;
-font-size: 2.5em;
-margin-bottom: 10px;
-}
-.subtitle {
-text-align: center;
-color: #6c757d;
-font-size: 1.2em;
-margin-bottom: 40px;
-}
-.vocab-count {
-background: linear-gradient(135deg, #ff69b4, #ff1493);
-color: white;
-padding: 15px 30px;
-border-radius: 25px;
-text-align: center;
-font-size: 1.3em;
-margin-bottom: 40px;
-font-weight: bold;
-}
-.story {
-text-align: justify;
-font-size: 1.1em;
-color: #333;
-text-indent: 2em;
-}
-.story p {
-margin-bottom: 1.8em;
-}
-.w {
-color: #d63384;
-font-weight: bold;
-cursor: pointer;
-border-bottom: 2px dotted #ff69b4;
-padding-bottom: 2px;
-}
-.w:hover {
-background: #ffeef8;
-}
-.word-list {
-margin-top: 50px;
-padding: 30px;
-background: #f8f9fa;
-border-radius: 15px;
-}
-.word-list h3 {
-color: #d63384;
-margin-bottom: 20px;
-font-size: 1.5em;
-}
-.word-grid {
-display: grid;
-grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-gap: 10px;
-}
-.word-item {
-background: white;
-padding: 10px 15px;
-border-radius: 8px;
-border-left: 4px solid #ff69b4;
-}
-footer {
-text-align: center;
-margin-top: 40px;
-color: #999;
-font-size: 0.9em;
-}
+  :root { --pill: #E1BEE7; --accent: #9C27B0; --bg-soft: #F3E5F5; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 4px; text-align: justify; }
+  .w { background-color: #E1BEE7; border-radius: 999px; padding: 0.12em 0.55em;
+    margin: 0 1px; white-space: nowrap; color: #333; font-weight: 600; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
 </style>
 </head>
 <body>
-<div class="container">
-<h1>100. 甜蜜告白</h1>
-<p class="subtitle">心动季节 - 学习版</p>
-<div class="vocab-count">词汇标注：150个</div>
-
-<div class="story">
-<p>春天的午后，林晨站在校园的樱花树下，望着那片<span class="w">prospect(前景)📢</span>，心中充满了对未来的<span class="w">dream(梦想)📢</span>。他一直<span class="w">cherish(珍视)📢</span>着与苏婉相处的每一刻，总是<span class="w">enjoy(享受)📢</span>着与她交谈的时光。此刻，他感到格外<span class="w">relaxed(放松的)📢</span>，<span class="w">always(总是)📢</span>期待着能够向她表达心意。他决定精心<span class="w">plan(计划)📢</span>这次告白，认真<span class="w">prepare(准备)📢</span>每一个细节。他<span class="w">consider(考虑)📢</span>到时机的重要性。</p>
-
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词</div>
+      <h1>甜蜜告白</h1>
+      <p class="sub">告白 · 爱情 · 甜蜜</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 1：在语境中认识单词</div>
+      <h2><span class="no">Story100</span>心动季节</h2>
+      <div class="meta">本篇约 3000 字 · 融入 150 个重点词汇 · 点击📢可朗读发音</div>
+      <div class="text"><p>春天的午后，林晨站在校园的樱花树下，望着那片<span class="w">prospect(前景)📢</span>，心中充满了对未来的<span class="w">dream(梦想)📢</span>。他一直<span class="w">cherish(珍视)📢</span>着与苏婉相处的每一刻，总是<span class="w">enjoy(享受)📢</span>着与她交谈的时光。此刻，他感到格外<span class="w">relaxed(放松的)📢</span>，<span class="w">always(总是)📢</span>期待着能够向她表达心意。他决定精心<span class="w">plan(计划)📢</span>这次告白，认真<span class="w">prepare(准备)📢</span>每一个细节。他<span class="w">consider(考虑)📢</span>到时机的重要性。</p>
 <p>林晨深知，<span class="w">express(表达)📢</span>爱意需要勇气，他反复<span class="w">practice(练习)📢</span>着要说的话。他相信这是一个<span class="w">perfect(完美的)📢</span>时机，必须<span class="w">precise(精确的)📢</span>把握每一个瞬间。他仔细<span class="w">polish(润色)📢</span>着自己的言辞，让整个<span class="w">process(过程)📢</span>自然流畅。他学会了保持<span class="w">patient(耐心的)📢</span>，懂得<span class="w">persist(坚持)📢</span>追求心中的<span class="w">precious(珍贵的)📢</span>感情。他希望这个<span class="w">attempt(尝试)📢</span>能够成功。</p>
-
 <p>当苏婉出现在视野中，林晨的心境变得格外<span class="w">peaceful(平静的)📢</span>。他感受到心跳开始<span class="w">accelerate(加速)📢</span>，能够清晰地<span class="w">perceive(感知)📢</span>到自己的紧张。然而，他鼓起<span class="w">courage(勇气)📢</span>，怀揣着<span class="w">passion(激情)📢</span>走向她。尽管内心有些<span class="w">nervous(紧张的)📢</span>，但他努力表现出<span class="w">confident(自信的)📢</span>样子。他<span class="w">manage(设法)📢</span>保持冷静。</p>
-
 <p>林晨保持着<span class="w">pure(纯洁的)📢</span>心态，努力克服内心的<span class="w">anxiety(焦虑)📢</span>。他认真<span class="w">emotion(情感)📢</span>表达自己的<span class="w">sincere(真诚的)📢</span>情感，对苏婉充满<span class="w">respect(尊重)📢</span>。他承诺会<span class="w">protect(保护)📢</span>她的心，让她感受到<span class="w">secure(安全的)📢</span>。他坚定地说，这份感情值得<span class="w">pursue(追求)📢</span>，希望她能接受他的心意。他的话语充满<span class="w">affection(感情)📢</span>。</p>
-
 <p>苏婉被他的真诚打动，两人开始了<span class="w">gentle(温柔的)📢</span>对话。林晨决定大胆<span class="w">approach(接近)📢</span>，展现出<span class="w">attract(吸引)📢</span>人的魅力。他们开始深入<span class="w">communicate(交流)📢</span>，彼此分享着内心的想法。这一刻，<span class="w">connection(联系)📢</span>在他们之间悄然建立。林晨感到无比<span class="w">delight(高兴)📢</span>，脸上洋溢着幸福的笑容。这段对话非常<span class="w">meaningful(有意义的)📢</span>。</p>
-
 <p>他们的对话逐渐<span class="w">deepen(加深)📢</span>，彼此间的<span class="w">understand(理解)📢</span>也越来越深刻。林晨<span class="w">appreciate(感激)📢</span>苏婉的每一句话，两人能够互相<span class="w">support(支持)📢</span>。他坦诚地<span class="w">admit(承认)📢</span>自己的感情，向她做出郑重<span class="w">promise(承诺)📢</span>。他希望这份感情能够长久<span class="w">maintain(维持)📢</span>下去。这种<span class="w">honest(诚实的)📢</span>态度让苏婉感动。</p>
-
 <p>林晨表现出极大的<span class="w">determination(决心)📢</span>，对未来充满积极<span class="w">attitude(态度)📢</span>。他学会了在适当时候做出<span class="w">compromise(妥协)📢</span>，愿意<span class="w">adjust(调整)📢</span>自己的步伐。苏婉渐渐被他的真诚<span class="w">impress(打动)📢</span>，决定给他一个<span class="w">opportunity(机会)📢</span>。她选择<span class="w">trust(信任)📢</span>他，相信这段感情值得尝试。她做出这个<span class="w">select(选择)📢</span>是正确的。</p>
-
 <p>两人开始共同<span class="w">experience(经历)📢</span>美好的时光，彼此建立起深厚的<span class="w">bond(纽带)📢</span>。他们互相<span class="w">share(分享)📢</span>着生活中的点点滴滴，感到非常<span class="w">satisfy(满足)📢</span>。他们一起克服了各种<span class="w">challenge(挑战)📢</span>，共同面对生活中的<span class="w">difficulty(困难)📢</span>。林晨始终保持着<span class="w">steady(稳定的)📢</span>的心。他们之间的<span class="w">relationship(关系)📢</span>越来越深厚。</p>
-
 <p>他们的感情不断<span class="w">develop(发展)📢</span>，期待着更加美好的<span class="w">future(未来)📢</span>。林晨坚信只要<span class="w">believe(相信)📢</span>爱情，就会有<span class="w">hope(希望)📢</span>。他决定用一生<span class="w">love(爱)📢</span>她，将她视为最<span class="w">special(特别的)📢</span>的人。他向她<span class="w">offer(提供)📢</span>最真挚的情感，表明愿意为感情做出<span class="w">contribute(贡献)📢</span>。</p>
-
 <p>在相处中，他们努力<span class="w">improve(改善)📢</span>彼此的关系，感受到强烈的<span class="w">desire(渴望)📢</span>。他们深刻<span class="w">realize(意识到)📢</span>爱情需要双方共同<span class="w">effort(努力)📢</span>。两人开始<span class="w">build(建立)📢</span>共同的人生目标，不断<span class="w">create(创造)📢</span>美好的回忆。这一切让他们感到无比<span class="w">proud(骄傲的)📢</span>。</p>
-
 <p>他们学会<span class="w">accept(接受)📢</span>彼此的不完美，互相<span class="w">encourage(鼓励)📢</span>，携手共同<span class="w">grow(成长)📢</span>。他们选择勇敢<span class="w">face(面对)📢</span>生活中的每一个挑战，愿意<span class="w">change(改变)📢</span>自己适应对方。他们<span class="w">seek(寻求)📢</span>幸福的道路，勇敢做出<span class="w">decide(决定)📢</span>，共同<span class="w">achieve(实现)📢</span>人生目标。</p>
-
 <p>这段感情让他们的生活变得<span class="w">enrich(丰富)📢</span>，两人都能<span class="w">balance(平衡)📢</span>生活与爱情。他们一起<span class="w">explore(探索)📢</span>未知的世界，追求内心的<span class="w">happiness(幸福)📢</span>。他们学会<span class="w">treasure(珍视)📢</span>彼此相伴的时光，珍惜<span class="w">value(价值)📢</span>这份感情的珍贵。他们<span class="w">inspire(激励)📢</span>着彼此成为更好的人。</p>
-
 <p>他们的关系变得越发<span class="w">stable(稳定的)📢</span>，对未来怀揣着美好的<span class="w">expect(期待)📢</span>。两人约定永远<span class="w">accompany(陪伴)📢</span>彼此，让爱情<span class="w">flourish(繁荣)📢</span>。他们努力满足对方的<span class="w">require(需求)📢</span>，努力<span class="w">fulfill(实现)📢</span>彼此的愿望。他们之间产生奇妙的<span class="w">chemistry(化学反应)📢</span>，发生着惊人的<span class="w">transform(转变)📢</span>。</p>
-
 <p>他们培养出坚定的<span class="w">faith(信念)📢</span>，感受到彼此的<span class="w">warm(温暖)📢</span>。他们用温柔<span class="w">touch(触碰)📢</span>彼此的心灵，如同一段美妙的<span class="w">melody(旋律)📢</span>。两人共享<span class="w">harmony(和谐)📢</span>的时光，描绘出心中的<span class="w">poetry(诗意)📢</span>。他们为彼此<span class="w">dedicate(奉献)📢</span>全部，证明爱情的<span class="w">prove(证明)📢</span>。</p>
-
 <p>最终，他们的感情走向<span class="w">eternity(永恒)📢</span>，创造出美丽的<span class="w">miracle(奇迹)📢</span>。他们相<span class="w">embrace(拥抱)📢</span>在樱花树下，这是<span class="w">destiny(命运)📢</span>的安排。林晨感到无比<span class="w">bless(祝福)📢</span>，因为苏婉已经成为他的<span class="w">beloved(挚爱的)📢</span>。这个甜蜜告白的故事，在<span class="w">romantic(浪漫的)📢</span>季节里成为最动人的<span class="w">memory(记忆)📢</span>。</p>
-
 <p><span class="w">conclude(得出结论)📢</span>，爱情需要勇气和真诚。当两颗心相遇，便能<span class="w">combine(结合)📢</span>出最动人的故事。林晨和苏婉的爱情<span class="w">journey(旅程)📢</span>，正是<span class="w">witness(见证)📢</span>了这份美好。他们将继续<span class="w">cherish(珍视)📢</span>这段感情，直到永远。</p>
-
 <p><span class="w">obvious(明显的)📢</span>，真挚的感情需要用心经营。他们选择<span class="w">brave(勇敢的)📢</span>追求爱情，展现出<span class="w">bright(明亮的)📢</span>的笑容。这段感情必将成为他们<span class="w">entire(全部的)📢</span>人生中最珍贵的财富。他们的故事告诉我们要<span class="w">vivid(生动的)📢</span>地活在当下，<span class="w">cherish(珍视)📢</span>眼前的幸福。</p>
-
-<p>春日的阳光<span class="w">shine(照耀)📢</span>在他们身上，<span class="w">symbol(象征)📢</span>着他们美好的爱情。林晨和苏婉紧紧牵着手，<span class="w">respond(回应)📢</span>着彼此的心跳。他们之间的<span class="w">intimate(亲密的)📢</span>关系，让<span class="w">ordinary(普通的)📢</span>的日子变得<span class="w">extraordinary(非凡的)📢</span>。这份甜蜜的爱情，让整个季节都变得更加美好。</p>
-</div>
-
-<div class="word-list">
-<h3>词汇列表 (150个)</h3>
-<div class="word-grid">
-<div class="word-item">prospect 前景</div>
-<div class="word-item">dream 梦想</div>
-<div class="word-item">cherish 珍视</div>
-<div class="word-item">enjoy 享受</div>
-<div class="word-item">relaxed 放松的</div>
-<div class="word-item">always 总是</div>
-<div class="word-item">plan 计划</div>
-<div class="word-item">prepare 准备</div>
-<div class="word-item">express 表达</div>
-<div class="word-item">practice 练习</div>
-<div class="word-item">perfect 完美的</div>
-<div class="word-item">precise 精确的</div>
-<div class="word-item">polish 润色</div>
-<div class="word-item">process 过程</div>
-<div class="word-item">patient 耐心的</div>
-<div class="word-item">persist 坚持</div>
-<div class="word-item">precious 珍贵的</div>
-<div class="word-item">peaceful 平静的</div>
-<div class="word-item">accelerate 加速</div>
-<div class="word-item">perceive 感知</div>
-<div class="word-item">courage 勇气</div>
-<div class="word-item">passion 激情</div>
-<div class="word-item">nervous 紧张的</div>
-<div class="word-item">confident 自信的</div>
-<div class="word-item">pure 纯洁的</div>
-<div class="word-item">anxiety 焦虑</div>
-<div class="word-item">emotion 情感</div>
-<div class="word-item">sincere 真诚的</div>
-<div class="word-item">respect 尊重</div>
-<div class="word-item">protect 保护</div>
-<div class="word-item">secure 安全的</div>
-<div class="word-item">pursue 追求</div>
-<div class="word-item">gentle 温柔的</div>
-<div class="word-item">approach 接近</div>
-<div class="word-item">attract 吸引</div>
-<div class="word-item">communicate 交流</div>
-<div class="word-item">connection 联系</div>
-<div class="word-item">delight 高兴</div>
-<div class="word-item">deepen 加深</div>
-<div class="word-item">understand 理解</div>
-<div class="word-item">appreciate 感激</div>
-<div class="word-item">support 支持</div>
-<div class="word-item">admit 承认</div>
-<div class="word-item">promise 承诺</div>
-<div class="word-item">maintain 维持</div>
-<div class="word-item">determination 决心</div>
-<div class="word-item">attitude 态度</div>
-<div class="word-item">compromise 妥协</div>
-<div class="word-item">adjust 调整</div>
-<div class="word-item">impress 打动</div>
-<div class="word-item">opportunity 机会</div>
-<div class="word-item">trust 信任</div>
-<div class="word-item">experience 经历</div>
-<div class="word-item">bond 纽带</div>
-<div class="word-item">share 分享</div>
-<div class="word-item">satisfy 满足</div>
-<div class="word-item">challenge 挑战</div>
-<div class="word-item">difficulty 困难</div>
-<div class="word-item">steady 稳定的</div>
-<div class="word-item">develop 发展</div>
-<div class="word-item">future 未来</div>
-<div class="word-item">believe 相信</div>
-<div class="word-item">hope 希望</div>
-<div class="word-item">love 爱</div>
-<div class="word-item">special 特别的</div>
-<div class="word-item">offer 提供</div>
-<div class="word-item">contribute 贡献</div>
-<div class="word-item">improve 改善</div>
-<div class="word-item">desire 渴望</div>
-<div class="word-item">realize 意识到</div>
-<div class="word-item">effort 努力</div>
-<div class="word-item">build 建立</div>
-<div class="word-item">create 创造</div>
-<div class="word-item">proud 骄傲的</div>
-<div class="word-item">accept 接受</div>
-<div class="word-item">encourage 鼓励</div>
-<div class="word-item">grow 成长</div>
-<div class="word-item">face 面对</div>
-<div class="word-item">change 改变</div>
-<div class="word-item">seek 寻求</div>
-<div class="word-item">decide 决定</div>
-<div class="word-item">achieve 实现</div>
-<div class="word-item">enrich 丰富</div>
-<div class="word-item">balance 平衡</div>
-<div class="word-item">explore 探索</div>
-<div class="word-item">happiness 幸福</div>
-<div class="word-item">treasure 珍视</div>
-<div class="word-item">value 价值</div>
-<div class="word-item">inspire 激励</div>
-<div class="word-item">stable 稳定的</div>
-<div class="word-item">expect 期待</div>
-<div class="word-item">accompany 陪伴</div>
-<div class="word-item">flourish 繁荣</div>
-<div class="word-item">require 需求</div>
-<div class="word-item">fulfill 实现</div>
-<div class="word-item">chemistry 化学反应</div>
-<div class="word-item">transform 转变</div>
-<div class="word-item">faith 信念</div>
-<div class="word-item">warm 温暖</div>
-<div class="word-item">touch 触碰</div>
-<div class="word-item">melody 旋律</div>
-<div class="word-item">harmony 和谐</div>
-<div class="word-item">poetry 诗意</div>
-<div class="word-item">dedicate 奉献</div>
-<div class="word-item">prove 证明</div>
-<div class="word-item">eternity 永恒</div>
-<div class="word-item">miracle 奇迹</div>
-<div class="word-item">embrace 拥抱</div>
-<div class="word-item">destiny 命运</div>
-<div class="word-item">bless 祝福</div>
-<div class="word-item">beloved 挚爱的</div>
-<div class="word-item">romantic 浪漫的</div>
-<div class="word-item">memory 记忆</div>
-<div class="word-item">conclude 得出结论</div>
-<div class="word-item">combine 结合</div>
-<div class="word-item">journey 旅程</div>
-<div class="word-item">witness 见证</div>
-<div class="word-item">obvious 明显的</div>
-<div class="word-item">brave 勇敢的</div>
-<div class="word-item">bright 明亮的</div>
-<div class="word-item">entire 全部的</div>
-<div class="word-item">vivid 生动的</div>
-<div class="word-item">shine 照耀</div>
-<div class="word-item">symbol 象征</div>
-<div class="word-item">respond 回应</div>
-<div class="word-item">intimate 亲密的</div>
-<div class="word-item">ordinary 普通的</div>
-<div class="word-item">extraordinary 非凡的</div>
-</div>
-</div>
-
-<footer>
-<p>词汇学习版 | 共150个考研高频词汇</p>
-</footer>
-</div>
+<p>春日的阳光<span class="w">shine(照耀)📢</span>在他们身上，<span class="w">symbol(象征)📢</span>着他们美好的爱情。林晨和苏婉紧紧牵着手，<span class="w">respond(回应)📢</span>着彼此的心跳。他们之间的<span class="w">intimate(亲密的)📢</span>关系，让<span class="w">ordinary(普通的)📢</span>的日子变得<span class="w">extraordinary(非凡的)📢</span>。这份甜蜜的爱情，让整个季节都变得更加美好。</p></div>
+    </section>
+    <footer>甜蜜告白：心动季节 · 学习版　|　看故事记单词</footer>
+  </div>
 </body>
 </html>
