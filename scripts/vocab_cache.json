@@ -1,0 +1,4570 @@
+{
+  "abandon": {
+    "phonetic": "/əˈbæn.dən/",
+    "pos": "verb"
+  },
+  "academic": {
+    "phonetic": "/ˌækəˈdɛmɪk/",
+    "pos": "noun, adjective"
+  },
+  "accept": {
+    "phonetic": "/ækˈsɛpt/",
+    "pos": "verb, adjective"
+  },
+  "accumulate": {
+    "phonetic": "/əˈkjuːmjʊˌleɪt/",
+    "pos": "verb, adjective"
+  },
+  "acquaintance": {
+    "phonetic": "/əˈkweɪntəns/",
+    "pos": "noun"
+  },
+  "acquire": {
+    "phonetic": "/əˈkwaɪə/",
+    "pos": "verb"
+  },
+  "adapt": {
+    "phonetic": "/əˈdæpt/",
+    "pos": "verb, adjective"
+  },
+  "aggressive": {
+    "phonetic": "/əˈɡɹɛs.ɪv/",
+    "pos": "adjective"
+  },
+  "alternate": {
+    "phonetic": "",
+    "pos": "noun, verb, adjective"
+  },
+  "alternative": {
+    "phonetic": "/ɒl.ˈtɜː(ɹ).nə.tɪv/",
+    "pos": "noun, adjective"
+  },
+  "ambition": {
+    "phonetic": "/æmˈbɪ.ʃən/",
+    "pos": "noun, verb"
+  },
+  "analysis": {
+    "phonetic": "/əˈnælɪsɪs/",
+    "pos": "noun"
+  },
+  "analyze": {
+    "phonetic": "/ˈæn.ə.laɪz/",
+    "pos": "verb"
+  },
+  "anxiety": {
+    "phonetic": "/ˌæŋ(ɡ)ˈzaɪ.ə.ti/",
+    "pos": "noun"
+  },
+  "appear": {
+    "phonetic": "/əˈpiːɹ/",
+    "pos": "verb"
+  },
+  "appointment": {
+    "phonetic": "/əˈpɔɪnt.mɛnt/",
+    "pos": "noun"
+  },
+  "appreciate": {
+    "phonetic": "/əˈpɹiː.si.eɪt/",
+    "pos": "verb"
+  },
+  "arrange": {
+    "phonetic": "/əˈɹeɪndʒ/",
+    "pos": "verb"
+  },
+  "articulate": {
+    "phonetic": "/ɑː(ɹ)ˈtɪk.jʊ.lət/",
+    "pos": "noun, adjective"
+  },
+  "assault": {
+    "phonetic": "/əˈsɔːlt/",
+    "pos": "noun, verb"
+  },
+  "asset": {
+    "phonetic": "",
+    "pos": "noun"
+  },
+  "assist": {
+    "phonetic": "/əˈsɪst/",
+    "pos": "noun, verb"
+  },
+  "assume": {
+    "phonetic": "/əˈsuːm/",
+    "pos": "verb"
+  },
+  "atmosphere": {
+    "phonetic": "/ˈæt.məsˌfɪə(ɹ)/",
+    "pos": "noun"
+  },
+  "attack": {
+    "phonetic": "/əˈtæk/",
+    "pos": "noun, verb"
+  },
+  "attend": {
+    "phonetic": "/əˈtɛnd/",
+    "pos": "verb"
+  },
+  "attention": {
+    "phonetic": "/əˈtɛn.ʃən/",
+    "pos": "noun, interjection"
+  },
+  "background": {
+    "phonetic": "/ˈbæk.ɡɹaʊnd/",
+    "pos": "noun, verb, adjective"
+  },
+  "dedicate": {
+    "phonetic": "/ˈdɛdɪkeɪt/",
+    "pos": "verb, adjective"
+  },
+  "dense": {
+    "phonetic": "/dɛns/",
+    "pos": "noun, adjective"
+  },
+  "design": {
+    "phonetic": "/dɪˈzaɪn/",
+    "pos": "noun, verb"
+  },
+  "destiny": {
+    "phonetic": "/ˈdɛstɪni/",
+    "pos": "noun"
+  },
+  "detail": {
+    "phonetic": "/ˈdiːteɪl/",
+    "pos": "noun, verb"
+  },
+  "determine": {
+    "phonetic": "",
+    "pos": "verb"
+  },
+  "determined": {
+    "phonetic": "",
+    "pos": "verb, adjective"
+  },
+  "diligent": {
+    "phonetic": "/ˈdɪlɪdʒənt/",
+    "pos": "adjective"
+  },
+  "draft": {
+    "phonetic": "/dɹæft/",
+    "pos": "noun, verb, adjective"
+  },
+  "duty": {
+    "phonetic": "/ˈdjuːti/",
+    "pos": "noun"
+  },
+  "elaborate": {
+    "phonetic": "/ɪˈlæbəɹeɪt/",
+    "pos": "verb, adjective"
+  },
+  "eldest": {
+    "phonetic": "/ˈɛldɪst/",
+    "pos": "noun, adjective"
+  },
+  "elegant": {
+    "phonetic": "/ˈɛl.ə.ɡənt/",
+    "pos": "adjective"
+  },
+  "embody": {
+    "phonetic": "/ɪmˈbɒdi/",
+    "pos": "verb"
+  },
+  "emerge": {
+    "phonetic": "/iˈmɜːd͡ʒ/",
+    "pos": "verb"
+  },
+  "emphasize": {
+    "phonetic": "/ˈɛm.fə.saɪz/",
+    "pos": "verb"
+  },
+  "enormous": {
+    "phonetic": "/ɪˈnɔː(ɹ)məs/",
+    "pos": "adjective"
+  },
+  "equal": {
+    "phonetic": "/ˈiːkwəl/",
+    "pos": "noun, verb, adjective"
+  },
+  "evaluate": {
+    "phonetic": "/ɨˈvaljʊeɪt/",
+    "pos": "verb"
+  },
+  "expand": {
+    "phonetic": "/ɛkˈspænd/",
+    "pos": "verb"
+  },
+  "expectation": {
+    "phonetic": "/ɛkspɛkˈteɪʃən/",
+    "pos": "noun"
+  },
+  "navigate": {
+    "phonetic": "/ˈnæv.ɪ.ɡeɪt/",
+    "pos": "verb"
+  },
+  "numerous": {
+    "phonetic": "/ˈnjuːməɹəs/",
+    "pos": "adjective"
+  },
+  "obey": {
+    "phonetic": "/əʊˈbeɪ/",
+    "pos": "verb"
+  },
+  "obligation": {
+    "phonetic": "/ɑb.ləˈɡeɪ.ʃən/",
+    "pos": "noun"
+  },
+  "obstacle": {
+    "phonetic": "/ˈɒbstəkl̩/",
+    "pos": "noun"
+  },
+  "obtain": {
+    "phonetic": "/əbˈteɪn/",
+    "pos": "verb"
+  },
+  "occasion": {
+    "phonetic": "/əˈkeɪʒən/",
+    "pos": "noun, verb"
+  },
+  "organize": {
+    "phonetic": "/ˈɔːɡənaɪz/",
+    "pos": "verb"
+  },
+  "outline": {
+    "phonetic": "/ˈaʊtlaɪn/",
+    "pos": "noun, verb"
+  },
+  "overcome": {
+    "phonetic": "/ˌəʊvəˈkʌm/",
+    "pos": "noun, verb"
+  },
+  "panorama": {
+    "phonetic": "/ˌpæ.nəˈɹæ.mə/",
+    "pos": "noun"
+  },
+  "partner": {
+    "phonetic": "/ˈpɐːtnə/",
+    "pos": "noun, verb"
+  },
+  "partnership": {
+    "phonetic": "",
+    "pos": "noun"
+  },
+  "passion": {
+    "phonetic": "[ˈpʰæʃən]",
+    "pos": "noun, verb"
+  },
+  "payment": {
+    "phonetic": "/ˈpeɪmənt/",
+    "pos": "noun"
+  },
+  "penalty": {
+    "phonetic": "/ˈpɛnəlti/",
+    "pos": "noun"
+  },
+  "performance": {
+    "phonetic": "[pə.ˈfɔː.məns]",
+    "pos": "noun"
+  },
+  "perspective": {
+    "phonetic": "/pɚˈspɛktɪv/",
+    "pos": "noun, adjective"
+  },
+  "possess": {
+    "phonetic": "/pəˈzɛs/",
+    "pos": "verb"
+  },
+  "potential": {
+    "phonetic": "/pəˈtɛnʃəl/",
+    "pos": "noun, adjective"
+  },
+  "practical": {
+    "phonetic": "/ˈpɹæktɪkəl/",
+    "pos": "noun, adjective"
+  },
+  "praise": {
+    "phonetic": "/pɹeɪz/",
+    "pos": "noun, verb"
+  },
+  "precarious": {
+    "phonetic": "/pɹəˈkɛəɹi.əs/",
+    "pos": "adjective"
+  },
+  "precise": {
+    "phonetic": "/pɹɪˈsaɪs/",
+    "pos": "verb, adjective"
+  },
+  "prepare": {
+    "phonetic": "/pɹɪˈpɛə/",
+    "pos": "noun, verb"
+  },
+  "presence": {
+    "phonetic": "/ˈpɹɛzəns/",
+    "pos": "noun, verb"
+  },
+  "present": {
+    "phonetic": "/pɹəˈzɛnt/",
+    "pos": "noun, adjective"
+  },
+  "presentation": {
+    "phonetic": "/ˌpɹizənˈteɪʃən/",
+    "pos": "noun"
+  },
+  "pressure": {
+    "phonetic": "[ˈpɹɛʃ.ə(ɹ)]",
+    "pos": "noun, verb"
+  },
+  "private": {
+    "phonetic": "/ˈpɹaɪvət/",
+    "pos": "noun, adjective"
+  },
+  "solution": {
+    "phonetic": "/səˈl(j)uːʃən/",
+    "pos": "noun, verb"
+  },
+  "spectacular": {
+    "phonetic": "/spɛkˈtæk.jʊ.lə/",
+    "pos": "noun, adjective"
+  },
+  "steep": {
+    "phonetic": "/stiːp/",
+    "pos": "noun, adjective"
+  },
+  "strategy": {
+    "phonetic": "/ˈstɹætədʒi/",
+    "pos": "noun"
+  },
+  "stroke": {
+    "phonetic": "",
+    "pos": "noun"
+  },
+  "style": {
+    "phonetic": "/staɪl/",
+    "pos": "noun, verb"
+  },
+  "support": {
+    "phonetic": "/səˈpɔːt/",
+    "pos": "noun, verb"
+  },
+  "surprise": {
+    "phonetic": "/səˈpɹaɪz/",
+    "pos": "noun, verb"
+  },
+  "suspect": {
+    "phonetic": "/ˈsʌs.pɛkt/",
+    "pos": "noun, verb, adjective"
+  },
+  "suspend": {
+    "phonetic": "/səˈspɛnd/",
+    "pos": "verb"
+  },
+  "suspicion": {
+    "phonetic": "/sə.ˈspɪ.ʃən/",
+    "pos": "noun, verb"
+  },
+  "talent": {
+    "phonetic": "/ˈtalənt/",
+    "pos": "noun"
+  },
+  "taste": {
+    "phonetic": "/teɪst/",
+    "pos": "noun, verb"
+  },
+  "teamwork": {
+    "phonetic": "",
+    "pos": "noun"
+  },
+  "thorough": {
+    "phonetic": "/ˈθʌɹə/",
+    "pos": "noun, adjective, preposition"
+  },
+  "transaction": {
+    "phonetic": "/tɹænˈzækʃən/",
+    "pos": "noun"
+  },
+  "treatment": {
+    "phonetic": "/ˈtɹiːtmənt/",
+    "pos": "noun"
+  },
+  "trend": {
+    "phonetic": "/tɹɛnd/",
+    "pos": "noun, verb"
+  },
+  "turbulence": {
+    "phonetic": "",
+    "pos": "noun"
+  },
+  "urgent": {
+    "phonetic": "/ˈɜːdʒənt/",
+    "pos": "adjective"
+  },
+  "value": {
+    "phonetic": "/ˈvæljuː/",
+    "pos": "noun, verb"
+  },
+  "veteran": {
+    "phonetic": "[ˈvɛ.t̬ə.ɹən]",
+    "pos": "noun, adjective"
+  },
+  "visit": {
+    "phonetic": "/ˈvɪzɪt/",
+    "pos": "noun, verb"
+  },
+  "vulnerable": {
+    "phonetic": "/ˈvʌln(ə)ɹəbl̩/",
+    "pos": "adjective"
+  },
+  "work": {
+    "phonetic": "/wɜːk/",
+    "pos": "noun"
+  },
+  "accurate": {
+    "phonetic": "/ˈæk.jə.ɹɪt/",
+    "pos": "adjective"
+  },
+  "acknowledge": {
+    "phonetic": "/əkˈnɒ.lɪdʒ/",
+    "pos": "verb"
+  },
+  "adjust": {
+    "phonetic": "/əˈdʒʌst/",
+    "pos": "verb"
+  },
+  "allocate": {
+    "phonetic": "/ˈæl.ə.keɪt/",
+    "pos": "verb"
+  },
+  "annual": {
+    "phonetic": "/ˈæn.ju.əl/",
+    "pos": "noun, adjective"
+  },
+  "growth": {
+    "phonetic": "/ɡɹəʊθ/",
+    "pos": "noun"
+  },
+  "implement": {
+    "phonetic": "/ˈɪmpləmənt/",
+    "pos": "noun"
+  },
+  "impress": {
+    "phonetic": "/ˈɪmpɹɛs/",
+    "pos": "noun, verb"
+  },
+  "increase": {
+    "phonetic": "",
+    "pos": "noun, verb"
+  },
+  "interview": {
+    "phonetic": "/ˈɪntəvjuː/",
+    "pos": "noun, verb"
+  },
+  "investigate": {
+    "phonetic": "[ɪn.ˈves.tɪ.ɡeɪ̯t]",
+    "pos": "verb"
+  },
+  "issue": {
+    "phonetic": "/ˈɪsjuː/",
+    "pos": "noun, verb"
+  },
+  "jealousy": {
+    "phonetic": "/ˈdʒɛləsi/",
+    "pos": "noun"
+  },
+  "journey": {
+    "phonetic": "/ˈd͡ʒɜːni/",
+    "pos": "noun, verb"
+  },
+  "know": {
+    "phonetic": "/nəʊ/",
+    "pos": "noun, verb"
+  },
+  "lead": {
+    "phonetic": "/lɛd/",
+    "pos": "noun, verb"
+  },
+  "leather": {
+    "phonetic": "/ˈlɛðə/",
+    "pos": "noun, verb, adjective"
+  },
+  "leave": {
+    "phonetic": "",
+    "pos": "verb"
+  },
+  "manifest": {
+    "phonetic": "",
+    "pos": "noun, verb, adjective"
+  },
+  "mature": {
+    "phonetic": "/məˈtjʊə/",
+    "pos": "adjective"
+  },
+  "monitor": {
+    "phonetic": "/ˈmɒnɨtə/",
+    "pos": "noun, verb"
+  },
+  "nod": {
+    "phonetic": "/nɔd/",
+    "pos": "noun, verb"
+  },
+  "opinion": {
+    "phonetic": "/əˈpɪnjən/",
+    "pos": "noun, verb"
+  },
+  "opportunity": {
+    "phonetic": "/ˌɒp.əˈtjuː.nɪ.tɪ/",
+    "pos": "noun"
+  },
+  "penetrate": {
+    "phonetic": "/ˈpɛnɪtɹeɪt/",
+    "pos": "verb"
+  },
+  "perceive": {
+    "phonetic": "/pəˈsiːv/",
+    "pos": "verb"
+  },
+  "persist": {
+    "phonetic": "/pəˈsɪst/",
+    "pos": "verb"
+  },
+  "plan": {
+    "phonetic": "/plæn/",
+    "pos": "noun, verb"
+  },
+  "predict": {
+    "phonetic": "/pɹɪˈdɪkt/",
+    "pos": "noun, verb"
+  },
+  "process": {
+    "phonetic": "/ˈpɹoʊsɛs/",
+    "pos": "noun, verb"
+  },
+  "crown": {
+    "phonetic": "",
+    "pos": "noun, verb, adjective"
+  },
+  "decision": {
+    "phonetic": "/dɪˈsɪʒən/",
+    "pos": "noun, verb"
+  },
+  "delegate": {
+    "phonetic": "",
+    "pos": "noun, verb"
+  },
+  "desperate": {
+    "phonetic": "/ˈdɛsp(ə)ɹət/",
+    "pos": "noun, adjective"
+  },
+  "difficulty": {
+    "phonetic": "/ˈdɪfɪkəlti/",
+    "pos": "noun"
+  },
+  "dilemma": {
+    "phonetic": "/daɪˈlɛmə/",
+    "pos": "noun"
+  },
+  "distinct": {
+    "phonetic": "/dɪsˈtɪŋkt/",
+    "pos": "adjective"
+  },
+  "dream": {
+    "phonetic": "/dɹiːm/",
+    "pos": "noun, verb, adjective"
+  },
+  "drive": {
+    "phonetic": "/dɹaɪv/",
+    "pos": "noun, verb"
+  },
+  "electronic": {
+    "phonetic": "/ɪˌlɛkˈtɹɒn.ɪk/",
+    "pos": "adjective"
+  },
+  "emotion": {
+    "phonetic": "/iˈmoʊʃən/",
+    "pos": "noun"
+  },
+  "empty": {
+    "phonetic": "/ˈɛmpti/",
+    "pos": "noun, verb, adjective"
+  },
+  "end": {
+    "phonetic": "/ɛnd/",
+    "pos": "noun, verb"
+  },
+  "energy": {
+    "phonetic": "/ˈɛnəd͡ʒi/",
+    "pos": "noun"
+  },
+  "enhance": {
+    "phonetic": "/ɪnˈhɑːns/",
+    "pos": "verb"
+  },
+  "enterprise": {
+    "phonetic": "/ˈɛntɚˌpɹaɪz/",
+    "pos": "noun, verb"
+  },
+  "entrepreneur": {
+    "phonetic": "/ˌɒn.tɹə.pɹəˈnɜː/",
+    "pos": "noun"
+  },
+  "era": {
+    "phonetic": "/ˈɪə̯ɹ.ə/",
+    "pos": "noun"
+  },
+  "expect": {
+    "phonetic": "/ɛkˈspɛkt/",
+    "pos": "verb"
+  },
+  "experience": {
+    "phonetic": "/ɪkˈspɪə.ɹɪəns/",
+    "pos": "noun, verb"
+  },
+  "fade": {
+    "phonetic": "/feɪd/",
+    "pos": "noun, verb, adjective"
+  },
+  "fail": {
+    "phonetic": "/feɪl/",
+    "pos": "noun, verb, adjective"
+  },
+  "familiar": {
+    "phonetic": "/fəˈmɪl.i.ə/",
+    "pos": "noun, adjective"
+  },
+  "fluctuate": {
+    "phonetic": "",
+    "pos": "verb"
+  },
+  "foresight": {
+    "phonetic": "",
+    "pos": "noun"
+  },
+  "forum": {
+    "phonetic": "/ˈfɔːɹəm/",
+    "pos": "noun"
+  },
+  "solve": {
+    "phonetic": "/sɒlv/",
+    "pos": "noun, verb"
+  },
+  "sorrow": {
+    "phonetic": "/ˈsɔɹoʊ/",
+    "pos": "noun, verb"
+  },
+  "stagnate": {
+    "phonetic": "/ˈstæɡneɪt/",
+    "pos": "verb"
+  },
+  "state": {
+    "phonetic": "/steɪt/",
+    "pos": "noun, verb, adjective"
+  },
+  "steal": {
+    "phonetic": "/stiːl/",
+    "pos": "noun, verb"
+  },
+  "stress": {
+    "phonetic": "/stɹɛs/",
+    "pos": "noun, verb"
+  },
+  "strong": {
+    "phonetic": "/stɹɑŋ/",
+    "pos": "adjective, adverb"
+  },
+  "struggle": {
+    "phonetic": "/ˈstrʌɡəl/",
+    "pos": "noun, verb"
+  },
+  "succeed": {
+    "phonetic": "/səkˈsiːd/",
+    "pos": "verb"
+  },
+  "success": {
+    "phonetic": "/səkˈsɛs/",
+    "pos": "noun"
+  },
+  "suffer": {
+    "phonetic": "/ˈsʌfə/",
+    "pos": "verb"
+  },
+  "team": {
+    "phonetic": "/tiːm/",
+    "pos": "noun, verb"
+  },
+  "threaten": {
+    "phonetic": "/ˈθɹɛt.n̩/",
+    "pos": "verb"
+  },
+  "tragic": {
+    "phonetic": "/ˈtɹædʒɪk/",
+    "pos": "noun, adjective"
+  },
+  "transform": {
+    "phonetic": "/tɹænzˈfɔːm/",
+    "pos": "noun, verb"
+  },
+  "vision": {
+    "phonetic": "/ˈvɪ.ʒ(ə)n/",
+    "pos": "noun, verb"
+  },
+  "vivid": {
+    "phonetic": "/ˈvɪvɪd/",
+    "pos": "noun, adjective"
+  },
+  "wealth": {
+    "phonetic": "/wɛlθ/",
+    "pos": "noun"
+  },
+  "wisdom": {
+    "phonetic": "/ˈwɪzdəm/",
+    "pos": "noun"
+  },
+  "achieve": {
+    "phonetic": "/əˈtʃiːv/",
+    "pos": "verb"
+  },
+  "advance": {
+    "phonetic": "/ədˈvaːns/",
+    "pos": "noun, verb, adjective"
+  },
+  "ambitious": {
+    "phonetic": "/æmˈbɪʃ.əs/",
+    "pos": "adjective"
+  },
+  "anticipate": {
+    "phonetic": "/ænˈtɪs.ɪ.peɪt/",
+    "pos": "verb"
+  },
+  "anxious": {
+    "phonetic": "/ˈaŋ(k)ʃəs/",
+    "pos": "adjective"
+  },
+  "barrier": {
+    "phonetic": "/ˈbæɹi.ə(ɹ)/",
+    "pos": "noun, verb"
+  },
+  "blueprint": {
+    "phonetic": "/ˈbluːˌpɹɪnt/",
+    "pos": "noun, verb"
+  },
+  "brainstorm": {
+    "phonetic": "/ˈbɹeɪnstɔː(ɹ)m/",
+    "pos": "noun, verb"
+  },
+  "brilliant": {
+    "phonetic": "/ˈbɹɪljənt/",
+    "pos": "noun, adjective"
+  },
+  "carefully": {
+    "phonetic": "/ˈkɛːfli/",
+    "pos": "adverb"
+  },
+  "collaboration": {
+    "phonetic": "/kəˌlæbəˈɹeɪʃən/",
+    "pos": "noun"
+  },
+  "compare": {
+    "phonetic": "/kəmˈpɛə/",
+    "pos": "noun, verb"
+  },
+  "secure": {
+    "phonetic": "/səˈkjɔː(ɹ)/",
+    "pos": "verb, adjective"
+  },
+  "soothe": {
+    "phonetic": "/suːð/",
+    "pos": "verb"
+  },
+  "stable": {
+    "phonetic": "/ˈsteɪ.bəɫ/",
+    "pos": "noun, verb"
+  },
+  "stimulate": {
+    "phonetic": "/ˈstɪmjʊleɪt/",
+    "pos": "verb"
+  },
+  "strategic": {
+    "phonetic": "/stɹəˈtiː.dʒɪk/",
+    "pos": "adjective"
+  },
+  "sufficient": {
+    "phonetic": "/səˈfɪʃənt/",
+    "pos": "adjective"
+  },
+  "survive": {
+    "phonetic": "/səˈvʌɪv/",
+    "pos": "verb"
+  },
+  "sustain": {
+    "phonetic": "/səˈsteɪn/",
+    "pos": "noun, verb"
+  },
+  "synergy": {
+    "phonetic": "/ˈsɪnədʒi/",
+    "pos": "noun"
+  },
+  "technology": {
+    "phonetic": "/tɛkˈnɒlədʒi/",
+    "pos": "noun"
+  },
+  "transformation": {
+    "phonetic": "/ˌtɹæns.fə(ɹ)ˈmeɪ.ʃən/",
+    "pos": "noun"
+  },
+  "transparent": {
+    "phonetic": "/tɹæn(t)sˈpæɹənt/",
+    "pos": "adjective"
+  },
+  "treasure": {
+    "phonetic": "/ˈtɹɛʒə/",
+    "pos": "noun, verb"
+  },
+  "trial": {
+    "phonetic": "/ˈtɹaɪəl/",
+    "pos": "noun, verb, adjective"
+  },
+  "unique": {
+    "phonetic": "/juːˈniːk/",
+    "pos": "noun, adjective"
+  },
+  "variety": {
+    "phonetic": "/vəˈɹaɪ.ɪ.ti/",
+    "pos": "noun"
+  },
+  "verify": {
+    "phonetic": "",
+    "pos": "verb"
+  },
+  "applicant": {
+    "phonetic": "/ˈæp.lə.kɪnt/",
+    "pos": "noun"
+  },
+  "application": {
+    "phonetic": "/aplɪˈkeɪʃ(ə)n/",
+    "pos": "noun"
+  },
+  "assignment": {
+    "phonetic": "",
+    "pos": "noun"
+  },
+  "attentive": {
+    "phonetic": "/əˈtɛntɪv/",
+    "pos": "adjective"
+  },
+  "attitude": {
+    "phonetic": "/ˈætɪˌtjuːd/",
+    "pos": "noun, verb"
+  },
+  "campus": {
+    "phonetic": "/ˈkæmpəs/",
+    "pos": "noun, verb"
+  },
+  "career": {
+    "phonetic": "/kəˈɹɪə/",
+    "pos": "noun, verb"
+  },
+  "colleague": {
+    "phonetic": "/ˈkɒliːɡ/",
+    "pos": "noun, verb"
+  },
+  "commercial": {
+    "phonetic": "/kəˈmɜːʃəl/",
+    "pos": "noun, adjective"
+  },
+  "commitment": {
+    "phonetic": "",
+    "pos": "noun"
+  },
+  "communicate": {
+    "phonetic": "/kəˈmjuːnɪkeɪt/",
+    "pos": "verb"
+  },
+  "competent": {
+    "phonetic": "/ˈkɒmpətənt/",
+    "pos": "adjective"
+  },
+  "contrast": {
+    "phonetic": "/ˈkɒntɹɑːst/",
+    "pos": "noun, verb"
+  },
+  "culture": {
+    "phonetic": "/ˈkʌlt͡ʃə/",
+    "pos": "noun, verb"
+  },
+  "deadline": {
+    "phonetic": "/ˈdɛdˌlaɪn/",
+    "pos": "noun, verb"
+  },
+  "deliver": {
+    "phonetic": "/dɪˈlɪvə(ɹ)/",
+    "pos": "verb"
+  },
+  "diploma": {
+    "phonetic": "/dɪˈpləʊmə/",
+    "pos": "noun"
+  },
+  "diverse": {
+    "phonetic": "/daɪˈvɜːs/",
+    "pos": "adjective, adverb"
+  },
+  "document": {
+    "phonetic": "/ˈdɒkjʊmənt/",
+    "pos": "noun, verb"
+  },
+  "environment": {
+    "phonetic": "/-mɪnt/",
+    "pos": "noun"
+  },
+  "guidance": {
+    "phonetic": "/ˈɡaɪdəns/",
+    "pos": "noun"
+  },
+  "guide": {
+    "phonetic": "/ɡaɪd/",
+    "pos": "noun"
+  },
+  "horizon": {
+    "phonetic": "/həˈɹaɪzən/",
+    "pos": "noun"
+  },
+  "improvement": {
+    "phonetic": "/ɪmˈpɹuːvmənt/",
+    "pos": "noun"
+  },
+  "information": {
+    "phonetic": "/ˌɪnfəˈmeɪʃən/",
+    "pos": "noun"
+  },
+  "initiative": {
+    "phonetic": "/ɪˈnɪʃətɪv/",
+    "pos": "noun, adjective"
+  },
+  "integrate": {
+    "phonetic": "/ˈɪntəɡɹeɪt/",
+    "pos": "verb"
+  },
+  "defense": {
+    "phonetic": "/dɪˈfɛns/",
+    "pos": "noun"
+  },
+  "deny": {
+    "phonetic": "/dɪˈnaɪ/",
+    "pos": "verb"
+  },
+  "distort": {
+    "phonetic": "/dɪsˈtɔːt/",
+    "pos": "verb, adjective"
+  },
+  "embarrass": {
+    "phonetic": "/ɪmˈbæ.ɹəs/",
+    "pos": "verb"
+  },
+  "encourage": {
+    "phonetic": "/ɪnˈkʌɹɪdʒ/",
+    "pos": "verb"
+  },
+  "evidence": {
+    "phonetic": "[ˈɛvəɾəns]",
+    "pos": "noun, verb"
+  },
+  "exclude": {
+    "phonetic": "/ɪksˈkluːd/",
+    "pos": "verb"
+  },
+  "fair": {
+    "phonetic": "/feː(ə)/",
+    "pos": "noun, verb, adjective, adverb"
+  },
+  "false": {
+    "phonetic": "/fɒls/",
+    "pos": "noun, adjective, adverb"
+  },
+  "frustrate": {
+    "phonetic": "/fɹəˈstɹeɪt/",
+    "pos": "verb, adjective"
+  },
+  "gather": {
+    "phonetic": "/ˈɡæðə/",
+    "pos": "noun, verb"
+  },
+  "gradually": {
+    "phonetic": "/ˈɡɹædʒuəli/",
+    "pos": "adverb"
+  },
+  "handle": {
+    "phonetic": "",
+    "pos": "noun"
+  },
+  "harassment": {
+    "phonetic": "/həˈɹæsmənt/",
+    "pos": "noun"
+  },
+  "hardship": {
+    "phonetic": "/ˈhɑːdˌʃɪp/",
+    "pos": "noun, verb"
+  },
+  "harm": {
+    "phonetic": "/hɑːm/",
+    "pos": "noun, verb"
+  },
+  "harsh": {
+    "phonetic": "",
+    "pos": "verb, adjective"
+  },
+  "helpless": {
+    "phonetic": "/ˈhɛlplɪs/",
+    "pos": "adjective"
+  },
+  "hr": {
+    "phonetic": "",
+    "pos": "noun"
+  },
+  "humble": {
+    "phonetic": "",
+    "pos": "noun, verb, adjective"
+  },
+  "humiliation": {
+    "phonetic": "/hjuːˌmɪliˈeɪʃən/",
+    "pos": "noun"
+  },
+  "hurt": {
+    "phonetic": "/hɜːt/",
+    "pos": "noun, verb, adjective"
+  },
+  "impact": {
+    "phonetic": "",
+    "pos": "noun, verb"
+  },
+  "incapable": {
+    "phonetic": "/ɪnˈkeɪpəbl̩/",
+    "pos": "noun, adjective"
+  },
+  "regulate": {
+    "phonetic": "/ˈɹɛɡjəleɪt/",
+    "pos": "verb"
+  },
+  "release": {
+    "phonetic": "/ɹɪˈliːs/",
+    "pos": "noun, verb"
+  },
+  "relieve": {
+    "phonetic": "/ɹɪˈliːv/",
+    "pos": "verb"
+  },
+  "remark": {
+    "phonetic": "/ɹɪˈmɑːk/",
+    "pos": "noun, verb"
+  },
+  "result": {
+    "phonetic": "/ɹɪˈzʌlt/",
+    "pos": "noun, verb, interjection"
+  },
+  "sacrifice": {
+    "phonetic": "/ˈsækɹɪfaɪs/",
+    "pos": "noun, verb"
+  },
+  "sarcasm": {
+    "phonetic": "/ˈsɑːˌkæzəm/",
+    "pos": "noun"
+  },
+  "seek": {
+    "phonetic": "/siːk/",
+    "pos": "noun, verb"
+  },
+  "serious": {
+    "phonetic": "/ˈsɪə.ɹi.əs/",
+    "pos": "adjective, adverb"
+  },
+  "shameless": {
+    "phonetic": "",
+    "pos": "adjective"
+  },
+  "sincere": {
+    "phonetic": "/sɪnˈsɪə(ɹ)/",
+    "pos": "adjective"
+  },
+  "slander": {
+    "phonetic": "/ˈslændɚ/",
+    "pos": "noun, verb"
+  },
+  "spread": {
+    "phonetic": "/spɹɛd/",
+    "pos": "noun, verb"
+  },
+  "standard": {
+    "phonetic": "/ˈstændəd/",
+    "pos": "noun, adjective, interjection"
+  },
+  "step": {
+    "phonetic": "/stɛp/",
+    "pos": "noun, verb"
+  },
+  "strengthen": {
+    "phonetic": "/ˈstɹɛŋ(k)θən/",
+    "pos": "verb"
+  },
+  "sudden": {
+    "phonetic": "/ˈsʌdən/",
+    "pos": "noun, adjective, adverb"
+  },
+  "suggestion": {
+    "phonetic": "/səˈd͡ʒɛstjən/",
+    "pos": "noun"
+  },
+  "sympathize": {
+    "phonetic": "",
+    "pos": "verb"
+  },
+  "symptom": {
+    "phonetic": "/ˈsɪm(p)təm/",
+    "pos": "noun"
+  },
+  "tactic": {
+    "phonetic": "/ˈtæktɪk/",
+    "pos": "noun, adjective"
+  },
+  "target": {
+    "phonetic": "",
+    "pos": "noun, verb"
+  },
+  "temporary": {
+    "phonetic": "/ˈtɛmpəɹi/",
+    "pos": "noun, adjective"
+  },
+  "therapy": {
+    "phonetic": "/ˈθɛɹ.ə.pi/",
+    "pos": "noun, verb"
+  },
+  "tone": {
+    "phonetic": "/təʊn/",
+    "pos": "noun, verb"
+  },
+  "uncertain": {
+    "phonetic": "/ʌnˈsɜːtən/",
+    "pos": "noun, adjective"
+  },
+  "unfair": {
+    "phonetic": "/ʌnˈfɛə(ɹ)/",
+    "pos": "verb, adjective"
+  },
+  "unqualified": {
+    "phonetic": "",
+    "pos": "adjective"
+  },
+  "unwelcome": {
+    "phonetic": "",
+    "pos": "verb, adjective"
+  },
+  "verbal": {
+    "phonetic": "",
+    "pos": "noun, verb, adjective"
+  },
+  "item": {
+    "phonetic": "[ˈaɪ̯ɾm̩]",
+    "pos": "noun, verb, adverb"
+  },
+  "junction": {
+    "phonetic": "/ˈdʒʌŋkʃən/",
+    "pos": "noun, verb"
+  },
+  "kindness": {
+    "phonetic": "/ˈkaɪndnəs/",
+    "pos": "noun"
+  },
+  "knowledge": {
+    "phonetic": "/ˈnɒlɪdʒ/",
+    "pos": "noun, verb"
+  },
+  "knowledgeable": {
+    "phonetic": "/ˈnɑl.ɪd͡ʒ.ə.bəl/",
+    "pos": "noun, adjective"
+  },
+  "laboratory": {
+    "phonetic": "/ləˈbɔɹətɹi/",
+    "pos": "noun"
+  },
+  "landscape": {
+    "phonetic": "/ˈlandskeɪp/",
+    "pos": "noun, verb"
+  },
+  "location": {
+    "phonetic": "/ləʊˈkeɪʃən/",
+    "pos": "noun"
+  },
+  "lonely": {
+    "phonetic": "/ˈləʊnli/",
+    "pos": "adjective"
+  },
+  "longing": {
+    "phonetic": "/ˈlɒŋɪŋ/",
+    "pos": "verb"
+  },
+  "massive": {
+    "phonetic": "/ˈmæs.ɪv/",
+    "pos": "noun, adjective"
+  },
+  "memorable": {
+    "phonetic": "/ˈmɛm(ə)ɹəbl̩/",
+    "pos": "adjective"
+  },
+  "memory": {
+    "phonetic": "/ˈmɛm(ə)ɹi/",
+    "pos": "noun"
+  },
+  "moment": {
+    "phonetic": "/ˈməʊmənt/",
+    "pos": "noun"
+  },
+  "motivation": {
+    "phonetic": "",
+    "pos": "noun"
+  },
+  "orientation": {
+    "phonetic": "/ˌɔɹiɛnˈteɪʃən/",
+    "pos": "noun"
+  },
+  "outstanding": {
+    "phonetic": "",
+    "pos": "verb, adjective"
+  },
+  "overwhelm": {
+    "phonetic": "/ˌovɚˈʍɛlm/",
+    "pos": "noun, verb"
+  },
+  "panic": {
+    "phonetic": "/ˈpænɪk/",
+    "pos": "noun, verb, adjective"
+  },
+  "personality": {
+    "phonetic": "/-i/",
+    "pos": "noun"
+  },
+  "plaza": {
+    "phonetic": "/ˈplæzə/",
+    "pos": "noun"
+  },
+  "poetic": {
+    "phonetic": "/poʊˈɛtɪk/",
+    "pos": "adjective"
+  },
+  "polite": {
+    "phonetic": "/pəˈlaɪt/",
+    "pos": "verb, adjective"
+  },
+  "concern": {
+    "phonetic": "/kənˈsɜːn/",
+    "pos": "noun, verb"
+  },
+  "connection": {
+    "phonetic": "/kəˈnɛkʃən/",
+    "pos": "noun"
+  },
+  "creativity": {
+    "phonetic": "/kɹieɪˈtɪvɪti/",
+    "pos": "noun"
+  },
+  "discuss": {
+    "phonetic": "/dɪsˈkʊs/",
+    "pos": "verb"
+  },
+  "enthusiasm": {
+    "phonetic": "/-θuː-/",
+    "pos": "noun"
+  },
+  "equipment": {
+    "phonetic": "/ɪˈkwɪpmənt/",
+    "pos": "noun"
+  },
+  "expose": {
+    "phonetic": "/ɪkˈspəʊz/",
+    "pos": "verb"
+  },
+  "feel": {
+    "phonetic": "/fiːl/",
+    "pos": "noun, verb"
+  },
+  "focus": {
+    "phonetic": "/ˈfəʊ.kəs/",
+    "pos": "noun, verb"
+  },
+  "fragrant": {
+    "phonetic": "/ˈfɹeɪ.ɡɹənt/",
+    "pos": "adjective"
+  },
+  "frequent": {
+    "phonetic": "/ˈfɹiː.kwənt/",
+    "pos": "adjective"
+  },
+  "happen": {
+    "phonetic": "/ˈhæpən/",
+    "pos": "verb, adverb"
+  },
+  "happiness": {
+    "phonetic": "/ˈhæpinəs/",
+    "pos": "noun"
+  },
+  "happy": {
+    "phonetic": "",
+    "pos": "noun, verb, adjective"
+  },
+  "hope": {
+    "phonetic": "/həʊp/",
+    "pos": "verb"
+  },
+  "innocent": {
+    "phonetic": "/ˈɪnəsn̩t/",
+    "pos": "noun, adjective"
+  },
+  "interest": {
+    "phonetic": "/ˈɪntəɹɪst/",
+    "pos": "noun, verb"
+  },
+  "level": {
+    "phonetic": "/ˈlɛv.əl/",
+    "pos": "noun, verb, adjective"
+  },
+  "member": {
+    "phonetic": "",
+    "pos": "noun"
+  },
+  "merit": {
+    "phonetic": "/ˈmɛɹət/",
+    "pos": "noun, verb"
+  },
+  "milestone": {
+    "phonetic": "",
+    "pos": "noun, verb"
+  },
+  "mood": {
+    "phonetic": "/muːd/",
+    "pos": "noun"
+  },
+  "organization": {
+    "phonetic": "/ˌɔɹɡənaɪˈzeɪʃən/",
+    "pos": "noun"
+  },
+  "organizer": {
+    "phonetic": "/ˈɔɹɡənaɪzɚ/",
+    "pos": "noun"
+  },
+  "pattern": {
+    "phonetic": "/ˈpat(ə)n/",
+    "pos": "noun, verb"
+  },
+  "perception": {
+    "phonetic": "/pəˈsɛpʃ(ə)n/",
+    "pos": "noun"
+  },
+  "practice": {
+    "phonetic": "/ˈpɹæktɪs/",
+    "pos": "noun, verb"
+  },
+  "precious": {
+    "phonetic": "/ˈpɹɛʃəs/",
+    "pos": "noun, adjective, adverb"
+  },
+  "pure": {
+    "phonetic": "/ˈpjɔː/",
+    "pos": "noun, verb, adjective, adverb"
+  },
+  "candle": {
+    "phonetic": "/ˈkændl̩/",
+    "pos": "noun, verb"
+  },
+  "chemistry": {
+    "phonetic": "/ˈkɛm.ɪ.stɹi/",
+    "pos": "noun"
+  },
+  "classic": {
+    "phonetic": "/ˈklæ.sɪk/",
+    "pos": "noun, adjective"
+  },
+  "clean": {
+    "phonetic": "/kleːn/",
+    "pos": "noun, verb, adjective, adverb"
+  },
+  "coincidence": {
+    "phonetic": "/kəʊˈɪnsɪdəns/",
+    "pos": "noun"
+  },
+  "comfort": {
+    "phonetic": "/ˈkʊm.fət/",
+    "pos": "noun, verb"
+  },
+  "compatibility": {
+    "phonetic": "/kəmˌpætɪˈbɪlɪti/",
+    "pos": "noun"
+  },
+  "concentrate": {
+    "phonetic": "/ˈkɒn.sən.tɹeɪt/",
+    "pos": "noun, verb"
+  },
+  "concise": {
+    "phonetic": "/kənˈsaɪs/",
+    "pos": "verb, adjective"
+  },
+  "confidant": {
+    "phonetic": "/ˈkɒn.fɪˌdænt/",
+    "pos": "noun"
+  },
+  "conversation": {
+    "phonetic": "/ˌkɒn.vəˈseɪ.ʃən/",
+    "pos": "noun, verb"
+  },
+  "converse": {
+    "phonetic": "/kənˈvɜːs/",
+    "pos": "noun, verb"
+  },
+  "convey": {
+    "phonetic": "/kənˈveɪ/",
+    "pos": "verb"
+  },
+  "cozy": {
+    "phonetic": "",
+    "pos": "noun, verb, adjective"
+  },
+  "cushion": {
+    "phonetic": "/ˈkʊʃən/",
+    "pos": "noun, verb"
+  },
+  "decorate": {
+    "phonetic": "/ˈdɛkəɹeɪt/",
+    "pos": "verb"
+  },
+  "depth": {
+    "phonetic": "/dɛpθ/",
+    "pos": "noun"
+  },
+  "disappoint": {
+    "phonetic": "/dɪsəˈpɔɪnt/",
+    "pos": "verb, adjective"
+  },
+  "discomfort": {
+    "phonetic": "/dɪsˈkʌmfət/",
+    "pos": "noun, verb"
+  },
+  "distant": {
+    "phonetic": "/ˈdɪstənt/",
+    "pos": "adjective"
+  },
+  "embrace": {
+    "phonetic": "/ɛmˈbɹeɪs/",
+    "pos": "noun, verb"
+  },
+  "excuse": {
+    "phonetic": "",
+    "pos": "noun, verb"
+  },
+  "exhaust": {
+    "phonetic": "/ɪɡˈzɔːst/",
+    "pos": "noun, verb, adjective"
+  },
+  "express": {
+    "phonetic": "/ɛk.ˈspɹɛs/",
+    "pos": "noun, adjective"
+  },
+  "exquisite": {
+    "phonetic": "/ɪkˈskwɪzɪt/",
+    "pos": "noun, adjective"
+  },
+  "exterior": {
+    "phonetic": "/ɛkˈstɪəɹɪə/",
+    "pos": "noun, adjective"
+  },
+  "feature": {
+    "phonetic": "/ˈfiːtʃə/",
+    "pos": "noun, verb"
+  },
+  "feeling": {
+    "phonetic": "/ˈfiːlɪŋ/",
+    "pos": "verb, noun, adjective"
+  },
+  "flicker": {
+    "phonetic": "/ˈflɪkə/",
+    "pos": "noun, verb"
+  },
+  "flip": {
+    "phonetic": "/flɪp/",
+    "pos": "noun, verb"
+  },
+  "fly": {
+    "phonetic": "/flaɪ/",
+    "pos": "noun"
+  },
+  "freedom": {
+    "phonetic": "/ˈfɹiːdəm/",
+    "pos": "noun"
+  },
+  "generous": {
+    "phonetic": "/ˈdʒɛn(ə)ɹəs/",
+    "pos": "adjective"
+  },
+  "genuine": {
+    "phonetic": "/ˈdʒɛnjuːˌaɪn/",
+    "pos": "adjective"
+  },
+  "weekend": {
+    "phonetic": "/wiːˈkɛnd/",
+    "pos": "noun, verb, adjective"
+  },
+  "wooden": {
+    "phonetic": "/ˈwʊdən/",
+    "pos": "adjective"
+  },
+  "worth": {
+    "phonetic": "/wɜːθ/",
+    "pos": "noun, adjective"
+  },
+  "adoration": {
+    "phonetic": "/ˌæ.dəˈɹeɪ.ʃən/",
+    "pos": "noun"
+  },
+  "adore": {
+    "phonetic": "/əˈdɔː/",
+    "pos": "verb"
+  },
+  "affection": {
+    "phonetic": "/əˈfɛkʃən/",
+    "pos": "noun, verb"
+  },
+  "agitation": {
+    "phonetic": "/ad͡ʒɪˈteɪʃ(ə)n/",
+    "pos": "noun"
+  },
+  "beginning": {
+    "phonetic": "/bɪˈɡɪn.ɪŋ/",
+    "pos": "noun"
+  },
+  "bliss": {
+    "phonetic": "/blɪs/",
+    "pos": "noun"
+  },
+  "chance": {
+    "phonetic": "[tʃʰans]",
+    "pos": "noun, adjective, adverb"
+  },
+  "confess": {
+    "phonetic": "/kənˈfɛs/",
+    "pos": "verb"
+  },
+  "contemplate": {
+    "phonetic": "/ˈkɒn.təmˌpleɪt/",
+    "pos": "verb"
+  },
+  "delay": {
+    "phonetic": "/dɪˈleɪ/",
+    "pos": "noun, verb"
+  },
+  "desire": {
+    "phonetic": "/dɪˈzaɪə/",
+    "pos": "noun, verb"
+  },
+  "determination": {
+    "phonetic": "/dɪˌtɜːmɪˈneɪʃən/",
+    "pos": "noun"
+  },
+  "devotion": {
+    "phonetic": "/dɪˈvəʊʃən/",
+    "pos": "noun"
+  },
+  "distance": {
+    "phonetic": "/ˈdɪs.təns/",
+    "pos": "noun, verb"
+  },
+  "ecstasy": {
+    "phonetic": "/ˈɛk.stə.si/",
+    "pos": "noun, verb"
+  },
+  "explore": {
+    "phonetic": "/ɪkˈsplɔː/",
+    "pos": "noun, verb"
+  },
+  "firm": {
+    "phonetic": "",
+    "pos": "noun"
+  },
+  "future": {
+    "phonetic": "/ˈfjuːt͡ʃə/",
+    "pos": "noun, adjective"
+  },
+  "hesitation": {
+    "phonetic": "/hɛzɪˈteɪʃən/",
+    "pos": "noun"
+  },
+  "impulse": {
+    "phonetic": "/ˈɪmpʌls/",
+    "pos": "noun, verb"
+  },
+  "internal": {
+    "phonetic": "/ɪnˈtɝnəl/",
+    "pos": "adjective"
+  },
+  "invite": {
+    "phonetic": "/ɪnˈvaɪt/",
+    "pos": "verb"
+  },
+  "joy": {
+    "phonetic": "/dʒɔɪ/",
+    "pos": "noun"
+  },
+  "lifetime": {
+    "phonetic": "/ˈlaɪftaɪm/",
+    "pos": "noun"
+  },
+  "love": {
+    "phonetic": "/lʊv/",
+    "pos": "noun, verb"
+  },
+  "applaud": {
+    "phonetic": "/əˈplɔːd/",
+    "pos": "noun, verb"
+  },
+  "appropriate": {
+    "phonetic": "",
+    "pos": "verb, adjective"
+  },
+  "arouse": {
+    "phonetic": "/əˈɹaʊz/",
+    "pos": "verb"
+  },
+  "burning": {
+    "phonetic": "/bɜːnɪŋ/",
+    "pos": "verb, noun, adjective"
+  },
+  "calmly": {
+    "phonetic": "/ˈkɑː(ɹ)m.li/",
+    "pos": "adverb"
+  },
+  "careful": {
+    "phonetic": "/ˈkɛːfəl/",
+    "pos": "adjective"
+  },
+  "composed": {
+    "phonetic": "/kəmˈpəʊzd/",
+    "pos": "verb, adjective"
+  },
+  "confine": {
+    "phonetic": "",
+    "pos": "noun, verb"
+  },
+  "conspiracy": {
+    "phonetic": "/kənˈspɪɹəsi/",
+    "pos": "noun, verb"
+  },
+  "continue": {
+    "phonetic": "/kənˈtɪnjuː/",
+    "pos": "noun, verb"
+  },
+  "corner": {
+    "phonetic": "/ˈkɔːnə(ɹ)/",
+    "pos": "noun, verb"
+  },
+  "criminal": {
+    "phonetic": "/ˈkɹɪmənəl/",
+    "pos": "noun, adjective"
+  },
+  "cruelty": {
+    "phonetic": "/ˈkɹuː(ə)lti/",
+    "pos": "noun"
+  },
+  "degrade": {
+    "phonetic": "/diˈɡɹeɪd/",
+    "pos": "verb"
+  },
+  "detect": {
+    "phonetic": "/dɪˈtɛkt/",
+    "pos": "verb, adjective"
+  },
+  "disguise": {
+    "phonetic": "/dɪsˈɡaɪz/",
+    "pos": "noun, verb"
+  },
+  "eliminate": {
+    "phonetic": "/ɪˈlɪməneɪt/",
+    "pos": "verb"
+  },
+  "embezzlement": {
+    "phonetic": "/ˌəmˈbɛzəlmənt/",
+    "pos": "noun"
+  },
+  "endurance": {
+    "phonetic": "/ɪnˈdjɔːɹəns/",
+    "pos": "noun"
+  },
+  "exploit": {
+    "phonetic": "",
+    "pos": "noun, verb"
+  },
+  "fall": {
+    "phonetic": "",
+    "pos": "noun, verb"
+  },
+  "favor": {
+    "phonetic": "/ˈfeɪvə/",
+    "pos": "noun, verb"
+  },
+  "finally": {
+    "phonetic": "/ˈfaɪ.nəl.i/",
+    "pos": "adverb"
+  },
+  "firmly": {
+    "phonetic": "/fɜːmli/",
+    "pos": "adverb"
+  },
+  "flash": {
+    "phonetic": "/flæʃ/",
+    "pos": "noun, verb, adjective"
+  },
+  "transfer": {
+    "phonetic": "/ˈtɹænzfɜː/",
+    "pos": "noun, verb"
+  },
+  "trap": {
+    "phonetic": "/tɹæp/",
+    "pos": "noun, verb"
+  },
+  "use": {
+    "phonetic": "",
+    "pos": "noun, verb"
+  },
+  "victory": {
+    "phonetic": "/ˈvɪkt(ə)ɹi/",
+    "pos": "noun, verb"
+  },
+  "vulnerability": {
+    "phonetic": "/ˌvʌlnəɹəˈbɪlɪti/",
+    "pos": "noun"
+  },
+  "weakness": {
+    "phonetic": "/ˈwiːk.nəs/",
+    "pos": "noun"
+  },
+  "ask": {
+    "phonetic": "/ˈask/",
+    "pos": "noun, verb"
+  },
+  "bitter": {
+    "phonetic": "/ˈbɪtə/",
+    "pos": "noun, verb, adjective"
+  },
+  "bitterness": {
+    "phonetic": "/ˈbɪtənəs/",
+    "pos": "noun"
+  },
+  "bloom": {
+    "phonetic": "/bluːm/",
+    "pos": "noun"
+  },
+  "break": {
+    "phonetic": "/bɹeɪk/",
+    "pos": "noun, verb"
+  },
+  "bridge": {
+    "phonetic": "/bɹɪd͡ʒ/",
+    "pos": "noun, verb"
+  },
+  "choice": {
+    "phonetic": "/tʃɔɪs/",
+    "pos": "noun, adjective"
+  },
+  "cold": {
+    "phonetic": "/kɔʊld/",
+    "pos": "adjective"
+  },
+  "consider": {
+    "phonetic": "/kənˈsɪdə/",
+    "pos": "verb"
+  },
+  "despair": {
+    "phonetic": "/dɪˈspɛə(ɹ)/",
+    "pos": "noun, verb"
+  },
+  "dissolve": {
+    "phonetic": "/dɪˈzɒlv/",
+    "pos": "noun, verb"
+  },
+  "dominant": {
+    "phonetic": "/ˈdɒmɪnənt/",
+    "pos": "noun, adjective"
+  },
+  "endure": {
+    "phonetic": "/ɪnˈdjɔː(ɹ)/",
+    "pos": "verb"
+  },
+  "equality": {
+    "phonetic": "/ɪˈkwɒl.ɪ.ti/",
+    "pos": "noun"
+  },
+  "forgive": {
+    "phonetic": "/fɚˈɡɪv/",
+    "pos": "verb"
+  },
+  "gap": {
+    "phonetic": "/ɡæp/",
+    "pos": "noun, verb"
+  },
+  "guilt": {
+    "phonetic": "/ɡɪlt/",
+    "pos": "noun"
+  },
+  "harden": {
+    "phonetic": "/ˈhɑːdn̩/",
+    "pos": "verb"
+  },
+  "slight": {
+    "phonetic": "[sl̥l͡ɐɪʔ̚]",
+    "pos": "noun, verb, adjective"
+  },
+  "strength": {
+    "phonetic": "/stɹɛŋkθ/",
+    "pos": "noun, verb"
+  },
+  "unexpected": {
+    "phonetic": "/ʌnɪkˈspɛktɪd/",
+    "pos": "adjective"
+  },
+  "voluntary": {
+    "phonetic": "/ˈvɒ.lən.tɹi/",
+    "pos": "noun, adjective, adverb"
+  },
+  "contradict": {
+    "phonetic": "/kɒntɹəˈdɪkt/",
+    "pos": "verb"
+  },
+  "depress": {
+    "phonetic": "/dɪˈpɹɛs/",
+    "pos": "verb"
+  },
+  "difficult": {
+    "phonetic": "/ˈdɪfɪkəlt/",
+    "pos": "verb, adjective"
+  },
+  "disappointed": {
+    "phonetic": "/ˌdɪsəˈpɔɪntɪd/",
+    "pos": "verb, adjective"
+  },
+  "elegance": {
+    "phonetic": "/ˈɛl.ɪ.ɡəns/",
+    "pos": "noun"
+  },
+  "fear": {
+    "phonetic": "/fɪə/",
+    "pos": "noun, verb"
+  },
+  "hide": {
+    "phonetic": "/haɪd/",
+    "pos": "verb"
+  },
+  "hold": {
+    "phonetic": "/həʊld/",
+    "pos": "noun, verb"
+  },
+  "hopeful": {
+    "phonetic": "/ˈhəʊpfəl/",
+    "pos": "noun, adjective"
+  },
+  "melt": {
+    "phonetic": "/mɛlt/",
+    "pos": "noun, verb"
+  },
+  "observation": {
+    "phonetic": "/ˌɒbzəˈveɪʃ(ə)n/",
+    "pos": "noun"
+  },
+  "ordinary": {
+    "phonetic": "",
+    "pos": "noun, adjective"
+  },
+  "shy": {
+    "phonetic": "/ʃaɪ/",
+    "pos": "noun, verb, adjective"
+  },
+  "soft": {
+    "phonetic": "/sɑft/",
+    "pos": "noun, adjective, adverb, interjection"
+  },
+  "straighten": {
+    "phonetic": "/ˈstɹeɪtn̩/",
+    "pos": "verb"
+  },
+  "together": {
+    "phonetic": "/təˈɡɛð.ə(ɹ)/",
+    "pos": "adjective, adverb"
+  },
+  "wait": {
+    "phonetic": "/weɪt/",
+    "pos": "noun, verb"
+  },
+  "walk": {
+    "phonetic": "",
+    "pos": "verb"
+  },
+  "awkward": {
+    "phonetic": "",
+    "pos": "noun, adjective, adverb"
+  },
+  "blossom": {
+    "phonetic": "",
+    "pos": "noun, verb"
+  },
+  "boundary": {
+    "phonetic": "",
+    "pos": "noun"
+  },
+  "investor": {
+    "phonetic": "/ɪnˈvɛstɚ/",
+    "pos": "noun"
+  },
+  "keenly": {
+    "phonetic": "/ˈkiːnli/",
+    "pos": "adverb"
+  },
+  "manipulate": {
+    "phonetic": "/məˈnɪpjʊleɪt/",
+    "pos": "verb"
+  },
+  "mansion": {
+    "phonetic": "/ˈmæn(t)ʃən/",
+    "pos": "noun"
+  },
+  "negotiate": {
+    "phonetic": "",
+    "pos": "verb"
+  },
+  "ostentatious": {
+    "phonetic": "/ˌɒs.tənˈteɪ.ʃəs/",
+    "pos": "adjective"
+  },
+  "perfect": {
+    "phonetic": "/ˈpɜː.fɛkt/",
+    "pos": "noun, adjective"
+  },
+  "ponder": {
+    "phonetic": "/ˈpɒn.də(ɹ)/",
+    "pos": "noun, verb"
+  },
+  "prevail": {
+    "phonetic": "/pɹɪˈveɪl/",
+    "pos": "verb"
+  },
+  "proudly": {
+    "phonetic": "/ˈpɹaʊdli/",
+    "pos": "adverb"
+  },
+  "replay": {
+    "phonetic": "",
+    "pos": "noun, verb"
+  },
+  "substantial": {
+    "phonetic": "/səbˈstænʃəl/",
+    "pos": "noun, adjective"
+  },
+  "supervise": {
+    "phonetic": "",
+    "pos": "verb"
+  },
+  "suspicious": {
+    "phonetic": "/səˈspɪ.ʃəs/",
+    "pos": "adjective"
+  },
+  "systematically": {
+    "phonetic": "",
+    "pos": "adverb"
+  },
+  "treacherous": {
+    "phonetic": "/ˈtɹɛtʃəɹəs/",
+    "pos": "adjective"
+  },
+  "utilize": {
+    "phonetic": "/ˈjuːtɨlaɪz/",
+    "pos": "verb"
+  },
+  "vindicate": {
+    "phonetic": "",
+    "pos": "verb"
+  },
+  "vividly": {
+    "phonetic": "/ˈvɪvɪdli/",
+    "pos": "adverb"
+  },
+  "worried": {
+    "phonetic": "/ˈwʌɹid/",
+    "pos": "adjective, verb"
+  },
+  "announce": {
+    "phonetic": "/əˈnaʊns/",
+    "pos": "verb"
+  },
+  "confront": {
+    "phonetic": "/kɒnˈfɹɒnt/",
+    "pos": "verb"
+  },
+  "cut": {
+    "phonetic": "/kʌt/",
+    "pos": "noun, verb, adjective"
+  },
+  "genuinely": {
+    "phonetic": "",
+    "pos": "adverb"
+  },
+  "humiliate": {
+    "phonetic": "/hjuːˈmɪliˌeɪt/",
+    "pos": "verb"
+  },
+  "ready": {
+    "phonetic": "/ˈɹɛdi/",
+    "pos": "noun, verb, adjective"
+  },
+  "reform": {
+    "phonetic": "/ɹɪˈfɔːm/",
+    "pos": "noun, verb"
+  },
+  "secretary": {
+    "phonetic": "/ˈsɛk.ɹə.tɹi/",
+    "pos": "noun, verb"
+  },
+  "self-made": {
+    "phonetic": "",
+    "pos": "adjective"
+  },
+  "system": {
+    "phonetic": "",
+    "pos": "noun"
+  },
+  "weight": {
+    "phonetic": "/weɪt/",
+    "pos": "noun, verb"
+  },
+  "wonderful": {
+    "phonetic": "/ˈwʌn.də.fl/",
+    "pos": "adjective, adverb"
+  },
+  "anniversary": {
+    "phonetic": "/ˌænɪˈvɜːs(ə)ɹi/",
+    "pos": "noun"
+  },
+  "apron": {
+    "phonetic": "/ˈeɪ.pɹən/",
+    "pos": "noun, verb"
+  },
+  "bag": {
+    "phonetic": "/ˈbæːɡ/",
+    "pos": "noun, verb"
+  },
+  "blessing": {
+    "phonetic": "/ˈblɛs.ɪŋ/",
+    "pos": "verb, noun"
+  },
+  "breakfast": {
+    "phonetic": "/ˈbɹɛkfəst/",
+    "pos": "noun, verb"
+  },
+  "bright": {
+    "phonetic": "/bɹaɪt/",
+    "pos": "noun, adjective"
+  },
+  "color": {
+    "phonetic": "/ˈkʌl.ə(ɹ)/",
+    "pos": "noun, verb, adjective"
+  },
+  "cook": {
+    "phonetic": "/kuːk/",
+    "pos": "noun"
+  },
+  "delicious": {
+    "phonetic": "/dɪˈlɪʃəs/",
+    "pos": "adjective"
+  },
+  "dessert": {
+    "phonetic": "/dɪˈzɜːt/",
+    "pos": "noun"
+  },
+  "disappear": {
+    "phonetic": "/dɪsəˈpiːɹ/",
+    "pos": "verb"
+  },
+  "dish": {
+    "phonetic": "/dɪʃ/",
+    "pos": "noun, verb"
+  },
+  "element": {
+    "phonetic": "/ˈɛlɪmənt/",
+    "pos": "noun, verb"
+  },
+  "footprint": {
+    "phonetic": "/ˈfʊtpɹɪnt/",
+    "pos": "noun"
+  },
+  "gift": {
+    "phonetic": "/ɡɪft/",
+    "pos": "noun, verb"
+  },
+  "goodnight": {
+    "phonetic": "",
+    "pos": "noun"
+  },
+  "massage": {
+    "phonetic": "/ˈmæsɑːʒ/",
+    "pos": "noun, verb"
+  },
+  "moonlight": {
+    "phonetic": "/ˈmunˌlaɪt/",
+    "pos": "noun, verb"
+  },
+  "neat": {
+    "phonetic": "/niːt/",
+    "pos": "noun, adjective"
+  },
+  "princess": {
+    "phonetic": "/pɹɪnˈsɛs/",
+    "pos": "noun"
+  },
+  "radiant": {
+    "phonetic": "/ˈɹeɪdi.ənt/",
+    "pos": "noun, adjective"
+  },
+  "resort": {
+    "phonetic": "/ɹɨˈzɔ(ɹ)t/",
+    "pos": "noun, verb"
+  },
+  "imagine": {
+    "phonetic": "/ɪˈmædʒ.ɪn/",
+    "pos": "noun, verb"
+  },
+  "notice": {
+    "phonetic": "/ˈnəʊtɪs/",
+    "pos": "noun, verb"
+  },
+  "propose": {
+    "phonetic": "/pɹəˈpəʊz/",
+    "pos": "noun, verb"
+  },
+  "quietly": {
+    "phonetic": "/ˈkwaɪ.ɪt.li/",
+    "pos": "adverb"
+  },
+  "read": {
+    "phonetic": "/ɹiːd/",
+    "pos": "noun, verb"
+  },
+  "slender": {
+    "phonetic": "/ˈslɛndə/",
+    "pos": "adjective"
+  },
+  "sophomore": {
+    "phonetic": "/ˈsɒfəmɔɹ/",
+    "pos": "noun, adjective"
+  },
+  "soulmate": {
+    "phonetic": "",
+    "pos": "noun"
+  },
+  "spring": {
+    "phonetic": "/spɹɪŋ/",
+    "pos": "verb, noun"
+  },
+  "stuck": {
+    "phonetic": "/ˈstʌk/",
+    "pos": "verb, adjective"
+  },
+  "thought": {
+    "phonetic": "/θɔːt/",
+    "pos": "verb, noun"
+  },
+  "world": {
+    "phonetic": "/wɝld/",
+    "pos": "noun, verb"
+  },
+  "writer": {
+    "phonetic": "/ˈɹaɪ.tə/",
+    "pos": "noun"
+  },
+  "allergic": {
+    "phonetic": "[ə.ˈlɜː.dʒɪk]",
+    "pos": "noun, adjective"
+  },
+  "closet": {
+    "phonetic": "/ˈklɒzɪt/",
+    "pos": "noun, verb, adjective"
+  },
+  "contract": {
+    "phonetic": "/ˈkɒntɹækt/",
+    "pos": "noun, adjective"
+  },
+  "dizzy": {
+    "phonetic": "/ˈdɪzi/",
+    "pos": "verb, adjective"
+  },
+  "emergency": {
+    "phonetic": "/ɪˈmɝ.dʒən.si/",
+    "pos": "noun"
+  },
+  "festival": {
+    "phonetic": "/ˈfɛstəvəl/",
+    "pos": "noun, adjective"
+  },
+  "grandmother": {
+    "phonetic": "/ˈɡɹæn(d)ˌmʌðə(r)/",
+    "pos": "noun"
+  },
+  "heavy": {
+    "phonetic": "/ˈhe.vi/",
+    "pos": "noun, verb, adjective, adverb"
+  },
+  "medicine": {
+    "phonetic": "/ˈmed(ɪ).sn̩/",
+    "pos": "noun, verb"
+  },
+  "meet": {
+    "phonetic": "/miːt/",
+    "pos": "noun, verb"
+  },
+  "miss": {
+    "phonetic": "/mɪs/",
+    "pos": "noun, verb"
+  },
+  "star": {
+    "phonetic": "/stɑː(ɹ)/",
+    "pos": "noun, verb"
+  },
+  "travel": {
+    "phonetic": "/ˈtɹævəl/",
+    "pos": "noun, verb"
+  },
+  "watch": {
+    "phonetic": "/wɒt͡ʃ/",
+    "pos": "noun"
+  },
+  "competition": {
+    "phonetic": "/ˌkɒmpəˈtɪʃən/",
+    "pos": "noun"
+  },
+  "desk": {
+    "phonetic": "/dɛsk/",
+    "pos": "noun, verb"
+  },
+  "evening": {
+    "phonetic": "/ˈivnɪŋ/",
+    "pos": "noun"
+  },
+  "fight": {
+    "phonetic": "[fʌɪt]",
+    "pos": "verb"
+  },
+  "image": {
+    "phonetic": "/ˈɪmɪd͡ʒ/",
+    "pos": "noun, verb"
+  },
+  "quick": {
+    "phonetic": "/kwɪk/",
+    "pos": "noun, verb, adjective, adverb"
+  },
+  "training": {
+    "phonetic": "/ˈtɹeɪnɪŋ/",
+    "pos": "verb, noun"
+  },
+  "accidentally": {
+    "phonetic": "/ˌæksəˈdɛnt(ə)li/",
+    "pos": "adverb"
+  },
+  "allowance": {
+    "phonetic": "/əˈlaʊəns/",
+    "pos": "noun, verb"
+  },
+  "autumn": {
+    "phonetic": "/ˈɔːtəm/",
+    "pos": "noun, adjective"
+  },
+  "expensive": {
+    "phonetic": "/ɛkˈspɛnsɪv/",
+    "pos": "adjective"
+  },
+  "fact": {
+    "phonetic": "/fækt/",
+    "pos": "noun, interjection"
+  },
+  "frustrated": {
+    "phonetic": "/fɹəsˈtɹeɪt.ɪd/",
+    "pos": "verb, adjective"
+  },
+  "handwritten": {
+    "phonetic": "",
+    "pos": "verb, adjective"
+  },
+  "literature": {
+    "phonetic": "/ˈlɪ.tə.ɹɪ.tʃə(ɹ)/",
+    "pos": "noun"
+  },
+  "need": {
+    "phonetic": "/niːd/",
+    "pos": "noun"
+  },
+  "rival": {
+    "phonetic": "/ˈɹaɪvəl/",
+    "pos": "noun, verb, adjective"
+  },
+  "afternoon": {
+    "phonetic": "/af.təɾˈnʉːn/",
+    "pos": "noun, adverb, interjection"
+  },
+  "agreement": {
+    "phonetic": "/əˈɡɹiːmənt/",
+    "pos": "noun"
+  },
+  "businessman": {
+    "phonetic": "/ˈbɪznəsmən/",
+    "pos": "noun"
+  },
+  "different": {
+    "phonetic": "/ˈdɪf.(ə)ɹ.ənt/",
+    "pos": "noun, adjective, adverb"
+  },
+  "dinner": {
+    "phonetic": "/ˈdɪnə/",
+    "pos": "noun, verb"
+  },
+  "give": {
+    "phonetic": "/ɡɪv/",
+    "pos": "noun, verb"
+  },
+  "rainy": {
+    "phonetic": "/ˈɹeɪni/",
+    "pos": "adjective"
+  },
+  "mirror": {
+    "phonetic": "/ˈmɘ.ɹɘ/",
+    "pos": "noun, verb"
+  },
+  "modest": {
+    "phonetic": "/ˈmɑdəst/",
+    "pos": "adjective"
+  },
+  "nightmare": {
+    "phonetic": "/ˈnaɪt.mɛə/",
+    "pos": "noun"
+  },
+  "noble": {
+    "phonetic": "/ˈnəʊbəl/",
+    "pos": "noun, adjective"
+  },
+  "proof": {
+    "phonetic": "/pɹʉːf/",
+    "pos": "noun, verb, adjective"
+  },
+  "provide": {
+    "phonetic": "/pɹəˈvaɪd/",
+    "pos": "verb"
+  },
+  "purple": {
+    "phonetic": "/ˈpɜː(ɹ).pəl/",
+    "pos": "noun, verb, adjective"
+  },
+  "shareholder": {
+    "phonetic": "",
+    "pos": "noun"
+  },
+  "silk": {
+    "phonetic": "/sɪlk/",
+    "pos": "noun, verb"
+  },
+  "stepmother": {
+    "phonetic": "/ˈstɛpmʌðə/",
+    "pos": "noun"
+  },
+  "stormy": {
+    "phonetic": "/ˈstɔɹmi/",
+    "pos": "adjective"
+  },
+  "sweat": {
+    "phonetic": "/swɛt/",
+    "pos": "noun"
+  },
+  "true": {
+    "phonetic": "/tɹuː/",
+    "pos": "noun, verb, adjective, adverb"
+  },
+  "trusted": {
+    "phonetic": "/ˈtɹʌstɪd/",
+    "pos": "verb"
+  },
+  "vow": {
+    "phonetic": "/vaʊ/",
+    "pos": "noun, verb"
+  },
+  "weak": {
+    "phonetic": "/wiːk/",
+    "pos": "adjective"
+  },
+  "weapon": {
+    "phonetic": "/ˈwɛ.pən/",
+    "pos": "noun"
+  },
+  "wear": {
+    "phonetic": "/wɛə/",
+    "pos": "noun, verb"
+  },
+  "woman": {
+    "phonetic": "/ˈwʊmɘn/",
+    "pos": "noun, verb"
+  },
+  "young": {
+    "phonetic": "/jʌŋ/",
+    "pos": "noun, verb, adjective"
+  },
+  "apply": {
+    "phonetic": "/əˈplaɪ/",
+    "pos": "verb"
+  },
+  "baby": {
+    "phonetic": "/ˈbeɪbi/",
+    "pos": "noun, verb, adjective"
+  },
+  "beach": {
+    "phonetic": "/biːt͡ʃ/",
+    "pos": "noun, verb"
+  },
+  "bedroom": {
+    "phonetic": "/ˈbɛdɹʊm/",
+    "pos": "noun"
+  },
+  "bread": {
+    "phonetic": "/bɹeːd/",
+    "pos": "noun, verb"
+  },
+  "breakdown": {
+    "phonetic": "/ˈbɹeɪkdaʊn/",
+    "pos": "noun"
+  },
+  "candlelight": {
+    "phonetic": "/ˈkændllaɪt/",
+    "pos": "noun"
+  },
+  "champagne": {
+    "phonetic": "",
+    "pos": "noun, verb, adjective"
+  },
+  "child": {
+    "phonetic": "/t͡ʃaɪld/",
+    "pos": "noun"
+  },
+  "considerate": {
+    "phonetic": "/kənˈsɪdəɹət/",
+    "pos": "verb, adjective"
+  },
+  "decisive": {
+    "phonetic": "/dɪˈsaɪsɪv/",
+    "pos": "adjective"
+  },
+  "demand": {
+    "phonetic": "/dɪˈmɑːnd/",
+    "pos": "noun, verb"
+  },
+  "designer": {
+    "phonetic": "/dɪˈzaɪnɚ/",
+    "pos": "noun, adjective"
+  },
+  "diamond": {
+    "phonetic": "/ˈdaɪ(ə)mənd/",
+    "pos": "noun, verb, adjective"
+  },
+  "dining": {
+    "phonetic": "/ˈdaɪnɪŋ(ɡ)/",
+    "pos": "verb, noun"
+  },
+  "disturb": {
+    "phonetic": "/dɪsˈtɜːb/",
+    "pos": "noun, verb"
+  },
+  "early": {
+    "phonetic": "/ˈɜː.li/",
+    "pos": "noun, adjective, adverb"
+  },
+  "egg": {
+    "phonetic": "/eɪɡ/",
+    "pos": "noun, verb"
+  },
+  "envy": {
+    "phonetic": "/ˈɛnvi/",
+    "pos": "noun, verb"
+  },
+  "family": {
+    "phonetic": "/ˈfɛm(ɘ)li/",
+    "pos": "noun, adjective"
+  },
+  "finish": {
+    "phonetic": "/ˈfɪnɪʃ/",
+    "pos": "noun, verb"
+  },
+  "first": {
+    "phonetic": "/fɪrst/",
+    "pos": "noun, adjective, adverb"
+  },
+  "fortune": {
+    "phonetic": "/ˈfɔːtʃuːn/",
+    "pos": "noun, verb"
+  },
+  "guilty": {
+    "phonetic": "/ˈɡɪl.ti/",
+    "pos": "noun, adjective"
+  },
+  "habit": {
+    "phonetic": "/ˈhæbət/",
+    "pos": "noun"
+  },
+  "hotel": {
+    "phonetic": "/(h)əʊˈtɛl/",
+    "pos": "noun"
+  },
+  "model": {
+    "phonetic": "/ˈmɒdl̩/",
+    "pos": "noun, verb, adjective"
+  },
+  "note": {
+    "phonetic": "/nəʊt/",
+    "pos": "noun, verb"
+  },
+  "perform": {
+    "phonetic": "/pəˈfɔːm/",
+    "pos": "verb"
+  },
+  "phone": {
+    "phonetic": "/fəʊ̯n/",
+    "pos": "noun, verb"
+  },
+  "preview": {
+    "phonetic": "/ˈpɹiːvjʉː/",
+    "pos": "noun, verb"
+  },
+  "represent": {
+    "phonetic": "/ɹɛp.ɹɪ.ˈzɛnt/",
+    "pos": "verb"
+  },
+  "ring": {
+    "phonetic": "/ɹɪŋ/",
+    "pos": "noun, verb"
+  },
+  "rookie": {
+    "phonetic": "/ˈɹʊki/",
+    "pos": "noun, adjective"
+  },
+  "session": {
+    "phonetic": "",
+    "pos": "noun, verb"
+  },
+  "short": {
+    "phonetic": "/ʃoːt/",
+    "pos": "noun, verb, adjective, adverb, preposition"
+  },
+  "specialist": {
+    "phonetic": "/ˈspɛʃəlɪst/",
+    "pos": "noun, adjective"
+  },
+  "start": {
+    "phonetic": "/stɑːt/",
+    "pos": "noun"
+  },
+  "supervisor": {
+    "phonetic": "/ˈsuːpɚˌvaɪzɚ/",
+    "pos": "noun"
+  },
+  "art": {
+    "phonetic": "/ɑːt/",
+    "pos": "noun"
+  },
+  "author": {
+    "phonetic": "/ˈɔː.θə/",
+    "pos": "noun, verb"
+  },
+  "bachelor": {
+    "phonetic": "/ˈbætʃ.ə.lə(ɹ)/",
+    "pos": "noun"
+  },
+  "bench": {
+    "phonetic": "",
+    "pos": "noun, verb"
+  },
+  "book": {
+    "phonetic": "/buːk/",
+    "pos": "noun"
+  },
+  "cherry": {
+    "phonetic": "",
+    "pos": "noun, adjective"
+  },
+  "couple": {
+    "phonetic": "/ˈkʌpəl/",
+    "pos": "noun, verb, adjective"
+  },
+  "draw": {
+    "phonetic": "/dɹɔː/",
+    "pos": "noun, verb"
+  },
+  "dress": {
+    "phonetic": "/dɹɛs/",
+    "pos": "noun, verb"
+  },
+  "lawyer": {
+    "phonetic": "/ˈlɔɪ.ə(ɹ)/",
+    "pos": "noun, verb"
+  },
+  "limit": {
+    "phonetic": "/ˈlɪmt/",
+    "pos": "noun, adjective"
+  },
+  "move": {
+    "phonetic": "/muːv/",
+    "pos": "noun, verb"
+  },
+  "nutrition": {
+    "phonetic": "/njuːˈtɹɪ.ʃən/",
+    "pos": "noun"
+  },
+  "party": {
+    "phonetic": "/ˈpɑ(ː)ɾi/",
+    "pos": "noun, verb"
+  },
+  "pen": {
+    "phonetic": "/pɛn/",
+    "pos": "noun"
+  },
+  "piano": {
+    "phonetic": "/piˈænoʊ/",
+    "pos": "noun, adjective"
+  },
+  "porridge": {
+    "phonetic": "",
+    "pos": "noun"
+  },
+  "require": {
+    "phonetic": "/ɹɪˈkwaɪə/",
+    "pos": "verb"
+  },
+  "role": {
+    "phonetic": "/ɹəʊl/",
+    "pos": "noun"
+  },
+  "servant": {
+    "phonetic": "/ˈsɜːvənt/",
+    "pos": "noun, verb"
+  },
+  "sofa": {
+    "phonetic": "/ˈsəʊfə/",
+    "pos": "noun, verb"
+  },
+  "tease": {
+    "phonetic": "/tiːz/",
+    "pos": "noun, verb"
+  },
+  "temperature": {
+    "phonetic": "/ˈtɛmp(ə)ɹətʃə(ɹ)/",
+    "pos": "noun"
+  },
+  "tree": {
+    "phonetic": "/tɹiː/",
+    "pos": "noun, verb"
+  },
+  "water": {
+    "phonetic": "/ˈwoːtə/",
+    "pos": "noun"
+  },
+  "account": {
+    "phonetic": "/ə.ˈkaʊnt/",
+    "pos": "noun"
+  },
+  "accounting": {
+    "phonetic": "/ə.ˈkaʊn.tɪŋ/",
+    "pos": "verb, noun, adjective"
+  },
+  "accuse": {
+    "phonetic": "/əˈkjuːz/",
+    "pos": "noun, verb"
+  },
+  "alliance": {
+    "phonetic": "",
+    "pos": "noun, verb"
+  },
+  "await": {
+    "phonetic": "/əˈwɛɪt/",
+    "pos": "noun, verb"
+  },
+  "battlefield": {
+    "phonetic": "",
+    "pos": "noun"
+  },
+  "believe": {
+    "phonetic": "/bɪˈliːv/",
+    "pos": "verb"
+  },
+  "butler": {
+    "phonetic": "/ˈbʌt.lə(ɹ)/",
+    "pos": "noun, verb"
+  },
+  "chamber": {
+    "phonetic": "/ˈtʃeɪmbə(ɹ)/",
+    "pos": "noun, verb"
+  },
+  "collude": {
+    "phonetic": "",
+    "pos": "verb"
+  },
+  "completely": {
+    "phonetic": "/kəmˈpliːtli/",
+    "pos": "adverb"
+  },
+  "comprehend": {
+    "phonetic": "/kɒmpɹɪˈhɛnd/",
+    "pos": "verb"
+  },
+  "city": {
+    "phonetic": "/sɪtɪ/",
+    "pos": "noun"
+  },
+  "deeply": {
+    "phonetic": "/ˈdiːpli/",
+    "pos": "adverb"
+  },
+  "depart": {
+    "phonetic": "/dɪˈpɑːt/",
+    "pos": "noun, verb"
+  },
+  "dispatch": {
+    "phonetic": "/dəˈspætʃ/",
+    "pos": "noun, verb"
+  },
+  "entire": {
+    "phonetic": "/ənˈtaɪə/",
+    "pos": "noun, adjective"
+  },
+  "eve": {
+    "phonetic": "/iːv/",
+    "pos": "noun"
+  },
+  "existence": {
+    "phonetic": "/ɛɡ.ˈzɪs.təns/",
+    "pos": "noun"
+  },
+  "fading": {
+    "phonetic": "/ˈfeɪdɪŋ/",
+    "pos": "verb, noun"
+  },
+  "fashion": {
+    "phonetic": "/ˈfæʃən/",
+    "pos": "noun, verb"
+  },
+  "flight": {
+    "phonetic": "/flaɪt/",
+    "pos": "noun, verb, adjective"
+  },
+  "founder": {
+    "phonetic": "/ˈfaʊndə/",
+    "pos": "noun"
+  },
+  "frantic": {
+    "phonetic": "/ˈfɹæntɪk/",
+    "pos": "noun, adjective"
+  },
+  "freeze": {
+    "phonetic": "/ˈfɹiːz/",
+    "pos": "verb"
+  },
+  "gangster": {
+    "phonetic": "/ˈɡæŋstə/",
+    "pos": "noun, verb"
+  },
+  "hate": {
+    "phonetic": "/heɪt/",
+    "pos": "noun, verb"
+  },
+  "instant": {
+    "phonetic": "/ˈɪnstənt/",
+    "pos": "noun"
+  },
+  "laughingstock": {
+    "phonetic": "",
+    "pos": "noun"
+  },
+  "long": {
+    "phonetic": "/ˈlɔːŋ/",
+    "pos": "noun, verb, adjective"
+  },
+  "magazine": {
+    "phonetic": "/mæɡəˈziːn/",
+    "pos": "noun"
+  },
+  "mind": {
+    "phonetic": "/maɪnd/",
+    "pos": "noun, verb"
+  },
+  "month": {
+    "phonetic": "/mʌnθ/",
+    "pos": "noun"
+  },
+  "official": {
+    "phonetic": "/əˈfɪʃəl/",
+    "pos": "noun, adjective"
+  },
+  "passionate": {
+    "phonetic": "/ˈpæʃənət/",
+    "pos": "noun, verb, adjective"
+  },
+  "pursuit": {
+    "phonetic": "/pəˈsʉːt/",
+    "pos": "noun"
+  },
+  "quit": {
+    "phonetic": "/kwɪt/",
+    "pos": "verb, adjective"
+  },
+  "raise": {
+    "phonetic": "/ɹeɪz/",
+    "pos": "noun, verb"
+  },
+  "alone": {
+    "phonetic": "/əˈləʊn/",
+    "pos": "adjective, adverb"
+  },
+  "alumni": {
+    "phonetic": "/əˈlʌmnaɪ/",
+    "pos": "noun"
+  },
+  "architect": {
+    "phonetic": "/ˈɑːkɪtɛkt/",
+    "pos": "noun, verb"
+  },
+  "bridesmaid": {
+    "phonetic": "/ˈbɹaɪdzˌmeɪd/",
+    "pos": "noun, verb"
+  },
+  "construction": {
+    "phonetic": "/kənˈstɹʌkʃən/",
+    "pos": "noun"
+  },
+  "crumble": {
+    "phonetic": "/ˈkɹʌmbəl/",
+    "pos": "noun, verb"
+  },
+  "distinguished": {
+    "phonetic": "/dɪsˈtɪŋɡwɪʃt/",
+    "pos": "verb, adjective"
+  },
+  "explanation": {
+    "phonetic": "/ˌɛkspləˈneɪʃən/",
+    "pos": "noun"
+  },
+  "hall": {
+    "phonetic": "/hɔːl/",
+    "pos": "noun"
+  },
+  "intimate": {
+    "phonetic": "/ˈɪn.tɪ.mət/",
+    "pos": "noun, verb, adjective"
+  },
+  "ironic": {
+    "phonetic": "/aɪˈɹɒn.ɪk/",
+    "pos": "adjective"
+  },
+  "late": {
+    "phonetic": "/leɪt/",
+    "pos": "noun, adjective, adverb"
+  },
+  "lean": {
+    "phonetic": "/liːn/",
+    "pos": "noun, verb"
+  },
+  "mean": {
+    "phonetic": "/miːn/",
+    "pos": "verb"
+  },
+  "must": {
+    "phonetic": "",
+    "pos": "noun, verb"
+  },
+  "one": {
+    "phonetic": "/wan/",
+    "pos": "noun, verb, adjective, numeral, pronoun"
+  },
+  "past": {
+    "phonetic": "/pɑːst/",
+    "pos": "verb, noun, adjective, adverb, preposition"
+  },
+  "persistent": {
+    "phonetic": "/pəˈsɪstənt/",
+    "pos": "adjective"
+  },
+  "renovation": {
+    "phonetic": "",
+    "pos": "noun"
+  },
+  "renowned": {
+    "phonetic": "/ɹɪˈnaʊnd/",
+    "pos": "adjective"
+  },
+  "expressionless": {
+    "phonetic": "",
+    "pos": "adjective"
+  },
+  "pretend": {
+    "phonetic": "/pɹɪˈtɛnd/",
+    "pos": "verb, adjective"
+  },
+  "authoritative": {
+    "phonetic": "/ɔːˈθɒɹɪtətɪv/",
+    "pos": "adjective"
+  },
+  "current": {
+    "phonetic": "/ˈkʌɹənt/",
+    "pos": "noun, adjective"
+  },
+  "friend": {
+    "phonetic": "/fɹɛnd/",
+    "pos": "noun, verb"
+  },
+  "innovative": {
+    "phonetic": "/ɪnˈnɒ.və.tɪv/",
+    "pos": "adjective"
+  },
+  "saturate": {
+    "phonetic": "/ˈsætʃəˌɹeɪt/",
+    "pos": "noun, verb, adjective"
+  },
+  "segment": {
+    "phonetic": "",
+    "pos": "noun, verb"
+  },
+  "shortcut": {
+    "phonetic": "/ˈʃɔːtkʌt/",
+    "pos": "noun, verb"
+  },
+  "simulate": {
+    "phonetic": "/-jə-/",
+    "pos": "verb, adjective"
+  },
+  "strive": {
+    "phonetic": "",
+    "pos": "noun"
+  },
+  "actually": {
+    "phonetic": "/-ɪ/",
+    "pos": "adverb"
+  },
+  "colorful": {
+    "phonetic": "/ˈkʌləfəl/",
+    "pos": "adjective"
+  },
+  "echo": {
+    "phonetic": "/ˈɛkəʊ/",
+    "pos": "noun, verb"
+  },
+  "faint": {
+    "phonetic": "/feɪnt/",
+    "pos": "noun, adjective"
+  },
+  "fellow": {
+    "phonetic": "/ˈfɛləʊ/",
+    "pos": "noun, verb"
+  },
+  "modern": {
+    "phonetic": "/ˈmɒd(ə)n/",
+    "pos": "noun, adjective"
+  },
+  "sunshine": {
+    "phonetic": "/ˈsʌnʃaɪn/",
+    "pos": "noun, adjective"
+  },
+  "tremble": {
+    "phonetic": "/ˈtɹɛmbl̩/",
+    "pos": "noun, verb"
+  },
+  "elite": {
+    "phonetic": "/eɪˈliːt/",
+    "pos": "noun, adjective"
+  },
+  "famous": {
+    "phonetic": "/ˈfeɪməs/",
+    "pos": "verb, adjective"
+  },
+  "suitable": {
+    "phonetic": "/ˈsuːtəbl/",
+    "pos": "adjective"
+  },
+  "continuous": {
+    "phonetic": "/kənˈtɪn.juː.əs/",
+    "pos": "adjective"
+  },
+  "patiently": {
+    "phonetic": "/ˈpeɪʃəntli/",
+    "pos": "adverb"
+  },
+  "sincerely": {
+    "phonetic": "/sɪnˈsɪəli/",
+    "pos": "adverb"
+  },
+  "wisely": {
+    "phonetic": "/ˈwaɪzli/",
+    "pos": "adverb"
+  },
+  "celebrate": {
+    "phonetic": "/ˈsɛl.ə.bɹeɪt/",
+    "pos": "verb"
+  },
+  "forget": {
+    "phonetic": "/fəˈɡɛt/",
+    "pos": "verb"
+  },
+  "sad": {
+    "phonetic": "/sæd/",
+    "pos": "verb, adjective"
+  },
+  "assessment": {
+    "phonetic": "",
+    "pos": "noun"
+  },
+  "construct": {
+    "phonetic": "/ˈkɒn.stɹʌkt/",
+    "pos": "noun, verb"
+  },
+  "campaign": {
+    "phonetic": "/kæmˈpeɪn/",
+    "pos": "noun, verb"
+  },
+  "dynamic": {
+    "phonetic": "/daɪˈnæ.mɪk/",
+    "pos": "noun, adjective"
+  },
+  "ethics": {
+    "phonetic": "/ˈɛθ.ɪks/",
+    "pos": "noun"
+  },
+  "example": {
+    "phonetic": "/əɡˈzæmpl̩/",
+    "pos": "noun, verb"
+  },
+  "glorious": {
+    "phonetic": "/ˈɡlɔː.ɹi.əs/",
+    "pos": "adjective"
+  },
+  "intermediary": {
+    "phonetic": "",
+    "pos": "noun, adjective"
+  },
+  "legal": {
+    "phonetic": "/ˈliː.ɡəl/",
+    "pos": "noun, adjective"
+  },
+  "monopolize": {
+    "phonetic": "",
+    "pos": "verb"
+  },
+  "obsess": {
+    "phonetic": "/əbˈsɛs/",
+    "pos": "verb"
+  },
+  "orchestrate": {
+    "phonetic": "/ˈɔː(ɹ).kə.stɹeɪt/",
+    "pos": "verb"
+  },
+  "plummet": {
+    "phonetic": "/ˈplʌm.ət/",
+    "pos": "noun, verb"
+  },
+  "preliminary": {
+    "phonetic": "/pɹɪˈlɪmɪnəɹi/",
+    "pos": "noun, adjective"
+  },
+  "redemption": {
+    "phonetic": "/ɹɪˈdɛmpʃən/",
+    "pos": "noun"
+  },
+  "regularly": {
+    "phonetic": "/ˈɹɛɡjəli/",
+    "pos": "adverb"
+  },
+  "sensational": {
+    "phonetic": "",
+    "pos": "adjective"
+  },
+  "supplier": {
+    "phonetic": "/səˈplaɪə/",
+    "pos": "noun"
+  },
+  "surveillance": {
+    "phonetic": "/səɹˈveɪ.ləns/",
+    "pos": "noun"
+  },
+  "fortunate": {
+    "phonetic": "/ˈfɔːt͡ʃənət/",
+    "pos": "adjective"
+  },
+  "hurry": {
+    "phonetic": "/ˈhʌ.ɹi/",
+    "pos": "noun, verb"
+  },
+  "slim": {
+    "phonetic": "/slɪm/",
+    "pos": "noun, verb, adjective"
+  },
+  "tropical": {
+    "phonetic": "",
+    "pos": "noun, adjective"
+  },
+  "contour": {
+    "phonetic": "/-tɔː(ɹ)/",
+    "pos": "noun, verb"
+  },
+  "dance": {
+    "phonetic": "[dæːns]",
+    "pos": "noun, verb"
+  },
+  "nourish": {
+    "phonetic": "/ˈnʌɹ.ɪʃ/",
+    "pos": "noun, verb"
+  },
+  "pour": {
+    "phonetic": "/pɔː/",
+    "pos": "noun, verb"
+  },
+  "quicken": {
+    "phonetic": "/ˈkwɪkən/",
+    "pos": "verb"
+  },
+  "symbolic": {
+    "phonetic": "",
+    "pos": "adjective"
+  },
+  "sublimate": {
+    "phonetic": "/ˈsʌblɪmeɪt/",
+    "pos": "noun, verb"
+  },
+  "newcomer": {
+    "phonetic": "/ˈnjuːkʌmə/",
+    "pos": "noun"
+  },
+  "train": {
+    "phonetic": "/tɹeɪn/",
+    "pos": "noun, verb"
+  },
+  "undertake": {
+    "phonetic": "/ʌndəˈteɪk/",
+    "pos": "verb"
+  },
+  "wholehearted": {
+    "phonetic": "/ˌhəʊlˈhɑː(ɹ)t.əd/",
+    "pos": "adjective"
+  },
+  "luxuriant": {
+    "phonetic": "/-ɔːɹi.ənt/",
+    "pos": "adjective"
+  },
+  "fascinate": {
+    "phonetic": "/ˈfæsɪneɪt/",
+    "pos": "verb"
+  },
+  "innovate": {
+    "phonetic": "/ˈɪnəveɪt/",
+    "pos": "verb"
+  },
+  "origin": {
+    "phonetic": "/ˈɒɹ.ə.dʒən/",
+    "pos": "noun"
+  },
+  "scrutinize": {
+    "phonetic": "",
+    "pos": "verb"
+  },
+  "shape": {
+    "phonetic": "/ʃeɪp/",
+    "pos": "noun, verb"
+  },
+  "significance": {
+    "phonetic": "/sɪɡˈnɪfɪkəns/",
+    "pos": "noun"
+  },
+  "harmonious": {
+    "phonetic": "/hɑːˈməʊnɪəs/",
+    "pos": "adjective"
+  },
+  "convenient": {
+    "phonetic": "/kənˈviːniənt/",
+    "pos": "adjective"
+  },
+  "magnitude": {
+    "phonetic": "/ˈmæɡnɪtjuːd/",
+    "pos": "noun"
+  },
+  "rigor": {
+    "phonetic": "/ɹɪɡɚ/",
+    "pos": "noun"
+  },
+  "wide": {
+    "phonetic": "/wɑed/",
+    "pos": "noun, adjective, adverb"
+  },
+  "attracted": {
+    "phonetic": "/əˈtɹæktɪd/",
+    "pos": "verb, adjective"
+  },
+  "complexity": {
+    "phonetic": "/kəmˈplɛk.sɪ.ti/",
+    "pos": "noun"
+  },
+  "disturbed": {
+    "phonetic": "/dɪsˈtɜːbd/",
+    "pos": "verb, adjective"
+  },
+  "wonder": {
+    "phonetic": "/ˈwʌndə/",
+    "pos": "noun, verb"
+  },
+  "diligence": {
+    "phonetic": "/ˈdɪlɪdʒəns/",
+    "pos": "noun"
+  },
+  "learning": {
+    "phonetic": "/ˈlɜːnɪŋ/",
+    "pos": "verb, noun"
+  },
+  "thirst": {
+    "phonetic": "/θɜːst/",
+    "pos": "noun, verb"
+  },
+  "clumsy": {
+    "phonetic": "/ˈklʌmzi/",
+    "pos": "noun, adjective"
+  },
+  "embarrassed": {
+    "phonetic": "/ɪmˈbæɹ.əst/",
+    "pos": "verb, adjective"
+  },
+  "flavor": {
+    "phonetic": "/ˈfleɪvə/",
+    "pos": "noun, verb"
+  },
+  "immersed": {
+    "phonetic": "",
+    "pos": "verb, adjective"
+  },
+  "relaxed": {
+    "phonetic": "/ɹɪˈlækst/",
+    "pos": "verb, adjective"
+  },
+  "gaze": {
+    "phonetic": "/ɡeɪz/",
+    "pos": "noun, verb"
+  },
+  "generosity": {
+    "phonetic": "/ˌd͡ʒɛnəˈɹɒsɪti/",
+    "pos": "noun"
+  },
+  "hazard": {
+    "phonetic": "/ˈhazəd/",
+    "pos": "noun, verb"
+  },
+  "host": {
+    "phonetic": "/həʊst/",
+    "pos": "noun, verb"
+  },
+  "incredible": {
+    "phonetic": "/ɪŋˈkɹɛdɪbəl/",
+    "pos": "adjective"
+  },
+  "inner": {
+    "phonetic": "",
+    "pos": "noun, adjective"
+  },
+  "legacy": {
+    "phonetic": "/ˈleɪɡəsi/",
+    "pos": "noun, adjective"
+  },
+  "nevertheless": {
+    "phonetic": "/ˈnɛvəðəlɛs/",
+    "pos": "adverb"
+  },
+  "objective": {
+    "phonetic": "/ɒbˈd͡ʒɛk.tɪv/",
+    "pos": "noun, adjective"
+  },
+  "occupation": {
+    "phonetic": "/ɒkjəˈpeɪʃən/",
+    "pos": "noun"
+  },
+  "perpetuate": {
+    "phonetic": "",
+    "pos": "verb, adjective"
+  },
+  "portion": {
+    "phonetic": "/ˈpoəɹʃən/",
+    "pos": "noun, verb"
+  },
+  "proclaim": {
+    "phonetic": "/pɹoʊˈkleɪm/",
+    "pos": "verb"
+  },
+  "protege": {
+    "phonetic": "/ˈpɹɒtəˌʒeɪ/",
+    "pos": "noun"
+  },
+  "subsequent": {
+    "phonetic": "/ˈsʌbsəkwənt/",
+    "pos": "adjective"
+  },
+  "symbolizing": {
+    "phonetic": "",
+    "pos": "verb, noun"
+  },
+  "tale": {
+    "phonetic": "/ˈteɪl/",
+    "pos": "noun"
+  },
+  "thus": {
+    "phonetic": "/ˈðʌs/",
+    "pos": "adverb"
+  },
+  "triumph": {
+    "phonetic": "/ˈtɹaɪ.ʌmf/",
+    "pos": "noun"
+  },
+  "ultimately": {
+    "phonetic": "/ˈʌltɪmətli/",
+    "pos": "adverb"
+  },
+  "universal": {
+    "phonetic": "/ˌjuːnɪˈvɜːsl̩/",
+    "pos": "noun, adjective"
+  },
+  "widespread": {
+    "phonetic": "",
+    "pos": "adjective"
+  },
+  "calendar": {
+    "phonetic": "/ˈkæl.ən.də/",
+    "pos": "noun, verb"
+  },
+  "calorie": {
+    "phonetic": "/ˈkæləɹi/",
+    "pos": "noun"
+  },
+  "cancer": {
+    "phonetic": "/ˈkæːnsə/",
+    "pos": "noun"
+  },
+  "cannon": {
+    "phonetic": "/ˈkæn.ən/",
+    "pos": "noun, verb"
+  },
+  "canoe": {
+    "phonetic": "/kəˈnuː/",
+    "pos": "noun, verb"
+  },
+  "canvas": {
+    "phonetic": "/ˈkæn.vəs/",
+    "pos": "noun, verb"
+  },
+  "canyon": {
+    "phonetic": "/ˈkænjən/",
+    "pos": "noun"
+  },
+  "capable": {
+    "phonetic": "/ˈkeɪpəbl̩/",
+    "pos": "adjective"
+  },
+  "caption": {
+    "phonetic": "/ˈkæp.ʃən/",
+    "pos": "noun, verb"
+  },
+  "captive": {
+    "phonetic": "/ˈkæptɪv/",
+    "pos": "noun, verb, adjective"
+  },
+  "carbon": {
+    "phonetic": "/ˈkɑɹbən/",
+    "pos": "noun, verb"
+  },
+  "cargo": {
+    "phonetic": "/ˈkɑːɡəʊ/",
+    "pos": "noun"
+  },
+  "carpenter": {
+    "phonetic": "/ˈkɑː.pən.tə/",
+    "pos": "noun, verb"
+  },
+  "carriage": {
+    "phonetic": "/ˈkæɹɪdʒ/",
+    "pos": "noun"
+  },
+  "carrier": {
+    "phonetic": "/ˈkæ.ɹɪ.ə/",
+    "pos": "noun"
+  },
+  "carrot": {
+    "phonetic": "/ˈkæɹ.ət/",
+    "pos": "noun, verb"
+  },
+  "cart": {
+    "phonetic": "/kɑːt/",
+    "pos": "noun, verb"
+  },
+  "cartoon": {
+    "phonetic": "/kɑːˈtuːn/",
+    "pos": "noun, verb"
+  },
+  "carve": {
+    "phonetic": "/kɑːv/",
+    "pos": "noun, verb"
+  },
+  "cascade": {
+    "phonetic": "/kæsˈkeɪd/",
+    "pos": "noun, verb"
+  },
+  "cash": {
+    "phonetic": "/kæʃ/",
+    "pos": "noun, verb, adjective"
+  },
+  "cashier": {
+    "phonetic": "/kəˈʃɪə/",
+    "pos": "verb"
+  },
+  "cassette": {
+    "phonetic": "/kæˈsɛt/",
+    "pos": "noun"
+  },
+  "castle": {
+    "phonetic": "",
+    "pos": "noun, verb"
+  },
+  "casualty": {
+    "phonetic": "/ˈkaʒ(ʊ)əlti/",
+    "pos": "noun"
+  },
+  "catalog": {
+    "phonetic": "",
+    "pos": "noun, verb"
+  },
+  "catastrophe": {
+    "phonetic": "/kəˈtæstɹəfi/",
+    "pos": "noun"
+  },
+  "catch": {
+    "phonetic": "/kæt͡ʃ/",
+    "pos": "noun, verb"
+  },
+  "acceptance": {
+    "phonetic": "",
+    "pos": "noun"
+  },
+  "accepted": {
+    "phonetic": "/æk.ˈsɛp.tɪd/",
+    "pos": "verb, adjective"
+  },
+  "achieved": {
+    "phonetic": "/əˈtʃiːvd/",
+    "pos": "verb, adjective"
+  },
+  "addition": {
+    "phonetic": "/æˈdɪʃən/",
+    "pos": "noun"
+  },
+  "admirable": {
+    "phonetic": "/ˈæd.məɹ.ə.bəl/",
+    "pos": "adjective"
+  },
+  "adorned": {
+    "phonetic": "/əˈdɔːnd/",
+    "pos": "verb, adjective"
+  },
+  "affair": {
+    "phonetic": "/əˈfɛə/",
+    "pos": "noun"
+  },
+  "album": {
+    "phonetic": "/ˈælbəm/",
+    "pos": "noun"
+  },
+  "anger": {
+    "phonetic": "/ˈæŋɡə(ɹ)/",
+    "pos": "noun, verb"
+  },
+  "anything": {
+    "phonetic": "/ˈɛ.nə.θɪŋ/",
+    "pos": "noun, pronoun"
+  },
+  "appreciated": {
+    "phonetic": "",
+    "pos": "verb, adjective"
+  },
+  "became": {
+    "phonetic": "/bɪˈkeɪm/",
+    "pos": "verb"
+  },
+  "becomes": {
+    "phonetic": "/bəˈkʌmz/",
+    "pos": "verb"
+  },
+  "becoming": {
+    "phonetic": "/bɪˈkʊmɪŋɡ/",
+    "pos": "verb, noun, adjective"
+  },
+  "believed": {
+    "phonetic": "",
+    "pos": "verb"
+  },
+  "best": {
+    "phonetic": "/ˈbɛst/",
+    "pos": "noun, verb, adjective, adverb"
+  },
+  "birthday": {
+    "phonetic": "/ˈbɜːθ.deɪ/",
+    "pos": "noun, verb"
+  },
+  "blossoms": {
+    "phonetic": "/ˈblɒ.səms/",
+    "pos": "noun, verb"
+  },
+  "bonded": {
+    "phonetic": "",
+    "pos": "verb, adjective"
+  },
+  "bonding": {
+    "phonetic": "",
+    "pos": "verb, noun"
+  },
+  "brightest": {
+    "phonetic": "/ˈbɹaɪtɪst/",
+    "pos": "adjective"
+  },
+  "brightness": {
+    "phonetic": "/ˈbɹaɪtnəs/",
+    "pos": "noun"
+  },
+  "built": {
+    "phonetic": "/ˈbɪlt/",
+    "pos": "verb, noun, adjective"
+  },
+  "celebrated": {
+    "phonetic": "/ˈsɛl.ɪ.bɹeɪ.tɪd/",
+    "pos": "verb, adjective"
+  },
+  "cherished": {
+    "phonetic": "/ˈtʃɛɹɪʃt/",
+    "pos": "verb, adjective"
+  },
+  "children": {
+    "phonetic": "[ˈt͡ʃʊld̠ɹ̠ ̝ʷən]",
+    "pos": "noun"
+  },
+  "college": {
+    "phonetic": "",
+    "pos": "noun"
+  },
+  "decent": {
+    "phonetic": "/ˈdiːsənt/",
+    "pos": "adjective"
+  },
+  "decided": {
+    "phonetic": "/dɪˈsaɪdəd/",
+    "pos": "verb, adjective"
+  },
+  "deck": {
+    "phonetic": "/dɛk/",
+    "pos": "noun, verb"
+  },
+  "declaration": {
+    "phonetic": "/ˌdɛkləˈɹeɪʃən/",
+    "pos": "noun"
+  },
+  "declared": {
+    "phonetic": "/dɪˈklɛəd/",
+    "pos": "verb, adjective"
+  },
+  "decoded": {
+    "phonetic": "",
+    "pos": "verb"
+  },
+  "decorative": {
+    "phonetic": "/ˈdɛkɹətɪv/",
+    "pos": "noun, adjective"
+  },
+  "decrease": {
+    "phonetic": "",
+    "pos": "noun, verb"
+  },
+  "dedicated": {
+    "phonetic": "/ˈdɛdɪkeɪtəd/",
+    "pos": "verb, adjective"
+  },
+  "dedication": {
+    "phonetic": "/ˌdɛdɪˈkeɪʃən/",
+    "pos": "noun"
+  },
+  "deduce": {
+    "phonetic": "/dɪˈdjuːs/",
+    "pos": "verb"
+  },
+  "deduct": {
+    "phonetic": "/dɪˈdʊkt/",
+    "pos": "verb"
+  },
+  "deed": {
+    "phonetic": "/diːd/",
+    "pos": "noun, verb"
+  },
+  "deemed": {
+    "phonetic": "/diːmd/",
+    "pos": "verb, adjective"
+  },
+  "deeper": {
+    "phonetic": "/ˈdiːpə/",
+    "pos": "adjective"
+  },
+  "deer": {
+    "phonetic": "/diːɹ/",
+    "pos": "noun"
+  },
+  "deficit": {
+    "phonetic": "/ˈdɛfɪsɪt/",
+    "pos": "noun"
+  },
+  "defied": {
+    "phonetic": "",
+    "pos": "verb"
+  },
+  "definition": {
+    "phonetic": "/ˌdɛfɪˈnɪʃ(ə)n/",
+    "pos": "noun"
+  },
+  "defy": {
+    "phonetic": "/dɪˈfaɪ/",
+    "pos": "noun, verb"
+  },
+  "defying": {
+    "phonetic": "",
+    "pos": "verb"
+  },
+  "degree": {
+    "phonetic": "/dɪˈɡɹiː/",
+    "pos": "noun"
+  },
+  "delegated": {
+    "phonetic": "",
+    "pos": "verb"
+  },
+  "deleted": {
+    "phonetic": "",
+    "pos": "verb"
+  },
+  "delicate": {
+    "phonetic": "/ˈdɛlɪkət/",
+    "pos": "noun, adjective"
+  },
+  "delicately": {
+    "phonetic": "/ˈdɛlɪkətli/",
+    "pos": "adverb"
+  },
+  "delighted": {
+    "phonetic": "/dɪˈlaɪtəd/",
+    "pos": "verb, adjective"
+  },
+  "delightful": {
+    "phonetic": "[dəˈlaɪ̯t̚.fəɫ]",
+    "pos": "adjective"
+  },
+  "delivered": {
+    "phonetic": "/dɪˈlɪv.əd/",
+    "pos": "verb, adjective"
+  },
+  "despise": {
+    "phonetic": "/dɪˈspaɪz/",
+    "pos": "verb"
+  },
+  "despite": {
+    "phonetic": "/dɪˈspaɪt/",
+    "pos": "noun, verb, preposition"
+  },
+  "detached": {
+    "phonetic": "/dɪˈtæt͡ʃt/",
+    "pos": "verb, adjective"
+  },
+  "detailed": {
+    "phonetic": "/dɪˈteɪld/",
+    "pos": "verb, adjective"
+  },
+  "detained": {
+    "phonetic": "/dɨˈtejnd/",
+    "pos": "verb"
+  },
+  "detected": {
+    "phonetic": "/dɪˈtɛktɪd/",
+    "pos": "verb, adjective"
+  },
+  "detective": {
+    "phonetic": "/dɪˈtɛktɪv/",
+    "pos": "noun, adjective"
+  },
+  "developed": {
+    "phonetic": "/dɪˈvɛləpt/",
+    "pos": "verb, adjective"
+  },
+  "devoted": {
+    "phonetic": "/dɪˈvəʊtəd/",
+    "pos": "verb, adjective"
+  },
+  "diagram": {
+    "phonetic": "/ˈdaɪ.ə.ɡɹæm/",
+    "pos": "noun, verb"
+  },
+  "difference": {
+    "phonetic": "/ˈdɪfəɹən(t)s/",
+    "pos": "noun, verb"
+  },
+  "dignity": {
+    "phonetic": "/ˈdɪɡnɪti/",
+    "pos": "noun"
+  },
+  "discovered": {
+    "phonetic": "/dɪsˈkʌvəd/",
+    "pos": "verb"
+  },
+  "discussed": {
+    "phonetic": "/dɪsˈkʌst/",
+    "pos": "verb"
+  },
+  "displayed": {
+    "phonetic": "/dɪsˈpleɪd/",
+    "pos": "verb, adjective"
+  },
+  "distribute": {
+    "phonetic": "/dɨˈstɹɪbjuːt/",
+    "pos": "verb"
+  },
+  "divide": {
+    "phonetic": "/dɪˈvaɪd/",
+    "pos": "noun, verb"
+  },
+  "does": {
+    "phonetic": "",
+    "pos": "verb"
+  },
+  "doing": {
+    "phonetic": "/ˈduːɪŋ/",
+    "pos": "verb, noun"
+  },
+  "dollar": {
+    "phonetic": "/dɔlɚ/",
+    "pos": "noun"
+  },
+  "dormitory": {
+    "phonetic": "/ˈdɔɹmɪˌtɔɹi/",
+    "pos": "noun"
+  },
+  "downs": {
+    "phonetic": "/daʊnz/",
+    "pos": "noun, verb"
+  },
+  "dozen": {
+    "phonetic": "/ˈdʌzən/",
+    "pos": "noun"
+  },
+  "drawing": {
+    "phonetic": "/ˈdɹɔ.(w)ɪŋ(ɡ)/",
+    "pos": "verb"
+  },
+  "dreamed": {
+    "phonetic": "/ˈdɹiːmd/",
+    "pos": "verb"
+  },
+  "drew": {
+    "phonetic": "/dɹuː/",
+    "pos": "verb"
+  },
+  "durable": {
+    "phonetic": "/ˈd(j)ʊəɹəbəl/",
+    "pos": "noun, adjective"
+  },
+  "dusk": {
+    "phonetic": "/dʌsk/",
+    "pos": "noun, verb, adjective"
+  },
+  "encouraged": {
+    "phonetic": "",
+    "pos": "verb"
+  },
+  "endures": {
+    "phonetic": "",
+    "pos": "verb"
+  },
+  "enjoyed": {
+    "phonetic": "/ɪnˈdʒɔɪd/",
+    "pos": "verb"
+  },
+  "established": {
+    "phonetic": "/ɪˈstæb.lɪʃt/",
+    "pos": "verb, adjective"
+  },
+  "maintained": {
+    "phonetic": "/meɪnˈteɪnd/",
+    "pos": "verb, adjective"
+  },
+  "maintaining": {
+    "phonetic": "/meɪnˈteɪnɪŋ/",
+    "pos": "verb, noun"
+  },
+  "maintenance": {
+    "phonetic": "/ˈmeɪnt(ə)nəns/",
+    "pos": "noun"
+  },
+  "make": {
+    "phonetic": "/meɪk/",
+    "pos": "noun, verb"
+  },
+  "memories": {
+    "phonetic": "/ˈmɛm(ə)ɹiz/",
+    "pos": "noun"
+  },
+  "negativity": {
+    "phonetic": "",
+    "pos": "noun"
+  },
+  "nurture": {
+    "phonetic": "/ˈnɜːɹ.tʃəɹ/",
+    "pos": "noun, verb"
+  },
+  "nurtured": {
+    "phonetic": "",
+    "pos": "verb"
+  },
+  "ornament": {
+    "phonetic": "/ˈɔː(ɹ)nəmənt/",
+    "pos": "noun, verb"
+  },
+  "overcame": {
+    "phonetic": "/ˌəʊvəˈkeɪm/",
+    "pos": "verb"
+  },
+  "painting": {
+    "phonetic": "/ˈpeɪn.tɪŋ/",
+    "pos": "verb, noun"
+  },
+  "part": {
+    "phonetic": "/pɐːt/",
+    "pos": "noun, verb, adjective, adverb"
+  },
+  "people": {
+    "phonetic": "/ˈpiːpəl/",
+    "pos": "noun, verb"
+  },
+  "picture": {
+    "phonetic": "/ˈpɪktʃə/",
+    "pos": "noun, verb"
+  },
+  "place": {
+    "phonetic": "/pleɪs/",
+    "pos": "noun"
+  },
+  "planned": {
+    "phonetic": "/plænd/",
+    "pos": "verb, adjective"
+  },
+  "platform": {
+    "phonetic": "/ˈplætfɔːm/",
+    "pos": "noun, verb"
+  },
+  "prepared": {
+    "phonetic": "/pɹɪˈpɛəd/",
+    "pos": "verb, adjective"
+  },
+  "priceless": {
+    "phonetic": "/ˈpɹaɪsləs/",
+    "pos": "adjective"
+  },
+  "prize": {
+    "phonetic": "/pɹaɪz/",
+    "pos": "noun"
+  },
+  "promised": {
+    "phonetic": "/ˈpɹɒm.ɪst/",
+    "pos": "verb, adjective"
+  },
+  "realization": {
+    "phonetic": "/ˌɹiə-/",
+    "pos": "noun"
+  },
+  "remain": {
+    "phonetic": "/ɹɪˈmeɪn/",
+    "pos": "noun, verb"
+  },
+  "right": {
+    "phonetic": "",
+    "pos": "adjective"
+  },
+  "sadness": {
+    "phonetic": "/ˈsædnəs/",
+    "pos": "noun"
+  },
+  "sanctuary": {
+    "phonetic": "/ˈsæŋktjʊəɹi/",
+    "pos": "noun"
+  },
+  "years": {
+    "phonetic": "/ji.ə(ɹ)z/",
+    "pos": "noun"
+  },
+  "eager": {
+    "phonetic": "/ˈiːɡə/",
+    "pos": "adjective"
+  },
+  "eagerly": {
+    "phonetic": "/ˈiːɡəli/",
+    "pos": "adverb"
+  },
+  "eagle": {
+    "phonetic": "/ˈiːɡəl/",
+    "pos": "noun, verb"
+  },
+  "earliest": {
+    "phonetic": "/ˈɜː.li.ɪst/",
+    "pos": "adjective, adverb"
+  },
+  "earnest": {
+    "phonetic": "/ˈɜːnɪst/",
+    "pos": "noun, verb, adjective"
+  },
+  "earthquake": {
+    "phonetic": "/ˈɜːθkweɪk/",
+    "pos": "noun"
+  },
+  "easily": {
+    "phonetic": "/ˈiː.zə.liː/",
+    "pos": "adverb"
+  },
+  "eastern": {
+    "phonetic": "/ˈiːstən/",
+    "pos": "adjective"
+  },
+  "easy": {
+    "phonetic": "/ˈiːzi/",
+    "pos": "noun, adjective, adverb, verb"
+  },
+  "eaves": {
+    "phonetic": "/iːvz/",
+    "pos": "noun"
+  },
+  "eccentric": {
+    "phonetic": "",
+    "pos": "noun, adjective"
+  },
+  "eclipse": {
+    "phonetic": "/iˈklɪps/",
+    "pos": "noun, verb"
+  },
+  "economic": {
+    "phonetic": "/ˌiːkəˈnɒmɪk/",
+    "pos": "adjective"
+  },
+  "economy": {
+    "phonetic": "/iːˈkɒn.ə.mi/",
+    "pos": "noun, adjective"
+  },
+  "edge": {
+    "phonetic": "/ɛdʒ/",
+    "pos": "noun, verb"
+  },
+  "edit": {
+    "phonetic": "/ˈɛdɪt/",
+    "pos": "noun, verb"
+  },
+  "edition": {
+    "phonetic": "/əˈdɪʃən/",
+    "pos": "noun"
+  },
+  "educate": {
+    "phonetic": "/ˈedʒɘkæet/",
+    "pos": "verb"
+  },
+  "effectively": {
+    "phonetic": "",
+    "pos": "adverb"
+  },
+  "either": {
+    "phonetic": "/ˈaɪð.ə(ɹ)/",
+    "pos": "adverb, pronoun, conjunction"
+  },
+  "elastic": {
+    "phonetic": "/iˈlæstɪk/",
+    "pos": "noun, adjective"
+  },
+  "elementary": {
+    "phonetic": "/(ˌ)ɛlɪ̈ˈmɛnt(ə)ɹɪ/",
+    "pos": "noun, adjective"
+  },
+  "elevate": {
+    "phonetic": "/ˈɛləveɪt/",
+    "pos": "verb, adjective"
+  },
+  "eligible": {
+    "phonetic": "/ˈɛlɪdʒəb(ə)l/",
+    "pos": "noun, adjective"
+  },
+  "elongate": {
+    "phonetic": "/ɪ.ˈlɔŋ.ˌɡeɪt/",
+    "pos": "verb, adjective"
+  },
+  "elsewhere": {
+    "phonetic": "/ˌɛlsˈʍɛːə/",
+    "pos": "noun, adverb"
+  },
+  "elucidate": {
+    "phonetic": "/əˈluː.sɪ.de͡ɪt/",
+    "pos": "verb"
+  },
+  "embarrassing": {
+    "phonetic": "/ɪmˈbæɹəsɪŋ/",
+    "pos": "verb, noun, adjective"
+  },
+  "emit": {
+    "phonetic": "/iˈmɪt/",
+    "pos": "verb"
+  },
+  "emotional": {
+    "phonetic": "/ɪˈməʊʃnəl/",
+    "pos": "adjective"
+  },
+  "faithful": {
+    "phonetic": "/ˈfeɪθ.fəl/",
+    "pos": "noun, adjective"
+  },
+  "falsehood": {
+    "phonetic": "/ˈfɒlsˌhʊd/",
+    "pos": "noun"
+  },
+  "falters": {
+    "phonetic": "",
+    "pos": "verb"
+  },
+  "famine": {
+    "phonetic": "/ˈfæmɪn/",
+    "pos": "noun"
+  },
+  "fan": {
+    "phonetic": "/fæn/",
+    "pos": "noun, verb"
+  },
+  "fancy": {
+    "phonetic": "/ˈfæn.si/",
+    "pos": "noun, adjective, adverb"
+  },
+  "fantastic": {
+    "phonetic": "/fænˈtæstɪk/",
+    "pos": "noun, adjective"
+  },
+  "fantasy": {
+    "phonetic": "/ˈfæntəsi/",
+    "pos": "noun, verb"
+  },
+  "farmer": {
+    "phonetic": "/fɑːmə/",
+    "pos": "noun"
+  },
+  "farming": {
+    "phonetic": "/ˈfɑːmɪŋ/",
+    "pos": "verb, noun, adjective"
+  },
+  "fascination": {
+    "phonetic": "/fæsɪˈneɪʃən/",
+    "pos": "noun"
+  },
+  "fasten": {
+    "phonetic": "/ˈfɑːsn̩/",
+    "pos": "verb"
+  },
+  "fatal": {
+    "phonetic": "[ˈfeɪ.ɾɫ̩]",
+    "pos": "noun, adjective"
+  },
+  "fateful": {
+    "phonetic": "/ˈfeɪtfəl/",
+    "pos": "adjective"
+  },
+  "father": {
+    "phonetic": "/ˈfaːðə/",
+    "pos": "noun, verb"
+  },
+  "fatigue": {
+    "phonetic": "/fəˈtiːɡ/",
+    "pos": "noun, verb"
+  },
+  "fearful": {
+    "phonetic": "/ˈfɪəfəl/",
+    "pos": "adjective, adverb"
+  },
+  "fearless": {
+    "phonetic": "/ˈfɪələs/",
+    "pos": "adjective"
+  },
+  "feast": {
+    "phonetic": "/fiːst/",
+    "pos": "noun"
+  },
+  "feat": {
+    "phonetic": "/fiːt/",
+    "pos": "noun, verb, adjective"
+  },
+  "feather": {
+    "phonetic": "/ˈfɛð.ə(ɹ)/",
+    "pos": "noun, verb"
+  },
+  "federal": {
+    "phonetic": "/ˈfɛdəɹəl/",
+    "pos": "noun, adjective"
+  },
+  "federation": {
+    "phonetic": "/ˌfɛdəˈɹeɪʃn̩/",
+    "pos": "noun, adjective"
+  },
+  "road": {
+    "phonetic": "/ɹəʊd/",
+    "pos": "noun, adjective"
+  },
+  "say": {
+    "phonetic": "/seɪ/",
+    "pos": "noun, verb, adverb, interjection"
+  },
+  "tall": {
+    "phonetic": "/tɔːl/",
+    "pos": "noun, adjective"
+  },
+  "come": {
+    "phonetic": "/kʌm/",
+    "pos": "noun, verb, preposition, interjection"
+  },
+  "gain": {
+    "phonetic": "/ɡeɪn/",
+    "pos": "noun, verb"
+  },
+  "gale": {
+    "phonetic": "/ɡeɪl/",
+    "pos": "verb"
+  },
+  "gallon": {
+    "phonetic": "/ˈɡælən/",
+    "pos": "noun"
+  },
+  "gallop": {
+    "phonetic": "/ˈɡæləp/",
+    "pos": "noun, verb"
+  },
+  "gang": {
+    "phonetic": "/ɡæŋ/",
+    "pos": "verb"
+  },
+  "garage": {
+    "phonetic": "/ɡəˈɹɑː(d)ʒ/",
+    "pos": "noun, verb"
+  },
+  "garbage": {
+    "phonetic": "/ˈɡɑːbɪd͡ʒ/",
+    "pos": "noun, verb, adjective"
+  },
+  "garden": {
+    "phonetic": "",
+    "pos": "noun, verb, adjective"
+  },
+  "garlic": {
+    "phonetic": "/ˈɡɑːlɪk/",
+    "pos": "noun, verb"
+  },
+  "garment": {
+    "phonetic": "/ˈɡɑː.mənt/",
+    "pos": "noun, verb"
+  },
+  "gasp": {
+    "phonetic": "/ɡɑːsp/",
+    "pos": "noun, verb, interjection"
+  },
+  "gateway": {
+    "phonetic": "/ˈɡeɪtˌweɪ/",
+    "pos": "noun, verb"
+  },
+  "gauge": {
+    "phonetic": "/ˈɡeɪdʒ/",
+    "pos": "noun, verb"
+  },
+  "gear": {
+    "phonetic": "",
+    "pos": "noun, verb, adjective"
+  },
+  "gender": {
+    "phonetic": "/ˈdʒɛndə/",
+    "pos": "noun, verb"
+  },
+  "generalize": {
+    "phonetic": "",
+    "pos": "verb"
+  },
+  "generate": {
+    "phonetic": "/ˈdʒɛn.əɹ.eɪt/",
+    "pos": "verb"
+  },
+  "generously": {
+    "phonetic": "",
+    "pos": "adverb"
+  },
+  "genetic": {
+    "phonetic": "[d͡ʒəˈnɛtɪk]",
+    "pos": "adjective"
+  },
+  "genre": {
+    "phonetic": "/(d)ʒɒn.ɹə/",
+    "pos": "noun"
+  },
+  "gentleman": {
+    "phonetic": "/ˈdʒɛn.təl.mən/",
+    "pos": "noun"
+  },
+  "geography": {
+    "phonetic": "/dʒɪˈɒɡɹəfi/",
+    "pos": "noun"
+  },
+  "geology": {
+    "phonetic": "/dʒɪˈɒlədʒɪ/",
+    "pos": "noun"
+  },
+  "geometry": {
+    "phonetic": "/dʒiːˈɒmɪtɹi/",
+    "pos": "noun"
+  },
+  "gesture": {
+    "phonetic": "/ˈdʒɛs.tʃɚ/",
+    "pos": "noun, verb"
+  },
+  "grip": {
+    "phonetic": "/ɡɹɪp/",
+    "pos": "verb"
+  },
+  "guess": {
+    "phonetic": "/ɡɛs/",
+    "pos": "verb"
+  },
+  "gulf": {
+    "phonetic": "/ɡʌlf/",
+    "pos": "noun, verb"
+  },
+  "gym": {
+    "phonetic": "/dʒɪm/",
+    "pos": "noun, verb"
+  },
+  "startled": {
+    "phonetic": "/ˈstɑːt.l̩d/",
+    "pos": "verb, adjective"
+  },
+  "habitat": {
+    "phonetic": "/ˈhæbɪtæt/",
+    "pos": "noun"
+  },
+  "haggard": {
+    "phonetic": "",
+    "pos": "noun, adjective"
+  },
+  "hail": {
+    "phonetic": "/heɪl/",
+    "pos": "noun, verb"
+  },
+  "hair": {
+    "phonetic": "/heː/",
+    "pos": "noun, verb"
+  },
+  "halt": {
+    "phonetic": "/hɔːlt/",
+    "pos": "verb"
+  },
+  "ham": {
+    "phonetic": "/ˈhæːm/",
+    "pos": "noun"
+  },
+  "hammer": {
+    "phonetic": "/ˈhæm.ə(ɹ)/",
+    "pos": "noun, verb"
+  },
+  "handbook": {
+    "phonetic": "",
+    "pos": "noun"
+  },
+  "handful": {
+    "phonetic": "/ˈhæn(d)fəl/",
+    "pos": "noun"
+  },
+  "handwriting": {
+    "phonetic": "/ˈhændɹaɪtɪŋ/",
+    "pos": "verb, noun"
+  },
+  "handy": {
+    "phonetic": "/ˈhæn.di/",
+    "pos": "adjective"
+  },
+  "hang": {
+    "phonetic": "[heɪŋ]",
+    "pos": "noun, verb"
+  },
+  "happenstance": {
+    "phonetic": "/ˈhap(ə)nˌstans/",
+    "pos": "noun"
+  },
+  "harbor": {
+    "phonetic": "/ˈhɑːbə/",
+    "pos": "noun"
+  },
+  "hardly": {
+    "phonetic": "/ˈhɑːdli/",
+    "pos": "adverb, interjection"
+  },
+  "hardware": {
+    "phonetic": "/ˈhɑːdˌwɛə/",
+    "pos": "noun"
+  },
+  "harmful": {
+    "phonetic": "/ˈhɑːmfl̩/",
+    "pos": "adjective"
+  },
+  "harness": {
+    "phonetic": "/ˈhɑː(ɹ).nəs/",
+    "pos": "noun, verb"
+  },
+  "harshly": {
+    "phonetic": "/ˈhɑːʃli/",
+    "pos": "adverb"
+  },
+  "harvest": {
+    "phonetic": "/ˈhaːvəst/",
+    "pos": "noun, verb"
+  },
+  "hasten": {
+    "phonetic": "/ˈheɪ.sən/",
+    "pos": "verb"
+  },
+  "hatch": {
+    "phonetic": "/hætʃ/",
+    "pos": "noun, verb"
+  },
+  "hateful": {
+    "phonetic": "/ˈheɪtfəl/",
+    "pos": "adjective"
+  },
+  "haul": {
+    "phonetic": "",
+    "pos": "noun, verb"
+  },
+  "holiday": {
+    "phonetic": "/ˈhɒlɪdeɪ/",
+    "pos": "noun, verb"
+  },
+  "hollow": {
+    "phonetic": "/ˈhɒl.əʊ/",
+    "pos": "noun, verb"
+  },
+  "holy": {
+    "phonetic": "/ˈhəʊli/",
+    "pos": "noun, adjective"
+  },
+  "homeless": {
+    "phonetic": "/ˈhoʊmləs/",
+    "pos": "adjective"
+  },
+  "homemaker": {
+    "phonetic": "",
+    "pos": "noun"
+  },
+  "homesick": {
+    "phonetic": "",
+    "pos": "adjective"
+  },
+  "homestead": {
+    "phonetic": "/ˈhoʊmˌstɛd/",
+    "pos": "noun, verb"
+  },
+  "hometown": {
+    "phonetic": "",
+    "pos": "noun"
+  },
+  "homework": {
+    "phonetic": "/ˈhəʊmˌwɜːk/",
+    "pos": "noun"
+  },
+  "homogeneous": {
+    "phonetic": "/ˌhɒ.mə(ʊ)ˈdʒiː.nɪəs/",
+    "pos": "adjective"
+  },
+  "honestly": {
+    "phonetic": "/ˈɒnɪstli/",
+    "pos": "adverb, interjection"
+  },
+  "honey": {
+    "phonetic": "/ˈhʌni/",
+    "pos": "noun, verb, adjective"
+  },
+  "honeycomb": {
+    "phonetic": "/ˈhʌniːkəʊm/",
+    "pos": "noun, verb"
+  },
+  "honorable": {
+    "phonetic": "/ˈɒnəɹəbl̩/",
+    "pos": "adjective"
+  },
+  "hook": {
+    "phonetic": "/huːk/",
+    "pos": "noun, verb"
+  },
+  "hooray": {
+    "phonetic": "/həˈɹeɪ/",
+    "pos": "noun, verb, interjection"
+  },
+  "hop": {
+    "phonetic": "",
+    "pos": "noun, verb"
+  },
+  "hopes": {
+    "phonetic": "/həʊps/",
+    "pos": "verb, noun"
+  },
+  "horizontally": {
+    "phonetic": "",
+    "pos": "adverb"
+  },
+  "hospitable": {
+    "phonetic": "/hɒsˈpɪtəbl̩/",
+    "pos": "adjective"
+  },
+  "hospital": {
+    "phonetic": "/ˈhɒs.pɪ.tl̩/",
+    "pos": "noun, adjective"
+  },
+  "hospitality": {
+    "phonetic": "/hɒs.pɪˈtæl.ɪ.ti/",
+    "pos": "noun"
+  },
+  "hostess": {
+    "phonetic": "/ˈhəʊstəs/",
+    "pos": "noun, verb"
+  },
+  "hostility": {
+    "phonetic": "/hɒˈstɪlɪti/",
+    "pos": "noun"
+  },
+  "huddle": {
+    "phonetic": "/ˈhʌdəl/",
+    "pos": "noun, verb, adjective"
+  },
+  "hurdle": {
+    "phonetic": "/ˈhɜːdəl/",
+    "pos": "noun, verb"
+  },
+  "hurl": {
+    "phonetic": "",
+    "pos": "noun, verb"
+  },
+  "hypothesis": {
+    "phonetic": "/-əsəs/",
+    "pos": "noun"
+  },
+  "hypothetical": {
+    "phonetic": "/ˌhaɪpəˈθɛtɪkl/",
+    "pos": "noun, adjective"
+  },
+  "successfully": {
+    "phonetic": "/səkˈsɛsfəli/",
+    "pos": "adverb"
+  },
+  "air": {
+    "phonetic": "/ˈɛə/",
+    "pos": "noun, verb"
+  },
+  "also": {
+    "phonetic": "/ˈɔːl.səʊ/",
+    "pos": "adverb"
+  },
+  "balanced": {
+    "phonetic": "/ˈbælənst/",
+    "pos": "verb, adjective"
+  },
+  "combination": {
+    "phonetic": "/kɒmbɪˈneɪʃən/",
+    "pos": "noun"
+  },
+  "dialogue": {
+    "phonetic": "/ˈdaɪəlɑɡ/",
+    "pos": "noun, verb"
+  },
+  "enthusiast": {
+    "phonetic": "",
+    "pos": "noun"
+  },
+  "exam": {
+    "phonetic": "/ɛɡˈzæm/",
+    "pos": "noun, verb"
+  },
+  "reading": {
+    "phonetic": "/ˈɹidiŋ/",
+    "pos": "verb, noun"
+  },
+  "seem": {
+    "phonetic": "/siːm/",
+    "pos": "verb"
+  },
+  "sorry": {
+    "phonetic": "/ˈsɔɹi/",
+    "pos": "noun, adjective, interjection"
+  },
+  "sprout": {
+    "phonetic": "/spɹʌʊt/",
+    "pos": "noun, verb"
+  },
+  "sublime": {
+    "phonetic": "/səˈblaɪm/",
+    "pos": "verb"
+  },
+  "talk": {
+    "phonetic": "/toːk/",
+    "pos": "verb"
+  },
+  "type": {
+    "phonetic": "/taɪp/",
+    "pos": "noun, verb"
+  },
+  "want": {
+    "phonetic": "/wɔnt/",
+    "pos": "noun, verb"
+  },
+  "wind": {
+    "phonetic": "/ˈwaɪnd/",
+    "pos": "noun, verb"
+  },
+  "window": {
+    "phonetic": "/ˈwɪndəʊ/",
+    "pos": "noun, verb"
+  },
+  "deepen": {
+    "phonetic": "/ˈdiːpən/",
+    "pos": "verb"
+  },
+  "develop": {
+    "phonetic": "/dɛˈvɛ.ləp/",
+    "pos": "verb"
+  },
+  "enrich": {
+    "phonetic": "/ɪnˈɹɪt͡ʃ/",
+    "pos": "verb"
+  },
+  "eternity": {
+    "phonetic": "/ɪˈtɜː.nə.ti/",
+    "pos": "noun"
+  },
+  "melody": {
+    "phonetic": "/ˈmel.ə.di/",
+    "pos": "noun"
+  },
+  "polish": {
+    "phonetic": "/ˈpɒlɪʃ/",
+    "pos": "noun, verb"
+  },
+  "select": {
+    "phonetic": "/sɪˈlɛkt/",
+    "pos": "verb, adjective"
+  },
+  "symbol": {
+    "phonetic": "/ˈsɪmbəl/",
+    "pos": "noun, verb"
+  }
+}
