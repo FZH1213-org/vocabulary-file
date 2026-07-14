@@ -58,6 +58,13 @@
     font-weight: 600;
   }
   footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+
+  .w {
+    cursor: pointer;
+  }
+  .w:hover {
+    opacity: 0.85;
+  }
 </style>
 </head>
 <body>
@@ -153,5 +160,31 @@
     </section>
     <footer>冰山融化：真爱降临 · 学习版　|　看故事记单词</footer>
   </div>
+
+  <script>
+  // 点击词汇发音功能
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.w').forEach(function(span) {
+      var text = span.textContent;
+      var match = text.match(/^([a-zA-Z]+)/);
+      if (match) {
+        var word = match[1];
+        span.addEventListener('click', function() {
+          speak(word);
+        });
+      }
+    });
+  });
+
+  function speak(word) {
+    window.speechSynthesis.cancel();
+    var utterance = new SpeechSynthesisUtterance(word);
+    utterance.lang = 'en-US';
+    utterance.rate = 0.85;
+    utterance.pitch = 1.0;
+    window.speechSynthesis.speak(utterance);
+  }
+  </script>
+
 </body>
 </html>
