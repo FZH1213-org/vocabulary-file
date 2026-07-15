@@ -130,8 +130,53 @@ const vocabularyData=[${jsArray}];
 let currentPage=1;const itemsPerPage=50;let filteredData=[];
 function getPOS(w,t){const s=w.toLowerCase();if(s.endsWith('tion')||s.endsWith('sion')||s.endsWith('ment')||s.endsWith('ness')||s.endsWith('ity')||s.endsWith('ance')||s.endsWith('ence'))return'n.';if(s.endsWith('ly'))return'adv.';if(s.endsWith('ful')||s.endsWith('less')||s.endsWith('ous')||s.endsWith('ive')||s.endsWith('able')||s.endsWith('al'))return'adj.';if(s.endsWith('ize')||s.endsWith('ify')||s.endsWith('ate'))return'v.';if(t.includes('的'))return'adj.';return'v./n.';}
 function getPhonetic(w){return'/'+w+'/';}
-function genEx(w){return{en:w.charAt(0).toUpperCase()+w.slice(1)+' is important.',cn:w+'很重要。'};}
-function init(){vocabularyData.forEach(v=>{v.pos=getPOS(v.word,v.translation);v.phonetic=getPhonetic(v.word);v.example=genEx(v.word);});filteredData=[...vocabularyData];initFilter();render();document.getElementById('searchInput').addEventListener('input',debounce(search,300));document.getElementById('storyFilter').addEventListener('change',filter);document.getElementById('sortFilter').addEventListener('change',sort);}
+function genEx(w,pos,t){
+    var word=w.toLowerCase();
+    var examples;
+    var cn=t.endsWith('的')?t.slice(0,-1):t;
+
+    if(pos.includes('adj')){
+        examples=[
+            {en:'The '+word+' view made everyone surprised.',cn:'这个'+cn+'的景色让每个人都感到惊讶。'},
+            {en:'She has a '+word+' personality.',cn:'她有一个'+cn+'的性格。'},
+            {en:'This is really '+word+'.',cn:'这真是'+t+'。'},
+            {en:'The situation became '+word+'.',cn:'情况变得'+t+'。'},
+            {en:'I find this very '+word+'.',cn:'我觉得这很'+t+'。'}
+        ];
+    }else if(pos.includes('n')){
+        examples=[
+            {en:'The '+word+' is important to understand.',cn:'这个'+t+'很重要,需要理解。'},
+            {en:'We need to deal with this '+word+'.',cn:'我们需要处理这个'+t+'。'},
+            {en:'She faced a '+word+' yesterday.',cn:'她昨天遇到了一个'+t+'。'},
+            {en:'The '+word+' changed everything.',cn:'这个'+t+'改变了一切。'},
+            {en:'This '+word+' matters a lot.',cn:'这个'+t+'很重要。'}
+        ];
+    }else if(pos.includes('adv')){
+        examples=[
+            {en:'She '+word+' finished the work.',cn:'她'+t+'完成了工作。'},
+            {en:'He speaks '+word+'.',cn:'他说话'+t+'。'},
+            {en:'They moved '+word+'.',cn:'他们'+t+'移动。'},
+            {en:'The team worked '+word+'.',cn:'团队'+t+'工作。'},
+            {en:'She answered '+word+'.',cn:'她'+t+'回答。'}
+        ];
+    }else{
+        examples=[
+            {en:'They decided to '+word+' immediately.',cn:'他们决定立即'+t+'。'},
+            {en:'She wants to '+word+' tomorrow.',cn:'她想明天'+t+'。'},
+            {en:'Please '+word+' carefully.',cn:'请仔细'+t+'。'},
+            {en:'He needs to '+word+' soon.',cn:'他需要尽快'+t+'。'},
+            {en:'We should '+word+' together.',cn:'我们应该一起'+t+'。'}
+        ];
+    }
+
+    var idx=Math.floor(Math.random()*examples.length);
+    var ex=examples[idx];
+
+    ex.en=ex.en.charAt(0).toUpperCase()+ex.en.slice(1);
+
+    return ex;
+}
+function init(){vocabularyData.forEach(v=>{v.pos=getPOS(v.word,v.translation);v.phonetic=getPhonetic(v.word);v.example=genEx(v.word,v.pos,v.translation);});filteredData=[...vocabularyData];initFilter();render();document.getElementById('searchInput').addEventListener('input',debounce(search,300));document.getElementById('storyFilter').addEventListener('change',filter);document.getElementById('sortFilter').addEventListener('change',sort);}
 function debounce(f,w){let t;return function(...a){clearTimeout(t);t=setTimeout(()=>f(...a),w);};}
 function initFilter(){const s=document.getElementById('storyFilter');const stories=[...new Set(vocabularyData.map(v=>v.storyName))];stories.forEach(n=>{const o=document.createElement('option');o.value=n;o.textContent=n;s.appendChild(o);});document.getElementById('total-stories').textContent=stories.length;}
 function render(){const c=document.getElementById('vocabularyList');c.innerHTML='';const start=(currentPage-1)*itemsPerPage;const data=filteredData.slice(start,start+itemsPerPage);if(!data.length){c.innerHTML='<div class="no-results">未找到匹配的词汇 😢</div>';document.getElementById('pagination').innerHTML='';return;}
