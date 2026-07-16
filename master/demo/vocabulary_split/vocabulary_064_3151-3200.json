@@ -1,0 +1,307 @@
+{
+  "chunk": 64,
+  "range": "3151-3200",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 3151,
+      "word": "little",
+      "phonetic": "/'litl/",
+      "definition": "a.小，幼小；不多的 ad./n.不多，几乎没有"
+    },
+    {
+      "index": 3152,
+      "word": "inward",
+      "phonetic": "/'inwəd/",
+      "definition": "ad.向内,在内 a.向内的,在内的,里面的"
+    },
+    {
+      "index": 3153,
+      "word": "wet",
+      "phonetic": "/wet/",
+      "definition": "a.湿的,潮湿的;有雨的,多雨的 v.弄湿,沾湿"
+    },
+    {
+      "index": 3154,
+      "word": "hospitality",
+      "phonetic": "/ˌhɔspi'tæləti/",
+      "definition": "n.好客,殷勤,款待"
+    },
+    {
+      "index": 3155,
+      "word": "allocate",
+      "phonetic": "/'æləukeit/",
+      "definition": "v.分配，分派；拨给；划归"
+    },
+    {
+      "index": 3156,
+      "word": "spiritual",
+      "phonetic": "/'spiritjuəl/",
+      "definition": "a.精神(上)的,心灵的"
+    },
+    {
+      "index": 3157,
+      "word": "nightmare",
+      "phonetic": "/'naitmεə/",
+      "definition": "n.恶梦；可怕的事物，无法摆脱的恐惧"
+    },
+    {
+      "index": 3158,
+      "word": "prevalent",
+      "phonetic": "/'prevələnt/",
+      "definition": "a.流行的,普遍的"
+    },
+    {
+      "index": 3159,
+      "word": "manufacture",
+      "phonetic": "/ˌmænju'fæktʃə/",
+      "definition": "v.制造,加工 n.制造,制造业;产品"
+    },
+    {
+      "index": 3160,
+      "word": "transfer",
+      "phonetic": "/træns'fə:/",
+      "definition": "vt./n.转移；转换；转让；过户；迁移；改乘"
+    },
+    {
+      "index": 3161,
+      "word": "bankrupt",
+      "phonetic": "/'bæŋkrʌpt/",
+      "definition": "a.破产的；彻底缺乏的 vt.使破产n.破产者"
+    },
+    {
+      "index": 3162,
+      "word": "testimony",
+      "phonetic": "/'testiməni/",
+      "definition": "n.证据,证词;表明,说明"
+    },
+    {
+      "index": 3163,
+      "word": "withdraw",
+      "phonetic": "/wɪð'drɔ:/",
+      "definition": "v.收回,撤消;缩回,退出;提取(钱)"
+    },
+    {
+      "index": 3164,
+      "word": "east",
+      "phonetic": "/i:st/",
+      "definition": "n.东,东方,东部 a.东方的,东部的"
+    },
+    {
+      "index": 3165,
+      "word": "consent",
+      "phonetic": "/kən'sent/",
+      "definition": "v./n.(to)同意,赞成,答应"
+    },
+    {
+      "index": 3166,
+      "word": "who",
+      "phonetic": "/hu:/",
+      "definition": "pron.谁，什么人；…的人；他，她，他们"
+    },
+    {
+      "index": 3167,
+      "word": "raw",
+      "phonetic": "/rɔ:/",
+      "definition": "a.未煮过的,生的;未加工过的,未经训练的"
+    },
+    {
+      "index": 3168,
+      "word": "guarantee",
+      "phonetic": "/ˌgærən'ti:/",
+      "definition": "n.保证,保证书 v.保证,担保"
+    },
+    {
+      "index": 3169,
+      "word": "indignation",
+      "phonetic": "/ˌindig'neiʃən/",
+      "definition": "n.愤怒,愤慨"
+    },
+    {
+      "index": 3170,
+      "word": "chess",
+      "phonetic": "/tʃes/",
+      "definition": "n.棋，国际象棋"
+    },
+    {
+      "index": 3171,
+      "word": "benign",
+      "phonetic": "/bi'nain/",
+      "definition": "a.(病)良性的,(气候)良好的,仁慈的,和蔼的"
+    },
+    {
+      "index": 3172,
+      "word": "shade",
+      "phonetic": "/ʃeid/",
+      "definition": "n.荫,阴影;遮光物,罩 v.遮蔽,遮光"
+    },
+    {
+      "index": 3173,
+      "word": "ballot",
+      "phonetic": "/'bælət/",
+      "definition": "n.(不记名)投票；投票总数；投票权 vi.投票"
+    },
+    {
+      "index": 3174,
+      "word": "pen",
+      "phonetic": "/pen/",
+      "definition": "n.钢笔,圆珠笔,作家,围栏 vt.写,关入栏中"
+    },
+    {
+      "index": 3175,
+      "word": "understanding",
+      "phonetic": "/ˌʌndə'stændiŋ/",
+      "definition": "n.理解,理解力;谅解 a.了解的,通情达理的"
+    },
+    {
+      "index": 3176,
+      "word": "teacher",
+      "phonetic": "/'ti:tʃə/",
+      "definition": "n.教师(员)，老(导)师"
+    },
+    {
+      "index": 3177,
+      "word": "fetch",
+      "phonetic": "/fetʃ/",
+      "definition": "v.取来;接来;引出;售得;吸引 n.取得;拿"
+    },
+    {
+      "index": 3178,
+      "word": "whistle",
+      "phonetic": "/'hwisl/",
+      "definition": "n.口哨,汽笛;口哨声,汽笛声 v.吹口哨;鸣笛"
+    },
+    {
+      "index": 3179,
+      "word": "flush",
+      "phonetic": "/flʌʃ/",
+      "definition": "n.脸红v.发红;奔流a.洋溢的;富裕的;齐平的"
+    },
+    {
+      "index": 3180,
+      "word": "legal",
+      "phonetic": "/'li:gl/",
+      "definition": "a.法律的,法定的;合法的,正当的"
+    },
+    {
+      "index": 3181,
+      "word": "submerge",
+      "phonetic": "/səb'mə:dʒ/",
+      "definition": "v.沉没,淹没;潜入"
+    },
+    {
+      "index": 3182,
+      "word": "homogeneous",
+      "phonetic": "/ˌhɒmə'dʒi:niəs/",
+      "definition": "a.同种类的，同性质的，有相同特征的"
+    },
+    {
+      "index": 3183,
+      "word": "autonomy",
+      "phonetic": "/ɔ:'tɔnəmi/",
+      "definition": "n.自治，自治权；"
+    },
+    {
+      "index": 3184,
+      "word": "today",
+      "phonetic": "/tə'dei/",
+      "definition": "ad.在今天；现今，在当代 n.今天；现在"
+    },
+    {
+      "index": 3185,
+      "word": "criticism",
+      "phonetic": "/'krɪtɪsɪzəm/",
+      "definition": "n.评论性的文章，评论；批评，指责，非难"
+    },
+    {
+      "index": 3186,
+      "word": "accent",
+      "phonetic": "/'æksənt/",
+      "definition": "n.口音,腔调；重音(符号)vt.重读"
+    },
+    {
+      "index": 3187,
+      "word": "beside",
+      "phonetic": "/bi'said/",
+      "definition": "prep.在...旁边，在...附近；和...相比"
+    },
+    {
+      "index": 3188,
+      "word": "employer",
+      "phonetic": "/im'plɔiə/",
+      "definition": "n.雇主"
+    },
+    {
+      "index": 3189,
+      "word": "out",
+      "phonetic": "/aut/",
+      "definition": "ad.出去；离家；突出来 a.外面的，往外去的"
+    },
+    {
+      "index": 3190,
+      "word": "successive",
+      "phonetic": "/sək'sesiv/",
+      "definition": "a.接连的,连续的"
+    },
+    {
+      "index": 3191,
+      "word": "loose",
+      "phonetic": "/lu:s/",
+      "definition": "a.(宽)松的；不精确的；自由的，散漫的"
+    },
+    {
+      "index": 3192,
+      "word": "telephone",
+      "phonetic": "/'telifəun/",
+      "definition": "n.电话,电话机 v.打电话"
+    },
+    {
+      "index": 3193,
+      "word": "withstand",
+      "phonetic": "/wið'stænd/",
+      "definition": "vt.抵抗,经受住"
+    },
+    {
+      "index": 3194,
+      "word": "reel",
+      "phonetic": "/ri:l/",
+      "definition": "n.卷筒,线轴 v.卷,绕"
+    },
+    {
+      "index": 3195,
+      "word": "prominent",
+      "phonetic": "/'prɔminənt/",
+      "definition": "a.突起的,凸出的;突出的,杰出的"
+    },
+    {
+      "index": 3196,
+      "word": "thermometer",
+      "phonetic": "/θə'mɔmitə/",
+      "definition": "n.温度计"
+    },
+    {
+      "index": 3197,
+      "word": "matter",
+      "phonetic": "/'mætə(r)/",
+      "definition": "n.物质,物体;毛病,麻烦;事情 v.有关系,要紧"
+    },
+    {
+      "index": 3198,
+      "word": "some",
+      "phonetic": "/sʌm/",
+      "definition": "a.几个；一些；有些；某(人或物) pron.一些"
+    },
+    {
+      "index": 3199,
+      "word": "must",
+      "phonetic": "/mʌst/",
+      "definition": "aux.&v.必须；很可能；一定要 n.必须做的事"
+    },
+    {
+      "index": 3200,
+      "word": "retain",
+      "phonetic": "/ri'tein/",
+      "definition": "v.保持,保留"
+    }
+  ]
+}

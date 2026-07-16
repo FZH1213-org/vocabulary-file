@@ -1,0 +1,307 @@
+{
+  "chunk": 25,
+  "range": "1201-1250",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 1201,
+      "word": "intense",
+      "phonetic": "/in'tens/",
+      "definition": "a.强烈的,剧烈的;热烈的,热情的"
+    },
+    {
+      "index": 1202,
+      "word": "curious",
+      "phonetic": "/'kjuəriəs/",
+      "definition": "a.好奇的, 求知的, 古怪的, 爱挑剔的"
+    },
+    {
+      "index": 1203,
+      "word": "eminent",
+      "phonetic": "/'eminənt/",
+      "definition": "a.显赫的;杰出的;有名的;优良的"
+    },
+    {
+      "index": 1204,
+      "word": "curl",
+      "phonetic": "/kə:l/",
+      "definition": "v.(使)卷曲,蜷缩 n.卷发;卷曲状;卷曲物"
+    },
+    {
+      "index": 1205,
+      "word": "depress",
+      "phonetic": "/di'pres/",
+      "definition": "v.压抑,降低;使沮丧,压下"
+    },
+    {
+      "index": 1206,
+      "word": "displace",
+      "phonetic": "/dis'pleis/",
+      "definition": "v.移置,转移;取代,置换"
+    },
+    {
+      "index": 1207,
+      "word": "dim",
+      "phonetic": "/dim/",
+      "definition": "a.暗淡的,模糊的"
+    },
+    {
+      "index": 1208,
+      "word": "custom",
+      "phonetic": "/'kʌstəm/",
+      "definition": "n.习惯,风俗,惯例;(pl.)海关,关税"
+    },
+    {
+      "index": 1209,
+      "word": "rid",
+      "phonetic": "/rid/",
+      "definition": "v.(of)使摆脱,使去掉"
+    },
+    {
+      "index": 1210,
+      "word": "grant",
+      "phonetic": "/grɑ:nt/",
+      "definition": "v.同意,准予;授予 n.授予物;津贴;转让证书"
+    },
+    {
+      "index": 1211,
+      "word": "dramatic",
+      "phonetic": "/drə'mætɪk/",
+      "definition": "a.戏剧的,戏剧性的;剧烈的"
+    },
+    {
+      "index": 1212,
+      "word": "quiet",
+      "phonetic": "/'kwaɪət/",
+      "definition": "a.安静的,平静的 n.安静 v.使安静,平静"
+    },
+    {
+      "index": 1213,
+      "word": "kill",
+      "phonetic": "/kil/",
+      "definition": "vt.杀死，消灭；破坏，毁灭；消磨(时间)"
+    },
+    {
+      "index": 1214,
+      "word": "locker",
+      "phonetic": "/'lɔkə/",
+      "definition": "n.更衣箱"
+    },
+    {
+      "index": 1215,
+      "word": "commission",
+      "phonetic": "/kə'miʃən/",
+      "definition": "n.委员会;委任,委托(书),代办;佣金,手续费"
+    },
+    {
+      "index": 1216,
+      "word": "halt",
+      "phonetic": "/hɔ:lt/",
+      "definition": "n.止步,停步,停止前进 v.止步,(使)停止"
+    },
+    {
+      "index": 1217,
+      "word": "housewife",
+      "phonetic": "/'hauswaif/",
+      "definition": "n.家庭主妇"
+    },
+    {
+      "index": 1218,
+      "word": "recipe",
+      "phonetic": "/'resəpi/",
+      "definition": "n.烹饪法,食谱;诀窍,方法"
+    },
+    {
+      "index": 1219,
+      "word": "only",
+      "phonetic": "/'əunli/",
+      "definition": "ad.仅仅，只不过 a.唯一的 conj.可是，不过"
+    },
+    {
+      "index": 1220,
+      "word": "hers",
+      "phonetic": "/hə:z/",
+      "definition": "pron.[she的物主代词]她的(所有物)"
+    },
+    {
+      "index": 1221,
+      "word": "orphan",
+      "phonetic": "/'ɔ:fən/",
+      "definition": "n.孤儿"
+    },
+    {
+      "index": 1222,
+      "word": "country",
+      "phonetic": "/'kʌntri/",
+      "definition": "n.国家;农村,乡下"
+    },
+    {
+      "index": 1223,
+      "word": "perceive",
+      "phonetic": "/pə'si:v/",
+      "definition": "v.察觉,感知;理解,领悟"
+    },
+    {
+      "index": 1224,
+      "word": "signal",
+      "phonetic": "/'sɪgnəl/",
+      "definition": "n.信号,暗号 v.发信号,用信号通知"
+    },
+    {
+      "index": 1225,
+      "word": "sociable",
+      "phonetic": "/'səuʃəbl/",
+      "definition": "a.好交际的，友好的，合群的"
+    },
+    {
+      "index": 1226,
+      "word": "painting",
+      "phonetic": "/'peintiŋ/",
+      "definition": "n.上油漆,着色;绘画;油画;画法"
+    },
+    {
+      "index": 1227,
+      "word": "lane",
+      "phonetic": "/leɪn/",
+      "definition": "n.小路,小巷,行车道"
+    },
+    {
+      "index": 1228,
+      "word": "bunch",
+      "phonetic": "/'bʌntʃ/",
+      "definition": "n.(一)簇,束,捆,串"
+    },
+    {
+      "index": 1229,
+      "word": "canteen",
+      "phonetic": "/kæn'ti:n/",
+      "definition": "n.(工厂、办公室等)食堂或小卖部"
+    },
+    {
+      "index": 1230,
+      "word": "hedge",
+      "phonetic": "/hedʒ/",
+      "definition": "n.篱笆,树篱,障碍物 v.用树篱围住"
+    },
+    {
+      "index": 1231,
+      "word": "six",
+      "phonetic": "/siks/",
+      "definition": "num.六 pron./a.六(个，只...)"
+    },
+    {
+      "index": 1232,
+      "word": "surprise",
+      "phonetic": "/sə'praiz/",
+      "definition": "v.使诧异,使惊异;奇袭 n.诧异,惊异;奇袭"
+    },
+    {
+      "index": 1233,
+      "word": "damage",
+      "phonetic": "/'dæmɪdʒ/",
+      "definition": "v./n.损害,毁坏 n.(pl.)损害赔偿费"
+    },
+    {
+      "index": 1234,
+      "word": "stocking",
+      "phonetic": "/'stɔkiŋ/",
+      "definition": "n.长(统)袜"
+    },
+    {
+      "index": 1235,
+      "word": "contend",
+      "phonetic": "/kən'tend/",
+      "definition": "v.竞争,斗争;坚决主张"
+    },
+    {
+      "index": 1236,
+      "word": "difficult",
+      "phonetic": "/'difikəlt/",
+      "definition": "a.困难的,艰难的"
+    },
+    {
+      "index": 1237,
+      "word": "illusion",
+      "phonetic": "/i'lju:ʒən/",
+      "definition": "n.幻想，错误的观念；错觉，幻觉，假象"
+    },
+    {
+      "index": 1238,
+      "word": "hi",
+      "phonetic": "/hai/",
+      "definition": "interj.(hey)嗨!喂!"
+    },
+    {
+      "index": 1239,
+      "word": "head",
+      "phonetic": "/hed/",
+      "definition": "n.头；顶部；领导,首脑 v.主管；位于..顶部"
+    },
+    {
+      "index": 1240,
+      "word": "mislead",
+      "phonetic": "/ˌmis'li:d/",
+      "definition": "v.把…带错路,使误入岐途"
+    },
+    {
+      "index": 1241,
+      "word": "in",
+      "phonetic": "/in/",
+      "definition": "prep.在…里(内，上)；用…(表示)ad.进，入"
+    },
+    {
+      "index": 1242,
+      "word": "rash",
+      "phonetic": "/ræʃ/",
+      "definition": "a.轻率的,鲁莽的 n.皮疹"
+    },
+    {
+      "index": 1243,
+      "word": "substantial",
+      "phonetic": "/səb'stænʃəl/",
+      "definition": "a.实质的;相当的;显著的;坚固的;富裕的"
+    },
+    {
+      "index": 1244,
+      "word": "presume",
+      "phonetic": "/pri'zju:m/",
+      "definition": "v.假定,假设,认为,揣测,滥用,擅自行动"
+    },
+    {
+      "index": 1245,
+      "word": "desire",
+      "phonetic": "/di'zaiə/",
+      "definition": "v./n.愿望,欲望,要求"
+    },
+    {
+      "index": 1246,
+      "word": "tissue",
+      "phonetic": "/'tɪʃu:/",
+      "definition": "n.织物,薄绢,纸巾;(动,植物的)组织"
+    },
+    {
+      "index": 1247,
+      "word": "file",
+      "phonetic": "/faɪl/",
+      "definition": "n.锉刀;文件,档案 v.锉"
+    },
+    {
+      "index": 1248,
+      "word": "air",
+      "phonetic": "/εə/",
+      "definition": "n.空气；(复数)神气 vt.(使)通风；晾干"
+    },
+    {
+      "index": 1249,
+      "word": "despise",
+      "phonetic": "/di'spaiz/",
+      "definition": "v.轻视,蔑视"
+    },
+    {
+      "index": 1250,
+      "word": "torch",
+      "phonetic": "/tɔ:tʃ/",
+      "definition": "n.手电筒;火炬,火把"
+    }
+  ]
+}

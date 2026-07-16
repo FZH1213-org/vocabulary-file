@@ -1,0 +1,307 @@
+{
+  "chunk": 98,
+  "range": "4851-4900",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 4851,
+      "word": "tree",
+      "phonetic": "/tri:/",
+      "definition": "n.树,树状物  vi.爬上树"
+    },
+    {
+      "index": 4852,
+      "word": "order",
+      "phonetic": "/'ɔrdɚ/",
+      "definition": "n.命令;次序;整齐;定货单;等级 v.定制,订购"
+    },
+    {
+      "index": 4853,
+      "word": "aim",
+      "phonetic": "/eim/",
+      "definition": "n.目的；瞄准 vi.(at)目的在于 vt.把…瞄准"
+    },
+    {
+      "index": 4854,
+      "word": "yell",
+      "phonetic": "/jel/",
+      "definition": "vi.大叫;呼喊 vt.叫着说 n.叫声;喊声"
+    },
+    {
+      "index": 4855,
+      "word": "bar",
+      "phonetic": "/bɑ:(r)/",
+      "definition": "n.条,杆,闩;酒吧;栅,障碍(物) v.闩上,阻拦"
+    },
+    {
+      "index": 4856,
+      "word": "item",
+      "phonetic": "/'aɪtəm/",
+      "definition": "n.条(款)，项目；一则(新闻)，(戏剧的)节目"
+    },
+    {
+      "index": 4857,
+      "word": "per",
+      "phonetic": "/pə:/",
+      "definition": "prep.每;经,由"
+    },
+    {
+      "index": 4858,
+      "word": "cease",
+      "phonetic": "/si:s/",
+      "definition": "v./n.停止,中止"
+    },
+    {
+      "index": 4859,
+      "word": "flare",
+      "phonetic": "/fleə(r)/",
+      "definition": "v./n.闪耀,闪烁"
+    },
+    {
+      "index": 4860,
+      "word": "physiological",
+      "phonetic": "/ˌfiziə'lɔdʒikəl/",
+      "definition": "a.生理学的, 生理学上的"
+    },
+    {
+      "index": 4861,
+      "word": "camp",
+      "phonetic": "/kæmp/",
+      "definition": "n.野营,营地;帐篷,阵营 v.设营,宿营"
+    },
+    {
+      "index": 4862,
+      "word": "stoop",
+      "phonetic": "/stu:p/",
+      "definition": "v.弯腰,俯身 n.弯腰,曲背"
+    },
+    {
+      "index": 4863,
+      "word": "decorate",
+      "phonetic": "/'dekəreit/",
+      "definition": "v.装饰,装璜,布置"
+    },
+    {
+      "index": 4864,
+      "word": "plateau",
+      "phonetic": "/'plætəu/",
+      "definition": "n.高原,平稳状态[时期]"
+    },
+    {
+      "index": 4865,
+      "word": "refine",
+      "phonetic": "/ri'fain/",
+      "definition": "v.精炼,精制,提纯;使文雅,使高尚"
+    },
+    {
+      "index": 4866,
+      "word": "prosperity",
+      "phonetic": "/prɔs'periti/",
+      "definition": "n.繁荣,兴旺"
+    },
+    {
+      "index": 4867,
+      "word": "shaft",
+      "phonetic": "/ʃɑ:ft/",
+      "definition": "n.轴;杆状物"
+    },
+    {
+      "index": 4868,
+      "word": "donate",
+      "phonetic": "/dəu'neɪt/",
+      "definition": "vt.损赠(金钱等);赠予"
+    },
+    {
+      "index": 4869,
+      "word": "everyone",
+      "phonetic": "/'evriwʌn/",
+      "definition": "pron.(everybody)每人，人人，各人"
+    },
+    {
+      "index": 4870,
+      "word": "intensive",
+      "phonetic": "/in'tensiv/",
+      "definition": "a.加强的,集中的,深入细致的,精耕细作的"
+    },
+    {
+      "index": 4871,
+      "word": "sailor",
+      "phonetic": "/'seilə/",
+      "definition": "n.水手,海员"
+    },
+    {
+      "index": 4872,
+      "word": "negotiate",
+      "phonetic": "/ni'gəuʃieit/",
+      "definition": "v.商订；谈判，洽谈，交涉"
+    },
+    {
+      "index": 4873,
+      "word": "recognition",
+      "phonetic": "/ˌrekəg'niʃən/",
+      "definition": "n.认出,辨认;承认"
+    },
+    {
+      "index": 4874,
+      "word": "burst",
+      "phonetic": "/bə:st/",
+      "definition": "v.爆裂,炸破;突然发生 n.突然破裂,爆发"
+    },
+    {
+      "index": 4875,
+      "word": "systematic",
+      "phonetic": "/ˌsɪstə'mætɪk/",
+      "definition": "a.(systematical)系统的,有组织的"
+    },
+    {
+      "index": 4876,
+      "word": "hear",
+      "phonetic": "/hiə/",
+      "definition": "v.听见；审讯；(from)收到..的信/电话;听说"
+    },
+    {
+      "index": 4877,
+      "word": "shine",
+      "phonetic": "/ʃaɪn/",
+      "definition": "v.照耀,发光;擦亮 n.光泽,光"
+    },
+    {
+      "index": 4878,
+      "word": "tiresome",
+      "phonetic": "/'taiəsəm/",
+      "definition": "a.使人厌倦的,讨厌的"
+    },
+    {
+      "index": 4879,
+      "word": "peasant",
+      "phonetic": "/'pezənt/",
+      "definition": "n.(不用于英国或美国)小农;佃农;农民"
+    },
+    {
+      "index": 4880,
+      "word": "idiom",
+      "phonetic": "/'idiəm/",
+      "definition": "n.习语;成语方言;(艺术等的)风格,特色"
+    },
+    {
+      "index": 4881,
+      "word": "mock",
+      "phonetic": "/mɔk/",
+      "definition": "v.嘲笑 a.假的,模拟的 n.(常pl.)模拟考试"
+    },
+    {
+      "index": 4882,
+      "word": "river",
+      "phonetic": "/'rivə/",
+      "definition": "n.河流"
+    },
+    {
+      "index": 4883,
+      "word": "wholesome",
+      "phonetic": "/'həulsəm/",
+      "definition": "a.卫生的;有益的;健康的,有益健康的"
+    },
+    {
+      "index": 4884,
+      "word": "tower",
+      "phonetic": "/'tauə/",
+      "definition": "n.塔 v.高耸"
+    },
+    {
+      "index": 4885,
+      "word": "enlighten",
+      "phonetic": "/in'laitən/",
+      "definition": "v.启发,启蒙,教导"
+    },
+    {
+      "index": 4886,
+      "word": "summary",
+      "phonetic": "/'sʌməri/",
+      "definition": "n.摘要,概要 a.概括的,简略的"
+    },
+    {
+      "index": 4887,
+      "word": "conjunction",
+      "phonetic": "/kən'dʒʌŋkʃən/",
+      "definition": "n.接合，连接，联合；连(接)词"
+    },
+    {
+      "index": 4888,
+      "word": "adhere",
+      "phonetic": "/əd'hiə/",
+      "definition": "vi.(to)粘着；坚持，遵守；依附，追随"
+    },
+    {
+      "index": 4889,
+      "word": "foundation",
+      "phonetic": "/faun'deiʃən/",
+      "definition": "n.基础,根本,建立,创立;地基,基金,基金会"
+    },
+    {
+      "index": 4890,
+      "word": "despite",
+      "phonetic": "/di'spait/",
+      "definition": "prep.不管,不顾"
+    },
+    {
+      "index": 4891,
+      "word": "flower",
+      "phonetic": "/'flauə/",
+      "definition": "n.花；精华，精粹，精英；盛时 vi.开花"
+    },
+    {
+      "index": 4892,
+      "word": "initiate",
+      "phonetic": "/i'niʃieit/",
+      "definition": "vt.开始，创始，发动；启蒙，使入门；引入"
+    },
+    {
+      "index": 4893,
+      "word": "coarse",
+      "phonetic": "/kɔ:s/",
+      "definition": "a.粗糙的,粗劣的;粗鲁的,粗俗的"
+    },
+    {
+      "index": 4894,
+      "word": "belt",
+      "phonetic": "/belt/",
+      "definition": "n.(皮)带,腰带;地带"
+    },
+    {
+      "index": 4895,
+      "word": "moon",
+      "phonetic": "/mu:n/",
+      "definition": "n.(加the)月球，月亮；卫星"
+    },
+    {
+      "index": 4896,
+      "word": "coupon",
+      "phonetic": "/'ku:pɔn/",
+      "definition": "n.证明持券人有某权利的卡片，票证，赠券"
+    },
+    {
+      "index": 4897,
+      "word": "accordance",
+      "phonetic": "/ə'kɔ:dəns/",
+      "definition": "n.一致，和谐，符合"
+    },
+    {
+      "index": 4898,
+      "word": "decision",
+      "phonetic": "/di'siʒən/",
+      "definition": "n.决定,决心;决议;决策"
+    },
+    {
+      "index": 4899,
+      "word": "big",
+      "phonetic": "/big/",
+      "definition": "a.大的；重要的；宽宏大量的；大受欢迎的"
+    },
+    {
+      "index": 4900,
+      "word": "cough",
+      "phonetic": "/kɔ:f/",
+      "definition": "v./n.咳嗽"
+    }
+  ]
+}

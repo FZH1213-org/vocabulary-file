@@ -1,0 +1,307 @@
+{
+  "chunk": 13,
+  "range": "601-650",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 601,
+      "word": "lack",
+      "phonetic": "/læk/",
+      "definition": "n./v.缺乏,不足"
+    },
+    {
+      "index": 602,
+      "word": "whisky",
+      "phonetic": "/'hwiski/",
+      "definition": "n.威士忌酒"
+    },
+    {
+      "index": 603,
+      "word": "copy",
+      "phonetic": "/'kɒpi/",
+      "definition": "n.抄本，摹本；(一)本 vt.抄写；考试中抄袭"
+    },
+    {
+      "index": 604,
+      "word": "fiber",
+      "phonetic": "/faɪbə/",
+      "definition": "n.(fibre)纤维;构造;纤维制品"
+    },
+    {
+      "index": 605,
+      "word": "jaw",
+      "phonetic": "/dʒɔ:/",
+      "definition": "n.颌,颚"
+    },
+    {
+      "index": 606,
+      "word": "passenger",
+      "phonetic": "/'pæsindʒə/",
+      "definition": "n.乘客,旅客"
+    },
+    {
+      "index": 607,
+      "word": "programme",
+      "phonetic": "/'prəugræm/",
+      "definition": "n.(program)节目,计划,规划,程序 v.编程序"
+    },
+    {
+      "index": 608,
+      "word": "assistant",
+      "phonetic": "/ə'sistənt/",
+      "definition": "a.帮助的，辅助的 n.助手，助教；辅助物"
+    },
+    {
+      "index": 609,
+      "word": "want",
+      "phonetic": "/wɔnt/",
+      "definition": "vt.想要;希望;需要;缺,缺少 n.需要;短缺"
+    },
+    {
+      "index": 610,
+      "word": "black",
+      "phonetic": "/blæk/",
+      "definition": "a.黑(色)的；黑暗的 n.黑(色)；黑暗；黑人"
+    },
+    {
+      "index": 611,
+      "word": "hollow",
+      "phonetic": "/'hɔləu/",
+      "definition": "a.空的,中空的;空洞的,空虚的 v.挖空,凿空"
+    },
+    {
+      "index": 612,
+      "word": "tomato",
+      "phonetic": "/tə'mɑ:təu/",
+      "definition": "n.西红柿"
+    },
+    {
+      "index": 613,
+      "word": "sanction",
+      "phonetic": "/'sæŋˌkʃən/",
+      "definition": "n./v.批准,同意,支持,认可 n.处罚,制裁"
+    },
+    {
+      "index": 614,
+      "word": "village",
+      "phonetic": "/'vilidʒ/",
+      "definition": "n.村,村庄"
+    },
+    {
+      "index": 615,
+      "word": "occasional",
+      "phonetic": "/ə'keiʒənəl/",
+      "definition": "a.偶然的,非经常的,特殊场合的;临时的"
+    },
+    {
+      "index": 616,
+      "word": "violence",
+      "phonetic": "/'vaiələns/",
+      "definition": "n.猛烈,强烈;暴力,暴行;强暴"
+    },
+    {
+      "index": 617,
+      "word": "clothes",
+      "phonetic": "/kləuðz/",
+      "definition": "n.衣服(虽为复数，亦不可数)"
+    },
+    {
+      "index": 618,
+      "word": "betray",
+      "phonetic": "/bi'trei/",
+      "definition": "v.背叛,出卖;暴露,流露,泄露"
+    },
+    {
+      "index": 619,
+      "word": "condition",
+      "phonetic": "/kən'diʃən/",
+      "definition": "n.条件，状况，环境 vt.决定；支配；训练"
+    },
+    {
+      "index": 620,
+      "word": "prolong",
+      "phonetic": "/prə'lɔŋ/",
+      "definition": "v.拉长,延长,拖延"
+    },
+    {
+      "index": 621,
+      "word": "instrument",
+      "phonetic": "/'ɪnstrəmənt/",
+      "definition": "n.工具,仪器,器械;乐器"
+    },
+    {
+      "index": 622,
+      "word": "batch",
+      "phonetic": "/bætʃ/",
+      "definition": "n.一批,一组,一群"
+    },
+    {
+      "index": 623,
+      "word": "keen",
+      "phonetic": "/ki:n/",
+      "definition": "a.锋利的;敏锐的;敏捷的;(on)热心的,渴望的"
+    },
+    {
+      "index": 624,
+      "word": "addition",
+      "phonetic": "/ə'diʃən/",
+      "definition": "n.加，加法；附加部分，增加(物)"
+    },
+    {
+      "index": 625,
+      "word": "chamber",
+      "phonetic": "/'tʃeimbə/",
+      "definition": "n.房间，室；会议室；议院；(动物体内)腔室"
+    },
+    {
+      "index": 626,
+      "word": "resident",
+      "phonetic": "/'rezidənt/",
+      "definition": "n.居民,常住者 a.居住的"
+    },
+    {
+      "index": 627,
+      "word": "lazy",
+      "phonetic": "/'leɪzi/",
+      "definition": "a.懒惰的,懒散的"
+    },
+    {
+      "index": 628,
+      "word": "your",
+      "phonetic": "/jɔ:/",
+      "definition": "pron.[you的所有格]你的，你们的"
+    },
+    {
+      "index": 629,
+      "word": "strange",
+      "phonetic": "/streindʒ/",
+      "definition": "a.奇怪的,奇异的;陌生的,生疏的;外地的"
+    },
+    {
+      "index": 630,
+      "word": "ultimate",
+      "phonetic": "/'ʌltimət/",
+      "definition": "a.最后的,最终的;根本的"
+    },
+    {
+      "index": 631,
+      "word": "friend",
+      "phonetic": "/frend/",
+      "definition": "n.朋友"
+    },
+    {
+      "index": 632,
+      "word": "superfluous",
+      "phonetic": "/sju'pə:fluəs/",
+      "definition": "a.多余的，过剩的，"
+    },
+    {
+      "index": 633,
+      "word": "perhaps",
+      "phonetic": "/pə'hæps/",
+      "definition": "ad.也许,大概,恐怕"
+    },
+    {
+      "index": 634,
+      "word": "quantity",
+      "phonetic": "/'kwɔntəti/",
+      "definition": "n.量,数量;大量"
+    },
+    {
+      "index": 635,
+      "word": "rude",
+      "phonetic": "/ru:d/",
+      "definition": "a.粗鲁的;猛烈的,残暴的;粗糙的,粗陋的"
+    },
+    {
+      "index": 636,
+      "word": "inlet",
+      "phonetic": "/'ɪnlet/",
+      "definition": "n.水湾,小湾;进口,入口"
+    },
+    {
+      "index": 637,
+      "word": "blow",
+      "phonetic": "/bləu/",
+      "definition": "vi.吹，吹气，打气；吹奏；爆炸；n.打,打击"
+    },
+    {
+      "index": 638,
+      "word": "sweater",
+      "phonetic": "/'swetə/",
+      "definition": "n.毛衣,绒衣,厚运动衫"
+    },
+    {
+      "index": 639,
+      "word": "coin",
+      "phonetic": "/kɔin/",
+      "definition": "n.硬币,货币 v.铸造(硬币),创造(新词)"
+    },
+    {
+      "index": 640,
+      "word": "telegraph",
+      "phonetic": "/'teligrɑ:f/",
+      "definition": "n.电报机,电报 v.打电报,发电报"
+    },
+    {
+      "index": 641,
+      "word": "visit",
+      "phonetic": "/'vizit/",
+      "definition": "n.访问,参观 v.访问,参观;视察;降临;闲谈"
+    },
+    {
+      "index": 642,
+      "word": "error",
+      "phonetic": "/'erə/",
+      "definition": "n.错误,过失"
+    },
+    {
+      "index": 643,
+      "word": "desirable",
+      "phonetic": "/di'zaiərəbl/",
+      "definition": "a.值得做的;合意的,称心的;期望得到的"
+    },
+    {
+      "index": 644,
+      "word": "nod",
+      "phonetic": "/nɔd/",
+      "definition": "v.点(头),点头招呼 n.点头招呼;打盹,瞌睡"
+    },
+    {
+      "index": 645,
+      "word": "surgery",
+      "phonetic": "/'sə:dʒəri/",
+      "definition": "n.外科,外科学;手术室,诊疗室"
+    },
+    {
+      "index": 646,
+      "word": "denote",
+      "phonetic": "/di'nəut/",
+      "definition": "vt.表示,意味着"
+    },
+    {
+      "index": 647,
+      "word": "Saturday",
+      "phonetic": "/'sætədeɪ/",
+      "definition": "n.星期六"
+    },
+    {
+      "index": 648,
+      "word": "staircase",
+      "phonetic": "/'stεəkeis/",
+      "definition": "n.(stairway)楼梯"
+    },
+    {
+      "index": 649,
+      "word": "innocent",
+      "phonetic": "/'inəsənt/",
+      "definition": "a.(of)清白的,无罪的;无害的;单纯的,无知的"
+    },
+    {
+      "index": 650,
+      "word": "select",
+      "phonetic": "/si'lekt/",
+      "definition": "v.选择,挑选 a.精选的,选择的"
+    }
+  ]
+}

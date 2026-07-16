@@ -1,0 +1,307 @@
+{
+  "chunk": 76,
+  "range": "3751-3800",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 3751,
+      "word": "cut",
+      "phonetic": "/kʌt/",
+      "definition": "n./v.切，割，削;削减，删节 n.切口，伤口"
+    },
+    {
+      "index": 3752,
+      "word": "as",
+      "phonetic": "/æz/",
+      "definition": "ad.同样地 conj.由于；像...一样 prep.作为"
+    },
+    {
+      "index": 3753,
+      "word": "inherit",
+      "phonetic": "/in'herit/",
+      "definition": "vt.继承(金钱等)，经遗传而得(性格、特征)"
+    },
+    {
+      "index": 3754,
+      "word": "portrait",
+      "phonetic": "/'pɔ:trit/",
+      "definition": "n.肖像,画像"
+    },
+    {
+      "index": 3755,
+      "word": "behind",
+      "phonetic": "/bi'haind/",
+      "definition": "prep.在...的背后，(遗留)在..后面；落后于"
+    },
+    {
+      "index": 3756,
+      "word": "essay",
+      "phonetic": "/'esei/",
+      "definition": "n.文章,短文"
+    },
+    {
+      "index": 3757,
+      "word": "sensible",
+      "phonetic": "/'sensəbl/",
+      "definition": "a.明智的,达理的;可觉察的,明显的"
+    },
+    {
+      "index": 3758,
+      "word": "job",
+      "phonetic": "/dʒɔb/",
+      "definition": "n.工作；零活，一件工作；任务，职责"
+    },
+    {
+      "index": 3759,
+      "word": "sort",
+      "phonetic": "/sɔ:t/",
+      "definition": "n.种类,类别 v.分类,整理"
+    },
+    {
+      "index": 3760,
+      "word": "enclosure",
+      "phonetic": "/in'kləuʒə/",
+      "definition": "n.围住,圈起,封入,附件"
+    },
+    {
+      "index": 3761,
+      "word": "energetic",
+      "phonetic": "/ˌenə'dʒetik/",
+      "definition": "a.精力旺盛的;积极的;有力的"
+    },
+    {
+      "index": 3762,
+      "word": "something",
+      "phonetic": "/'sʌmθiŋ/",
+      "definition": "pron.某事，某物；被视为有意义的事物"
+    },
+    {
+      "index": 3763,
+      "word": "telescope",
+      "phonetic": "/'teliskəup/",
+      "definition": "n.望远镜 v.缩短，压缩"
+    },
+    {
+      "index": 3764,
+      "word": "prosperous",
+      "phonetic": "/'prɔspərəs/",
+      "definition": "a.繁荣的,兴旺的,茂盛的,顺利的"
+    },
+    {
+      "index": 3765,
+      "word": "rapid",
+      "phonetic": "/'ræpid/",
+      "definition": "a.快,急速的 n.(pl.)急流,湍滩"
+    },
+    {
+      "index": 3766,
+      "word": "behalf",
+      "phonetic": "/bi'hɑ:f/",
+      "definition": "n.利益"
+    },
+    {
+      "index": 3767,
+      "word": "shampoo",
+      "phonetic": "/ʃæm'pu:/",
+      "definition": "n.洗发膏,香波;洗发,洗头 v.洗发,洗头"
+    },
+    {
+      "index": 3768,
+      "word": "suburb",
+      "phonetic": "/'sʌbə:b/",
+      "definition": "n.市郊,郊区"
+    },
+    {
+      "index": 3769,
+      "word": "feature",
+      "phonetic": "/'fi:tʃə/",
+      "definition": "n.特征;容貌;特色;特写 v.以...为特色"
+    },
+    {
+      "index": 3770,
+      "word": "twist",
+      "phonetic": "/twist/",
+      "definition": "v.捻;拧;扭曲;蜿蜒曲折而行 n.拧;歪曲;曲折"
+    },
+    {
+      "index": 3771,
+      "word": "sad",
+      "phonetic": "/sæd/",
+      "definition": "a.悲哀的,忧愁的"
+    },
+    {
+      "index": 3772,
+      "word": "duration",
+      "phonetic": "/dju'reɪʃn/",
+      "definition": "n.持久;期间;持续时间"
+    },
+    {
+      "index": 3773,
+      "word": "organize",
+      "phonetic": "/'ɔ:gənaiz/",
+      "definition": "v.(organise)组织,编组"
+    },
+    {
+      "index": 3774,
+      "word": "illness",
+      "phonetic": "/'ilnis/",
+      "definition": "n.病,疾病"
+    },
+    {
+      "index": 3775,
+      "word": "commodity",
+      "phonetic": "/kə'mɔditi/",
+      "definition": "n.(pl.)日用品；商品；农/矿产品；有用之物"
+    },
+    {
+      "index": 3776,
+      "word": "vacation",
+      "phonetic": "/və'keiʃən/",
+      "definition": "n.休假,假期"
+    },
+    {
+      "index": 3777,
+      "word": "invariably",
+      "phonetic": "/in'vɛəriəbli/",
+      "definition": "ad.不变地，永恒地，总是"
+    },
+    {
+      "index": 3778,
+      "word": "Thursday",
+      "phonetic": "/'θɜ:zdeɪ/",
+      "definition": "n.星期四"
+    },
+    {
+      "index": 3779,
+      "word": "purchase",
+      "phonetic": "/'pə:tʃəs/",
+      "definition": "v.买,购买 n.购买的物品"
+    },
+    {
+      "index": 3780,
+      "word": "overall",
+      "phonetic": "/'əuvərɔ:l/",
+      "definition": "a.全面的,综合的 n.(pl.)(套头)工作服"
+    },
+    {
+      "index": 3781,
+      "word": "cattle",
+      "phonetic": "/'kætl/",
+      "definition": "n.牛;牲口,家畜"
+    },
+    {
+      "index": 3782,
+      "word": "attack",
+      "phonetic": "/ə'tæk/",
+      "definition": "v./n.攻击，抨击；着手，开始  n.(病)发作"
+    },
+    {
+      "index": 3783,
+      "word": "picnic",
+      "phonetic": "/'piknik/",
+      "definition": "n.野餐 v.(去)野餐"
+    },
+    {
+      "index": 3784,
+      "word": "coffee",
+      "phonetic": "/'kɔfi/",
+      "definition": "n.咖啡(色)"
+    },
+    {
+      "index": 3785,
+      "word": "precedent",
+      "phonetic": "/pri'si:dənt/",
+      "definition": "n.先例"
+    },
+    {
+      "index": 3786,
+      "word": "brilliant",
+      "phonetic": "/'brɪliənt/",
+      "definition": "a.光辉的,灿烂的;卓越的,有才华的"
+    },
+    {
+      "index": 3787,
+      "word": "turkey",
+      "phonetic": "/'tə:ki/",
+      "definition": "n.火鸡(肉)"
+    },
+    {
+      "index": 3788,
+      "word": "by",
+      "phonetic": "/bai/",
+      "definition": "prep.被；凭；经由；由于ad.在近旁；经过"
+    },
+    {
+      "index": 3789,
+      "word": "bug",
+      "phonetic": "/bʌg/",
+      "definition": "n.臭虫;小毛病;窃听器 v.窃听"
+    },
+    {
+      "index": 3790,
+      "word": "cluster",
+      "phonetic": "/'klʌstə/",
+      "definition": "n.丛,群,串 v.群集,丛生"
+    },
+    {
+      "index": 3791,
+      "word": "chat",
+      "phonetic": "/tʃɑ:t/",
+      "definition": "v./n.闲谈,聊天"
+    },
+    {
+      "index": 3792,
+      "word": "sane",
+      "phonetic": "/sein/",
+      "definition": "a.心智健全的,神志清醒的,明智的,稳健的"
+    },
+    {
+      "index": 3793,
+      "word": "save",
+      "phonetic": "/seɪv/",
+      "definition": "v.救,拯救;储蓄,贮存;节省"
+    },
+    {
+      "index": 3794,
+      "word": "north",
+      "phonetic": "/nɔ:θ/",
+      "definition": "n.北,北方a.北方的,北部 ad.向北方,在北方"
+    },
+    {
+      "index": 3795,
+      "word": "meanwhile",
+      "phonetic": "/'mi:nwail/",
+      "definition": "n.其时，其间 ad.当时，与此同时"
+    },
+    {
+      "index": 3796,
+      "word": "synthetic",
+      "phonetic": "/sin'θetik/",
+      "definition": "a.合成的,人造的;综合的"
+    },
+    {
+      "index": 3797,
+      "word": "bath",
+      "phonetic": "/bɑ:θ/",
+      "definition": "n.沐浴,洗澡;浴室(池,盆) v.(给…)洗澡"
+    },
+    {
+      "index": 3798,
+      "word": "immediate",
+      "phonetic": "/i'mi:diət/",
+      "definition": "a.立即的,即时的;直接的,最接近的"
+    },
+    {
+      "index": 3799,
+      "word": "inferior",
+      "phonetic": "/in'fiəriə/",
+      "definition": "a.下等的,下级的;劣等的,差的 n.下级,晚辈"
+    },
+    {
+      "index": 3800,
+      "word": "speak",
+      "phonetic": "/spi:k/",
+      "definition": "v.说话，讲话；演说，发言；(in)说某种语言"
+    }
+  ]
+}

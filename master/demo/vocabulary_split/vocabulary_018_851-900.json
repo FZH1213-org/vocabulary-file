@@ -1,0 +1,307 @@
+{
+  "chunk": 18,
+  "range": "851-900",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 851,
+      "word": "available",
+      "phonetic": "/ə'veɪləbl/",
+      "definition": "a.(用于物)可用的；可见到的，接受采访的"
+    },
+    {
+      "index": 852,
+      "word": "classic",
+      "phonetic": "/'klæsik/",
+      "definition": "n.(pl.)杰作,名著 a.第一流的,不朽的"
+    },
+    {
+      "index": 853,
+      "word": "might",
+      "phonetic": "/mait/",
+      "definition": "aux.v.可能,也许 n.力量,威力,权力"
+    },
+    {
+      "index": 854,
+      "word": "science",
+      "phonetic": "/'saiəns/",
+      "definition": "n.科学;学科"
+    },
+    {
+      "index": 855,
+      "word": "resemble",
+      "phonetic": "/ri'zembl/",
+      "definition": "v.像,类似"
+    },
+    {
+      "index": 856,
+      "word": "mosaic",
+      "phonetic": "/məu'zeiik/",
+      "definition": "n.马赛克;镶嵌体"
+    },
+    {
+      "index": 857,
+      "word": "lose",
+      "phonetic": "/lu:z/",
+      "definition": "v.丢失,迷路,输掉,亏本,失败,走慢,使沉湎于"
+    },
+    {
+      "index": 858,
+      "word": "chemist",
+      "phonetic": "/'kemist/",
+      "definition": "n.化学家;药剂师"
+    },
+    {
+      "index": 859,
+      "word": "jury",
+      "phonetic": "/'dʒuəri/",
+      "definition": "n.陪审团;全体评审员"
+    },
+    {
+      "index": 860,
+      "word": "bang",
+      "phonetic": "/bæŋ/",
+      "definition": "n.砰砰的声音;猛击 v.砰地关上,猛撞,猛击"
+    },
+    {
+      "index": 861,
+      "word": "suite",
+      "phonetic": "/swi:t/",
+      "definition": "n.套间；一套家具；套，组，系列"
+    },
+    {
+      "index": 862,
+      "word": "citizen",
+      "phonetic": "/'sitizən/",
+      "definition": "n.公民;市民,居民"
+    },
+    {
+      "index": 863,
+      "word": "cube",
+      "phonetic": "/kju:b/",
+      "definition": "n.立方形,立方体;立方,三次幂"
+    },
+    {
+      "index": 864,
+      "word": "turbulent",
+      "phonetic": "/'tə:bjulənt/",
+      "definition": "a.狂暴的,无秩序的"
+    },
+    {
+      "index": 865,
+      "word": "disregard",
+      "phonetic": "/disri'gɑ:d/",
+      "definition": "vt.不理会;忽视;漠视 n.忽视;漠视"
+    },
+    {
+      "index": 866,
+      "word": "voltage",
+      "phonetic": "/'vəultidʒ/",
+      "definition": "n.电压"
+    },
+    {
+      "index": 867,
+      "word": "frog",
+      "phonetic": "/frɔg/",
+      "definition": "n.蛙"
+    },
+    {
+      "index": 868,
+      "word": "well",
+      "phonetic": "/wel/",
+      "definition": "ad.好，令人满意地；很 int.哎呀，好啦，嗯"
+    },
+    {
+      "index": 869,
+      "word": "resistant",
+      "phonetic": "/ri'zistənt/",
+      "definition": "a.(to)抵抗的,有抵抗力的"
+    },
+    {
+      "index": 870,
+      "word": "colonel",
+      "phonetic": "/'kə:nəl/",
+      "definition": "n.(陆军)上校"
+    },
+    {
+      "index": 871,
+      "word": "malignant",
+      "phonetic": "/mə'lignənt/",
+      "definition": "a.恶性的，致命的；恶意的，恶毒的"
+    },
+    {
+      "index": 872,
+      "word": "customary",
+      "phonetic": "/'kʌstəˌməri/",
+      "definition": "a.习惯的,惯例的"
+    },
+    {
+      "index": 873,
+      "word": "pour",
+      "phonetic": "/pɔ:/",
+      "definition": "v.灌注, 倾泻, 涌入, 流, 倾盆大雨"
+    },
+    {
+      "index": 874,
+      "word": "dispute",
+      "phonetic": "/dis'pju:t/",
+      "definition": "n.争论,争执 v.争论,辩论;反驳;怀疑;阻止"
+    },
+    {
+      "index": 875,
+      "word": "notorious",
+      "phonetic": "/nəu'tɔ:riəs/",
+      "definition": "a.臭名昭著的,声名狼藉的"
+    },
+    {
+      "index": 876,
+      "word": "personal",
+      "phonetic": "/'pə:sənl/",
+      "definition": "a.个人的,私人的;亲自的;身体的,人身的"
+    },
+    {
+      "index": 877,
+      "word": "gender",
+      "phonetic": "/'dʒendə/",
+      "definition": "n.(生理上的)性；(名词、代词等的)性"
+    },
+    {
+      "index": 878,
+      "word": "great",
+      "phonetic": "/greit/",
+      "definition": "a.伟大的；重要的；大量的；很好的；美好的"
+    },
+    {
+      "index": 879,
+      "word": "restrict",
+      "phonetic": "/ri'strikt/",
+      "definition": "v.限制,约束"
+    },
+    {
+      "index": 880,
+      "word": "zeal",
+      "phonetic": "/zi:l/",
+      "definition": "n.热心，热忱，热情"
+    },
+    {
+      "index": 881,
+      "word": "southern",
+      "phonetic": "/'sʌðən/",
+      "definition": "a.南方的,南部的"
+    },
+    {
+      "index": 882,
+      "word": "henceforth",
+      "phonetic": "/'hens'fɔ:θ/",
+      "definition": "ad.今后"
+    },
+    {
+      "index": 883,
+      "word": "module",
+      "phonetic": "/'mɔdju:l/",
+      "definition": "n.组件，模块，模件；(航天器的)舱"
+    },
+    {
+      "index": 884,
+      "word": "lift",
+      "phonetic": "/lift/",
+      "definition": "v.升起,举起,消散  n.电梯,上升,免费搭车"
+    },
+    {
+      "index": 885,
+      "word": "pleasure",
+      "phonetic": "/'pleʒə/",
+      "definition": "n.愉快,快乐;乐事,乐趣"
+    },
+    {
+      "index": 886,
+      "word": "depict",
+      "phonetic": "/di'pikt/",
+      "definition": "v.描绘;描写,描述"
+    },
+    {
+      "index": 887,
+      "word": "accustomed",
+      "phonetic": "/ə'kʌstəmd/",
+      "definition": "a.惯常的；习惯的，适应的(一般作表语)"
+    },
+    {
+      "index": 888,
+      "word": "merely",
+      "phonetic": "/'miəli/",
+      "definition": "adv.仅仅，只不过"
+    },
+    {
+      "index": 889,
+      "word": "quart",
+      "phonetic": "/kwɔ:t/",
+      "definition": "n.夸脱"
+    },
+    {
+      "index": 890,
+      "word": "upset",
+      "phonetic": "/ʌp'set/",
+      "definition": "v.使…心烦意乱;打翻,推翻a.难过的;不安的"
+    },
+    {
+      "index": 891,
+      "word": "application",
+      "phonetic": "/ˌæplɪ'keɪʃn/",
+      "definition": "n.申请，申请书；应用，实施，实用性"
+    },
+    {
+      "index": 892,
+      "word": "equivalent",
+      "phonetic": "/i'kwivələnt/",
+      "definition": "a.(to)相等的,等价的 n.相等物,等价物"
+    },
+    {
+      "index": 893,
+      "word": "contrast",
+      "phonetic": "/kən'trɑ:st/",
+      "definition": "n.对比，对照 vi.形成对比 vt.把…与…对比"
+    },
+    {
+      "index": 894,
+      "word": "cradle",
+      "phonetic": "/'kreidl/",
+      "definition": "n.摇篮;发源地"
+    },
+    {
+      "index": 895,
+      "word": "tempt",
+      "phonetic": "/tempt/",
+      "definition": "v.诱惑,引诱;吸引,使感兴趣"
+    },
+    {
+      "index": 896,
+      "word": "duck",
+      "phonetic": "/dʌk/",
+      "definition": "n.鸭,鸭肉 v.迅速俯身;快速低头;躲避"
+    },
+    {
+      "index": 897,
+      "word": "whom",
+      "phonetic": "/hu:m/",
+      "definition": "pron.谁；哪个人(who的宾格)"
+    },
+    {
+      "index": 898,
+      "word": "van",
+      "phonetic": "/væn/",
+      "definition": "n.有篷汽车;有篷货运车厢"
+    },
+    {
+      "index": 899,
+      "word": "counterpart",
+      "phonetic": "/'kauntəˌpɑ:t/",
+      "definition": "n.对应的人(或物)"
+    },
+    {
+      "index": 900,
+      "word": "comprehend",
+      "phonetic": "/ˌkɔmpri'hend/",
+      "definition": "vt.理解，领会；包含，包括"
+    }
+  ]
+}

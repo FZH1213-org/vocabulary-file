@@ -1,0 +1,307 @@
+{
+  "chunk": 6,
+  "range": "251-300",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 251,
+      "word": "quota",
+      "phonetic": "/'kwəutə/",
+      "definition": "n.(生产、进出口等的)配额，(移民的)限额"
+    },
+    {
+      "index": 252,
+      "word": "grape",
+      "phonetic": "/greip/",
+      "definition": "n.葡萄"
+    },
+    {
+      "index": 253,
+      "word": "duplicate",
+      "phonetic": "/'dju:plikət/",
+      "definition": "n.复制品 v.复写,使加倍 a.复制的,二重的"
+    },
+    {
+      "index": 254,
+      "word": "reserve",
+      "phonetic": "/ri'zə:v/",
+      "definition": "n.储备(物),储备金;缄默 v.保留,储备;预定"
+    },
+    {
+      "index": 255,
+      "word": "opening",
+      "phonetic": "/'əupəniŋ/",
+      "definition": "n.开,开放,开始,空缺,机会 a.开始的,开幕的"
+    },
+    {
+      "index": 256,
+      "word": "innumerable",
+      "phonetic": "/i'nuj:mərəbl/",
+      "definition": "a.无数的,数不清的"
+    },
+    {
+      "index": 257,
+      "word": "doctor",
+      "phonetic": "/dɔktə/",
+      "definition": "n.医生;博士 vt.授以博士学位;诊断;修改"
+    },
+    {
+      "index": 258,
+      "word": "steer",
+      "phonetic": "/stiə/",
+      "definition": "vt.驾驶，为…操舵；引导vi.驾驶"
+    },
+    {
+      "index": 259,
+      "word": "pot",
+      "phonetic": "/pɔt/",
+      "definition": "n.罐,壶"
+    },
+    {
+      "index": 260,
+      "word": "complain",
+      "phonetic": "/kəm'plein/",
+      "definition": "v.(about,of)抱怨;申诉"
+    },
+    {
+      "index": 261,
+      "word": "playground",
+      "phonetic": "/'pleɪgraund/",
+      "definition": "n.运动场,游戏场"
+    },
+    {
+      "index": 262,
+      "word": "attract",
+      "phonetic": "/ə'trækt/",
+      "definition": "vt.引起的注意(或兴趣等),吸引；引起；激起"
+    },
+    {
+      "index": 263,
+      "word": "enough",
+      "phonetic": "/i'nʌf/",
+      "definition": "a.(for)足够的 n.足够,充分 ad.足够地"
+    },
+    {
+      "index": 264,
+      "word": "responsibility",
+      "phonetic": "/ri.spɔnsə'biliti/",
+      "definition": "n.责任,责任心;职责,任务"
+    },
+    {
+      "index": 265,
+      "word": "sight",
+      "phonetic": "/sait/",
+      "definition": "n.视力;望见,瞥见;视域;眼界;情景,奇观"
+    },
+    {
+      "index": 266,
+      "word": "carriage",
+      "phonetic": "/'kæridʒ/",
+      "definition": "n.(四轮)马车;(火车)客车厢"
+    },
+    {
+      "index": 267,
+      "word": "attempt",
+      "phonetic": "/ə'tempt/",
+      "definition": "vt.企图，试图 n.努力，尝试，企图"
+    },
+    {
+      "index": 268,
+      "word": "cotton",
+      "phonetic": "/'kɔtən/",
+      "definition": "n.棉花;棉线,棉纱;棉制品"
+    },
+    {
+      "index": 269,
+      "word": "further",
+      "phonetic": "/'fə:ðə/",
+      "definition": "ad./a.更远,更往前;进一步 v.促进,增进"
+    },
+    {
+      "index": 270,
+      "word": "course",
+      "phonetic": "/kɔ:s/",
+      "definition": "n.课程,教程;过程,进程;路程,路线;一道菜"
+    },
+    {
+      "index": 271,
+      "word": "lash",
+      "phonetic": "/læʃ/",
+      "definition": "v.鞭打,摆动,捆扎 n.鞭子,鞭打,睫毛,讽刺"
+    },
+    {
+      "index": 272,
+      "word": "fine",
+      "phonetic": "/fain/",
+      "definition": "a.晴朗的,美好的,细致的 v./n.罚金,罚款"
+    },
+    {
+      "index": 273,
+      "word": "choose",
+      "phonetic": "/tʃu:z/",
+      "definition": "v.选择,挑选;甘愿"
+    },
+    {
+      "index": 274,
+      "word": "none",
+      "phonetic": "/nʌn/",
+      "definition": "pron.没有任何人(东西)；都不 ad.一点也不"
+    },
+    {
+      "index": 275,
+      "word": "acquire",
+      "phonetic": "/ə'kwaiə/",
+      "definition": "v.获得；学到(知识等)；养成(习惯)"
+    },
+    {
+      "index": 276,
+      "word": "greeting",
+      "phonetic": "/'gri:tiŋ/",
+      "definition": "n.问候,致敬"
+    },
+    {
+      "index": 277,
+      "word": "tell",
+      "phonetic": "/tel/",
+      "definition": "vt.告诉，讲述；告诫；吩咐，命令；辨/区别"
+    },
+    {
+      "index": 278,
+      "word": "accomplish",
+      "phonetic": "/ə'kʌmpliʃ/",
+      "definition": "v.实现(计划等)；达到(目的)；完成(任务)"
+    },
+    {
+      "index": 279,
+      "word": "badminton",
+      "phonetic": "/'bædmintən/",
+      "definition": "n.羽毛球"
+    },
+    {
+      "index": 280,
+      "word": "specialist",
+      "phonetic": "/'speʃəlist/",
+      "definition": "n.专家"
+    },
+    {
+      "index": 281,
+      "word": "confusion",
+      "phonetic": "/kən'fju:ʒən/",
+      "definition": "n.困惑，糊涂；混淆；混乱，骚乱"
+    },
+    {
+      "index": 282,
+      "word": "sell",
+      "phonetic": "/sel/",
+      "definition": "v.卖,出售"
+    },
+    {
+      "index": 283,
+      "word": "salesman",
+      "phonetic": "/'seilzmən/",
+      "definition": "n.售货员,推销员"
+    },
+    {
+      "index": 284,
+      "word": "rise",
+      "phonetic": "/raiz/",
+      "definition": "v.升起;起立;上涨;起义 n.上涨,增高;起源"
+    },
+    {
+      "index": 285,
+      "word": "impact",
+      "phonetic": "/'ɪmpækt /",
+      "definition": "n.冲击,碰撞;影响 v.影响;挤入,压紧"
+    },
+    {
+      "index": 286,
+      "word": "reconcile",
+      "phonetic": "/'rekənsail/",
+      "definition": "v.使和好,调解,使调和;(to,with)使一致"
+    },
+    {
+      "index": 287,
+      "word": "pasture",
+      "phonetic": "/'pɑ:stʃə/",
+      "definition": "n.牧草地,牧场"
+    },
+    {
+      "index": 288,
+      "word": "experimental",
+      "phonetic": "/ekˌsperi'mentəl/",
+      "definition": "a.实验(性)的,试验(性)的"
+    },
+    {
+      "index": 289,
+      "word": "trouble",
+      "phonetic": "/'trʌbl/",
+      "definition": "n.烦恼;动乱;疾病;故障;辛苦v.(使)烦恼"
+    },
+    {
+      "index": 290,
+      "word": "infrastructure",
+      "phonetic": "/'infrəˌstrʌktʃə/",
+      "definition": "n.基础结构，基础设施"
+    },
+    {
+      "index": 291,
+      "word": "admit",
+      "phonetic": "/əd'mit/",
+      "definition": "vt.承认，供认；准许…进入，准许...加入"
+    },
+    {
+      "index": 292,
+      "word": "ignore",
+      "phonetic": "/ig'nɔ:/",
+      "definition": "v.不理,不顾,忽视"
+    },
+    {
+      "index": 293,
+      "word": "alongside",
+      "phonetic": "/ə'lɔŋ'said/",
+      "definition": "ad.在旁边 prep.和...在一起；在...旁边"
+    },
+    {
+      "index": 294,
+      "word": "obedience",
+      "phonetic": "/ə'bi:diəns/",
+      "definition": "n.服从,顺从"
+    },
+    {
+      "index": 295,
+      "word": "genuine",
+      "phonetic": "/'dʒenjuin/",
+      "definition": "a.真正的,名副其实的"
+    },
+    {
+      "index": 296,
+      "word": "somehow",
+      "phonetic": "/'sʌmhau/",
+      "definition": "ad.以某种方式，用某种方法；不知怎么地"
+    },
+    {
+      "index": 297,
+      "word": "bride",
+      "phonetic": "/braid/",
+      "definition": "n.新娘"
+    },
+    {
+      "index": 298,
+      "word": "erosion",
+      "phonetic": "/i'rəuʒən/",
+      "definition": "n.腐蚀,磨损;削弱,减少"
+    },
+    {
+      "index": 299,
+      "word": "context",
+      "phonetic": "/'kɔntekst/",
+      "definition": "n.（文章等）前后关系；(事件等的)背景"
+    },
+    {
+      "index": 300,
+      "word": "solid",
+      "phonetic": "/'sɔlid/",
+      "definition": "a.固体的;结实的,稳固的,可靠的 n.固体"
+    }
+  ]
+}

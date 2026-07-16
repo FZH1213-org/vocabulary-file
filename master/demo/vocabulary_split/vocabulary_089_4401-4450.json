@@ -1,0 +1,307 @@
+{
+  "chunk": 89,
+  "range": "4401-4450",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 4401,
+      "word": "brain",
+      "phonetic": "/brein/",
+      "definition": "n.(大)脑,骨髓;(pl.)脑力,智能"
+    },
+    {
+      "index": 4402,
+      "word": "perfume",
+      "phonetic": "/pə'fju:m/",
+      "definition": "n.香味,芳香;香料 v.使发香,洒香水于"
+    },
+    {
+      "index": 4403,
+      "word": "abroad",
+      "phonetic": "/ə'brɔ:d/",
+      "definition": "ad.到国外，在国外；在传播，在流传"
+    },
+    {
+      "index": 4404,
+      "word": "literally",
+      "phonetic": "/'lɪtərəli/",
+      "definition": "ad.照字面意义,逐字地;确实"
+    },
+    {
+      "index": 4405,
+      "word": "pump",
+      "phonetic": "/pʌmp/",
+      "definition": "n.泵 v.用(泵)抽(水);打气,泵送"
+    },
+    {
+      "index": 4406,
+      "word": "renaissance",
+      "phonetic": "/ri'neisns/",
+      "definition": "n.[the R-]文艺复兴(时期)；新生，复兴"
+    },
+    {
+      "index": 4407,
+      "word": "spy",
+      "phonetic": "/spai/",
+      "definition": "n.间谍 v.当间谍,刺探;察觉,发现"
+    },
+    {
+      "index": 4408,
+      "word": "bush",
+      "phonetic": "/buʃ/",
+      "definition": "n.灌木(丛)"
+    },
+    {
+      "index": 4409,
+      "word": "successful",
+      "phonetic": "/sək'sesful/",
+      "definition": "a.圆满的；顺利的；成功的"
+    },
+    {
+      "index": 4410,
+      "word": "probability",
+      "phonetic": "/ˌprɔbə'biləti/",
+      "definition": "n.可能性,或然性,概率"
+    },
+    {
+      "index": 4411,
+      "word": "security",
+      "phonetic": "/sɪ'kjuərəti/",
+      "definition": "n.安全(感),防御(物),保证(人),(pl.)证券"
+    },
+    {
+      "index": 4412,
+      "word": "objective",
+      "phonetic": "/əb'dʒektiv/",
+      "definition": "n.目标,目的 a.客观的,真实的"
+    },
+    {
+      "index": 4413,
+      "word": "drunk",
+      "phonetic": "/drʌŋk/",
+      "definition": "a.醉酒的；(喻)陶醉的 n.酗酒者，醉汉"
+    },
+    {
+      "index": 4414,
+      "word": "vision",
+      "phonetic": "/'vɪʒn/",
+      "definition": "n.视力,视觉;远见;洞察力;幻想,幻影;想象力"
+    },
+    {
+      "index": 4415,
+      "word": "industry",
+      "phonetic": "/'indəstri/",
+      "definition": "n.工业,产业;勤劳,勤奋"
+    },
+    {
+      "index": 4416,
+      "word": "material",
+      "phonetic": "/mə'tiəriəl/",
+      "definition": "n.材料,原料,资料a.物质的,肉体的,实质性的"
+    },
+    {
+      "index": 4417,
+      "word": "helicopter",
+      "phonetic": "/'helikɔptə/",
+      "definition": "n.直升(飞)机"
+    },
+    {
+      "index": 4418,
+      "word": "uneasy",
+      "phonetic": "/ˌʌn'i:zi/",
+      "definition": "a.不安的,焦虑的"
+    },
+    {
+      "index": 4419,
+      "word": "erase",
+      "phonetic": "/i'reiz/",
+      "definition": "v.擦掉;删去;消磁"
+    },
+    {
+      "index": 4420,
+      "word": "sandwich",
+      "phonetic": "/'sænwidʒ/",
+      "definition": "n.三明治,夹肉面包 v.夹入,挤进"
+    },
+    {
+      "index": 4421,
+      "word": "loan",
+      "phonetic": "/ləun/",
+      "definition": "n.贷款;出借,借出 v.借出"
+    },
+    {
+      "index": 4422,
+      "word": "provide",
+      "phonetic": "/prəu'vaid/",
+      "definition": "v.供应,供给,准备,预防,规定"
+    },
+    {
+      "index": 4423,
+      "word": "poison",
+      "phonetic": "/'pɔɪzn/",
+      "definition": "n.毒物,毒药 v.放毒,毒害,污染"
+    },
+    {
+      "index": 4424,
+      "word": "hierarchy",
+      "phonetic": "/'haiəˌrɑ:ki/",
+      "definition": "n.等级制度；统治集团，领导层"
+    },
+    {
+      "index": 4425,
+      "word": "admire",
+      "phonetic": "/əd'maiə/",
+      "definition": "vt.钦佩,赞赏,羡慕；称赞,夸奖"
+    },
+    {
+      "index": 4426,
+      "word": "luck",
+      "phonetic": "/lʌk/",
+      "definition": "n.运气;好运,侥幸"
+    },
+    {
+      "index": 4427,
+      "word": "distort",
+      "phonetic": "/dis'tɔ:t/",
+      "definition": "v.弄歪(嘴脸等);扭曲;歪曲(真理、事实等)"
+    },
+    {
+      "index": 4428,
+      "word": "increasingly",
+      "phonetic": "/in'kri:siŋli/",
+      "definition": "ad.不断增加地,日益"
+    },
+    {
+      "index": 4429,
+      "word": "trench",
+      "phonetic": "/trentʃ/",
+      "definition": "n.&v.(挖)沟，(挖)战壕"
+    },
+    {
+      "index": 4430,
+      "word": "privilege",
+      "phonetic": "/'prɪvəlɪdʒ/",
+      "definition": "n.特权,优惠,特许 v.给予优惠,给予特权"
+    },
+    {
+      "index": 4431,
+      "word": "normal",
+      "phonetic": "/'nɔ:ml/",
+      "definition": "a.正常的,普通的;正规的,标准的"
+    },
+    {
+      "index": 4432,
+      "word": "actor",
+      "phonetic": "/'æktə/",
+      "definition": "n.男演员；演员，行动者"
+    },
+    {
+      "index": 4433,
+      "word": "museum",
+      "phonetic": "/mju:'ziəm/",
+      "definition": "n.博物馆,展览馆"
+    },
+    {
+      "index": 4434,
+      "word": "such",
+      "phonetic": "/sʌtʃˌ sətʃ/",
+      "definition": "a.这样的;上述的ad.那么pron.这样的人/事物"
+    },
+    {
+      "index": 4435,
+      "word": "reduce",
+      "phonetic": "/ri'dju:s/",
+      "definition": "v.减少,缩小;简化,还原"
+    },
+    {
+      "index": 4436,
+      "word": "meditation",
+      "phonetic": "/ˌmedɪ'teɪʃn/",
+      "definition": "n.熟虑;(尤指宗教的)默想,沉思;(pl.)冥想录"
+    },
+    {
+      "index": 4437,
+      "word": "hero",
+      "phonetic": "/'hiərəu/",
+      "definition": "n.英雄，勇士；男主角，男主人公"
+    },
+    {
+      "index": 4438,
+      "word": "suspicious",
+      "phonetic": "/sə'spiʃəs/",
+      "definition": "a.(of)可疑的,多疑的,疑心的"
+    },
+    {
+      "index": 4439,
+      "word": "recycle",
+      "phonetic": "/ˌri:'saikl/",
+      "definition": "v./n.再循环,重复利用"
+    },
+    {
+      "index": 4440,
+      "word": "antique",
+      "phonetic": "/æn'ti:k/",
+      "definition": "a.古式的，过时的　n.有价值的古物，古董"
+    },
+    {
+      "index": 4441,
+      "word": "tuition",
+      "phonetic": "/tju:'iʃən/",
+      "definition": "n.学费；(某一学科的)教学，讲授，指导"
+    },
+    {
+      "index": 4442,
+      "word": "memo",
+      "phonetic": "/'meməu/",
+      "definition": "n.(memorandum)备忘录"
+    },
+    {
+      "index": 4443,
+      "word": "pain",
+      "phonetic": "/pein/",
+      "definition": "n.痛,痛苦;(pl.)努力,劳苦 vt.使痛苦"
+    },
+    {
+      "index": 4444,
+      "word": "degree",
+      "phonetic": "/di'gri:/",
+      "definition": "n.程度;度数;学位;等级"
+    },
+    {
+      "index": 4445,
+      "word": "herd",
+      "phonetic": "/hə:d/",
+      "definition": "n.群,兽群,牛群 v.放牧,群集"
+    },
+    {
+      "index": 4446,
+      "word": "consequence",
+      "phonetic": "/'kɔnsiˌkwəns/",
+      "definition": "n.结果,后果,影响;重要性"
+    },
+    {
+      "index": 4447,
+      "word": "ideal",
+      "phonetic": "/ai'diəl/",
+      "definition": "a.理想的;空想的;理想主义的;唯心的 n.理想"
+    },
+    {
+      "index": 4448,
+      "word": "repair",
+      "phonetic": "/ri'pεə/",
+      "definition": "n.修理,修补 v.补救,纠正;修理"
+    },
+    {
+      "index": 4449,
+      "word": "nature",
+      "phonetic": "/'neitʃə/",
+      "definition": "n.自然界,大自然;性质,本性,天性"
+    },
+    {
+      "index": 4450,
+      "word": "famine",
+      "phonetic": "/'fæmin/",
+      "definition": "n.饥荒,饥馑"
+    }
+  ]
+}

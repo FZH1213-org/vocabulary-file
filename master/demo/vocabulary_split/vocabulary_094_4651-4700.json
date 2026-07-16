@@ -1,0 +1,307 @@
+{
+  "chunk": 94,
+  "range": "4651-4700",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 4651,
+      "word": "operate",
+      "phonetic": "/'ɒpəreɪt/",
+      "definition": "v.操作,运转,开动,起作用,动手术"
+    },
+    {
+      "index": 4652,
+      "word": "incentive",
+      "phonetic": "/in'sentiv/",
+      "definition": "n.刺激;动力;鼓励;诱因;动机"
+    },
+    {
+      "index": 4653,
+      "word": "scan",
+      "phonetic": "/skæn/",
+      "definition": "v.细看,审视;浏览;扫描 n.扫描"
+    },
+    {
+      "index": 4654,
+      "word": "boot",
+      "phonetic": "/bu:t/",
+      "definition": "n.靴；(汽车后部的)行李箱；[the-]解雇"
+    },
+    {
+      "index": 4655,
+      "word": "usual",
+      "phonetic": "/'ju:ʒuəl/",
+      "definition": "a.通常的,平常的"
+    },
+    {
+      "index": 4656,
+      "word": "manual",
+      "phonetic": "/'mænjuəl/",
+      "definition": "a.手的,手工做的,体力的 n.手册,指南"
+    },
+    {
+      "index": 4657,
+      "word": "torment",
+      "phonetic": "/tɔ:'ment/",
+      "definition": "n.折磨；令人痛苦的东西(人)vt.折磨；纠缠"
+    },
+    {
+      "index": 4658,
+      "word": "lever",
+      "phonetic": "/'li:və/",
+      "definition": "n.杆,杠杆,手段,途径,工具"
+    },
+    {
+      "index": 4659,
+      "word": "wheat",
+      "phonetic": "/hwi:t/",
+      "definition": "n.小麦"
+    },
+    {
+      "index": 4660,
+      "word": "concept",
+      "phonetic": "/'kɔnsept/",
+      "definition": "n.概念，观念，设想"
+    },
+    {
+      "index": 4661,
+      "word": "kilo",
+      "phonetic": "/'ki:ləu/",
+      "definition": "n.(kilogram/kilogramme)千克"
+    },
+    {
+      "index": 4662,
+      "word": "stationery",
+      "phonetic": "/'steiʃənəri/",
+      "definition": "n.文具"
+    },
+    {
+      "index": 4663,
+      "word": "fourteen",
+      "phonetic": "/'fɔ:'ti:n/",
+      "definition": "num.十四，十四个"
+    },
+    {
+      "index": 4664,
+      "word": "living",
+      "phonetic": "/'liviŋ/",
+      "definition": "a.活的,有生命的,天然的,逼真的n.生活,生计"
+    },
+    {
+      "index": 4665,
+      "word": "off",
+      "phonetic": "/ɔ:f/",
+      "definition": "ad.离开；在远处；脱开 prep.从，从...离开"
+    },
+    {
+      "index": 4666,
+      "word": "crisp",
+      "phonetic": "/krisp/",
+      "definition": "a.脆的,易碎的;简明扼要的；（空气）清爽的"
+    },
+    {
+      "index": 4667,
+      "word": "while",
+      "phonetic": "/hwail/",
+      "definition": "conj.当…的时候；而；虽然；尽管 n.一会儿"
+    },
+    {
+      "index": 4668,
+      "word": "drama",
+      "phonetic": "/'drɑ:mə/",
+      "definition": "n.剧本,戏剧;戏剧性事件或场面"
+    },
+    {
+      "index": 4669,
+      "word": "genius",
+      "phonetic": "/'dʒi:niəs/",
+      "definition": "n.天才"
+    },
+    {
+      "index": 4670,
+      "word": "bless",
+      "phonetic": "/bles/",
+      "definition": "v.祝福,保佑"
+    },
+    {
+      "index": 4671,
+      "word": "enroll",
+      "phonetic": "/in'rəul/",
+      "definition": "v.(enrol)招收;登记;入学;参军;成为会员"
+    },
+    {
+      "index": 4672,
+      "word": "host",
+      "phonetic": "/həust/",
+      "definition": "n.主人;旅店老板;节目主持人;一大群,许多"
+    },
+    {
+      "index": 4673,
+      "word": "relieve",
+      "phonetic": "/rɪ'li:v/",
+      "definition": "v.减轻,解除,援救,救济,换班"
+    },
+    {
+      "index": 4674,
+      "word": "finding",
+      "phonetic": "/'faindiŋ/",
+      "definition": "n.发现,发现物;(常pl.)调查/研究结果"
+    },
+    {
+      "index": 4675,
+      "word": "cabin",
+      "phonetic": "/'kæbin/",
+      "definition": "n.客舱,机舱;小(木)屋"
+    },
+    {
+      "index": 4676,
+      "word": "thick",
+      "phonetic": "/θik/",
+      "definition": "a.厚的，粗的，稠的，浓的  ad.厚，浓，密"
+    },
+    {
+      "index": 4677,
+      "word": "monarch",
+      "phonetic": "/'mɔnək/",
+      "definition": "n.帝王，君主，最高统治者"
+    },
+    {
+      "index": 4678,
+      "word": "monkey",
+      "phonetic": "/'mʌŋki/",
+      "definition": "n.猴子"
+    },
+    {
+      "index": 4679,
+      "word": "stem",
+      "phonetic": "/stem/",
+      "definition": "n.茎，干 vt.堵(挡)住 vi.起源于，由…造成"
+    },
+    {
+      "index": 4680,
+      "word": "gentle",
+      "phonetic": "/'dʒentl/",
+      "definition": "a.和蔼的,文雅的,有礼貌的"
+    },
+    {
+      "index": 4681,
+      "word": "act",
+      "phonetic": "/ækt/",
+      "definition": "v.表演；举动；起作用 n.行为，法令；一幕"
+    },
+    {
+      "index": 4682,
+      "word": "notify",
+      "phonetic": "/'nəutifai/",
+      "definition": "v.通知,告知,报告"
+    },
+    {
+      "index": 4683,
+      "word": "consider",
+      "phonetic": "/kən'sidə/",
+      "definition": "v.考虑，想；体谅，顾及；认为，把…看作"
+    },
+    {
+      "index": 4684,
+      "word": "grip",
+      "phonetic": "/grip/",
+      "definition": "v./n.紧握,抓紧;掌握"
+    },
+    {
+      "index": 4685,
+      "word": "glory",
+      "phonetic": "/'glɔ:ri/",
+      "definition": "n.光荣,荣誉"
+    },
+    {
+      "index": 4686,
+      "word": "attribute",
+      "phonetic": "/ə'tribju:t/",
+      "definition": "v.(to)归因于,归属于 n.属性,品质,特征"
+    },
+    {
+      "index": 4687,
+      "word": "discreet",
+      "phonetic": "/dis'kri:t/",
+      "definition": "a.(言行)谨慎的；慎重的；有判断力的"
+    },
+    {
+      "index": 4688,
+      "word": "ascend",
+      "phonetic": "/ə'send/",
+      "definition": "vi.渐渐上升，升高vt.攀登，登上"
+    },
+    {
+      "index": 4689,
+      "word": "profession",
+      "phonetic": "/prəu'feʃən/",
+      "definition": "n.职业,专业,表白,宣布"
+    },
+    {
+      "index": 4690,
+      "word": "regime",
+      "phonetic": "/rei'ʒi:m/",
+      "definition": "n.政体,制度"
+    },
+    {
+      "index": 4691,
+      "word": "bait",
+      "phonetic": "/beit/",
+      "definition": "n.饵，引诱物 vt.用饵引诱；折磨，奚落"
+    },
+    {
+      "index": 4692,
+      "word": "madame",
+      "phonetic": "/mɑ:'dɑ:m/",
+      "definition": "n.(madam)夫人，太太，女士"
+    },
+    {
+      "index": 4693,
+      "word": "proceeding",
+      "phonetic": "/prəu'si:diŋ/",
+      "definition": "n.行动,进行,(pl.)会议录,学报"
+    },
+    {
+      "index": 4694,
+      "word": "approach",
+      "phonetic": "/ə'prəutʃ/",
+      "definition": "v.靠近，接近n.接近；途径，入门;方式,方法"
+    },
+    {
+      "index": 4695,
+      "word": "factor",
+      "phonetic": "/'fæktə/",
+      "definition": "n.因素,要素"
+    },
+    {
+      "index": 4696,
+      "word": "yours",
+      "phonetic": "/jɔ:z/",
+      "definition": "pron.[you的物主代词]你(们)的(所有物)"
+    },
+    {
+      "index": 4697,
+      "word": "pretext",
+      "phonetic": "/'pri:tekst/",
+      "definition": "n.借口,托词"
+    },
+    {
+      "index": 4698,
+      "word": "button",
+      "phonetic": "/'bʌtn/",
+      "definition": "n.纽扣,按钮(开关) v.扣紧;扣上纽扣"
+    },
+    {
+      "index": 4699,
+      "word": "introduction",
+      "phonetic": "/ˌintrə'dʌkʃən/",
+      "definition": "n.(to)介绍;传入,引进;导言,导论,绪论"
+    },
+    {
+      "index": 4700,
+      "word": "urgent",
+      "phonetic": "/'ə:dʒənt/",
+      "definition": "a.急迫的，紧要的，紧急的"
+    }
+  ]
+}

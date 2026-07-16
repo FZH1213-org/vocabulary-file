@@ -1,0 +1,307 @@
+{
+  "chunk": 101,
+  "range": "5001-5050",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 5001,
+      "word": "reed",
+      "phonetic": "/ri:d/",
+      "definition": "n.芦苇,苇丛;芦笛,牧笛"
+    },
+    {
+      "index": 5002,
+      "word": "overturn",
+      "phonetic": "/ˌəuvə'tə:n/",
+      "definition": "n.倾覆,破灭,革命 v.打翻,推翻,颠倒,翻倒"
+    },
+    {
+      "index": 5003,
+      "word": "tear",
+      "phonetic": "/tɛə/",
+      "definition": "n.(pl.)眼泪 vt.撕裂；使…分裂 vi.破裂"
+    },
+    {
+      "index": 5004,
+      "word": "X-ray",
+      "phonetic": "/'eks/",
+      "definition": "n.X射线,X光"
+    },
+    {
+      "index": 5005,
+      "word": "core",
+      "phonetic": "/kɔ:/",
+      "definition": "n.果核;中心,核心"
+    },
+    {
+      "index": 5006,
+      "word": "singular",
+      "phonetic": "/'siŋgjulə/",
+      "definition": "a.非凡的,卓越的;单数的"
+    },
+    {
+      "index": 5007,
+      "word": "assure",
+      "phonetic": "/ə'ʃuə/",
+      "definition": "vt.使确信，使放心(of)；向…保证"
+    },
+    {
+      "index": 5008,
+      "word": "bark",
+      "phonetic": "/bɑ:k/",
+      "definition": "vi.(狗等)吠，叫n.吠声，叫声；树皮"
+    },
+    {
+      "index": 5009,
+      "word": "paste",
+      "phonetic": "/peist/",
+      "definition": "n.糊,浆糊 v.粘,贴"
+    },
+    {
+      "index": 5010,
+      "word": "vulgar",
+      "phonetic": "/'vʌlgə/",
+      "definition": "a.粗俗的，庸俗的，本土的，通俗的，普通的"
+    },
+    {
+      "index": 5011,
+      "word": "promote",
+      "phonetic": "/prəu'məut/",
+      "definition": "v.促进,发扬;提升,提拔;增进,助长"
+    },
+    {
+      "index": 5012,
+      "word": "extensive",
+      "phonetic": "/ik'stensiv/",
+      "definition": "a.广大的,广阔的"
+    },
+    {
+      "index": 5013,
+      "word": "soft",
+      "phonetic": "/sɔft/",
+      "definition": "a.软的;温柔的;细嫩的,光滑的;不含酒精的"
+    },
+    {
+      "index": 5014,
+      "word": "geometry",
+      "phonetic": "/dʒi'ɔmitri/",
+      "definition": "n.几何(学)"
+    },
+    {
+      "index": 5015,
+      "word": "plaster",
+      "phonetic": "/'plɑ:stə/",
+      "definition": "n.灰泥;熟石膏;膏药"
+    },
+    {
+      "index": 5016,
+      "word": "abide",
+      "phonetic": "/ə'baɪd/",
+      "definition": "vi.(abode，abided)(by)遵守；坚持"
+    },
+    {
+      "index": 5017,
+      "word": "bad",
+      "phonetic": "/bæd/",
+      "definition": "a.坏的；劣的；不舒服的；腐败的；严重的"
+    },
+    {
+      "index": 5018,
+      "word": "invention",
+      "phonetic": "/in'venʃən/",
+      "definition": "n.发明,创造,发明物"
+    },
+    {
+      "index": 5019,
+      "word": "green",
+      "phonetic": "/gri:n/",
+      "definition": "a.绿色的;生的;未成熟的 n.绿色;蔬菜;植物"
+    },
+    {
+      "index": 5020,
+      "word": "roof",
+      "phonetic": "/ru:f/",
+      "definition": "n.屋顶,顶"
+    },
+    {
+      "index": 5021,
+      "word": "retention",
+      "phonetic": "/ri'tenʃən/",
+      "definition": "n.保留,保持,保持力,记忆力"
+    },
+    {
+      "index": 5022,
+      "word": "may",
+      "phonetic": "/mei/",
+      "definition": "aux.v.可能，也许；可以，被允许；祝，愿"
+    },
+    {
+      "index": 5023,
+      "word": "captive",
+      "phonetic": "/'kæptiv/",
+      "definition": "n.俘虏 a.被俘虏的,被监禁的"
+    },
+    {
+      "index": 5024,
+      "word": "encounter",
+      "phonetic": "/in'kauntə/",
+      "definition": "n./v.遇到,遭遇"
+    },
+    {
+      "index": 5025,
+      "word": "everything",
+      "phonetic": "/'evriθiŋ/",
+      "definition": "pron.每件事，一切；最重要的东西"
+    },
+    {
+      "index": 5026,
+      "word": "highway",
+      "phonetic": "/'haiwei/",
+      "definition": "n.公路,大路"
+    },
+    {
+      "index": 5027,
+      "word": "religious",
+      "phonetic": "/ri'lidʒəs/",
+      "definition": "a.宗教的,信教的,虔诚的"
+    },
+    {
+      "index": 5028,
+      "word": "lately",
+      "phonetic": "/'leitli/",
+      "definition": "ad.最近,不久前"
+    },
+    {
+      "index": 5029,
+      "word": "subordinate",
+      "phonetic": "/sə'bɔ:dinət/",
+      "definition": "a.(to)次要的,从属的;下级的"
+    },
+    {
+      "index": 5030,
+      "word": "pathetic",
+      "phonetic": "/pə'θetik/",
+      "definition": "a.可怜的, 悲惨的"
+    },
+    {
+      "index": 5031,
+      "word": "notice",
+      "phonetic": "/'nəutis/",
+      "definition": "n.通知,通告,布告;注意,认识v.注意到,注意"
+    },
+    {
+      "index": 5032,
+      "word": "restrain",
+      "phonetic": "/ri'strein/",
+      "definition": "v.(from)抑制,制止"
+    },
+    {
+      "index": 5033,
+      "word": "tooth",
+      "phonetic": "/tu:θ/",
+      "definition": "n.(pl.teeth)牙齿；齿状物；"
+    },
+    {
+      "index": 5034,
+      "word": "scholarship",
+      "phonetic": "/'skɔləʃip/",
+      "definition": "n.奖学金;学问,学识"
+    },
+    {
+      "index": 5035,
+      "word": "hall",
+      "phonetic": "/hɔ:l/",
+      "definition": "n.礼堂,会堂,办公大楼,门厅"
+    },
+    {
+      "index": 5036,
+      "word": "heroine",
+      "phonetic": "/'herəuɪn/",
+      "definition": "n.女英雄;女主角"
+    },
+    {
+      "index": 5037,
+      "word": "friction",
+      "phonetic": "/'frikʃən/",
+      "definition": "n.磨擦,摩擦力"
+    },
+    {
+      "index": 5038,
+      "word": "avert",
+      "phonetic": "/ə'və:t/",
+      "definition": "v.防止，避免 ；转移(目光、注意力等)"
+    },
+    {
+      "index": 5039,
+      "word": "burden",
+      "phonetic": "/'bə:dən/",
+      "definition": "n.担子，重担，负担 vt.给予负担或麻烦"
+    },
+    {
+      "index": 5040,
+      "word": "galaxy",
+      "phonetic": "/'gæləksi/",
+      "definition": "n.星系;(the Galaxy)银河(系);一群显赫的人"
+    },
+    {
+      "index": 5041,
+      "word": "together",
+      "phonetic": "/tə'geðə/",
+      "definition": "ad.共同,一起;合起来,集拢地"
+    },
+    {
+      "index": 5042,
+      "word": "motive",
+      "phonetic": "/'məutiv/",
+      "definition": "n.动机,目的 a.发动的,运动的"
+    },
+    {
+      "index": 5043,
+      "word": "vary",
+      "phonetic": "/'vεəri/",
+      "definition": "vt.改变,变化;使多样化"
+    },
+    {
+      "index": 5044,
+      "word": "benefit",
+      "phonetic": "/'benɪfɪt/",
+      "definition": "n.利益,好处,恩惠 v.有益于;(from,by)受益"
+    },
+    {
+      "index": 5045,
+      "word": "qualify",
+      "phonetic": "/'kwɒlɪfaɪ/",
+      "definition": "v.(使)具有资格,证明合格;限制,限定;修饰"
+    },
+    {
+      "index": 5046,
+      "word": "sir",
+      "phonetic": "/sɜ:(r)/",
+      "definition": "n.先生，长官；[S -用于姓名前]…爵士"
+    },
+    {
+      "index": 5047,
+      "word": "global",
+      "phonetic": "/'gləubəl/",
+      "definition": "a.球形的;全球的,全世界的;全面的"
+    },
+    {
+      "index": 5048,
+      "word": "symposium",
+      "phonetic": "/sim'pəuziəm/",
+      "definition": "n.讨论会,专题报告会;专题论文集"
+    },
+    {
+      "index": 5049,
+      "word": "masculine",
+      "phonetic": "/'mæskjulin/",
+      "definition": "a.男性的，似男性的；［语法］阳性的"
+    },
+    {
+      "index": 5050,
+      "word": "promising",
+      "phonetic": "/'prɔmisiŋ/",
+      "definition": "a.有希望的,有前途的"
+    }
+  ]
+}

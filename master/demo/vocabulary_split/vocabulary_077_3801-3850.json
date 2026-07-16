@@ -1,0 +1,307 @@
+{
+  "chunk": 77,
+  "range": "3801-3850",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 3801,
+      "word": "beneficial",
+      "phonetic": "/ˌbeni'fiʃəl/",
+      "definition": "a.(to)有利的,有益的"
+    },
+    {
+      "index": 3802,
+      "word": "quantify",
+      "phonetic": "/'kwɔntifai/",
+      "definition": "v.确定数量"
+    },
+    {
+      "index": 3803,
+      "word": "format",
+      "phonetic": "/'fɔ:mæt/",
+      "definition": "n.(出版物的)开本,版式,格式 vt.设计;安排"
+    },
+    {
+      "index": 3804,
+      "word": "corner",
+      "phonetic": "/'kɔ:nə/",
+      "definition": "n.角，街角；偏僻处； vt.将…逼入困境；"
+    },
+    {
+      "index": 3805,
+      "word": "remind",
+      "phonetic": "/ri'maind/",
+      "definition": "v.(of)提醒,使想起"
+    },
+    {
+      "index": 3806,
+      "word": "enable",
+      "phonetic": "/i'neibl/",
+      "definition": "v.使能够,使成为可能;授予权利或方法"
+    },
+    {
+      "index": 3807,
+      "word": "cop",
+      "phonetic": "/kɔp/",
+      "definition": "n.警察(slang 俚语)"
+    },
+    {
+      "index": 3808,
+      "word": "describe",
+      "phonetic": "/di'skraib/",
+      "definition": "v.描述,形容"
+    },
+    {
+      "index": 3809,
+      "word": "beard",
+      "phonetic": "/biəd/",
+      "definition": "n.胡须"
+    },
+    {
+      "index": 3810,
+      "word": "nobody",
+      "phonetic": "/'nəubədi/",
+      "definition": "pron.谁也不,无人 n.小人物"
+    },
+    {
+      "index": 3811,
+      "word": "spontaneous",
+      "phonetic": "/spɔn'teiniəs/",
+      "definition": "a.自发的,自然产生的"
+    },
+    {
+      "index": 3812,
+      "word": "journalist",
+      "phonetic": "/'dʒə:nəlist/",
+      "definition": "n.记者,新闻工作者"
+    },
+    {
+      "index": 3813,
+      "word": "those",
+      "phonetic": "/ðəuz/",
+      "definition": "pron./a.[that的复数]那些；那些人(东西)"
+    },
+    {
+      "index": 3814,
+      "word": "consultant",
+      "phonetic": "/kən'sʌltənt/",
+      "definition": "n.会诊医师,顾问医生;顾问"
+    },
+    {
+      "index": 3815,
+      "word": "sovereign",
+      "phonetic": "/'sɔvərin/",
+      "definition": "a.独立的，有主权的 n.君主，国王，统治者"
+    },
+    {
+      "index": 3816,
+      "word": "manipulate",
+      "phonetic": "/mə'nipjuleit/",
+      "definition": "vt.(熟练地)使用，操作；(巧妙地)处理"
+    },
+    {
+      "index": 3817,
+      "word": "marble",
+      "phonetic": "/'mɑ:bl/",
+      "definition": "n.大理石,云石"
+    },
+    {
+      "index": 3818,
+      "word": "flu",
+      "phonetic": "/flu:/",
+      "definition": "n.(influenza)流行性感冒"
+    },
+    {
+      "index": 3819,
+      "word": "ignorance",
+      "phonetic": "/'ignərəns/",
+      "definition": "n.无知,愚昧;不知道"
+    },
+    {
+      "index": 3820,
+      "word": "loss",
+      "phonetic": "/lɔs/",
+      "definition": "n.丧失，遗失；损失，损耗，亏损；失败"
+    },
+    {
+      "index": 3821,
+      "word": "fantasy",
+      "phonetic": "/'fæntəsi/",
+      "definition": "n.幻想，空想；空想的产物，幻想作品"
+    },
+    {
+      "index": 3822,
+      "word": "asleep",
+      "phonetic": "/ə'sli:p/",
+      "definition": "a.睡觉，睡着(用作表语)"
+    },
+    {
+      "index": 3823,
+      "word": "giant",
+      "phonetic": "/'dʒaiənt/",
+      "definition": "n.巨人 a.巨大的"
+    },
+    {
+      "index": 3824,
+      "word": "news",
+      "phonetic": "/nju:z/",
+      "definition": "n.新闻，消息；新闻报道，新闻广播"
+    },
+    {
+      "index": 3825,
+      "word": "enormous",
+      "phonetic": "/i'nɔ:məs/",
+      "definition": "a.巨大的,庞大的"
+    },
+    {
+      "index": 3826,
+      "word": "periodical",
+      "phonetic": "/ˌpiəri'ɔdikəl/",
+      "definition": "n.期刊,杂志 a.周期的,定期的"
+    },
+    {
+      "index": 3827,
+      "word": "bud",
+      "phonetic": "/bʌd/",
+      "definition": "n.芽,花苞 v.发芽,含苞欲放"
+    },
+    {
+      "index": 3828,
+      "word": "orbit",
+      "phonetic": "/'ɔ:bit/",
+      "definition": "n.轨道 v.(使)沿轨道行"
+    },
+    {
+      "index": 3829,
+      "word": "tackle",
+      "phonetic": "/'tækl/",
+      "definition": "n.滑车;用具,器械 v.处理,解决;抱住,抓住"
+    },
+    {
+      "index": 3830,
+      "word": "hound",
+      "phonetic": "/haund/",
+      "definition": "n.猎狗；卑鄙的人 vt.用猎狗追，追逐"
+    },
+    {
+      "index": 3831,
+      "word": "toy",
+      "phonetic": "/tɔɪ/",
+      "definition": "n.玩具 vi.(with)漫不经心地考虑；摆弄"
+    },
+    {
+      "index": 3832,
+      "word": "sunrise",
+      "phonetic": "/'sʌnraiz/",
+      "definition": "n.日出，拂晓；朝霞"
+    },
+    {
+      "index": 3833,
+      "word": "aeroplane",
+      "phonetic": "/'eərəpleɪn/",
+      "definition": "n.(airplane)(英)飞机"
+    },
+    {
+      "index": 3834,
+      "word": "fifty",
+      "phonetic": "/'fifti/",
+      "definition": "num.五十，五十个"
+    },
+    {
+      "index": 3835,
+      "word": "healthy",
+      "phonetic": "/'helθi/",
+      "definition": "a.健康的,健壮的;有益健康的,卫生的"
+    },
+    {
+      "index": 3836,
+      "word": "excerpt",
+      "phonetic": "/ek'sə:pt/",
+      "definition": "n./vt.摘录;引用"
+    },
+    {
+      "index": 3837,
+      "word": "mail",
+      "phonetic": "/meil/",
+      "definition": "n.邮件 v.邮寄"
+    },
+    {
+      "index": 3838,
+      "word": "separate",
+      "phonetic": "/'sepəreit/",
+      "definition": "a.(from)分离的,分开的"
+    },
+    {
+      "index": 3839,
+      "word": "fortune",
+      "phonetic": "/'fɔ:tʃən/",
+      "definition": "n.运气;命运;财产;财富"
+    },
+    {
+      "index": 3840,
+      "word": "slippery",
+      "phonetic": "/'slipəri/",
+      "definition": "a.滑的,滑溜的"
+    },
+    {
+      "index": 3841,
+      "word": "kind",
+      "phonetic": "/kaind/",
+      "definition": "a.仁慈的，友好的，亲切的，和蔼的 n.种类"
+    },
+    {
+      "index": 3842,
+      "word": "thunder",
+      "phonetic": "/'θʌndə/",
+      "definition": "n.雷(声);轰隆声 v.打雷;大声说,吼叫"
+    },
+    {
+      "index": 3843,
+      "word": "war",
+      "phonetic": "/wɔ:/",
+      "definition": "n.战争(状态)；冲突 vi.作战"
+    },
+    {
+      "index": 3844,
+      "word": "limited",
+      "phonetic": "/'limitid/",
+      "definition": "a.有限的,被限制的"
+    },
+    {
+      "index": 3845,
+      "word": "kneel",
+      "phonetic": "/ni:l/",
+      "definition": "v.跪,下跪"
+    },
+    {
+      "index": 3846,
+      "word": "explosive",
+      "phonetic": "/ik'spləusiv/",
+      "definition": "a.爆炸(性)的,爆发(性)的 n.爆炸物,炸药"
+    },
+    {
+      "index": 3847,
+      "word": "occur",
+      "phonetic": "/ə'kə:/",
+      "definition": "v.发生,出现;存在;想起,想到"
+    },
+    {
+      "index": 3848,
+      "word": "solve",
+      "phonetic": "/sɔlv/",
+      "definition": "v.解决,解答"
+    },
+    {
+      "index": 3849,
+      "word": "cheese",
+      "phonetic": "/tʃi:z/",
+      "definition": "n.干酪,乳酪"
+    },
+    {
+      "index": 3850,
+      "word": "funeral",
+      "phonetic": "/'fju:nərəl/",
+      "definition": "n.丧葬,葬礼"
+    }
+  ]
+}

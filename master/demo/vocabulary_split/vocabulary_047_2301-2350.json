@@ -1,0 +1,307 @@
+{
+  "chunk": 47,
+  "range": "2301-2350",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 2301,
+      "word": "construct",
+      "phonetic": "/kən'strʌkt/",
+      "definition": "v.建设,建造,构造;创立"
+    },
+    {
+      "index": 2302,
+      "word": "journal",
+      "phonetic": "/'dʒə:nəl/",
+      "definition": "n.定期刊物,杂志,日报;日志,日记"
+    },
+    {
+      "index": 2303,
+      "word": "internet",
+      "phonetic": "/'intənet/",
+      "definition": "n.[the～]国际互联网，因特网"
+    },
+    {
+      "index": 2304,
+      "word": "break",
+      "phonetic": "/breɪk/",
+      "definition": "vt.打破；中止；违反 vi.破(裂) n.休息时间"
+    },
+    {
+      "index": 2305,
+      "word": "proud",
+      "phonetic": "/praud/",
+      "definition": "a.(of)自豪的;引以自豪的;妄自尊大的"
+    },
+    {
+      "index": 2306,
+      "word": "sentiment",
+      "phonetic": "/'sentimənt/",
+      "definition": "n.感情，柔情；看法；感觉"
+    },
+    {
+      "index": 2307,
+      "word": "lump",
+      "phonetic": "/lʌmp/",
+      "definition": "n.团,块 v.(使)成团,(使)成块"
+    },
+    {
+      "index": 2308,
+      "word": "first",
+      "phonetic": "/fə:st/",
+      "definition": "a./ad.第一；最初;首次 n.开始pron.第一名"
+    },
+    {
+      "index": 2309,
+      "word": "ozone",
+      "phonetic": "/'əuzəun/",
+      "definition": "n.臭氧；(海岸等的)新鲜空气"
+    },
+    {
+      "index": 2310,
+      "word": "moment",
+      "phonetic": "/'məumənt/",
+      "definition": "n.片刻,瞬间,时刻"
+    },
+    {
+      "index": 2311,
+      "word": "haste",
+      "phonetic": "/heist/",
+      "definition": "n.匆忙,急速;草率 v.赶快;匆忙"
+    },
+    {
+      "index": 2312,
+      "word": "weapon",
+      "phonetic": "/'wepən/",
+      "definition": "n.武器,兵器"
+    },
+    {
+      "index": 2313,
+      "word": "corridor",
+      "phonetic": "/'kɒrɪdɔ:(r)/",
+      "definition": "n.走廊,通路"
+    },
+    {
+      "index": 2314,
+      "word": "observation",
+      "phonetic": "/ˌɔbzə:'veiʃən/",
+      "definition": "n.观察,观测,监视;(pl.)观察资料;观察力"
+    },
+    {
+      "index": 2315,
+      "word": "natural",
+      "phonetic": "/'nætʃərəl/",
+      "definition": "a.正常的;自然界的,天然的,天赋的,固有的"
+    },
+    {
+      "index": 2316,
+      "word": "plus",
+      "phonetic": "/plʌs/",
+      "definition": "prep.加上 a.正的,加的 n.加号,正号"
+    },
+    {
+      "index": 2317,
+      "word": "convert",
+      "phonetic": "/kən'və:t/",
+      "definition": "v.变换,转换；改变（信仰等）；兑换（钱）"
+    },
+    {
+      "index": 2318,
+      "word": "ego",
+      "phonetic": "/'i:gəu/",
+      "definition": "n.自我，自负，利已主义；(心理学)自我意识"
+    },
+    {
+      "index": 2319,
+      "word": "blackmail",
+      "phonetic": "/'blækmeil/",
+      "definition": "n.讹诈，敲诈，勒索；胁迫，恫吓"
+    },
+    {
+      "index": 2320,
+      "word": "factory",
+      "phonetic": "/'fæktəri/",
+      "definition": "n.工厂"
+    },
+    {
+      "index": 2321,
+      "word": "shortage",
+      "phonetic": "/'ʃɔ:tidʒ/",
+      "definition": "n.不足,缺少"
+    },
+    {
+      "index": 2322,
+      "word": "repeatedly",
+      "phonetic": "/ri'pi:tidli/",
+      "definition": "ad.重复地,再三地"
+    },
+    {
+      "index": 2323,
+      "word": "parallel",
+      "phonetic": "/'pærəlel/",
+      "definition": "a.平行的,相同的,类似的n.平行线,类似,对比"
+    },
+    {
+      "index": 2324,
+      "word": "notable",
+      "phonetic": "/'nəutəbl/",
+      "definition": "n.值得注意的,显著的,著名的"
+    },
+    {
+      "index": 2325,
+      "word": "interview",
+      "phonetic": "/'intəvju:/",
+      "definition": "v./n.接见,会见;采访;面试"
+    },
+    {
+      "index": 2326,
+      "word": "commute",
+      "phonetic": "/kə'mju:t/",
+      "definition": "v.乘公交车上下班,乘车(船等)往返于两地"
+    },
+    {
+      "index": 2327,
+      "word": "sample",
+      "phonetic": "/'sɑ:mpl/",
+      "definition": "n.样品,实例,标本,抽样检查 v.取样,采样"
+    },
+    {
+      "index": 2328,
+      "word": "eagle",
+      "phonetic": "/'i:gl/",
+      "definition": "n.鹰"
+    },
+    {
+      "index": 2329,
+      "word": "deem",
+      "phonetic": "/di:m/",
+      "definition": "v.认为,相信"
+    },
+    {
+      "index": 2330,
+      "word": "consideration",
+      "phonetic": "/kənˌsidə'reiʃən/",
+      "definition": "n.需要考虑的事,理由;考虑,思考;体谅,照顾"
+    },
+    {
+      "index": 2331,
+      "word": "molecule",
+      "phonetic": "/'mɔlikjul/",
+      "definition": "n.分子"
+    },
+    {
+      "index": 2332,
+      "word": "relish",
+      "phonetic": "/'reliʃ/",
+      "definition": "n.美味,味道,调味品,食欲,乐趣 v.喜欢,品味"
+    },
+    {
+      "index": 2333,
+      "word": "god",
+      "phonetic": "/gɔd/",
+      "definition": "n.上帝(小写god泛指所有的“神，神像”)"
+    },
+    {
+      "index": 2334,
+      "word": "basis",
+      "phonetic": "/'beisis/",
+      "definition": "n.基础,根据"
+    },
+    {
+      "index": 2335,
+      "word": "approve",
+      "phonetic": "/ə'pru:v/",
+      "definition": "v.(of)赞成，同意；批准，审议，通过"
+    },
+    {
+      "index": 2336,
+      "word": "recreation",
+      "phonetic": "/ˌrekri'eiʃən/",
+      "definition": "n.娱乐,消遣"
+    },
+    {
+      "index": 2337,
+      "word": "system",
+      "phonetic": "/'sistəm/",
+      "definition": "n.系统，体系；制度；方法，方式，步聚"
+    },
+    {
+      "index": 2338,
+      "word": "static",
+      "phonetic": "/'stætik/",
+      "definition": "a.(statical)静态的,静力的"
+    },
+    {
+      "index": 2339,
+      "word": "performance",
+      "phonetic": "/pə'fɔ:məns/",
+      "definition": "n.履行,执行;表演,演出;性能,特性;成绩"
+    },
+    {
+      "index": 2340,
+      "word": "sip",
+      "phonetic": "/sip/",
+      "definition": "v.小口地喝，抿，呷n.一小口的量"
+    },
+    {
+      "index": 2341,
+      "word": "compare",
+      "phonetic": "/kəm'pεə/",
+      "definition": "vt.(to，with)比较；(to)把…比作vi.相比"
+    },
+    {
+      "index": 2342,
+      "word": "whatever",
+      "phonetic": "/hwɔt'evə/",
+      "definition": "pron.无论什么 a.无论什么样的"
+    },
+    {
+      "index": 2343,
+      "word": "pillar",
+      "phonetic": "/'pilə/",
+      "definition": "n.柱,台柱,栋梁"
+    },
+    {
+      "index": 2344,
+      "word": "wheel",
+      "phonetic": "/hwi:l/",
+      "definition": "n.轮,车轮"
+    },
+    {
+      "index": 2345,
+      "word": "pendulum",
+      "phonetic": "/'pendjuləm/",
+      "definition": "n.摆,钟摆"
+    },
+    {
+      "index": 2346,
+      "word": "need",
+      "phonetic": "/ni:d/",
+      "definition": "aux.v./v.需要；必须 n.需要；贫困，困窘"
+    },
+    {
+      "index": 2347,
+      "word": "rate",
+      "phonetic": "/reit/",
+      "definition": "n.速率;等级;价格,费用 v.估价;评级,评价"
+    },
+    {
+      "index": 2348,
+      "word": "fulfill",
+      "phonetic": "/ful'fil/",
+      "definition": "v.(fulfil)完成,履行,实践,满足"
+    },
+    {
+      "index": 2349,
+      "word": "just",
+      "phonetic": "/dʒʌst/",
+      "definition": "ad.正好地；刚才；只不过 a.公正的，公平的"
+    },
+    {
+      "index": 2350,
+      "word": "its",
+      "phonetic": "/its/",
+      "definition": "pron.[it的所有格]它的"
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "chunk": 48,
+  "range": "2351-2400",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 2351,
+      "word": "cosy",
+      "phonetic": "/'kəuzi/",
+      "definition": "a.暖和舒服的；舒适的 [反]uncomfortable"
+    },
+    {
+      "index": 2352,
+      "word": "movement",
+      "phonetic": "/'mu:vmənt/",
+      "definition": "n.运动,活动;移动,迁移"
+    },
+    {
+      "index": 2353,
+      "word": "sweat",
+      "phonetic": "/swet/",
+      "definition": "n.汗 v.(使)出汗"
+    },
+    {
+      "index": 2354,
+      "word": "accompany",
+      "phonetic": "/ə'kʌmpəni/",
+      "definition": "v.陪伴，陪同；伴随，和...一起发生，伴奏"
+    },
+    {
+      "index": 2355,
+      "word": "gun",
+      "phonetic": "/gʌn/",
+      "definition": "n.枪，炮，手枪"
+    },
+    {
+      "index": 2356,
+      "word": "economic",
+      "phonetic": "/ˌi:kə'nɔmik/",
+      "definition": "a.经济(上)的,经济学的"
+    },
+    {
+      "index": 2357,
+      "word": "prose",
+      "phonetic": "/prəuz/",
+      "definition": "n.散文 a.散文的"
+    },
+    {
+      "index": 2358,
+      "word": "gang",
+      "phonetic": "/gæŋ/",
+      "definition": "n.一帮,一群,一伙"
+    },
+    {
+      "index": 2359,
+      "word": "fluctuate",
+      "phonetic": "/'flʌktjueit/",
+      "definition": "v.(使)波动;(使)起伏"
+    },
+    {
+      "index": 2360,
+      "word": "seem",
+      "phonetic": "/si:m/",
+      "definition": "v.好像,似乎"
+    },
+    {
+      "index": 2361,
+      "word": "bathroom",
+      "phonetic": "/'bɑ:θrum/",
+      "definition": "n.浴室;盥洗室,卫生间"
+    },
+    {
+      "index": 2362,
+      "word": "slim",
+      "phonetic": "/slim/",
+      "definition": "a.苗条的;(机会)少的 v.减轻体重,变苗条"
+    },
+    {
+      "index": 2363,
+      "word": "wrinkle",
+      "phonetic": "/'riŋkl/",
+      "definition": "n.皱纹 v.起皱,皱眉"
+    },
+    {
+      "index": 2364,
+      "word": "bite",
+      "phonetic": "/bait/",
+      "definition": "v./n.咬,叮 n.一口"
+    },
+    {
+      "index": 2365,
+      "word": "basket",
+      "phonetic": "/'bɑ:skit/",
+      "definition": "n.筐，篮，篓"
+    },
+    {
+      "index": 2366,
+      "word": "desert",
+      "phonetic": "/'dezət/",
+      "definition": "n.沙漠,不毛之地 v.抛弃,遗弃;擅离,开小差"
+    },
+    {
+      "index": 2367,
+      "word": "listen",
+      "phonetic": "/'lisən/",
+      "definition": "vi.倾听(与介词to并用，方可置宾语)"
+    },
+    {
+      "index": 2368,
+      "word": "semiconductor",
+      "phonetic": "/ˌsemikən'dɔktə/",
+      "definition": "n.半导体"
+    },
+    {
+      "index": 2369,
+      "word": "square",
+      "phonetic": "/skwεə/",
+      "definition": "n.正方形;广场a.正方形的v.使成方形"
+    },
+    {
+      "index": 2370,
+      "word": "value",
+      "phonetic": "/'vælju:/",
+      "definition": "n.价格;价值;实用性 v.评价,估价;尊重"
+    },
+    {
+      "index": 2371,
+      "word": "desperate",
+      "phonetic": "/'despərət/",
+      "definition": "a.不顾一切的，铤而走险的；绝望的，危急的"
+    },
+    {
+      "index": 2372,
+      "word": "convict",
+      "phonetic": "/kən'vikt/",
+      "definition": "v.(经审讯)证明…有罪,宣判…有罪 n.囚犯"
+    },
+    {
+      "index": 2373,
+      "word": "sigh",
+      "phonetic": "/sai/",
+      "definition": "n.叹息,叹息声 v.叹息,叹气"
+    },
+    {
+      "index": 2374,
+      "word": "vocabulary",
+      "phonetic": "/və'kæbjələri/",
+      "definition": "n.词汇,词汇量;词汇表"
+    },
+    {
+      "index": 2375,
+      "word": "sticky",
+      "phonetic": "/'stiki/",
+      "definition": "a.粘的，粘性的；棘手的；(道路)泥泞的"
+    },
+    {
+      "index": 2376,
+      "word": "itself",
+      "phonetic": "/it'self/",
+      "definition": "pron.(it的反身代词)它自己，它本身"
+    },
+    {
+      "index": 2377,
+      "word": "nation",
+      "phonetic": "/'neiʃən/",
+      "definition": "n.民族,国家"
+    },
+    {
+      "index": 2378,
+      "word": "hostage",
+      "phonetic": "/'hɔstidʒ/",
+      "definition": "n.人质"
+    },
+    {
+      "index": 2379,
+      "word": "altitude",
+      "phonetic": "/'æltɪtju:d/",
+      "definition": "n.高度，海拔；[pl.]高处，高地"
+    },
+    {
+      "index": 2380,
+      "word": "ask",
+      "phonetic": "/ɑ:sk/",
+      "definition": "vt.问，询问；请求，要求；邀请，约请"
+    },
+    {
+      "index": 2381,
+      "word": "sew",
+      "phonetic": "/səu/",
+      "definition": "v.缝,缝纫"
+    },
+    {
+      "index": 2382,
+      "word": "sturdy",
+      "phonetic": "/'stə:di/",
+      "definition": "a.坚定的，不屈不挠的；强健的，结实的"
+    },
+    {
+      "index": 2383,
+      "word": "version",
+      "phonetic": "/'və:ʃən/",
+      "definition": "n.版本;译本,译文;说法"
+    },
+    {
+      "index": 2384,
+      "word": "use",
+      "phonetic": "/ju:z/",
+      "definition": "n.使/应用；用法/途；益/用处 vt.用；消耗"
+    },
+    {
+      "index": 2385,
+      "word": "decay",
+      "phonetic": "/di'kei/",
+      "definition": "v./n.腐朽,腐烂;衰减,衰退"
+    },
+    {
+      "index": 2386,
+      "word": "anywhere",
+      "phonetic": "/'enihwεə/",
+      "definition": "ad.无论哪里；(用于否定、疑问等)任何地方"
+    },
+    {
+      "index": 2387,
+      "word": "underneath",
+      "phonetic": "/ˌʌndə'ni:θ/",
+      "definition": "prep.在…下面 ad.在下面,在底下"
+    },
+    {
+      "index": 2388,
+      "word": "chronic",
+      "phonetic": "/'krɔnik/",
+      "definition": "a.(疾病)慢性的;积习难改的;严重的,坏的"
+    },
+    {
+      "index": 2389,
+      "word": "frame",
+      "phonetic": "/freɪm/",
+      "definition": "n.框架;体格;骨架;组织;机构 v.设计;制定"
+    },
+    {
+      "index": 2390,
+      "word": "efficient",
+      "phonetic": "/i'fiʃənt/",
+      "definition": "a.有效的,效率高的;有能力的,能胜任的"
+    },
+    {
+      "index": 2391,
+      "word": "discrepancy",
+      "phonetic": "/dis'krepənsi/",
+      "definition": "n.相差;差异;矛盾;"
+    },
+    {
+      "index": 2392,
+      "word": "electrician",
+      "phonetic": "/ˌilek'triʃən/",
+      "definition": "n.电学家,电工"
+    },
+    {
+      "index": 2393,
+      "word": "sport",
+      "phonetic": "/spɔ:t/",
+      "definition": "n.(体育)运动 (pl.)运动会 vi.开玩笑；玩耍"
+    },
+    {
+      "index": 2394,
+      "word": "finish",
+      "phonetic": "/'finiʃ/",
+      "definition": "n.完成;结束;磨光 v.完成;结束;用完;毁掉"
+    },
+    {
+      "index": 2395,
+      "word": "slot",
+      "phonetic": "/slɔt/",
+      "definition": "n.狭缝；空位vt.放入狭缝中；把…纳入"
+    },
+    {
+      "index": 2396,
+      "word": "line",
+      "phonetic": "/lain/",
+      "definition": "n.线;路线,航线;排;线路;界线 v.排队;加衬"
+    },
+    {
+      "index": 2397,
+      "word": "contribution",
+      "phonetic": "/ˌkəntri'bju:ʃən/",
+      "definition": "n.贡献；捐款，捐献物；投稿"
+    },
+    {
+      "index": 2398,
+      "word": "greenhouse",
+      "phonetic": "/'gri:nhaus/",
+      "definition": "n.温室"
+    },
+    {
+      "index": 2399,
+      "word": "moisture",
+      "phonetic": "/'mɔistʃə/",
+      "definition": "n.潮湿,湿气,湿度"
+    },
+    {
+      "index": 2400,
+      "word": "contest",
+      "phonetic": "/'kɔntest/",
+      "definition": "n.竞争,竞赛,比赛 v.竞争,比赛,争论"
+    }
+  ]
+}

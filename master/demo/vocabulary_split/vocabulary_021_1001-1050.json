@@ -1,0 +1,307 @@
+{
+  "chunk": 21,
+  "range": "1001-1050",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 1001,
+      "word": "statesman",
+      "phonetic": "/'steitsmən/",
+      "definition": "n.政治家,国务活动家"
+    },
+    {
+      "index": 1002,
+      "word": "persevere",
+      "phonetic": "/ˌpə:si'viə/",
+      "definition": "v.坚持,坚忍,不屈不挠"
+    },
+    {
+      "index": 1003,
+      "word": "linger",
+      "phonetic": "/'liŋgə/",
+      "definition": "v.逗留,徘徊,拖延,留恋,浪费光阴,苟延残喘"
+    },
+    {
+      "index": 1004,
+      "word": "premise",
+      "phonetic": "/pri'maiz/",
+      "definition": "n.前提,房屋连地基v.提论,预述,假定"
+    },
+    {
+      "index": 1005,
+      "word": "hardship",
+      "phonetic": "/'hɑ:dʃip/",
+      "definition": "n.艰难,困苦"
+    },
+    {
+      "index": 1006,
+      "word": "possibly",
+      "phonetic": "/'pɔsəbli/",
+      "definition": "ad.可能地，也许；无论如何"
+    },
+    {
+      "index": 1007,
+      "word": "carrot",
+      "phonetic": "/'kærət/",
+      "definition": "n.胡萝卜"
+    },
+    {
+      "index": 1008,
+      "word": "stiff",
+      "phonetic": "/stɪf/",
+      "definition": "a.硬的,僵直的;拘谨的;呆板的;艰难的"
+    },
+    {
+      "index": 1009,
+      "word": "revolutionary",
+      "phonetic": "/ˌrevə'lju:ʃənəri/",
+      "definition": "a.革命的,革新的 n.革命者"
+    },
+    {
+      "index": 1010,
+      "word": "gut",
+      "phonetic": "/gʌt/",
+      "definition": "n.[pl.]胆量；内脏a.本能的vt.取出内脏"
+    },
+    {
+      "index": 1011,
+      "word": "bathe",
+      "phonetic": "/beið/",
+      "definition": "v.游泳,洗澡,浸,弄湿"
+    },
+    {
+      "index": 1012,
+      "word": "multiply",
+      "phonetic": "/'mʌltiplai/",
+      "definition": "v.(by)乘,使相乘;倍增,增加,繁殖"
+    },
+    {
+      "index": 1013,
+      "word": "born",
+      "phonetic": "/bɔ:n/",
+      "definition": "a.出生的，产生的；天生的，十足的"
+    },
+    {
+      "index": 1014,
+      "word": "alliance",
+      "phonetic": "/ə'laiəns/",
+      "definition": "n.同盟，同盟国；结盟，联姻"
+    },
+    {
+      "index": 1015,
+      "word": "denial",
+      "phonetic": "/di'naiəl/",
+      "definition": "n.否认;拒绝;否认某事或某事实的声明"
+    },
+    {
+      "index": 1016,
+      "word": "preach",
+      "phonetic": "/pri:tʃ/",
+      "definition": "v.宣讲(教义),布道;竭力鼓吹,宣传;说教"
+    },
+    {
+      "index": 1017,
+      "word": "swallow",
+      "phonetic": "/'swɔləu/",
+      "definition": "n.燕子;吞咽vt.吞,咽;轻信;忍受;vi.咽口水"
+    },
+    {
+      "index": 1018,
+      "word": "bridge",
+      "phonetic": "/bridʒ/",
+      "definition": "n.桥；桥牌；鼻梁 vt.架桥；渡过"
+    },
+    {
+      "index": 1019,
+      "word": "vacuum",
+      "phonetic": "/'vækjuəm/",
+      "definition": "n.真空,真空吸尘器"
+    },
+    {
+      "index": 1020,
+      "word": "poke",
+      "phonetic": "/pəuk/",
+      "definition": "n.刺,戳,懒汉,袋子 v.戳,刺,伸出,刺探,闲荡"
+    },
+    {
+      "index": 1021,
+      "word": "outdoor",
+      "phonetic": "/'əutdɔ:/",
+      "definition": "a.室外的,野外的"
+    },
+    {
+      "index": 1022,
+      "word": "junction",
+      "phonetic": "/'dʒʌŋkʃən/",
+      "definition": "n.连接,接合,交叉点,枢纽站,接头,中继线"
+    },
+    {
+      "index": 1023,
+      "word": "wreath",
+      "phonetic": "/ri:θ/",
+      "definition": "n.花环,花圈"
+    },
+    {
+      "index": 1024,
+      "word": "rocket",
+      "phonetic": "/'rɔkit/",
+      "definition": "n.火箭"
+    },
+    {
+      "index": 1025,
+      "word": "past",
+      "phonetic": "/pɑ:st/",
+      "definition": "a.过去的 ad.过 n.过去，昔日 prep.(经)过"
+    },
+    {
+      "index": 1026,
+      "word": "threat",
+      "phonetic": "/θret/",
+      "definition": "n.恐吓,威胁;坏兆头,危险迹象"
+    },
+    {
+      "index": 1027,
+      "word": "conflict",
+      "phonetic": "/kən'flikt/",
+      "definition": "n.战斗,斗争;抵触,冲突 v.(with)抵触,冲突"
+    },
+    {
+      "index": 1028,
+      "word": "secondary",
+      "phonetic": "/'sekəndəri/",
+      "definition": "a.次要的,二级的;中级的,第二的"
+    },
+    {
+      "index": 1029,
+      "word": "ox",
+      "phonetic": "/ɔks/",
+      "definition": "n.牛,公牛"
+    },
+    {
+      "index": 1030,
+      "word": "resolve",
+      "phonetic": "/ri'zɔlv/",
+      "definition": "v.决心;(使)分解,溶解;决议 n.解决;决心"
+    },
+    {
+      "index": 1031,
+      "word": "modern",
+      "phonetic": "/'mɔdən/",
+      "definition": "a.现代的,近代的,新式的"
+    },
+    {
+      "index": 1032,
+      "word": "opaque",
+      "phonetic": "/əu'peik/",
+      "definition": "a.不透明(光)的;难理解的,晦涩的"
+    },
+    {
+      "index": 1033,
+      "word": "dust",
+      "phonetic": "/dʌst/",
+      "definition": "n.灰尘,尘土 v.拂,掸"
+    },
+    {
+      "index": 1034,
+      "word": "seminar",
+      "phonetic": "/'seminɑ:/",
+      "definition": "n.(大学的)研究班,研讨会"
+    },
+    {
+      "index": 1035,
+      "word": "salary",
+      "phonetic": "/'sæləri/",
+      "definition": "n.薪金,薪水"
+    },
+    {
+      "index": 1036,
+      "word": "dynasty",
+      "phonetic": "/'dinəsti/",
+      "definition": "n.王朝,朝代"
+    },
+    {
+      "index": 1037,
+      "word": "standpoint",
+      "phonetic": "/'stændpɔint/",
+      "definition": "n.立场,观点"
+    },
+    {
+      "index": 1038,
+      "word": "pretty",
+      "phonetic": "/'priti/",
+      "definition": "ad.相当，很a.漂亮的，俊俏的，标致的"
+    },
+    {
+      "index": 1039,
+      "word": "calculate",
+      "phonetic": "/'kælkjuleit/",
+      "definition": "v.计算,推算;计划,打算"
+    },
+    {
+      "index": 1040,
+      "word": "enlarge",
+      "phonetic": "/in'lɑ:dʒ/",
+      "definition": "vt.扩大,放大,增大"
+    },
+    {
+      "index": 1041,
+      "word": "district",
+      "phonetic": "/'distrikt/",
+      "definition": "n.地区,行政区;美国各州的众议院选区"
+    },
+    {
+      "index": 1042,
+      "word": "loudspeaker",
+      "phonetic": "/'laud'spi:kə/",
+      "definition": "n.扬声器,扩音器"
+    },
+    {
+      "index": 1043,
+      "word": "satisfy",
+      "phonetic": "/'sætisfai/",
+      "definition": "v.满意,使满意,使相信,说服"
+    },
+    {
+      "index": 1044,
+      "word": "ounce",
+      "phonetic": "/auns/",
+      "definition": "n.盎司,英两"
+    },
+    {
+      "index": 1045,
+      "word": "economics",
+      "phonetic": "/ˌi:kə'nɔmiks/",
+      "definition": "n.经济学,经济情况"
+    },
+    {
+      "index": 1046,
+      "word": "missile",
+      "phonetic": "/'misail/",
+      "definition": "n.导弹,发射物"
+    },
+    {
+      "index": 1047,
+      "word": "arbitrary",
+      "phonetic": "/'ɑ:bitrəri/",
+      "definition": "a.任意的，任性的，主观的；专断，武断的"
+    },
+    {
+      "index": 1048,
+      "word": "foul",
+      "phonetic": "/faul/",
+      "definition": "a.污秽的;邪恶的 v.弄脏;妨害;犯规 n.犯规"
+    },
+    {
+      "index": 1049,
+      "word": "sour",
+      "phonetic": "/'sauə(r)/",
+      "definition": "a.酸的;发酸的;酸痛的;脾气坏的;刻薄的"
+    },
+    {
+      "index": 1050,
+      "word": "engine",
+      "phonetic": "/'endʒin/",
+      "definition": "n.发动机,引擎;火车头"
+    }
+  ]
+}

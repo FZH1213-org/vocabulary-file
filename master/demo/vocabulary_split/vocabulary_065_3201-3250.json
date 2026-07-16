@@ -1,0 +1,307 @@
+{
+  "chunk": 65,
+  "range": "3201-3250",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 3201,
+      "word": "doctorate",
+      "phonetic": "/'dɔktərit/",
+      "definition": "n.博士学位;博士头衔"
+    },
+    {
+      "index": 3202,
+      "word": "possess",
+      "phonetic": "/pə'zes/",
+      "definition": "v.占有,拥有"
+    },
+    {
+      "index": 3203,
+      "word": "cancer",
+      "phonetic": "/'kænsə/",
+      "definition": "n.癌"
+    },
+    {
+      "index": 3204,
+      "word": "breast",
+      "phonetic": "/brest/",
+      "definition": "n.胸膛,乳房"
+    },
+    {
+      "index": 3205,
+      "word": "spine",
+      "phonetic": "/spain/",
+      "definition": "n.脊柱，脊椎；(动植物的)刺；书脊"
+    },
+    {
+      "index": 3206,
+      "word": "tin",
+      "phonetic": "/tin/",
+      "definition": "n.罐头；锡 a.锡制的 vt.镀锡于"
+    },
+    {
+      "index": 3207,
+      "word": "design",
+      "phonetic": "/di'zain/",
+      "definition": "v.设计;构思;绘制;图案;企图 n.设计,图样"
+    },
+    {
+      "index": 3208,
+      "word": "snake",
+      "phonetic": "/sneik/",
+      "definition": "n.蛇"
+    },
+    {
+      "index": 3209,
+      "word": "structure",
+      "phonetic": "/'strʌktʃə/",
+      "definition": "n.结构,构造;建筑物 v.构造,建造"
+    },
+    {
+      "index": 3210,
+      "word": "symmetry",
+      "phonetic": "/'simitri/",
+      "definition": "n.对称(性);匀称,整齐"
+    },
+    {
+      "index": 3211,
+      "word": "ending",
+      "phonetic": "/'endiŋ/",
+      "definition": "n.结尾,结局"
+    },
+    {
+      "index": 3212,
+      "word": "noble",
+      "phonetic": "/'nəubl/",
+      "definition": "a.高尚的;贵族的,高贵的 n.贵族"
+    },
+    {
+      "index": 3213,
+      "word": "spend",
+      "phonetic": "/spend/",
+      "definition": "v.花费;消耗,用尽;度过,消磨"
+    },
+    {
+      "index": 3214,
+      "word": "acclaim",
+      "phonetic": "/ə'kleim/",
+      "definition": "v.向…欢呼，公认 n.欢呼，喝彩，称赞"
+    },
+    {
+      "index": 3215,
+      "word": "tan",
+      "phonetic": "/tæn/",
+      "definition": "n./a.(皮肤因日晒而成)棕褐色(的) vt.晒黑"
+    },
+    {
+      "index": 3216,
+      "word": "father",
+      "phonetic": "/'fɑ:ðə/",
+      "definition": "n.父亲；创始人，发明者；(Father)神父"
+    },
+    {
+      "index": 3217,
+      "word": "aggressive",
+      "phonetic": "/ə'gresiv/",
+      "definition": "a.好斗的，有进取心的，敢作敢为的"
+    },
+    {
+      "index": 3218,
+      "word": "contradiction",
+      "phonetic": "/ˌkɔntrə'dikʃən/",
+      "definition": "n.反驳，否认；矛盾，不一致"
+    },
+    {
+      "index": 3219,
+      "word": "biology",
+      "phonetic": "/bai'ɔlədʒi/",
+      "definition": "n.生物学"
+    },
+    {
+      "index": 3220,
+      "word": "collar",
+      "phonetic": "/'kɔlə/",
+      "definition": "n.衣领;环状物"
+    },
+    {
+      "index": 3221,
+      "word": "mortgage",
+      "phonetic": "/'mɔ:gidʒ/",
+      "definition": "n./v.抵押(借款)"
+    },
+    {
+      "index": 3222,
+      "word": "internal",
+      "phonetic": "/in'tə:nəl/",
+      "definition": "a.内部的,内的;国内的,内政的"
+    },
+    {
+      "index": 3223,
+      "word": "word",
+      "phonetic": "/wə:d/",
+      "definition": "n.词，词语；言语，话；谈话；消息，信息"
+    },
+    {
+      "index": 3224,
+      "word": "struggle",
+      "phonetic": "/'strʌgl/",
+      "definition": "n./v.斗争,奋斗,努力"
+    },
+    {
+      "index": 3225,
+      "word": "pea",
+      "phonetic": "/pi:/",
+      "definition": "n.豌豆"
+    },
+    {
+      "index": 3226,
+      "word": "almost",
+      "phonetic": "/'ɔ:lməust/",
+      "definition": "adv.几乎，差不多"
+    },
+    {
+      "index": 3227,
+      "word": "even",
+      "phonetic": "/'i:vən/",
+      "definition": "ad.甚至(更) a.均匀的;平的;相等的；偶数的"
+    },
+    {
+      "index": 3228,
+      "word": "strategy",
+      "phonetic": "/'strætidʒi/",
+      "definition": "n.战略，策略；对策，政策"
+    },
+    {
+      "index": 3229,
+      "word": "breath",
+      "phonetic": "/breθ/",
+      "definition": "n.呼吸,气息"
+    },
+    {
+      "index": 3230,
+      "word": "help",
+      "phonetic": "/help/",
+      "definition": "v.帮(援)助；有助于；[呼救]救命n.帮助(手)"
+    },
+    {
+      "index": 3231,
+      "word": "hint",
+      "phonetic": "/hint/",
+      "definition": "n.暗示,提示,线索 v.暗示,示意"
+    },
+    {
+      "index": 3232,
+      "word": "shower",
+      "phonetic": "/'ʃauə/",
+      "definition": "n.阵雨;沐浴;(一)阵/大批v.下阵雨,倾注"
+    },
+    {
+      "index": 3233,
+      "word": "revenge",
+      "phonetic": "/ri'vendʒ/",
+      "definition": "n.报复,复仇 v.替…报仇"
+    },
+    {
+      "index": 3234,
+      "word": "hearing",
+      "phonetic": "/'hiəriŋ/",
+      "definition": "n.听,倾听;听力;审讯"
+    },
+    {
+      "index": 3235,
+      "word": "squeeze",
+      "phonetic": "/skwi:z/",
+      "definition": "v.压榨,挤 n.榨取,勒索"
+    },
+    {
+      "index": 3236,
+      "word": "petition",
+      "phonetic": "/pi'tiʃən/",
+      "definition": "n.请愿书,申请书 v.(向…)请愿,正式请求"
+    },
+    {
+      "index": 3237,
+      "word": "capital",
+      "phonetic": "/'kæpitəl/",
+      "definition": "n.首都;大写字母;资本 a.主要的,大写字母的"
+    },
+    {
+      "index": 3238,
+      "word": "world",
+      "phonetic": "/wɜ:ld/",
+      "definition": "n.世界，地球；…界，领域；世间；全世界"
+    },
+    {
+      "index": 3239,
+      "word": "harassment",
+      "phonetic": "/'hærəsmənt/",
+      "definition": "n.骚扰，扰乱；烦恼，烦乱"
+    },
+    {
+      "index": 3240,
+      "word": "reservoir",
+      "phonetic": "/'rezəvwɑ:/",
+      "definition": "n.水库,蓄水池"
+    },
+    {
+      "index": 3241,
+      "word": "disable",
+      "phonetic": "/dis'eib/",
+      "definition": "vt.使残废;使失去能力;丧失能力"
+    },
+    {
+      "index": 3242,
+      "word": "calcium",
+      "phonetic": "/'kælsiəm/",
+      "definition": "n.钙(化学符号Ca)"
+    },
+    {
+      "index": 3243,
+      "word": "rational",
+      "phonetic": "/'ræʃənəl/",
+      "definition": "a.理性的,合理的"
+    },
+    {
+      "index": 3244,
+      "word": "ferry",
+      "phonetic": "/'feri/",
+      "definition": "n.摆渡;渡船;渡口v.摆渡;渡运(人,车或物等)"
+    },
+    {
+      "index": 3245,
+      "word": "disturbance",
+      "phonetic": "/di'stə:bəns/",
+      "definition": "n.动乱,骚乱,干扰"
+    },
+    {
+      "index": 3246,
+      "word": "cup",
+      "phonetic": "/kʌp/",
+      "definition": "n.杯；奖杯，优胜杯；(一)杯，一杯的容量"
+    },
+    {
+      "index": 3247,
+      "word": "her",
+      "phonetic": "/hə(r)/",
+      "definition": "pron.[she的宾格]她；[she的所有格]她的"
+    },
+    {
+      "index": 3248,
+      "word": "link",
+      "phonetic": "/liŋk/",
+      "definition": "v.连接,联系 n.环节,链环"
+    },
+    {
+      "index": 3249,
+      "word": "definite",
+      "phonetic": "/'definit/",
+      "definition": "a.明确的;一定的;意志坚强的,立场坚定的"
+    },
+    {
+      "index": 3250,
+      "word": "waterproof",
+      "phonetic": "/'wɔ:təpru:f/",
+      "definition": "a.防水的,耐水的"
+    }
+  ]
+}

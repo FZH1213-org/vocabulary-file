@@ -1,0 +1,307 @@
+{
+  "chunk": 108,
+  "range": "5351-5400",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 5351,
+      "word": "toss",
+      "phonetic": "/tɔs/",
+      "definition": "vt.向上掷/扔；摇摆，颠簸 n.投，扔；摇动"
+    },
+    {
+      "index": 5352,
+      "word": "before",
+      "phonetic": "/bi'fɔ:/",
+      "definition": "prep.(指时间)在…以前,在..前面，在..之前"
+    },
+    {
+      "index": 5353,
+      "word": "monetary",
+      "phonetic": "/'mʌnitəri/",
+      "definition": "a.金融的,货币的"
+    },
+    {
+      "index": 5354,
+      "word": "emotion",
+      "phonetic": "/i'məuʃən/",
+      "definition": "n.情绪,情感,感情"
+    },
+    {
+      "index": 5355,
+      "word": "without",
+      "phonetic": "/wi'ðaut/",
+      "definition": "prep.无，没有 n.外面，外部"
+    },
+    {
+      "index": 5356,
+      "word": "mingle",
+      "phonetic": "/'miŋgl/",
+      "definition": "v.(使)混合"
+    },
+    {
+      "index": 5357,
+      "word": "basketball",
+      "phonetic": "/'bɑ:skitbɔ:l/",
+      "definition": "n.篮球，篮球运动"
+    },
+    {
+      "index": 5358,
+      "word": "general",
+      "phonetic": "/'dʒenrəl/",
+      "definition": "a.一般的,普通的;总的,大体的 n.将军"
+    },
+    {
+      "index": 5359,
+      "word": "seam",
+      "phonetic": "/si:m/",
+      "definition": "n.缝,接缝"
+    },
+    {
+      "index": 5360,
+      "word": "aid",
+      "phonetic": "/eid/",
+      "definition": "n.援助，救护；助手，辅助物 vi.援助，救援"
+    },
+    {
+      "index": 5361,
+      "word": "oath",
+      "phonetic": "/əuθ/",
+      "definition": "n.誓言,誓约,诅咒"
+    },
+    {
+      "index": 5362,
+      "word": "imaginative",
+      "phonetic": "/ɪ'mædʒɪnətɪv/",
+      "definition": "a.富有想象力的,爱想象的"
+    },
+    {
+      "index": 5363,
+      "word": "send",
+      "phonetic": "/send/",
+      "definition": "v.(sent,sent)1.打发；派遣 2.送；寄出"
+    },
+    {
+      "index": 5364,
+      "word": "hardware",
+      "phonetic": "/'hɑ:dwεə/",
+      "definition": "n.五金,金属制品;硬件"
+    },
+    {
+      "index": 5365,
+      "word": "implicit",
+      "phonetic": "/im'plisit/",
+      "definition": "a.含蓄的;(in)固有的;无疑问的;绝对的"
+    },
+    {
+      "index": 5366,
+      "word": "apply",
+      "phonetic": "/ə'plai/",
+      "definition": "vi.(以书面形式)申请；请求 vt.应用；实施"
+    },
+    {
+      "index": 5367,
+      "word": "inhale",
+      "phonetic": "/in'heil/",
+      "definition": "v.吸入(气体等)，吸(烟)"
+    },
+    {
+      "index": 5368,
+      "word": "lovely",
+      "phonetic": "/'lʌvli/",
+      "definition": "a.可爱的,好看的;令人愉快的,美好的"
+    },
+    {
+      "index": 5369,
+      "word": "hinge",
+      "phonetic": "/hɪndʒ/",
+      "definition": "n.合页,铰链 vi.依…而定"
+    },
+    {
+      "index": 5370,
+      "word": "clinic",
+      "phonetic": "/'klɪnɪk/",
+      "definition": "n.诊所"
+    },
+    {
+      "index": 5371,
+      "word": "moss",
+      "phonetic": "/mɔs/",
+      "definition": "n.苔,藓,地衣"
+    },
+    {
+      "index": 5372,
+      "word": "optimum",
+      "phonetic": "/'ɔptiməm/",
+      "definition": "a.最适宜的 n.最适宜(条件)"
+    },
+    {
+      "index": 5373,
+      "word": "characterize",
+      "phonetic": "/'kærəktəraiz/",
+      "definition": "v.(characterise)表示…的特性;描述…特性"
+    },
+    {
+      "index": 5374,
+      "word": "suspect",
+      "phonetic": "/sə'spekt/",
+      "definition": "v.猜想；怀疑；察觉 a.可疑的 n.嫌疑犯"
+    },
+    {
+      "index": 5375,
+      "word": "fever",
+      "phonetic": "/'fi:və/",
+      "definition": "n.发热,狂热"
+    },
+    {
+      "index": 5376,
+      "word": "shoot",
+      "phonetic": "/ʃu:t/",
+      "definition": "v.发射;掠过,疾驰而过 n.嫩枝,苗,射击"
+    },
+    {
+      "index": 5377,
+      "word": "bound",
+      "phonetic": "/baund/",
+      "definition": "v./n.跳(跃) a.被束缚的，一定的；n.界限"
+    },
+    {
+      "index": 5378,
+      "word": "leap",
+      "phonetic": "/li:p/",
+      "definition": "v.跳,跳跃 n.跳跃,飞跃"
+    },
+    {
+      "index": 5379,
+      "word": "session",
+      "phonetic": "/'seʃən/",
+      "definition": "n.(一届)会议,一段时间"
+    },
+    {
+      "index": 5380,
+      "word": "ballet",
+      "phonetic": "/'bælei/",
+      "definition": "n.芭蕾舞，芭蕾舞剧；芭蕾舞团"
+    },
+    {
+      "index": 5381,
+      "word": "astronomy",
+      "phonetic": "/ə'strɔnəmi/",
+      "definition": "n．天文学"
+    },
+    {
+      "index": 5382,
+      "word": "shabby",
+      "phonetic": "/'ʃæbi/",
+      "definition": "a.简陋的,破旧的,卑鄙的,不公平的"
+    },
+    {
+      "index": 5383,
+      "word": "convention",
+      "phonetic": "/kən'venʃən/",
+      "definition": "n.大会,会议;惯例,常规,习俗;公约,协定"
+    },
+    {
+      "index": 5384,
+      "word": "usually",
+      "phonetic": "/'ju:ʒuəli/",
+      "definition": "ad.通常,平常"
+    },
+    {
+      "index": 5385,
+      "word": "wooden",
+      "phonetic": "/'wudən/",
+      "definition": "a.木制的;呆笨的"
+    },
+    {
+      "index": 5386,
+      "word": "beauty",
+      "phonetic": "/'bju:ti/",
+      "definition": "n.美，美丽；美人，美丽的事物"
+    },
+    {
+      "index": 5387,
+      "word": "illegal",
+      "phonetic": "/ɪ'li:gl/",
+      "definition": "a.不合法的,非法的"
+    },
+    {
+      "index": 5388,
+      "word": "tender",
+      "phonetic": "/'tendə(r)/",
+      "definition": "a.嫩的;敏感的;温柔的 v.提出,提供;投标"
+    },
+    {
+      "index": 5389,
+      "word": "shrug",
+      "phonetic": "/ʃrʌg/",
+      "definition": "vt./n.耸肩(表示冷淡、怀疑、无奈、不满等)"
+    },
+    {
+      "index": 5390,
+      "word": "violin",
+      "phonetic": "/ˌvaɪə'lɪn/",
+      "definition": "n.小提琴"
+    },
+    {
+      "index": 5391,
+      "word": "intricate",
+      "phonetic": "/'intrikət/",
+      "definition": "a.复杂的,错综的,难以理解的"
+    },
+    {
+      "index": 5392,
+      "word": "transistor",
+      "phonetic": "/træn'sistə/",
+      "definition": "n.晶体管；晶体管收音机"
+    },
+    {
+      "index": 5393,
+      "word": "incidence",
+      "phonetic": "/'insidəns/",
+      "definition": "n.影响程度，影响范围；发生率"
+    },
+    {
+      "index": 5394,
+      "word": "classical",
+      "phonetic": "/'klæsikəl/",
+      "definition": "a.经典的,古典(文学)的"
+    },
+    {
+      "index": 5395,
+      "word": "lid",
+      "phonetic": "/lid/",
+      "definition": "n.盖"
+    },
+    {
+      "index": 5396,
+      "word": "entity",
+      "phonetic": "/'entəti/",
+      "definition": "n.实体;存在(物);组织,机构;本质"
+    },
+    {
+      "index": 5397,
+      "word": "cell",
+      "phonetic": "/sel/",
+      "definition": "n.细胞;小房间;蜂房;电池"
+    },
+    {
+      "index": 5398,
+      "word": "prejudice",
+      "phonetic": "/'predʒudis/",
+      "definition": "n.偏见,成见;损害,侵害 v.使抱偏见,损害"
+    },
+    {
+      "index": 5399,
+      "word": "hunt",
+      "phonetic": "/hʌnt/",
+      "definition": "v./n.打猎,猎取;(for)搜索;寻找"
+    },
+    {
+      "index": 5400,
+      "word": "passport",
+      "phonetic": "/'pɑ:spɔ:t/",
+      "definition": "n.护照,达到某种目的的手段"
+    }
+  ]
+}

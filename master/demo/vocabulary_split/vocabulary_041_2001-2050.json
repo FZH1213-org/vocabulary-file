@@ -1,0 +1,307 @@
+{
+  "chunk": 41,
+  "range": "2001-2050",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 2001,
+      "word": "crew",
+      "phonetic": "/kru:/",
+      "definition": "n.全体船员,全体乘务员"
+    },
+    {
+      "index": 2002,
+      "word": "overcoat",
+      "phonetic": "/'əuvəkəut/",
+      "definition": "n.外衣,大衣"
+    },
+    {
+      "index": 2003,
+      "word": "problem",
+      "phonetic": "/'prɔbləm/",
+      "definition": "n.问题,疑难问题;思考题,讨论题"
+    },
+    {
+      "index": 2004,
+      "word": "retreat",
+      "phonetic": "/rɪ'tri:t/",
+      "definition": "v.撤退,退却"
+    },
+    {
+      "index": 2005,
+      "word": "adverse",
+      "phonetic": "/'ædvə:s/",
+      "definition": "a.逆的，相反的；敌对的；不利的；有害的"
+    },
+    {
+      "index": 2006,
+      "word": "comic",
+      "phonetic": "/'kɔmik/",
+      "definition": "a.喜剧的，滑稽的n.连环画杂志；喜剧演员"
+    },
+    {
+      "index": 2007,
+      "word": "smart",
+      "phonetic": "/smɑ:t/",
+      "definition": "a.漂亮的;聪明的;巧妙的 v.剧痛,刺疼"
+    },
+    {
+      "index": 2008,
+      "word": "propose",
+      "phonetic": "/prəu'pəuz/",
+      "definition": "v.提议,建议;提名,推荐;求婚"
+    },
+    {
+      "index": 2009,
+      "word": "postman",
+      "phonetic": "/'pəustmən/",
+      "definition": "n.邮递员"
+    },
+    {
+      "index": 2010,
+      "word": "outset",
+      "phonetic": "/'autset/",
+      "definition": "n.开始,开端"
+    },
+    {
+      "index": 2011,
+      "word": "TV",
+      "phonetic": "/'ti:'vi:/",
+      "definition": "n.(television)电视；电视机"
+    },
+    {
+      "index": 2012,
+      "word": "provided",
+      "phonetic": "/prə'vaidid/",
+      "definition": "conj.倘若,只要,假如"
+    },
+    {
+      "index": 2013,
+      "word": "scale",
+      "phonetic": "/skeil/",
+      "definition": "n.刻度;天平,磅秤;比例尺;规模;音阶;鱼鳞"
+    },
+    {
+      "index": 2014,
+      "word": "panel",
+      "phonetic": "/'pænl/",
+      "definition": "n.面,板;控制板,仪表盘;专门小组"
+    },
+    {
+      "index": 2015,
+      "word": "lab",
+      "phonetic": "/læb/",
+      "definition": "n.(laboratory)实验室"
+    },
+    {
+      "index": 2016,
+      "word": "day",
+      "phonetic": "/dei/",
+      "definition": "n.天，一昼夜；白昼，白天；时期，时代"
+    },
+    {
+      "index": 2017,
+      "word": "fake",
+      "phonetic": "/feik/",
+      "definition": "n.假货，赝品 a.假的，冒充的 v.伪造；伪装"
+    },
+    {
+      "index": 2018,
+      "word": "impair",
+      "phonetic": "/im'pεə/",
+      "definition": "v.损害,损伤;削弱,减少"
+    },
+    {
+      "index": 2019,
+      "word": "siren",
+      "phonetic": "/'saiərən/",
+      "definition": "n.警报声,警报器"
+    },
+    {
+      "index": 2020,
+      "word": "courtesy",
+      "phonetic": "/'kə:tisi/",
+      "definition": "n.谦恭有礼;有礼貌的举止(或言词)"
+    },
+    {
+      "index": 2021,
+      "word": "protest",
+      "phonetic": "/prəu'test/",
+      "definition": "v./n.主张,断言,抗议,反对"
+    },
+    {
+      "index": 2022,
+      "word": "channel",
+      "phonetic": "/'tʃænəl/",
+      "definition": "n.海峡,水道;信道,波道;路线,途径"
+    },
+    {
+      "index": 2023,
+      "word": "typical",
+      "phonetic": "/'tipikəl/",
+      "definition": "a.(of)典型的,有代表性的"
+    },
+    {
+      "index": 2024,
+      "word": "republican",
+      "phonetic": "/ri'pʌblikən/",
+      "definition": "a.共和的"
+    },
+    {
+      "index": 2025,
+      "word": "quiz",
+      "phonetic": "/kwiz/",
+      "definition": "n.小型考试,测验,问答比赛"
+    },
+    {
+      "index": 2026,
+      "word": "occupation",
+      "phonetic": "/ˌɔkju'peiʃən/",
+      "definition": "n.占领,占据;占用;职业,工作"
+    },
+    {
+      "index": 2027,
+      "word": "revenue",
+      "phonetic": "/'revənju:/",
+      "definition": "n.财政收入,税收"
+    },
+    {
+      "index": 2028,
+      "word": "expensive",
+      "phonetic": "/ik'spensiv/",
+      "definition": "a.花费的,昂贵的"
+    },
+    {
+      "index": 2029,
+      "word": "contain",
+      "phonetic": "/kən'tein/",
+      "definition": "v.包含，容纳；容忍，抑制；可被...除尽"
+    },
+    {
+      "index": 2030,
+      "word": "blunt",
+      "phonetic": "/blʌnt/",
+      "definition": "a.率直的;钝的 v.(使)钝;(使)迟钝"
+    },
+    {
+      "index": 2031,
+      "word": "colony",
+      "phonetic": "/'kɒləni/",
+      "definition": "n.殖民地；侨民；聚居区；(动植物的)群体"
+    },
+    {
+      "index": 2032,
+      "word": "analyse",
+      "phonetic": "/'ænəlaiz/",
+      "definition": "vt.（analyze）分析，分解"
+    },
+    {
+      "index": 2033,
+      "word": "image",
+      "phonetic": "/'imidʒ/",
+      "definition": "n.形象，声誉；印象；像；形象的描述，比喻"
+    },
+    {
+      "index": 2034,
+      "word": "toast",
+      "phonetic": "/təust/",
+      "definition": "n.烤面包,吐司;祝酒(词)v.烘,烤;(向…)祝酒"
+    },
+    {
+      "index": 2035,
+      "word": "cool",
+      "phonetic": "/ku:l/",
+      "definition": "a.凉的；冷静的 n.凉快 ad.冷静地 v.使变凉"
+    },
+    {
+      "index": 2036,
+      "word": "mechanism",
+      "phonetic": "/'mekənizəm/",
+      "definition": "n.机械装置,机构;机制"
+    },
+    {
+      "index": 2037,
+      "word": "spit",
+      "phonetic": "/spit/",
+      "definition": "v.吐(唾沫),吐痰 n.唾液"
+    },
+    {
+      "index": 2038,
+      "word": "prince",
+      "phonetic": "/prins/",
+      "definition": "n.王子,亲王"
+    },
+    {
+      "index": 2039,
+      "word": "servant",
+      "phonetic": "/'sə:vənt/",
+      "definition": "n.仆人"
+    },
+    {
+      "index": 2040,
+      "word": "price",
+      "phonetic": "/prais/",
+      "definition": "n.价格,价钱;代价 v.标价"
+    },
+    {
+      "index": 2041,
+      "word": "scarcely",
+      "phonetic": "/'skεəsli/",
+      "definition": "ad.几乎不,简直没有,勉强"
+    },
+    {
+      "index": 2042,
+      "word": "borrow",
+      "phonetic": "/'bɔrəu/",
+      "definition": "vt.借，借入；(思想、文字等)采用，抄袭"
+    },
+    {
+      "index": 2043,
+      "word": "master",
+      "phonetic": "/'mɑ:stə/",
+      "definition": "n.男主人;师傅;硕士 v.精通,控制 a.主要的"
+    },
+    {
+      "index": 2044,
+      "word": "interference",
+      "phonetic": "/ˌintə'fiərəns/",
+      "definition": "n.(in)干涉,干预;(with)妨碍,打扰"
+    },
+    {
+      "index": 2045,
+      "word": "appearance",
+      "phonetic": "/ə'piərəns/",
+      "definition": "n.出现，露面；外表；作短暂露面"
+    },
+    {
+      "index": 2046,
+      "word": "unemployment",
+      "phonetic": "/ˌʌnim'plɔimənt/",
+      "definition": "n.失业,失业人数"
+    },
+    {
+      "index": 2047,
+      "word": "own",
+      "phonetic": "/əun/",
+      "definition": "a.(用在所有格后面，加强语气)自己的"
+    },
+    {
+      "index": 2048,
+      "word": "bibliography",
+      "phonetic": "/ˌbibli'ɔgrəfi/",
+      "definition": "n.(有关某一专题的)书目；参考书目"
+    },
+    {
+      "index": 2049,
+      "word": "revive",
+      "phonetic": "/ri'vaiv/",
+      "definition": "v.恢复;(使)复苏"
+    },
+    {
+      "index": 2050,
+      "word": "lead",
+      "phonetic": "/li:d/",
+      "definition": "v.领导;领先;通向,导致 n.带领,引导;铅"
+    }
+  ]
+}

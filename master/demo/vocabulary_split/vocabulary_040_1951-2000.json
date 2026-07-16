@@ -1,0 +1,307 @@
+{
+  "chunk": 40,
+  "range": "1951-2000",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 1951,
+      "word": "dialog",
+      "phonetic": "/'daiəlɔg/",
+      "definition": "n.(dialogue)对话,对白"
+    },
+    {
+      "index": 1952,
+      "word": "amplifier",
+      "phonetic": "/'æmplifaiə/",
+      "definition": "n.放大器，扩大器"
+    },
+    {
+      "index": 1953,
+      "word": "embassy",
+      "phonetic": "/'embəsi/",
+      "definition": "n.大使馆;大使及其随员"
+    },
+    {
+      "index": 1954,
+      "word": "soul",
+      "phonetic": "/səul/",
+      "definition": "n.灵魂,心灵;精神,精力;人"
+    },
+    {
+      "index": 1955,
+      "word": "broadcast",
+      "phonetic": "/'brɔ:dkɑ:st/",
+      "definition": "v./n.广播(节目)"
+    },
+    {
+      "index": 1956,
+      "word": "lease",
+      "phonetic": "/li:s/",
+      "definition": "vt.出租,租用 n.租借,租期,租赁物"
+    },
+    {
+      "index": 1957,
+      "word": "inhabit",
+      "phonetic": "/in'hæbit/",
+      "definition": "vt.居住于,存在于;栖息于"
+    },
+    {
+      "index": 1958,
+      "word": "wisdom",
+      "phonetic": "/'wizdəm/",
+      "definition": "n.智慧,明智;名言,格言"
+    },
+    {
+      "index": 1959,
+      "word": "embed",
+      "phonetic": "/im'bed/",
+      "definition": "vt.把…嵌(埋、插)入，扎牢；使深留脑中"
+    },
+    {
+      "index": 1960,
+      "word": "land",
+      "phonetic": "/lænd/",
+      "definition": "n.陆地,土地,国家 v.(使)靠岸(登陆,降落)"
+    },
+    {
+      "index": 1961,
+      "word": "adore",
+      "phonetic": "/ə'dɔ:/",
+      "definition": "vt.崇拜,敬慕,爱慕；非常喜欢"
+    },
+    {
+      "index": 1962,
+      "word": "employment",
+      "phonetic": "/im'plɔimənt/",
+      "definition": "n.雇用;使用;工作,职业"
+    },
+    {
+      "index": 1963,
+      "word": "sway",
+      "phonetic": "/swei/",
+      "definition": "vi.摇动；倾斜 vt.使摇动 n.摇动；影响力"
+    },
+    {
+      "index": 1964,
+      "word": "estate",
+      "phonetic": "/ɪ'steɪt/",
+      "definition": "n.房地产;不动产;所有权;地位;生活状况"
+    },
+    {
+      "index": 1965,
+      "word": "time",
+      "phonetic": "/taim/",
+      "definition": "n.时间，时刻；次，回；时代，时期；倍，乘"
+    },
+    {
+      "index": 1966,
+      "word": "to",
+      "phonetic": "/tu:/",
+      "definition": "prep.(表示方向)到；向；(表示间接关系)给."
+    },
+    {
+      "index": 1967,
+      "word": "reciprocal",
+      "phonetic": "/ri'siprəkəl/",
+      "definition": "a.相互的,往复的,互利的"
+    },
+    {
+      "index": 1968,
+      "word": "envelope",
+      "phonetic": "/'envələup/",
+      "definition": "n.信封,信皮;封套"
+    },
+    {
+      "index": 1969,
+      "word": "publication",
+      "phonetic": "/ˌpʌbli'keiʃən/",
+      "definition": "n.出版物;出版,发行;公布,发表"
+    },
+    {
+      "index": 1970,
+      "word": "festival",
+      "phonetic": "/'festəvəl/",
+      "definition": "n.节日;音乐节;戏剧节 a.节日的;快乐的"
+    },
+    {
+      "index": 1971,
+      "word": "history",
+      "phonetic": "/'histəri/",
+      "definition": "n.历史,历史学;来历,经历"
+    },
+    {
+      "index": 1972,
+      "word": "can",
+      "phonetic": "/kæn/",
+      "definition": "aux.v.能；可以 n.罐头；容器 vt.把…装罐"
+    },
+    {
+      "index": 1973,
+      "word": "fat",
+      "phonetic": "/fæt/",
+      "definition": "a.多脂肪的，肥胖的；丰厚的n.脂肪，肥肉"
+    },
+    {
+      "index": 1974,
+      "word": "agent",
+      "phonetic": "/'eidʒənt/",
+      "definition": "n.代理人；代理商；产生作用的人或事物"
+    },
+    {
+      "index": 1975,
+      "word": "alloy",
+      "phonetic": "/'ælɔi/",
+      "definition": "n.合金vt.将…铸成合金"
+    },
+    {
+      "index": 1976,
+      "word": "scout",
+      "phonetic": "/skaut/",
+      "definition": "n.侦察员,侦察机(舰) v.搜索,侦察"
+    },
+    {
+      "index": 1977,
+      "word": "certainty",
+      "phonetic": "/'sə:tənti/",
+      "definition": "n.必然,肯定;必然的事"
+    },
+    {
+      "index": 1978,
+      "word": "rose",
+      "phonetic": "/rəuz/",
+      "definition": "n.玫瑰,蔷薇"
+    },
+    {
+      "index": 1979,
+      "word": "furious",
+      "phonetic": "/'fju:riəs/",
+      "definition": "a.狂怒的,狂暴的,猛烈的"
+    },
+    {
+      "index": 1980,
+      "word": "position",
+      "phonetic": "/pə'zɪʃn/",
+      "definition": "n.位置;职位;姿势,姿态;见解,立场,形势"
+    },
+    {
+      "index": 1981,
+      "word": "public",
+      "phonetic": "/'pʌblik/",
+      "definition": "a.公共的,公用的;公开的,公然的n.公众,民众"
+    },
+    {
+      "index": 1982,
+      "word": "drift",
+      "phonetic": "/drift/",
+      "definition": "v./n.漂,漂流(物)"
+    },
+    {
+      "index": 1983,
+      "word": "acquaint",
+      "phonetic": "/ə'kweint/",
+      "definition": "vt.(with)使认识，使了解，使熟悉"
+    },
+    {
+      "index": 1984,
+      "word": "record",
+      "phonetic": "/ri'kɔ:d/",
+      "definition": "n.记录;最高记录;履历;唱片v.记录;录音"
+    },
+    {
+      "index": 1985,
+      "word": "celebrity",
+      "phonetic": "/si'lebrəti/",
+      "definition": "n.名人，名流；著名，名声，名望"
+    },
+    {
+      "index": 1986,
+      "word": "tide",
+      "phonetic": "/taid/",
+      "definition": "n.潮,潮汐;潮流,趋势"
+    },
+    {
+      "index": 1987,
+      "word": "proclaim",
+      "phonetic": "/prəu'kleim/",
+      "definition": "v.宣告,声明"
+    },
+    {
+      "index": 1988,
+      "word": "climate",
+      "phonetic": "/'klaimit/",
+      "definition": "n.气候;风气,社会思潮"
+    },
+    {
+      "index": 1989,
+      "word": "vessel",
+      "phonetic": "/'vesəl/",
+      "definition": "n.容器,器皿;船,舰;管,血管"
+    },
+    {
+      "index": 1990,
+      "word": "style",
+      "phonetic": "/stail/",
+      "definition": "n.风格,文体;式样,时式,类型"
+    },
+    {
+      "index": 1991,
+      "word": "rack",
+      "phonetic": "/ræk/",
+      "definition": "n.挂物架,搁物架 v.使痛苦,折磨"
+    },
+    {
+      "index": 1992,
+      "word": "straight",
+      "phonetic": "/streɪt/",
+      "definition": "a.直的;整齐的,端正的 ad.直接;正直,直率"
+    },
+    {
+      "index": 1993,
+      "word": "open",
+      "phonetic": "/'əupən/",
+      "definition": "n.公开,户外 a.开的,开放的 v.开"
+    },
+    {
+      "index": 1994,
+      "word": "linear",
+      "phonetic": "/'liniə/",
+      "definition": "a.线的，直线的，线状的；长度的；线性的"
+    },
+    {
+      "index": 1995,
+      "word": "consumption",
+      "phonetic": "/kən'sʌmpʃən/",
+      "definition": "n.消费(量),消耗"
+    },
+    {
+      "index": 1996,
+      "word": "variety",
+      "phonetic": "/və'raɪəti/",
+      "definition": "n.种种,多种多样;种类,品种"
+    },
+    {
+      "index": 1997,
+      "word": "precede",
+      "phonetic": "/pri:'si:d/",
+      "definition": "v.领先(于),在(…之前);优先,先于"
+    },
+    {
+      "index": 1998,
+      "word": "rule",
+      "phonetic": "/ru:l/",
+      "definition": "v.统治;支配;裁定n.规章,条例;习惯;统治"
+    },
+    {
+      "index": 1999,
+      "word": "exceptional",
+      "phonetic": "/ik'sepʃənəl/",
+      "definition": "a.例外的,异常的"
+    },
+    {
+      "index": 2000,
+      "word": "pub",
+      "phonetic": "/pʌb/",
+      "definition": "n.(英国)小酒店；小旅馆"
+    }
+  ]
+}

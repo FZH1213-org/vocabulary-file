@@ -1,0 +1,307 @@
+{
+  "chunk": 9,
+  "range": "401-450",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 401,
+      "word": "sweep",
+      "phonetic": "/swi:p/",
+      "definition": "v.扫,打扫;席卷,冲光;扫过,掠过"
+    },
+    {
+      "index": 402,
+      "word": "labor",
+      "phonetic": "/'leibə/",
+      "definition": "n.(labour)工作，劳动；劳力 v.劳动，苦干"
+    },
+    {
+      "index": 403,
+      "word": "installment",
+      "phonetic": "/in'stɔ:lmənt/",
+      "definition": "n.(instalment)分期付款；(连载的)一期"
+    },
+    {
+      "index": 404,
+      "word": "await",
+      "phonetic": "/ə'weit/",
+      "definition": "vt.等候，期待；(事情等)降临于"
+    },
+    {
+      "index": 405,
+      "word": "ticket",
+      "phonetic": "/'tikit/",
+      "definition": "n.票,入场券;票签;(交通违章)罚款传票"
+    },
+    {
+      "index": 406,
+      "word": "essential",
+      "phonetic": "/i'senʃəl/",
+      "definition": "a.本质的,基本的;净化的 n.本质;要素"
+    },
+    {
+      "index": 407,
+      "word": "immune",
+      "phonetic": "/i'mju:n/",
+      "definition": "a.免疫的,有免疫力的;有受影响的;豁免的"
+    },
+    {
+      "index": 408,
+      "word": "silver",
+      "phonetic": "/'silvə/",
+      "definition": "n.银;银器;银币 v.镀银"
+    },
+    {
+      "index": 409,
+      "word": "circuit",
+      "phonetic": "/'sə:kit/",
+      "definition": "n.环行,周线,巡回;电路,线路"
+    },
+    {
+      "index": 410,
+      "word": "conversion",
+      "phonetic": "/kən'və:ʃən/",
+      "definition": "n.转变，转换；信仰的改变；"
+    },
+    {
+      "index": 411,
+      "word": "tar",
+      "phonetic": "/tɑ:/",
+      "definition": "n.柏油，焦油 vt.涂或浇柏油/焦油于"
+    },
+    {
+      "index": 412,
+      "word": "tease",
+      "phonetic": "/ti:z/",
+      "definition": "v.戏弄,取笑;挑逗 n.(爱)戏弄他人者;戏弄"
+    },
+    {
+      "index": 413,
+      "word": "fascinate",
+      "phonetic": "/'fæsineit/",
+      "definition": "v.迷住,强烈吸引"
+    },
+    {
+      "index": 414,
+      "word": "cheek",
+      "phonetic": "/tʃi:k/",
+      "definition": "n.面颊,脸"
+    },
+    {
+      "index": 415,
+      "word": "misunderstand",
+      "phonetic": "/ˌmisʌndə'stænd/",
+      "definition": "v.误解,误会"
+    },
+    {
+      "index": 416,
+      "word": "critic",
+      "phonetic": "/'kritik/",
+      "definition": "n.批评家,评论家"
+    },
+    {
+      "index": 417,
+      "word": "stumble",
+      "phonetic": "/'stʌmbl/",
+      "definition": "n.跌倒，绊倒 vi.绊(摔)倒；结结巴巴说"
+    },
+    {
+      "index": 418,
+      "word": "total",
+      "phonetic": "/'təutəl/",
+      "definition": "n.总数,合计 a.总的,全部的 v.合计,总数达"
+    },
+    {
+      "index": 419,
+      "word": "airport",
+      "phonetic": "/'εəpɔ:t/",
+      "definition": "n.机场，航空站，航空港"
+    },
+    {
+      "index": 420,
+      "word": "possibility",
+      "phonetic": "/ˌpɔsə'biləti/",
+      "definition": "n.可能,可能性;可能的事,希望"
+    },
+    {
+      "index": 421,
+      "word": "continual",
+      "phonetic": "/kən'tinjuəl/",
+      "definition": "a.不断的,连续的,频繁的"
+    },
+    {
+      "index": 422,
+      "word": "machinery",
+      "phonetic": "/mə'ʃi:nəri/",
+      "definition": "n.(总称)机器,机械"
+    },
+    {
+      "index": 423,
+      "word": "eloquent",
+      "phonetic": "/'eləkwənt/",
+      "definition": "a.雄辩的,有说服力的;善辩的,口才流利的"
+    },
+    {
+      "index": 424,
+      "word": "impetus",
+      "phonetic": "/'ɪmpɪtəs/",
+      "definition": "n.推动(力),促进"
+    },
+    {
+      "index": 425,
+      "word": "driver",
+      "phonetic": "/draivə/",
+      "definition": "n.驾驶员"
+    },
+    {
+      "index": 426,
+      "word": "fuss",
+      "phonetic": "/fʌs/",
+      "definition": "n./v.忙乱,大惊小怪"
+    },
+    {
+      "index": 427,
+      "word": "deceive",
+      "phonetic": "/di'si:v/",
+      "definition": "v.欺骗,蒙蔽"
+    },
+    {
+      "index": 428,
+      "word": "misery",
+      "phonetic": "/'mizəri/",
+      "definition": "n.痛苦,悲惨,不幸"
+    },
+    {
+      "index": 429,
+      "word": "transition",
+      "phonetic": "/træn'siʒən/",
+      "definition": "n.转变，变迁，过渡(时期)"
+    },
+    {
+      "index": 430,
+      "word": "boss",
+      "phonetic": "/bɔs/",
+      "definition": "n.老板，上司 vt.指挥，控制，发号施令"
+    },
+    {
+      "index": 431,
+      "word": "sponsor",
+      "phonetic": "/'spɔnsə/",
+      "definition": "n.发起人,主力者,保证人 v.发起,主办"
+    },
+    {
+      "index": 432,
+      "word": "mere",
+      "phonetic": "/miə/",
+      "definition": "a.纯粹的;仅仅,只不过"
+    },
+    {
+      "index": 433,
+      "word": "reptile",
+      "phonetic": "/'reptail/",
+      "definition": "n.爬行动物"
+    },
+    {
+      "index": 434,
+      "word": "pie",
+      "phonetic": "/pai/",
+      "definition": "n.馅饼"
+    },
+    {
+      "index": 435,
+      "word": "table",
+      "phonetic": "/'teibl/",
+      "definition": "n.桌子;餐桌;工作台;表格 vt.搁置;提交讨论"
+    },
+    {
+      "index": 436,
+      "word": "solidarity",
+      "phonetic": "/ˌsɔli'dæriti/",
+      "definition": "n.团结；休戚相关"
+    },
+    {
+      "index": 437,
+      "word": "rough",
+      "phonetic": "/rʌf/",
+      "definition": "a.粗糙的;粗略的,大致的;粗野的,粗暴的"
+    },
+    {
+      "index": 438,
+      "word": "superficial",
+      "phonetic": "/ˌsu:pə'fɪʃl/",
+      "definition": "a.表面的;肤浅的,浅薄的"
+    },
+    {
+      "index": 439,
+      "word": "enquire",
+      "phonetic": "/in'kwaiə/",
+      "definition": "v.(inquire)询问,打听;调查;查问"
+    },
+    {
+      "index": 440,
+      "word": "offensive",
+      "phonetic": "/ə'fensiv/",
+      "definition": "a.冒犯的,攻击的 n.攻势,进攻"
+    },
+    {
+      "index": 441,
+      "word": "sponge",
+      "phonetic": "/spʌndʒ/",
+      "definition": "n.海绵"
+    },
+    {
+      "index": 442,
+      "word": "answer",
+      "phonetic": "/'ɑ:nsə/",
+      "definition": "vt.回答，答复，答案 v.回答，答复，响应"
+    },
+    {
+      "index": 443,
+      "word": "underlie",
+      "phonetic": "/ˌʌndə'lai/",
+      "definition": "vt.位于...之下, 成为...的基础"
+    },
+    {
+      "index": 444,
+      "word": "insect",
+      "phonetic": "/'insekt/",
+      "definition": "n.昆虫"
+    },
+    {
+      "index": 445,
+      "word": "historian",
+      "phonetic": "/his'tɔ:riən/",
+      "definition": "n.历史学家"
+    },
+    {
+      "index": 446,
+      "word": "disposal",
+      "phonetic": "/dis'pəuzəl/",
+      "definition": "n.处理,处置;布置,安排"
+    },
+    {
+      "index": 447,
+      "word": "invade",
+      "phonetic": "/in'veid/",
+      "definition": "vt.入侵,侵略,侵袭,侵扰"
+    },
+    {
+      "index": 448,
+      "word": "demand",
+      "phonetic": "/di'mɑ:nd/",
+      "definition": "n./v.要求,请求,需要(量) v.查问"
+    },
+    {
+      "index": 449,
+      "word": "keyboard",
+      "phonetic": "/'ki:bɔ:d/",
+      "definition": "n.键盘 vt.用键盘输入(信息)"
+    },
+    {
+      "index": 450,
+      "word": "ocean",
+      "phonetic": "/'əuʃən/",
+      "definition": "n.海洋"
+    }
+  ]
+}

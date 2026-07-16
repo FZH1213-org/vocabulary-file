@@ -1,0 +1,307 @@
+{
+  "chunk": 57,
+  "range": "2801-2850",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 2801,
+      "word": "thrive",
+      "phonetic": "/θraiv/",
+      "definition": "v.兴旺,繁荣"
+    },
+    {
+      "index": 2802,
+      "word": "school",
+      "phonetic": "/sku:l/",
+      "definition": "n.学校，(大学里的)学院；上学，学业；学派"
+    },
+    {
+      "index": 2803,
+      "word": "concentrate",
+      "phonetic": "/'kɔnsəntreit/",
+      "definition": "v.(on)集中,专心;浓缩 n.浓缩物"
+    },
+    {
+      "index": 2804,
+      "word": "farther",
+      "phonetic": "/'fɑ:ðə/",
+      "definition": "ad.更远地,再往前地 a.更远的"
+    },
+    {
+      "index": 2805,
+      "word": "thrust",
+      "phonetic": "/θrʌst/",
+      "definition": "vt.插入；猛推 n.插，推力 vi.刺，戳，冲"
+    },
+    {
+      "index": 2806,
+      "word": "preserve",
+      "phonetic": "/prɪ'zɜ:v/",
+      "definition": "v.保护,维持;保存,保藏"
+    },
+    {
+      "index": 2807,
+      "word": "consecutive",
+      "phonetic": "/kən'sekjutiv/",
+      "definition": "a.连续的；连贯的；顺序的"
+    },
+    {
+      "index": 2808,
+      "word": "federal",
+      "phonetic": "/'fedərəl/",
+      "definition": "a.联邦的;联邦制的;联合的;同盟的"
+    },
+    {
+      "index": 2809,
+      "word": "accountant",
+      "phonetic": "/ə'kauntənt/",
+      "definition": "n.会计人员，会计师"
+    },
+    {
+      "index": 2810,
+      "word": "note",
+      "phonetic": "/nəut/",
+      "definition": "n.笔记;按语,注释;钞票,纸币v.记下,摘下"
+    },
+    {
+      "index": 2811,
+      "word": "change",
+      "phonetic": "/tʃeindʒ/",
+      "definition": "n.改变,变化;零钱 v.更换,调换,交换;改变"
+    },
+    {
+      "index": 2812,
+      "word": "saddle",
+      "phonetic": "/'sædl/",
+      "definition": "n.鞍,马鞍,鞍状物"
+    },
+    {
+      "index": 2813,
+      "word": "anticipate",
+      "phonetic": "/æn'tisipeit/",
+      "definition": "vt.预料；期望；预先考虑；抢先；提前使用"
+    },
+    {
+      "index": 2814,
+      "word": "gaol",
+      "phonetic": "/dʒeil/",
+      "definition": "n.(jail)监狱；(不加冠词)监禁 vt.使…坐牢"
+    },
+    {
+      "index": 2815,
+      "word": "candle",
+      "phonetic": "/'kændl/",
+      "definition": "n.蜡烛"
+    },
+    {
+      "index": 2816,
+      "word": "sack",
+      "phonetic": "/sæk/",
+      "definition": "n.袋,包,麻袋 v.解雇"
+    },
+    {
+      "index": 2817,
+      "word": "mouse",
+      "phonetic": "/maus/",
+      "definition": "n.(pl.mice)鼠,耗子"
+    },
+    {
+      "index": 2818,
+      "word": "minority",
+      "phonetic": "/maɪ'nɒrəti/",
+      "definition": "n.少数,少数派,少数民族"
+    },
+    {
+      "index": 2819,
+      "word": "fry",
+      "phonetic": "/frai/",
+      "definition": "v.油煎,油炸"
+    },
+    {
+      "index": 2820,
+      "word": "risk",
+      "phonetic": "/risk/",
+      "definition": "v.冒…的危险 n.冒险;风险"
+    },
+    {
+      "index": 2821,
+      "word": "diagnose",
+      "phonetic": "/'daiəgnəuz/",
+      "definition": "vt.诊断(疾病)；判断(问题)"
+    },
+    {
+      "index": 2822,
+      "word": "merge",
+      "phonetic": "/mə:dʒ/",
+      "definition": "v.(使)结合，(使)合并，(使)合为一体"
+    },
+    {
+      "index": 2823,
+      "word": "opposite",
+      "phonetic": "/'ɔpəzit/",
+      "definition": "a.对面的,相对的,相反的 n.对立面"
+    },
+    {
+      "index": 2824,
+      "word": "zinc",
+      "phonetic": "/ziŋk/",
+      "definition": "n.锌"
+    },
+    {
+      "index": 2825,
+      "word": "wise",
+      "phonetic": "/waiz/",
+      "definition": "a.有智慧的,聪明的"
+    },
+    {
+      "index": 2826,
+      "word": "hydrogen",
+      "phonetic": "/'haidrədʒən/",
+      "definition": "n.氢"
+    },
+    {
+      "index": 2827,
+      "word": "rigorous",
+      "phonetic": "/'rigərəs/",
+      "definition": "a.严格的,严厉的,严酷的,严密的,严谨的"
+    },
+    {
+      "index": 2828,
+      "word": "liberate",
+      "phonetic": "/'libəreit/",
+      "definition": "vt.解放,释放"
+    },
+    {
+      "index": 2829,
+      "word": "bright",
+      "phonetic": "/brait/",
+      "definition": "a.明亮的,辉煌的;聪明的;欢快的,美好的"
+    },
+    {
+      "index": 2830,
+      "word": "lend",
+      "phonetic": "/lend/",
+      "definition": "vt.借给,贷(款)"
+    },
+    {
+      "index": 2831,
+      "word": "province",
+      "phonetic": "/'prɔvins/",
+      "definition": "n.省;领域,范围,本分"
+    },
+    {
+      "index": 2832,
+      "word": "rush",
+      "phonetic": "/rʌʃ/",
+      "definition": "v.(使)冲;奔n.冲,急速行进 a.(交通)繁忙的"
+    },
+    {
+      "index": 2833,
+      "word": "coil",
+      "phonetic": "/kɔil/",
+      "definition": "v.卷,盘绕 n.(一)卷,(一)圈;线圈,绕组"
+    },
+    {
+      "index": 2834,
+      "word": "cheer",
+      "phonetic": "/tʃiə/",
+      "definition": "v.(使)振奋,(使)高兴 v./n.喝彩,欢呼"
+    },
+    {
+      "index": 2835,
+      "word": "pebble",
+      "phonetic": "/'pebl/",
+      "definition": "n.卵石"
+    },
+    {
+      "index": 2836,
+      "word": "guilty",
+      "phonetic": "/'gilti/",
+      "definition": "a.(of)有罪的,内疚的"
+    },
+    {
+      "index": 2837,
+      "word": "devil",
+      "phonetic": "/'devl/",
+      "definition": "n.魔鬼"
+    },
+    {
+      "index": 2838,
+      "word": "intimate",
+      "phonetic": "/'ɪntɪmət/",
+      "definition": "a.亲密的,密切的 n.熟友,熟人"
+    },
+    {
+      "index": 2839,
+      "word": "persecute",
+      "phonetic": "/'pə:sikju:t/",
+      "definition": "v.迫害"
+    },
+    {
+      "index": 2840,
+      "word": "reverse",
+      "phonetic": "/ri'və:s/",
+      "definition": "n.相反;背面 a.相反的 v.颠倒,倒转"
+    },
+    {
+      "index": 2841,
+      "word": "whether",
+      "phonetic": "/'weðə/",
+      "definition": "conj.是否，会不会，不管，无论"
+    },
+    {
+      "index": 2842,
+      "word": "prestige",
+      "phonetic": "/pre'sti:ʒ/",
+      "definition": "n.声望,威望,威信"
+    },
+    {
+      "index": 2843,
+      "word": "football",
+      "phonetic": "/'futˌbɔ:l/",
+      "definition": "n.足球"
+    },
+    {
+      "index": 2844,
+      "word": "coordinate",
+      "phonetic": "/kəu'ɔ:dinit/",
+      "definition": "a.同等的,并列的;坐标的 n.坐标"
+    },
+    {
+      "index": 2845,
+      "word": "cast",
+      "phonetic": "/kɑ:s/",
+      "definition": "v.投,扔,掷,抛；铸造；投票；n.演员表"
+    },
+    {
+      "index": 2846,
+      "word": "building",
+      "phonetic": "/'bildiŋ/",
+      "definition": "n.建筑(物)，房屋，大楼 [同]structure"
+    },
+    {
+      "index": 2847,
+      "word": "o'clock",
+      "phonetic": "/ə'klɔk/",
+      "definition": "ad.(…)点钟(与1至12数字连用)"
+    },
+    {
+      "index": 2848,
+      "word": "commerce",
+      "phonetic": "/'kɒmɜ:s/",
+      "definition": "n.商业，贸易；交际，交往"
+    },
+    {
+      "index": 2849,
+      "word": "blackboard",
+      "phonetic": "/'blækbɔ:d/",
+      "definition": "n.黑板"
+    },
+    {
+      "index": 2850,
+      "word": "discipline",
+      "phonetic": "/'disiplin/",
+      "definition": "n.纪律,学科"
+    }
+  ]
+}

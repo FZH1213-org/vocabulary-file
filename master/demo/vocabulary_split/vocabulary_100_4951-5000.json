@@ -1,0 +1,307 @@
+{
+  "chunk": 100,
+  "range": "4951-5000",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 4951,
+      "word": "eat",
+      "phonetic": "/i:t/",
+      "definition": "vt.吃，喝 vi.吃饭，吃东西"
+    },
+    {
+      "index": 4952,
+      "word": "initial",
+      "phonetic": "/i'niʃəl/",
+      "definition": "a.最初的,开头的;词首的 n.词首大写字母"
+    },
+    {
+      "index": 4953,
+      "word": "partial",
+      "phonetic": "/'pɑ:ʃəl/",
+      "definition": "a.部分的,不完全的;偏袒的,不公平的,偏爱的"
+    },
+    {
+      "index": 4954,
+      "word": "married",
+      "phonetic": "/'mærid/",
+      "definition": "a.已婚的,夫妇的;(to)与…结婚的"
+    },
+    {
+      "index": 4955,
+      "word": "safe",
+      "phonetic": "/seif/",
+      "definition": "a.安全的,牢靠的;谨慎的,可靠的 n.保险箱"
+    },
+    {
+      "index": 4956,
+      "word": "August",
+      "phonetic": "/'ɔ:gəst/",
+      "definition": "n.8月"
+    },
+    {
+      "index": 4957,
+      "word": "brow",
+      "phonetic": "/brau/",
+      "definition": "n.眉(毛);额"
+    },
+    {
+      "index": 4958,
+      "word": "storey",
+      "phonetic": "/'stɔ:ri/",
+      "definition": "n.(story)楼,层"
+    },
+    {
+      "index": 4959,
+      "word": "exceed",
+      "phonetic": "/ik'si:d/",
+      "definition": "v.超过,胜过;越出"
+    },
+    {
+      "index": 4960,
+      "word": "cruise",
+      "phonetic": "/kru:z/",
+      "definition": "v.巡航；以节省燃料的速度前进 n.乘船巡游"
+    },
+    {
+      "index": 4961,
+      "word": "assurance",
+      "phonetic": "/ə'ʃuərəns/",
+      "definition": "n.保证,担保；确信,断言；信心,信念"
+    },
+    {
+      "index": 4962,
+      "word": "authentic",
+      "phonetic": "/ɔ:'θentik/",
+      "definition": "a.真的，真正的；可靠，可信的，有根据的"
+    },
+    {
+      "index": 4963,
+      "word": "thief",
+      "phonetic": "/θi:f/",
+      "definition": "n.(thieves)贼；小偷"
+    },
+    {
+      "index": 4964,
+      "word": "typist",
+      "phonetic": "/'taipist/",
+      "definition": "n.打字员"
+    },
+    {
+      "index": 4965,
+      "word": "stun",
+      "phonetic": "/stʌn/",
+      "definition": "vt.使…失去知觉；使目瞪口呆，使吃惊"
+    },
+    {
+      "index": 4966,
+      "word": "earn",
+      "phonetic": "/ə:n/",
+      "definition": "v.赚得,挣得,获得"
+    },
+    {
+      "index": 4967,
+      "word": "buffet",
+      "phonetic": "/'bʌfit/",
+      "definition": "n.自助餐"
+    },
+    {
+      "index": 4968,
+      "word": "bed",
+      "phonetic": "/bed/",
+      "definition": "n.床,床位；(苗)床,坛；河床，(湖、海的)底"
+    },
+    {
+      "index": 4969,
+      "word": "coast",
+      "phonetic": "/kəust/",
+      "definition": "n.海岸,海滨"
+    },
+    {
+      "index": 4970,
+      "word": "athlete",
+      "phonetic": "/'æθli:t/",
+      "definition": "n.运动员，体育家，身强力壮的人"
+    },
+    {
+      "index": 4971,
+      "word": "intermediate",
+      "phonetic": "/ˌintə'mi:djət/",
+      "definition": "a.中间的,居间的;中级的 n.中间体,媒介物"
+    },
+    {
+      "index": 4972,
+      "word": "justice",
+      "phonetic": "/'dʒʌstis/",
+      "definition": "n.公正,公平;审判,司法"
+    },
+    {
+      "index": 4973,
+      "word": "drug",
+      "phonetic": "/drʌg/",
+      "definition": "n.药物;麻醉品;毒品;滞销货 v.下麻药;吸毒"
+    },
+    {
+      "index": 4974,
+      "word": "proceed",
+      "phonetic": "/prə'si:d/",
+      "definition": "v.进行,继续下去;发生"
+    },
+    {
+      "index": 4975,
+      "word": "hair",
+      "phonetic": "/hεə/",
+      "definition": "n.毛发，头发；绒毛，毛状物"
+    },
+    {
+      "index": 4976,
+      "word": "man",
+      "phonetic": "/mæn/",
+      "definition": "n.(pl.men)人；人类(单数，不加冠词)；男人"
+    },
+    {
+      "index": 4977,
+      "word": "disaster",
+      "phonetic": "/ˌdi'zɑ:stə/",
+      "definition": "n.灾难,大祸;彻底的失败"
+    },
+    {
+      "index": 4978,
+      "word": "retrospect",
+      "phonetic": "/'retrəuspekt/",
+      "definition": "v./n.回顾，回想，追溯[反]foresee"
+    },
+    {
+      "index": 4979,
+      "word": "penalty",
+      "phonetic": "/'penəlti/",
+      "definition": "n.处罚,刑罚,惩罚,罚金"
+    },
+    {
+      "index": 4980,
+      "word": "inland",
+      "phonetic": "/'inlənd/",
+      "definition": "a./ad.国内,内地,内陆"
+    },
+    {
+      "index": 4981,
+      "word": "auditorium",
+      "phonetic": "/ˌɔ:di'tɔ:riəm/",
+      "definition": "n.观众席，听众席；会堂，礼堂"
+    },
+    {
+      "index": 4982,
+      "word": "bypass",
+      "phonetic": "/'baipɑ:s/",
+      "definition": "n.(by-pass)旁道；vt.绕过"
+    },
+    {
+      "index": 4983,
+      "word": "generalize",
+      "phonetic": "/'dʒenərəlaiz/",
+      "definition": "v.(generalise)归纳,概括;推广,普及"
+    },
+    {
+      "index": 4984,
+      "word": "blast",
+      "phonetic": "/'baiəu/",
+      "definition": "n.一阵(风);爆炸冲击波;管乐器声 v.爆炸"
+    },
+    {
+      "index": 4985,
+      "word": "impatient",
+      "phonetic": "/im'peiʃənt/",
+      "definition": "a.不耐烦的,急躁的"
+    },
+    {
+      "index": 4986,
+      "word": "fertile",
+      "phonetic": "/'fɜ:taɪl/",
+      "definition": "a.肥沃的,富饶的;能繁殖的"
+    },
+    {
+      "index": 4987,
+      "word": "appear",
+      "phonetic": "/ə'pɪə(r)/",
+      "definition": "vi.出现；出场；问世；仿佛；出版，发表"
+    },
+    {
+      "index": 4988,
+      "word": "descent",
+      "phonetic": "/di'sent/",
+      "definition": "n.下降,降下;斜坡;血统,家世"
+    },
+    {
+      "index": 4989,
+      "word": "corresponding",
+      "phonetic": "/ˌkɔ:ri'spɔndiŋ/",
+      "definition": "a.符合的,相应的,对应的"
+    },
+    {
+      "index": 4990,
+      "word": "glue",
+      "phonetic": "/glu:/",
+      "definition": "n.胶,胶水 v.胶合,粘贴"
+    },
+    {
+      "index": 4991,
+      "word": "previous",
+      "phonetic": "/'pri:vjəs/",
+      "definition": "a.先前的,以前的"
+    },
+    {
+      "index": 4992,
+      "word": "worth",
+      "phonetic": "/wə:θ/",
+      "definition": "n.价值 a.值…的,价值…的,值得…的"
+    },
+    {
+      "index": 4993,
+      "word": "deficiency",
+      "phonetic": "/di'fiʃənsi/",
+      "definition": "n.缺乏,不足;缺点,缺陷"
+    },
+    {
+      "index": 4994,
+      "word": "shortcoming",
+      "phonetic": "/'ʃɔ:t'cʌmiŋ/",
+      "definition": "n.短处,缺点"
+    },
+    {
+      "index": 4995,
+      "word": "giggle",
+      "phonetic": "/'gigl/",
+      "definition": "vi.／n.痴笑；咯咯地笑 vt.咯咯地笑着说"
+    },
+    {
+      "index": 4996,
+      "word": "perspective",
+      "phonetic": "/pə'spektiv/",
+      "definition": "n.透视画法,透视图;远景,前途;观点,看法"
+    },
+    {
+      "index": 4997,
+      "word": "contempt",
+      "phonetic": "/kən'tempt/",
+      "definition": "n.轻视，藐视；受辱，丢脸"
+    },
+    {
+      "index": 4998,
+      "word": "attain",
+      "phonetic": "/ə'tein/",
+      "definition": "vt.达到；完成；获得 vi.达到"
+    },
+    {
+      "index": 4999,
+      "word": "metre",
+      "phonetic": "/'mi:tə/",
+      "definition": "n.(meter)米，公尺；仪表，计量器"
+    },
+    {
+      "index": 5000,
+      "word": "vice",
+      "phonetic": "/vais/",
+      "definition": "n.邪恶;恶习;(pl.)台钳,老虎钳"
+    }
+  ]
+}

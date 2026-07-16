@@ -1,0 +1,307 @@
+{
+  "chunk": 37,
+  "range": "1801-1850",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 1801,
+      "word": "kin",
+      "phonetic": "/kin/",
+      "definition": "n.家族,亲属,血缘关系 a.亲属关系的,同类的"
+    },
+    {
+      "index": 1802,
+      "word": "possible",
+      "phonetic": "/'pɔsəbl/",
+      "definition": "a.可能的,做得到的;合理的;可允许的"
+    },
+    {
+      "index": 1803,
+      "word": "peaceful",
+      "phonetic": "/'pi:sful/",
+      "definition": "a.和平的,平静的,安宁的,爱好和平的"
+    },
+    {
+      "index": 1804,
+      "word": "elapse",
+      "phonetic": "/i'læps/",
+      "definition": "vi．(时间)溜走；(光阴)逝去"
+    },
+    {
+      "index": 1805,
+      "word": "wretched",
+      "phonetic": "/'retʃid/",
+      "definition": "a.可怜的;悲惨的;肮脏的;恶劣的"
+    },
+    {
+      "index": 1806,
+      "word": "clarity",
+      "phonetic": "/'klærəti/",
+      "definition": "n.清晰,明晰"
+    },
+    {
+      "index": 1807,
+      "word": "pitch",
+      "phonetic": "/pitʃ/",
+      "definition": "n.沥青;掷 v.用沥青覆盖;投掷,扔"
+    },
+    {
+      "index": 1808,
+      "word": "dwarf",
+      "phonetic": "/dwɔ:f/",
+      "definition": "n.矮子，侏儒，矮小的动植物 vt.使…矮小"
+    },
+    {
+      "index": 1809,
+      "word": "sacrifice",
+      "phonetic": "/'sækrifais/",
+      "definition": "n.牺牲,牺牲品;祭品 v.(for,to)牺牲,献出"
+    },
+    {
+      "index": 1810,
+      "word": "stroll",
+      "phonetic": "/strəul/",
+      "definition": "n.&v.漫步；散步；游荡"
+    },
+    {
+      "index": 1811,
+      "word": "queue",
+      "phonetic": "/kju:/",
+      "definition": "n.行列,长队 v.(up)排队,排队等待"
+    },
+    {
+      "index": 1812,
+      "word": "shallow",
+      "phonetic": "/'ʃæləu/",
+      "definition": "a.浅的,浅薄的 n.浅滩,浅处"
+    },
+    {
+      "index": 1813,
+      "word": "simplicity",
+      "phonetic": "/sim'plisiti/",
+      "definition": "n.简单,简易;朴素;直率,单纯"
+    },
+    {
+      "index": 1814,
+      "word": "harmony",
+      "phonetic": "/'hɑ:məni/",
+      "definition": "n.协调,和谐;融洽"
+    },
+    {
+      "index": 1815,
+      "word": "rare",
+      "phonetic": "/reə(r)/",
+      "definition": "a.稀有的,难得的,珍奇的;稀薄的,稀疏的"
+    },
+    {
+      "index": 1816,
+      "word": "superiority",
+      "phonetic": "/sju:ˌpiəri'ɔriti/",
+      "definition": "n.优越(性)，优势，优等；高傲，傲慢"
+    },
+    {
+      "index": 1817,
+      "word": "particular",
+      "phonetic": "/pə'tikjulə/",
+      "definition": "a.特殊的,苛求的,个别的n.详情,细节,特色"
+    },
+    {
+      "index": 1818,
+      "word": "picture",
+      "phonetic": "/'piktʃə/",
+      "definition": "n.画,图片;影片;美景 v.画,描述,想象"
+    },
+    {
+      "index": 1819,
+      "word": "premium",
+      "phonetic": "/'pri:miəm/",
+      "definition": "n.额外费用,奖金,奖赏,保险费"
+    },
+    {
+      "index": 1820,
+      "word": "sauce",
+      "phonetic": "/sɔ:s/",
+      "definition": "n.酱汁,调味汁"
+    },
+    {
+      "index": 1821,
+      "word": "refusal",
+      "phonetic": "/ri'fju:zəl/",
+      "definition": "n.拒绝,回绝"
+    },
+    {
+      "index": 1822,
+      "word": "blossom",
+      "phonetic": "/'blɔsəm/",
+      "definition": "n.花(簇)；花期；青春 vi.开花；展开；繁荣"
+    },
+    {
+      "index": 1823,
+      "word": "geology",
+      "phonetic": "/dʒi'ɔlədʒi/",
+      "definition": "n.地质(学)"
+    },
+    {
+      "index": 1824,
+      "word": "obey",
+      "phonetic": "/əu'bei/",
+      "definition": "v.服从, 顺从"
+    },
+    {
+      "index": 1825,
+      "word": "reap",
+      "phonetic": "/ri:p/",
+      "definition": "v.收割,收获"
+    },
+    {
+      "index": 1826,
+      "word": "timid",
+      "phonetic": "/'timid/",
+      "definition": "a.胆怯的,怯懦的"
+    },
+    {
+      "index": 1827,
+      "word": "brother",
+      "phonetic": "/'brʌðə/",
+      "definition": "n.兄弟;同胞;教友"
+    },
+    {
+      "index": 1828,
+      "word": "productivity",
+      "phonetic": "/ˌprɔdʌk'tivəti/",
+      "definition": "n.生产率"
+    },
+    {
+      "index": 1829,
+      "word": "congratulation",
+      "phonetic": "/kənˌgrætʃu'leiʃən/",
+      "definition": "n.(on)祝贺,(pl.)祝贺词"
+    },
+    {
+      "index": 1830,
+      "word": "persuade",
+      "phonetic": "/pə'sweɪd/",
+      "definition": "v.说服,劝说;(of)使相信"
+    },
+    {
+      "index": 1831,
+      "word": "inventory",
+      "phonetic": "/'invəntəri/",
+      "definition": "n.详细目录,存货,财产清册,总量"
+    },
+    {
+      "index": 1832,
+      "word": "roar",
+      "phonetic": "/rɔ:/",
+      "definition": "n./v.吼叫,怒号;轰鸣,咆哮"
+    },
+    {
+      "index": 1833,
+      "word": "fortnight",
+      "phonetic": "/'fɔ:tnait/",
+      "definition": "n.两星期"
+    },
+    {
+      "index": 1834,
+      "word": "ambiguous",
+      "phonetic": "/æm'bɪgjuəs/",
+      "definition": "a.引起歧义的，模棱两可的，含糊不清的"
+    },
+    {
+      "index": 1835,
+      "word": "play",
+      "phonetic": "/plei/",
+      "definition": "v.玩，做游戏；参加比赛n.游戏；剧本"
+    },
+    {
+      "index": 1836,
+      "word": "ladder",
+      "phonetic": "/'lædə/",
+      "definition": "n.梯子,阶梯"
+    },
+    {
+      "index": 1837,
+      "word": "nowhere",
+      "phonetic": "/'nəuhwεə/",
+      "definition": "ad.任何地方都不,没有地方"
+    },
+    {
+      "index": 1838,
+      "word": "ignorant",
+      "phonetic": "/'ignərənt/",
+      "definition": "a.无知的,愚昧的;不知道的"
+    },
+    {
+      "index": 1839,
+      "word": "bucket",
+      "phonetic": "/'bʌkit/",
+      "definition": "n.水桶,吊桶"
+    },
+    {
+      "index": 1840,
+      "word": "coordinate",
+      "phonetic": "/kəu'ɔ:dinit/",
+      "definition": "a.同等的 n.同等者,坐标 vt.协作，协调"
+    },
+    {
+      "index": 1841,
+      "word": "injury",
+      "phonetic": "/'indʒəri/",
+      "definition": "n.伤害，损害"
+    },
+    {
+      "index": 1842,
+      "word": "spiral",
+      "phonetic": "/'spaiərəl/",
+      "definition": "a.螺旋形的 n.螺旋，螺线 v.螺旋上升；盘旋"
+    },
+    {
+      "index": 1843,
+      "word": "more",
+      "phonetic": "/mɔ:/",
+      "definition": "a.更多的 n.更多的人(或东西) ad.更，更多"
+    },
+    {
+      "index": 1844,
+      "word": "stale",
+      "phonetic": "/steil/",
+      "definition": "n.变质的,不新鲜的;陈旧的,陈腐的"
+    },
+    {
+      "index": 1845,
+      "word": "our",
+      "phonetic": "/'auə/",
+      "definition": "pron.[we的所有格]我们的"
+    },
+    {
+      "index": 1846,
+      "word": "deaf",
+      "phonetic": "/def/",
+      "definition": "a.聋的;不愿听的"
+    },
+    {
+      "index": 1847,
+      "word": "prescribe",
+      "phonetic": "/pris'kraib/",
+      "definition": "v.指示,规定;处(方),开(药)"
+    },
+    {
+      "index": 1848,
+      "word": "orange",
+      "phonetic": "/'ɔrindʒ/",
+      "definition": "n.柑,桔,橙"
+    },
+    {
+      "index": 1849,
+      "word": "pity",
+      "phonetic": "/'piti/",
+      "definition": "v.(觉得)可怜,惋惜 n.憾事,怜悯"
+    },
+    {
+      "index": 1850,
+      "word": "flavor",
+      "phonetic": "/'fleivə/",
+      "definition": "n.(flavour)情味;风味;滋味 v.给…调味"
+    }
+  ]
+}

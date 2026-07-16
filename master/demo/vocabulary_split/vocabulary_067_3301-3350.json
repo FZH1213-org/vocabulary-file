@@ -1,0 +1,307 @@
+{
+  "chunk": 67,
+  "range": "3301-3350",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 3301,
+      "word": "bully",
+      "phonetic": "/'buli/",
+      "definition": "n.恃强欺弱者，小流氓 vt.威胁，欺侮"
+    },
+    {
+      "index": 3302,
+      "word": "dimension",
+      "phonetic": "/daɪ'menʃn/",
+      "definition": "n.尺寸,尺度;维(数),度(数)"
+    },
+    {
+      "index": 3303,
+      "word": "numb",
+      "phonetic": "/nʌm/",
+      "definition": "a.麻木的,失去感觉的 v.使麻木"
+    },
+    {
+      "index": 3304,
+      "word": "headquarters",
+      "phonetic": "/ˌhed'kwɔ:təz/",
+      "definition": "n.司令部,指挥部;总部,总局"
+    },
+    {
+      "index": 3305,
+      "word": "virtue",
+      "phonetic": "/'və:tju:/",
+      "definition": "n.德行,美德;贞操;优点;功效,效力"
+    },
+    {
+      "index": 3306,
+      "word": "eclipse",
+      "phonetic": "/i'klips/",
+      "definition": "n.日食,月食"
+    },
+    {
+      "index": 3307,
+      "word": "segregate",
+      "phonetic": "/'segrigit/",
+      "definition": "vt.使···分开，隔离（病患等）"
+    },
+    {
+      "index": 3308,
+      "word": "gymnasium",
+      "phonetic": "/dʒim'neiziəm/",
+      "definition": "n.(gym)体育馆，健身房"
+    },
+    {
+      "index": 3309,
+      "word": "medicine",
+      "phonetic": "/'medisin/",
+      "definition": "n.内服药,医药;医术;医学,内科学"
+    },
+    {
+      "index": 3310,
+      "word": "amid",
+      "phonetic": "/ə'mid/",
+      "definition": "prep.在…中间，在…之中，被…围绕"
+    },
+    {
+      "index": 3311,
+      "word": "bold",
+      "phonetic": "/bəuld/",
+      "definition": "a.大胆的,勇敢的;冒失的;黑体的,粗体的"
+    },
+    {
+      "index": 3312,
+      "word": "prototype",
+      "phonetic": "/'prəutətaip/",
+      "definition": "n.原型；典型，范例"
+    },
+    {
+      "index": 3313,
+      "word": "suspend",
+      "phonetic": "/sə'spend/",
+      "definition": "v.悬(浮)，挂；暂停，取消；推迟"
+    },
+    {
+      "index": 3314,
+      "word": "appreciate",
+      "phonetic": "/ə'pri:ʃieit/",
+      "definition": "vt.为...表示感激，感谢；欣赏，赏识，评价"
+    },
+    {
+      "index": 3315,
+      "word": "dissolve",
+      "phonetic": "/di'zɔlv/",
+      "definition": "v.(使)溶解,(使)融化;解散,取消"
+    },
+    {
+      "index": 3316,
+      "word": "grateful",
+      "phonetic": "/'greitful/",
+      "definition": "a.(to,for)感激的;感谢的"
+    },
+    {
+      "index": 3317,
+      "word": "refuse",
+      "phonetic": "/ri'fju:z/",
+      "definition": "v.拒绝,谢绝 n.废物,垃圾"
+    },
+    {
+      "index": 3318,
+      "word": "document",
+      "phonetic": "/'dɒkjumənt /",
+      "definition": "n.公文,文献"
+    },
+    {
+      "index": 3319,
+      "word": "creative",
+      "phonetic": "/kri'eitiv/",
+      "definition": "a.有创造力的,创造性的"
+    },
+    {
+      "index": 3320,
+      "word": "straw",
+      "phonetic": "/strɔ:/",
+      "definition": "n.稻草,麦杆;吸管"
+    },
+    {
+      "index": 3321,
+      "word": "absorb",
+      "phonetic": "/əb'sɔ:b/",
+      "definition": "vt.吸收(水、光、蒸汽等）；使全神贯注"
+    },
+    {
+      "index": 3322,
+      "word": "again",
+      "phonetic": "/ə'gen/",
+      "definition": "ad.再次，另一次；重新；除此，再，更，还"
+    },
+    {
+      "index": 3323,
+      "word": "hook",
+      "phonetic": "/huk/",
+      "definition": "n.钩,吊钩,钩状物 v.钩住"
+    },
+    {
+      "index": 3324,
+      "word": "continue",
+      "phonetic": "/kən'tinju:/",
+      "definition": "v.继续,连续,延伸"
+    },
+    {
+      "index": 3325,
+      "word": "tragic",
+      "phonetic": "/'trædʒik/",
+      "definition": "a.悲剧的,悲惨的"
+    },
+    {
+      "index": 3326,
+      "word": "faculty",
+      "phonetic": "/'fækəlti/",
+      "definition": "n.才能;学院,系;(学院或系的)全体教学人员"
+    },
+    {
+      "index": 3327,
+      "word": "pear",
+      "phonetic": "/pεə/",
+      "definition": "n.梨子,梨树"
+    },
+    {
+      "index": 3328,
+      "word": "dine",
+      "phonetic": "/dain/",
+      "definition": "v.吃饭,进餐"
+    },
+    {
+      "index": 3329,
+      "word": "appeal",
+      "phonetic": "/ə'pi:l/",
+      "definition": "vi.呼吁，恳求；申诉 n.呼吁；申诉；吸引力"
+    },
+    {
+      "index": 3330,
+      "word": "virtual",
+      "phonetic": "/'vɜ:tʃuəl/",
+      "definition": "a.实际上的,事实上的"
+    },
+    {
+      "index": 3331,
+      "word": "safety",
+      "phonetic": "/'seifti/",
+      "definition": "n.安全,保险;安全设备,保险装置"
+    },
+    {
+      "index": 3332,
+      "word": "travel",
+      "phonetic": "/'trævəl/",
+      "definition": "n.旅行 v.旅行;行进,传播"
+    },
+    {
+      "index": 3333,
+      "word": "from",
+      "phonetic": "/frɔm/",
+      "definition": "prep.从，自从；由于；离；根据，按；去除"
+    },
+    {
+      "index": 3334,
+      "word": "stream",
+      "phonetic": "/stri:m/",
+      "definition": "n.小河,溪流;流,一股,一串 v.流出,涌"
+    },
+    {
+      "index": 3335,
+      "word": "vote",
+      "phonetic": "/vəut/",
+      "definition": "n.投票,表决;选票,选票数 v.投票,表决"
+    },
+    {
+      "index": 3336,
+      "word": "June",
+      "phonetic": "/dʒu:n/",
+      "definition": "n.六月"
+    },
+    {
+      "index": 3337,
+      "word": "charter",
+      "phonetic": "/'tʃɑ'tə/",
+      "definition": "v.租船,租车,租用飞机；n.宪章，特许状"
+    },
+    {
+      "index": 3338,
+      "word": "blouse",
+      "phonetic": "/blauz/",
+      "definition": "n.女衬衣，短上衣，宽阔的罩衫"
+    },
+    {
+      "index": 3339,
+      "word": "bleak",
+      "phonetic": "/bli:k/",
+      "definition": "a.荒凉的;冷酷的;没有希望的"
+    },
+    {
+      "index": 3340,
+      "word": "Wednesday",
+      "phonetic": "/'wenzdei/",
+      "definition": "n.星期三"
+    },
+    {
+      "index": 3341,
+      "word": "repertoire",
+      "phonetic": "/'repətwɑ:/",
+      "definition": "n.节目,全部剧目,保留剧目,全部技能"
+    },
+    {
+      "index": 3342,
+      "word": "childhood",
+      "phonetic": "/'tʃaildhud/",
+      "definition": "n.幼年,童年"
+    },
+    {
+      "index": 3343,
+      "word": "mind",
+      "phonetic": "/maind/",
+      "definition": "n.精神,理智,意见,记忆力v.注意,介意,反对"
+    },
+    {
+      "index": 3344,
+      "word": "subsidy",
+      "phonetic": "/'sʌbsidi/",
+      "definition": "n.补助金；津贴费"
+    },
+    {
+      "index": 3345,
+      "word": "fun",
+      "phonetic": "/fʌn/",
+      "definition": "n.玩笑,娱乐;有趣的人(或事物)"
+    },
+    {
+      "index": 3346,
+      "word": "verify",
+      "phonetic": "/'verifai/",
+      "definition": "vt.证实,查证;证明"
+    },
+    {
+      "index": 3347,
+      "word": "cognitive",
+      "phonetic": "/'kɔgnitiv/",
+      "definition": "a.认知的，认识能力的"
+    },
+    {
+      "index": 3348,
+      "word": "a",
+      "phonetic": "/ei/",
+      "definition": "art.一(个)；每一(个)；(同类事物中)任一个"
+    },
+    {
+      "index": 3349,
+      "word": "they",
+      "phonetic": "/ðei/",
+      "definition": "商店(一般人经常用复数they来指一家商店)"
+    },
+    {
+      "index": 3350,
+      "word": "trap",
+      "phonetic": "/træp/",
+      "definition": "n.陷阱，圈套 vt.诱捕；使中圈套 vi.设圈套"
+    }
+  ]
+}

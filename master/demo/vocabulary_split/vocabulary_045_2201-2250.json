@@ -1,0 +1,307 @@
+{
+  "chunk": 45,
+  "range": "2201-2250",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 2201,
+      "word": "theft",
+      "phonetic": "/θeft/",
+      "definition": "n.偷窃(行为)，偷窃罪"
+    },
+    {
+      "index": 2202,
+      "word": "punch",
+      "phonetic": "/pʌntʃ/",
+      "definition": "n.冲压机,冲床;穿孔机 v.冲压,穿孔"
+    },
+    {
+      "index": 2203,
+      "word": "sorrow",
+      "phonetic": "/'sɔrəu/",
+      "definition": "n.悲衰,悲痛"
+    },
+    {
+      "index": 2204,
+      "word": "occasion",
+      "phonetic": "/ə'keiʒən/",
+      "definition": "n.场合,时节,时刻;时机,机会"
+    },
+    {
+      "index": 2205,
+      "word": "immense",
+      "phonetic": "/i'mens/",
+      "definition": "a.广大的,巨大的;[口]极好的"
+    },
+    {
+      "index": 2206,
+      "word": "biscuit",
+      "phonetic": "/'biskit/",
+      "definition": "n.饼干,点心"
+    },
+    {
+      "index": 2207,
+      "word": "no",
+      "phonetic": "/nəu/",
+      "definition": "ad.不是，不 a.没有的；不允许 n.不，拒绝"
+    },
+    {
+      "index": 2208,
+      "word": "outing",
+      "phonetic": "/'autiŋ/",
+      "definition": "n.外出,旅行,散步"
+    },
+    {
+      "index": 2209,
+      "word": "nasty",
+      "phonetic": "/'nɑ:stiˌ 'næs-/",
+      "definition": "a.肮脏的,卑劣的,下流的;令人厌恶的"
+    },
+    {
+      "index": 2210,
+      "word": "reluctant",
+      "phonetic": "/ri'lʌktənt/",
+      "definition": "a.不愿的,勉强的"
+    },
+    {
+      "index": 2211,
+      "word": "policy",
+      "phonetic": "/'pɔlisi/",
+      "definition": "n.政策,方针"
+    },
+    {
+      "index": 2212,
+      "word": "funny",
+      "phonetic": "/'fʌni/",
+      "definition": "a.滑稽的,可笑的"
+    },
+    {
+      "index": 2213,
+      "word": "confidence",
+      "phonetic": "/'kɔnfidəns/",
+      "definition": "n.(in)信任;信心,自信;秘密,机密"
+    },
+    {
+      "index": 2214,
+      "word": "February",
+      "phonetic": "/'februəri/",
+      "definition": "n.二月"
+    },
+    {
+      "index": 2215,
+      "word": "property",
+      "phonetic": "/'prɔpəti/",
+      "definition": "n.财产,资产,地产,房地产,所有物;性质,特性"
+    },
+    {
+      "index": 2216,
+      "word": "second",
+      "phonetic": "/'sekənd/",
+      "definition": "a.第二;次等的,二等的 n.秒 v.赞成,附和"
+    },
+    {
+      "index": 2217,
+      "word": "glad",
+      "phonetic": "/glæd/",
+      "definition": "a.高兴的，快活的；乐意的，情愿的"
+    },
+    {
+      "index": 2218,
+      "word": "frustrate",
+      "phonetic": "/frʌs'treit/",
+      "definition": "vt.挫败,阻挠,使灰心"
+    },
+    {
+      "index": 2219,
+      "word": "trivial",
+      "phonetic": "/'triviəl/",
+      "definition": "a.琐碎的;无足轻重的"
+    },
+    {
+      "index": 2220,
+      "word": "contrary",
+      "phonetic": "/'kɔntrəri/",
+      "definition": "a.(to)相反的,矛盾的 n.反对,矛盾;相反"
+    },
+    {
+      "index": 2221,
+      "word": "bell",
+      "phonetic": "/bel/",
+      "definition": "n.钟,铃"
+    },
+    {
+      "index": 2222,
+      "word": "brick",
+      "phonetic": "/brik/",
+      "definition": "n.砖块，砖；v.用砖围砌，用砖填补"
+    },
+    {
+      "index": 2223,
+      "word": "serious",
+      "phonetic": "/'siəriəs/",
+      "definition": "a.严肃的;主要的;严重的,危急的;认真的"
+    },
+    {
+      "index": 2224,
+      "word": "alien",
+      "phonetic": "/'eiljən/",
+      "definition": "n.外侨，外国人；外星人 a.外国的；相异的"
+    },
+    {
+      "index": 2225,
+      "word": "classmate",
+      "phonetic": "/'klɑ:smeit/",
+      "definition": "(名)同班同学"
+    },
+    {
+      "index": 2226,
+      "word": "simple",
+      "phonetic": "/'simpl/",
+      "definition": "a.简单的;单纯的,直率的;迟钝的,头脑简单的"
+    },
+    {
+      "index": 2227,
+      "word": "enhance",
+      "phonetic": "/in'hɑ:ns/",
+      "definition": "v.提高,增强"
+    },
+    {
+      "index": 2228,
+      "word": "geography",
+      "phonetic": "/dʒi'ɔgrəfi/",
+      "definition": "n.地理(学)"
+    },
+    {
+      "index": 2229,
+      "word": "civilization",
+      "phonetic": "/ˌsivilai'zeiʃən/",
+      "definition": "n.(=civilisation)文明,文化"
+    },
+    {
+      "index": 2230,
+      "word": "destroy",
+      "phonetic": "/di'strɔi/",
+      "definition": "v.破坏,摧毁,消灭"
+    },
+    {
+      "index": 2231,
+      "word": "backward",
+      "phonetic": "/'bækwəd/",
+      "definition": "a.向后的,倒行的;迟钝的 ad.向后,朝反方向"
+    },
+    {
+      "index": 2232,
+      "word": "cash",
+      "phonetic": "/kæʃ/",
+      "definition": "n.现金,现款 v.兑现,付(或收)现款"
+    },
+    {
+      "index": 2233,
+      "word": "span",
+      "phonetic": "/spæn/",
+      "definition": "n.跨度,跨距"
+    },
+    {
+      "index": 2234,
+      "word": "optional",
+      "phonetic": "/'ɒpʃənl/",
+      "definition": "a.可以任选的,随意的,非强制的"
+    },
+    {
+      "index": 2235,
+      "word": "toilet",
+      "phonetic": "/'tɔilit/",
+      "definition": "n.厕所,盥洗室"
+    },
+    {
+      "index": 2236,
+      "word": "surrender",
+      "phonetic": "/sə'rendə/",
+      "definition": "vi.投降，屈服 vt.放弃，交出 n.投降，认输"
+    },
+    {
+      "index": 2237,
+      "word": "element",
+      "phonetic": "/'elimənt/",
+      "definition": "n.元素;要素;成分;元件;自然环境"
+    },
+    {
+      "index": 2238,
+      "word": "salvation",
+      "phonetic": "/sæl'veiʃən/",
+      "definition": "n.拯救,救助;救济(者,品),救助工具;救世主"
+    },
+    {
+      "index": 2239,
+      "word": "heart",
+      "phonetic": "/hɑ:t/",
+      "definition": "n.心(脏)；内心，感情；热忱；中心，要点"
+    },
+    {
+      "index": 2240,
+      "word": "oar",
+      "phonetic": "/ɔ:ˌ əu/",
+      "definition": "n.桨,橹 v.划,划动,划行"
+    },
+    {
+      "index": 2241,
+      "word": "critical",
+      "phonetic": "/'kritikəl/",
+      "definition": "a.批评的,评论的;危急,紧要的;临界的"
+    },
+    {
+      "index": 2242,
+      "word": "statue",
+      "phonetic": "/'stætju:/",
+      "definition": "n.塑像,雕像"
+    },
+    {
+      "index": 2243,
+      "word": "concern",
+      "phonetic": "/kən'sɜ:n/",
+      "definition": "v.涉及,关系到 v./n.关心 n.(利害)关系"
+    },
+    {
+      "index": 2244,
+      "word": "badly",
+      "phonetic": "/'bædli/",
+      "definition": "ad.非常，严重地；坏地，差地，拙劣地"
+    },
+    {
+      "index": 2245,
+      "word": "brand",
+      "phonetic": "/brænd/",
+      "definition": "n.商标,标记,牌子 v.使铭记;打火印,打烙印"
+    },
+    {
+      "index": 2246,
+      "word": "forecast",
+      "phonetic": "/'fɔ:kɑ:st/",
+      "definition": "v./n.预测,预报"
+    },
+    {
+      "index": 2247,
+      "word": "tube",
+      "phonetic": "/tju:b/",
+      "definition": "n.管,软管;电子管,显像管;地铁"
+    },
+    {
+      "index": 2248,
+      "word": "retire",
+      "phonetic": "/ri'taiə/",
+      "definition": "v.退休,引退;退却,撤退;就寝"
+    },
+    {
+      "index": 2249,
+      "word": "project",
+      "phonetic": "/prə'dʒekt/",
+      "definition": "n.方案,工程,项目v.投射,放映;设计,规划"
+    },
+    {
+      "index": 2250,
+      "word": "either",
+      "phonetic": "/'aiðə/",
+      "definition": "ad.也(不) pron.两者之一 a.(两者中)任一的"
+    }
+  ]
+}

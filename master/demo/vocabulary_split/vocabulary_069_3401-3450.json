@@ -1,0 +1,307 @@
+{
+  "chunk": 69,
+  "range": "3401-3450",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 3401,
+      "word": "victim",
+      "phonetic": "/'viktim/",
+      "definition": "n.牺牲品,受害者"
+    },
+    {
+      "index": 3402,
+      "word": "sympathy",
+      "phonetic": "/'simpəθi/",
+      "definition": "n.同情，同情心；赞同，同感；慰问"
+    },
+    {
+      "index": 3403,
+      "word": "numerical",
+      "phonetic": "/nju:'merikəl/",
+      "definition": "a.数字的，用数字表示的，数值的"
+    },
+    {
+      "index": 3404,
+      "word": "collaborate",
+      "phonetic": "/kə'læbəreit/",
+      "definition": "vi.协作，合作；(与敌人)勾结"
+    },
+    {
+      "index": 3405,
+      "word": "wallet",
+      "phonetic": "/'wɔlit/",
+      "definition": "n.皮夹,钱包"
+    },
+    {
+      "index": 3406,
+      "word": "appetite",
+      "phonetic": "/'æpitait/",
+      "definition": "n.食欲，胃口；欲望，性欲；爱好，趣味"
+    },
+    {
+      "index": 3407,
+      "word": "complicated",
+      "phonetic": "/'kɔmplikeitid/",
+      "definition": "a.错综复杂的,麻烦的,难解的"
+    },
+    {
+      "index": 3408,
+      "word": "banner",
+      "phonetic": "/'bænə(r)/",
+      "definition": "n.旗(帜)"
+    },
+    {
+      "index": 3409,
+      "word": "palace",
+      "phonetic": "/'pælis/",
+      "definition": "n.宫,宫殿"
+    },
+    {
+      "index": 3410,
+      "word": "literature",
+      "phonetic": "/'litərətʃə/",
+      "definition": "n.文学,文学作品,文献,图书资料,印刷品"
+    },
+    {
+      "index": 3411,
+      "word": "equality",
+      "phonetic": "/i:'kwɔləti/",
+      "definition": "n.同等;平等;相等;等式;等同性"
+    },
+    {
+      "index": 3412,
+      "word": "unless",
+      "phonetic": "/ən'les/",
+      "definition": "conj.除非 prep.除…外"
+    },
+    {
+      "index": 3413,
+      "word": "equip",
+      "phonetic": "/i'kwip/",
+      "definition": "v.(with)装备,配备;训练"
+    },
+    {
+      "index": 3414,
+      "word": "trademark",
+      "phonetic": "/'treidmɑ:k/",
+      "definition": "n.商标；特征 vt.注册的…商标"
+    },
+    {
+      "index": 3415,
+      "word": "globe",
+      "phonetic": "/gləub/",
+      "definition": "n.球体,地球仪;地球,世界"
+    },
+    {
+      "index": 3416,
+      "word": "basin",
+      "phonetic": "/'beisən/",
+      "definition": "n.盆,脸盆;内海,盆地"
+    },
+    {
+      "index": 3417,
+      "word": "limit",
+      "phonetic": "/'limit/",
+      "definition": "n.界限,限度,范围 v.(to)限制,限定"
+    },
+    {
+      "index": 3418,
+      "word": "stupid",
+      "phonetic": "/'stju:pid/",
+      "definition": "a.愚蠢的,迟钝的"
+    },
+    {
+      "index": 3419,
+      "word": "stagger",
+      "phonetic": "/'stægə/",
+      "definition": "vi.摇晃着移动;蹒跚 n.摇晃不稳的动作;蹒跚"
+    },
+    {
+      "index": 3420,
+      "word": "laughter",
+      "phonetic": "/'lɑ:ftə/",
+      "definition": "n.笑,笑声"
+    },
+    {
+      "index": 3421,
+      "word": "hat",
+      "phonetic": "/hæt/",
+      "definition": "n.帽子(一般指有边的帽子)"
+    },
+    {
+      "index": 3422,
+      "word": "intrinsic",
+      "phonetic": "/in'trinsik/",
+      "definition": "a.(指价值、性质)固有的，本质的，内在的"
+    },
+    {
+      "index": 3423,
+      "word": "torrent",
+      "phonetic": "/'tɔrənt/",
+      "definition": "n.激流，洪流；爆发，(话语等的)连发"
+    },
+    {
+      "index": 3424,
+      "word": "horse",
+      "phonetic": "/hɔ:s/",
+      "definition": "n.马；跳马，鞍马 v.骑马"
+    },
+    {
+      "index": 3425,
+      "word": "gene",
+      "phonetic": "/dʒi:n/",
+      "definition": "n.基因"
+    },
+    {
+      "index": 3426,
+      "word": "dictation",
+      "phonetic": "/dik'teiʃən/",
+      "definition": "n.听写,口述;命令"
+    },
+    {
+      "index": 3427,
+      "word": "eyebrow",
+      "phonetic": "/'aibrau/",
+      "definition": "n.眉毛"
+    },
+    {
+      "index": 3428,
+      "word": "inch",
+      "phonetic": "/intʃ/",
+      "definition": "n.英寸"
+    },
+    {
+      "index": 3429,
+      "word": "tip",
+      "phonetic": "/tip/",
+      "definition": "n.尖端;末端;小费 n./v.轻击;倾斜;给小费"
+    },
+    {
+      "index": 3430,
+      "word": "forehead",
+      "phonetic": "/'fɔ:hed/",
+      "definition": "n.前额;(任何事物的)前部"
+    },
+    {
+      "index": 3431,
+      "word": "above",
+      "phonetic": "/ə'bʌv/",
+      "definition": "a.上述的 ad.在上面  prep.在..之上，高于"
+    },
+    {
+      "index": 3432,
+      "word": "cloudy",
+      "phonetic": "/'klaudi/",
+      "definition": "a.多云的,阴(天)的;混浊的,模糊的"
+    },
+    {
+      "index": 3433,
+      "word": "afraid",
+      "phonetic": "/ə'freid/",
+      "definition": "adj.害怕的，恐惧的；犯愁的，不乐意的"
+    },
+    {
+      "index": 3434,
+      "word": "incorporate",
+      "phonetic": "/in'kɔ:pəreit/",
+      "definition": "v.合并,纳入,结合 a.合并的"
+    },
+    {
+      "index": 3435,
+      "word": "millimeter",
+      "phonetic": "/'miliˌmi:tə/",
+      "definition": "n.(millimetre)毫米"
+    },
+    {
+      "index": 3436,
+      "word": "hopeful",
+      "phonetic": "/'həupful/",
+      "definition": "a.给人希望的，抱有希望的"
+    },
+    {
+      "index": 3437,
+      "word": "both",
+      "phonetic": "/bəuθ/",
+      "definition": "prep.两者(都)，双方(都） adj.两个..(都)"
+    },
+    {
+      "index": 3438,
+      "word": "peninsula",
+      "phonetic": "/pi'ninsjulə/",
+      "definition": "n.半岛"
+    },
+    {
+      "index": 3439,
+      "word": "expel",
+      "phonetic": "/ik'spel/",
+      "definition": "v.把…开除;驱逐;排出;发射"
+    },
+    {
+      "index": 3440,
+      "word": "report",
+      "phonetic": "/ri'pɔ:t/",
+      "definition": "n./v.报告,汇报;传说,传阅"
+    },
+    {
+      "index": 3441,
+      "word": "electrical",
+      "phonetic": "/i'lektrikəl/",
+      "definition": "a.电的,电学的"
+    },
+    {
+      "index": 3442,
+      "word": "dental",
+      "phonetic": "/'dentəl/",
+      "definition": "a.牙齿的；牙科(用)的"
+    },
+    {
+      "index": 3443,
+      "word": "agree",
+      "phonetic": "/ə'gri:/",
+      "definition": "vi.答应，赞同；适合，一致；商定，约定"
+    },
+    {
+      "index": 3444,
+      "word": "grow",
+      "phonetic": "/grəu/",
+      "definition": "v.生长，成长；渐渐变成；栽培，种植；发展"
+    },
+    {
+      "index": 3445,
+      "word": "mosquito",
+      "phonetic": "/mə'ski:təu/",
+      "definition": "n.蚊子"
+    },
+    {
+      "index": 3446,
+      "word": "volunteer",
+      "phonetic": "/ˌvɔlən'tiə/",
+      "definition": "n./v.自愿(者,兵);自愿(提供)"
+    },
+    {
+      "index": 3447,
+      "word": "through",
+      "phonetic": "/θru:/",
+      "definition": "prep./ad.穿过；自始至终；由，以 a.直达的"
+    },
+    {
+      "index": 3448,
+      "word": "rear",
+      "phonetic": "/riə/",
+      "definition": "n.后面,背后,后方 v.饲养,抚养,栽培,举起"
+    },
+    {
+      "index": 3449,
+      "word": "repay",
+      "phonetic": "/ri:'pei/",
+      "definition": "v.偿还,报答"
+    },
+    {
+      "index": 3450,
+      "word": "also",
+      "phonetic": "/'ɔ:lsəu/",
+      "definition": "ad.而且(也)，此外(还)；同样地"
+    }
+  ]
+}

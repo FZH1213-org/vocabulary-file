@@ -1,0 +1,307 @@
+{
+  "chunk": 70,
+  "range": "3451-3500",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 3451,
+      "word": "bore",
+      "phonetic": "/bɔ:/",
+      "definition": "v.钻(孔),挖(洞);烦扰 n.讨厌的人,麻烦事"
+    },
+    {
+      "index": 3452,
+      "word": "pattern",
+      "phonetic": "/'pætən/",
+      "definition": "n.模式,式样;图案,图样 v.仿制,模仿"
+    },
+    {
+      "index": 3453,
+      "word": "perish",
+      "phonetic": "/'periʃ/",
+      "definition": "v.丧生;凋谢;毁灭,消亡"
+    },
+    {
+      "index": 3454,
+      "word": "laugh",
+      "phonetic": "/lɑ:f/",
+      "definition": "v.笑;(on)讥笑 n.笑,笑声"
+    },
+    {
+      "index": 3455,
+      "word": "highland",
+      "phonetic": "/'hailənd/",
+      "definition": "n. 高地,高原"
+    },
+    {
+      "index": 3456,
+      "word": "viewpoint",
+      "phonetic": "/'vju:pɔint/",
+      "definition": "n.观点"
+    },
+    {
+      "index": 3457,
+      "word": "convince",
+      "phonetic": "/kən'vins/",
+      "definition": "v.(of)使信服,使确信"
+    },
+    {
+      "index": 3458,
+      "word": "centre",
+      "phonetic": "/'sentə/",
+      "definition": "n.中心，中央，中间 vt.集中 vi.以..为中心"
+    },
+    {
+      "index": 3459,
+      "word": "create",
+      "phonetic": "/kri'eit/",
+      "definition": "v.创造,创作;引起,造成,建立"
+    },
+    {
+      "index": 3460,
+      "word": "trumpet",
+      "phonetic": "/'trʌmpit/",
+      "definition": "n.喇叭,小号"
+    },
+    {
+      "index": 3461,
+      "word": "relevant",
+      "phonetic": "/'reləvənt/",
+      "definition": "a.有关的,中肯的,相应的,实质性的"
+    },
+    {
+      "index": 3462,
+      "word": "inject",
+      "phonetic": "/in'dʒekt/",
+      "definition": "vt.注射(药液等)；注入"
+    },
+    {
+      "index": 3463,
+      "word": "expert",
+      "phonetic": "/'ekspə:tˌ ek'spə:t/",
+      "definition": "n.专家,能手 a.熟练的,有经验的;专门的"
+    },
+    {
+      "index": 3464,
+      "word": "stalk",
+      "phonetic": "/stɔ:k/",
+      "definition": "n.茎，梗vt.悄悄地跟踪vi.高视阔步地走"
+    },
+    {
+      "index": 3465,
+      "word": "expense",
+      "phonetic": "/ik'spens/",
+      "definition": "n.花费,消费,消耗"
+    },
+    {
+      "index": 3466,
+      "word": "doll",
+      "phonetic": "/dɔl/",
+      "definition": "n.玩偶,玩具娃娃"
+    },
+    {
+      "index": 3467,
+      "word": "breakdown",
+      "phonetic": "/'breikdaun/",
+      "definition": "n.崩溃；衰竭；(关系、计划或讨论等的)中断"
+    },
+    {
+      "index": 3468,
+      "word": "quest",
+      "phonetic": "/kwest/",
+      "definition": "n.探寻，探求；寻求，追求"
+    },
+    {
+      "index": 3469,
+      "word": "indoor",
+      "phonetic": "/'indɔ:/",
+      "definition": "a.室内的,户内的"
+    },
+    {
+      "index": 3470,
+      "word": "knot",
+      "phonetic": "/nɔt/",
+      "definition": "n.(绳)结;(树)节;节(=海里/小时) v.打结"
+    },
+    {
+      "index": 3471,
+      "word": "verb",
+      "phonetic": "/və:b/",
+      "definition": "n.动词"
+    },
+    {
+      "index": 3472,
+      "word": "jargon",
+      "phonetic": "/'dʒɑ:gən/",
+      "definition": "n.行话"
+    },
+    {
+      "index": 3473,
+      "word": "dawn",
+      "phonetic": "/dɔ:n/",
+      "definition": "n.黎明,拂晓 v.破晓;开始现出"
+    },
+    {
+      "index": 3474,
+      "word": "entire",
+      "phonetic": "/in'taiə/",
+      "definition": "a.完全的,全部的,完整的"
+    },
+    {
+      "index": 3475,
+      "word": "potato",
+      "phonetic": "/pə'teitəu/",
+      "definition": "n.马铃薯,土豆"
+    },
+    {
+      "index": 3476,
+      "word": "ruin",
+      "phonetic": "/'ruin/",
+      "definition": "v.毁灭;(使)破产 n.毁灭,崩溃;(pl.)废墟"
+    },
+    {
+      "index": 3477,
+      "word": "boat",
+      "phonetic": "/bəut/",
+      "definition": "n.小船,艇"
+    },
+    {
+      "index": 3478,
+      "word": "prevail",
+      "phonetic": "/pri'veil/",
+      "definition": "v.(over,against)取胜,占优势;流行,盛行"
+    },
+    {
+      "index": 3479,
+      "word": "stack",
+      "phonetic": "/stæk/",
+      "definition": "n.堆,一堆 v.堆积,堆起"
+    },
+    {
+      "index": 3480,
+      "word": "forty",
+      "phonetic": "/'fɔ:ti/",
+      "definition": "num./a.四十 pron.四十(个，只...)"
+    },
+    {
+      "index": 3481,
+      "word": "few",
+      "phonetic": "/fju:/",
+      "definition": "a.[表肯定]有些，几个；[表否定]几乎没有的"
+    },
+    {
+      "index": 3482,
+      "word": "rotten",
+      "phonetic": "/'rɔtən/",
+      "definition": "a.腐烂的,腐朽的"
+    },
+    {
+      "index": 3483,
+      "word": "lofty",
+      "phonetic": "/'lɔfti/",
+      "definition": "a.崇高的，高尚的；高傲的；极高的"
+    },
+    {
+      "index": 3484,
+      "word": "path",
+      "phonetic": "/pɑ:θ/",
+      "definition": "n.小路,小径;路线,轨道"
+    },
+    {
+      "index": 3485,
+      "word": "layout",
+      "phonetic": "/'leiaut/",
+      "definition": "n.安排，布局，设计；规划图，布局图"
+    },
+    {
+      "index": 3486,
+      "word": "rotary",
+      "phonetic": "/'rəutəri/",
+      "definition": "a.旋转的"
+    },
+    {
+      "index": 3487,
+      "word": "reward",
+      "phonetic": "/ri'wɔ:d/",
+      "definition": "n.(for)报酬,赏金 v.(for)酬劳;酬谢"
+    },
+    {
+      "index": 3488,
+      "word": "onto",
+      "phonetic": "/'ɔntu/",
+      "definition": "prep.在...上面；到...上面"
+    },
+    {
+      "index": 3489,
+      "word": "naive",
+      "phonetic": "/nɑ:'i:v/",
+      "definition": "a.天真的"
+    },
+    {
+      "index": 3490,
+      "word": "salad",
+      "phonetic": "/'sæləd/",
+      "definition": "n.色拉,凉拌菜"
+    },
+    {
+      "index": 3491,
+      "word": "fringe",
+      "phonetic": "/frindʒ/",
+      "definition": "n.边缘；(窗帘)缘饰；额前垂发 vt.饰…的边"
+    },
+    {
+      "index": 3492,
+      "word": "adjective",
+      "phonetic": "/'ædʒiktiv/",
+      "definition": "n.形容词 a.形容词的，用作形容词的"
+    },
+    {
+      "index": 3493,
+      "word": "conventional",
+      "phonetic": "/kən'venʃənəl/",
+      "definition": "a.惯例的,常规的"
+    },
+    {
+      "index": 3494,
+      "word": "private",
+      "phonetic": "/'praɪvət/",
+      "definition": "a.私人的,个人的,秘密的,私下的"
+    },
+    {
+      "index": 3495,
+      "word": "horsepower",
+      "phonetic": "/'hɔ:sˌpauə/",
+      "definition": "n.[机]马力"
+    },
+    {
+      "index": 3496,
+      "word": "respective",
+      "phonetic": "/ri'spektiv/",
+      "definition": "a.各自的,各个的"
+    },
+    {
+      "index": 3497,
+      "word": "dew",
+      "phonetic": "/dju:/",
+      "definition": "n.露水"
+    },
+    {
+      "index": 3498,
+      "word": "gaze",
+      "phonetic": "/geiz/",
+      "definition": "v./n.凝视,注视"
+    },
+    {
+      "index": 3499,
+      "word": "until",
+      "phonetic": "/ˌʌn'til/",
+      "definition": "conj.&prep.直到…为止，在…以前；直到…"
+    },
+    {
+      "index": 3500,
+      "word": "undermine",
+      "phonetic": "/ˌʌndə'main/",
+      "definition": "v.暗中破坏,逐渐削弱;侵蚀…的基础"
+    }
+  ]
+}

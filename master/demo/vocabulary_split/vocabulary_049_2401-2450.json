@@ -1,0 +1,307 @@
+{
+  "chunk": 49,
+  "range": "2401-2450",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 2401,
+      "word": "beat",
+      "phonetic": "/bi:t/",
+      "definition": "n.敲打;(心脏等)跳动 v.打败;(心脏等)跳动"
+    },
+    {
+      "index": 2402,
+      "word": "column",
+      "phonetic": "/'kɔləm/",
+      "definition": "n.圆柱,柱状物;列;(报刊中的)专栏"
+    },
+    {
+      "index": 2403,
+      "word": "ceremony",
+      "phonetic": "/'seriməuni/",
+      "definition": "n.典礼,仪式;礼节,礼仪"
+    },
+    {
+      "index": 2404,
+      "word": "raid",
+      "phonetic": "/reɪd/",
+      "definition": "n/v..袭击,搜查"
+    },
+    {
+      "index": 2405,
+      "word": "zip",
+      "phonetic": "/zɪp/",
+      "definition": "v.(用拉链或像拉链那样)合上或打开"
+    },
+    {
+      "index": 2406,
+      "word": "automation",
+      "phonetic": "/ˌɔ:tə'meiʃən/",
+      "definition": "n.自动，自动化，自动操作"
+    },
+    {
+      "index": 2407,
+      "word": "dove",
+      "phonetic": "/dʌv/",
+      "definition": "n.鸽子"
+    },
+    {
+      "index": 2408,
+      "word": "comprehension",
+      "phonetic": "/ˌkɔmpri'henʃən/",
+      "definition": "a.理解(力),领悟；包含，包含力"
+    },
+    {
+      "index": 2409,
+      "word": "hypocrisy",
+      "phonetic": "/hi'pɔkrisi/",
+      "definition": "n.伪善，虚伪"
+    },
+    {
+      "index": 2410,
+      "word": "determine",
+      "phonetic": "/dɪ'tɜ:mɪn/",
+      "definition": "v.决心,决定;确定,限定"
+    },
+    {
+      "index": 2411,
+      "word": "tanker",
+      "phonetic": "/'tæŋkə/",
+      "definition": "n.油船"
+    },
+    {
+      "index": 2412,
+      "word": "love",
+      "phonetic": "/lʌv/",
+      "definition": "n.爱，爱情，喜欢 vt.爱，热爱；爱好，喜欢"
+    },
+    {
+      "index": 2413,
+      "word": "poor",
+      "phonetic": "/pɔ:(r)/",
+      "definition": "a.贫困的；可怜的；贫乏的；低劣的"
+    },
+    {
+      "index": 2414,
+      "word": "enthusiastic",
+      "phonetic": "/inˌθju:zi'æstik/",
+      "definition": "a.热情的,热心的"
+    },
+    {
+      "index": 2415,
+      "word": "tale",
+      "phonetic": "/teil/",
+      "definition": "n.故事,传说"
+    },
+    {
+      "index": 2416,
+      "word": "divide",
+      "phonetic": "/di'vaid/",
+      "definition": "v.分,划分,分开;分配;(by)除"
+    },
+    {
+      "index": 2417,
+      "word": "brutal",
+      "phonetic": "/'bru:təl/",
+      "definition": "a.残忍的;严峻的;严酷的"
+    },
+    {
+      "index": 2418,
+      "word": "extent",
+      "phonetic": "/ik'stent/",
+      "definition": "n.广度,宽度,长度;程度,限度"
+    },
+    {
+      "index": 2419,
+      "word": "sparkle",
+      "phonetic": "/'spɑ:kl/",
+      "definition": "v.发火花,闪耀"
+    },
+    {
+      "index": 2420,
+      "word": "overwhelming",
+      "phonetic": "/ˌəuvə'welmɪŋ/",
+      "definition": "a.势不可挡的,压倒的"
+    },
+    {
+      "index": 2421,
+      "word": "saving",
+      "phonetic": "/'seiviŋ/",
+      "definition": "n.挽救,救助,节约,储蓄;(pl.)储蓄金,存款"
+    },
+    {
+      "index": 2422,
+      "word": "somebody",
+      "phonetic": "/'sʌmˌbɔdi/",
+      "definition": "pron.某人，有人 n.重要人物"
+    },
+    {
+      "index": 2423,
+      "word": "beach",
+      "phonetic": "/bi:tʃ/",
+      "definition": "n.海滩,湖滩,河滩"
+    },
+    {
+      "index": 2424,
+      "word": "embody",
+      "phonetic": "/im'bɔdi/",
+      "definition": "vt.具体表达,使具体化;包含,收录"
+    },
+    {
+      "index": 2425,
+      "word": "guitar",
+      "phonetic": "/gi'tɑ:/",
+      "definition": "n.吉他 vi.弹吉他"
+    },
+    {
+      "index": 2426,
+      "word": "stove",
+      "phonetic": "/stəuv/",
+      "definition": "n.炉子,火炉"
+    },
+    {
+      "index": 2427,
+      "word": "dense",
+      "phonetic": "/dens/",
+      "definition": "a.浓厚的,密集的,稠密的"
+    },
+    {
+      "index": 2428,
+      "word": "wave",
+      "phonetic": "/weiv/",
+      "definition": "n.波浪;(挥手)示意;飘扬 v.(挥手)示意,致意"
+    },
+    {
+      "index": 2429,
+      "word": "September",
+      "phonetic": "/sep'tembə/",
+      "definition": "n.九月"
+    },
+    {
+      "index": 2430,
+      "word": "frown",
+      "phonetic": "/fraun/",
+      "definition": "v.皱眉"
+    },
+    {
+      "index": 2431,
+      "word": "moral",
+      "phonetic": "/'mɔrəl/",
+      "definition": "a.道德(上)的,精神上的 n.寓意,教育意义"
+    },
+    {
+      "index": 2432,
+      "word": "various",
+      "phonetic": "/'vεəriəs/",
+      "definition": "a.各种各样的;不同的"
+    },
+    {
+      "index": 2433,
+      "word": "fresh",
+      "phonetic": "/freʃ/",
+      "definition": "a.新鲜的,无经验的"
+    },
+    {
+      "index": 2434,
+      "word": "chart",
+      "phonetic": "/tʃɑ:t/",
+      "definition": "n.图表；航海图；航行图 vt.绘图表，制图表"
+    },
+    {
+      "index": 2435,
+      "word": "locomotive",
+      "phonetic": "/'ləukəˌməutiv/",
+      "definition": "n.机车,火车头 a.运动的,移动的,运载的"
+    },
+    {
+      "index": 2436,
+      "word": "swan",
+      "phonetic": "/swɔn/",
+      "definition": "n.天鹅 vi.闲荡，游荡"
+    },
+    {
+      "index": 2437,
+      "word": "glimpse",
+      "phonetic": "/glimps/",
+      "definition": "n./v.一瞥,瞥见"
+    },
+    {
+      "index": 2438,
+      "word": "prospect",
+      "phonetic": "/'prɔspekt/",
+      "definition": "n.景色;前景,前途,展望"
+    },
+    {
+      "index": 2439,
+      "word": "left",
+      "phonetic": "/left/",
+      "definition": "n.左面，左方 a.左边的，左面的；在左方的"
+    },
+    {
+      "index": 2440,
+      "word": "keep",
+      "phonetic": "/ki:p/",
+      "definition": "v.保持,保存,遵守,经营,看守,拘留,维持"
+    },
+    {
+      "index": 2441,
+      "word": "of",
+      "phonetic": "/ɔv/",
+      "definition": "prep.…的；在…之中；用…制的；关于…的"
+    },
+    {
+      "index": 2442,
+      "word": "fantastic",
+      "phonetic": "/fæn'tæstɪk/",
+      "definition": "a.(fantastical)奇异的,幻想的,异想天开的"
+    },
+    {
+      "index": 2443,
+      "word": "peep",
+      "phonetic": "/pi:p/",
+      "definition": "v.偷看,窥视"
+    },
+    {
+      "index": 2444,
+      "word": "terror",
+      "phonetic": "/'terə/",
+      "definition": "n.恐怖;可怕的人(事)"
+    },
+    {
+      "index": 2445,
+      "word": "luxury",
+      "phonetic": "/'lʌkʃəri/",
+      "definition": "n.奢侈,华贵;奢侈品 a.奢华的,豪华的"
+    },
+    {
+      "index": 2446,
+      "word": "needle",
+      "phonetic": "/'ni:dl/",
+      "definition": "n.针,指针,针状物"
+    },
+    {
+      "index": 2447,
+      "word": "industrial",
+      "phonetic": "/in'dʌstriəl/",
+      "definition": "a.工业的,产业的"
+    },
+    {
+      "index": 2448,
+      "word": "mode",
+      "phonetic": "/məud/",
+      "definition": "n.方式,式样"
+    },
+    {
+      "index": 2449,
+      "word": "sportsman",
+      "phonetic": "/'spɔ:tsmən/",
+      "definition": "n.爱好运动的人；运动员"
+    },
+    {
+      "index": 2450,
+      "word": "clasp",
+      "phonetic": "/klɑ:sp/",
+      "definition": "n.扣子,钩子;握手 v.扣住,钩住;紧握,紧抱"
+    }
+  ]
+}

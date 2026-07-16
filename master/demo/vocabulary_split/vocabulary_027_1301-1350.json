@@ -1,0 +1,307 @@
+{
+  "chunk": 27,
+  "range": "1301-1350",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 1301,
+      "word": "portion",
+      "phonetic": "/'pɔ:ʃən/",
+      "definition": "n.一部分,一份"
+    },
+    {
+      "index": 1302,
+      "word": "fable",
+      "phonetic": "/'feibl/",
+      "definition": "n.寓言"
+    },
+    {
+      "index": 1303,
+      "word": "flash",
+      "phonetic": "/flæʃ/",
+      "definition": "n./a.闪光(的) v.发闪光,闪亮;闪现"
+    },
+    {
+      "index": 1304,
+      "word": "retail",
+      "phonetic": "/'ri:teil/",
+      "definition": "n.零售"
+    },
+    {
+      "index": 1305,
+      "word": "migrate",
+      "phonetic": "/mai'greit/",
+      "definition": "v.迁移,移居(国外)"
+    },
+    {
+      "index": 1306,
+      "word": "conquest",
+      "phonetic": "/'kɔŋkwest/",
+      "definition": "n.征服，征服地，掠取物"
+    },
+    {
+      "index": 1307,
+      "word": "balance",
+      "phonetic": "/'bæləns/",
+      "definition": "v.称,(使)平衡 n.天平;平衡,均衡;差额,余款"
+    },
+    {
+      "index": 1308,
+      "word": "prohibit",
+      "phonetic": "/prəu'hibit/",
+      "definition": "v.禁止,不准;阻止"
+    },
+    {
+      "index": 1309,
+      "word": "cucumber",
+      "phonetic": "/'kju:kʌmbə/",
+      "definition": "n.黄瓜"
+    },
+    {
+      "index": 1310,
+      "word": "nervous",
+      "phonetic": "/'nə:vəs/",
+      "definition": "a.神经的;神经过敏的,紧张不安的"
+    },
+    {
+      "index": 1311,
+      "word": "many",
+      "phonetic": "/'meni/",
+      "definition": "a.许多的，多的 pron.许多人或物，许多"
+    },
+    {
+      "index": 1312,
+      "word": "vain",
+      "phonetic": "/veɪn/",
+      "definition": "a.徒劳的,徒然的;自负的,爱虚荣的"
+    },
+    {
+      "index": 1313,
+      "word": "find",
+      "phonetic": "/faɪnd/",
+      "definition": "v.(found,found)找到；发现；发觉；感到"
+    },
+    {
+      "index": 1314,
+      "word": "loaf",
+      "phonetic": "/ləuf/",
+      "definition": "n.一个面包"
+    },
+    {
+      "index": 1315,
+      "word": "vase",
+      "phonetic": "/vɑ:z/",
+      "definition": "n.花瓶,瓶"
+    },
+    {
+      "index": 1316,
+      "word": "minute",
+      "phonetic": "/'mɪnɪt/",
+      "definition": "n.分钟,片刻;(pl.)会议记录 a.微小的"
+    },
+    {
+      "index": 1317,
+      "word": "rural",
+      "phonetic": "/'ruərəl/",
+      "definition": "a.乡下的,田园的,乡村风味的"
+    },
+    {
+      "index": 1318,
+      "word": "overwhelm",
+      "phonetic": "/ˌəuvə'welm/",
+      "definition": "v.淹没,覆没,压倒,制服,使不知所措"
+    },
+    {
+      "index": 1319,
+      "word": "gallery",
+      "phonetic": "/'gæləri/",
+      "definition": "n.长廊,画廊,美术馆"
+    },
+    {
+      "index": 1320,
+      "word": "arch",
+      "phonetic": "/ɑ:tʃ/",
+      "definition": "n.拱门，桥拱洞 v.拱起，(使)变成弓形"
+    },
+    {
+      "index": 1321,
+      "word": "saint",
+      "phonetic": "/seint/",
+      "definition": "n.圣人,基督徒;(S-或St.用于人,地名前)圣"
+    },
+    {
+      "index": 1322,
+      "word": "lure",
+      "phonetic": "/luə(r)/",
+      "definition": "n.吸引力,魅力,诱惑物 vt.引诱，吸引"
+    },
+    {
+      "index": 1323,
+      "word": "catalog",
+      "phonetic": "/'kætəlɔg/",
+      "definition": "n.（catalogue）目录(册) v.编目(录)"
+    },
+    {
+      "index": 1324,
+      "word": "cashier",
+      "phonetic": "/kæ'ʃɪə(r)/",
+      "definition": "n.收银员,出纳员"
+    },
+    {
+      "index": 1325,
+      "word": "long",
+      "phonetic": "/lɔŋ/",
+      "definition": "a.长的，长时间的，长期的 ad.长久，长期地"
+    },
+    {
+      "index": 1326,
+      "word": "badge",
+      "phonetic": "/'bædʒ/",
+      "definition": "n.徽章,像章；标记；象征；记号"
+    },
+    {
+      "index": 1327,
+      "word": "endure",
+      "phonetic": "/in'djuə/",
+      "definition": "v.忍受,持久,持续"
+    },
+    {
+      "index": 1328,
+      "word": "wage",
+      "phonetic": "/weidʒ/",
+      "definition": "n.(常pl.)工资,报酬 vt.进行,开展"
+    },
+    {
+      "index": 1329,
+      "word": "ambulance",
+      "phonetic": "/'æmbjuləns/",
+      "definition": "n.救护车，救护船，救护飞机"
+    },
+    {
+      "index": 1330,
+      "word": "wrench",
+      "phonetic": "/rentʃ/",
+      "definition": "v.猛拧；挣脱；使扭伤 n.扳手；痛苦，难受"
+    },
+    {
+      "index": 1331,
+      "word": "stationary",
+      "phonetic": "/'steiʃənəri/",
+      "definition": "a.静止的,固定的"
+    },
+    {
+      "index": 1332,
+      "word": "skull",
+      "phonetic": "/skʌl/",
+      "definition": "n.头盖骨，颅骨"
+    },
+    {
+      "index": 1333,
+      "word": "short",
+      "phonetic": "/ʃɔ:t/",
+      "definition": "a.短的,矮的;(of)缺乏,不足 n.(pl.)短裤"
+    },
+    {
+      "index": 1334,
+      "word": "compose",
+      "phonetic": "/kəm'pəuz/",
+      "definition": "v.组成,构成;(of)由…组成;创作(诗歌等)"
+    },
+    {
+      "index": 1335,
+      "word": "reasonable",
+      "phonetic": "/'ri:zənəbl/",
+      "definition": "a.合理的,有道理的;通情达理的;适度的"
+    },
+    {
+      "index": 1336,
+      "word": "impressive",
+      "phonetic": "/im'presiv/",
+      "definition": "a.给人深刻印象的,感人的"
+    },
+    {
+      "index": 1337,
+      "word": "plenty",
+      "phonetic": "/'plenti/",
+      "definition": "n.丰富,大量"
+    },
+    {
+      "index": 1338,
+      "word": "tune",
+      "phonetic": "/tju:n/",
+      "definition": "n.调子,曲调;和谐,协调 vt.调音,调节,调整"
+    },
+    {
+      "index": 1339,
+      "word": "offset",
+      "phonetic": "/ˌɔf'set/",
+      "definition": "n.分支,补偿 v.抵消,补偿"
+    },
+    {
+      "index": 1340,
+      "word": "gramme",
+      "phonetic": "/græm/",
+      "definition": "n.(gram)克"
+    },
+    {
+      "index": 1341,
+      "word": "boast",
+      "phonetic": "/bəust/",
+      "definition": "v.(of,about)自夸,夸耀 n.自夸,大话"
+    },
+    {
+      "index": 1342,
+      "word": "tempo",
+      "phonetic": "/'tempəu/",
+      "definition": "n.节奏,行进速度;(音乐的)速度"
+    },
+    {
+      "index": 1343,
+      "word": "baby",
+      "phonetic": "/'beibi/",
+      "definition": "n.婴儿；年龄最小的人；小动物 a.婴儿似的"
+    },
+    {
+      "index": 1344,
+      "word": "exposure",
+      "phonetic": "/ik'spəuʒə/",
+      "definition": "n.暴露,揭露;方向;陈列;遗弃;照射量"
+    },
+    {
+      "index": 1345,
+      "word": "worthwhile",
+      "phonetic": "/'wə:θ'hwail/",
+      "definition": "a.值得(做)的"
+    },
+    {
+      "index": 1346,
+      "word": "editorial",
+      "phonetic": "/ˌedi'tɔ:riəl/",
+      "definition": "n.社论  a.社论的；编辑上的"
+    },
+    {
+      "index": 1347,
+      "word": "litre",
+      "phonetic": "/'li:tə/",
+      "definition": "n.(liter)升；公升(容量单位)"
+    },
+    {
+      "index": 1348,
+      "word": "mercury",
+      "phonetic": "/'mɜ:kjəri/",
+      "definition": "n.水银,汞"
+    },
+    {
+      "index": 1349,
+      "word": "temper",
+      "phonetic": "/'tempə/",
+      "definition": "n.脾气；韧度vt.调和，使缓和；使回火"
+    },
+    {
+      "index": 1350,
+      "word": "imperial",
+      "phonetic": "/im'piəriəl/",
+      "definition": "a.帝国的，帝王的；(度量衡)英制的"
+    }
+  ]
+}

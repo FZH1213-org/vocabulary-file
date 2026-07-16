@@ -1,0 +1,307 @@
+{
+  "chunk": 84,
+  "range": "4151-4200",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 4151,
+      "word": "happy",
+      "phonetic": "/'hæpi/",
+      "definition": "a.快乐的，幸福的；乐意的；令人满意的"
+    },
+    {
+      "index": 4152,
+      "word": "bulletin",
+      "phonetic": "/'bulitin/",
+      "definition": "n.公报,公告,告示"
+    },
+    {
+      "index": 4153,
+      "word": "puzzle",
+      "phonetic": "/'pʌzl/",
+      "definition": "n.难题,谜,迷惑 v.(使)迷惑,(使)为难"
+    },
+    {
+      "index": 4154,
+      "word": "hurry",
+      "phonetic": "/'hʌri/",
+      "definition": "vi.匆忙 vt.催促;急运(派) n.急(匆)忙"
+    },
+    {
+      "index": 4155,
+      "word": "provoke",
+      "phonetic": "/prəu'vəuk/",
+      "definition": "v.挑动;激发;招惹"
+    },
+    {
+      "index": 4156,
+      "word": "coincide",
+      "phonetic": "/ˌkəuɪn'saɪd/",
+      "definition": "vi.同时发生；巧合；一致；相符；"
+    },
+    {
+      "index": 4157,
+      "word": "govern",
+      "phonetic": "/'gʌvən/",
+      "definition": "v.统治,管理;决定,支配"
+    },
+    {
+      "index": 4158,
+      "word": "drop",
+      "phonetic": "/drɔp/",
+      "definition": "n.滴;落下;微量 v.落下;下降;失落"
+    },
+    {
+      "index": 4159,
+      "word": "couch",
+      "phonetic": "/kautʃ/",
+      "definition": "n.长沙发；(病人躺的)长榻vt.表达"
+    },
+    {
+      "index": 4160,
+      "word": "amiable",
+      "phonetic": "/'eimjəbl/",
+      "definition": "a.和蔼可亲的，友善的，亲切的"
+    },
+    {
+      "index": 4161,
+      "word": "essence",
+      "phonetic": "/'esəns/",
+      "definition": "n.本质,实质"
+    },
+    {
+      "index": 4162,
+      "word": "dwell",
+      "phonetic": "/dwel/",
+      "definition": "v.住,居留"
+    },
+    {
+      "index": 4163,
+      "word": "apparatus",
+      "phonetic": "/ˌæpə'reɪtəs/",
+      "definition": "n.器械，器具，仪器；机构，组织"
+    },
+    {
+      "index": 4164,
+      "word": "demonstrate",
+      "phonetic": "/'demənstreit/",
+      "definition": "v.论证,证实;演示,说明"
+    },
+    {
+      "index": 4165,
+      "word": "stripe",
+      "phonetic": "/straip/",
+      "definition": "n.长条，条纹；军服上表示军阶的臂章条纹"
+    },
+    {
+      "index": 4166,
+      "word": "blur",
+      "phonetic": "/blə:/",
+      "definition": "n.模糊不清的事物；污点 vt.使模糊；玷污"
+    },
+    {
+      "index": 4167,
+      "word": "object",
+      "phonetic": "/'ɔbdʒikt/",
+      "definition": "n.物体;客体,对象;目标;宾语 v.(to)反对"
+    },
+    {
+      "index": 4168,
+      "word": "nut",
+      "phonetic": "/nʌt/",
+      "definition": "n.坚果;螺母,螺帽"
+    },
+    {
+      "index": 4169,
+      "word": "orient",
+      "phonetic": "/'ɔ:riənt/",
+      "definition": "n.东方,亚洲 v.使朝东,为…定位,使适应"
+    },
+    {
+      "index": 4170,
+      "word": "sector",
+      "phonetic": "/'sektə/",
+      "definition": "n.部门，部分；防御地段，防区；扇形"
+    },
+    {
+      "index": 4171,
+      "word": "assembly",
+      "phonetic": "/ə'sembli/",
+      "definition": "n.集合；会议；装配；(美)洲议会的众议院"
+    },
+    {
+      "index": 4172,
+      "word": "renovate",
+      "phonetic": "/'renəuveit/",
+      "definition": "v.更新,修复"
+    },
+    {
+      "index": 4173,
+      "word": "unlike",
+      "phonetic": "/ˌʌn'laik/",
+      "definition": "a.不同的,不相似的 prep.不象,和…不同"
+    },
+    {
+      "index": 4174,
+      "word": "cosmic",
+      "phonetic": "/'kɔzmik/",
+      "definition": "a.宇宙的；无比巨大的，无穷尽的"
+    },
+    {
+      "index": 4175,
+      "word": "saturate",
+      "phonetic": "/'sætʃəreit/",
+      "definition": "vt.使湿透，浸透；使充满，使饱和"
+    },
+    {
+      "index": 4176,
+      "word": "learning",
+      "phonetic": "/'lə:niŋ/",
+      "definition": "n.知识,学问;学习"
+    },
+    {
+      "index": 4177,
+      "word": "throne",
+      "phonetic": "/θrəun/",
+      "definition": "n.御座，宝座；王位，王权"
+    },
+    {
+      "index": 4178,
+      "word": "usage",
+      "phonetic": "/'ju:zidʒ/",
+      "definition": "n.使用，用法；习惯，习俗；惯用法"
+    },
+    {
+      "index": 4179,
+      "word": "alike",
+      "phonetic": "/ə'laik/",
+      "definition": "a.同样的，相像的ad.一样地；同程度地　"
+    },
+    {
+      "index": 4180,
+      "word": "advisable",
+      "phonetic": "/əd'vaizəbl/",
+      "definition": "a.可取的，适当的，明智的"
+    },
+    {
+      "index": 4181,
+      "word": "here",
+      "phonetic": "/hiə/",
+      "definition": "ad.在(到，向)这里；这时；在这一点上"
+    },
+    {
+      "index": 4182,
+      "word": "iron",
+      "phonetic": "/'aiən/",
+      "definition": "n.铁,铁制品,烙铁,熨斗 v.熨(衣),熨平"
+    },
+    {
+      "index": 4183,
+      "word": "splendid",
+      "phonetic": "/'splendid/",
+      "definition": "a.壮丽的,辉煌的;极好的"
+    },
+    {
+      "index": 4184,
+      "word": "seat",
+      "phonetic": "/si:t/",
+      "definition": "n.座位,底座;所在地,场所 v.使坐下"
+    },
+    {
+      "index": 4185,
+      "word": "",
+      "phonetic": "/fɔ:ls/",
+      "definition": "a.谬误的,虚伪的,伪造的,假的"
+    },
+    {
+      "index": 4186,
+      "word": "nearly",
+      "phonetic": "/'niəli/",
+      "definition": "ad.差不多,几乎"
+    },
+    {
+      "index": 4187,
+      "word": "twinkle",
+      "phonetic": "/'twiŋkl/",
+      "definition": "vi.(星等)闪烁，(眼情)发亮 n.闪烁，闪光"
+    },
+    {
+      "index": 4188,
+      "word": "garment",
+      "phonetic": "/'gɑ:mənt/",
+      "definition": "n.(一件)衣服"
+    },
+    {
+      "index": 4189,
+      "word": "representative",
+      "phonetic": "/ˌrepri'zentətiv/",
+      "definition": "n.代表,代理人 a.(of)典型的,有代表性的"
+    },
+    {
+      "index": 4190,
+      "word": "clothe",
+      "phonetic": "/kləuð/",
+      "definition": "v.(给…)穿衣,供给…衣服"
+    },
+    {
+      "index": 4191,
+      "word": "move",
+      "phonetic": "/mu:v/",
+      "definition": "v.移动,迁移;活动;感动 n.移动,活动,行动"
+    },
+    {
+      "index": 4192,
+      "word": "challenge",
+      "phonetic": "/'tʃælɪndʒ/",
+      "definition": "n.挑战(书);艰巨任务,难题 v.向…挑战"
+    },
+    {
+      "index": 4193,
+      "word": "helpful",
+      "phonetic": "/'helpful/",
+      "definition": "a.(to)有帮助的,有益的,有用的"
+    },
+    {
+      "index": 4194,
+      "word": "leading",
+      "phonetic": "/'li:diŋ/",
+      "definition": "a.领导的,指导的;第一位的;最主要的"
+    },
+    {
+      "index": 4195,
+      "word": "grace",
+      "phonetic": "/greis/",
+      "definition": "n.优美,文雅;恩惠,恩泽;宽限,缓刑;感恩祷告"
+    },
+    {
+      "index": 4196,
+      "word": "music",
+      "phonetic": "/'mju:zik/",
+      "definition": "n.音乐，乐曲，乐谱"
+    },
+    {
+      "index": 4197,
+      "word": "pull",
+      "phonetic": "/pul/",
+      "definition": "v.拉,拖 n.拉,拖;拉力,牵引力"
+    },
+    {
+      "index": 4198,
+      "word": "scarf",
+      "phonetic": "/skɑ:f/",
+      "definition": "n.围巾,头巾,领巾,领带"
+    },
+    {
+      "index": 4199,
+      "word": "pearl",
+      "phonetic": "/pə:l/",
+      "definition": "n.珍珠"
+    },
+    {
+      "index": 4200,
+      "word": "carpet",
+      "phonetic": "/'kɑ:pit/",
+      "definition": "n.地毯"
+    }
+  ]
+}

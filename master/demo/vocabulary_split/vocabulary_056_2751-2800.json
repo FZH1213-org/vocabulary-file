@@ -1,0 +1,307 @@
+{
+  "chunk": 56,
+  "range": "2751-2800",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 2751,
+      "word": "appliance",
+      "phonetic": "/ə'plaɪəns/",
+      "definition": "n.电器；器械，装置；应用，适用"
+    },
+    {
+      "index": 2752,
+      "word": "pledge",
+      "phonetic": "/pledʒ/",
+      "definition": "n.誓约;保证 v.发誓;保证"
+    },
+    {
+      "index": 2753,
+      "word": "artist",
+      "phonetic": "/'ɑ:tist/",
+      "definition": "n.艺术家，美术家；(某方面的)能手"
+    },
+    {
+      "index": 2754,
+      "word": "rag",
+      "phonetic": "/ræg/",
+      "definition": "n.抹布,破布,碎布"
+    },
+    {
+      "index": 2755,
+      "word": "mean",
+      "phonetic": "/mi:n/",
+      "definition": "v.表示…的意思 a.卑鄙的;平均的n.平均值"
+    },
+    {
+      "index": 2756,
+      "word": "inn",
+      "phonetic": "/in/",
+      "definition": "n.小旅馆,客栈"
+    },
+    {
+      "index": 2757,
+      "word": "warmth",
+      "phonetic": "/wɔ:mθ/",
+      "definition": "n.暖和,温暖;热心,热情"
+    },
+    {
+      "index": 2758,
+      "word": "array",
+      "phonetic": "/ə'rei/",
+      "definition": "n.大量；排列；盛装 v.列阵；装扮；排列"
+    },
+    {
+      "index": 2759,
+      "word": "guide",
+      "phonetic": "/gaid/",
+      "definition": "n.领路人;指南,导游 v.领路;指导;支配;管理"
+    },
+    {
+      "index": 2760,
+      "word": "weary",
+      "phonetic": "/'wiəri/",
+      "definition": "a.疲倦的;令人厌烦的 v.使疲倦,使厌倦"
+    },
+    {
+      "index": 2761,
+      "word": "form",
+      "phonetic": "/fɔ:m/",
+      "definition": "n.形状,形式;表格 v.组成,构成;形成"
+    },
+    {
+      "index": 2762,
+      "word": "eye",
+      "phonetic": "/ai/",
+      "definition": "n.眼(睛)；视力；眼力；监督vt.看，审视"
+    },
+    {
+      "index": 2763,
+      "word": "reservation",
+      "phonetic": "/ˌrezə'veiʃən/",
+      "definition": "n.保留,保留意见;预定,预订"
+    },
+    {
+      "index": 2764,
+      "word": "shed",
+      "phonetic": "/ʃed/",
+      "definition": "v.流出;发散,散发,脱落,脱去 n.棚,小屋"
+    },
+    {
+      "index": 2765,
+      "word": "bulb",
+      "phonetic": "/bʌlb/",
+      "definition": "n.灯泡,球状物"
+    },
+    {
+      "index": 2766,
+      "word": "fiction",
+      "phonetic": "/'fikʃən/",
+      "definition": "n.虚构,编造;小说"
+    },
+    {
+      "index": 2767,
+      "word": "sugar",
+      "phonetic": "/'ʃugə/",
+      "definition": "n.糖，食糖 vt.加糖于"
+    },
+    {
+      "index": 2768,
+      "word": "difficulty",
+      "phonetic": "/'difikəlti/",
+      "definition": "n.困难,困境,难题"
+    },
+    {
+      "index": 2769,
+      "word": "noise",
+      "phonetic": "/nɔiz/",
+      "definition": "n.喧闹声,噪声,吵嚷声"
+    },
+    {
+      "index": 2770,
+      "word": "holder",
+      "phonetic": "/'həuldə/",
+      "definition": "n.持有者,占有者;(台,架等)支持物"
+    },
+    {
+      "index": 2771,
+      "word": "mobile",
+      "phonetic": "/'məubaɪl/",
+      "definition": "a.可动的,活动的,运动的"
+    },
+    {
+      "index": 2772,
+      "word": "worry",
+      "phonetic": "/'wʌri/",
+      "definition": "v.烦恼;(about)对…感到烦恼 n.烦恼,焦虑"
+    },
+    {
+      "index": 2773,
+      "word": "committee",
+      "phonetic": "/kə'miti/",
+      "definition": "n.委员会,全体委员"
+    },
+    {
+      "index": 2774,
+      "word": "nylon",
+      "phonetic": "/'nailɔn/",
+      "definition": "n.尼龙"
+    },
+    {
+      "index": 2775,
+      "word": "distinction",
+      "phonetic": "/dis'tiŋkʃən/",
+      "definition": "n.区别,差别;级别;特性;声望;显赫"
+    },
+    {
+      "index": 2776,
+      "word": "dealer",
+      "phonetic": "/'di:lə(r)/",
+      "definition": "n.商人"
+    },
+    {
+      "index": 2777,
+      "word": "curve",
+      "phonetic": "/kə:v/",
+      "definition": "n.曲线,弯曲(物) v.弄弯,成曲形"
+    },
+    {
+      "index": 2778,
+      "word": "morning",
+      "phonetic": "/'mɔ:niŋ/",
+      "definition": "n.早晨，上午"
+    },
+    {
+      "index": 2779,
+      "word": "skim",
+      "phonetic": "/skim/",
+      "definition": "vt.撇去(液体表面)之漂浮物 vi.轻轻掠过"
+    },
+    {
+      "index": 2780,
+      "word": "sound",
+      "phonetic": "/saund/",
+      "definition": "n.声音v.发声,响a.健全的,完好的;正当的"
+    },
+    {
+      "index": 2781,
+      "word": "stride",
+      "phonetic": "/straid/",
+      "definition": "vi.大踏步走；跨越 n.一大步(pl.)长足进步"
+    },
+    {
+      "index": 2782,
+      "word": "volcano",
+      "phonetic": "/vɔl'keinəu/",
+      "definition": "n.火山"
+    },
+    {
+      "index": 2783,
+      "word": "spring",
+      "phonetic": "/spriŋ/",
+      "definition": "n.春;跳;泉,源泉;弹簧,发条 v.跳,跳跃"
+    },
+    {
+      "index": 2784,
+      "word": "purse",
+      "phonetic": "/pɜ:s/",
+      "definition": "n.钱包"
+    },
+    {
+      "index": 2785,
+      "word": "transmission",
+      "phonetic": "/trænz'miʃən/",
+      "definition": "n.播送,发射;传动,传送"
+    },
+    {
+      "index": 2786,
+      "word": "thank",
+      "phonetic": "/θæŋk/",
+      "definition": "vt.感谢int.[-s]谢谢n.[pl.]感谢(意)"
+    },
+    {
+      "index": 2787,
+      "word": "economy",
+      "phonetic": "/i'kɔnəmi/",
+      "definition": "n.节约;经济"
+    },
+    {
+      "index": 2788,
+      "word": "ratio",
+      "phonetic": "/'reiʃiəu/",
+      "definition": "n.比,比率"
+    },
+    {
+      "index": 2789,
+      "word": "slope",
+      "phonetic": "/sləup/",
+      "definition": "n.斜坡,斜面;倾斜,斜度 v.(使)倾斜"
+    },
+    {
+      "index": 2790,
+      "word": "anecdote",
+      "phonetic": "/'ænikdəut/",
+      "definition": "n.轶事，趣闻，短故事"
+    },
+    {
+      "index": 2791,
+      "word": "trace",
+      "phonetic": "/treis/",
+      "definition": "n.痕迹,踪迹;极少量 v.描绘;跟踪,追踪"
+    },
+    {
+      "index": 2792,
+      "word": "special",
+      "phonetic": "/'speʃəl/",
+      "definition": "a.特殊的,专门的;附加的,额外的"
+    },
+    {
+      "index": 2793,
+      "word": "edit",
+      "phonetic": "/'edit/",
+      "definition": "v.编辑,校订"
+    },
+    {
+      "index": 2794,
+      "word": "constant",
+      "phonetic": "/'kɔnstənt/",
+      "definition": "a.固定的，持续的,忠实的 n.常数,恒量"
+    },
+    {
+      "index": 2795,
+      "word": "responsible",
+      "phonetic": "/ri'spɔnsəbl/",
+      "definition": "a.(for,to)应负责的;可靠的;责任重大的"
+    },
+    {
+      "index": 2796,
+      "word": "interact",
+      "phonetic": "/ˌintə'rækt/",
+      "definition": "v.互相作用,互相影响"
+    },
+    {
+      "index": 2797,
+      "word": "reckless",
+      "phonetic": "/'reklis/",
+      "definition": "a.不注意的,大意的,卤莽的,不顾后果的"
+    },
+    {
+      "index": 2798,
+      "word": "heap",
+      "phonetic": "/hi:p/",
+      "definition": "n.(一)堆,大量,许多 v.(up)堆,堆起"
+    },
+    {
+      "index": 2799,
+      "word": "pause",
+      "phonetic": "/pɔ:z/",
+      "definition": "v./n.中止,暂停"
+    },
+    {
+      "index": 2800,
+      "word": "cousin",
+      "phonetic": "/'kʌzən/",
+      "definition": "n.堂(或表)兄弟,堂(或表)姐妹"
+    }
+  ]
+}

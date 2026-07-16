@@ -1,0 +1,307 @@
+{
+  "chunk": 53,
+  "range": "2601-2650",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 2601,
+      "word": "following",
+      "phonetic": "/'fɔləuiŋ/",
+      "definition": "a.下列的，下述的，其次的，接着的"
+    },
+    {
+      "index": 2602,
+      "word": "upper",
+      "phonetic": "/'ʌpə/",
+      "definition": "a.上面的;上部的,较高的"
+    },
+    {
+      "index": 2603,
+      "word": "entail",
+      "phonetic": "/in'teil/",
+      "definition": "vt.使承担;需要;把(疾病等)遗传给;限定"
+    },
+    {
+      "index": 2604,
+      "word": "wedding",
+      "phonetic": "/'wediŋ/",
+      "definition": "n.婚礼"
+    },
+    {
+      "index": 2605,
+      "word": "promise",
+      "phonetic": "/'prɔmis/",
+      "definition": "v.允许,答应;有…可能n.承诺;希望,出息"
+    },
+    {
+      "index": 2606,
+      "word": "ingredient",
+      "phonetic": "/in'gri:diənt/",
+      "definition": "n.(混合物的)组成部分，配料；成份，要素"
+    },
+    {
+      "index": 2607,
+      "word": "shape",
+      "phonetic": "/ʃeip/",
+      "definition": "n.形状,外形;情况,状态;种类v.成型,塑造"
+    },
+    {
+      "index": 2608,
+      "word": "episode",
+      "phonetic": "/'epɪsəud/",
+      "definition": "n.一段情节;片断;(连续剧的)一集"
+    },
+    {
+      "index": 2609,
+      "word": "necklace",
+      "phonetic": "/'neklis/",
+      "definition": "n.项链，项圈"
+    },
+    {
+      "index": 2610,
+      "word": "heavy",
+      "phonetic": "/'hevi/",
+      "definition": "a.重的,重型的;沉重的,大量的,猛烈的"
+    },
+    {
+      "index": 2611,
+      "word": "forbid",
+      "phonetic": "/fə'bɪd/",
+      "definition": "v.禁止,不许"
+    },
+    {
+      "index": 2612,
+      "word": "scar",
+      "phonetic": "/skɑ:/",
+      "definition": "n.疤,疤痕;创伤 v.使留下伤痕,创伤"
+    },
+    {
+      "index": 2613,
+      "word": "liquid",
+      "phonetic": "/'likwid/",
+      "definition": "n.液体 a.液体的,液态的"
+    },
+    {
+      "index": 2614,
+      "word": "overpass",
+      "phonetic": "/'əuvəpɑ:s/",
+      "definition": "n.过街天桥 vt.胜过,通过,忽视"
+    },
+    {
+      "index": 2615,
+      "word": "dissipate",
+      "phonetic": "/'disipeit/",
+      "definition": "v.驱散;(使云、雾、疑虑等)消散;挥霍"
+    },
+    {
+      "index": 2616,
+      "word": "garlic",
+      "phonetic": "/'gɑ:lik/",
+      "definition": "n.蒜，大蒜粉"
+    },
+    {
+      "index": 2617,
+      "word": "ample",
+      "phonetic": "/'æmpl/",
+      "definition": "a.充分的，富裕的；宽敞的，宽大的"
+    },
+    {
+      "index": 2618,
+      "word": "deal",
+      "phonetic": "/di:l/",
+      "definition": "v.处理;做买卖,经营;分配;对待  n.交易"
+    },
+    {
+      "index": 2619,
+      "word": "arrogant",
+      "phonetic": "/'ærəgənt/",
+      "definition": "a.傲慢的，自大的"
+    },
+    {
+      "index": 2620,
+      "word": "oxygen",
+      "phonetic": "/'ɔksidʒən/",
+      "definition": "n.氧,氧气"
+    },
+    {
+      "index": 2621,
+      "word": "among",
+      "phonetic": "/ə'mʌŋ/",
+      "definition": "prep.在…之中；在一群(组)之中；于…之间"
+    },
+    {
+      "index": 2622,
+      "word": "bottle",
+      "phonetic": "/'bɔtl/",
+      "definition": "n.瓶(子) v.装瓶"
+    },
+    {
+      "index": 2623,
+      "word": "bias",
+      "phonetic": "/'baiəs/",
+      "definition": "n./v.(使有)偏见,偏心,偏袒"
+    },
+    {
+      "index": 2624,
+      "word": "exclude",
+      "phonetic": "/iks'klu:d/",
+      "definition": "v.拒绝,把…排除在外,排斥"
+    },
+    {
+      "index": 2625,
+      "word": "famous",
+      "phonetic": "/'feiməs/",
+      "definition": "a.著名的"
+    },
+    {
+      "index": 2626,
+      "word": "capitalism",
+      "phonetic": "/'kæpitəlizəm/",
+      "definition": "n.资本主义"
+    },
+    {
+      "index": 2627,
+      "word": "soup",
+      "phonetic": "/su:p/",
+      "definition": "n.汤"
+    },
+    {
+      "index": 2628,
+      "word": "trip",
+      "phonetic": "/trɪp/",
+      "definition": "n.旅行,远足 v.绊倒；失足；犯错"
+    },
+    {
+      "index": 2629,
+      "word": "crust",
+      "phonetic": "/krʌst/",
+      "definition": "n.外皮,壳;地壳"
+    },
+    {
+      "index": 2630,
+      "word": "odds",
+      "phonetic": "/ɔdz/",
+      "definition": "n.不平等,差异;机会"
+    },
+    {
+      "index": 2631,
+      "word": "reproach",
+      "phonetic": "/ri'prəutʃ/",
+      "definition": "v./n.责备,指责"
+    },
+    {
+      "index": 2632,
+      "word": "clear",
+      "phonetic": "/kliə/",
+      "definition": "a./ad.清晰的(地)vt.清除；使清楚vi.变清澈"
+    },
+    {
+      "index": 2633,
+      "word": "gently",
+      "phonetic": "/'dʒentli/",
+      "definition": "ad.文雅地,有礼貌地;轻轻地"
+    },
+    {
+      "index": 2634,
+      "word": "involve",
+      "phonetic": "/in'vɔlv/",
+      "definition": "v.卷入,陷入,连累;包含,含有,涉及"
+    },
+    {
+      "index": 2635,
+      "word": "tram",
+      "phonetic": "/træm/",
+      "definition": "n.有轨电车"
+    },
+    {
+      "index": 2636,
+      "word": "beforehand",
+      "phonetic": "/bi'fɔ:hænd/",
+      "definition": "ad.预先,事先"
+    },
+    {
+      "index": 2637,
+      "word": "emit",
+      "phonetic": "/i'mit/",
+      "definition": "vt.发出;放射;吐露;散发;发表;发行"
+    },
+    {
+      "index": 2638,
+      "word": "forum",
+      "phonetic": "/'fɔ:rəm/",
+      "definition": "n.论坛,讨论会"
+    },
+    {
+      "index": 2639,
+      "word": "strife",
+      "phonetic": "/straif/",
+      "definition": "n.争吵；冲突，斗争；竞争"
+    },
+    {
+      "index": 2640,
+      "word": "hail",
+      "phonetic": "/heɪl/",
+      "definition": "v.下雹;欢呼,欢迎 n.雹"
+    },
+    {
+      "index": 2641,
+      "word": "filter",
+      "phonetic": "/filtə/",
+      "definition": "n.滤器,滤纸"
+    },
+    {
+      "index": 2642,
+      "word": "slit",
+      "phonetic": "/slit/",
+      "definition": "v.切开,截开,纵割 n.细长裂缝,狭长切口"
+    },
+    {
+      "index": 2643,
+      "word": "remove",
+      "phonetic": "/ri'mu:v/",
+      "definition": "v.移动,脱掉,调动,免职"
+    },
+    {
+      "index": 2644,
+      "word": "settle",
+      "phonetic": "/'setl/",
+      "definition": "v.安定,安顿;停息;定居;解决,调停"
+    },
+    {
+      "index": 2645,
+      "word": "express",
+      "phonetic": "/ik'spres/",
+      "definition": "v.表达,表示 a.特快的,快速的 n.快车,快运"
+    },
+    {
+      "index": 2646,
+      "word": "lapse",
+      "phonetic": "/læps/",
+      "definition": "n.失误,流逝,丧失,下降 v.失效,偏离,流逝"
+    },
+    {
+      "index": 2647,
+      "word": "dish",
+      "phonetic": "/dɪʃ/",
+      "definition": "n.碟子,盘子,菜肴"
+    },
+    {
+      "index": 2648,
+      "word": "daily",
+      "phonetic": "/'deili/",
+      "definition": "a.每日的 ad.每日,天天 n.日报"
+    },
+    {
+      "index": 2649,
+      "word": "lorry",
+      "phonetic": "/'lɔ:ri/",
+      "definition": "n.卡车,运货汽车"
+    },
+    {
+      "index": 2650,
+      "word": "accord",
+      "phonetic": "/ə'kɔ:d/",
+      "definition": "vt.给予(欢迎、称颂等) vi.&n.符合，一致"
+    }
+  ]
+}

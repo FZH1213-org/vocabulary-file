@@ -1,0 +1,307 @@
+{
+  "chunk": 87,
+  "range": "4301-4350",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 4301,
+      "word": "overflow",
+      "phonetic": "/ˌəuvə'fləu/",
+      "definition": "v.(使)外溢,(使)溢出;溢出,流出,漫出"
+    },
+    {
+      "index": 4302,
+      "word": "sprinkle",
+      "phonetic": "/'spriŋkl/",
+      "definition": "n.洒,喷,淋"
+    },
+    {
+      "index": 4303,
+      "word": "guess",
+      "phonetic": "/ges/",
+      "definition": "v./n.猜测，推测；以为；猜想[同]surmise"
+    },
+    {
+      "index": 4304,
+      "word": "contribute",
+      "phonetic": "/kən'trɪbju:t/",
+      "definition": "v.(to)贡献,捐助,捐献;投稿"
+    },
+    {
+      "index": 4305,
+      "word": "independent",
+      "phonetic": "/ˌindi'pendənt/",
+      "definition": "a.(of)独立的,自主的"
+    },
+    {
+      "index": 4306,
+      "word": "offend",
+      "phonetic": "/ə'fend/",
+      "definition": "v.犯罪,冒犯,违反,得罪,使...不愉快"
+    },
+    {
+      "index": 4307,
+      "word": "read",
+      "phonetic": "/ri:d/",
+      "definition": "v.朗读；阅读 vt.辨认，观察 vi.读到，获悉"
+    },
+    {
+      "index": 4308,
+      "word": "sunset",
+      "phonetic": "/'sʌnset/",
+      "definition": "n.日落，傍晚；晚霞"
+    },
+    {
+      "index": 4309,
+      "word": "grey",
+      "phonetic": "/grei/",
+      "definition": "n./a.(gray)灰色(的)"
+    },
+    {
+      "index": 4310,
+      "word": "insulate",
+      "phonetic": "/'insjuleit/",
+      "definition": "vt.隔离,孤立;使绝缘,使绝热"
+    },
+    {
+      "index": 4311,
+      "word": "outfit",
+      "phonetic": "/'autfit/",
+      "definition": "n.用具,机构,全套装配 v.配备,(得到)装备"
+    },
+    {
+      "index": 4312,
+      "word": "avenue",
+      "phonetic": "/'ævənju:/",
+      "definition": "n.林荫路，大街；(比喻)途径，渠道，方法"
+    },
+    {
+      "index": 4313,
+      "word": "sophisticated",
+      "phonetic": "/sə'fistikeitid/",
+      "definition": "a.尖端的,复杂的,先进的;老练的,老于世故的"
+    },
+    {
+      "index": 4314,
+      "word": "epidemic",
+      "phonetic": "/ˌepi'demik/",
+      "definition": "a.流行性的;传染的 n.流行病;传播"
+    },
+    {
+      "index": 4315,
+      "word": "seal",
+      "phonetic": "/si:l/",
+      "definition": "n.封铅,封条;印,图章;海豹 v.封,密封"
+    },
+    {
+      "index": 4316,
+      "word": "could",
+      "phonetic": "/kud/",
+      "definition": "v.aux.(口语)(表示许可或请求）可以...，行"
+    },
+    {
+      "index": 4317,
+      "word": "baseball",
+      "phonetic": "/'beisbɔ:l/",
+      "definition": "n.棒球"
+    },
+    {
+      "index": 4318,
+      "word": "trend",
+      "phonetic": "/trend/",
+      "definition": "n.倾向,趋势 vi.伸向,倾向"
+    },
+    {
+      "index": 4319,
+      "word": "bureaucracy",
+      "phonetic": "/bjuə'rɔkrəsi/",
+      "definition": "n.官僚主义，官僚机构；(非民选的)委任官员"
+    },
+    {
+      "index": 4320,
+      "word": "manner",
+      "phonetic": "/'mænə/",
+      "definition": "n.方式;举止;(pl.)风度,礼貌;规矩;风俗"
+    },
+    {
+      "index": 4321,
+      "word": "shove",
+      "phonetic": "/ʃʌv/",
+      "definition": "vt.乱推；乱塞vi.用力推，挤n.猛推"
+    },
+    {
+      "index": 4322,
+      "word": "railroad",
+      "phonetic": "/'reilrəud/",
+      "definition": "n.(railway)铁路 v.由铁道运输"
+    },
+    {
+      "index": 4323,
+      "word": "limb",
+      "phonetic": "/lim/",
+      "definition": "n.肢,翼,大树枝"
+    },
+    {
+      "index": 4324,
+      "word": "where",
+      "phonetic": "/hwεə/",
+      "definition": "ad.在哪/那里 conj./pron.哪里 conj.然而"
+    },
+    {
+      "index": 4325,
+      "word": "rug",
+      "phonetic": "/rʌg/",
+      "definition": "n.(小)地毯;围毯"
+    },
+    {
+      "index": 4326,
+      "word": "inside",
+      "phonetic": "/ˌin'said/",
+      "definition": "a.里面的 ad.在里面 n.内部 prep.在…里"
+    },
+    {
+      "index": 4327,
+      "word": "piano",
+      "phonetic": "/pi'ænəu/",
+      "definition": "n.钢琴"
+    },
+    {
+      "index": 4328,
+      "word": "control",
+      "phonetic": "/kən'trəul/",
+      "definition": "n.(over)控制,支配 v.控制,支配"
+    },
+    {
+      "index": 4329,
+      "word": "flood",
+      "phonetic": "/flʌd/",
+      "definition": "n.洪水,水灾 v.淹没,发大水,泛滥"
+    },
+    {
+      "index": 4330,
+      "word": "attitude",
+      "phonetic": "/'ætɪtju：d/",
+      "definition": "n.态度，看法(to, toward, about)；姿势"
+    },
+    {
+      "index": 4331,
+      "word": "intervene",
+      "phonetic": "/ˌintə'vi:n/",
+      "definition": "v.(in)干涉,干预;插入,介入"
+    },
+    {
+      "index": 4332,
+      "word": "rely",
+      "phonetic": "/ri'lai/",
+      "definition": "v.(on)依赖,依靠;信赖,信任"
+    },
+    {
+      "index": 4333,
+      "word": "wood",
+      "phonetic": "/wud/",
+      "definition": "n.木材，木头，木料；(pl.)森林，林地"
+    },
+    {
+      "index": 4334,
+      "word": "agony",
+      "phonetic": "/'ægəni/",
+      "definition": "n.(精神或肉体的)极大痛苦，创伤"
+    },
+    {
+      "index": 4335,
+      "word": "plentiful",
+      "phonetic": "/'plentɪfl/",
+      "definition": "a.富裕的,丰富的"
+    },
+    {
+      "index": 4336,
+      "word": "vigorous",
+      "phonetic": "/'vigərəs/",
+      "definition": "a.朝气蓬勃的,精力旺盛的"
+    },
+    {
+      "index": 4337,
+      "word": "someone",
+      "phonetic": "/'sʌmˌwʌn/",
+      "definition": "pron.某人(=somebody)"
+    },
+    {
+      "index": 4338,
+      "word": "offer",
+      "phonetic": "/'ɒfə/",
+      "definition": "v.提供,提议,出现 n.出价,提议,意图"
+    },
+    {
+      "index": 4339,
+      "word": "push",
+      "phonetic": "/puʃ/",
+      "definition": "v.推;催逼,逼迫 n.推,推力;促进,推进"
+    },
+    {
+      "index": 4340,
+      "word": "balcony",
+      "phonetic": "/'bælkəni/",
+      "definition": "n.阳台；(电影院等的)楼厅，楼座"
+    },
+    {
+      "index": 4341,
+      "word": "ill",
+      "phonetic": "/il/",
+      "definition": "a.有病的；坏的；恶意的 ad.坏地；不利地"
+    },
+    {
+      "index": 4342,
+      "word": "humidity",
+      "phonetic": "/hju:'midəti/",
+      "definition": "n.湿气,湿度"
+    },
+    {
+      "index": 4343,
+      "word": "menace",
+      "phonetic": "/'menəs/",
+      "definition": "vt./n.有危险性的人(或物)；威胁，威吓"
+    },
+    {
+      "index": 4344,
+      "word": "chap",
+      "phonetic": "/tʃæp/",
+      "definition": "n./v.(皮肤)变粗糙；发痛；n.小伙子"
+    },
+    {
+      "index": 4345,
+      "word": "overtake",
+      "phonetic": "/ˌəuvə'teik/",
+      "definition": "v.追上,超过,突然降临,压倒"
+    },
+    {
+      "index": 4346,
+      "word": "differ",
+      "phonetic": "/'difə/",
+      "definition": "v.(from)与…不同;(with)与…意见不同"
+    },
+    {
+      "index": 4347,
+      "word": "he",
+      "phonetic": "/hi:/",
+      "definition": "pron.他；(不论性别的)一个人"
+    },
+    {
+      "index": 4348,
+      "word": "stir",
+      "phonetic": "/stə:/",
+      "definition": "v.搅拌,搅动;动,摇动;激动;轰动;煽动,鼓动"
+    },
+    {
+      "index": 4349,
+      "word": "tiny",
+      "phonetic": "/'taini/",
+      "definition": "a.极小的,微小的"
+    },
+    {
+      "index": 4350,
+      "word": "boundary",
+      "phonetic": "/'baundəri/",
+      "definition": "n.分界线,边界"
+    }
+  ]
+}

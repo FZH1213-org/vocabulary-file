@@ -1,0 +1,307 @@
+{
+  "chunk": 82,
+  "range": "4051-4100",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 4051,
+      "word": "hand",
+      "phonetic": "/hænd/",
+      "definition": "n.手，人手，雇员；专门业人员；指针 v.交"
+    },
+    {
+      "index": 4052,
+      "word": "rake",
+      "phonetic": "/reik/",
+      "definition": "n.耙子,耙机 v.耙;搜索,探索"
+    },
+    {
+      "index": 4053,
+      "word": "diplomatic",
+      "phonetic": "/ˌdiplə'mætik/",
+      "definition": "a.外交的,从事外交的;策略的,有手腕的"
+    },
+    {
+      "index": 4054,
+      "word": "apologise",
+      "phonetic": "/ə'pɔlədʒaiz/",
+      "definition": "v.(to,for)道歉，认错"
+    },
+    {
+      "index": 4055,
+      "word": "tumble",
+      "phonetic": "/'tʌmbl/",
+      "definition": "v.(使)摔倒;打滚,翻腾 n.摔跤,跌倒"
+    },
+    {
+      "index": 4056,
+      "word": "or",
+      "phonetic": "/ɔ:(r)/",
+      "definition": "conj.或，或者(表示选择)；即，大约；否则"
+    },
+    {
+      "index": 4057,
+      "word": "mainland",
+      "phonetic": "/'meinlənd/",
+      "definition": "n.大陆,本土"
+    },
+    {
+      "index": 4058,
+      "word": "young",
+      "phonetic": "/jʌŋ/",
+      "definition": "a.年轻的，幼小的；没经验的 n.青年人"
+    },
+    {
+      "index": 4059,
+      "word": "grandmother",
+      "phonetic": "/'grændˌmʌðə/",
+      "definition": "n.祖母,外祖母"
+    },
+    {
+      "index": 4060,
+      "word": "bonus",
+      "phonetic": "/'bəunəs/",
+      "definition": "n.奖金,红利"
+    },
+    {
+      "index": 4061,
+      "word": "humanity",
+      "phonetic": "/hju:'mænəti/",
+      "definition": "n.人类,人性,人情;(pl.)人文科学"
+    },
+    {
+      "index": 4062,
+      "word": "documentary",
+      "phonetic": "/ˌdɔkju'mentəri/",
+      "definition": "a.文献的 n.记录片"
+    },
+    {
+      "index": 4063,
+      "word": "hijack",
+      "phonetic": "/'haidʒæk/",
+      "definition": "v.劫持，劫机，拦路抢劫"
+    },
+    {
+      "index": 4064,
+      "word": "pressure",
+      "phonetic": "/'preʃə/",
+      "definition": "n.压,压力,压迫,强制,紧迫,困苦,困难"
+    },
+    {
+      "index": 4065,
+      "word": "skill",
+      "phonetic": "/skil/",
+      "definition": "n.技能,技巧,手艺;熟练"
+    },
+    {
+      "index": 4066,
+      "word": "infect",
+      "phonetic": "/in'fekt/",
+      "definition": "vt.传染，感染；影响(思想等)"
+    },
+    {
+      "index": 4067,
+      "word": "relax",
+      "phonetic": "/ri'læks/",
+      "definition": "v.(使)松驰,放松"
+    },
+    {
+      "index": 4068,
+      "word": "ourselves",
+      "phonetic": "/ˌauə'selvz/",
+      "definition": "pron.[反身代词]我们自己；我们亲自"
+    },
+    {
+      "index": 4069,
+      "word": "fee",
+      "phonetic": "/fi:/",
+      "definition": "n.费(会费,学费等);酬金"
+    },
+    {
+      "index": 4070,
+      "word": "compromise",
+      "phonetic": "/'kɔmprəmaiz/",
+      "definition": "n.妥协，折衷vi.妥协vt.危及，放弃(原则等)"
+    },
+    {
+      "index": 4071,
+      "word": "obligation",
+      "phonetic": "/ˌɔbli'geiʃən/",
+      "definition": "n.义务,责任"
+    },
+    {
+      "index": 4072,
+      "word": "vegetation",
+      "phonetic": "/ˌvedʒi'teiʃən/",
+      "definition": "n.植物,草木"
+    },
+    {
+      "index": 4073,
+      "word": "juvenile",
+      "phonetic": "/'dʒu:vənail/",
+      "definition": "n.青少年,少年读物 a.青少年的, 幼稚的"
+    },
+    {
+      "index": 4074,
+      "word": "snack",
+      "phonetic": "/snæk/",
+      "definition": "n.快餐,小吃,点心"
+    },
+    {
+      "index": 4075,
+      "word": "discovery",
+      "phonetic": "/dis'kʌvəri/",
+      "definition": "n.发现;被发现的事物"
+    },
+    {
+      "index": 4076,
+      "word": "administration",
+      "phonetic": "/ədˌmini'streiʃən/",
+      "definition": "n.经营，管理；行政，行政机关，管理部门"
+    },
+    {
+      "index": 4077,
+      "word": "bee",
+      "phonetic": "/bi:/",
+      "definition": "n.蜂，蜜蜂；忙碌的人"
+    },
+    {
+      "index": 4078,
+      "word": "repetition",
+      "phonetic": "/ˌrepi'tiʃən/",
+      "definition": "n.重复,反复"
+    },
+    {
+      "index": 4079,
+      "word": "ornament",
+      "phonetic": "/'ɔ:nəmənt/",
+      "definition": "v.装饰,美化 n.装饰,装饰物"
+    },
+    {
+      "index": 4080,
+      "word": "classify",
+      "phonetic": "/'klæsifai/",
+      "definition": "v.分类,分等(级)"
+    },
+    {
+      "index": 4081,
+      "word": "atmosphere",
+      "phonetic": "/'ætməsfɪə(r)/",
+      "definition": "n.大气(层)；空气；气氛，环境；大气压"
+    },
+    {
+      "index": 4082,
+      "word": "detect",
+      "phonetic": "/di'tekt/",
+      "definition": "v.察觉,发觉,侦察,探测"
+    },
+    {
+      "index": 4083,
+      "word": "taxi",
+      "phonetic": "/'tæksi/",
+      "definition": "n.出租汽车v.[指飞机](使)滑行"
+    },
+    {
+      "index": 4084,
+      "word": "door",
+      "phonetic": "/dɔ:/",
+      "definition": "n.门；门口，出入口；门状物；家；通道"
+    },
+    {
+      "index": 4085,
+      "word": "outstanding",
+      "phonetic": "/ˌaut'stændiŋ/",
+      "definition": "a.突出的,显著的,杰出的"
+    },
+    {
+      "index": 4086,
+      "word": "album",
+      "phonetic": "/'ælbəm/",
+      "definition": "n.(同一表演者的)唱片;集邮册,相册"
+    },
+    {
+      "index": 4087,
+      "word": "heritage",
+      "phonetic": "/'heritidʒ/",
+      "definition": "n.遗产,继承物;传统"
+    },
+    {
+      "index": 4088,
+      "word": "satellite",
+      "phonetic": "/'sætəlait/",
+      "definition": "n.卫星,人造卫星;附属物"
+    },
+    {
+      "index": 4089,
+      "word": "carbohydrate",
+      "phonetic": "/ˌkɑ:bəu'haidreit/",
+      "definition": "n.碳水化合物; 糖类；(plural)淀粉质或糖类"
+    },
+    {
+      "index": 4090,
+      "word": "pond",
+      "phonetic": "/pɔnd/",
+      "definition": "n.池塘"
+    },
+    {
+      "index": 4091,
+      "word": "unique",
+      "phonetic": "/ju:'ni:k/",
+      "definition": "a.唯一的,独一无二的"
+    },
+    {
+      "index": 4092,
+      "word": "robe",
+      "phonetic": "/rəub/",
+      "definition": "n.长袍,上衣"
+    },
+    {
+      "index": 4093,
+      "word": "anchor",
+      "phonetic": "/'æŋkə(r)/",
+      "definition": "n./v.锚；危难时可依靠的人或物；用锚泊船"
+    },
+    {
+      "index": 4094,
+      "word": "sphere",
+      "phonetic": "/sfiə/",
+      "definition": "n.球,球体;范围,领域"
+    },
+    {
+      "index": 4095,
+      "word": "church",
+      "phonetic": "/tʃə:tʃ/",
+      "definition": "n.教堂；教会,教派；（宗教的）礼拜仪式"
+    },
+    {
+      "index": 4096,
+      "word": "authority",
+      "phonetic": "/ɔ:'θɔrəti/",
+      "definition": "n.权力，权威；权威人士；(pl.)官方，当局"
+    },
+    {
+      "index": 4097,
+      "word": "startle",
+      "phonetic": "/'stɑ:tl/",
+      "definition": "v.惊吓,使吃惊"
+    },
+    {
+      "index": 4098,
+      "word": "psychiatry",
+      "phonetic": "/psai'kaiətri/",
+      "definition": "n.精神病学，精神病疗法"
+    },
+    {
+      "index": 4099,
+      "word": "shore",
+      "phonetic": "/ʃɔ:/",
+      "definition": "n.海滨,湖滨"
+    },
+    {
+      "index": 4100,
+      "word": "silent",
+      "phonetic": "/'sailənt/",
+      "definition": "a.寂静,沉默的"
+    }
+  ]
+}

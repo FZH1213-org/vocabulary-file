@@ -1,0 +1,307 @@
+{
+  "chunk": 107,
+  "range": "5301-5350",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 5301,
+      "word": "cabinet",
+      "phonetic": "/'kæbinit/",
+      "definition": "n.内阁，内阁会议；(带玻璃门存物品的)橱柜"
+    },
+    {
+      "index": 5302,
+      "word": "aunt",
+      "phonetic": "/ɑ:ntˌ ænt/",
+      "definition": "n.姨母，姑母，伯母，婶母，舅母，阿姨"
+    },
+    {
+      "index": 5303,
+      "word": "hence",
+      "phonetic": "/hens/",
+      "definition": "ad.从此,今后;因此"
+    },
+    {
+      "index": 5304,
+      "word": "existence",
+      "phonetic": "/ig'zistəns/",
+      "definition": "n.存在,实在;生存,生活(方式)"
+    },
+    {
+      "index": 5305,
+      "word": "tourist",
+      "phonetic": "/'tuərist/",
+      "definition": "n.旅游者，观光客；巡回比赛的运动员"
+    },
+    {
+      "index": 5306,
+      "word": "hesitate",
+      "phonetic": "/'heziteit/",
+      "definition": "v.犹豫,踌躇;含糊,支吾"
+    },
+    {
+      "index": 5307,
+      "word": "late",
+      "phonetic": "/leit/",
+      "definition": "a.迟的，晚的，晚期的；已故的 ad.迟，晚"
+    },
+    {
+      "index": 5308,
+      "word": "criterion",
+      "phonetic": "/krai'tiəriən/",
+      "definition": "n.(pl.criteria或criterions)标准，尺度"
+    },
+    {
+      "index": 5309,
+      "word": "knee",
+      "phonetic": "/ni:/",
+      "definition": "n.膝,膝盖"
+    },
+    {
+      "index": 5310,
+      "word": "junk",
+      "phonetic": "/dʒʌŋk/",
+      "definition": "n.废物，旧货；舢板"
+    },
+    {
+      "index": 5311,
+      "word": "paint",
+      "phonetic": "/peint/",
+      "definition": "n.油漆,颜料 v.油漆;涂,涂漆;画;描绘,描述"
+    },
+    {
+      "index": 5312,
+      "word": "situation",
+      "phonetic": "/ˌsitju'eiʃən/",
+      "definition": "n.形势,处境,状况;位置,场所;职位,职务"
+    },
+    {
+      "index": 5313,
+      "word": "contemplate",
+      "phonetic": "/'kɔntəmpleit/",
+      "definition": "vt.盘算，计议；周密考虑；注视，凝视"
+    },
+    {
+      "index": 5314,
+      "word": "melon",
+      "phonetic": "/'melən/",
+      "definition": "n.甜瓜"
+    },
+    {
+      "index": 5315,
+      "word": "progressive",
+      "phonetic": "/prəu'gresiv/",
+      "definition": "a.进步的,先进的;前进的"
+    },
+    {
+      "index": 5316,
+      "word": "conceive",
+      "phonetic": "/kən'si:v/",
+      "definition": "v.(of)设想,构思,想象;以为;怀胎,怀有"
+    },
+    {
+      "index": 5317,
+      "word": "cock",
+      "phonetic": "/kɒk/",
+      "definition": "n.公鸡,雄鸡;龙头,开关"
+    },
+    {
+      "index": 5318,
+      "word": "south",
+      "phonetic": "/sauθ/",
+      "definition": "n.南,南方,南部 a.南方的,南部的"
+    },
+    {
+      "index": 5319,
+      "word": "vinegar",
+      "phonetic": "/'vinigə/",
+      "definition": "n.醋"
+    },
+    {
+      "index": 5320,
+      "word": "count",
+      "phonetic": "/kaunt/",
+      "definition": "v.数,计算;算入;看作,认为 n.计数,总数"
+    },
+    {
+      "index": 5321,
+      "word": "irritate",
+      "phonetic": "/'iriteit/",
+      "definition": "vt.激怒,恼火,使急躁"
+    },
+    {
+      "index": 5322,
+      "word": "cartoon",
+      "phonetic": "/kɑ:'tu:n/",
+      "definition": "n.漫画,幽默画;动画片"
+    },
+    {
+      "index": 5323,
+      "word": "ease",
+      "phonetic": "/i:z/",
+      "definition": "v.减轻;使舒适,使安心 n.容易;舒适,悠闲"
+    },
+    {
+      "index": 5324,
+      "word": "noodle",
+      "phonetic": "/'nu:dl/",
+      "definition": "n.(常用复数)面条"
+    },
+    {
+      "index": 5325,
+      "word": "summer",
+      "phonetic": "/'sʌmə/",
+      "definition": "n.夏天，夏季 a.夏季的"
+    },
+    {
+      "index": 5326,
+      "word": "several",
+      "phonetic": "/'sevərəl/",
+      "definition": "a.几个，若干，数个；各个的，各自的"
+    },
+    {
+      "index": 5327,
+      "word": "debt",
+      "phonetic": "/det/",
+      "definition": "n.债,债务"
+    },
+    {
+      "index": 5328,
+      "word": "worker",
+      "phonetic": "/'wə:kə/",
+      "definition": "n.工人，工作者，工作人员"
+    },
+    {
+      "index": 5329,
+      "word": "cost",
+      "phonetic": "/kɔst/",
+      "definition": "n.成本,费用,代价 v.价值为,花费"
+    },
+    {
+      "index": 5330,
+      "word": "sham",
+      "phonetic": "/ʃæm/",
+      "definition": "n./a.假冒(的)，虚伪(的)"
+    },
+    {
+      "index": 5331,
+      "word": "pupil",
+      "phonetic": "/'pjupəl/",
+      "definition": "n.学生,小学生;瞳孔"
+    },
+    {
+      "index": 5332,
+      "word": "litter",
+      "phonetic": "/'litə/",
+      "definition": "n.垃圾,(杂乱的)废物 v.使杂乱,乱丢"
+    },
+    {
+      "index": 5333,
+      "word": "worm",
+      "phonetic": "/wə:m/",
+      "definition": "n.虫,蠕虫"
+    },
+    {
+      "index": 5334,
+      "word": "spoil",
+      "phonetic": "/spɔɪl/",
+      "definition": "v.损坏,搞错;宠坏,溺爱"
+    },
+    {
+      "index": 5335,
+      "word": "cultivate",
+      "phonetic": "/'kʌltiveit/",
+      "definition": "v.耕作,栽培,养殖;培养,教养,磨炼"
+    },
+    {
+      "index": 5336,
+      "word": "angel",
+      "phonetic": "/'eindʒəl/",
+      "definition": "n.天使，安琪儿"
+    },
+    {
+      "index": 5337,
+      "word": "poet",
+      "phonetic": "/'pəuit/",
+      "definition": "n.诗人"
+    },
+    {
+      "index": 5338,
+      "word": "thoughtful",
+      "phonetic": "/'θɔ:tful/",
+      "definition": "a.认真思考的,沉思的;体贴的,关心的"
+    },
+    {
+      "index": 5339,
+      "word": "fisherman",
+      "phonetic": "/'fiʃəmən/",
+      "definition": "n.渔夫，捕鱼人"
+    },
+    {
+      "index": 5340,
+      "word": "lake",
+      "phonetic": "/leik/",
+      "definition": "n.湖泊，湖水"
+    },
+    {
+      "index": 5341,
+      "word": "probe",
+      "phonetic": "/prəub/",
+      "definition": "n.探针,探测器 v.(以探针等)探查,穿刺,查究"
+    },
+    {
+      "index": 5342,
+      "word": "mouth",
+      "phonetic": "/mauθ/",
+      "definition": "n.口,嘴"
+    },
+    {
+      "index": 5343,
+      "word": "alternative",
+      "phonetic": "/ɔ:l'tə:nətiv/",
+      "definition": "n.二选一；供选择的东西；取舍 a.二选一的"
+    },
+    {
+      "index": 5344,
+      "word": "whereas",
+      "phonetic": "/hwεə'æz/",
+      "definition": "conj.而,却,反之"
+    },
+    {
+      "index": 5345,
+      "word": "supply",
+      "phonetic": "/sə'plai/",
+      "definition": "v.(with,to)供给,供应,补足 n.供应,供应量"
+    },
+    {
+      "index": 5346,
+      "word": "hover",
+      "phonetic": "/'hɔvə/",
+      "definition": "vi.(鸟)盘旋，翱翔，(人)逗留在附近徘徊"
+    },
+    {
+      "index": 5347,
+      "word": "casual",
+      "phonetic": "/'kæʒjuəl/",
+      "definition": "a.偶然的,碰巧的;临时的,非正式的"
+    },
+    {
+      "index": 5348,
+      "word": "drain",
+      "phonetic": "/drein/",
+      "definition": "n.排水沟,阴沟;消耗,负担 v.排去,放干"
+    },
+    {
+      "index": 5349,
+      "word": "nuisance",
+      "phonetic": "/'nju:səns/",
+      "definition": "n.讨厌的人(或东西);麻烦事"
+    },
+    {
+      "index": 5350,
+      "word": "respect",
+      "phonetic": "/ri'spekt/",
+      "definition": "n./v.尊敬,尊重 n.敬意,问候,关系,方面"
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "chunk": 105,
+  "range": "5201-5250",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 5201,
+      "word": "mould",
+      "phonetic": "/məuld/",
+      "definition": "n.(mold)模子，铸型 v.浇铸，造型，塑造"
+    },
+    {
+      "index": 5202,
+      "word": "hose",
+      "phonetic": "/həuz/",
+      "definition": "n.水龙带,软管 v.用软管(淋浇,冲洗)"
+    },
+    {
+      "index": 5203,
+      "word": "sock",
+      "phonetic": "/sɔk/",
+      "definition": "n.(pl.)短袜"
+    },
+    {
+      "index": 5204,
+      "word": "pursue",
+      "phonetic": "/pə'sju:/",
+      "definition": "v.追赶,追踪;继续,从事"
+    },
+    {
+      "index": 5205,
+      "word": "juice",
+      "phonetic": "/dʒu:s/",
+      "definition": "n.(水果等)汁,液"
+    },
+    {
+      "index": 5206,
+      "word": "fade",
+      "phonetic": "/feid/",
+      "definition": "v.褪色;衰减,消失n.淡入(出)n.乏味(平淡)的"
+    },
+    {
+      "index": 5207,
+      "word": "boycott",
+      "phonetic": "/'bɔikɔt/",
+      "definition": "n./v.(联合)抵制,拒绝参与"
+    },
+    {
+      "index": 5208,
+      "word": "cheap",
+      "phonetic": "/tʃi:p/",
+      "definition": "a.便宜的;低劣的,不值钱的"
+    },
+    {
+      "index": 5209,
+      "word": "then",
+      "phonetic": "/ðen/",
+      "definition": "ad.当时，在那时；然后，于是；那么，因而"
+    },
+    {
+      "index": 5210,
+      "word": "assassinate",
+      "phonetic": "/ə'sæsineit/",
+      "definition": "vt.暗杀，行刺；中伤"
+    },
+    {
+      "index": 5211,
+      "word": "admission",
+      "phonetic": "/əd'miʃən/",
+      "definition": "n.允许进；承认；入场费，入会费，入场券"
+    },
+    {
+      "index": 5212,
+      "word": "intuition",
+      "phonetic": "/ˌintju:'iʃən/",
+      "definition": "n.直觉，直观；凭直觉而知的事物"
+    },
+    {
+      "index": 5213,
+      "word": "tunnel",
+      "phonetic": "/'tʌnəl/",
+      "definition": "n.隧道,山洞"
+    },
+    {
+      "index": 5214,
+      "word": "wash",
+      "phonetic": "/wɔʃ/",
+      "definition": "n.洗；洗的衣物 vt.冲刷，洗；冲出 vi.洗澡"
+    },
+    {
+      "index": 5215,
+      "word": "trousers",
+      "phonetic": "/'trauzəz/",
+      "definition": "n.裤子"
+    },
+    {
+      "index": 5216,
+      "word": "strengthen",
+      "phonetic": "/'streŋθən/",
+      "definition": "v.加强,巩固"
+    },
+    {
+      "index": 5217,
+      "word": "recite",
+      "phonetic": "/ri'sait/",
+      "definition": "v.背诵,朗诵"
+    },
+    {
+      "index": 5218,
+      "word": "deduce",
+      "phonetic": "/di'dju:s/",
+      "definition": "vt.(from)演绎,推断,推论"
+    },
+    {
+      "index": 5219,
+      "word": "bicycle",
+      "phonetic": "/'baisikl/",
+      "definition": "n.(bike)自行车 vi.骑自行车"
+    },
+    {
+      "index": 5220,
+      "word": "cooperate",
+      "phonetic": "/kəu'ɔpəreit/",
+      "definition": "v.(with)合作,协作,相配合"
+    },
+    {
+      "index": 5221,
+      "word": "feel",
+      "phonetic": "/'fi:l/",
+      "definition": "v.触；认为 vi.摸上去有…感觉；摸索；觉得"
+    },
+    {
+      "index": 5222,
+      "word": "resort",
+      "phonetic": "/ri'zɔ:t/",
+      "definition": "v.凭借,求助n.度假胜地,常去之处,手段"
+    },
+    {
+      "index": 5223,
+      "word": "thread",
+      "phonetic": "/θred/",
+      "definition": "n.线,细丝;线索,思路;螺纹 v.穿线,穿过"
+    },
+    {
+      "index": 5224,
+      "word": "optimistic",
+      "phonetic": "/ˌɔpti'mistik/",
+      "definition": "a.乐观主义的"
+    },
+    {
+      "index": 5225,
+      "word": "telegram",
+      "phonetic": "/'teligræm/",
+      "definition": "n.电报"
+    },
+    {
+      "index": 5226,
+      "word": "intellectual",
+      "phonetic": "/ˌintə'lektjuəl/",
+      "definition": "n.知识分子 a.智力的，理智的，有理解力的"
+    },
+    {
+      "index": 5227,
+      "word": "panic",
+      "phonetic": "/'pænik/",
+      "definition": "n./a.恐慌(的),惊慌(的) vt.使惊慌,使害怕"
+    },
+    {
+      "index": 5228,
+      "word": "face",
+      "phonetic": "/feis/",
+      "definition": "n.脸,面貌;表情;正面 v.面对着;朝,面向"
+    },
+    {
+      "index": 5229,
+      "word": "resist",
+      "phonetic": "/ri'zist/",
+      "definition": "v.抵抗,反抗;抗,忍得住,抵制"
+    },
+    {
+      "index": 5230,
+      "word": "dock",
+      "phonetic": "/dɒk/",
+      "definition": "n.船坞,码头"
+    },
+    {
+      "index": 5231,
+      "word": "familiar",
+      "phonetic": "/fə'miljə/",
+      "definition": "a.熟悉的;通晓的;亲近的 n.熟客;密友"
+    },
+    {
+      "index": 5232,
+      "word": "housing",
+      "phonetic": "/'hausiŋ/",
+      "definition": "n.住房，住房供给；(外、阀)壳，防护罩"
+    },
+    {
+      "index": 5233,
+      "word": "thousand",
+      "phonetic": "/'θauzənd/",
+      "definition": "num./n./a.一千；[pl.]许许多多，成千上万"
+    },
+    {
+      "index": 5234,
+      "word": "bizarre",
+      "phonetic": "/bi'zɑ:/",
+      "definition": "adj.异乎寻常的，稀奇古怪的"
+    },
+    {
+      "index": 5235,
+      "word": "crush",
+      "phonetic": "/krʌʃ/",
+      "definition": "n./v.压碎,压坏 v.压服,压垮"
+    },
+    {
+      "index": 5236,
+      "word": "beneath",
+      "phonetic": "/bi'ni:θ/",
+      "definition": "prep.在…下边,在…之下 ad.在下方"
+    },
+    {
+      "index": 5237,
+      "word": "faint",
+      "phonetic": "/'feint/",
+      "definition": "a.微弱的;不明显的;暗淡的 n./v.昏倒;昏晕"
+    },
+    {
+      "index": 5238,
+      "word": "title",
+      "phonetic": "/'taitl/",
+      "definition": "n.书名,标题;头衔,称号"
+    },
+    {
+      "index": 5239,
+      "word": "ancient",
+      "phonetic": "/'einʃənt/",
+      "definition": "a.古代的，古老的，古式的"
+    },
+    {
+      "index": 5240,
+      "word": "dear",
+      "phonetic": "/diə/",
+      "definition": "a.昂贵的；亲爱的；珍贵的  int.呵！哎呀！"
+    },
+    {
+      "index": 5241,
+      "word": "variable",
+      "phonetic": "/'vεəriəbl/",
+      "definition": "a.易变的;可变的;变量的 n.变量"
+    },
+    {
+      "index": 5242,
+      "word": "abundance",
+      "phonetic": "/ə'bʌndəns/",
+      "definition": "n.丰富，充裕，大量"
+    },
+    {
+      "index": 5243,
+      "word": "colonial",
+      "phonetic": "/kə'ləunjəl/",
+      "definition": "a.殖民地的，关于殖民的 n.殖民地居民"
+    },
+    {
+      "index": 5244,
+      "word": "acute",
+      "phonetic": "/ə'kju:t/",
+      "definition": "a.剧烈,敏锐的；成锐角的；尖的，高音的"
+    },
+    {
+      "index": 5245,
+      "word": "blaze",
+      "phonetic": "/bleiz/",
+      "definition": "n.火焰;火光;闪光,光辉  v.燃烧,冒火焰"
+    },
+    {
+      "index": 5246,
+      "word": "tidy",
+      "phonetic": "/'taidi/",
+      "definition": "a.整洁的,整齐的 v.整理,收拾"
+    },
+    {
+      "index": 5247,
+      "word": "begin",
+      "phonetic": "/bɪ'gɪn/",
+      "definition": "v.(began,begun)开始，着手"
+    },
+    {
+      "index": 5248,
+      "word": "command",
+      "phonetic": "/kə'mɑ:nd/",
+      "definition": "n./v.命令，指挥，控制 n.掌握，运用能力"
+    },
+    {
+      "index": 5249,
+      "word": "include",
+      "phonetic": "/in'klu:d/",
+      "definition": "v.包括,包含,计入"
+    },
+    {
+      "index": 5250,
+      "word": "conversely",
+      "phonetic": "/'kɔnvə:sli/",
+      "definition": "ad.相反地"
+    }
+  ]
+}

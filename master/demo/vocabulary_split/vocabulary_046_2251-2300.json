@@ -1,0 +1,307 @@
+{
+  "chunk": 46,
+  "range": "2251-2300",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 2251,
+      "word": "mute",
+      "phonetic": "/mju:t/",
+      "definition": "a.哑的,缄默的n.哑巴;弱音器v.减弱…的声音"
+    },
+    {
+      "index": 2252,
+      "word": "race",
+      "phonetic": "/reɪs/",
+      "definition": "n.赛跑;人种,种族;属,种 v.赛跑"
+    },
+    {
+      "index": 2253,
+      "word": "consume",
+      "phonetic": "/kən'sju:m/",
+      "definition": "vt.消耗；吃完，喝光；(with)使着迷；烧毁"
+    },
+    {
+      "index": 2254,
+      "word": "join",
+      "phonetic": "/dʒɔin/",
+      "definition": "v.参加，加入；联合，连接；和…在一起"
+    },
+    {
+      "index": 2255,
+      "word": "valve",
+      "phonetic": "/vælv/",
+      "definition": "n.阀;(英)电子管,真空管;(心脏的）瓣膜"
+    },
+    {
+      "index": 2256,
+      "word": "streamline",
+      "phonetic": "/'stri:mlaɪn/",
+      "definition": "a.流线型的 vt.使成流线型；使合理化"
+    },
+    {
+      "index": 2257,
+      "word": "cream",
+      "phonetic": "/kri:m/",
+      "definition": "n.乳脂,(鲜)奶油;奶油色"
+    },
+    {
+      "index": 2258,
+      "word": "sign",
+      "phonetic": "/saɪn/",
+      "definition": "n.标记,招牌;征兆,迹象v.签名(于),署名(于)"
+    },
+    {
+      "index": 2259,
+      "word": "emergency",
+      "phonetic": "/i'mə:dʒənsi/",
+      "definition": "n.紧急情况,突然事件,非常时刻"
+    },
+    {
+      "index": 2260,
+      "word": "qualification",
+      "phonetic": "/ˌkwɔlifi'keiʃən/",
+      "definition": "n.资格,合格;限定,条件;合格证"
+    },
+    {
+      "index": 2261,
+      "word": "sole",
+      "phonetic": "/səul/",
+      "definition": "a.单独的,唯一的 n.脚垫,鞋底"
+    },
+    {
+      "index": 2262,
+      "word": "bronze",
+      "phonetic": "/brɔnz/",
+      "definition": "n.青铜；青铜色，古铜色；青铜制品，铜牌"
+    },
+    {
+      "index": 2263,
+      "word": "comparative",
+      "phonetic": "/kəm'pærətiv/",
+      "definition": "a.比较的,相当的"
+    },
+    {
+      "index": 2264,
+      "word": "flaw",
+      "phonetic": "/flɔ:/",
+      "definition": "n.裂缝;缺陷 v.使破裂;使有缺陷"
+    },
+    {
+      "index": 2265,
+      "word": "cat",
+      "phonetic": "/kæt/",
+      "definition": "n.猫；猫科；"
+    },
+    {
+      "index": 2266,
+      "word": "federation",
+      "phonetic": "/'fedəreiʃən/",
+      "definition": "n.同盟;联邦;联合;联盟;联合会"
+    },
+    {
+      "index": 2267,
+      "word": "currency",
+      "phonetic": "/'kərənsi/",
+      "definition": "n.流传,流通；通货,货币"
+    },
+    {
+      "index": 2268,
+      "word": "suicide",
+      "phonetic": "/'sjuisaid/",
+      "definition": "n.自杀；给自己带来恶劣后果的行为"
+    },
+    {
+      "index": 2269,
+      "word": "civilian",
+      "phonetic": "/si'viljən/",
+      "definition": "n.平民 a.平民的;民用的"
+    },
+    {
+      "index": 2270,
+      "word": "heat",
+      "phonetic": "/hi:t/",
+      "definition": "n.热,热度;热烈,激烈 v.(给)加热,(使)变热"
+    },
+    {
+      "index": 2271,
+      "word": "razor",
+      "phonetic": "/'reizə/",
+      "definition": "n.剃刀"
+    },
+    {
+      "index": 2272,
+      "word": "category",
+      "phonetic": "/'kætigəri/",
+      "definition": "n.种类，部属，类目；范畴，类型"
+    },
+    {
+      "index": 2273,
+      "word": "delete",
+      "phonetic": "/di'li:t/",
+      "definition": "vt.删除"
+    },
+    {
+      "index": 2274,
+      "word": "execute",
+      "phonetic": "/'eksikju:t/",
+      "definition": "v.实行;实施;执行;完成;履行;处死"
+    },
+    {
+      "index": 2275,
+      "word": "language",
+      "phonetic": "/'læŋgwidʒ/",
+      "definition": "n.语言,术语,(运用语言的)方式、风格"
+    },
+    {
+      "index": 2276,
+      "word": "glide",
+      "phonetic": "/glaɪd/",
+      "definition": "n./v.溜,滑行;(时间)消逝"
+    },
+    {
+      "index": 2277,
+      "word": "excess",
+      "phonetic": "/ik'ses/",
+      "definition": "a.过量的,额外的 n.过量;过剩;超额;无节制"
+    },
+    {
+      "index": 2278,
+      "word": "arrow",
+      "phonetic": "/'ærəu/",
+      "definition": "n.箭，矢，箭状物；箭头符号"
+    },
+    {
+      "index": 2279,
+      "word": "casualty",
+      "phonetic": "/'kæʒjuəlti/",
+      "definition": "n.伤亡人员；受害人；损失的东西；急诊室"
+    },
+    {
+      "index": 2280,
+      "word": "empty",
+      "phonetic": "/'empti/",
+      "definition": "a.空的;空洞的 v.倒空,使成为空的"
+    },
+    {
+      "index": 2281,
+      "word": "philosopher",
+      "phonetic": "/fi'lɔsəfə/",
+      "definition": "n.哲学家,哲人"
+    },
+    {
+      "index": 2282,
+      "word": "rigid",
+      "phonetic": "/'ridʒid/",
+      "definition": "a.刚性的;刻板的;严厉的"
+    },
+    {
+      "index": 2283,
+      "word": "plan",
+      "phonetic": "/plæn/",
+      "definition": "n.计划,规划;平面图,设计图 v.计划"
+    },
+    {
+      "index": 2284,
+      "word": "tent",
+      "phonetic": "/tent/",
+      "definition": "n.帐篷"
+    },
+    {
+      "index": 2285,
+      "word": "slight",
+      "phonetic": "/slait/",
+      "definition": "a.轻微的,微小的;纤细的,瘦弱的"
+    },
+    {
+      "index": 2286,
+      "word": "entertainment",
+      "phonetic": "/ˌentə'teinmənt/",
+      "definition": "n.招待,款待;表演文娱节目"
+    },
+    {
+      "index": 2287,
+      "word": "vulnerable",
+      "phonetic": "/'vʌlnərəbl/",
+      "definition": "a.易受攻击的"
+    },
+    {
+      "index": 2288,
+      "word": "husband",
+      "phonetic": "/'hʌzbənd/",
+      "definition": "n.丈夫"
+    },
+    {
+      "index": 2289,
+      "word": "rage",
+      "phonetic": "/reidʒ/",
+      "definition": "n.愤怒"
+    },
+    {
+      "index": 2290,
+      "word": "huddle",
+      "phonetic": "/'hʌdl/",
+      "definition": "n./v.拥挤;聚集v.(因寒冷、害怕而)缩成一团"
+    },
+    {
+      "index": 2291,
+      "word": "respond",
+      "phonetic": "/ri'spɔnd/",
+      "definition": "v.回答,响应,作出反应"
+    },
+    {
+      "index": 2292,
+      "word": "reflection",
+      "phonetic": "/re'flekʃən/",
+      "definition": "n.(reflexion)映像,倒影;反省,沉思"
+    },
+    {
+      "index": 2293,
+      "word": "mount",
+      "phonetic": "/maunt/",
+      "definition": "v.登上;安装n.支架,底板;(用于山名前)山峰"
+    },
+    {
+      "index": 2294,
+      "word": "ponder",
+      "phonetic": "/'pɔndə/",
+      "definition": "v.沉思,考虑"
+    },
+    {
+      "index": 2295,
+      "word": "side",
+      "phonetic": "/said/",
+      "definition": "n.旁边，侧面；坡，岸；一边/侧/方 vi.支持"
+    },
+    {
+      "index": 2296,
+      "word": "blend",
+      "phonetic": "/blend/",
+      "definition": "n.混合(物) v.混和,混杂"
+    },
+    {
+      "index": 2297,
+      "word": "chemistry",
+      "phonetic": "/'kemistri/",
+      "definition": "n.化学"
+    },
+    {
+      "index": 2298,
+      "word": "awful",
+      "phonetic": "/'ɔ:fl/",
+      "definition": "a.极度的，极坏的；威严的，可怕的"
+    },
+    {
+      "index": 2299,
+      "word": "numerous",
+      "phonetic": "/'nju:mərəs/",
+      "definition": "a.众多的,许多的,大批的"
+    },
+    {
+      "index": 2300,
+      "word": "creature",
+      "phonetic": "/'kri:tʃə/",
+      "definition": "n.人,动物;生物"
+    }
+  ]
+}

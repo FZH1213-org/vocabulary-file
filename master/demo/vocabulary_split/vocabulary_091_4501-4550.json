@@ -1,0 +1,307 @@
+{
+  "chunk": 91,
+  "range": "4501-4550",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 4501,
+      "word": "credential",
+      "phonetic": "/kri'denʃəl/",
+      "definition": "n.凭证，(pl.)国书，证明书"
+    },
+    {
+      "index": 4502,
+      "word": "mob",
+      "phonetic": "/mɔb/",
+      "definition": "n.乌合之众(尤指暴力者) vi.围攻，聚众闹事"
+    },
+    {
+      "index": 4503,
+      "word": "practical",
+      "phonetic": "/'præktikəl/",
+      "definition": "a.实际的,实用的"
+    },
+    {
+      "index": 4504,
+      "word": "dread",
+      "phonetic": "/dred/",
+      "definition": "v./n.恐惧,担心"
+    },
+    {
+      "index": 4505,
+      "word": "barrier",
+      "phonetic": "/'bæriə/",
+      "definition": "n.栅栏,屏障;障碍(物)"
+    },
+    {
+      "index": 4506,
+      "word": "ruby",
+      "phonetic": "/'ru:bi/",
+      "definition": "n.红宝石"
+    },
+    {
+      "index": 4507,
+      "word": "high",
+      "phonetic": "/hai/",
+      "definition": "a.高的，高度的，高级的，高尚的 ad.高高地"
+    },
+    {
+      "index": 4508,
+      "word": "ebb",
+      "phonetic": "/eb/",
+      "definition": "vi.衰退，减退 n.处于低潮，处于衰退状态"
+    },
+    {
+      "index": 4509,
+      "word": "milk",
+      "phonetic": "/milk/",
+      "definition": "n.牛奶；(植物流出的)白色乳液 v.挤奶"
+    },
+    {
+      "index": 4510,
+      "word": "butcher",
+      "phonetic": "/'butʃə/",
+      "definition": "n.屠夫,卖肉者"
+    },
+    {
+      "index": 4511,
+      "word": "issue",
+      "phonetic": "/'iʃju:/",
+      "definition": "n.问题,争端,发行(物),期号 vt.发行,流出"
+    },
+    {
+      "index": 4512,
+      "word": "event",
+      "phonetic": "/i'vent/",
+      "definition": "n.事件,事情"
+    },
+    {
+      "index": 4513,
+      "word": "affect",
+      "phonetic": "/ə'fekt/",
+      "definition": "vt.影响；(疾病)侵袭；感动 n.情感，感情"
+    },
+    {
+      "index": 4514,
+      "word": "restraint",
+      "phonetic": "/ri'streint/",
+      "definition": "n.抑制,制止"
+    },
+    {
+      "index": 4515,
+      "word": "central",
+      "phonetic": "/'sentrəl/",
+      "definition": "a.中心的,中央的,中枢的;主要的"
+    },
+    {
+      "index": 4516,
+      "word": "nationality",
+      "phonetic": "/ˌnæʃən'æliti/",
+      "definition": "n.国籍,民族"
+    },
+    {
+      "index": 4517,
+      "word": "tailor",
+      "phonetic": "/'teilə/",
+      "definition": "n.裁缝 v.缝制,剪裁"
+    },
+    {
+      "index": 4518,
+      "word": "relay",
+      "phonetic": "/'ri:lei/",
+      "definition": "v.中继,转播,接力 n.接替人员,替班"
+    },
+    {
+      "index": 4519,
+      "word": "dynamic",
+      "phonetic": "/dai'næmik/",
+      "definition": "a.动力的,电动的;有生气的"
+    },
+    {
+      "index": 4520,
+      "word": "mature",
+      "phonetic": "/mə'tjuə/",
+      "definition": "a.成熟的,熟的;成年人的 v.(使)成熟"
+    },
+    {
+      "index": 4521,
+      "word": "timber",
+      "phonetic": "/'timbə/",
+      "definition": "n.木材,木料"
+    },
+    {
+      "index": 4522,
+      "word": "pin",
+      "phonetic": "/pɪn/",
+      "definition": "n.钉;大头针,别针,徽章 v.(up)钉住,别住"
+    },
+    {
+      "index": 4523,
+      "word": "terminate",
+      "phonetic": "/'tə:mineit/",
+      "definition": "vi.(使)结束，(使)停止"
+    },
+    {
+      "index": 4524,
+      "word": "broad",
+      "phonetic": "/brɔ:d/",
+      "definition": "a.宽的,广阔的;广大的;宽宏的,豁达的"
+    },
+    {
+      "index": 4525,
+      "word": "people",
+      "phonetic": "/'pi:pl/",
+      "definition": "n.人们，人；[the-]人民；一国人民，民族"
+    },
+    {
+      "index": 4526,
+      "word": "mystery",
+      "phonetic": "/'mɪstri/",
+      "definition": "n.神秘,神秘的事物;神秘小说,侦探小说"
+    },
+    {
+      "index": 4527,
+      "word": "comparable",
+      "phonetic": "/'kɔmpərəbl/",
+      "definition": "a.(with,to)可比较的,比得上的"
+    },
+    {
+      "index": 4528,
+      "word": "with",
+      "phonetic": "/wið/",
+      "definition": "prep.跟…一起；用；具有；关于；因；随着"
+    },
+    {
+      "index": 4529,
+      "word": "skirt",
+      "phonetic": "/skə:t/",
+      "definition": "n.裙子;边缘,郊区"
+    },
+    {
+      "index": 4530,
+      "word": "surroundings",
+      "phonetic": "/sə'raundiŋz/",
+      "definition": "n.周围的事物,环境"
+    },
+    {
+      "index": 4531,
+      "word": "watt",
+      "phonetic": "/wɔt/",
+      "definition": "n.瓦,瓦特"
+    },
+    {
+      "index": 4532,
+      "word": "vibrate",
+      "phonetic": "/vai'breit/",
+      "definition": "v.(使)振动,(使)摇摆；受…而感动"
+    },
+    {
+      "index": 4533,
+      "word": "infrared",
+      "phonetic": "/ˌinfrə'red/",
+      "definition": "a./n.红外线(的)"
+    },
+    {
+      "index": 4534,
+      "word": "limp",
+      "phonetic": "/limp/",
+      "definition": "a.柔软的,易曲的 v./n.蹒跚,跛行"
+    },
+    {
+      "index": 4535,
+      "word": "discriminate",
+      "phonetic": "/dɪ'skrɪmɪneɪt/",
+      "definition": "v.区别,辨别;(against)有差别地对待,歧视"
+    },
+    {
+      "index": 4536,
+      "word": "folk",
+      "phonetic": "/fəuk/",
+      "definition": "n.人们;民族;亲属 a.民间的"
+    },
+    {
+      "index": 4537,
+      "word": "herself",
+      "phonetic": "/hə:'self/",
+      "definition": "pron.[反身代词]她自己；她亲自，她本人"
+    },
+    {
+      "index": 4538,
+      "word": "size",
+      "phonetic": "/saiz/",
+      "definition": "n.大小,尺寸,规模;尺码"
+    },
+    {
+      "index": 4539,
+      "word": "would",
+      "phonetic": "/wud/",
+      "definition": "aux./v.将；可能；将会；总是，总会；宁愿"
+    },
+    {
+      "index": 4540,
+      "word": "confirm",
+      "phonetic": "/kən'fə:m/",
+      "definition": "v.使更坚固,使更坚定;(进一步)证实;确认"
+    },
+    {
+      "index": 4541,
+      "word": "gross",
+      "phonetic": "/grəus/",
+      "definition": "a.总的,毛(重)的;粗鲁的,粗俗的 n.总额"
+    },
+    {
+      "index": 4542,
+      "word": "resent",
+      "phonetic": "/ri'zent/",
+      "definition": "v.对…表示忿恨,怨恨"
+    },
+    {
+      "index": 4543,
+      "word": "penetrate",
+      "phonetic": "/'penitreit/",
+      "definition": "v.穿过,渗入,看穿"
+    },
+    {
+      "index": 4544,
+      "word": "primary",
+      "phonetic": "/'praiməri/",
+      "definition": "a.最初的,初级的;首要的,主要的,基本的"
+    },
+    {
+      "index": 4545,
+      "word": "veteran",
+      "phonetic": "/'vetərən/",
+      "definition": "n.老手,老兵"
+    },
+    {
+      "index": 4546,
+      "word": "active",
+      "phonetic": "/'æktiv/",
+      "definition": "adj.活跃的，敏捷的，积极的；在活动中的"
+    },
+    {
+      "index": 4547,
+      "word": "shout",
+      "phonetic": "/ʃaut/",
+      "definition": "v.大声叫，喊，呼出 n.呼喊，叫"
+    },
+    {
+      "index": 4548,
+      "word": "architecture",
+      "phonetic": "/'ɑ:kɪtektʃə(r)/",
+      "definition": "n.建筑，建筑学；建筑式样或风格，建筑物"
+    },
+    {
+      "index": 4549,
+      "word": "request",
+      "phonetic": "/ri'kwest/",
+      "definition": "v./n.请求,要求"
+    },
+    {
+      "index": 4550,
+      "word": "pink",
+      "phonetic": "/piŋk/",
+      "definition": "n.粉红色 a.粉红色的"
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "chunk": 60,
+  "range": "2951-3000",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 2951,
+      "word": "ancestor",
+      "phonetic": "/'ænsestə/",
+      "definition": "n.祖宗，祖先；原型，先驱"
+    },
+    {
+      "index": 2952,
+      "word": "beautiful",
+      "phonetic": "/'bju:tiful/",
+      "definition": "a.美的，美丽的；出色的，完美的"
+    },
+    {
+      "index": 2953,
+      "word": "merit",
+      "phonetic": "/'merit/",
+      "definition": "n.优点,价值,功绩 v.值得,应得"
+    },
+    {
+      "index": 2954,
+      "word": "missing",
+      "phonetic": "/'misiŋ/",
+      "definition": "a.漏掉的,失去的,失踪的"
+    },
+    {
+      "index": 2955,
+      "word": "hope",
+      "phonetic": "/həup/",
+      "definition": "n.希望，期望；希望的人或事 v.希望，期望"
+    },
+    {
+      "index": 2956,
+      "word": "linguistic",
+      "phonetic": "/liŋ'gwistik/",
+      "definition": "a.语言的，语言学的"
+    },
+    {
+      "index": 2957,
+      "word": "typewriter",
+      "phonetic": "/'taipˌraitə/",
+      "definition": "n.打字机"
+    },
+    {
+      "index": 2958,
+      "word": "fond",
+      "phonetic": "/fɔnd/",
+      "definition": "a.(of)喜爱的,爱好的"
+    },
+    {
+      "index": 2959,
+      "word": "arouse",
+      "phonetic": "/ə'rəuz/",
+      "definition": "vt.唤醒，叫醒；唤起，激起"
+    },
+    {
+      "index": 2960,
+      "word": "refute",
+      "phonetic": "/ri'fju:t/",
+      "definition": "v.反驳,驳斥"
+    },
+    {
+      "index": 2961,
+      "word": "jolly",
+      "phonetic": "/'dʒɔli/",
+      "definition": "a.欢乐的,高兴的"
+    },
+    {
+      "index": 2962,
+      "word": "ashamed",
+      "phonetic": "/ə'ʃeimd/",
+      "definition": "a.惭愧的，羞耻的，害臊的"
+    },
+    {
+      "index": 2963,
+      "word": "homework",
+      "phonetic": "/'həumwə:k/",
+      "definition": "n.(学生的)家庭作业、课外人员"
+    },
+    {
+      "index": 2964,
+      "word": "correspondent",
+      "phonetic": "/ˌkɔ:ri'spɔndənt/",
+      "definition": "n.记者,通讯员;通信者"
+    },
+    {
+      "index": 2965,
+      "word": "despair",
+      "phonetic": "/di'spεə/",
+      "definition": "n.绝望;失望;令人失望的人(事物)v.绝望"
+    },
+    {
+      "index": 2966,
+      "word": "avail",
+      "phonetic": "/ə'veil/",
+      "definition": "n.[一般用于否定句或疑问句中]效用,利益"
+    },
+    {
+      "index": 2967,
+      "word": "stability",
+      "phonetic": "/stə'biliti/",
+      "definition": "n.稳定,安定"
+    },
+    {
+      "index": 2968,
+      "word": "frank",
+      "phonetic": "/fræŋk/",
+      "definition": "a.坦白的,直率的"
+    },
+    {
+      "index": 2969,
+      "word": "brittle",
+      "phonetic": "/'britl/",
+      "definition": "a.易碎的；脆弱的；冷淡的；(声音)尖利的"
+    },
+    {
+      "index": 2970,
+      "word": "guest",
+      "phonetic": "/gest/",
+      "definition": "n.客人,宾客,旅客"
+    },
+    {
+      "index": 2971,
+      "word": "know",
+      "phonetic": "/nəu/",
+      "definition": "vt.知道，了解；认识；识别 vi.知道，了解"
+    },
+    {
+      "index": 2972,
+      "word": "dentist",
+      "phonetic": "/'dentist/",
+      "definition": "n.牙医"
+    },
+    {
+      "index": 2973,
+      "word": "conspicuous",
+      "phonetic": "/kən'spikjuəs/",
+      "definition": "a.显眼的,明显的"
+    },
+    {
+      "index": 2974,
+      "word": "composite",
+      "phonetic": "/'kɔmpəzit/",
+      "definition": "a.混合成的，综合成的n.合成物，复合材料"
+    },
+    {
+      "index": 2975,
+      "word": "gasoline",
+      "phonetic": "/'gæsəli:n/",
+      "definition": "n.(gasolene)汽油"
+    },
+    {
+      "index": 2976,
+      "word": "surface",
+      "phonetic": "/'sə:fis/",
+      "definition": "n.表面；外表 a.表面的，肤浅的"
+    },
+    {
+      "index": 2977,
+      "word": "twelve",
+      "phonetic": "/twelv/",
+      "definition": "num.十二 pron./a.十二(个，只...)"
+    },
+    {
+      "index": 2978,
+      "word": "skeptical",
+      "phonetic": "/'skeptikəl/",
+      "definition": "a.怀疑的 [英]sceptical"
+    },
+    {
+      "index": 2979,
+      "word": "slum",
+      "phonetic": "/slʌm/",
+      "definition": "n.贫民窟,贫民区,陋巷"
+    },
+    {
+      "index": 2980,
+      "word": "sentence",
+      "phonetic": "/'sentəns/",
+      "definition": "n.句子;判决,宣判 v.宣判,判决"
+    },
+    {
+      "index": 2981,
+      "word": "musician",
+      "phonetic": "/mju:'ziʃən/",
+      "definition": "n.音乐家,乐师"
+    },
+    {
+      "index": 2982,
+      "word": "recipient",
+      "phonetic": "/ri'sipiənt/",
+      "definition": "a.接受的,感受性强的 n.接受者,感受者,容器"
+    },
+    {
+      "index": 2983,
+      "word": "air-conditioning",
+      "phonetic": "/'eəkənˌdiʃθniŋ/",
+      "definition": "n.空调设备，空调系统"
+    },
+    {
+      "index": 2984,
+      "word": "paper",
+      "phonetic": "/'peipə/",
+      "definition": "n.纸；纸制品；报纸；(pl)文件；试卷；论文"
+    },
+    {
+      "index": 2985,
+      "word": "once",
+      "phonetic": "/wʌns/",
+      "definition": "ad.一次，曾经 conj.一(旦)…就… n.一次"
+    },
+    {
+      "index": 2986,
+      "word": "mankind",
+      "phonetic": "/ˌmæn'kaind/",
+      "definition": "n.人类"
+    },
+    {
+      "index": 2987,
+      "word": "excuse",
+      "phonetic": "/ik'skju:z/",
+      "definition": "v.原谅,宽恕,免除 n.借口,辩解"
+    },
+    {
+      "index": 2988,
+      "word": "down",
+      "phonetic": "/daun/",
+      "definition": "ad.下；由大到小 prep.沿着…而下 a.向下的"
+    },
+    {
+      "index": 2989,
+      "word": "chapter",
+      "phonetic": "/'tʃæptə/",
+      "definition": "n. 章；回，篇"
+    },
+    {
+      "index": 2990,
+      "word": "umbrella",
+      "phonetic": "/ʌm'brelə/",
+      "definition": "n.伞"
+    },
+    {
+      "index": 2991,
+      "word": "wicked",
+      "phonetic": "/'wikid/",
+      "definition": "a.坏的;邪恶的;不道德的;恶劣的;淘气的"
+    },
+    {
+      "index": 2992,
+      "word": "greedy",
+      "phonetic": "/gri:di/",
+      "definition": "a.贪吃的,贪婪的,渴望的"
+    },
+    {
+      "index": 2993,
+      "word": "mess",
+      "phonetic": "/mes/",
+      "definition": "n.混乱,混杂,脏乱 v.弄脏,弄乱,搞糟"
+    },
+    {
+      "index": 2994,
+      "word": "bounce",
+      "phonetic": "/bauns/",
+      "definition": "n./vi.(球)弹起,弹回；弹起,跳起；n.弹力"
+    },
+    {
+      "index": 2995,
+      "word": "pants",
+      "phonetic": "/pænts/",
+      "definition": "n.裤子, 短裤"
+    },
+    {
+      "index": 2996,
+      "word": "fellowship",
+      "phonetic": "/'feləuʃɪp/",
+      "definition": "n.伙伴关系;联谊会,团体"
+    },
+    {
+      "index": 2997,
+      "word": "desolate",
+      "phonetic": "/'desələt/",
+      "definition": "a.荒凉的;孤独的 v.使荒芜"
+    },
+    {
+      "index": 2998,
+      "word": "territory",
+      "phonetic": "/'teritəri/",
+      "definition": "n.领土;版图;领域,范围"
+    },
+    {
+      "index": 2999,
+      "word": "shopkeeper",
+      "phonetic": "/'ʃɔpˌki:pə/",
+      "definition": "n.店主"
+    },
+    {
+      "index": 3000,
+      "word": "radius",
+      "phonetic": "/'reidiəs/",
+      "definition": "n.半径,半径范围,有效航程,范围,界限"
+    }
+  ]
+}

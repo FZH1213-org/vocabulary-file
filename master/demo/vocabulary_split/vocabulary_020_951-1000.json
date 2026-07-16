@@ -1,0 +1,307 @@
+{
+  "chunk": 20,
+  "range": "951-1000",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 951,
+      "word": "centigrade",
+      "phonetic": "/'sentigreid/",
+      "definition": "n./a.摄氏温度计(的);百分度(的)"
+    },
+    {
+      "index": 952,
+      "word": "clarify",
+      "phonetic": "/'klærifai/",
+      "definition": "v.澄清,阐明"
+    },
+    {
+      "index": 953,
+      "word": "sea",
+      "phonetic": "/si:/",
+      "definition": "n.海，海洋，大量"
+    },
+    {
+      "index": 954,
+      "word": "magazine",
+      "phonetic": "/ˌmægə'zi:n/",
+      "definition": "n.杂志,期刊"
+    },
+    {
+      "index": 955,
+      "word": "lion",
+      "phonetic": "/'laiən/",
+      "definition": "n.狮子"
+    },
+    {
+      "index": 956,
+      "word": "naked",
+      "phonetic": "/'neikid/",
+      "definition": "a.裸体的,无遮敝的,无掩饰的"
+    },
+    {
+      "index": 957,
+      "word": "diet",
+      "phonetic": "/'daiət/",
+      "definition": "n.饮食,食物"
+    },
+    {
+      "index": 958,
+      "word": "bond",
+      "phonetic": "bɒnd",
+      "definition": "n.结合(物),粘结(剂),联结;公债,债券,契约"
+    },
+    {
+      "index": 959,
+      "word": "troop",
+      "phonetic": "/tru:p/",
+      "definition": "n.(pl.)部队,军队;(一)群/队 v.群集,集合"
+    },
+    {
+      "index": 960,
+      "word": "win",
+      "phonetic": "/wɪn/",
+      "definition": "vi.获胜，赢 vt.赢得；在…中获胜 n.胜利"
+    },
+    {
+      "index": 961,
+      "word": "impression",
+      "phonetic": "/ɪm'preʃn/",
+      "definition": "n.印象,感想;盖印,压痕"
+    },
+    {
+      "index": 962,
+      "word": "compile",
+      "phonetic": "/kəm'pail/",
+      "definition": "vt.编辑，编制，搜集"
+    },
+    {
+      "index": 963,
+      "word": "republic",
+      "phonetic": "/ri'pʌblik/",
+      "definition": "n.共和国,共和政体"
+    },
+    {
+      "index": 964,
+      "word": "stair",
+      "phonetic": "/stεə/",
+      "definition": "n.(pl.)楼梯"
+    },
+    {
+      "index": 965,
+      "word": "him",
+      "phonetic": "/him/",
+      "definition": "pron.他(he的宾格形式)"
+    },
+    {
+      "index": 966,
+      "word": "rob",
+      "phonetic": "/rɔb/",
+      "definition": "v.(of)抢劫,盗取;非法剥夺"
+    },
+    {
+      "index": 967,
+      "word": "departure",
+      "phonetic": "/di'pɑ:tʃə/",
+      "definition": "n.离开,起程"
+    },
+    {
+      "index": 968,
+      "word": "credit",
+      "phonetic": "/'kredit/",
+      "definition": "v./n.信用,信任 n.信用贷款,赊欠;名誉,名望"
+    },
+    {
+      "index": 969,
+      "word": "swim",
+      "phonetic": "/swim/",
+      "definition": "vi.游泳;游;漂浮;眩晕;充溢 vt.游过 n.游泳"
+    },
+    {
+      "index": 970,
+      "word": "subtle",
+      "phonetic": "/'sʌtl/",
+      "definition": "a.精巧的,巧妙的;细微的,微妙的"
+    },
+    {
+      "index": 971,
+      "word": "Latin",
+      "phonetic": "/'lætin/",
+      "definition": "a.拉丁的,拉丁文的 n.拉丁语"
+    },
+    {
+      "index": 972,
+      "word": "jewel",
+      "phonetic": "/'dʒu:əl/",
+      "definition": "n.宝石,宝石饰物"
+    },
+    {
+      "index": 973,
+      "word": "arrive",
+      "phonetic": "/ə'raɪv/",
+      "definition": "vi.到达；(时间、事件)到来，发生；达到"
+    },
+    {
+      "index": 974,
+      "word": "catastrophe",
+      "phonetic": "/kə'tæstrəfi/",
+      "definition": "n.大灾难；(悲剧)结局"
+    },
+    {
+      "index": 975,
+      "word": "across",
+      "phonetic": "/ə'krɒs/",
+      "definition": "prep.横过，越过；在的对面 ad.横过，穿过"
+    },
+    {
+      "index": 976,
+      "word": "proposition",
+      "phonetic": "/ˌprɔpə'ziʃən/",
+      "definition": "n.主张,建议;陈述,命题"
+    },
+    {
+      "index": 977,
+      "word": "scientific",
+      "phonetic": "/ˌsaiən'tifik/",
+      "definition": "a.科学上的"
+    },
+    {
+      "index": 978,
+      "word": "meantime",
+      "phonetic": "/'mi:n'taim/",
+      "definition": "n.(meanwhile)其间,其时 ad.同时,当时"
+    },
+    {
+      "index": 979,
+      "word": "sail",
+      "phonetic": "/seil/",
+      "definition": "n.帆,航行 v.航行"
+    },
+    {
+      "index": 980,
+      "word": "accept",
+      "phonetic": "/ək'sept/",
+      "definition": "vt.接受，领受；认可，同意 vi.同意，认可"
+    },
+    {
+      "index": 981,
+      "word": "weekend",
+      "phonetic": "/ˌwi:k'end/",
+      "definition": "n.周末"
+    },
+    {
+      "index": 982,
+      "word": "characteristic",
+      "phonetic": "/ˌkærəktə'ristik/",
+      "definition": "a.(of)特有的,独特的 n.特征,特性"
+    },
+    {
+      "index": 983,
+      "word": "draw",
+      "phonetic": "/drɔ:/",
+      "definition": "v.拉;画;汲取;引出;(to)挨近 n.平局;拖曳"
+    },
+    {
+      "index": 984,
+      "word": "deed",
+      "phonetic": "/di:d/",
+      "definition": "n.行为,行动;功绩,事迹;证书；契据"
+    },
+    {
+      "index": 985,
+      "word": "finite",
+      "phonetic": "/'fainait/",
+      "definition": "a.有限的；[数]有穷的,限定的"
+    },
+    {
+      "index": 986,
+      "word": "rail",
+      "phonetic": "/reil/",
+      "definition": "n.栏杆,围栏;(pl.)铁路;铁轨;横杆,栏杆"
+    },
+    {
+      "index": 987,
+      "word": "hell",
+      "phonetic": "/hel/",
+      "definition": "n.地狱,阴间;苦境,极大痛苦"
+    },
+    {
+      "index": 988,
+      "word": "loyalty",
+      "phonetic": "/'lɔɪəlti/",
+      "definition": "n.忠诚,忠心"
+    },
+    {
+      "index": 989,
+      "word": "abandon",
+      "phonetic": "/ə'bændən/",
+      "definition": "vt.离弃，丢弃；遗弃，抛弃；放弃"
+    },
+    {
+      "index": 990,
+      "word": "oppress",
+      "phonetic": "/ə'pres/",
+      "definition": "v.压迫,压制"
+    },
+    {
+      "index": 991,
+      "word": "uphold",
+      "phonetic": "/ʌp'həuld/",
+      "definition": "vt.支持,赞成;举起;坚持"
+    },
+    {
+      "index": 992,
+      "word": "up-to-date",
+      "phonetic": "/'ʌptə'deit/",
+      "definition": "a.现代化的，最新的；跟上时代的"
+    },
+    {
+      "index": 993,
+      "word": "imply",
+      "phonetic": "/im'plai/",
+      "definition": "v.意指,含…意思,暗示"
+    },
+    {
+      "index": 994,
+      "word": "deduct",
+      "phonetic": "/di'dʌkt/",
+      "definition": "vt.扣除;演绎(推理)"
+    },
+    {
+      "index": 995,
+      "word": "landlady",
+      "phonetic": "/'lænd/",
+      "definition": "n.女房东,女地主"
+    },
+    {
+      "index": 996,
+      "word": "smash",
+      "phonetic": "/smæʃ/",
+      "definition": "v./n.打碎,粉碎"
+    },
+    {
+      "index": 997,
+      "word": "anybody",
+      "phonetic": "/'eniˌbɔdi/",
+      "definition": "pron.(否定句)任何人；(肯定句)随便哪个人"
+    },
+    {
+      "index": 998,
+      "word": "cardinal",
+      "phonetic": "/'kɑ:dɪnl/",
+      "definition": "n.(天主教的)红衣主教 a.首要的，基本的"
+    },
+    {
+      "index": 999,
+      "word": "necessity",
+      "phonetic": "/ni'sesəti/",
+      "definition": "n.必要性,需要;必然性;(pl.)必需品"
+    },
+    {
+      "index": 1000,
+      "word": "peak",
+      "phonetic": "/pi:k/",
+      "definition": "n.山顶,最高点;峰,山峰 a.高峰的,最高的"
+    }
+  ]
+}

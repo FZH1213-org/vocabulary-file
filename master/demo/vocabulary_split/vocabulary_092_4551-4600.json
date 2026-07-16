@@ -1,0 +1,307 @@
+{
+  "chunk": 92,
+  "range": "4551-4600",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 4551,
+      "word": "associate",
+      "phonetic": "/ə'səuʃieit/",
+      "definition": "vt.联想；交往；联合；n.伙伴；a.联合的"
+    },
+    {
+      "index": 4552,
+      "word": "selfish",
+      "phonetic": "/'selfiʃ/",
+      "definition": "adj.自私的，利己的"
+    },
+    {
+      "index": 4553,
+      "word": "honey",
+      "phonetic": "/'hʌni/",
+      "definition": "n.蜜,蜂蜜"
+    },
+    {
+      "index": 4554,
+      "word": "however",
+      "phonetic": "/hau'evə(r)/",
+      "definition": "ad.然而，可是，不过，无论如何 conj.无论"
+    },
+    {
+      "index": 4555,
+      "word": "strawberry",
+      "phonetic": "/'strɔ:bəri/",
+      "definition": "n.草莓"
+    },
+    {
+      "index": 4556,
+      "word": "message",
+      "phonetic": "/'mesidʒ/",
+      "definition": "n.消息,信息,通讯,启示,教训,广告词,预言"
+    },
+    {
+      "index": 4557,
+      "word": "formal",
+      "phonetic": "/'fɔ:məl/",
+      "definition": "a.正式的;形式的"
+    },
+    {
+      "index": 4558,
+      "word": "positive",
+      "phonetic": "/'pɔzətiv/",
+      "definition": "a.肯定的,积极的,绝对的,无疑的,正的"
+    },
+    {
+      "index": 4559,
+      "word": "article",
+      "phonetic": "/'ɑ:tikəl/",
+      "definition": "n.文章，论文；条款，条文；物件；冠词"
+    },
+    {
+      "index": 4560,
+      "word": "beam",
+      "phonetic": "/bi:m/",
+      "definition": "n.(横)梁,桁条;(光线的)束,柱 v.微笑"
+    },
+    {
+      "index": 4561,
+      "word": "firm",
+      "phonetic": "/'fə:m/",
+      "definition": "a.坚固的;坚决的,坚定的 n.公司,商号"
+    },
+    {
+      "index": 4562,
+      "word": "flap",
+      "phonetic": "/flæp/",
+      "definition": "n.垂下物,帽沿,袋盖 n./v.拍打,拍动"
+    },
+    {
+      "index": 4563,
+      "word": "though",
+      "phonetic": "/ðəu/",
+      "definition": "ad.可是，然而，不过 conj.尽管，虽然"
+    },
+    {
+      "index": 4564,
+      "word": "pierce",
+      "phonetic": "/piəs/",
+      "definition": "v.剌穿,刺破"
+    },
+    {
+      "index": 4565,
+      "word": "literacy",
+      "phonetic": "/'litərəsi/",
+      "definition": "n.有文化,有教养,有读写能力"
+    },
+    {
+      "index": 4566,
+      "word": "thorn",
+      "phonetic": "/θɔ:n/",
+      "definition": "n.刺,荆棘"
+    },
+    {
+      "index": 4567,
+      "word": "memorial",
+      "phonetic": "/mə'mɔ:rɪəl/",
+      "definition": "a.记忆的,纪念的 n.纪念物,纪念碑,纪念馆"
+    },
+    {
+      "index": 4568,
+      "word": "passer-by",
+      "phonetic": "/'pɑ:sə'bai/",
+      "definition": "n.(pl.passers-by)过路人"
+    },
+    {
+      "index": 4569,
+      "word": "leg",
+      "phonetic": "/leg/",
+      "definition": "n.腿，腿部；支柱；(旅程的)一段，一站"
+    },
+    {
+      "index": 4570,
+      "word": "kick",
+      "phonetic": "/kik/",
+      "definition": "n./v.踢"
+    },
+    {
+      "index": 4571,
+      "word": "charge",
+      "phonetic": "/tʃɑ:dʒ/",
+      "definition": "v.索(价);控告;充电 n.(pl.)费用,代价;电荷"
+    },
+    {
+      "index": 4572,
+      "word": "bearing",
+      "phonetic": "/'bεəriŋ/",
+      "definition": "n.轴承；忍受；关系，影响；举止；方向"
+    },
+    {
+      "index": 4573,
+      "word": "esteem",
+      "phonetic": "/i'sti:m/",
+      "definition": "n.尊敬，尊重 vt.尊重，敬重；把…看作"
+    },
+    {
+      "index": 4574,
+      "word": "identification",
+      "phonetic": "/aiˌdentifi'keiʃən/",
+      "definition": "n.识别,鉴别;证件;认同"
+    },
+    {
+      "index": 4575,
+      "word": "recall",
+      "phonetic": "/ri'kɔ:l/",
+      "definition": "v.回忆,回想;撤消,收回"
+    },
+    {
+      "index": 4576,
+      "word": "deliberate",
+      "phonetic": "/di'libərət/",
+      "definition": "a.深思熟虑的,故意的 vt.研讨,商讨"
+    },
+    {
+      "index": 4577,
+      "word": "entrance",
+      "phonetic": "/'entrəns/",
+      "definition": "n.入口,门口;进入;入学,入会"
+    },
+    {
+      "index": 4578,
+      "word": "scramble",
+      "phonetic": "/'skræmbl/",
+      "definition": "vi.(快速地)爬，攀登；互相争夺，争先"
+    },
+    {
+      "index": 4579,
+      "word": "construction",
+      "phonetic": "/kən'strʌkʃən/",
+      "definition": "n.建造，构造；建筑物，结构；释义，解释"
+    },
+    {
+      "index": 4580,
+      "word": "lean",
+      "phonetic": "/li:n/",
+      "definition": "v.倾斜,屈身;倚,靠,依赖 a.瘦的,无脂肪的"
+    },
+    {
+      "index": 4581,
+      "word": "aware",
+      "phonetic": "/ə'wεə/",
+      "definition": "a.知道的，意识到的；"
+    },
+    {
+      "index": 4582,
+      "word": "evolve",
+      "phonetic": "/i'vɒlv/",
+      "definition": "v.(使)发展;(使)进化;(使)进展"
+    },
+    {
+      "index": 4583,
+      "word": "analogue",
+      "phonetic": "/'ænəlɔg/",
+      "definition": "n.类似物；相似体；模拟"
+    },
+    {
+      "index": 4584,
+      "word": "feudal",
+      "phonetic": "/'fju:dl/",
+      "definition": "a.封建的;封地的;领地的"
+    },
+    {
+      "index": 4585,
+      "word": "opt",
+      "phonetic": "/ɔpt/",
+      "definition": "vi.抉择，选择"
+    },
+    {
+      "index": 4586,
+      "word": "elevate",
+      "phonetic": "/'eliveit/",
+      "definition": "vt.举起,提拔,振奋,提升...的职位"
+    },
+    {
+      "index": 4587,
+      "word": "affirm",
+      "phonetic": "/ə'fə:m/",
+      "definition": "vt.断言，坚持声称；肯定；证实,确认；"
+    },
+    {
+      "index": 4588,
+      "word": "circle",
+      "phonetic": "/'sə:kl/",
+      "definition": "n.圆,圆周;集团;周期,循环 v.环绕,旋转"
+    },
+    {
+      "index": 4589,
+      "word": "alarm",
+      "phonetic": "/ə'lɑ:m/",
+      "definition": "n.惊恐；警报(器) vt.惊动，惊吓；向…报警"
+    },
+    {
+      "index": 4590,
+      "word": "full",
+      "phonetic": "/ful/",
+      "definition": "a.(of)满的,充满的 a./ad.完全,充分"
+    },
+    {
+      "index": 4591,
+      "word": "you",
+      "phonetic": "/ju:/",
+      "definition": "pron.你；你们；一个人，任何人"
+    },
+    {
+      "index": 4592,
+      "word": "clone",
+      "phonetic": "/kləun/",
+      "definition": "n.无性繁殖，克隆；复制品v.克隆"
+    },
+    {
+      "index": 4593,
+      "word": "purify",
+      "phonetic": "/'pjuərifai/",
+      "definition": "v.使纯净,提纯"
+    },
+    {
+      "index": 4594,
+      "word": "supermarket",
+      "phonetic": "/'sju:pəˌmɑ:kit/",
+      "definition": "n.超级市场"
+    },
+    {
+      "index": 4595,
+      "word": "additional",
+      "phonetic": "/ə'diʃənəl/",
+      "definition": "a.额外的，附加的，另外的"
+    },
+    {
+      "index": 4596,
+      "word": "maiden",
+      "phonetic": "/'meidən/",
+      "definition": "n.少女,处女 a.未婚的,纯洁的,无经验的"
+    },
+    {
+      "index": 4597,
+      "word": "coalition",
+      "phonetic": "/ˌkəuə'liʃən/",
+      "definition": "n.结合体，同盟；结合，联合"
+    },
+    {
+      "index": 4598,
+      "word": "toll",
+      "phonetic": "/təul/",
+      "definition": "n.(道路、桥等的)通行费；牺牲；死伤人数"
+    },
+    {
+      "index": 4599,
+      "word": "flock",
+      "phonetic": "/flɔk/",
+      "definition": "n.(一)群,(禽,畜等的)群;大量 v.群集,成群"
+    },
+    {
+      "index": 4600,
+      "word": "according to",
+      "phonetic": "/ə'kɔ:dɪŋ tə/",
+      "definition": "prep.据/照…(所说、所写)；按…，视…"
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "chunk": 8,
+  "range": "351-400",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 351,
+      "word": "fossil",
+      "phonetic": "/'fɔsəl/",
+      "definition": "n.化石"
+    },
+    {
+      "index": 352,
+      "word": "vanity",
+      "phonetic": "/'vænəti/",
+      "definition": "n.虚荣心,浮华"
+    },
+    {
+      "index": 353,
+      "word": "microphone",
+      "phonetic": "/'maikrəfəun/",
+      "definition": "n.话筒,扩音器"
+    },
+    {
+      "index": 354,
+      "word": "slave",
+      "phonetic": "/sleiv/",
+      "definition": "n.奴隶,苦工 v.做苦工,拼命地干"
+    },
+    {
+      "index": 355,
+      "word": "mist",
+      "phonetic": "/mist/",
+      "definition": "n.薄雾,霭"
+    },
+    {
+      "index": 356,
+      "word": "writing",
+      "phonetic": "/'raitiŋ/",
+      "definition": "n.写,写作;著作,作品"
+    },
+    {
+      "index": 357,
+      "word": "odd",
+      "phonetic": "/ɔd/",
+      "definition": "a.奇数的;奇怪的;单只的;临时的;带零头的"
+    },
+    {
+      "index": 358,
+      "word": "apt",
+      "phonetic": "/æpt/",
+      "definition": "a.恰当的，适当的；易于…的，有…倾向的"
+    },
+    {
+      "index": 359,
+      "word": "option",
+      "phonetic": "/'ɔpʃən/",
+      "definition": "n.选择(权),[商]选择买卖的特权"
+    },
+    {
+      "index": 360,
+      "word": "sneeze",
+      "phonetic": "/sni:z/",
+      "definition": "vi.打喷嚏，发喷嚏声n.喷嚏"
+    },
+    {
+      "index": 361,
+      "word": "generation",
+      "phonetic": "/ˌdʒenə'reiʃən/",
+      "definition": "n.产生,发生;一代(人)"
+    },
+    {
+      "index": 362,
+      "word": "remain",
+      "phonetic": "/ri'mein/",
+      "definition": "v.剩下,余留;留待,尚须;仍然是,依旧是"
+    },
+    {
+      "index": 363,
+      "word": "waist",
+      "phonetic": "/weist/",
+      "definition": "n.腰,腰部"
+    },
+    {
+      "index": 364,
+      "word": "frequent",
+      "phonetic": "/'fri:kwənt/",
+      "definition": "a.时常发生的,频繁的"
+    },
+    {
+      "index": 365,
+      "word": "levy",
+      "phonetic": "/'levi/",
+      "definition": "n.征收,征税,征兵 v.征收,征集,征用"
+    },
+    {
+      "index": 366,
+      "word": "product",
+      "phonetic": "/'prɔdəkt/",
+      "definition": "n.产品,产物;乘积"
+    },
+    {
+      "index": 367,
+      "word": "irony",
+      "phonetic": "/'aiərəni/",
+      "definition": "n.反话, 讽刺, 讽刺之事"
+    },
+    {
+      "index": 368,
+      "word": "cafeteria",
+      "phonetic": "/ˌkæfə'tɪəriə/",
+      "definition": "n.自助食堂"
+    },
+    {
+      "index": 369,
+      "word": "transmit",
+      "phonetic": "/trænz'mit/",
+      "definition": "vt.传输/导；转送；发射 vi.发射信号；发报"
+    },
+    {
+      "index": 370,
+      "word": "witness",
+      "phonetic": "/'witnis/",
+      "definition": "n.目击者,证人;证据,证明 v.目击,目睹;作证"
+    },
+    {
+      "index": 371,
+      "word": "concession",
+      "phonetic": "/kən'seʃən/",
+      "definition": "n.让步，妥协；特许(权)；"
+    },
+    {
+      "index": 372,
+      "word": "rectangle",
+      "phonetic": "/'rekˌtæŋgl/",
+      "definition": "n.[数]矩形, 长方形"
+    },
+    {
+      "index": 373,
+      "word": "evil",
+      "phonetic": "/'i:vəl/",
+      "definition": "a.邪恶的,罪恶的 n.邪恶,罪恶"
+    },
+    {
+      "index": 374,
+      "word": "upright",
+      "phonetic": "/'ʌprait/",
+      "definition": "a.垂直的,直立的;正直的,诚实的 ad.竖立着"
+    },
+    {
+      "index": 375,
+      "word": "resource",
+      "phonetic": "/ri'sɔ:s/",
+      "definition": "n.(pl.)资源,财力;办法,智谋;应变之才"
+    },
+    {
+      "index": 376,
+      "word": "script",
+      "phonetic": "/skript/",
+      "definition": "n.剧本(原稿)；手稿，原稿；笔迹，手迹"
+    },
+    {
+      "index": 377,
+      "word": "holiday",
+      "phonetic": "/'hɔlədi/",
+      "definition": "n.假日,节日,假期,休假"
+    },
+    {
+      "index": 378,
+      "word": "cemetery",
+      "phonetic": "/'semitəri/",
+      "definition": "n.坟墓，墓地，坟场"
+    },
+    {
+      "index": 379,
+      "word": "prior",
+      "phonetic": "/'praiə/",
+      "definition": "a.优先的,在前的;(to)在…之前"
+    },
+    {
+      "index": 380,
+      "word": "suppress",
+      "phonetic": "/sə'pres/",
+      "definition": "v.镇压,压制;抑制,忍住;查禁"
+    },
+    {
+      "index": 381,
+      "word": "reporter",
+      "phonetic": "/ri'pɔ:tə/",
+      "definition": "n.报告人,通讯员;记者,报导者"
+    },
+    {
+      "index": 382,
+      "word": "fabricate",
+      "phonetic": "/'fæbrikeit/",
+      "definition": "v.捏造,编造(谎言,借口等);建造,制造"
+    },
+    {
+      "index": 383,
+      "word": "assign",
+      "phonetic": "/ə'sain/",
+      "definition": "vt.派给，分配；选定，指定(时间、地点等)"
+    },
+    {
+      "index": 384,
+      "word": "vague",
+      "phonetic": "/veig/",
+      "definition": "a.不明确的,含糊的,暧昧的"
+    },
+    {
+      "index": 385,
+      "word": "hum",
+      "phonetic": "/hʌm/",
+      "definition": "v.哼曲子；发嗡嗡声；忙碌n.嗡嗡声，嘈杂声"
+    },
+    {
+      "index": 386,
+      "word": "grave",
+      "phonetic": "/greiv/",
+      "definition": "n.坟墓 a.严肃的,庄重的"
+    },
+    {
+      "index": 387,
+      "word": "dedicate",
+      "phonetic": "/'dedikeit/",
+      "definition": "vt.奉献;献身于"
+    },
+    {
+      "index": 388,
+      "word": "persuasion",
+      "phonetic": "/pə'sweiʒən/",
+      "definition": "n.说服,说服力"
+    },
+    {
+      "index": 389,
+      "word": "chop",
+      "phonetic": "/tʃɔp/",
+      "definition": "v.砍,劈,斩 n.排骨,肉块"
+    },
+    {
+      "index": 390,
+      "word": "participate",
+      "phonetic": "/pɑ:'tɪsɪpeɪt/",
+      "definition": "v.(in)参与,参加;分享,分担;含有,带有"
+    },
+    {
+      "index": 391,
+      "word": "conclusion",
+      "phonetic": "/kən'klu:ʒən/",
+      "definition": "n.结论，推论；结尾；缔结，议定"
+    },
+    {
+      "index": 392,
+      "word": "symbol",
+      "phonetic": "/'simbəl/",
+      "definition": "n.符号,标志;象征"
+    },
+    {
+      "index": 393,
+      "word": "deny",
+      "phonetic": "/di'nai/",
+      "definition": "v.否认,否定;拒绝"
+    },
+    {
+      "index": 394,
+      "word": "graceful",
+      "phonetic": "/'greisful/",
+      "definition": "a.优美的,文雅的,大方的"
+    },
+    {
+      "index": 395,
+      "word": "establishment",
+      "phonetic": "/i'stæbliʃmənt/",
+      "definition": "n.建立,设立,建立的机构(或组织)"
+    },
+    {
+      "index": 396,
+      "word": "opinion",
+      "phonetic": "/ə'pinjən/",
+      "definition": "n.意见,看法,主张"
+    },
+    {
+      "index": 397,
+      "word": "daytime",
+      "phonetic": "/'deitaim/",
+      "definition": "n.白天,日间"
+    },
+    {
+      "index": 398,
+      "word": "repression",
+      "phonetic": "/ri'preʃən/",
+      "definition": "n.压抑，压制，镇压"
+    },
+    {
+      "index": 399,
+      "word": "undergraduate",
+      "phonetic": "/ˌʌndə'grædjuət/",
+      "definition": "n.大学生,大学肆业生"
+    },
+    {
+      "index": 400,
+      "word": "nurture",
+      "phonetic": "/'nə:tʃə/",
+      "definition": "n./v.养育,教育,教养 n.营养品v.给与营养物"
+    }
+  ]
+}

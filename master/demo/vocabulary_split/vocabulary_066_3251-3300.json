@@ -1,0 +1,307 @@
+{
+  "chunk": 66,
+  "range": "3251-3300",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 3251,
+      "word": "hemisphere",
+      "phonetic": "/'hemiˌsfiə/",
+      "definition": "n.半球"
+    },
+    {
+      "index": 3252,
+      "word": "concrete",
+      "phonetic": "/kən'kri:t/",
+      "definition": "a.具体的,实质性的n.混凝土v.用混凝土修筑"
+    },
+    {
+      "index": 3253,
+      "word": "disguise",
+      "phonetic": "/dis'gaiz/",
+      "definition": "n./v.假装,伪装"
+    },
+    {
+      "index": 3254,
+      "word": "cheat",
+      "phonetic": "/tʃi:t/",
+      "definition": "v.欺骗;作弊 n.骗子;欺诈,欺骗行为"
+    },
+    {
+      "index": 3255,
+      "word": "produce",
+      "phonetic": "/prə'dju:s/",
+      "definition": "v.生产,制造,显示,演出,导致 n.产品"
+    },
+    {
+      "index": 3256,
+      "word": "package",
+      "phonetic": "/'pækidʒ/",
+      "definition": "n.包装,包裹,箱,包装费,标准部件,成套设备"
+    },
+    {
+      "index": 3257,
+      "word": "regarding",
+      "phonetic": "/ri'gɑ:diŋ/",
+      "definition": "prep.关于,有关"
+    },
+    {
+      "index": 3258,
+      "word": "nice",
+      "phonetic": "/nais/",
+      "definition": "a.美好的，令人愉快的；友好的，亲切的"
+    },
+    {
+      "index": 3259,
+      "word": "maths",
+      "phonetic": "/mæθs/",
+      "definition": "n.(mathematics/math)数学"
+    },
+    {
+      "index": 3260,
+      "word": "effective",
+      "phonetic": "/i'fektiv/",
+      "definition": "a.有效的,生效的;被实施的;给人深刻印象"
+    },
+    {
+      "index": 3261,
+      "word": "shear",
+      "phonetic": "/ʃiə/",
+      "definition": "v.剪,修剪"
+    },
+    {
+      "index": 3262,
+      "word": "scratch",
+      "phonetic": "/skrætʃ/",
+      "definition": "v.抓,搔,扒 n.抓,搔,抓痕;起跑线"
+    },
+    {
+      "index": 3263,
+      "word": "accidental",
+      "phonetic": "/ˌæksi'dentəl/",
+      "definition": "a.偶然的；意外的；无意中的"
+    },
+    {
+      "index": 3264,
+      "word": "undergo",
+      "phonetic": "/ˌʌndə'gəu/",
+      "definition": "vt.遭受,经历,承受"
+    },
+    {
+      "index": 3265,
+      "word": "chicken",
+      "phonetic": "/'tʃɪkɪn/",
+      "definition": "n.鸡肉；鸡，小鸡，小鸟"
+    },
+    {
+      "index": 3266,
+      "word": "resultant",
+      "phonetic": "/ri'zʌltənt/",
+      "definition": "a.作为结果而发生的;合成的"
+    },
+    {
+      "index": 3267,
+      "word": "marriage",
+      "phonetic": "/'mæridʒ/",
+      "definition": "n.结婚,婚姻;结婚仪式"
+    },
+    {
+      "index": 3268,
+      "word": "curse",
+      "phonetic": "/kə:s/",
+      "definition": "n.诅咒,咒语,祸因 vt.诅咒,咒骂,使受罪"
+    },
+    {
+      "index": 3269,
+      "word": "chip",
+      "phonetic": "/tʃip/",
+      "definition": "n.切屑,碎片;(土豆等的)薄片;集成电路块"
+    },
+    {
+      "index": 3270,
+      "word": "slap",
+      "phonetic": "/slæp/",
+      "definition": "n./v.拍,掌击"
+    },
+    {
+      "index": 3271,
+      "word": "corporation",
+      "phonetic": "/ˌkɔ:pə'reɪʃn/",
+      "definition": "n.市镇自治机关；法人；公司，企业"
+    },
+    {
+      "index": 3272,
+      "word": "gear",
+      "phonetic": "/giə/",
+      "definition": "n.齿轮,传动装置 v.(to)调整,使适合"
+    },
+    {
+      "index": 3273,
+      "word": "perplex",
+      "phonetic": "/pə'pleks/",
+      "definition": "v.使困惑,使费解,使复杂化"
+    },
+    {
+      "index": 3274,
+      "word": "lace",
+      "phonetic": "/leis/",
+      "definition": "n.花边;带子,鞋带 v.系带,扎带"
+    },
+    {
+      "index": 3275,
+      "word": "irrigate",
+      "phonetic": "/'irigeit/",
+      "definition": "vt.灌溉，修水利 vi.进行灌溉"
+    },
+    {
+      "index": 3276,
+      "word": "lawyer",
+      "phonetic": "/'lɔ:jə/",
+      "definition": "n.律师"
+    },
+    {
+      "index": 3277,
+      "word": "liable",
+      "phonetic": "/'laiəbl/",
+      "definition": "a.有...倾向的；可能遭受...的；有责任的"
+    },
+    {
+      "index": 3278,
+      "word": "league",
+      "phonetic": "/li:g/",
+      "definition": "n.同盟,联盟;联合会,社团"
+    },
+    {
+      "index": 3279,
+      "word": "accumulate",
+      "phonetic": "/ə'kju:mjuleit/",
+      "definition": "vt.堆积，积累，积聚vi.累积，聚积"
+    },
+    {
+      "index": 3280,
+      "word": "leaflet",
+      "phonetic": "/'li:flit/",
+      "definition": "n.小叶,嫩叶;传单,活页"
+    },
+    {
+      "index": 3281,
+      "word": "input",
+      "phonetic": "/'input/",
+      "definition": "n./v.输入"
+    },
+    {
+      "index": 3282,
+      "word": "source",
+      "phonetic": "/sɔ:s/",
+      "definition": "n.源,源泉;来源,出处"
+    },
+    {
+      "index": 3283,
+      "word": "prove",
+      "phonetic": "/pru:v/",
+      "definition": "v.证明,证实;检验;考验;鉴定;结果是,表明是"
+    },
+    {
+      "index": 3284,
+      "word": "trust",
+      "phonetic": "/'trʌst/",
+      "definition": "vt.信任;盼望;委托 n.(in)信任,依赖;委托"
+    },
+    {
+      "index": 3285,
+      "word": "steamer",
+      "phonetic": "/'sti:mə/",
+      "definition": "n.汽船,轮船"
+    },
+    {
+      "index": 3286,
+      "word": "instantaneous",
+      "phonetic": "/ˌinstən'teinjəs/",
+      "definition": "a.瞬间的,即刻的"
+    },
+    {
+      "index": 3287,
+      "word": "bureau",
+      "phonetic": "/'bjuərəu/",
+      "definition": "n.署,局,司,处"
+    },
+    {
+      "index": 3288,
+      "word": "wink",
+      "phonetic": "/wiŋk/",
+      "definition": "v.(使)眨眼；眨眼示意 n.眨眼；小睡，打盹"
+    },
+    {
+      "index": 3289,
+      "word": "signature",
+      "phonetic": "/'signətʃə/",
+      "definition": "n.签名,署名,签字"
+    },
+    {
+      "index": 3290,
+      "word": "vein",
+      "phonetic": "/veɪn/",
+      "definition": "n.血管;静脉;叶脉;纹理;情绪 vt.使成脉络"
+    },
+    {
+      "index": 3291,
+      "word": "exit",
+      "phonetic": "/'eksit/",
+      "definition": "n.出口,通道"
+    },
+    {
+      "index": 3292,
+      "word": "orchestra",
+      "phonetic": "/'ɔ:kistrə/",
+      "definition": "n.管弦乐队"
+    },
+    {
+      "index": 3293,
+      "word": "round",
+      "phonetic": "/raund/",
+      "definition": "a.圆的prep.围绕ad.在周围v.绕行n.1回合"
+    },
+    {
+      "index": 3294,
+      "word": "yearly",
+      "phonetic": "/'jə:li/",
+      "definition": "a.每年的，一年一度的 ad.每年，一年一次地"
+    },
+    {
+      "index": 3295,
+      "word": "laser",
+      "phonetic": "/'leizə/",
+      "definition": "n.激光"
+    },
+    {
+      "index": 3296,
+      "word": "fate",
+      "phonetic": "/'feit/",
+      "definition": "n.命运"
+    },
+    {
+      "index": 3297,
+      "word": "champagne",
+      "phonetic": "/ˌʃæm'pein/",
+      "definition": "n.香槟酒；微黄色"
+    },
+    {
+      "index": 3298,
+      "word": "intimidate",
+      "phonetic": "/in'timideit/",
+      "definition": "vt.胁迫，威胁(某人做某事)"
+    },
+    {
+      "index": 3299,
+      "word": "bread",
+      "phonetic": "/bred/",
+      "definition": "n.面包"
+    },
+    {
+      "index": 3300,
+      "word": "hot",
+      "phonetic": "/hɔt/",
+      "definition": "a.(炎)热的；辣的；急躁的；激动的；热衷的"
+    }
+  ]
+}

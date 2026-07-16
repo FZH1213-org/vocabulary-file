@@ -1,0 +1,307 @@
+{
+  "chunk": 32,
+  "range": "1551-1600",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 1551,
+      "word": "lively",
+      "phonetic": "/'laivli/",
+      "definition": "a.活泼的,活跃的;栩栩如生的,真实的"
+    },
+    {
+      "index": 1552,
+      "word": "unit",
+      "phonetic": "/'ju:nit/",
+      "definition": "n.单位,单元;部件,元件;机组,装置"
+    },
+    {
+      "index": 1553,
+      "word": "symptom",
+      "phonetic": "/'simptəm/",
+      "definition": "n.(疾病的)症状；(不好事情的)征兆,表征"
+    },
+    {
+      "index": 1554,
+      "word": "daughter",
+      "phonetic": "/'dɔ:tə/",
+      "definition": "n.女儿"
+    },
+    {
+      "index": 1555,
+      "word": "customer",
+      "phonetic": "/'kʌstəmə/",
+      "definition": "n.顾客,主顾"
+    },
+    {
+      "index": 1556,
+      "word": "series",
+      "phonetic": "/'siəri:z/",
+      "definition": "n.一系列,连续;丛书"
+    },
+    {
+      "index": 1557,
+      "word": "lifetime",
+      "phonetic": "/'laiftaim/",
+      "definition": "n.一生,终生"
+    },
+    {
+      "index": 1558,
+      "word": "technical",
+      "phonetic": "/'teknikəl/",
+      "definition": "a.技术(性)的，工艺的；专门性的，专业性的"
+    },
+    {
+      "index": 1559,
+      "word": "sociology",
+      "phonetic": "/ˌsəusi'ɔlədʒi/",
+      "definition": "n.社会学"
+    },
+    {
+      "index": 1560,
+      "word": "horror",
+      "phonetic": "/'hɔrə/",
+      "definition": "n.恐怖,战栗"
+    },
+    {
+      "index": 1561,
+      "word": "wife",
+      "phonetic": "/waif/",
+      "definition": "n.妻子，夫人，太太"
+    },
+    {
+      "index": 1562,
+      "word": "thesis",
+      "phonetic": "/'θi:sis/",
+      "definition": "n.(pl.theses) 论文;论题;论点"
+    },
+    {
+      "index": 1563,
+      "word": "growth",
+      "phonetic": "/grəuθ/",
+      "definition": "n.生长,增长,发展"
+    },
+    {
+      "index": 1564,
+      "word": "concentration",
+      "phonetic": "/ˌkɔnsən'treiʃən/",
+      "definition": "n.专心，专注；集中，集结；浓度"
+    },
+    {
+      "index": 1565,
+      "word": "distill",
+      "phonetic": "/dis'til/",
+      "definition": "vt.蒸馏，用蒸馏法提取；吸取，提炼"
+    },
+    {
+      "index": 1566,
+      "word": "bat",
+      "phonetic": "/bæt/",
+      "definition": "n.球拍,球棒,短棒;蝙蝠"
+    },
+    {
+      "index": 1567,
+      "word": "arm",
+      "phonetic": "/ɑ:m/",
+      "definition": "n.手臂，扶手，臂状物 v.武装；配备 n.武器"
+    },
+    {
+      "index": 1568,
+      "word": "pride",
+      "phonetic": "/praɪd/",
+      "definition": "n.自豪;自满；引以自豪的东西 v.使自豪"
+    },
+    {
+      "index": 1569,
+      "word": "circulate",
+      "phonetic": "/'sə:kjuleit/",
+      "definition": "v.(使)循环,(使)流通"
+    },
+    {
+      "index": 1570,
+      "word": "forward",
+      "phonetic": "/'fɔ:wəd/",
+      "definition": "ad.(also forwards)向前 a.向前的 v.转交"
+    },
+    {
+      "index": 1571,
+      "word": "honorable",
+      "phonetic": "/'ɒnərəbl/",
+      "definition": "a.(honourable)可敬的;荣誉的,光荣的"
+    },
+    {
+      "index": 1572,
+      "word": "monotonous",
+      "phonetic": "/mə'nɔtənəs/",
+      "definition": "a.单调的,无变化的"
+    },
+    {
+      "index": 1573,
+      "word": "jump",
+      "phonetic": "/dʒʌmp/",
+      "definition": "v./n.跳跃,跳动,跳过;暴涨,猛增"
+    },
+    {
+      "index": 1574,
+      "word": "suspicion",
+      "phonetic": "/sə'spiʃən/",
+      "definition": "n.怀疑，猜疑；一点儿，少量"
+    },
+    {
+      "index": 1575,
+      "word": "career",
+      "phonetic": "/kə'rɪə(r)/",
+      "definition": "n.(个人的)事业；专业，生涯，职业，经历"
+    },
+    {
+      "index": 1576,
+      "word": "artistic",
+      "phonetic": "/ɑ:'tistik/",
+      "definition": "a.艺术(家)的，美术(家)的；善于艺术创作的"
+    },
+    {
+      "index": 1577,
+      "word": "concert",
+      "phonetic": "/kən'sə:t/",
+      "definition": "n.音乐会,演奏会;一齐,一致"
+    },
+    {
+      "index": 1578,
+      "word": "vitamin",
+      "phonetic": "/'vɪtəmɪn/",
+      "definition": "n.维生素"
+    },
+    {
+      "index": 1579,
+      "word": "imagine",
+      "phonetic": "/ɪ'mædʒɪn/",
+      "definition": "v.想象,设想,料想"
+    },
+    {
+      "index": 1580,
+      "word": "oppose",
+      "phonetic": "/ə'pəuz/",
+      "definition": "v.反对,使对立,使对抗,使相对"
+    },
+    {
+      "index": 1581,
+      "word": "coat",
+      "phonetic": "/kəut/",
+      "definition": "n.上衣，外套；表皮；层,覆盖物 v.涂(盖)上"
+    },
+    {
+      "index": 1582,
+      "word": "girl",
+      "phonetic": "/gɜ:l/",
+      "definition": "n.少女，姑娘，女孩；女职员"
+    },
+    {
+      "index": 1583,
+      "word": "shell",
+      "phonetic": "/ʃel/",
+      "definition": "n.壳,贝壳;炮弹"
+    },
+    {
+      "index": 1584,
+      "word": "now",
+      "phonetic": "/nau/",
+      "definition": "ad.现在，如今，目前；当时，于是，然后"
+    },
+    {
+      "index": 1585,
+      "word": "rectify",
+      "phonetic": "/'rektifai/",
+      "definition": "v.纠正,整顿, [化]精馏"
+    },
+    {
+      "index": 1586,
+      "word": "platform",
+      "phonetic": "/'plætfɔ:m/",
+      "definition": "n.平台,台;站台,月台;政纲,党纲"
+    },
+    {
+      "index": 1587,
+      "word": "summit",
+      "phonetic": "/'sʌmit/",
+      "definition": "n.顶，最高点；颠峰，高峰；最高级会议"
+    },
+    {
+      "index": 1588,
+      "word": "author",
+      "phonetic": "/'ɔ:θə/",
+      "definition": "n.作者，作家，著作人；创始人，发起人"
+    },
+    {
+      "index": 1589,
+      "word": "sure",
+      "phonetic": "/ʃuə(r)/",
+      "definition": "a.肯定的；一定会…的；有信心的，有把握的"
+    },
+    {
+      "index": 1590,
+      "word": "reduction",
+      "phonetic": "/rɪ'dʌkʃn/",
+      "definition": "n.减小,减少,缩小"
+    },
+    {
+      "index": 1591,
+      "word": "blade",
+      "phonetic": "/bleid/",
+      "definition": "n.刀刃，刀片；桨叶；草叶，叶片"
+    },
+    {
+      "index": 1592,
+      "word": "excellent",
+      "phonetic": "/'eksələnt/",
+      "definition": "a.卓越的,极好的"
+    },
+    {
+      "index": 1593,
+      "word": "dot",
+      "phonetic": "/dɔt/",
+      "definition": "n.点,圆点 v.在…上打点"
+    },
+    {
+      "index": 1594,
+      "word": "likely",
+      "phonetic": "/'laikli/",
+      "definition": "a.很可能的,有希望的 ad.大概,多半"
+    },
+    {
+      "index": 1595,
+      "word": "collide",
+      "phonetic": "/kə'laid/",
+      "definition": "vi.[with]互撞，碰撞；冲突，抵触"
+    },
+    {
+      "index": 1596,
+      "word": "climb",
+      "phonetic": "/klaim/",
+      "definition": "v./n.攀登,爬"
+    },
+    {
+      "index": 1597,
+      "word": "rabbit",
+      "phonetic": "/'ræbit/",
+      "definition": "n.兔子"
+    },
+    {
+      "index": 1598,
+      "word": "threshold",
+      "phonetic": "/'θreʃhəuld/",
+      "definition": "n.门槛;入门,开端"
+    },
+    {
+      "index": 1599,
+      "word": "evaluate",
+      "phonetic": "/i'væljueit/",
+      "definition": "v.估价,评价;求…的值"
+    },
+    {
+      "index": 1600,
+      "word": "apple",
+      "phonetic": "/'æpl/",
+      "definition": "n.苹果，苹果树"
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "chunk": 58,
+  "range": "2851-2900",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 2851,
+      "word": "prime",
+      "phonetic": "/praim/",
+      "definition": "a.首要的;最好的,第一流的 n.青春,全盛期"
+    },
+    {
+      "index": 2852,
+      "word": "strain",
+      "phonetic": "/streɪn/",
+      "definition": "v.拉紧;紧张;扭伤;竭尽全力 n.拉紧;负担"
+    },
+    {
+      "index": 2853,
+      "word": "soda",
+      "phonetic": "/'səudə/",
+      "definition": "n.苏打,汽水"
+    },
+    {
+      "index": 2854,
+      "word": "conform",
+      "phonetic": "/kən'fɔ:m/",
+      "definition": "vi.(to)遵守，适应；相似，一致，符合"
+    },
+    {
+      "index": 2855,
+      "word": "relativity",
+      "phonetic": "/ˌrelə'tivəti/",
+      "definition": "n.相关(性);相对论"
+    },
+    {
+      "index": 2856,
+      "word": "mix",
+      "phonetic": "/miks/",
+      "definition": "v.使混合;混淆"
+    },
+    {
+      "index": 2857,
+      "word": "somewhat",
+      "phonetic": "/'sʌmhwɔt/",
+      "definition": "pron.&ad.一点儿，几分"
+    },
+    {
+      "index": 2858,
+      "word": "supreme",
+      "phonetic": "/sju'pri:m/",
+      "definition": "a.极度的,最重要的;至高的,最高的"
+    },
+    {
+      "index": 2859,
+      "word": "obsolete",
+      "phonetic": "/'ɔbsəli:t/",
+      "definition": "a.已废弃的,过时的"
+    },
+    {
+      "index": 2860,
+      "word": "voice",
+      "phonetic": "/vɔis/",
+      "definition": "n.声音;嗓音;发音能力;意见,发言权;语态"
+    },
+    {
+      "index": 2861,
+      "word": "disturb",
+      "phonetic": "/dis'tə:b/",
+      "definition": "v.扰乱,妨碍,使不安"
+    },
+    {
+      "index": 2862,
+      "word": "shelf",
+      "phonetic": "/ʃelf/",
+      "definition": "n.架子,搁板"
+    },
+    {
+      "index": 2863,
+      "word": "hardly",
+      "phonetic": "/'hɑ:dli/",
+      "definition": "ad.几乎不,简直不;仅仅"
+    },
+    {
+      "index": 2864,
+      "word": "velocity",
+      "phonetic": "/və'lɒsəti/",
+      "definition": "n.速度,速率"
+    },
+    {
+      "index": 2865,
+      "word": "hostile",
+      "phonetic": "/'hɔstail/",
+      "definition": "a.敌对的,敌方的,敌意的"
+    },
+    {
+      "index": 2866,
+      "word": "fatal",
+      "phonetic": "/'feitl/",
+      "definition": "a.致命的,毁灭性的"
+    },
+    {
+      "index": 2867,
+      "word": "perpetual",
+      "phonetic": "/pə'petʃuəl/",
+      "definition": "a.永久的,永恒的,长期的"
+    },
+    {
+      "index": 2868,
+      "word": "body",
+      "phonetic": "/'bɔdi/",
+      "definition": "n.身体,本体;主体;尸体;物体;(一)群,批,堆"
+    },
+    {
+      "index": 2869,
+      "word": "share",
+      "phonetic": "/ʃεə/",
+      "definition": "v.(with)分配,共用;分担n.一份,份额;股份"
+    },
+    {
+      "index": 2870,
+      "word": "caution",
+      "phonetic": "/'kɔ:ʃən/",
+      "definition": "n.谨慎；注意(事项)，警告vt.劝…小心"
+    },
+    {
+      "index": 2871,
+      "word": "analogy",
+      "phonetic": "/ə'nælədʒi/",
+      "definition": "n.类似，相似，类比，类推"
+    },
+    {
+      "index": 2872,
+      "word": "derive",
+      "phonetic": "/dɪ'raɪv/",
+      "definition": "v.取得;导出;引申;来自;源自;出自"
+    },
+    {
+      "index": 2873,
+      "word": "embarrass",
+      "phonetic": "/im'bærəs/",
+      "definition": "vt.使困窘,使局促不安;阻碍,麻烦"
+    },
+    {
+      "index": 2874,
+      "word": "point",
+      "phonetic": "/pɔint/",
+      "definition": "n.尖;点;条款;分数,得分;论点 v.(at,to)指"
+    },
+    {
+      "index": 2875,
+      "word": "kettle",
+      "phonetic": "/'ketl/",
+      "definition": "n.水壶"
+    },
+    {
+      "index": 2876,
+      "word": "apology",
+      "phonetic": "/ə'pɔlədʒi/",
+      "definition": "n.道歉，认错，辩解，辩护"
+    },
+    {
+      "index": 2877,
+      "word": "logical",
+      "phonetic": "/'lɔdʒikəl/",
+      "definition": "a.逻辑的,符合逻辑的"
+    },
+    {
+      "index": 2878,
+      "word": "obvious",
+      "phonetic": "/'ɔbviəs/",
+      "definition": "a.明显的,显而易见的"
+    },
+    {
+      "index": 2879,
+      "word": "inspiration",
+      "phonetic": "/ˌinspə'reiʃən/",
+      "definition": "n.灵感;鼓舞,激励"
+    },
+    {
+      "index": 2880,
+      "word": "sand",
+      "phonetic": "/sænd/",
+      "definition": "n.沙;(pl.)沙滩,沙地"
+    },
+    {
+      "index": 2881,
+      "word": "innovation",
+      "phonetic": "/ˌinəu'veiʃən/",
+      "definition": "n.改革，革新；新观念，新方法，新发明"
+    },
+    {
+      "index": 2882,
+      "word": "rhythm",
+      "phonetic": "/'riðəm/",
+      "definition": "n.节奏,韵律"
+    },
+    {
+      "index": 2883,
+      "word": "therefore",
+      "phonetic": "/'ðεəfɔ:/",
+      "definition": "ad.因此，所以 conj.因此"
+    },
+    {
+      "index": 2884,
+      "word": "fixture",
+      "phonetic": "/'fikstʃə/",
+      "definition": "n.固定设备;预定日期;比赛时间;定期存款"
+    },
+    {
+      "index": 2885,
+      "word": "fore",
+      "phonetic": "/fɔ:/",
+      "definition": "ad.在前面 a.先前的；在前部的 n.前部"
+    },
+    {
+      "index": 2886,
+      "word": "sniff",
+      "phonetic": "/snif/",
+      "definition": "vi.嗅…味道；抽鼻涕；对嗤之以鼻，蔑视"
+    },
+    {
+      "index": 2887,
+      "word": "civil",
+      "phonetic": "/'sivəl/",
+      "definition": "a.公民的,市民的;民间的;民用的;有礼貌的"
+    },
+    {
+      "index": 2888,
+      "word": "pet",
+      "phonetic": "/pet/",
+      "definition": "n.爱畜,宠儿 a.宠爱的,表示亲昵的"
+    },
+    {
+      "index": 2889,
+      "word": "clever",
+      "phonetic": "/'klevə(r)/",
+      "definition": "a.聪明的,伶俐的,机敏的,精巧的"
+    },
+    {
+      "index": 2890,
+      "word": "government",
+      "phonetic": "/'gʌvənmənt/",
+      "definition": "n.政府,内阁;管理,支配;政治,政体"
+    },
+    {
+      "index": 2891,
+      "word": "brake",
+      "phonetic": "/breik/",
+      "definition": "v./n.制动(器),闸,刹车"
+    },
+    {
+      "index": 2892,
+      "word": "strenuous",
+      "phonetic": "/'strenjuəs/",
+      "definition": "a.费力的，艰辛的；奋发的，努力的"
+    },
+    {
+      "index": 2893,
+      "word": "if",
+      "phonetic": "/if/",
+      "definition": "conj.(用于连接宾语从句)是否；是不是"
+    },
+    {
+      "index": 2894,
+      "word": "grim",
+      "phonetic": "/grim/",
+      "definition": "a.严酷的，令人害怕的；不愉快的，讨厌的"
+    },
+    {
+      "index": 2895,
+      "word": "scream",
+      "phonetic": "/skri:m/",
+      "definition": "v./n.尖声叫,喊叫着说出,(风)呼啸"
+    },
+    {
+      "index": 2896,
+      "word": "cement",
+      "phonetic": "/si'ment/",
+      "definition": "n.水泥;胶泥,胶接剂 v.胶合;巩固,加强"
+    },
+    {
+      "index": 2897,
+      "word": "prospective",
+      "phonetic": "/prə'spektɪv/",
+      "definition": "a.预期的"
+    },
+    {
+      "index": 2898,
+      "word": "ahead",
+      "phonetic": "/ə'hed/",
+      "definition": "ad.在前面(头)；向(朝)前；提前"
+    },
+    {
+      "index": 2899,
+      "word": "cope",
+      "phonetic": "/kəup/",
+      "definition": "v.(with)竞争,对抗;(with)对付,妥善处理"
+    },
+    {
+      "index": 2900,
+      "word": "talk",
+      "phonetic": "/tɔ:k/",
+      "definition": "n.谈话；聊天；讲话；演讲 v.说话；交谈"
+    }
+  ]
+}

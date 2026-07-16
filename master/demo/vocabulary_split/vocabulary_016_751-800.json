@@ -1,0 +1,307 @@
+{
+  "chunk": 16,
+  "range": "751-800",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 751,
+      "word": "external",
+      "phonetic": "/ik'stə:nəl/",
+      "definition": "a.外部的;客观的;外国的;表面的;[医]外用的"
+    },
+    {
+      "index": 752,
+      "word": "uncle",
+      "phonetic": "/'ʌŋkl/",
+      "definition": "n.伯父，叔父，舅父，姑父，姨父"
+    },
+    {
+      "index": 753,
+      "word": "mutton",
+      "phonetic": "/'mʌtn/",
+      "definition": "n.羊肉"
+    },
+    {
+      "index": 754,
+      "word": "universal",
+      "phonetic": "/ˌju:ni'və:səl/",
+      "definition": "a.普遍的,全体的,通用的;宇宙的,世界的"
+    },
+    {
+      "index": 755,
+      "word": "straightforward",
+      "phonetic": "/ˌstreit'fɔ:wəd/",
+      "definition": "a.正直的;简单的,易懂的 ad.坦率地"
+    },
+    {
+      "index": 756,
+      "word": "access",
+      "phonetic": "/'ækses/",
+      "definition": "n.进入；接入；到达；享用权；入口 vi.存取"
+    },
+    {
+      "index": 757,
+      "word": "expenditure",
+      "phonetic": "/iks'penditʃə/",
+      "definition": "n.花费;(时间,金钱等的)支出,消耗"
+    },
+    {
+      "index": 758,
+      "word": "crown",
+      "phonetic": "/kraun/",
+      "definition": "n.王冠,冕;君权,君王 v.为…加冕"
+    },
+    {
+      "index": 759,
+      "word": "gradual",
+      "phonetic": "/'grædʒuəl/",
+      "definition": "a.逐渐的,逐步的"
+    },
+    {
+      "index": 760,
+      "word": "like",
+      "phonetic": "/laik/",
+      "definition": "v.喜欢 prep.象；比如 a.相象的 n.象…一样"
+    },
+    {
+      "index": 761,
+      "word": "requirement",
+      "phonetic": "/ri'kwaiəmənt/",
+      "definition": "n.(for)需要,需要的东西,要求"
+    },
+    {
+      "index": 762,
+      "word": "container",
+      "phonetic": "/kən'teinə/",
+      "definition": "n.容器;集装箱"
+    },
+    {
+      "index": 763,
+      "word": "presumably",
+      "phonetic": "/pri'zju:-məbli/",
+      "definition": "ad.推测起来,大概"
+    },
+    {
+      "index": 764,
+      "word": "swell",
+      "phonetic": "/swel/",
+      "definition": "n./v.肿胀;膨胀;增大;增加;"
+    },
+    {
+      "index": 765,
+      "word": "contradict",
+      "phonetic": "/ˌkɔntrə'dikt/",
+      "definition": "v.反驳;同…矛盾,同…抵触"
+    },
+    {
+      "index": 766,
+      "word": "witch",
+      "phonetic": "/witʃ/",
+      "definition": "n.女巫, 巫婆，巫师"
+    },
+    {
+      "index": 767,
+      "word": "adjacent",
+      "phonetic": "/ə'dʒeisənt/",
+      "definition": "a.(to)(时间上)紧接着的；邻近的，毗邻的"
+    },
+    {
+      "index": 768,
+      "word": "prepare",
+      "phonetic": "/pri'pεə/",
+      "definition": "v.准备,预备"
+    },
+    {
+      "index": 769,
+      "word": "aggravate",
+      "phonetic": "/'ægrəveit/",
+      "definition": "vt.加重(剧),使恶化；激怒,使恼火"
+    },
+    {
+      "index": 770,
+      "word": "monitor",
+      "phonetic": "/'mɒnɪtə(r)/",
+      "definition": "n.班长;监听器,监视器 v.监控,监测"
+    },
+    {
+      "index": 771,
+      "word": "barbecue",
+      "phonetic": "/'bɑ:bikju:/",
+      "definition": "n.烤肉；烤肉用的台架 vt.炙烤(肉等)"
+    },
+    {
+      "index": 772,
+      "word": "counter",
+      "phonetic": "/'kauntə(r)/",
+      "definition": "n.柜台;计数器 a./ad.相反(的) v.反对,反击"
+    },
+    {
+      "index": 773,
+      "word": "method",
+      "phonetic": "/'meθəd/",
+      "definition": "n.方法,办法"
+    },
+    {
+      "index": 774,
+      "word": "comprehensive",
+      "phonetic": "/ˌkɔmpri'hensiv/",
+      "definition": "a.内容广泛的,总括性的，综合的"
+    },
+    {
+      "index": 775,
+      "word": "neighborhood",
+      "phonetic": "/'neɪbə(r)ˌhud/",
+      "definition": "n.(neighbourhood)邻居;四邻,街道"
+    },
+    {
+      "index": 776,
+      "word": "dead",
+      "phonetic": "/ded/",
+      "definition": "a.死的；无生命的；死气沉沉的 ad.完全地"
+    },
+    {
+      "index": 777,
+      "word": "navy",
+      "phonetic": "/'neivi/",
+      "definition": "n.海军"
+    },
+    {
+      "index": 778,
+      "word": "beg",
+      "phonetic": "/beg/",
+      "definition": "vt.请求，乞求 vi.恳请，行乞"
+    },
+    {
+      "index": 779,
+      "word": "October",
+      "phonetic": "/ɔk'təubə/",
+      "definition": "n.十月"
+    },
+    {
+      "index": 780,
+      "word": "northeast",
+      "phonetic": "/ˌnɔ:θ'i:st/",
+      "definition": "n.东北 a.东北方的 ad.向东北,在东北"
+    },
+    {
+      "index": 781,
+      "word": "theater",
+      "phonetic": "/'θiətə/",
+      "definition": "n.(theatre)戏院;戏剧;阶梯教室"
+    },
+    {
+      "index": 782,
+      "word": "substance",
+      "phonetic": "/'sʌbstəns/",
+      "definition": "n.物质；实质，本质；主旨；财产，资产"
+    },
+    {
+      "index": 783,
+      "word": "originate",
+      "phonetic": "/ə'ridʒəneit/",
+      "definition": "v.(in,from)起源,发生;首创,创造"
+    },
+    {
+      "index": 784,
+      "word": "inspect",
+      "phonetic": "/in'spekt/",
+      "definition": "vt.检查,调查,视察"
+    },
+    {
+      "index": 785,
+      "word": "type",
+      "phonetic": "/taip/",
+      "definition": "n.型式，类型；印刷字体；活/铅字 v.打字"
+    },
+    {
+      "index": 786,
+      "word": "measure",
+      "phonetic": "/'meʒə/",
+      "definition": "v.测量,分派,权衡 n.尺寸,量度器,措施,办法"
+    },
+    {
+      "index": 787,
+      "word": "decent",
+      "phonetic": "/'di:sənt/",
+      "definition": "a.体面的;正派的,合乎礼仪的;合适的"
+    },
+    {
+      "index": 788,
+      "word": "hatch",
+      "phonetic": "/hætʃ/",
+      "definition": "v.孵,孵出;策划,图谋 n.舱口,小门"
+    },
+    {
+      "index": 789,
+      "word": "energy",
+      "phonetic": "/'enədʒi/",
+      "definition": "n.活力,精力;能,能量"
+    },
+    {
+      "index": 790,
+      "word": "ban",
+      "phonetic": "/bæn/",
+      "definition": "v.取缔,查禁;(from)禁止 n.禁止,禁令"
+    },
+    {
+      "index": 791,
+      "word": "trick",
+      "phonetic": "/trik/",
+      "definition": "n.诡计,骗局;恶作剧;窍门 vt.欺骗,哄骗"
+    },
+    {
+      "index": 792,
+      "word": "native",
+      "phonetic": "/'neitiv/",
+      "definition": "a.本地的,本国的;天生的 n.本地人,本国人"
+    },
+    {
+      "index": 793,
+      "word": "ear",
+      "phonetic": "/iə/",
+      "definition": "n.耳，耳朵；听力，听觉；穗"
+    },
+    {
+      "index": 794,
+      "word": "engagement",
+      "phonetic": "/ɪn'geɪdʒmənt/",
+      "definition": "n.约会,约定;婚约,订婚"
+    },
+    {
+      "index": 795,
+      "word": "passive",
+      "phonetic": "/'pæsiv/",
+      "definition": "a.被动的,消极的"
+    },
+    {
+      "index": 796,
+      "word": "pine",
+      "phonetic": "/pain/",
+      "definition": "n.松树"
+    },
+    {
+      "index": 797,
+      "word": "infer",
+      "phonetic": "/in'fə:/",
+      "definition": "v.推论,推断"
+    },
+    {
+      "index": 798,
+      "word": "melody",
+      "phonetic": "/'melədi/",
+      "definition": "n.旋律，曲调；悦耳的音乐"
+    },
+    {
+      "index": 799,
+      "word": "domestic",
+      "phonetic": "/dəu'mestik/",
+      "definition": "a.家里的;本国的;驯养的"
+    },
+    {
+      "index": 800,
+      "word": "protein",
+      "phonetic": "/'prəuti:n/",
+      "definition": "n.蛋白质"
+    }
+  ]
+}

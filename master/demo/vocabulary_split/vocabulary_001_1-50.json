@@ -1,0 +1,307 @@
+{
+  "chunk": 1,
+  "range": "1-50",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 1,
+      "word": "due",
+      "phonetic": "/dju:/",
+      "definition": "a.(to)应支付的;(车,船等)预定应到达的"
+    },
+    {
+      "index": 2,
+      "word": "alleviate",
+      "phonetic": "/ə'li:vieit/",
+      "definition": "v.减轻，缓和，缓解(痛苦等)"
+    },
+    {
+      "index": 3,
+      "word": "weave",
+      "phonetic": "/wi:v/",
+      "definition": "v.编(织) n.编织法，编织式样"
+    },
+    {
+      "index": 4,
+      "word": "drawing",
+      "phonetic": "/'drɔ:iŋ/",
+      "definition": "n.绘图,图样"
+    },
+    {
+      "index": 5,
+      "word": "snow",
+      "phonetic": "/snəu/",
+      "definition": "n.雪，下雪 vi.下雪；如雪一般地落下"
+    },
+    {
+      "index": 6,
+      "word": "realistic",
+      "phonetic": "/ˌriə'listik/",
+      "definition": "a.现实(主义)的"
+    },
+    {
+      "index": 7,
+      "word": "nevertheless",
+      "phonetic": "/ˌnevəðə'les/",
+      "definition": "conj.(nonetheless)然而,不过ad.仍然,不过"
+    },
+    {
+      "index": 8,
+      "word": "ride",
+      "phonetic": "/raid/",
+      "definition": "v./n.骑,乘"
+    },
+    {
+      "index": 9,
+      "word": "expression",
+      "phonetic": "/ɪk'spreʃn/",
+      "definition": "n.表达;表情;声调;腔调;榨出;措词;式;符号"
+    },
+    {
+      "index": 10,
+      "word": "spur",
+      "phonetic": "/spə:/",
+      "definition": "n.靴刺,马刺;刺激,刺激物 v.刺激,激励"
+    },
+    {
+      "index": 11,
+      "word": "clutch",
+      "phonetic": "/klʌtʃ/",
+      "definition": "v.抓住,攫住,掌握 n.离合器"
+    },
+    {
+      "index": 12,
+      "word": "pest",
+      "phonetic": "/pest/",
+      "definition": "n.害虫"
+    },
+    {
+      "index": 13,
+      "word": "standard",
+      "phonetic": "/'stændəd/",
+      "definition": "n.标准,规则 a.标准的"
+    },
+    {
+      "index": 14,
+      "word": "compass",
+      "phonetic": "/'kʌmpəs/",
+      "definition": "n.罗盘,指南针;(pl.)圆规"
+    },
+    {
+      "index": 15,
+      "word": "gloomy",
+      "phonetic": "/'glu:mi/",
+      "definition": "a.阴暗的,阴沉的,令人沮丧的,阴郁的"
+    },
+    {
+      "index": 16,
+      "word": "fortunate",
+      "phonetic": "/'fɔ:tʃənit/",
+      "definition": "a.幸运的,侥幸的"
+    },
+    {
+      "index": 17,
+      "word": "spectacular",
+      "phonetic": "/spek'tækjulə/",
+      "definition": "a.壮观的,引人注目的 n.壮观的演出"
+    },
+    {
+      "index": 18,
+      "word": "nutrition",
+      "phonetic": "/nju:'triʃən/",
+      "definition": "n.营养,营养学"
+    },
+    {
+      "index": 19,
+      "word": "anonymous",
+      "phonetic": "/ə'nɔniməs/",
+      "definition": "a.匿名的，无名的，姓氏不明的"
+    },
+    {
+      "index": 20,
+      "word": "pat",
+      "phonetic": "/pæt/",
+      "definition": "v./n.轻拍,轻打,抚摸"
+    },
+    {
+      "index": 21,
+      "word": "speech",
+      "phonetic": "/spi:tʃ/",
+      "definition": "n.演说,讲话;言语,语言"
+    },
+    {
+      "index": 22,
+      "word": "tile",
+      "phonetic": "/tail/",
+      "definition": "n.瓦片,瓷砖 vt.铺瓦于，贴砖于"
+    },
+    {
+      "index": 23,
+      "word": "dorm",
+      "phonetic": "/dɔ:m/",
+      "definition": "n.(dormitory)［美］［口］宿舍"
+    },
+    {
+      "index": 24,
+      "word": "dictionary",
+      "phonetic": "/'dikʃənəri/",
+      "definition": "n.词典,字典"
+    },
+    {
+      "index": 25,
+      "word": "screen",
+      "phonetic": "/skri:n/",
+      "definition": "n.屏幕,屏风;帘 v.掩蔽,包庇;筛选"
+    },
+    {
+      "index": 26,
+      "word": "lover",
+      "phonetic": "/'lʌvə(r)/",
+      "definition": "n.爱好者;(pl.)情侣"
+    },
+    {
+      "index": 27,
+      "word": "shirt",
+      "phonetic": "/ʃə:t/",
+      "definition": "n.衬衫"
+    },
+    {
+      "index": 28,
+      "word": "emphasize",
+      "phonetic": "/'emfəsaiz/",
+      "definition": "v.(emphasise)强调"
+    },
+    {
+      "index": 29,
+      "word": "pollution",
+      "phonetic": "/pə:'lju:ʃən/",
+      "definition": "n.污染"
+    },
+    {
+      "index": 30,
+      "word": "shepherd",
+      "phonetic": "/'ʃepəd/",
+      "definition": "n.牧民,牧羊人"
+    },
+    {
+      "index": 31,
+      "word": "foster",
+      "phonetic": "/'fɔstə/",
+      "definition": "vt.养育;收养;怀抱;鼓励 a.收养的 n.养育者"
+    },
+    {
+      "index": 32,
+      "word": "favorite",
+      "phonetic": "/'feivərit/",
+      "definition": "n.(favourite)最喜欢的人或物 a.喜爱的"
+    },
+    {
+      "index": 33,
+      "word": "technology",
+      "phonetic": "/tek'nɔlədʒi/",
+      "definition": "n.科学技术；工业技术；应用科学"
+    },
+    {
+      "index": 34,
+      "word": "wipe",
+      "phonetic": "/waip/",
+      "definition": "v./n.擦,揩,抹"
+    },
+    {
+      "index": 35,
+      "word": "scold",
+      "phonetic": "/skəuld/",
+      "definition": "v.责骂,训斥"
+    },
+    {
+      "index": 36,
+      "word": "dessert",
+      "phonetic": "/di'zə:t/",
+      "definition": "n.正餐后的水果或甜食"
+    },
+    {
+      "index": 37,
+      "word": "outlet",
+      "phonetic": "/'autlet/",
+      "definition": "n.出路,出口;销路,市场;发泄方法;电源插座"
+    },
+    {
+      "index": 38,
+      "word": "list",
+      "phonetic": "/lɪst/",
+      "definition": "n.表,目录,名单 v.把…编列成表,列入表内"
+    },
+    {
+      "index": 39,
+      "word": "important",
+      "phonetic": "/im'pɔ:tənt/",
+      "definition": "a.重要的,重大的;有地位的,有权力的"
+    },
+    {
+      "index": 40,
+      "word": "fatigue",
+      "phonetic": "/fə'ti:g/",
+      "definition": "n./v.(使)疲劳"
+    },
+    {
+      "index": 41,
+      "word": "insure",
+      "phonetic": "/in'ʃuə/",
+      "definition": "vt.保险,给…保险;保证"
+    },
+    {
+      "index": 42,
+      "word": "vicious",
+      "phonetic": "/'viʃəs/",
+      "definition": "a.恶毒的,凶残的,邪恶的"
+    },
+    {
+      "index": 43,
+      "word": "tame",
+      "phonetic": "/teim/",
+      "definition": "a.驯服的,温顺的;沉闷的,乏味的 vt.驯服"
+    },
+    {
+      "index": 44,
+      "word": "vapour",
+      "phonetic": "/'veɪpə(r)/",
+      "definition": "n.(vapor)汽，(水)蒸气"
+    },
+    {
+      "index": 45,
+      "word": "fold",
+      "phonetic": "/fəuld/",
+      "definition": "v.折叠;合拢;抱住 n.褶,褶痕;羊栏;信徒"
+    },
+    {
+      "index": 46,
+      "word": "rain",
+      "phonetic": "/rein/",
+      "definition": "n.雨；雨天；下雨 vi.下雨 vt.使大量落下"
+    },
+    {
+      "index": 47,
+      "word": "monster",
+      "phonetic": "/'mɔnstə/",
+      "definition": "n.怪物,妖怪,畸形的动植物"
+    },
+    {
+      "index": 48,
+      "word": "injure",
+      "phonetic": "/'indʒə/",
+      "definition": "v.损害,损伤,伤害"
+    },
+    {
+      "index": 49,
+      "word": "pass",
+      "phonetic": "/pɑ:s/",
+      "definition": "v.经/通/穿/度过；传递 n.通行证；考试及格"
+    },
+    {
+      "index": 50,
+      "word": "astonish",
+      "phonetic": "/ə'stɔniʃ/",
+      "definition": "vt.使惊讶，使吃惊"
+    }
+  ]
+}

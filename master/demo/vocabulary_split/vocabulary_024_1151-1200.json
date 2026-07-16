@@ -1,0 +1,307 @@
+{
+  "chunk": 24,
+  "range": "1151-1200",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 1151,
+      "word": "peer",
+      "phonetic": "/piə/",
+      "definition": "n.同辈,同等地位的人;贵族 v.凝视,隐约出现"
+    },
+    {
+      "index": 1152,
+      "word": "evidence",
+      "phonetic": "/'evidəns/",
+      "definition": "n.明显;显著;根据;证据;迹象"
+    },
+    {
+      "index": 1153,
+      "word": "curtain",
+      "phonetic": "/'kə:tən/",
+      "definition": "n.窗帘,门帘;幕(布);结束； vt遮掩"
+    },
+    {
+      "index": 1154,
+      "word": "earthquake",
+      "phonetic": "/'ə:θkweik/",
+      "definition": "n.地震"
+    },
+    {
+      "index": 1155,
+      "word": "interpret",
+      "phonetic": "/in'tə:prit/",
+      "definition": "vt.解释,说明;口译"
+    },
+    {
+      "index": 1156,
+      "word": "youth",
+      "phonetic": "/ju:θ/",
+      "definition": "n.青年;年轻人"
+    },
+    {
+      "index": 1157,
+      "word": "judgement",
+      "phonetic": "/'dʒʌdʒmənt/",
+      "definition": "n.(judgment)审判,判决;判断(力);看法,意见"
+    },
+    {
+      "index": 1158,
+      "word": "gallop",
+      "phonetic": "/'gæləp/",
+      "definition": "v./n.奔驰,飞奔"
+    },
+    {
+      "index": 1159,
+      "word": "insult",
+      "phonetic": "/in'sʌlt/",
+      "definition": "vt./n.侮辱,凌辱"
+    },
+    {
+      "index": 1160,
+      "word": "compensate",
+      "phonetic": "/'kɔmpenseit/",
+      "definition": "v.(for)补偿,赔偿"
+    },
+    {
+      "index": 1161,
+      "word": "apart",
+      "phonetic": "/ə'pɑ:t/",
+      "definition": "ad.分离，离开，隔开 a.分离的，分隔的"
+    },
+    {
+      "index": 1162,
+      "word": "joy",
+      "phonetic": "/dʒɔi/",
+      "definition": "n.欢乐,喜悦;乐事,乐趣"
+    },
+    {
+      "index": 1163,
+      "word": "entitle",
+      "phonetic": "/in'taitl/",
+      "definition": "v.给以权利(或资格);给…称号(题名);授权"
+    },
+    {
+      "index": 1164,
+      "word": "bacterium",
+      "phonetic": "/bæk'tiəriəm/",
+      "definition": "n.(pl.)bacteria 细菌"
+    },
+    {
+      "index": 1165,
+      "word": "generate",
+      "phonetic": "/'dʒenəreɪt/",
+      "definition": "vt.产生,发生;生殖"
+    },
+    {
+      "index": 1166,
+      "word": "underestimate",
+      "phonetic": "/ˌʌndə'estimeit/",
+      "definition": "vt.低估，看轻"
+    },
+    {
+      "index": 1167,
+      "word": "continuous",
+      "phonetic": "/kən'tinjuəs/",
+      "definition": "a.连续的,持续的"
+    },
+    {
+      "index": 1168,
+      "word": "grade",
+      "phonetic": "/greid/",
+      "definition": "n.等级,级别;年级;分数 v.分等,分级"
+    },
+    {
+      "index": 1169,
+      "word": "easy",
+      "phonetic": "/'i:zi/",
+      "definition": "a.容易的，不费力的，安逸的，宽裕的"
+    },
+    {
+      "index": 1170,
+      "word": "sleeve",
+      "phonetic": "/sli:v/",
+      "definition": "n.袖子"
+    },
+    {
+      "index": 1171,
+      "word": "very",
+      "phonetic": "/'veri/",
+      "definition": "ad.很，非常；完全 a.正是的；真正，真实的"
+    },
+    {
+      "index": 1172,
+      "word": "commonplace",
+      "phonetic": "/'kɔmənpleis/",
+      "definition": "a.普通的，平庸的n.寻常事物，平庸的东西"
+    },
+    {
+      "index": 1173,
+      "word": "obstruct",
+      "phonetic": "/əb'strʌkt/",
+      "definition": "v.阻隔,阻塞(道路、通道等)n.阻碍物,障碍物"
+    },
+    {
+      "index": 1174,
+      "word": "activate",
+      "phonetic": "/'æktiveit/",
+      "definition": "vt.启动，激活；驱动，驱使；使开始起作用"
+    },
+    {
+      "index": 1175,
+      "word": "pension",
+      "phonetic": "/'penʃən/",
+      "definition": "n.养老金,年金"
+    },
+    {
+      "index": 1176,
+      "word": "train",
+      "phonetic": "/trein/",
+      "definition": "n.列车;行列,系列,一串 v.训练,培养"
+    },
+    {
+      "index": 1177,
+      "word": "mutual",
+      "phonetic": "/'mju:tʃuəl/",
+      "definition": "a.相互的，彼此的；共同的，共有的"
+    },
+    {
+      "index": 1178,
+      "word": "steal",
+      "phonetic": "/sti:l/",
+      "definition": "v.偷,窃取;偷偷地做,巧取"
+    },
+    {
+      "index": 1179,
+      "word": "audit",
+      "phonetic": "/'ɔ:dit/",
+      "definition": "v.审计；查帐；核对；旁听"
+    },
+    {
+      "index": 1180,
+      "word": "garage",
+      "phonetic": "/'gærɑ:ʒ/",
+      "definition": "n.车库,飞机库;修车厂"
+    },
+    {
+      "index": 1181,
+      "word": "acid",
+      "phonetic": "/'æsid/",
+      "definition": "n.酸,酸性物质a.酸的,酸味的；尖刻的"
+    },
+    {
+      "index": 1182,
+      "word": "treason",
+      "phonetic": "/'tri:zən/",
+      "definition": "n.谋反,通敌,叛国"
+    },
+    {
+      "index": 1183,
+      "word": "temptation",
+      "phonetic": "/temp'teiʃən/",
+      "definition": "n.引诱，诱惑；诱惑物"
+    },
+    {
+      "index": 1184,
+      "word": "tablet",
+      "phonetic": "/'tæblət/",
+      "definition": "n.药片;碑,匾"
+    },
+    {
+      "index": 1185,
+      "word": "storage",
+      "phonetic": "/'stɔridʒ/",
+      "definition": "n.贮藏(量),保管;库房"
+    },
+    {
+      "index": 1186,
+      "word": "resistance",
+      "phonetic": "/ri'zistəns/",
+      "definition": "n.(to)抵抗,反抗;抵抗力,阻力;电阻"
+    },
+    {
+      "index": 1187,
+      "word": "nickname",
+      "phonetic": "/'nikneim/",
+      "definition": "n.绰号，浑名vt.给…起绰号"
+    },
+    {
+      "index": 1188,
+      "word": "she",
+      "phonetic": "/ʃi:/",
+      "definition": "pron.(主格)她"
+    },
+    {
+      "index": 1189,
+      "word": "pile",
+      "phonetic": "/pail/",
+      "definition": "n.堆,大量,大数目 v.(up)堆,叠,堆积"
+    },
+    {
+      "index": 1190,
+      "word": "stubborn",
+      "phonetic": "/'stʌbən/",
+      "definition": "a.顽固的,倔强的;难对付的,难以克服的"
+    },
+    {
+      "index": 1191,
+      "word": "stool",
+      "phonetic": "/stu:l/",
+      "definition": "n.凳子；(pl.)大便"
+    },
+    {
+      "index": 1192,
+      "word": "violet",
+      "phonetic": "/'vaiələt/",
+      "definition": "n.紫罗兰,紫色 a.紫色的"
+    },
+    {
+      "index": 1193,
+      "word": "defeat",
+      "phonetic": "/di'fi:t/",
+      "definition": "n.击败,战胜,失败 v.击败,战胜;使失败"
+    },
+    {
+      "index": 1194,
+      "word": "holy",
+      "phonetic": "/'həuli/",
+      "definition": "a.神圣的,圣洁的"
+    },
+    {
+      "index": 1195,
+      "word": "meat",
+      "phonetic": "/mi:t/",
+      "definition": "n.(食用)肉类"
+    },
+    {
+      "index": 1196,
+      "word": "exert",
+      "phonetic": "/ig'zə:t/",
+      "definition": "v.尽(力),施加(压力等),努力"
+    },
+    {
+      "index": 1197,
+      "word": "magnetic",
+      "phonetic": "/mæg'netik/",
+      "definition": "a.磁的,有磁性的;有吸引力的"
+    },
+    {
+      "index": 1198,
+      "word": "lobby",
+      "phonetic": "/'lɔbi/",
+      "definition": "n.门廊,门厅,(会议)休息厅"
+    },
+    {
+      "index": 1199,
+      "word": "waitress",
+      "phonetic": "/'weitris/",
+      "definition": "n.女侍者,女服务员"
+    },
+    {
+      "index": 1200,
+      "word": "outside",
+      "phonetic": "/ˌaut'said/",
+      "definition": "ad.向外面 n.外部 a.外部的 prep.在…外"
+    }
+  ]
+}

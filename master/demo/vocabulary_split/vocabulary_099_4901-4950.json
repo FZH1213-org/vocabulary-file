@@ -1,0 +1,307 @@
+{
+  "chunk": 99,
+  "range": "4901-4950",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 4901,
+      "word": "cripple",
+      "phonetic": "/'kripl/",
+      "definition": "n.跛子,残疾人 v.使跛,使残疾"
+    },
+    {
+      "index": 4902,
+      "word": "tag",
+      "phonetic": "/tæg/",
+      "definition": "n.标签;鞋带;垂饰;vt.加标签于;附加vi.紧随"
+    },
+    {
+      "index": 4903,
+      "word": "tone",
+      "phonetic": "/təun/",
+      "definition": "n.音调,音色;风气,气氛;腔调,语气;色调"
+    },
+    {
+      "index": 4904,
+      "word": "oval",
+      "phonetic": "/'əuvəl/",
+      "definition": "a.卵形的，椭圆形的 n.卵形，椭圆形"
+    },
+    {
+      "index": 4905,
+      "word": "imperative",
+      "phonetic": "/ɪm'perətɪv/",
+      "definition": "n.命令;需要;规则;祈使语气a.强制的;紧急的"
+    },
+    {
+      "index": 4906,
+      "word": "stimulate",
+      "phonetic": "/'stimjuleit/",
+      "definition": "v.刺激,使兴奋;激励,鼓舞"
+    },
+    {
+      "index": 4907,
+      "word": "abnormal",
+      "phonetic": "/æb'nɔ:məl/",
+      "definition": "a.反常的，不正常的，不规则的"
+    },
+    {
+      "index": 4908,
+      "word": "craft",
+      "phonetic": "/krɑ:ft/",
+      "definition": "n.工艺,手艺,技巧;飞机,飞船"
+    },
+    {
+      "index": 4909,
+      "word": "interface",
+      "phonetic": "/'ɪntəfeɪs/",
+      "definition": "n.接合部位，分界面 v.(使)互相联系"
+    },
+    {
+      "index": 4910,
+      "word": "agreeable",
+      "phonetic": "/ə'gri:əbl/",
+      "definition": "a.符合的,一致的；欣然同意的；令人愉快的"
+    },
+    {
+      "index": 4911,
+      "word": "elbow",
+      "phonetic": "/'elbəu/",
+      "definition": "n.肘，(衣服的)肘部vt.用肘推，用肘挤"
+    },
+    {
+      "index": 4912,
+      "word": "midst",
+      "phonetic": "/midst/",
+      "definition": "n.中间,当中"
+    },
+    {
+      "index": 4913,
+      "word": "municipal",
+      "phonetic": "/mju:'nisipəl/",
+      "definition": "a.市(立,政)的;地方性的,地方自治的"
+    },
+    {
+      "index": 4914,
+      "word": "entrepreneur",
+      "phonetic": "/ˌɔntrəprə'nə:/",
+      "definition": "n.[法]企业家, 主办人"
+    },
+    {
+      "index": 4915,
+      "word": "liquor",
+      "phonetic": "/'likə/",
+      "definition": "n.酒；溶液，液剂"
+    },
+    {
+      "index": 4916,
+      "word": "devote",
+      "phonetic": "/di'vəut/",
+      "definition": "v.(to)奉献,致力"
+    },
+    {
+      "index": 4917,
+      "word": "seven",
+      "phonetic": "/'sevən/",
+      "definition": "num.七，七个(人或物)"
+    },
+    {
+      "index": 4918,
+      "word": "dislike",
+      "phonetic": "/dis'laik/",
+      "definition": "n./v.不喜欢,厌恶"
+    },
+    {
+      "index": 4919,
+      "word": "upon",
+      "phonetic": "/ə'pɔn/",
+      "definition": "prep.在…上；在…旁 [=on]"
+    },
+    {
+      "index": 4920,
+      "word": "poll",
+      "phonetic": "/pəul/",
+      "definition": "n.民意测验;(pl.)政治选举 v.获得…选票"
+    },
+    {
+      "index": 4921,
+      "word": "plastic",
+      "phonetic": "/'plæstik/",
+      "definition": "n.(常pl.)塑料,塑料制品 a.可塑的,塑性的"
+    },
+    {
+      "index": 4922,
+      "word": "decimal",
+      "phonetic": "/'desiməl/",
+      "definition": "a.十进的,小数的,十进制的 n.小数"
+    },
+    {
+      "index": 4923,
+      "word": "screw",
+      "phonetic": "/skru:/",
+      "definition": "n.螺旋,螺丝(钉) v.拧,拧紧"
+    },
+    {
+      "index": 4924,
+      "word": "stain",
+      "phonetic": "/steɪn/",
+      "definition": "n.污点,瑕疵 v.沾污;染色"
+    },
+    {
+      "index": 4925,
+      "word": "financial",
+      "phonetic": "/fai'nænʃəl/",
+      "definition": "a.财政的,金融的"
+    },
+    {
+      "index": 4926,
+      "word": "passage",
+      "phonetic": "/'pæsɪdʒ/",
+      "definition": "n.通过,经过;通路,走廊;(一)段落,(一)节"
+    },
+    {
+      "index": 4927,
+      "word": "frontier",
+      "phonetic": "/'frʌntjə/",
+      "definition": "n.国境,边境;尖端,新领域"
+    },
+    {
+      "index": 4928,
+      "word": "auction",
+      "phonetic": "/'ɔ:kʃən/",
+      "definition": "n.／vt.拍卖"
+    },
+    {
+      "index": 4929,
+      "word": "emerge",
+      "phonetic": "/i'mə:dʒ/",
+      "definition": "vt.显现,浮现;暴露;形成;"
+    },
+    {
+      "index": 4930,
+      "word": "gum",
+      "phonetic": "/gʌm/",
+      "definition": "n.树胶;口香糖"
+    },
+    {
+      "index": 4931,
+      "word": "reply",
+      "phonetic": "/ri'plai/",
+      "definition": "v./n.(to)回答,答复,以…作答"
+    },
+    {
+      "index": 4932,
+      "word": "stable",
+      "phonetic": "/'steibl/",
+      "definition": "a.稳定的,安定的 n.马厩,马棚"
+    },
+    {
+      "index": 4933,
+      "word": "difference",
+      "phonetic": "/'dɪfrəns/",
+      "definition": "n.差别,差异,分歧"
+    },
+    {
+      "index": 4934,
+      "word": "bank",
+      "phonetic": "/bæŋk/",
+      "definition": "n.银行；岸,堤；vi.存入(经营)银行；信赖"
+    },
+    {
+      "index": 4935,
+      "word": "behave",
+      "phonetic": "/bi'heiv/",
+      "definition": "v.举止,举动,表现;运转,开动"
+    },
+    {
+      "index": 4936,
+      "word": "extravagant",
+      "phonetic": "/ik'strævəgənt/",
+      "definition": "a.奢侈的;过分的;(言行等)放肆的"
+    },
+    {
+      "index": 4937,
+      "word": "affiliate",
+      "phonetic": "/ə'filieit/",
+      "definition": "v.使隶属(或附属)于 n.附属机构，分公司"
+    },
+    {
+      "index": 4938,
+      "word": "conference",
+      "phonetic": "/'kɒnfərəns/",
+      "definition": "n.(正式)会议；讨论，商谈"
+    },
+    {
+      "index": 4939,
+      "word": "pickup",
+      "phonetic": "/'pikʌp/",
+      "definition": "n.拾起,获得"
+    },
+    {
+      "index": 4940,
+      "word": "phone",
+      "phonetic": "/fəun/",
+      "definition": "n.(telephone)电话,电话机,耳机 v.打电话"
+    },
+    {
+      "index": 4941,
+      "word": "oneself",
+      "phonetic": "/wʌn'self/",
+      "definition": "pron.[反身代词]自己；亲自，本人"
+    },
+    {
+      "index": 4942,
+      "word": "during",
+      "phonetic": "/'djuəriŋ/",
+      "definition": "prep.在…期间"
+    },
+    {
+      "index": 4943,
+      "word": "pray",
+      "phonetic": "/prei/",
+      "definition": "v.请求,恳求;祈祷,祈求"
+    },
+    {
+      "index": 4944,
+      "word": "repeat",
+      "phonetic": "/ri'pi:t/",
+      "definition": "v.重复,重说,重做 n.重复"
+    },
+    {
+      "index": 4945,
+      "word": "conservative",
+      "phonetic": "/kən'sə:vətiv/",
+      "definition": "a.保守的,守旧的 n.保守主义者"
+    },
+    {
+      "index": 4946,
+      "word": "claim",
+      "phonetic": "/kleim/",
+      "definition": "v.要求;声称;索赔 n.要求;断言;索赔;权利"
+    },
+    {
+      "index": 4947,
+      "word": "cape",
+      "phonetic": "/keip/",
+      "definition": "n.海角，岬；披肩，短披风"
+    },
+    {
+      "index": 4948,
+      "word": "magnet",
+      "phonetic": "/'mægnit/",
+      "definition": "n.磁体,磁铁"
+    },
+    {
+      "index": 4949,
+      "word": "cordial",
+      "phonetic": "/'kɔ:djəl/",
+      "definition": "a.诚恳的,亲切的,热诚的"
+    },
+    {
+      "index": 4950,
+      "word": "treaty",
+      "phonetic": "/'tri:ti/",
+      "definition": "n.条约，协议，协商"
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "chunk": 78,
+  "range": "3851-3900",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 3851,
+      "word": "blank",
+      "phonetic": "/blæŋk/",
+      "definition": "a.空白的,空着的;失色的 n.空白;表格"
+    },
+    {
+      "index": 3852,
+      "word": "proper",
+      "phonetic": "/'prɔpə/",
+      "definition": "a.适合的;合乎体统的;固有的;有礼貌的"
+    },
+    {
+      "index": 3853,
+      "word": "accommodate",
+      "phonetic": "/ə'kɒmədeɪt/",
+      "definition": "vt.向…提供住处；对...予以照顾性考虑"
+    },
+    {
+      "index": 3854,
+      "word": "waste",
+      "phonetic": "/weist/",
+      "definition": "v.浪费 a.无用的;荒芜的 n.浪费;废物"
+    },
+    {
+      "index": 3855,
+      "word": "name",
+      "phonetic": "/neɪm/",
+      "definition": "n.名字(称/声/义) vt.给…取名；列举；提名"
+    },
+    {
+      "index": 3856,
+      "word": "level",
+      "phonetic": "/'levəl/",
+      "definition": "n.水平，水准，等级 v.弄平，铺平 a.水平的"
+    },
+    {
+      "index": 3857,
+      "word": "fish",
+      "phonetic": "/fiʃ/",
+      "definition": "n.(pl.fish(es))鱼；鱼肉 v.捕鱼；钓鱼"
+    },
+    {
+      "index": 3858,
+      "word": "into",
+      "phonetic": "/'intu:/",
+      "definition": "prep.到...里面，进入；成为(表示变化)"
+    },
+    {
+      "index": 3859,
+      "word": "crane",
+      "phonetic": "/krein/",
+      "definition": "n.起重机,鹤"
+    },
+    {
+      "index": 3860,
+      "word": "bowl",
+      "phonetic": "/bəul/",
+      "definition": "n.碗(状物),钵"
+    },
+    {
+      "index": 3861,
+      "word": "turn",
+      "phonetic": "/tɜ:n/",
+      "definition": "v./n.(使)转动;(使)旋转;(使)转变 n.机会"
+    },
+    {
+      "index": 3862,
+      "word": "freight",
+      "phonetic": "/freit/",
+      "definition": "n.货物,货运,运费"
+    },
+    {
+      "index": 3863,
+      "word": "blush",
+      "phonetic": "/blʌʃ/",
+      "definition": "v./n.脸红"
+    },
+    {
+      "index": 3864,
+      "word": "original",
+      "phonetic": "/ə'ridʒənəl/",
+      "definition": "a.最初的,原文的;新颖的 n.原物,原作,原文"
+    },
+    {
+      "index": 3865,
+      "word": "hurl",
+      "phonetic": "/hə:l/",
+      "definition": "vt.猛投，力掷；大声叫骂"
+    },
+    {
+      "index": 3866,
+      "word": "lateral",
+      "phonetic": "/'lætərəl/",
+      "definition": "n.侧面的,旁边的"
+    },
+    {
+      "index": 3867,
+      "word": "cent",
+      "phonetic": "/sent/",
+      "definition": "n.分(币);百 per cent百分之"
+    },
+    {
+      "index": 3868,
+      "word": "canoe",
+      "phonetic": "/kə'nu:/",
+      "definition": "n.独木舟,小游艇"
+    },
+    {
+      "index": 3869,
+      "word": "paw",
+      "phonetic": "/pɔ:/",
+      "definition": "n.爪"
+    },
+    {
+      "index": 3870,
+      "word": "accurate",
+      "phonetic": "/'ækjurət/",
+      "definition": "a.正确无误的；准确的，精确的"
+    },
+    {
+      "index": 3871,
+      "word": "disastrous",
+      "phonetic": "/di'zɑ:strəs/",
+      "definition": "a.灾难性的"
+    },
+    {
+      "index": 3872,
+      "word": "patient",
+      "phonetic": "/'peiʃənt/",
+      "definition": "a.有耐心的,能忍耐的 n.病人,患者"
+    },
+    {
+      "index": 3873,
+      "word": "curriculum",
+      "phonetic": "/kə'rikjuləm/",
+      "definition": "n.(pl.curricula)课程,(学校等的)全部课程"
+    },
+    {
+      "index": 3874,
+      "word": "role",
+      "phonetic": "/rəul/",
+      "definition": "n.角色,作用,任务,职责"
+    },
+    {
+      "index": 3875,
+      "word": "successor",
+      "phonetic": "/sək'sesə/",
+      "definition": "n.接替的人或事物，继任者"
+    },
+    {
+      "index": 3876,
+      "word": "tribe",
+      "phonetic": "/traib/",
+      "definition": "n.种族，部落；(植物，动物)族，类"
+    },
+    {
+      "index": 3877,
+      "word": "camera",
+      "phonetic": "/'kæmərə/",
+      "definition": "n.照相机,摄影机"
+    },
+    {
+      "index": 3878,
+      "word": "feasible",
+      "phonetic": "/'fi:zəbl/",
+      "definition": "a.可行的;切实可行的;行得通的;可用的"
+    },
+    {
+      "index": 3879,
+      "word": "result",
+      "phonetic": "/ri'zʌlt/",
+      "definition": "n.结果,成绩 v.结果,致使,导致,由…而造成"
+    },
+    {
+      "index": 3880,
+      "word": "prisoner",
+      "phonetic": "/'prizənə/",
+      "definition": "n.囚犯"
+    },
+    {
+      "index": 3881,
+      "word": "germ",
+      "phonetic": "/dʒə:m/",
+      "definition": "n.微生物,细菌"
+    },
+    {
+      "index": 3882,
+      "word": "crop",
+      "phonetic": "/krɔp/",
+      "definition": "n.作物,庄稼;(谷类等的)一熟收成;一批,大量"
+    },
+    {
+      "index": 3883,
+      "word": "restaurant",
+      "phonetic": "/'restərɔŋ/",
+      "definition": "n.餐馆,饭店"
+    },
+    {
+      "index": 3884,
+      "word": "art",
+      "phonetic": "/ɑ:t/",
+      "definition": "n.艺术；技术，技艺；文科，人文科学"
+    },
+    {
+      "index": 3885,
+      "word": "surpass",
+      "phonetic": "/sə'pɑ:s/",
+      "definition": "vt.超过,胜过"
+    },
+    {
+      "index": 3886,
+      "word": "start",
+      "phonetic": "/stɑ:t/",
+      "definition": "v.开始;动身;吃惊;开办,开动 n.开端;惊起"
+    },
+    {
+      "index": 3887,
+      "word": "neutral",
+      "phonetic": "/'nju:trəl/",
+      "definition": "a.中立的;中性的,中和的"
+    },
+    {
+      "index": 3888,
+      "word": "novel",
+      "phonetic": "/'nɔvəl/",
+      "definition": "n.(长篇)小说 a.新奇的,新颖的"
+    },
+    {
+      "index": 3889,
+      "word": "painter",
+      "phonetic": "/'peintə/",
+      "definition": "n.漆工,画家"
+    },
+    {
+      "index": 3890,
+      "word": "regret",
+      "phonetic": "/rɪ'gret/",
+      "definition": "v./n.遗憾,懊悔,抱歉"
+    },
+    {
+      "index": 3891,
+      "word": "lesson",
+      "phonetic": "/'lesən/",
+      "definition": "n.(功)课；[pl.]课程；教训"
+    },
+    {
+      "index": 3892,
+      "word": "arrange",
+      "phonetic": "/ə'reindʒ/",
+      "definition": "v.安排；整理，使有条理，排列，布置"
+    },
+    {
+      "index": 3893,
+      "word": "politician",
+      "phonetic": "/ˌpɔli'tiʃən/",
+      "definition": "n.政治家,政客"
+    },
+    {
+      "index": 3894,
+      "word": "about",
+      "phonetic": "/ə'baut/",
+      "definition": "ad.在周围；大约 prep.关于；在周围 a.准备"
+    },
+    {
+      "index": 3895,
+      "word": "nickel",
+      "phonetic": "/'nikəl/",
+      "definition": "n.镍;镍币;五美分"
+    },
+    {
+      "index": 3896,
+      "word": "mercy",
+      "phonetic": "/'mə:si/",
+      "definition": "n.仁慈,怜悯,宽恕"
+    },
+    {
+      "index": 3897,
+      "word": "siege",
+      "phonetic": "/si:dʒ/",
+      "definition": "n.包围，围攻，围困"
+    },
+    {
+      "index": 3898,
+      "word": "relative",
+      "phonetic": "/'relətiv/",
+      "definition": "a.相对的,比较的,有关系的 n.亲戚,关系词"
+    },
+    {
+      "index": 3899,
+      "word": "transcend",
+      "phonetic": "/træn'send/",
+      "definition": "vt.超出,超越(经验、知识、能力的范围等)"
+    },
+    {
+      "index": 3900,
+      "word": "kidney",
+      "phonetic": "/'kidni/",
+      "definition": "n.肾,肾脏"
+    }
+  ]
+}

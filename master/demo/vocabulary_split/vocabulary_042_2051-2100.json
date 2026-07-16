@@ -1,0 +1,307 @@
+{
+  "chunk": 42,
+  "range": "2051-2100",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 2051,
+      "word": "within",
+      "phonetic": "/wi'ðin/",
+      "definition": "prep.在…里面,在…以内 ad.在内"
+    },
+    {
+      "index": 2052,
+      "word": "margin",
+      "phonetic": "/'mɑ:dʒin/",
+      "definition": "n.页边空白;边缘;余地;幅度"
+    },
+    {
+      "index": 2053,
+      "word": "framework",
+      "phonetic": "/'freimwə:k/",
+      "definition": "n.构架;框架;结构;组织;机构"
+    },
+    {
+      "index": 2054,
+      "word": "circumference",
+      "phonetic": "/sə'kʌmfərəns/",
+      "definition": "n.圆周,周围"
+    },
+    {
+      "index": 2055,
+      "word": "sky",
+      "phonetic": "/skai/",
+      "definition": "n.天空；[pl.]天色；气候"
+    },
+    {
+      "index": 2056,
+      "word": "Negro",
+      "phonetic": "/'ni:grəu/",
+      "definition": "n.黑人 a.黑人的"
+    },
+    {
+      "index": 2057,
+      "word": "sympathetic",
+      "phonetic": "/ˌsimpə'θetik/",
+      "definition": "a.有同情心的；赞同的；n.交感神经"
+    },
+    {
+      "index": 2058,
+      "word": "hire",
+      "phonetic": "/haiə/",
+      "definition": "n./v.雇用,租借"
+    },
+    {
+      "index": 2059,
+      "word": "sunshine",
+      "phonetic": "/'sʌnʃain/",
+      "definition": "n.日光,日照；晴天；"
+    },
+    {
+      "index": 2060,
+      "word": "advanced",
+      "phonetic": "/əd'vɑ:nst/",
+      "definition": "a.超前的；高级的；开明的；前进的"
+    },
+    {
+      "index": 2061,
+      "word": "die",
+      "phonetic": "/daɪ/",
+      "definition": "vi.死，死亡；(草木)枯萎，凋谢；渴望"
+    },
+    {
+      "index": 2062,
+      "word": "trunk",
+      "phonetic": "/trʌŋk/",
+      "definition": "n.大衣箱,皮箱;(汽车后部)行李箱;树干,躯干"
+    },
+    {
+      "index": 2063,
+      "word": "database",
+      "phonetic": "/'deitəbeis/",
+      "definition": "n.(databank)数据库"
+    },
+    {
+      "index": 2064,
+      "word": "take",
+      "phonetic": "/teɪk/",
+      "definition": "v.拿取；吃；记录；取得；花费；捕获；认为"
+    },
+    {
+      "index": 2065,
+      "word": "fall",
+      "phonetic": "/fɔ:l/",
+      "definition": "v.跌倒;下降;减弱;坠落;变成,陷于 n.秋季"
+    },
+    {
+      "index": 2066,
+      "word": "convenience",
+      "phonetic": "/kən'vi:njəns/",
+      "definition": "n.便利,方便;(pl.)便利设备"
+    },
+    {
+      "index": 2067,
+      "word": "therapy",
+      "phonetic": "/'θerəpi/",
+      "definition": "n.治疗，(不需要药物或手术的)物理疗法"
+    },
+    {
+      "index": 2068,
+      "word": "delegate",
+      "phonetic": "/'deligət/",
+      "definition": "n.代表 vt.委派…为代表;授权;委托"
+    },
+    {
+      "index": 2069,
+      "word": "replace",
+      "phonetic": "/ri'pleis/",
+      "definition": "vt.取代,替换,代替,把...放回原处"
+    },
+    {
+      "index": 2070,
+      "word": "bean",
+      "phonetic": "/bi:n/",
+      "definition": "n.豆;菜豆,蚕豆"
+    },
+    {
+      "index": 2071,
+      "word": "model",
+      "phonetic": "/'mɔdəl/",
+      "definition": "n.样式,型;模范;模型,原型;模特 v.模仿"
+    },
+    {
+      "index": 2072,
+      "word": "touch",
+      "phonetic": "/tʌtʃ/",
+      "definition": "v.触,碰,摸;感动;涉及 n.触动,碰到;少许"
+    },
+    {
+      "index": 2073,
+      "word": "team",
+      "phonetic": "/ti:m/",
+      "definition": "n.小队,小组 v.协同工作"
+    },
+    {
+      "index": 2074,
+      "word": "disc",
+      "phonetic": "/disk/",
+      "definition": "n.(disk)圆盘,圆面,盘状物"
+    },
+    {
+      "index": 2075,
+      "word": "timely",
+      "phonetic": "/'taimli/",
+      "definition": "a.及时的,适时的"
+    },
+    {
+      "index": 2076,
+      "word": "silicon",
+      "phonetic": "/'silikən/",
+      "definition": "n.硅"
+    },
+    {
+      "index": 2077,
+      "word": "cyberspace",
+      "phonetic": "/'saɪbəspeɪs/",
+      "definition": "n.虚拟信息空间;网络空间"
+    },
+    {
+      "index": 2078,
+      "word": "tramp",
+      "phonetic": "/træmp/",
+      "definition": "n./v步行;沉重的脚步声(走)v.践踏n.流浪者"
+    },
+    {
+      "index": 2079,
+      "word": "my",
+      "phonetic": "/mai/",
+      "definition": "pron.(I的所有格)我的"
+    },
+    {
+      "index": 2080,
+      "word": "pulse",
+      "phonetic": "/pʌls/",
+      "definition": "n.脉搏,脉冲"
+    },
+    {
+      "index": 2081,
+      "word": "suffice",
+      "phonetic": "/sə'fais/",
+      "definition": "v.充足，足够；vt.(食物等)使(某人)满足"
+    },
+    {
+      "index": 2082,
+      "word": "confer",
+      "phonetic": "/kən'fə:/",
+      "definition": "v.商讨；授予，颁给(勋衔，学位等)"
+    },
+    {
+      "index": 2083,
+      "word": "medium",
+      "phonetic": "/'mi:diəm/",
+      "definition": "n.(pl.media)媒体,方法,媒介,介质 a.中等的"
+    },
+    {
+      "index": 2084,
+      "word": "acrobat",
+      "phonetic": "/'ækrəbæt/",
+      "definition": "n.特技演员，杂技演员"
+    },
+    {
+      "index": 2085,
+      "word": "drip",
+      "phonetic": "/drip/",
+      "definition": "v.滴下,漏水 n.滴,水滴,点滴"
+    },
+    {
+      "index": 2086,
+      "word": "three",
+      "phonetic": "/θri:/",
+      "definition": "num.三 pron./a.三(个，只...)"
+    },
+    {
+      "index": 2087,
+      "word": "abuse",
+      "phonetic": "/ə'bju:z/",
+      "definition": "vt.滥用；辱骂；诋毁 n.滥用；恶习；弊端"
+    },
+    {
+      "index": 2088,
+      "word": "brook",
+      "phonetic": "/bruk/",
+      "definition": "n.小溪vt.[常用于否定句或疑问句]容忍"
+    },
+    {
+      "index": 2089,
+      "word": "preference",
+      "phonetic": "/'prefərəns/",
+      "definition": "n.(for,to)偏爱,喜爱;优惠;优先选择"
+    },
+    {
+      "index": 2090,
+      "word": "arithmetic",
+      "phonetic": "/ə'riθmətik/",
+      "definition": "n.算术，四则运算"
+    },
+    {
+      "index": 2091,
+      "word": "significant",
+      "phonetic": "/sig'nifikənt/",
+      "definition": "a.有意义的;重大的,重要的"
+    },
+    {
+      "index": 2092,
+      "word": "explore",
+      "phonetic": "/ik'splɔ:/",
+      "definition": "v.勘探,探测;探究,探索"
+    },
+    {
+      "index": 2093,
+      "word": "maintain",
+      "phonetic": "/mein'tein/",
+      "definition": "v.维修,保养,维持,供养,坚持,主张,支持"
+    },
+    {
+      "index": 2094,
+      "word": "longitude",
+      "phonetic": "/'lɔndʒitju:d/",
+      "definition": "n.经度"
+    },
+    {
+      "index": 2095,
+      "word": "unfortunately",
+      "phonetic": "/ʌn'fɔ:tʃənətli/",
+      "definition": "ad.不幸地"
+    },
+    {
+      "index": 2096,
+      "word": "useful",
+      "phonetic": "/'ju:sful/",
+      "definition": "a.有用的，实用的；有益的，有帮助的"
+    },
+    {
+      "index": 2097,
+      "word": "heel",
+      "phonetic": "/hi:l/",
+      "definition": "n.脚后跟,踵,鞋跟"
+    },
+    {
+      "index": 2098,
+      "word": "absurd",
+      "phonetic": "/əb'sə:d/",
+      "definition": "a.荒谬的，荒诞的，荒唐可笑的；不合理的"
+    },
+    {
+      "index": 2099,
+      "word": "skin",
+      "phonetic": "/skin/",
+      "definition": "n.皮,皮肤;兽皮,皮毛;外皮,外壳 v.剥皮"
+    },
+    {
+      "index": 2100,
+      "word": "political",
+      "phonetic": "/pə'litikəl/",
+      "definition": "a.政治的"
+    }
+  ]
+}
