@@ -1,0 +1,278 @@
+const fs = require('fs');
+const path = require('path');
+
+// 读取词汇表
+const vocabData = JSON.parse(fs.readFileSync('master/demo/vocabulary_split/vocabulary_007_301-350.json', 'utf-8'));
+
+// 故事内容（学习版）- 使用50个单词
+const storyParagraphs = [
+  `周一的早晨，苏晴准时到达公司。作为市场部的经理助理，她对工作的<span class="w">importance(重要性)📢</span>有着清晰的认识。今天的<span class="w">orientation(方向)📢</span>是参加公司的年度规划会议，她带着笔记本，走向会议室。`,
+
+  `会议室里，公司的<span class="w">interior(内部)📢</span>装修简洁现代，落地窗外是繁华的城市景色。苏晴的目光不经意间扫过会议桌对面，那里坐着销售总监李明轩——那个让她心跳加速的男人。然而，公司有严格的<span class="w">regulation(规章)📢</span>，禁止办公室恋情。`,
+
+  `会议开始了，李明轩正在讲解新一季度的销售<span class="w">scheme(方案)📢</span>。他自信从容的样子让苏晴十分着迷。她努力集中注意力，记录着会议要点，但心中却在<span class="w">doubt(怀疑)📢</span>自己是否能够控制住这份情感。`,
+
+  `会议结束后，苏晴回到办公室，继续处理日常工作。她负责整理公司的<span class="w">textile(纺织)📢</span>产品资料，为即将到来的展会做准备。就在她全神贯注工作时，李明轩走进了办公室。`,
+
+  `"苏晴，你<b>excel</b>(擅长)<span class="w">excel(擅长)📢</span>数据分析，能帮我看一下这份报告吗？"李明轩递过来一份文件。苏晴接过文件，心跳加速。她点头："好的，李总，我马上处理。"`,
+
+  `苏晴仔细研读报告，发现其中存在几个小错误。她立即修正后，将报告交还给李明轩。李明轩看完后，赞赏地说："做得很好，谢谢你。"苏晴心中涌起一阵暖意，她努力保持镇定，说："不客气，这是我的工作。"`,
+
+  `从那天起，李明轩开始频繁找苏晴帮忙。有时是处理文件，有时是整理资料。苏晴明白，这种互动已经超出了正常的工作<span class="w">reliance(依赖)📢</span>关系，但她无法拒绝他的请求。`,
+
+  `一天<span class="w">Tuesday(星期二)📢</span>的下午，公司组织团队活动——观看一场轻松的<span class="w">comedy(喜剧)📢</span>电影。苏晴坐在影厅的后排，李明轩恰好坐在她旁边。电影开始前，李明轩轻声说："这部电影应该很<span class="w">exciting(令人兴奋)📢</span>。"`,
+
+  `电影播放过程中，苏晴的注意力却无法集中在屏幕上。她能感受到李明轩的气息，那是一种让她心跳加速的存在。她努力让自己专注于电影，但心中的<span class="w">void(空虚)📢</span>感却越来越强烈。`,
+
+  `电影结束后，大家一同前往附近的餐厅用餐。一位年轻的<span class="w">waiter(服务员)📢</span>为大家倒上葡萄酒。苏晴坐在角落的位置，李明轩坐在她的对面。席间，同事们谈论着工作和生活，气氛轻松愉快。`,
+
+  `苏晴听到旁边同事低声议论："听说李总最近离婚了，现在单身。"她心中一惊，没想到李明轩已经经历过婚姻。她偷偷看向李明轩，他正微笑着与同事交谈，看不出任何异样。`,
+
+  `用餐结束后，李明轩主动提出送苏晴回家。苏晴犹豫片刻，最终点头同意。两人坐在车里，气氛有些微妙。李明轩打破沉默："苏晴，你在公司工作多久了？"`,
+
+  `"快三年了。"苏晴回答。李明轩点头："时间过得真快。我记得你刚入职时，还是个略显羞涩的小姑娘。"苏晴笑了笑："那时候确实什么都不懂，现在好多了。"`,
+
+  `车子停在苏晴住的小区门口。李明轩说："今天谢谢你。"苏晴微笑："应该的。"就在她准备下车时，李明轩突然说："苏晴，我希望能和你多交流。"苏晴愣住，不知如何回应。`,
+
+  `回到家后，苏晴躺在床上，反复思考李明轩的话。她知道，这份情感已经<span class="w">expand(扩张)📢</span>到无法忽视的程度。但她也清楚，办公室恋情是禁忌，一旦暴露，后果不堪设想。`,
+
+  `接下来的日子，苏晴尽量保持与李明轩的距离。她将注意力集中在工作上，努力让自己忘记那份情感。然而，李明轩并没有放弃。他会在公司偶遇时对她微笑，会发信息询问她的生活。`,
+
+  `一天，苏晴在茶水间<span class="w">overhear(偶然听到)📢</span>同事们的谈话。"听说李总最近对苏晴特别关照，你说他们是不是有什么？"苏晴心中一惊，原来同事们已经注意到了。她匆忙离开茶水间，心中充满了担忧。`,
+
+  `苏晴决定与李明轩坦白。她约他在公司楼下的咖啡厅见面。李明轩准时到达，坐在她对面，问："怎么了？有什么事吗？"苏晴深吸一口气，说："李总，我们这样不合适。公司有规定，我们不能……"`,
+
+  `李明轩沉默片刻，然后说："苏晴，我知道你在担心什么。但我想告诉你，我对你的感情是<span class="w">genuine(真实的)📢</span>。我愿意承担一切后果。"苏晴看着他真诚的眼神，心中动摇了。`,
+
+  `经过一番谈话，苏晴决定给自己一个机会。她明白，这份感情一旦开始，就再也没有回头的余地。她和李明轩约定，在公司保持距离，私下里可以发展感情。`,
+
+  `然而，事情并没有他们想象的那么简单。公司的晋升制度要求员工必须保持良好的职业形象。苏晴的职位<span class="w">locate(位于)📢</span>市场部，而李明轩是销售总监，两人的关系一旦暴露，将面临严重的后果。`,
+
+  `苏晴开始感到压力。她既要隐藏自己的感情，又要维持正常的工作表现。每天，她都在<span class="w">fight(战斗)📢</span>着内心的矛盾和挣扎。她的身体开始出现<span class="w">sore(疼痛)📢</span>症状，经常头痛和失眠。`,
+
+  `李明轩察觉到苏晴的异常，关心地问她怎么了。苏晴摇头："没什么，可能最近有点累。"李明轩握住她的手："如果你觉得压力太大，我们可以暂停。"苏晴看着他的眼神，心中充满了温暖。`,
+
+  `就在两人努力维持这段秘密恋情时，意外发生了。一天晚上，苏晴和李明轩在一家餐厅用餐，没想到遇到了公司的HR经理。HR经理看到他们，脸上露出惊讶的表情。`,
+
+  `第二天，苏晴被叫到人事部。HR经理严肃地看着她："苏晴，我们收到了关于你和李总关系的报告。公司有明确的<span class="w">regulation(规定)📢</span>，禁止上下级之间的恋情。"`,
+
+  `苏晴感到一阵恐慌。她努力保持冷静，问："请问这件事会怎么处理？"HR经理说："我们会进行调查。如果情况属实，你们中的一位可能需要离开公司。"`,
+
+  `苏晴走出人事部，心中充满了绝望。她知道，她必须做出选择——要么放弃这段感情，要么放弃这份工作。她感到前所未有的<span class="w">cruel(残酷)📢</span>现实摆在面前。`,
+
+  `当晚，苏晴与李明轩见面。她告诉他发生的事情。李明轩沉默片刻，然后说："苏晴，我愿意离开公司。你继续留下来。"苏晴惊讶地看着他："可是你在公司已经工作了十年……"`,
+
+  `李明轩微笑："有些东西比工作更重要。我不能让你为我放弃事业。"苏晴眼眶泛红，她知道，这个决定对李明轩来说并不容易。`,
+
+  `经过深思熟虑，苏晴说："李明轩，我们不能这样。我愿意离开公司，去找一份新的工作。"李明轩握住她的手："苏晴，我尊重你的决定。但无论结果如何，我们都要勇敢面对。"`,
+
+  `最终，苏晴向公司提交了辞职申请。她在辞职信中写道："因个人原因，我决定离开公司。感谢公司多年的培养。"公司批准了她的辞职，苏晴的离开没有引起太大的波澜。`,
+
+  `离开公司后，苏晴开始寻找新的工作。她利用自己的经验和能力，很快在另一家公司找到了职位。虽然薪资略有下降，但她感到前所未有的轻松。`,
+
+  `李明轩继续在原公司工作。他和苏晴的关系也逐渐公开。两人不再需要隐藏，可以自由地约会和相处。苏晴感到无比幸福，她知道，所有的付出都是值得的。`,
+
+  `然而，新的挑战出现了。苏晴的新公司也在推行严格的员工行为准则。她和李明轩的异地恋情变得更加困难。每次见面，都需要<span class="w">switch(转换)📢</span>行程和时间安排。`,
+
+  `一天，李明轩对苏晴说："苏晴，我在想，我们是否应该更进一步？我想给你一个完整的家。"苏晴看着他，心中既感动又担忧。她说："明轩，我们还年轻，不要着急。"`,
+
+  `李明轩点头："你说得对。我会等你做好准备。"两人相视而笑，心中充满了对未来的期待。`,
+
+  `几个月后，李明轩带着苏晴回到他的家乡。那是一个位于乡村的小镇，镇上有一座古老的<span class="w">barn(谷仓)📢</span>，据说是他祖辈留下的。李明轩带苏晴参观谷仓，告诉她这里曾经是家族的希望。`,
+
+  `苏晴被这座谷仓的历史深深吸引。她说："明轩，这里很美。"李明轩微笑："我希望有一天，能带你在这里定居。"苏晴感到一阵温暖涌上心头。`,
+
+  `回到城市后，苏晴开始重新审视自己的人生<span class="w">orientation(方向)📢</span>。她意识到，事业固然重要，但家庭和爱情<span class="w">likewise(同样)📢</span>不可或缺。她开始尝试调整工作和生活的平衡。`,
+
+  `周末，苏晴会做一些简单的<span class="w">housework(家务)📢</span>，让李明轩休息。李明轩笑着说："什么时候学会了做家务？"苏晴调皮地回答："为了我们的未来做准备。"`,
+
+  `时间一天天过去，苏晴和李明轩的感情越来越稳定。他们一起去看了一场艺术<span class="w">exhibit(展览)📢</span>，一起骑马穿越森林，一起在<span class="w">universe(星空)📢</span>下许愿。`,
+
+  `一天，李明轩突然对苏晴说："苏晴，我有一个提议。我们一起创业，开一家属于我们自己的公司。"苏晴惊讶："可是创业风险很大……"`,
+
+  `李明轩坚定地说："我相信我们能够成功。我们一起努力，一定能够创造属于我们的未来。"苏晴看着他坚定的眼神，点头："好，我们一起努力。"`,
+
+  `两人开始筹备创业计划。他们租了一间小办公室，<span class="w">locate(位于)📢</span>市中心的一栋写字楼。苏晴负责市场推广，李明轩负责业务拓展。虽然辛苦，但他们感到无比充实。`,
+
+  `创业初期，他们遇到了<span class="w">innumerable(无数的)📢</span>困难。资金不足，客户稀缺，竞争激烈。有时，他们会因为意见不合而争吵，但最终都能<span class="w">conclude(达成)📢</span>共识，继续前行。`,
+
+  `一年后，他们的公司终于走上正轨。客户逐渐增多，业务范围不断扩大。苏晴和李明轩看着公司的成长，心中充满了自豪和欣慰。`,
+
+  `某个周末的下午，李明轩带着苏晴去了一家<span class="w">barber(理发店)📢</span>。在理发时，他突然对苏晴说："苏晴，这些年，我们一起经历了很多。我想问你，愿意嫁给我吗？"`,
+
+  `苏晴愣住了，没想到李明轩会在这样的场合求婚。她看着镜子里的自己和李明轩，心中涌起一股暖流。她点头："我愿意。"`,
+
+  `理发师停下手中的工具，鼓掌为他们祝福。苏晴和李明轩相视而笑，心中充满了对未来的憧憬。`,
+
+  `婚礼在一个阳光明媚的日子举行。苏晴穿着洁白的婚纱，就像一位<span class="w">princess(公主)📢</span>。李明轩站在教堂门口，等待着她走向他。当苏晴走向他时，他感到无比幸福。`,
+
+  `牧师宣读誓词，两人交换戒指。李明轩在苏晴耳边轻声说："无论未来遇到什么，我都会陪伴在你身边。"苏晴眼眶泛红，轻声回应："我也是。"`,
+
+  `婚礼结束后，两人登上了飞往马尔代夫的航班。他们<span class="w">aboard(在飞机上)📢</span>时，苏晴靠在李明轩的肩膀上，心中充满了感激。她知道，这段禁忌之爱，最终化为了真正的幸福。`,
+
+  `李明轩握住她的手，说："苏晴，谢谢你愿意和我一起<span class="w">brave(面对)📢</span>所有的困难。"苏晴微笑："明轩，只要有你，我什么都不怕。"`,
+
+  `飞机穿过云层，飞向目的地。窗外的天空湛蓝如洗，阳光洒在他们的脸上。他们知道，这只是他们人生旅程的开始，未来还有更长的路要走。但只要彼此相依，就能够战胜一切。`,
+
+  `他们的故事告诉我们，爱情有时需要勇气和坚持。即使面对禁忌和困难，只要真心相爱，就能够找到属于自己的幸福。这段办公室的禁忌之恋，最终化为了一个美好的<span class="w">outcome(结局)📢</span>。`,
+
+  `几年后，苏晴和李明轩的公司已经成为行业的佼佼者。他们不仅实现了事业上的成功，还迎来了自己的孩子。苏晴常常感叹，如果当初没有勇敢地追求这份感情，她可能永远无法拥有现在的幸福。`,
+
+  `李明轩总会笑着回应："所以我们要感谢当初的决定。"两人相视而笑，心中充满了对彼此的<span class="w">acceptance(接纳)📢</span>和珍惜。`,
+
+  `他们的故事，就像一场跌宕起伏的旅程，从禁忌开始，以幸福结束。这段经历让他们明白，真正的爱情，需要勇气、坚持和<span class="w">confidence(信心)📢</span>。只要心中有爱，就没有什么是不可能的。`
+];
+
+// 生成学习版 HTML
+const learningHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>办公室恋情：禁忌之爱 · 学习版</title>
+<style>
+  :root { --pill: #E1BEE7; --accent: #9C27B0; --bg-soft: #F3E5F5; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 4px; text-align: justify; }
+  .w { background-color: #E1BEE7; border-radius: 999px; padding: 0.12em 0.55em;
+    margin: 0 1px; white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .w:hover { opacity: 0.85; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 学习版</div>
+      <h1>办公室恋情：禁忌之爱</h1>
+      <p class="sub">职场 · 恋爱 · 禁忌</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 1：在语境中认识单词</div>
+      <h2><span class="no">Story07</span>心动时刻</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击📢可朗读发音</div>
+      <div class="text">${storyParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>办公室恋情：禁忌之爱 · 学习版　|　看故事记单词</footer>
+  </div>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.w').forEach(function(span) {
+      var text = span.textContent;
+      var match = text.match(/^([a-zA-Z]+)/);
+      if (match) {
+        var word = match[1];
+        span.addEventListener('click', function() {
+          speak(word);
+        });
+      }
+    });
+  });
+
+  function speak(word) {
+    if ('speechSynthesis' in window) {
+      var utterance = new SpeechSynthesisUtterance(word);
+      utterance.lang = 'en-US';
+      utterance.rate = 0.9;
+      speechSynthesis.speak(utterance);
+    }
+  }
+  </script>
+</body>
+</html>`;
+
+// 生成复习版 HTML
+const reviewParagraphs = storyParagraphs.map(p => {
+  return p.replace(/<span class="w">([a-zA-Z]+)\(([^)]+)\)📢<\/span>/g,
+    '<span class="r" onclick="toggle(this)">$1(<span class="h">$2</span>)</span>');
+});
+
+const reviewHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>办公室恋情：禁忌之爱 · 复习版</title>
+<style>
+  :root { --pill-review: #C8E6C9; --accent: #4CAF50; --bg-soft: #E8F5E9; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 12px; text-align: justify; }
+  .r { background-color: #C8E6C9; border-radius: 999px; padding: 2px 8px; margin: 0 2px;
+    white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .r:hover { opacity: 0.85; }
+  .r .h { color: transparent; user-select: none; }
+  .r.show .h { color: #333; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 复习版</div>
+      <h1>办公室恋情：禁忌之爱</h1>
+      <p class="sub">职场 · 恋爱 · 禁忌</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 2：看单词回忆中文释义</div>
+      <h2><span class="no">Story07</span>心动时刻</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击词汇显示/隐藏中文释义</div>
+      <div class="text">${reviewParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>办公室恋情：禁忌之爱 · 复习版　|　看故事记单词</footer>
+  </div>
+  <script> function toggle(el) { el.classList.toggle('show'); } </script>
+</body>
+</html>`;
+
+// 输出目录
+const outputDir = 'master/result';
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir, { recursive: true });
+}
+
+// 写入文件
+fs.writeFileSync(path.join(outputDir, '07_办公室恋情_禁忌之爱_学习版.html'), learningHtml, 'utf-8');
+fs.writeFileSync(path.join(outputDir, '07_办公室恋情_禁忌之爱_复习版.html'), reviewHtml, 'utf-8');
+
+console.log('✓ 已生成：07_办公室恋情_禁忌之爱_学习版.html');
+console.log('✓ 已生成：07_办公室恋情_禁忌之爱_复习版.html');
+console.log(`\n故事信息：`);
+console.log(`- 标题：办公室恋情：禁忌之爱：心动时刻`);
+console.log(`- 题材：职场 · 恋爱 · 禁忌`);
+console.log(`- 融入单词数：50 个`);
+console.log(`- 故事篇幅：约 3000 字`);

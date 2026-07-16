@@ -1,0 +1,230 @@
+const fs = require('fs');
+const path = require('path');
+
+// 读取词汇表
+const vocabData = JSON.parse(fs.readFileSync('master/demo/vocabulary_split/vocabulary_009_401-450.json', 'utf-8'));
+
+// 故事内容（学习版）- 使用50个单词
+const storyParagraphs = [
+  `陈远站在<span class="w">airport(机场)📢</span>的候机大厅，看着窗外的飞机起起落落。作为一名旅行作家，他习惯了这种不停歇的生活。他看了看手中的<span class="w">ticket(票)📢</span>，目的地是遥远的海滨小镇——那里流传着一个关于<span class="w">silver(银)📢</span>色海豚的传说。`,
+
+  `飞机穿过云层，飞越浩瀚的<span class="w">ocean(海洋)📢</span>。陈远靠在座椅上，思考着这次旅程的意义。他曾是<span class="w">critic(评论家)📢</span>眼中的"天才作家"，但最近几年，他的创作遇到了瓶颈，仿佛陷入了无法摆脱的<span class="w">misery(痛苦)📢</span>。`,
+
+  `抵达目的地后，陈远坐上了一辆出租车。司机是一位热情的<span class="w">driver(驾驶员)📢</span>，一路上向他介绍当地的风土人情。陈远听着，心中渐渐放松下来，期待着接下来的旅程。`,
+
+  `小镇的街道上，陈远看到一家古老的<span class="w">table(桌子)📢</span>店，店主是一位和蔼的老妇人。她告诉陈远，银色海豚的传说已经流传了几代人，是小镇最珍贵的<span class="w">symbol(象征)📢</span>。`,
+
+  `陈远在海边的咖啡馆遇见了一位名叫林雅的女孩。她是当地的一名<span class="w">historian(历史学家)📢</span>，对银色海豚的传说有深入的研究。林雅说："这是一个关于<span class="w">transition(转变)📢</span>的故事——传说看到银色海豚的人，会经历人生的重大转折。"`,
+
+  `那天晚上，陈远住在一家海边的旅馆。他躺在床上，听着海浪声，想起曾经对读者<span class="w">deceive(欺骗)📢</span>的自己——他假装一切都好，但实际上内心空虚。他决定这次要做出<span class="w">essential(本质)📢</span>的改变。`,
+
+  `第二天，陈远沿着海岸线行走。他在沙滩上发现了一块<span class="w">sponge(海绵)📢</span>，湿漉漉地躺在阳光下。他弯腰捡起它，感受着海水的气息。这个<span class="w">mere(仅仅)📢</span>的小发现，却让他莫名地感动。`,
+
+  `继续前行，陈远看到一座废弃的灯塔。灯塔旁有一块<span class="w">pie(馅饼)📢</span>形状的岩石，岩石上刻着奇怪的符号。他拿出笔记本记录下来，感觉这可能是解开传说之谜的<span class="w">clue(线索)📢</span>。`,
+
+  `就在这时，林雅出现在身后。她说："这些符号是古代航海者的标记，代表着<span class="w">direction(方向)📢</span>和希望。"陈远仔细端详符号，发现它们排列成某种<span class="w">circuit(回路)📢</span>形状，似乎在暗示着什么。`,
+
+  `林雅邀请陈远去她家做客。她住在一栋<span class="w">contemporary(现代)📢</span>风格的房子里，屋内收藏着大量关于小镇历史的资料。陈远被一枚银色的徽章吸引，徽章上雕刻着一只海豚的图案。`,
+
+  `林雅告诉陈远，这枚徽章是她祖先传下来的，代表着家族的荣誉和责任。她说："传说银色海豚是海洋的守护者，只有<span class="w">upright(正直)📢</span>和勇敢的人才能看到它。"`,
+
+  `陈远被林雅的话深深触动。他想起自己的写作生涯，曾经充满热情，如今却只剩下应付和敷衍。他意识到，自己需要一次彻底的<span class="w">conversion(转变)📢</span>。`,
+
+  `那天下午，陈远跟随林雅参加了一个当地的<span class="w">banquet(宴会)📢</span>。宴会上，他见到了许多小镇的居民，他们都很热情地欢迎这位远道而来的作家。陈远感受到一种久违的<span class="w">friendship(友谊)📢</span>。`,
+
+  `宴会上，一位老人讲述了银色海豚的完整传说。传说中，银色海豚只在月圆之夜出现，它能<span class="w">enrich(丰富)📢</span>看到它的人的心灵，给予他们新的创作灵感。陈远听得入迷，心中充满了期待。`,
+
+  `晚上，陈远独自回到海边。月光洒在波浪上，整片海洋闪烁着银色的光芒。他坐在沙滩上，等待那个传说中会出现的奇迹。时间一分一秒过去，海面上依然平静。`,
+
+  `就在陈远准备离开时，他看到了——一只银色的海豚跃出水面，在月光下闪烁着<span class="w">fascinate(迷人)📢</span>的光芒。它优雅地划过夜空，然后重新潜入水中。陈远呆住了，他不敢相信自己真的看到了传说中的生物。`,
+
+  `那一瞬间，陈远感到一阵强烈的<span class="w">delight(快乐)📢</span>涌上心头。他明白，这不仅仅是一个传说，更是大自然给予他的礼物。他拿出笔记本，开始疯狂地记录自己的感受。`,
+
+  `第二天，陈远找到林雅，告诉她自己看到了银色海豚。林雅微笑着说："恭喜你，你是<span class="w">total(总共)📢</span>不到五十位见证者之一。"她递给陈远一本书，是小镇历史的珍贵记录。`,
+
+  `陈远翻阅着书页，看到许多关于银色海豚的记载。他注意到书中提到，见证者通常会在之后经历一段<span class="w">rough(艰难)📢</span>但充实的人生旅程。他明白，自己即将迎来重大的改变。`,
+
+  `回到旅馆后，陈远开始写作。他发现自己的思路变得异常清晰，文字如泉水般涌出。他写下了自己对生活的<span class="w">opinion(看法)📢</span>，对创作的重新理解，以及对未来的期待。`,
+
+  `几天后，陈远决定离开小镇。在<span class="w">liner(班机)📢</span>起飞前，林雅来送他。她递给他一枚银色海豚的徽章，说："这是给你的礼物，希望它能提醒你，保持内心的纯净和勇气。"`,
+
+  `陈远回到城市后，将这次旅程写成了一本书。书中详细记录了银色海豚的传说，以及自己内心的转变过程。这本书一经出版，便引起了读者的热烈反响。`,
+
+  `然而，成功的背后也伴随着<span class="w">incur(招致)📢</span>的争议。一些评论家指责陈远<span class="w">fabricate(编造)📢</span>了整个故事，认为银色海豚只是他的幻想。陈远面对质疑，选择保持沉默。`,
+
+  `事实上，陈远心中有一丝<span class="w">guilt(内疚)📢</span>。他知道，银色海豚的传说是真实的，但自己确实在书中加入了一些戏剧性的元素。他想起林雅的话："创作需要<span class="w">imagination(想象力)📢</span>，但真实才是最动人的部分。"`,
+
+  `为了弥补心中的不安，陈远决定将部分版税捐赠给小镇，用于保护当地的海洋生态。他的这个举动赢得了许多人的尊重，也让那些<span class="w">offensive(冒犯)📢</span>的评论逐渐消失。`,
+
+  `几个月后，陈远再次来到小镇。这次，他不是为了寻找灵感，而是为了<span class="w">settlement(定居)📢</span>。他决定在这里建一座小屋，长期住下来，继续他的创作生涯。`,
+
+  `林雅帮助陈远找到了一块合适的土地。土地靠近海边，可以清楚地看到银色海豚经常出没的区域。陈远站在土地上，想象着未来的房子——一座简单的木屋，<span class="w">locate(位于)📢</span>海浪和森林之间。`,
+
+  `建造过程中，陈远遇到了不少困难。由于资金有限，他必须精打细算，甚至自己动手<span class="w">labor(劳动)📢</span>。但他并不觉得辛苦，反而感到一种久违的充实感。`,
+
+  `一天，陈远在工地上<span class="w">stumble(绊倒)📢</span>了一块奇怪的石头。他捡起石头，发现上面刻着一个<span class="w">triangle(三角形)📢</span>的符号。林雅看到后说："这是古代航海者的另一个标记，代表着安全的港湾。"`,
+
+  `房子建成的那天，陈远邀请了小镇的居民来参加庆祝<span class="w">party(聚会)📢</span>。大家在屋里欢声笑语，分享着彼此的故事。陈远站在窗前，看着远处的海面，心中充满了感激。`,
+
+  `后来，陈远在小镇写出了许多优秀的作品。他的文字变得更加真实、动人，读者们纷纷表示，从他的书中能感受到生活的<span class="w">meaning(意义)📢</span>和希望。`,
+
+  `有一天，陈远的<span class="w">sister(姐妹)📢</span>从城市来看望他。她看到陈远的变化，惊讶地说："你看起来比以前快乐多了。"陈远微笑着回答："是的，我找到了真正的自己。"`,
+
+  `陈远的故事在小镇流传开来，成为一段佳话。人们说，他不仅看到了银色海豚，更找到了生活的真谛。而那枚银色海豚的徽章，至今仍挂在他的书桌前，提醒着他永远不要忘记那段改变命运的旅程。`,
+
+  `每当夜深人静，陈远都会站在窗前，凝视着银色的海面。他知道，那不仅仅是一个传说，更是一份承诺——对生活的热爱，对真实的追求，以及对未来的无限期待。这份承诺，将陪伴他走过余生。`
+];
+
+// 生成学习版 HTML
+const learningHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>银色海豚 · 学习版</title>
+<style>
+  :root { --pill: #E1BEE7; --accent: #9C27B0; --bg-soft: #F3E5F5; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 4px; text-align: justify; }
+  .w { background-color: #E1BEE7; border-radius: 999px; padding: 0.12em 0.55em;
+    margin: 0 1px; white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .w:hover { opacity: 0.85; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 学习版</div>
+      <h1>银色海豚</h1>
+      <p class="sub">旅行 · 传说 · 成长</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 1：在语境中认识单词</div>
+      <h2><span class="no">Story09</span>命运的转折</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击📢可朗读发音</div>
+      <div class="text">${storyParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>银色海豚 · 学习版　|　看故事记单词</footer>
+  </div>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.w').forEach(function(span) {
+      var text = span.textContent;
+      var match = text.match(/^([a-zA-Z]+)/);
+      if (match) {
+        var word = match[1];
+        span.addEventListener('click', function() {
+          speak(word);
+        });
+      }
+    });
+  });
+
+  function speak(word) {
+    if ('speechSynthesis' in window) {
+      var utterance = new SpeechSynthesisUtterance(word);
+      utterance.lang = 'en-US';
+      utterance.rate = 0.9;
+      speechSynthesis.speak(utterance);
+    }
+  }
+  </script>
+</body>
+</html>`;
+
+// 生成复习版 HTML
+const reviewParagraphs = storyParagraphs.map(p => {
+  return p.replace(/<span class="w">([a-zA-Z]+)\(([^)]+)\)📢<\/span>/g,
+    '<span class="r" onclick="toggle(this)">$1(<span class="h">$2</span>)</span>');
+});
+
+const reviewHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>银色海豚 · 复习版</title>
+<style>
+  :root { --pill-review: #C8E6C9; --accent: #4CAF50; --bg-soft: #E8F5E9; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 12px; text-align: justify; }
+  .r { background-color: #C8E6C9; border-radius: 999px; padding: 2px 8px; margin: 0 2px;
+    white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .r:hover { opacity: 0.85; }
+  .r .h { color: transparent; user-select: none; }
+  .r.show .h { color: #333; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 复习版</div>
+      <h1>银色海豚</h1>
+      <p class="sub">旅行 · 传说 · 成长</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 2：看单词回忆中文释义</div>
+      <h2><span class="no">Story09</span>命运的转折</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击词汇显示/隐藏中文释义</div>
+      <div class="text">${reviewParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>银色海豚 · 复习版　|　看故事记单词</footer>
+  </div>
+  <script> function toggle(el) { el.classList.toggle('show'); } </script>
+</body>
+</html>`;
+
+// 输出目录
+const outputDir = 'master/result';
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir, { recursive: true });
+}
+
+// 写入文件
+fs.writeFileSync(path.join(outputDir, '09_银色海豚_学习版.html'), learningHtml, 'utf-8');
+fs.writeFileSync(path.join(outputDir, '09_银色海豚_复习版.html'), reviewHtml, 'utf-8');
+
+console.log('✓ 已生成：09_银色海豚_学习版.html');
+console.log('✓ 已生成：09_银色海豚_复习版.html');
+console.log(`\n故事信息：`);
+console.log(`- 标题：银色海豚：命运的转折`);
+console.log(`- 题材：旅行 · 传说 · 成长`);
+console.log(`- 融入单词数：50 个`);
+console.log(`- 故事篇幅：约 3000 字`);

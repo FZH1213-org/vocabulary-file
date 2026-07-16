@@ -1,0 +1,218 @@
+const fs = require('fs');
+const path = require('path');
+
+// 读取词汇表
+const vocabData = JSON.parse(fs.readFileSync('vocabulary_split/vocabulary_019_901-950.json', 'utf-8'));
+
+// 故事内容（学习版）- 使用50个单词，精简版
+const storyParagraphs = [
+  `<span class="w">January(一月)📢</span>的寒风透过落地窗吹进办公室，林晚晴站在公司楼下。这是她入职的第一天，作为一个刚毕业的<span class="w">female(女性)📢</span>，她知道必须全力以赴。`,
+
+  `林晚晴出生于<span class="w">southeast(东南)📢</span>一个小镇，家境贫寒。她的<span class="w">origin(出身)📢</span>让她明白，唯有努力才能改变命运。她不愿被贫困<span class="w">deprive(剥夺)📢</span>追求梦想的权利。大学毕业后，她以优异的成绩进入宏远集团实习，成为市场部最基层的一员。`,
+
+  `市场部主管王美玲对林晚晴充满偏见："你这种<span class="w">average(普通)📢</span>学校毕业的学生，能有几斤几两？"王美玲的话像<span class="w">destructive(破坏性)📢</span>的利刃，刺痛了林晚晴的心。但林晚晴默默承受，她知道需要用行动证明自己。`,
+
+  `工作之余，林晚晴常坐在出租屋的<span class="w">living-room(起居室)📢</span>里，研究行业动态。她那<span class="w">portable(轻便)📢</span>的笔记本电脑承载着她对未来的全部期望。每天晚上，她都会整理市场数据，分析竞争对手的策略。`,
+
+  `三个月后，CEO陈墨远宣布，公司将与一家<span class="w">western(西方)📢</span>企业签订战略合作<span class="w">pact(条约)📢</span>，进军国际市场。这是公司成立以来最大的项目，需要组建专项<span class="w">group(组)📢</span>负责。王美玲推荐了自己的亲信，却将林晚晴排除在外。`,
+
+  `林晚晴不甘心，她连夜整理了一份详细的市场分析报告，包含她对<span class="w">export(出口)📢</span>贸易的深入研究，以及对目标市场的精准预判。第二天一早，她直接找到陈墨远，将报告递给他。`,
+
+  `站在CEO办公室门口，林晚晴深吸一口气。她想，这或许是改变命运的<span class="w">journey(旅程)📢</span>起点。陈墨远翻看报告后，眉头逐渐皱起，没想到一个实习生能做出如此专业的研究，立即将她调入项目组。`,
+
+  `进入项目组后，林晚晴发现团队缺乏<span class="w">capable(有能力)📢</span>的数据分析师，便主动承担。她那严谨的逻辑思维让同事们刮目相看，甚至连陈墨远都多次在会议上表扬她。她常常加班到深夜，仔细核对每一个数据，确保分析的准确性。一次深夜加班，她在休息室的<span class="w">sofa(沙发)📢</span>上睡着了。陈墨远路过，看到她蜷缩的身影，将外套盖在她身上。`,
+
+  `项目进展顺利，但林晚晴发现合作方的财务数据存在异常。某些<span class="w">profitable(有利可图)📢</span>的条款背后隐藏着巨大风险。她凭着敏锐的商业嗅觉，能够<span class="w">foresee(预见)📢</span>到潜在危机。她立即向陈墨远汇报，详细阐述了自己的担忧。`,
+
+  `"陈总，我用尽了<span class="w">utmost(最大)📢</span>努力去核实，这家企业的资金<span class="w">turnover(周转)📢</span>存在严重问题，他们的<span class="w">goods(商品)📢</span>频频出现质量投诉。尽快终止合作才是<span class="w">preferable(更可取的)📢</span>选择，否则后果可能是<span class="w">crime(犯罪)📢</span>级别的商业失误。"陈墨远仔细研究后，立即召开紧急会议，宣布暂停合作计划。`,
+
+  `陈墨远站起身，走到林晚晴身边，公开<span class="w">salute(敬礼)📢</span>般地向她点头："林晚晴，你帮公司规避了重大风险。从今天起，你正式升任项目组副组长。"全场哗然，王美玲的脸色更是阴沉如水。消息传开后，公司上下对林晚晴刮目相看。`,
+
+  `升职后的林晚晴压力倍增，但她从不抱怨。她用<span class="w">courage(勇气)📢</span>和智慧解决难题，带领团队<span class="w">develop(发展)📢</span>新的市场策略，将公司的业务推向更广阔的领域。公司年会上，她作为优秀员工代表上台发言，讲述了自己的成长经历，让台下的<span class="w">adolescent(青少年)📢</span>员工们深受鼓舞。`,
+
+  `半年后，林晚晴被派往<span class="w">court(法院)📢</span>处理跨境商业纠纷，她出色的谈判能力让公司赢得了诉讼，在公司的<span class="w">influence(影响)📢</span>力大大提升。回国后，王美玲联合其他主管排挤林晚晴，散布谣言说她和陈墨远有不正当关系，这些<span class="w">noisy(喧闹)📢</span>的流言在公司里传得沸沸扬扬。`,
+
+  `林晚晴找到陈墨远："陈总，我申请调离项目组。"陈墨远皱眉："为什么？"林晚晴咬唇："我不想因为流言影响公司的声誉。"陈墨远站起身，走到她面前："你觉得我会让优秀的员工因为谣言离开吗？"`,
+
+  `第二天，陈墨远召开全体员工大会，当众<span class="w">declaration(宣布)📢</span>："关于林晚晴的谣言，经调查是有人恶意散布。王美玲，你有什么解释吗？"王美玲脸色惨白，全场鸦雀无声。陈墨远拿出一份文件："这是王美玲伪造数据、贪污公款的证据，公司将依法处理。"`,
+
+  `风波平息后，林晚晴开始承担更多责任，善于发现和<span class="w">recruit(招募)📢</span>优秀人才，让团队的战斗力不断提升。一年后，她被提拔为市场部总监，成为公司历史上最年轻的女性高管，打破了男性主导高层的<span class="w">tradition(传统)📢</span>。她的成功让无数职场女性看到了希望。`,
+
+  `林晚晴开始关注社会公益，资助那些因战争而流离失所的<span class="w">refugee(难民)📢</span>儿童。一次慈善晚宴上，她遇到了知名研究院的<span class="w">scientist(科学家)📢</span>，展现出良好的职业素养。宴会上，她还遇到了一位来自<span class="w">preposition(介词)📢</span>研究机构的学者。陈墨远在一旁看着，心生欣赏。`,
+
+  `两人的关系逐渐升温，但林晚晴知道职场恋情是被<span class="w">common(普通)📢</span>禁止的。她更希望自己凭借能力晋升，而不是依靠任何人。时光飞逝，林晚晴善于发现项目中的<span class="w">overlap(重叠)📢</span>问题，并给出精准的<span class="w">solution(解决方案)📢</span>。她的能力得到全公司上下的认可。`,
+
+  `然而，命运总爱开玩笑。就在林晚晴事业蒸蒸日上时，她的母亲突发<span class="w">pneumonia(肺炎)📢</span>住进了医院。林晚晴连夜赶回老家，看着病床上虚弱的母亲，心中充满愧疚。`,
+
+  `在医院，林晚晴每天照顾母亲，喂她吃饭，帮她<span class="w">lick(舔)📢</span>干净嘴角的汤渍。她突然意识到，人生不仅仅是工作，还有亲情和爱。母亲康复后，林晚晴回到公司，发现工作堆积如山，却没有任何<span class="w">delay(延迟)📢</span>的借口。`,
+
+  `陈墨远看在眼里，心疼在心头。他开始为林晚晴准备早餐，有时是简单的<span class="w">hamburger(汉堡)📢</span>，有时是一杯热咖啡。林晚晴感激地接受，心中对陈墨远的情感也在慢慢滋长。某天周末，陈墨远邀请林晚晴共进晚餐。`,
+
+  `餐厅的装饰华丽典雅，烛光摇曳。陈墨远看着林晚晴："晚晴，我们认识两年了。这两年里，你从实习生成长为总监，我为你感到骄傲。"他突然拿出一个精致的小盒子，打开后，里面是一枚戒指。`,
+
+  `"林晚晴，我想让你做我的妻子，和我一起走过人生的<span class="w">journey(旅程)📢</span>。"林晚晴愣住，眼泪夺眶而出。她从没想过，自己这个出身贫寒的女孩，有一天会得到如此真挚的爱情。她颤抖着点头："我愿意。"`,
+
+  `婚礼在<span class="w">January(一月)📢</span>举行，林晚晴穿着洁白的婚纱，站在陈墨远身边，感到无比幸福。婚后的林晚晴继续在职场拼搏，她和陈墨远育有一个可爱的<span class="w">infant(婴儿)📢</span>，小生命让她的生活更加充实。`,
+
+  `三年后，林晚晴被任命为公司CEO。她成为宏远集团历史上第一位女性掌舵人，打破了<span class="w">ninety(九十)📢</span>年来男性垄断高层的历史。在一次采访中，林晚晴说："无论遇到多大的困难，都要相信自己能够找到<span class="w">solution(解决办法)📢</span>。"`,
+
+  `林晚晴建立了公司内部的培训<span class="w">institute(学院)📢</span>，帮助年轻员工成长。在她的带领下，公司业绩连年攀升，成为行业标杆。她善于发现市场中的<span class="w">crack(缝隙)📢</span>机会，带领公司抢占先机。员工们对她充满敬意，甚至有人将她视为偶像般<span class="w">worship(崇拜)📢</span>。`,
+
+  `林晚晴从未忘记自己的<span class="w">origin(出身)📢</span>。她深知，一个人的梦想不应该被埋没在贫穷的<span class="w">tomb(坟墓)📢</span>里。她持续资助贫困学生，让他们也能有追求梦想的机会。`,
+
+  `从一个<span class="w">penny(便士)📢</span>都没有的穷女孩，到今天的企业CEO，林晚晴用自己的经历诠释了什么叫逆袭。她告诉所有人：只要不放弃，每个人都能成为自己人生的女王。而那段从实习生到CEO的传奇之路，将永远铭刻在她的记忆里，成为她人生中最珍贵的财富。`
+];
+
+// 生成学习版 HTML
+const learningHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>逆袭女王 · 学习版</title>
+<style>
+  :root { --pill: #E1BEE7; --accent: #9C27B0; --bg-soft: #F3E5F5; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 4px; text-align: justify; }
+  .w { background-color: #E1BEE7; border-radius: 999px; padding: 0.12em 0.55em;
+    margin: 0 1px; white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .w:hover { opacity: 0.85; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 学习版</div>
+      <h1>逆袭女王</h1>
+      <p class="sub">职场 · 逆袭 · 大女主</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 1：在语境中认识单词</div>
+      <h2><span class="no">Story19</span>从实习生到CEO的传奇之路</h2>
+      <div class="meta">本篇约 2800 字 · 融入 50 个重点词汇 · 点击📢可朗读发音</div>
+      <div class="text">${storyParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>逆袭女王 · 学习版　|　看故事记单词</footer>
+  </div>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.w').forEach(function(span) {
+      var text = span.textContent;
+      var match = text.match(/^([a-zA-Z-]+)/);
+      if (match) {
+        var word = match[1];
+        span.addEventListener('click', function() {
+          speak(word);
+        });
+      }
+    });
+  });
+
+  function speak(word) {
+    if ('speechSynthesis' in window) {
+      var utterance = new SpeechSynthesisUtterance(word);
+      utterance.lang = 'en-US';
+      utterance.rate = 0.9;
+      speechSynthesis.speak(utterance);
+    }
+  }
+  </script>
+</body>
+</html>`;
+
+// 生成复习版 HTML
+const reviewParagraphs = storyParagraphs.map(p => {
+  return p.replace(/<span class="w">([a-zA-Z-]+)\(([^)]+)\)📢<\/span>/g,
+    '<span class="r" onclick="toggle(this)">$1(<span class="h">$2</span>)</span>');
+});
+
+const reviewHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>逆袭女王 · 复习版</title>
+<style>
+  :root { --pill-review: #C8E6C9; --accent: #4CAF50; --bg-soft: #E8F5E9; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 12px; text-align: justify; }
+  .r { background-color: #C8E6C9; border-radius: 999px; padding: 2px 8px; margin: 0 2px;
+    white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .r:hover { opacity: 0.85; }
+  .r .h { color: transparent; user-select: none; }
+  .r.show .h { color: #333; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 复习版</div>
+      <h1>逆袭女王</h1>
+      <p class="sub">职场 · 逆袭 · 大女主</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 2：看单词回忆中文释义</div>
+      <h2><span class="no">Story19</span>从实习生到CEO的传奇之路</h2>
+      <div class="meta">本篇约 2800 字 · 融入 50 个重点词汇 · 点击词汇显示/隐藏中文释义</div>
+      <div class="text">${reviewParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>逆袭女王 · 复习版　|　看故事记单词</footer>
+  </div>
+  <script> function toggle(el) { el.classList.toggle('show'); } </script>
+</body>
+</html>`;
+
+// 输出目录
+const outputDir = '../result';
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir, { recursive: true });
+}
+
+// 写入文件
+fs.writeFileSync(path.join(outputDir, '19_逆袭女王_学习版.html'), learningHtml, 'utf-8');
+fs.writeFileSync(path.join(outputDir, '19_逆袭女王_复习版.html'), reviewHtml, 'utf-8');
+
+console.log('✓ 已生成：19_逆袭女王_学习版.html');
+console.log('✓ 已生成：19_逆袭女王_复习版.html');
+console.log(`\n故事信息：`);
+console.log(`- 标题：逆袭女王：从实习生到CEO的传奇之路`);
+console.log(`- 题材：职场 · 逆袭 · 大女主`);
+console.log(`- 融入单词数：50 个`);
+console.log(`- 故事篇幅：约 2800 字`);

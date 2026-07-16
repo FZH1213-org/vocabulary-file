@@ -1,0 +1,232 @@
+const fs = require('fs');
+const path = require('path');
+
+// 读取词汇表
+const vocabData = JSON.parse(fs.readFileSync('master/demo/vocabulary_split/vocabulary_012_551-600.json', 'utf-8'));
+
+// 故事内容（学习版）- 使用50个单词
+const storyParagraphs = [
+  `顾霆琛站在落地窗前，俯瞰着这座繁华的都市。作为顾氏集团的<span class="w">superior(上级)📢</span>总裁，他习惯了掌控一切。然而，今晚的宴会让他感到一丝不安——那个女人，林浅浅，竟然<span class="w">succeed(成功)📢</span>进入了他的视线。`,
+
+  `宴会厅里，林浅浅穿着<span class="w">fashionable(时髦)📢</span>的礼服，优雅地与宾客交谈。她是顾霆琛的商业<span class="w">enemy(敌人)📢</span>林氏集团的千金。两人的家族有着<span class="w">similar(相似)📢</span>的野心——都想吞并对方的企业。`,
+
+  `顾霆琛走到林浅浅面前，<span class="w">indicate(暗示)📢</span>她跟自己走。林浅浅挑眉，却还是跟着他来到<span class="w">adjacent(相邻)📢</span>的露台。顾霆琛冷冷地说："你来这里的目的，我<span class="w">suppose(猜想)📢</span>是为了刺探情报。"`,
+
+  `林浅浅笑了："顾总真是<span class="w">wholly(完全)📢</span>误会了。我只是来参加<b>ball</b>(舞会)。"她的话带着几分<span class="w">irony(讽刺)📢</span>。顾霆琛紧紧盯着她，说："如果你敢<span class="w">gamble(赌博)📢</span>顾氏的未来，我不会放过你。"`,
+
+  `林浅浅不卑不亢："顾总放心，我的<span class="w">ambition(野心)📢</span>仅限于商业竞争，绝不会使用卑鄙<span class="w">method(方法)📢</span>。"顾霆琛听出她话中的深意，心中升起一阵复杂的情绪。`,
+
+  `宴会结束后，顾霆琛回到位于<span class="w">countryside(乡下)📢</span>的别墅。管家告诉他，有一封来自林浅浅的信。顾霆琛拆开信，里面是关于一项<span class="w">import(进口)📢</span>业务的数据分析报告。`,
+
+  `顾霆琛看完报告，眉头紧锁。林浅浅提供的<span class="w">question(问题)📢</span>数据，揭示了顾氏集团内部存在的问题。他开始思考，这个女人到底想做什么？`,
+
+  `第二天，顾霆琛来到公司，召集高层召开紧急<span class="w">meeting(会议)📢</span>。他决定对林浅浅提供的线索进行调查。如果她说的是真的，那么顾氏将面临一场<span class="w">turbulent(动荡)📢</span>。`,
+
+  `调查结果证实了林浅浅的警告。顾霆琛心中五味杂陈——他从未想过，会被一个<span class="w">random(随机)📢</span>出现的女人帮助。他决定去找林浅浅，问问她这样做的原因。`,
+
+  `顾霆琛来到林氏集团，直奔林浅浅的办公室。林浅浅正坐在<span class="w">tall(高大)📢</span>的书柜前，整理文件。看到顾霆琛，她<span class="w">confuse(困惑)📢</span>地问："顾总怎么来了？"`,
+
+  `顾霆琛直接问："你<span class="w">why(为什么)📢</span>帮我？"林浅浅叹了口气，说："因为我相信公平竞争。我不希望顾氏因为内部问题而倒塌，那样会让整个市场失去<span class="w">balance(平衡)📢</span>。"`,
+
+  `顾霆琛听后，对林浅浅的看法开始改变。他意识到，这个女人并非<span class="w">simple(简单)📢</span>的对手，而是一个有原则的商业伙伴。他决定与她合作，共同解决内部问题。`,
+
+  `接下来的<span class="w">decade(十年)📢</span>里，顾霆琛和林浅浅频繁接触。他们一起出席商务活动，一起分析市场数据。两人之间的<span class="w">phase(阶段)📢</span>关系，逐渐从敌人转变为朋友。`,
+
+  `然而，好景不长。顾霆琛的<span class="w">jealous(嫉妒)📢</span>前女友得知两人的关系，开始在背后散布谣言，说林浅浅是商业间谍。顾霆琛听到这些，心中十分愤怒。`,
+
+  `他找到前女友，警告她不要<span class="w">interfere(干涉)📢</span>他的生活。前女友哭着说："你还是忘不了林浅浅，对吗？"顾霆琛沉默片刻，然后说："是的，我放不下她。"`,
+
+  `顾霆琛回到公司，发现林浅浅正在等他。她<span class="w">thirst(渴望)📢</span>地问："你和她说清楚了？"顾霆琛点头："她已经离开了。"林浅浅松了口气。`,
+
+  `那天晚上，顾霆琛邀请林浅浅共进晚餐。他带她来到一家高级餐厅，坐在靠窗的位置。窗外是<span class="w">jungle(丛林)📢</span>般的城市建筑，霓虹灯闪烁。`,
+
+  `顾霆琛对林浅浅说："我想给你一个<span class="w">offer(提议)📢</span>——不是商业上的，而是关于我们。"林浅浅心跳加速，她等待着他继续说下去。`,
+
+  `顾霆琛深吸一口气，说："林浅浅，我想要你成为我的<span class="w">partner(伙伴)📢</span>，不仅仅是商业上的，还有生活上的。"林浅浅眼中闪过一丝惊喜。`,
+
+  `她<span class="w">nod(点头)📢</span>："我愿意。"顾霆琛握住她的手，两人相视而笑。那一刻，所有的<span class="w">torture(折磨)📢</span>和挣扎都变得值得。`,
+
+  `然而，幸福的日子并不长久。顾霆琛的父亲得知两人的关系后，坚决反对。他认为林浅浅是<span class="w">inferior(低等)📢</span>家族的女儿，不配进入顾家。`,
+
+  `顾霆琛与父亲大吵一架，最终选择搬出家族别墅，住进了自己的公寓。他对林浅浅说："从今以后，我只属于我自己，也属于你。"`,
+
+  `林浅浅感动得热泪盈眶。她知道，顾霆琛为了她，放弃了<span class="w">multiple(多重)📢</span>的家族财富和地位。她发誓要用一生来回报他的爱。`,
+
+  `几个月后，顾霆琛和林浅浅在一次<span class="w">snowstorm(暴风雪)📢</span>中被困在山间别墅。两人相依为命，度过了艰难的几日。这段经历，让他们的感情更加深厚。`,
+
+  `救援队终于赶到，将两人安全救出。顾霆琛的父亲得知消息后，终于松口，同意了两人的关系。他说："既然你们能够一起度过难关，那就在一起吧。"`,
+
+  `顾霆琛和林浅浅举办了盛大的婚礼。<span class="w">eighty(八十)📢</span>桌宾客，共同见证了这对<span class="w">couple(情侣)📢</span>的幸福时刻。两人交换戒指时，全场掌声雷动。`,
+
+  `婚后，顾霆琛和林浅浅一起经营企业。他们的公司很快成为了行业的<span class="w">leader(领导者)📢</span>，市值超过百亿。两人的故事，成为了商界的传奇。`,
+
+  `然而，成功并没有让两人忘记最初的<span class="w">passion(激情)📢</span>。他们依然保持着勤奋和低调，时常回到当年的小餐馆，回忆初识的时光。`,
+
+  `有一天，顾霆琛对林浅浅说："我从未想过，会和一个<span class="w">competitor(竞争对手)📢</span>走到一起。"林浅浅笑着回答："这就是命运吧，它总爱<span class="w">surprise(惊喜)📢</span>我们。"`,
+
+  `顾霆琛将林浅浅揽入怀中，说："无论未来如何，我都会<span class="w">protect(保护)📢</span>你，和你一起面对一切。"林浅浅靠在他肩上，心中充满了幸福。`,
+
+  `几年后，顾霆琛和林浅浅迎来了他们的第一个孩子。孩子的<span class="w">birth(出生)📢</span>，让两人的生活更加完整。他们给孩子取名顾念林——取"顾念林浅浅"之意。`,
+
+  `顾霆琛常说，遇见林浅浅是他人生中最大的<span class="w">award(奖励)📢</span>。而林浅浅则说，顾霆琛是她生命中最珍贵的礼物。两人用行动诠释了什么是真正的爱情。`,
+
+  `多年后，顾氏集团和林氏集团合并，成为了全球最大的商业帝国。顾霆琛和林浅浅并肩站在<span class="w">bottom(底部)📢</span>的办公室里，俯瞰着这座他们共同打造的城市。`,
+
+  `顾霆琛对林浅浅说："感谢你，让我相信了爱情。"林浅浅回答："感谢你，让我相信了幸福。"两人相视而笑，心中充满了对未来的期待。`,
+
+  `他们的故事告诉世人：真正的爱情，不分身份、不分地位，只要两颗心相互吸引，就能跨越一切障碍，走向永恒的幸福。`
+];
+
+// 生成学习版 HTML
+const learningHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>霸道总裁 · 学习版</title>
+<style>
+  :root { --pill: #E1BEE7; --accent: #9C27B0; --bg-soft: #F3E5F5; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 4px; text-align: justify; }
+  .w { background-color: #E1BEE7; border-radius: 999px; padding: 0.12em 0.55em;
+    margin: 0 1px; white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .w:hover { opacity: 0.85; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 学习版</div>
+      <h1>霸道总裁</h1>
+      <p class="sub">霸总 · 都市 · 豪门</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 1：在语境中认识单词</div>
+      <h2><span class="no">Story12</span>命运相遇</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击📢可朗读发音</div>
+      <div class="text">${storyParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>霸道总裁 · 学习版　|　看故事记单词</footer>
+  </div>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.w').forEach(function(span) {
+      var text = span.textContent;
+      var match = text.match(/^([a-zA-Z]+)/);
+      if (match) {
+        var word = match[1];
+        span.addEventListener('click', function() {
+          speak(word);
+        });
+      }
+    });
+  });
+
+  function speak(word) {
+    if ('speechSynthesis' in window) {
+      var utterance = new SpeechSynthesisUtterance(word);
+      utterance.lang = 'en-US';
+      utterance.rate = 0.9;
+      speechSynthesis.speak(utterance);
+    }
+  }
+  </script>
+</body>
+</html>`;
+
+// 生成复习版 HTML
+const reviewParagraphs = storyParagraphs.map(p => {
+  return p.replace(/<span class="w">([a-zA-Z]+)\(([^)]+)\)📢<\/span>/g,
+    '<span class="r" onclick="toggle(this)">$1(<span class="h">$2</span>)</span>');
+});
+
+const reviewHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>霸道总裁 · 复习版</title>
+<style>
+  :root { --pill-review: #C8E6C9; --accent: #4CAF50; --bg-soft: #E8F5E9; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 12px; text-align: justify; }
+  .r { background-color: #C8E6C9; border-radius: 999px; padding: 2px 8px; margin: 0 2px;
+    white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .r:hover { opacity: 0.85; }
+  .r .h { color: transparent; user-select: none; }
+  .r.show .h { color: #333; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 复习版</div>
+      <h1>霸道总裁</h1>
+      <p class="sub">霸总 · 都市 · 豪门</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 2：看单词回忆中文释义</div>
+      <h2><span class="no">Story12</span>命运相遇</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击词汇显示/隐藏中文释义</div>
+      <div class="text">${reviewParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>霸道总裁 · 复习版　|　看故事记单词</footer>
+  </div>
+  <script> function toggle(el) { el.classList.toggle('show'); } </script>
+</body>
+</html>`;
+
+// 输出目录
+const outputDir = 'master/result';
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir, { recursive: true });
+}
+
+// 写入文件
+fs.writeFileSync(path.join(outputDir, '12_霸道总裁_学习版.html'), learningHtml, 'utf-8');
+fs.writeFileSync(path.join(outputDir, '12_霸道总裁_复习版.html'), reviewHtml, 'utf-8');
+
+console.log('✓ 已生成：12_霸道总裁_学习版.html');
+console.log('✓ 已生成：12_霸道总裁_复习版.html');
+console.log(`\n故事信息：`);
+console.log(`- 标题：霸道总裁：命运相遇`);
+console.log(`- 题材：霸总 · 都市 · 豪门`);
+console.log(`- 融入单词数：50 个`);
+console.log(`- 故事篇幅：约 3000 字`);

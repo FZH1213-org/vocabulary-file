@@ -1,0 +1,222 @@
+const fs = require('fs');
+const path = require('path');
+
+// 读取词汇表
+const vocabData = JSON.parse(fs.readFileSync('master/demo/vocabulary_split/vocabulary_002_51-100.json', 'utf-8'));
+
+// 故事内容（学习版）- 使用50个单词
+const storyParagraphs = [
+  `夏日的<span class="w">afternoon(下午)📢</span>，阳光透过梧桐树叶洒落在大学校园的<span class="w">mountain(山)📢</span>脚下。林夕月独自坐在图书馆外的长椅上，翻看着一本<span class="w">abstract(抽象的)📢</span>艺术理论书籍。作为艺术系的<span class="w">manager(经理)📢</span>学生助理，她总是利用空闲时间充实自己。这个<span class="w">small(小的)📢</span>角落，是她最喜欢的<span class="w">locality(地点)📢</span>。`,
+
+  `不远处，一个背着吉他的男生正沿着<span class="w">trail(小路)📢</span>走来。他叫陈逸阳，是音乐系的才子，以<span class="w">eccentric(古怪的)📢</span>个性和出色的<span class="w">musical(音乐)📢</span>才华闻名校园。虽然他的<span class="w">character(性格)📢</span>有些孤僻，但对音乐有着极高的<span class="w">interest(兴趣)📢</span>。此时，他正准备去音乐教室<span class="w">install(安装)📢</span>新的音响设备。`,
+
+  `林夕月抬头时，正好与陈逸阳的目光相遇。她感到心跳突然加快，虽然他们从未有过真正的<span class="w">conversation(谈话)📢</span>。她知道，陈逸阳在学校有着特殊的<span class="w">membership(会员资格)📢</span>——他是校园音乐社的核心成员，许多女生都<span class="w">wish(希望)📢</span>能与他接近。但她觉得，那都是些<span class="w">unlikely(未必的)📢</span>属于她的故事。`,
+
+  `然而，命运的<span class="w">maneuver(操纵)📢</span>总是让人意想不到。第二天，林夕月在整理艺术品仓库时，不小心碰倒了一个重达数十斤的雕塑<span class="w">component(组成部分)📢</span>。尖锐的金属边缘划破了她的手臂，鲜血直流。她感到一阵眩晕，勉强拨打了急救电话。救护车的鸣笛声划破了校园的宁静，她被紧急送往附近的<span class="w">hospital(医院)📢</span>。`,
+
+  `躺在病床上时，林夕月努力保持<span class="w">conscious(意识到的)📢</span>状态。医生告诉她，伤口虽然不深，但需要休息观察。病房里弥漫着淡淡的消毒水气味，她望着窗外，感到格外的<span class="w">isolate(孤立)📢</span>。突然，门被轻轻推开，一个<span class="w">elegant(优雅的)📢</span>的身影走了进来。`,
+
+  `"听说你受伤了，我来看看。"陈逸阳手里提着一个<span class="w">trolley(手推车)📢</span>，上面放着几根<span class="w">banana(香蕉)📢</span>和一盒精美的点心。他有些局促地站在床边，脸上带着<span class="w">unusual(不平常的)📢</span>的关切神情。林夕月惊讶地看着他："你怎么知道我在这里？"`,
+
+  `"我在音乐教室听到救护车的声音，后来<span class="w">identify(识别)📢</span>到是你被送走了。"陈逸阳的声音有些紧张，"我很担心，所以追过来。"林夕月心中涌起一阵暖意，她没想到这个看起来冷漠的男生，内心竟如此<span class="w">generous(慷慨的)📢</span>和善良。`,
+
+  `接下来的几天，陈逸阳几乎每天都会来医院探望。有时他带着一壶清香的花<span class="w">tea(茶)📢</span>，有时则是自己亲手<span class="w">cook(烹饪)📢</span>的养生汤。他坐在床边，给林夕月讲述自己在<span class="w">mountain(山)📢</span>间采风的故事，那些美妙的旋律仿佛在空气中<span class="w">creep(蔓延)📢</span>。林夕月听得入迷，她发现自己对这个男生产生了特殊的情感。`,
+
+  `一周后，林夕月出院了。临别前，护士微笑着递给她一个<span class="w">tray(托盘)📢</span>，上面放着一张手写卡片："愿你的每一天都充满阳光——陈逸阳。"林夕月捧着卡片，心中满是感动。她知道，这段<span class="w">temporary(暂时的)📢</span>的医院时光，已经成为她生命中最珍贵的记忆。`,
+
+  `回到校园后，林夕月和陈逸阳的关系悄然发生了变化。他们开始在课余时间一起出现在校园的各个<span class="w">locality(地点)📢</span>。有时是在音乐教室，林夕月安静地听着陈逸阳弹奏吉他；有时是在艺术画室，陈逸阳专注地看着林夕月作画。他们的感情在<span class="w">advance(前进)📢</span>中慢慢升温。`,
+
+  `然而，好景不长。一个<span class="w">danger(危险)📢</span>的信号出现了。陈逸阳的前女友张美琪突然回到学校。张美琪是个性格<span class="w">naughty(顽皮的)📢</span>、喜欢玩弄感情的女生，她看不惯林夕月和陈逸阳的亲近，开始想方设法破坏他们。她在食堂故意当着众人的面，用<span class="w">fork(叉)📢</span>指着林夕月说："你这个<span class="w">parasite(寄生虫)📢</span>，离逸阳远一点！"`,
+
+  `林夕月感到羞愤难当，她不明白自己为什么要承受这样的羞辱。她强忍着泪水，转身跑开。陈逸阳愤怒地抓住张美琪的手臂，严肃地<span class="w">explain(解释)📢</span>："美琪，我们已经结束了。请你不要伤害夕月。"张美琪冷笑着挣脱，发出一声像<span class="w">beast(野兽)📢</span>般的怒吼："你会后悔的！"`,
+
+  `那天晚上，林夕月独自坐在宿舍，盯着<span class="w">fridge(冰箱)📢</span>发呆。她感到疲惫不堪，甚至开始怀疑，自己是不是真的配不上陈逸阳。她想起张美琪说的那些话，内心充满了不安。她不知道这段感情会不会只是<span class="w">marginal(边缘的)📢</span>存在，永远无法走到中心。`,
+
+  `就在她最消沉的时候，陈逸阳找到了她。他手里拿着一张<span class="w">piece(片)📢</span>段乐谱，上面写着一首新歌的名字——《只为你》。他轻声说："夕月，我写这首歌，是想告诉你，你在我心里有多重要。"他开始演唱，温柔的歌声如同春日的阳光，驱散了林夕月心中的阴霾。`,
+
+  `林夕月抬起头，看着陈逸阳真挚的眼神。她意识到，自己不应该被流言蜚语所影响。她要<span class="w">awake(觉醒)📢</span>过来，勇敢地面对这份感情。她轻声说："逸阳，谢谢你的音乐。它让我感到，我也能成为你生命中重要的<span class="w">component(组成部分)📢</span>。"`,
+
+  `从那以后，林夕月和陈逸阳更加坚定地走在了一起。他们一起参加学校的活动，一起在<span class="w">mountain(山)📢</span>上露营，一起分享生活中的每一个<span class="w">piece(片段)📢</span>。林夕月发现，陈逸阳其实是个非常<span class="w">generous(慷慨的)📢</span>和温柔的人，他总是愿意为她付出一切。`,
+
+  `某天，学校组织了一场大型文艺晚会，邀请了许多嘉宾，甚至还有一位文化<span class="w">minister(部长)📢</span>出席。林夕月和陈逸阳被选为表演嘉宾。林夕月设计舞台背景，陈逸阳负责音乐演出。他们配合默契，为观众呈现了一场<span class="w">fairly(相当)📢</span>精彩的表演。`,
+
+  `演出结束后，两人在后台收拾道具。林夕月抱着一叠道具，不小心绊倒了。陈逸阳眼疾手快地接住她，两人的脸近在咫尺。陈逸阳轻声说："夕月，我<span class="w">wish(希望)📢</span>我们能一直这样走下去。"林夕月低下头，羞涩地点了点头。`,
+
+  `然而，张美琪的阴影并没有完全消散。她在校园里散布谣言，说林夕月是用不正当手段得到陈逸阳的。一些不明真相的同学开始对林夕月指指点点。林夕月感到<span class="w">sick(恶心的)📢</span>，她不明白为什么世界上会有如此恶毒的人。`,
+
+  `陈逸阳得知后，愤怒地找到张美琪。他严肃地警告她："如果你再散布谣言，我会让你付出代价。"张美琪没想到陈逸阳会如此强硬，她开始意识到自己的行为已经越过了<span class="w">marginal(边缘的)📢</span>界限。她终于退缩了，不再继续纠缠。`,
+
+  `学期末，林夕月和陈逸阳一起参加了学校的志愿服务活动。他们前往偏远山区，为当地的孩子教授艺术和音乐。山区的条件虽然艰苦，但孩子们纯真的笑容让他们感到无比充实。林夕月教孩子们绘画，陈逸阳教他们弹吉他。那些简单的<span class="w">musical(音乐)📢</span>旋律，在<span class="w">mountain(山)📢</span>谷间回荡，仿佛天籁。`,
+
+  `有一天晚上，两人在山村的<span class="w">locality(地点)📢</span>看星星。远离城市的喧嚣，夜空格外清澈。陈逸阳指着天空说："你看，那颗星星就像你，虽小却闪耀着独特的光芒。"林夕月感到心中一阵温暖，她意识到，自己真的很<span class="w">lucky(幸运的)📢</span>，能遇到这样一个懂她、珍惜她的人。`,
+
+  `回到校园后，两人继续他们的学习和生活。林夕月在艺术系的成绩越来越好，她的作品开始在校内展出。陈逸阳也在音乐创作上不断<span class="w">advance(前进)📢</span>，他的原创歌曲被多家音乐平台收录。他们互相鼓励，共同成长，成为校园里最令人羡慕的一对。`,
+
+  `某天，学校举办了一场慈善晚宴，邀请了一位著名的艺术<span class="w">governor(管理者)📢</span>出席。林夕月的画作被选为晚宴的拍卖品之一。当她的作品以高价成交时，全场响起了热烈的掌声。陈逸阳在台下为她鼓掌，眼中满是骄傲。`,
+
+  `晚宴结束后，两人在校园的长椅上休息。林夕月看着陈逸阳，轻声说："逸阳，谢谢你一直以来的支持。如果没有你，我可能永远无法发现自己的潜力。"陈逸阳握住她的手，温柔地说："夕月，你的优秀是你自己努力的结果。我只是有幸，能成为你生命中的<span class="w">component(组成部分)📢</span>。"`,
+
+  `时光飞逝，转眼到了毕业季。林夕月和陈逸阳都找到了理想的工作，他们将前往同一座城市发展。离别前，他们回到初遇的那个<span class="w">locality(地点)📢</span>，望着熟悉的教学楼和<span class="w">mountain(山)📢</span>景，心中充满了感慨。`,
+
+  `陈逸阳从包里拿出一个精致的礼盒，递给林夕月："这是我为你准备的毕业礼物。"林夕月打开盒子，里面是一条<span class="w">elegant(优雅的)📢</span>的项链，吊坠是一颗小巧的星星。陈逸阳轻声说："无论我们走到哪里，这颗星星都会提醒我们，彼此都是对方生命中最重要的人。"`,
+
+  `林夕月感动得热泪盈眶，她紧紧抱住陈逸阳，轻声说："逸阳，谢谢你让我明白，爱情不是占有，而是陪伴和支持。无论未来如何，我都愿意和你一起面对。"陈逸阳抚摸着她的头发，温柔地说："夕月，我们的故事才刚刚开始。"`,
+
+  `夕阳西下，校园的<span class="w">afternoon(下午)📢</span>时光慢慢过去。林夕月和陈逸阳手牵手走在校园的<span class="w">trail(小路)📢</span>上，留下了一串串青春的足迹。他们知道，无论前路有多少未知和<span class="w">danger(危险)📢</span>，只要彼此相伴，就能勇敢地走向未来。`,
+
+  `那年夏天的相遇，成为了他们生命中最美的回忆。他们明白，真正的爱情不在于花言巧语，而在于彼此的理解和包容。这段感情，就像一首悠扬的<span class="w">musical(音乐)📢</span>，在他们的生命中，永远不会消散。`
+];
+
+// 生成学习版 HTML
+const learningHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>那年夏天：我们相遇 · 学习版</title>
+<style>
+  :root { --pill: #E1BEE7; --accent: #9C27B0; --bg-soft: #F3E5F5; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 4px; text-align: justify; }
+  .w { background-color: #E1BEE7; border-radius: 999px; padding: 0.12em 0.55em;
+    margin: 0 1px; white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .w:hover { opacity: 0.85; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 学习版</div>
+      <h1>那年夏天：我们相遇</h1>
+      <p class="sub">校园 · 恋爱 · 青春成长</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 1：在语境中认识单词</div>
+      <h2><span class="no">Story02</span>初见与相知</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击📢可朗读发音</div>
+      <div class="text">${storyParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>那年夏天：我们相遇 · 学习版　|　看故事记单词</footer>
+  </div>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.w').forEach(function(span) {
+      var text = span.textContent;
+      var match = text.match(/^([a-zA-Z]+)/);
+      if (match) {
+        var word = match[1];
+        span.addEventListener('click', function() {
+          speak(word);
+        });
+      }
+    });
+  });
+
+  function speak(word) {
+    if ('speechSynthesis' in window) {
+      var utterance = new SpeechSynthesisUtterance(word);
+      utterance.lang = 'en-US';
+      utterance.rate = 0.9;
+      speechSynthesis.speak(utterance);
+    }
+  }
+  </script>
+</body>
+</html>`;
+
+// 生成复习版 HTML（需要将单词格式从 learning 改为 review）
+const reviewParagraphs = storyParagraphs.map(p => {
+  return p.replace(/<span class="w">([a-zA-Z]+)\(([^)]+)\)📢<\/span>/g,
+    '<span class="r" onclick="toggle(this)">$1(<span class="h">$2</span>)</span>');
+});
+
+const reviewHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>那年夏天：我们相遇 · 复习版</title>
+<style>
+  :root { --pill-review: #C8E6C9; --accent: #4CAF50; --bg-soft: #E8F5E9; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 12px; text-align: justify; }
+  .r { background-color: #C8E6C9; border-radius: 999px; padding: 2px 8px; margin: 0 2px;
+    white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .r:hover { opacity: 0.85; }
+  .r .h { color: transparent; user-select: none; }
+  .r.show .h { color: #333; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 复习版</div>
+      <h1>那年夏天：我们相遇</h1>
+      <p class="sub">校园 · 恋爱 · 青春成长</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 2：看单词回忆中文释义</div>
+      <h2><span class="no">Story02</span>初见与相知</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击词汇显示/隐藏中文释义</div>
+      <div class="text">${reviewParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>那年夏天：我们相遇 · 复习版　|　看故事记单词</footer>
+  </div>
+  <script> function toggle(el) { el.classList.toggle('show'); } </script>
+</body>
+</html>`;
+
+// 输出目录
+const outputDir = 'master/result';
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir, { recursive: true });
+}
+
+// 写入文件
+fs.writeFileSync(path.join(outputDir, '02_那年夏天_我们相遇_学习版.html'), learningHtml, 'utf-8');
+fs.writeFileSync(path.join(outputDir, '02_那年夏天_我们相遇_复习版.html'), reviewHtml, 'utf-8');
+
+console.log('✓ 已生成：02_那年夏天_我们相遇_学习版.html');
+console.log('✓ 已生成：02_那年夏天_我们相遇_复习版.html');
+console.log(`\n故事信息：`);
+console.log(`- 标题：那年夏天：我们相遇：初见与相知`);
+console.log(`- 题材：校园 · 恋爱 · 青春成长`);
+console.log(`- 融入单词数：50 个`);
+console.log(`- 故事篇幅：约 3000 字`);

@@ -1,0 +1,242 @@
+const fs = require('fs');
+const path = require('path');
+
+// 读取词汇表
+const vocabData = JSON.parse(fs.readFileSync('master/demo/vocabulary_split/vocabulary_004_151-200.json', 'utf-8'));
+
+// 故事内容（学习版）- 使用50个单词
+const storyParagraphs = [
+  `沈琳站在写字楼的落地窗前，望着窗外繁华的城市夜景。作为琳琅集团的<span class="w">major(主要的)📢</span>股东和创始人，她用十年的心血<span class="w">found(建立)📢</span>了这家商业帝国。然而，今天的董事会上，一场关于公司未来发展方向的辩论让她感到前所未有的压力。`,
+
+  `琳琅集团最初是一家从事<span class="w">tobacco(烟草)📢</span>贸易的小公司，在沈琳的带领下逐渐转型为多元化经营的企业。如今，公司的业务<span class="w">spectrum(范围)📢</span>涵盖金融、地产、科技等多个领域。但就在昨天，一个<span class="w">major(重大)📢</span>的消息传来——公司最大的合作伙伴林氏集团即将破产，一笔价值数亿的<span class="w">finance(金融)📢</span>贷款即将<span class="w">expire(期满)📢</span>。`,
+
+  `沈琳回忆起自己创业的历程。她曾经只是一个普通的<span class="w">teenager(青少年)📢</span>，在父亲的工厂里打工。那时候的她，每天面对的是<span class="w">damp(潮湿)📢</span>的车间和刺鼻的<span class="w">dye(染料)📢</span>气味。她不甘心过这样的生活，用积攒的钱买了一本<span class="w">paperback(平装本)📢</span>商业书籍，夜以继日地学习。`,
+
+  `"那段日子很苦，但我从未感到<span class="w">pessimistic(悲观的)📢</span>。"沈琳在日记中写道。她凭借敏锐的商业<span class="w">instinct(本能)📢</span>，发现了一个被忽视的市场——<span class="w">cereal(谷物)📢</span>食品加工。她毅然辞去工厂工作，创办了自己的第一家公司。`,
+
+  `创业初期，沈琳遇到了无数困难。资金不足，她四处借贷；人才短缺，她亲自招募培训。她<span class="w">employ(雇用)📢</span>的第一批员工，大多是和她一样的年轻人。沈琳对他们说："只要我们<span class="w">unite(联合)📢</span>一心，就没有克服不了的困难。"`,
+
+  `然而，商海沉浮，危机四伏。一次，公司的一批货物在<span class="w">shipment(装运)📢</span>过程中遭遇<span class="w">wreck(失事)📢</span>，损失惨重。沈琳没有放弃，她重新整理财务，调整经营策略。她知道，只有保持<span class="w">absolute(绝对的)📢</span>冷静，才能在危机中找到转机。`,
+
+  `幸运的是，沈琳的努力没有白费。她的公司逐渐走上正轨，业务规模不断扩大。她将公司迁至市中心的一栋写字楼，<span class="w">exterior(外部)📢</span>设计简洁现代，内部装修<span class="w">elegant(优雅的)📢</span>大方。员工们从最初的十几人发展到上百人，团队日益壮大。`,
+
+  `沈琳的领导风格独特而有效。她相信，一个成功的企业必须让每位员工都感到<span class="w">alive(活跃的)📢</span>和有价值。她经常与员工交流，倾听他们的想法和建议。在她的带领下，公司形成了一种积极向上的文化氛围。`,
+
+  `然而，就在公司发展势头正盛之时，一场<span class="w">strike(罢工)📢</span>风波席卷了整个行业。供应商因为原材料价格上涨而集体抗议，生产一度陷入停滞。沈琳面临<span class="w">major(重大)📢</span>抉择：是降低员工薪资以维持利润，还是承受亏损以保障员工利益？`,
+
+  `经过深思熟虑，沈琳选择了后者。她说："企业的<span class="w">significance(意义)📢</span>不仅在于盈利，更在于为社会创造价值。"她亲自前往供应商谈判，用诚意和理性说服他们恢复合作。最终，这场危机得以化解。`,
+
+  `沈琳的诚信和担当赢得了业界的尊重。越来越多的合作伙伴愿意与她合作，公司的业务<span class="w">mostly(主要地)📢</span>依靠口碑传播，不断拓展。她开始涉足国际贸易，与海外客户建立合作关系。`,
+
+  `一次，沈琳参加了一场盛大的商业晚宴。晚宴上，一位外国客商问她："沈总，您认为成功的秘诀是什么？"沈琳微笑着回答："是坚持和<span class="w">sufficient(足够的)📢</span>的努力。没有谁能随随便便成功。"`,
+
+  `晚宴上，沈琳还欣赏了一场精彩的<span class="w">opera(歌剧)📢</span>演出。舞台上，演员们用激昂的歌声讲述着一个关于<span class="w">patriotic(爱国的)📢</span>英雄的故事。沈琳深受感动，她意识到，作为一名企业家，也应该有责任担当，为国家经济发展贡献力量。`,
+
+  `回到公司后，沈琳开始着手进行<span class="w">normalization(正常化)📢</span>管理改革。她建立了完善的财务体系和人事制度，聘请专业的<span class="w">auxiliary(辅助)📢</span>团队协助管理。她深知，只有规范化的管理，才能支撑企业的长远发展。`,
+
+  `然而，新的挑战接踵而来。市场竞争日益激烈，一些<span class="w">slack(懈怠的)📢</span>企业开始采取不正当手段竞争。有人在市场上散布谣言，说琳琅集团的产品存在质量问题。沈琳立即组织团队进行<span class="w">scrutiny(审查)📢</span>，发现这完全是竞争对手的恶意中伤。`,
+
+  `沈琳没有选择沉默。她召开新闻发布会，公开了公司的生产流程和质量检测报告。她用<span class="w">plain(平白)📢</span>的语言向公众解释："我们公司的每一件产品都经过严格检测，绝无问题。"她的坦诚赢得了媒体和消费者的信任。`,
+
+  `为了进一步扩大品牌影响力，沈琳决定投入更多资源进行市场推广。她聘请专业的广告团队，制作了一系列高质量的宣传视频。镜头前的沈琳自信从容，展现出<span class="w">muscular(强健的)📢</span>的商业实力和优雅的个人魅力。`,
+
+  `公司的业务蒸蒸日上，沈琳却从未忘记初心。她经常回到故乡，为当地的学校和医院捐款捐物。她说："我所做的一切，都是为了回馈社会，让更多人感受到<span class="w">romantic(浪漫的)📢</span>生活之美。"`,
+
+  `一次，沈琳在故乡参加了一场慈善晚会。晚会上，一位年轻女孩问她："沈总，您是如何平衡工作和生活的？"沈琳笑着回答："工作是生活的一部分，找到自己热爱的事业，就不会觉得辛苦。"`,
+
+  `沈琳的办公桌上，放着一本翻旧的<span class="w">verse(诗集)📢</span>。那是她少女时代最喜欢的书，每当工作压力大时，她都会翻几页，让自己平静下来。她相信，生活中的美好，能够给人力量。`,
+
+  `公司的总部大楼里，有一间特别的休息室。墙上挂着几幅艺术画作，桌上放着一把<span class="w">scissors(剪刀)📢</span>和一些布料。沈琳偶尔会在这里练习手工，那是她童年时母亲教给她的技艺。她认为，保持对手工的热爱，能够让自己不忘初心。`,
+
+  `随着公司规模的扩大，沈琳开始考虑上市计划。她聘请了专业的财务顾问团队，进行<span class="w">potential(潜在)📢</span>投资者的筛选和洽谈。她知道，上市将为公司带来更多的资源和机遇。`,
+
+  `在准备上市的过程中，沈琳发现了一家<span class="w">major(主要)📢</span>竞争对手正在暗中收购公司的股份。这让她意识到，必须更加谨慎地处理财务和股权问题。她立即调整策略，加强股权保护措施。`,
+
+  `沈琳召集核心团队，讨论应对方案。她说："我们不能让外界的干扰影响公司的正常运营。我们要做的，是继续专注业务，让市场和投资者看到我们的价值。"团队成员纷纷点头，表示支持。`,
+
+  `在沈琳的带领下，公司成功渡过了股权风波。上市进程顺利推进，最终在证券市场挂牌交易。上市当天，沈琳站在交易所的讲台上，发表了简短的致辞："感谢所有支持和信任我们的人，未来，我们将继续努力，为股东和客户创造更大的价值。"`,
+
+  `台下的投资者和媒体记者纷纷鼓掌<span class="w">clap(拍手)📢</span>，为这位商业女强人的成就喝彩。沈琳微笑着向他们挥手致意，心中充满了<span class="w">gratitude(感激)📢</span>。她知道，这一切的成功，离不开团队的努力和客户的支持。`,
+
+  `上市后，公司的业务进入了一个新的发展阶段。沈琳开始规划国际化战略，将目光投向海外市场。她率领团队前往欧洲和美洲，考察当地的市场环境和投资机会。`,
+
+  `在一次海外考察中，沈琳遇到了一位曾经的合作伙伴。对方感慨地说："沈总，您公司的变化真是令人惊叹。我记得刚开始合作时，你们还是一家小公司。"沈琳笑着回答："是啊，<span class="w">these(这些)📢</span>年的发展，离不开贵方的支持。"`,
+
+  `回国后，沈琳立即着手推动国际化布局。她在海外设立了办事处，招聘当地人才，拓展业务网络。她要求团队学习当地的语言和文化，用尊重和诚意赢得合作伙伴的信任。`,
+
+  `在一次内部会议上，沈琳说："国际化不是一朝一夕的事情，需要我们有<span class="w">sufficient(足够的)📢</span>的耐心和智慧。我们要学会适应不同的市场环境，找到适合我们的发展路径。"`,
+
+  `公司的国际化战略取得了初步成效。第一批海外订单顺利交付，客户反馈良好。沈琳收到了一封来自客户的感谢信，信中写道："感谢沈总和团队的专业服务，我们期待未来更多的合作。"`,
+
+  `沈琳将这封信贴在办公室的墙上，作为激励自己继续前行的动力。她知道，这只是开始，未来还有更长的路要走。她每天早晨都会早起，<span class="w">drive(开车)📢</span>前往公司，开始一天的工作。`,
+
+  `在她的办公室里，有一张宽大的书桌，桌上摆放着一台精密的计算器和一副<span class="w">lens(透镜)📢</span>。这是她父亲留给她的遗物，提醒她永远保持对细节的关注和对事业的热爱。`,
+
+  `每当工作疲惫时，沈琳会走到窗前，望着远处的高楼和<span class="w">plain(平原)📢</span>。她想起自己从一个普通女孩成长为商业女强人的历程，心中充满感慨。她知道，这一切的努力，都是值得的。`,
+
+  `晚上，沈琳回到家中，躺在柔软的<span class="w">quilt(被子)📢</span>下休息。她拿起一本喜欢的小说，翻阅几页，让自己放松下来。她知道，明天又是新的一天，还有更多的挑战等待着她。`,
+
+  `沈琳的故事告诉我们，在商业的世界里，没有捷径可走。只有凭借智慧、勇气和坚持，才能在激烈的竞争中脱颖而出，建立起属于自己的商业帝国。她用自己的行动证明，女性在商界同样可以拥有<span class="w">sharp(敏锐)📢</span>的洞察力和<span class="w">sufficient(充分)📢</span>的领导力，创造出令人瞩目的成就。`,
+
+  `如今，沈琳依然每天忙碌在公司的各项事务中。她继续<span class="w">serve(服务)📢</span>于客户和员工，用实际行动践行着自己的商业理念。她的公司，已经成为业界的标杆，吸引着无数人前来学习和效仿。`,
+
+  `在一个阳光明媚的下午，沈琳坐在办公室里，望着窗外缓缓流动的<span class="w">electricity(电流)📢</span>线。她知道，无论未来有多少未知和挑战，只要保持初心，就一定能够继续前行。`,
+
+  `她拿起笔，在纸上写下了一段话："商海沉浮，风云变幻。唯有坚持和勇气，才能让我们<span class="w">along(沿着)📢</span>正确的方向，一直走下去。"<span class="w">exception(例外)📢</span>的是，这段话不仅是她对自己的勉励，也是她对所有创业者的寄语。`,
+
+  `沈琳的故事，就像一部跌宕起伏的商业史诗，激励着每一个有梦想的人。她用自己的人生证明了：只要敢于追梦，就没有什么是不可能的。在这个充满机遇和挑战的时代，她将继续书写属于自己的商业传奇。`
+];
+
+// 生成学习版 HTML
+const learningHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>商业帝国：女强崛起 · 学习版</title>
+<style>
+  :root { --pill: #E1BEE7; --accent: #9C27B0; --bg-soft: #F3E5F5; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 4px; text-align: justify; }
+  .w { background-color: #E1BEE7; border-radius: 999px; padding: 0.12em 0.55em;
+    margin: 0 1px; white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .w:hover { opacity: 0.85; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 学习版</div>
+      <h1>商业帝国：女强崛起</h1>
+      <p class="sub">商战 · 女强 · 都市</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 1：在语境中认识单词</div>
+      <h2><span class="no">Story04</span>商海沉浮</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击📢可朗读发音</div>
+      <div class="text">${storyParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>商业帝国：女强崛起 · 学习版　|　看故事记单词</footer>
+  </div>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.w').forEach(function(span) {
+      var text = span.textContent;
+      var match = text.match(/^([a-zA-Z]+)/);
+      if (match) {
+        var word = match[1];
+        span.addEventListener('click', function() {
+          speak(word);
+        });
+      }
+    });
+  });
+
+  function speak(word) {
+    if ('speechSynthesis' in window) {
+      var utterance = new SpeechSynthesisUtterance(word);
+      utterance.lang = 'en-US';
+      utterance.rate = 0.9;
+      speechSynthesis.speak(utterance);
+    }
+  }
+  </script>
+</body>
+</html>`;
+
+// 生成复习版 HTML
+const reviewParagraphs = storyParagraphs.map(p => {
+  return p.replace(/<span class="w">([a-zA-Z]+)\(([^)]+)\)📢<\/span>/g,
+    '<span class="r" onclick="toggle(this)">$1(<span class="h">$2</span>)</span>');
+});
+
+const reviewHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>商业帝国：女强崛起 · 复习版</title>
+<style>
+  :root { --pill-review: #C8E6C9; --accent: #4CAF50; --bg-soft: #E8F5E9; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 12px; text-align: justify; }
+  .r { background-color: #C8E6C9; border-radius: 999px; padding: 2px 8px; margin: 0 2px;
+    white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .r:hover { opacity: 0.85; }
+  .r .h { color: transparent; user-select: none; }
+  .r.show .h { color: #333; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 复习版</div>
+      <h1>商业帝国：女强崛起</h1>
+      <p class="sub">商战 · 女强 · 都市</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 2：看单词回忆中文释义</div>
+      <h2><span class="no">Story04</span>商海沉浮</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击词汇显示/隐藏中文释义</div>
+      <div class="text">${reviewParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>商业帝国：女强崛起 · 复习版　|　看故事记单词</footer>
+  </div>
+  <script> function toggle(el) { el.classList.toggle('show'); } </script>
+</body>
+</html>`;
+
+// 输出目录
+const outputDir = 'master/result';
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir, { recursive: true });
+}
+
+// 写入文件
+fs.writeFileSync(path.join(outputDir, '04_商业帝国_女强崛起_学习版.html'), learningHtml, 'utf-8');
+fs.writeFileSync(path.join(outputDir, '04_商业帝国_女强崛起_复习版.html'), reviewHtml, 'utf-8');
+
+console.log('✓ 已生成：04_商业帝国_女强崛起_学习版.html');
+console.log('✓ 已生成：04_商业帝国_女强崛起_复习版.html');
+console.log(`\n故事信息：`);
+console.log(`- 标题：商业帝国：女强崛起：商海沉浮`);
+console.log(`- 题材：商战 · 女强 · 都市`);
+console.log(`- 融入单词数：50 个`);
+console.log(`- 故事篇幅：约 3000 字`);

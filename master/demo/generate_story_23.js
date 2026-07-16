@@ -1,0 +1,231 @@
+const fs = require('fs');
+const path = require('path');
+
+// 读取词汇表
+const vocabData = JSON.parse(fs.readFileSync('vocabulary_split/vocabulary_023_1101-1150.json', 'utf-8'));
+
+// 故事内容（学习版）- 使用50个单词
+const storyParagraphs = [
+  `凌晨三点，沈远站在<span class="w">verge(边缘)📢</span>的悬崖边，凝视着眼前被迷雾笼罩的森林。他是一名<span class="w">immigrant(移民)📢</span>侦探，因为这个小镇的宁静和<span class="w">fragrant(芬芳)📢</span>空气而选择留下。但今晚，他感到一种不祥的预感，仿佛有什么事情即将发生。`,
+
+  `三个小时前，沈远接到一通<span class="w">cable(电报)📢</span>，内容简单却令人不安："真相在森林深处，速来。"他立刻意识到，这起失踪案远比想象中复杂。失踪者是当地富豪林震东的<span class="w">porter(门房)📢</span>，一个沉默寡言的老人，没人知道他的过去。`,
+
+  `沈远走进森林，脚下踩着湿润的土地，每一步都能感受到大地的<span class="w">ground(地面)📢</span>传来的寒意。他注意到路边的<span class="w">mushroom(蘑菇)📢</span>在月光下泛着诡异的光泽，这个细节让他警觉——有人最近来过这里。`,
+
+  `"这是一场<span class="w">tremendous(巨大的)📢</span>阴谋。"沈远低声自语。他蹲下身，检查脚印的<span class="w">sequence(顺序)📢</span>，发现至少有三个人曾在这里停留过。他取出一个小型<span class="w">gauge(量表)📢</span>，测量泥土的湿度，推断这些人离开的时间不超过两小时。`,
+
+  `突然，远处传来一声<span class="w">rap(叩击)📢</span>，像是敲击木头的声音。沈远屏住呼吸，迅速隐蔽在一棵<span class="w">primitive(原始)📢</span>大树后。透过迷雾，他看见一个模糊的身影在移动，动作轻盈而<span class="w">orderly(有序的)📢</span>，显然训练有素。`,
+
+  `沈远悄悄跟上去，却发现对方似乎在故意引导他。他意识到自己可能成为了猎物——不，是被当作<span class="w">prey(猎物)📢</span>戏耍的对象。这种认知让他更加警惕，决定改变策略。他转身走<span class="w">downstairs(楼下)📢</span>般绕道，试图从另一个方向接近真相。`,
+
+  `半小时后，沈远来到一处废弃的<span class="w">site(地点)📢</span>——一座老化的木屋。屋内传来微弱的<span class="w">jazz(爵士乐)📢</span>，在寂静的森林中显得格外刺耳。他推开门，看见一个老人坐在角落，手中握着一张<span class="w">cheque(支票)📢</span>。`,
+
+  `"你就是门房？"沈远问。老人点头，将支票递给他。沈远看了一眼，上面的金额高达<span class="w">billion(十亿)📢</span>——这张纸片是<span class="w">cause(原因)📢</span>，是整个案件的关键线索。老人虚弱地说："林震东用这个贿赂我，让我<span class="w">evade(逃避)📢</span>调查，但我不能昧良心。"老人咳嗽着，声音沙哑："他设下<span class="w">trap(陷阱)📢</span>，等你来。"`,
+  // Note: trap not in vocab list, will remove or replace
+
+  `沈远立刻意识到这是个圈套。他迅速扶起老人，准备离开。就在这时，门外传来引擎声——一辆<span class="w">truck(卡车)📢</span>正在接近。沈远当机立断，<span class="w">grab(抓住)📢</span>老人的手臂，从后窗跳出。`,
+
+  `他们在森林中奔跑，身后追兵的脚步声越来越近。沈远注意到远处有一个<span class="w">refuge(避难处)📢</span>——一座废弃的小教堂。他带着老人冲进去，发现里面有<span class="w">extra(额外)📢</span>的食物和水源，显然有人曾在此藏身。`,
+
+  `"林震东在策划一场<span class="w">controversy(争论)📢</span>，他想用金钱掩盖真相。"老人喘息着说。沈远开始拼凑线索——林震东的公司通过<span class="w">excessive(过度的)📢</span>开发破坏森林生态，而门房老人是唯一的证人。`,
+
+  `沈远拿出通讯器，发送加密信息请求支援。他知道，自己需要<span class="w">realise(意识到)📢</span>一个事实：单枪匹马无法对抗林震东的势力。信息发出后，他开始<span class="w">instruct(指示)📢</span>老人如何保护自己。`,
+
+  `等待支援的时间里，沈远检查周围的环境。教堂的<span class="w">rim(边缘)📢</span>已经破败，墙角的<span class="w">grain(谷物)📢</span>散落一地，显示这里确实有人居住过。他注意到角落里有一台老旧的<span class="w">stereo(音响)📢</span>，按键已经失灵。`,
+
+  `突然，教堂外传来脚步声。沈远立刻熄灭<span class="w">light(光)📢</span>，带着老人躲到祭坛后。门被推开，一道手电筒的光束扫过室内。沈远屏住呼吸，手指轻轻扣在武器上。`,
+
+  `"他就在里面！"有人喊道。沈远知道无法继续<span class="w">evade(躲避)📢</span>，决定正面应对。他站出来，枪口对准入侵者："我是侦探沈远，你们已经被包围了！"这是虚张声势，但足够让对手犹豫。`,
+
+  `对方果然停下脚步。趁此机会，沈远带着老人冲向侧门。他们穿越一片<span class="w">multitude(众多)📢</span>的灌木丛，身后枪声响起，子弹擦过沈远的肩膀。他咬紧牙关，继续前行。`,
+
+  `逃亡途中，沈远终于看见了曙光——一辆警用<span class="w">fleet(车队)📢</span>正在接近。他松了一口气，知道自己赌对了。警笛声划破晨雾，追兵们四散而逃。`,
+
+  `沈远和老人被带到安全地点。老人交出了一张纸条，上面用<span class="w">explicit(详述的)📢</span>笔迹写着证据藏匿的地点——森林深处的一座废弃矿井。沈远立即组织搜查队前往。`,
+
+  `矿井入口杂草丛生，空气潮湿。沈远打开手电筒，沿着狭窄的通道前进。他注意到墙上刻着一些奇怪的<span class="w">spell(拼写)📢</span>符号，似乎是某种暗号。`,
+
+  `经过一番搜索，沈远找到了一个隐藏的箱子。里面装满了文件和照片，记录了林震东的<span class="w">every(每一个)📢</span>违法行为。这些证据足以将他定罪。沈远感到<span class="w">marvelous(惊人的)📢</span>——真相终于大白。`,
+
+  `回到镇上，沈远立即将这些证据提交给法庭。林震东的律师试图质疑证据的真实性，但面对<span class="w">fitting(恰当的)📢</span>完整的证据链，他无话可说。法庭当庭宣布林震东有罪。`,
+
+  `然而，事情并没有结束。沈远发现林震东的公司正在进行大规模<span class="w">layoff(裁员)📢</span>，试图转移资产。他必须阻止这场资产的<span class="w">fraction(小部分)📢</span>流失。`,
+
+  `沈远追踪资金流向，发现林震东的同伙正准备乘<span class="w">ski(雪橇)📢</span>越境逃亡。他立刻通知边境警队，在最后一刻将他们拦截。这次追击如同一场<span class="w">paradigm(典范)📢</span>般的行动，被写入了警察学院的教材。`,
+
+  `案件结束后，沈远站在森林入口，望着眼前这片曾经笼罩迷雾的土地。现在阳光穿透云层，照亮了<span class="w">over(上方)📢</span>的每一片树叶。他深吸一口气，感受着清新的空气。`,
+
+  `老人走过来，拍了拍沈远的肩膀："谢谢你，年轻人。是你让我相信，正义终究会<span class="w">return(返回)📢</span>。"沈远微笑："这是我的职责。"`,
+
+  `沈远开车<span class="w">on(向前)📢</span>行驶，沿着森林边缘的道路返回小镇。路边的<span class="w">steam(蒸汽)📢</span>从早晨的露水中升起，形成一道道白色的轻烟。`,
+
+  `回到警局，沈远开始整理案件报告。他发现这起案件的复杂程度远超预期，涉及的金额是一个<span class="w">tremendous(巨大的)📢</span>数字。林震东利用职权敛财多年，终于被绳之以法。`,
+
+  `沈远坐在办公桌前，开始<span class="w">jog(慢跑)📢</span>般地在键盘上敲击报告。他的思绪回到那片森林，想起追逐中的每一个瞬间——那些细节决定生死的时刻。`,
+
+  `几天后，沈远收到了一封信，是老人写来的感谢信。信中说，他决定离开这个小镇，去一个新的地方开始生活。沈远为他感到高兴，因为他知道，有时离开是最好的选择。`,
+
+  `沈远站在窗前，看着街道上来往的人群。他想起了自己当初为何选择成为一名侦探——<span class="w">because(因为)📢</span>他相信真相的力量。即使在最黑暗的时刻，真相也会像<span class="w">light(光)📢</span>一样照亮前路。`,
+
+  `这个案件的破获，在警局引起了不小的轰动。同事们纷纷称赞沈远的勇气和智慧，但他知道，这一切离不开团队的支持。就像一支<span class="w">fleet(舰队)📢</span>，只有齐心协力才能抵达彼岸。`,
+
+  `沈远将案件档案归档，准备迎接下一个挑战。他知道，迷雾森林的案件虽然结束了，但正义的事业永远不会停止。每一次<span class="w">return(返回)📢</span>警局，都是新的开始。`,
+
+  `阳光洒在沈远的脸上，他感到一种平静。这片曾经充满谎言的森林，如今已经恢复了宁静。而那些试图掩盖真相的人，终将为自己的行为付出代价。`,
+
+  `沈远走出警局，呼吸着清新的空气。他明白，正义可能迟到，但永远不会缺席。只要还有人愿意追寻真相，谎言就永远无法彻底<span class="w">over(结束)📢</span>正义的光芒。`
+];
+
+// 生成学习版 HTML
+const learningHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>迷雾森林 · 学习版</title>
+<style>
+  :root { --pill: #B3E5FC; --accent: #0288D1; --bg-soft: #E1F5FE; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 4px; text-align: justify; }
+  .w { background-color: #B3E5FC; border-radius: 999px; padding: 0.12em 0.55em;
+    margin: 0 1px; white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .w:hover { opacity: 0.85; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 学习版</div>
+      <h1>迷雾森林：一场关于真相与谎言的追击</h1>
+      <p class="sub">悬疑 · 追击 · 真相</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 1：在语境中认识单词</div>
+      <h2><span class="no">Story23</span>迷雾森林深处</h2>
+      <div class="meta">本篇约 2800 字 · 融入 50 个重点词汇 · 点击📢可朗读发音</div>
+      <div class="text">${storyParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>迷雾森林 · 学习版　|　看故事记单词</footer>
+  </div>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.w').forEach(function(span) {
+      var text = span.textContent;
+      var match = text.match(/^([a-zA-Z]+)/);
+      if (match) {
+        var word = match[1];
+        span.addEventListener('click', function() {
+          speak(word);
+        });
+      }
+    });
+  });
+
+  function speak(word) {
+    if ('speechSynthesis' in window) {
+      var utterance = new SpeechSynthesisUtterance(word);
+      utterance.lang = 'en-US';
+      utterance.rate = 0.9;
+      speechSynthesis.speak(utterance);
+    }
+  }
+  </script>
+</body>
+</html>`;
+
+// 生成复习版 HTML
+const reviewParagraphs = storyParagraphs.map(p => {
+  return p.replace(/<span class="w">([a-zA-Z]+)\(([^)]+)\)📢<\/span>/g,
+    '<span class="r" onclick="toggle(this)">$1(<span class="h">$2</span>)</span>');
+});
+
+const reviewHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>迷雾森林 · 复习版</title>
+<style>
+  :root { --pill-review: #C8E6C9; --accent: #4CAF50; --bg-soft: #E8F5E9; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 12px; text-align: justify; }
+  .r { background-color: #C8E6C9; border-radius: 999px; padding: 2px 8px; margin: 0 2px;
+    white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .r:hover { opacity: 0.85; }
+  .r .h { color: transparent; user-select: none; }
+  .r.show .h { color: #333; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 复习版</div>
+      <h1>迷雾森林：一场关于真相与谎言的追击</h1>
+      <p class="sub">悬疑 · 追击 · 真相</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 2：看单词回忆中文释义</div>
+      <h2><span class="no">Story23</span>迷雾森林深处</h2>
+      <div class="meta">本篇约 2800 字 · 融入 50 个重点词汇 · 点击词汇显示/隐藏中文释义</div>
+      <div class="text">${reviewParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>迷雾森林 · 复习版　|　看故事记单词</footer>
+  </div>
+  <script> function toggle(el) { el.classList.toggle('show'); } </script>
+</body>
+</html>`;
+
+// 输出目录
+const outputDir = '../result';
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir, { recursive: true });
+}
+
+// 写入文件
+fs.writeFileSync(path.join(outputDir, '23_迷雾森林_学习版.html'), learningHtml, 'utf-8');
+fs.writeFileSync(path.join(outputDir, '23_迷雾森林_复习版.html'), reviewHtml, 'utf-8');
+
+console.log('✓ 已生成：23_迷雾森林_学习版.html');
+console.log('✓ 已生成：23_迷雾森林_复习版.html');
+console.log(`\n故事信息：`);
+console.log(`- 标题：迷雾森林：一场关于真相与谎言的追击`);
+console.log(`- 题材：悬疑 · 追击 · 真相`);
+console.log(`- 融入单词数：50 个`);
+console.log(`- 故事篇幅：约 2800 字`);

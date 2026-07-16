@@ -1,0 +1,282 @@
+const fs = require('fs');
+const path = require('path');
+
+// 读取词汇表
+const vocabData = JSON.parse(fs.readFileSync('vocabulary_split/vocabulary_020_951-1000.json', 'utf-8'));
+
+// 故事内容（学习版）- 使用50个单词
+const storyParagraphs = [
+  `二零二五年深秋，一艘科考船在<span class="w">sea(海)📢</span>上破浪前行。船上的<span class="w">scientific(科学)📢</span>研究团队正在执行一项秘密任务——寻找传说中沉没于深海的"克劳狄乌斯宝藏"。这份宝藏据传是一位<span class="w">republic(共和国)📢</span>时期的贵族为逃避战乱而沉入海底的财富。`,
+
+  `队长陈远站在甲板上，手中握着一本泛黄的<span class="w">magazine(杂志)📢</span>，那是他祖父留下的唯一线索。杂志上记载着一个惊人的<span class="w">proposition(主张)📢</span>：宝藏的入口隐藏在一片被称为"魔鬼海域"的区域，那里的水温常年维持在零下二<span class="w">centigrade(摄氏度)📢</span>左右，几乎是一个死亡禁区。`,
+
+  `"我们必须<span class="w">arrive(到达)📢</span>目标区域。"陈远对团队说，"时间不多了。"这支由十二人组成的<span class="w">troop(队伍)📢</span>中，有一位名叫林薇的女考古学家。她的专业背景让陈远印象深刻，那种独特的<span class="w">characteristic(特征)📢</span>气质让她在团队中格外引人注目。`,
+
+  `<span class="w">meantime(与此同时)📢</span>，船舱内，技术员张涛正在<span class="w">compile(编辑)📢</span>海底地形数据。屏幕上显示着复杂的声呐图像，其中一条隐约可见的<span class="w">stair(楼梯)📢</span>状结构引起了他的注意。"队长，您快来看这个！"他大声呼喊。`,
+
+  `陈远快步走来，盯着屏幕。"这可能是我们要找的东西。"他的声音低沉而坚定。林薇走近，看着那些图像，突然说："这看起来像是人工建造的通道。如果我的推测正确，这应该是一条通往深海遗迹的路径。"她的话<span class="w">imply(暗示)📢</span>着一个惊人的发现。`,
+
+  `团队开始准备潜水设备。这次行动需要极高<span class="w">necessity(必要性)📢</span>的精确配合。陈远叮嘱每个人："记住，深海环境极其危险，任何<span class="w">subtle(细微的)📢</span>失误都可能造成不可挽回的后果。"他特别强调了安全<span class="w">bond(契约)📢</span>的重要性，要求所有人严格遵守。`,
+
+  `潜水器缓缓下沉，周围的水温急剧下降。仪表显示，外部温度已经降至零下一<span class="w">centigrade(摄氏度)📢</span>。透过舷窗，他们看到了一片<span class="w">naked(裸露的)📢</span>海底岩石，上面布满了奇怪的刻痕。林薇惊呼："这些是<span class="w">Latin(拉丁)📢</span>文字！它们确实是共和国时期的产物！"`,
+
+  `他们操控潜水器沿着那条神秘的"楼梯"继续下潜。突然，声呐系统发出警报。前方出现了一个巨大的<span class="w">peak(山峰)📢</span>状结构，看起来像是一座海底山脉。但更让人震惊的是，山峰侧面有一扇雕刻着<span class="w">lion(狮子)📢</span>图案的石门。`,
+
+  `"这就是入口！"林薇激动地说。陈远操控潜水器靠近，发现门旁有一行铭文。林薇仔细辨认后<span class="w">clarify(澄清)📢</span>道："这上面写着——'唯有忠诚者方能开启'。<span class="w">loyalty(忠诚)📢</span>，这是进入的关键。"`,
+
+  `他们仔细研究石门，发现需要按特定顺序触碰五个符号。林薇推测："这些符号代表五项<span class="w">cardinal(基本的)📢</span>美德：勇气、智慧、忠诚、牺牲和希望。我们必须按正确的顺序触碰它们。"`,
+
+  `经过反复推敲，林薇<span class="w">deduct(推断)📢</span>出正确的顺序。当最后一个符号被触碰时，石门缓缓打开，露出了里面的通道。陈远深吸一口气："我们进去吧。"`,
+
+  `通道内部是一个巨大的水下洞穴，光线透过上方的水层洒下，形成<span class="w">subtle(微妙的)📢</span>的光影效果。他们发现洞穴墙壁上挂满了古老的武器和盔甲，显然曾经有一支精锐<span class="w">troop(部队)📢</span>驻守于此。`,
+
+  `继续前行，他们来到一个宽敞的厅堂。地面铺着<span class="w">rail(铁轨)📢</span>般的金属条纹，墙上挂着精美的<span class="w">jewel(宝石)📢</span>装饰。林薇惊叹："这些宝石的价值无法估量。有人曾试图<span class="w">rob(掠夺)📢</span>这些宝藏，但显然失败了。"`,
+
+  `她指向地上散落的骸骨。陈远走近查看，发现骸骨旁有一本残破的日记。日记中记载着一个可怕的故事：曾经有人背叛了团队，试图独吞宝藏，结果触发了机关，导致所有人陷入<span class="w">hell(地狱)📢</span>般的境地。`,
+
+  `"这就是为什么忠诚如此重要。"林薇叹息。她想到自己曾在<span class="w">landlady(女房东)📢</span>家中租住时读过的那些古籍，其中就有关于这个宝藏的传说。当时她以为只是神话，没想到竟是真的。`,
+
+  `他们继续探索，发现了一扇刻着"<span class="w">deed(契约)📢</span>"字样的铜门。门上有一个复杂的机械装置，需要输入一个数字密码。陈远注意到门旁有一个温度计，刻度显示为零度<span class="w">centigrade(摄氏度)📢</span>。`,
+
+  `"温度是密码！"他突然明白。林薇迅速计算："如果我们把温度与门上的其他数字结合，就能得出密码。"经过一番计算，他们成功打开了铜门。`,
+
+  `门后是一个巨大的宝库，里面堆满了金条和珠宝。但陈远没有急于行动，而是警惕地观察四周。"等等，"他低声说，"这太容易了。不像<span class="w">anybody(任何人)📢</span>都能轻易拿走的样子。"`,
+
+  `他的直觉是对的。就在这时，洞穴开始剧烈震动，仿佛一场<span class="w">catastrophe(大灾难)📢</span>即将降临。一块巨石从上方落下，<span class="w">smash(粉碎)📢</span>了他们来时的通道。"快找出口！"陈远大喊。`,
+
+  `林薇发现宝库深处有一条向上的<span class="w">stair(楼梯)📢</span>。他们沿着楼梯奔跑，却在半途发现楼梯已经断裂。下方是深不见底的黑洞，而他们脚下的平台只有<span class="w">finite(有限的)📢</span>的支撑力，随时可能崩塌。`,
+
+  `"我们必须<span class="w">swim(游泳)📢</span>过去！"林薇指着对面的平台。陈远犹豫了一下，但看到头顶不断掉落的石块，他知道别无选择。两人纵身一跃，在水中奋力划动。`,
+
+  `就在这时，一个黑影从深处浮现。那是一艘古老的沉船残骸，上面有一个巨大的<span class="w">sail(帆)📢</span>状结构。陈远认出这是他们一直在寻找的"克劳狄乌斯号"。`,
+
+  `他们爬上残骸，发现船舱内保存着大量文物。其中一份文件记载着一段惊人的历史：克劳狄乌斯曾试图建立一个理想的社会，但被<span class="w">oppress(压迫)📢</span>者摧毁。他将宝藏沉入海底，是为了保护人民的财富不被夺取。`,
+
+  `"他选择<span class="w">abandon(放弃)📢</span>财富，是为了<span class="w">uphold(维护)📢</span>理想。"林薇感动地说。陈远点头："我们现在做的，就是延续他的精神。"他们将文件小心收藏，准备带回去研究。`,
+
+  `此时，外面的水位开始上涨。他们必须尽快离开。陈远发现残骸上有一个紧急逃生舱，设计非常<span class="w">up-to-date(现代化)📢</span>，显然是后人加装的安全装置。他猜测可能是之前的探险者留下的。`,
+
+  `他们进入逃生舱，按下启动按钮。舱体以惊人的速度上升。透过玻璃窗，他们看到深海中的景象飞速掠过。无数鱼群在舱外<span class="w">swim(游动)📢</span>，形成一个奇异的画面。`,
+
+  `终于，逃生舱浮出水面。阳光刺眼，让他们一时睁不开眼睛。科考船立刻发现了他们，派出小艇前来接应。当他们踏上甲板时，全船的人都围了过来。`,
+
+  `陈远把文件交给船长，并讲述了他们在海底的经历。船长听完后，露出惊讶的表情："这份文件将改变我们对那段历史的理解。你们<span class="w">win(赢得)📢</span>了学术界的高度认可。"`,
+
+  `林薇补充道："更重要的是，我们证明了克劳狄乌斯的<span class="w">deed(事迹)📢</span>。他用行动诠释了什么是真正的忠诚与牺牲。"她看向陈远，眼中闪烁着光芒。`,
+
+  `陈远想起了自己在探险前写给家人的一封信，信中说到："这次行动是我必须完成的<span class="w">deed(使命)📢</span>。"现在，他终于完成了。`,
+
+  `回到港口后，他们受到热烈欢迎。记者们蜂拥而至，有人问："你们是如何找到那个位置的？"陈远拿出祖父的<span class="w">magazine(杂志)📢</span>，说："一切线索都从这里开始。"`,
+
+  `林薇在一旁补充："我们只是顺着历史留下的印记，<span class="w">across(穿过)📢</span>了时空的界限。"她的话引起在场所有人的深思。`,
+
+  `几天后，团队在一家餐厅聚餐。席间，大家讨论着下一步计划。张涛开玩笑说："这次探险，我们<span class="w">draw(汲取)📢</span>了不少经验教训。比如，以后不要再遇到崩塌的楼梯了。"大家都笑了。`,
+
+  `陈远举起酒杯："感谢大家这次的付出。我们建立的<span class="w">bond(纽带)📢</span>，比任何宝藏都珍贵。"所有人都举杯相迎。林薇坐在他身旁，心中升起一种温暖的感觉。`,
+
+  `她想到自己小时候，父亲曾告诉她："真正的宝藏，是你在追寻过程中遇到的<span class="w">anybody(任何人)📢</span>。"当时她不明白，现在终于懂了。`,
+
+  `聚餐结束后，陈远和林薇在海边散步。月光洒在波光粼粼的海面上，一只<span class="w">lion(狮子)📢</span>形状的云朵飘过天空。陈远开口："这次探险，给你留下了什么<span class="w">impression(印象)📢</span>？"`,
+
+  `林薇思考片刻："我觉得，最珍贵的不是我们发现的文物，而是那些被历史遗忘的故事。克劳狄乌斯选择<span class="w">accept(接受)📢</span>命运，却用自己的方式留下了遗产。"`,
+
+  `陈远点头："你说得对。历史上那些试图<span class="w">oppress(压迫)📢</span>他人的人，最终都消失了。而克劳狄乌斯的信念，却跨越千年，传递给了我们。"`,
+
+  `他突然从口袋里拿出一个小盒子，递给林薇。盒子里是一枚精致的<span class="w">jewel(宝石)📢</span>胸针，形状正是那只石门上的狮子。"这是我在残骸中找到的，本想交给博物馆，但后来决定送给你。"`,
+
+  `林薇愣住了，随即露出笑容："这太珍贵了，我怎么能收下？"陈远认真地说："因为你用智慧和<span class="w">loyalty(忠诚)📢</span>帮助我们完成了使命。这枚胸针，应该属于你。"`,
+
+  `林薇接过胸针，感受到它的重量。她突然说："你知道吗，我在出发前查了很多资料，甚至改变了自己的<span class="w">diet(饮食)📢</span>习惯，只为了能在深海中保持最佳状态。"`,
+
+  `陈远笑了："看来我们都为这次探险付出了很多。"他抬头望向远方的海平线，那里有一艘船正在<span class="w">sail(航行)📢</span>。`,
+
+  `"对了，"林薇突然想起什么，"我们找到的那些文件上，有一部分是关于一个神秘组织的记载。据说那个组织至今仍在活动，守护着克劳狄乌斯的遗产。"`,
+
+  `陈远皱眉："这<span class="w">imply(暗示)📢</span>着什么？"林薇摇头："还不清楚。但文件中提到，只有通过特定的<span class="w">credit(信用)📢</span>验证，才能获取更多信息。"`,
+
+  `陈远思考着："也许，我们的探险才刚刚开始。"他转头看向林薇，"你愿意继续加入团队吗？"林薇毫不犹豫地点头："当然。"`,
+
+  `接下来的<span class="w">weekend(周末)📢</span>，陈远整理了探险报告，提交给了研究机构。报告中对深海遗迹的详细描述，以及那些珍贵的历史文件，都引起了学术界的轰动。`,
+
+  `他特别在报告中强调了一个观点：克劳狄乌斯的故事证明了，真正的<span class="w">necessity(必需品)📢</span>不是物质财富，而是人们之间的信任与合作。这一点，与团队的经历完全吻合。`,
+
+  `一个月后，博物馆举办了"深海之谜"展览。展览的<span class="w">peak(最高点)📢</span>是一件从深海带回的青铜雕像——正是克劳狄乌斯的肖像。雕像下方的铭牌上写着：<span class="w">him(他)📢</span>选择了忠诚，历史选择了铭记。`,
+
+  `林薇站在雕像前久久凝视。她想起那个深海中的瞬间，当他们在生死边缘挣扎时，是团队的协作让他们<span class="w">win(获胜)📢</span>了命运的考验。`,
+
+  `展览开幕式上，陈远作为团队代表发言。他走到台上，开始讲述这次探险的故事。台下的观众安静聆听，仿佛被带入了那片神秘的深海。`,
+
+  `"我们的<span class="w">departure(出发)📢</span>，是为了寻找宝藏；我们的归来，是为了分享故事。"陈远说，"而最重要的收获，是我们明白了什么是真正的珍贵。"`,
+
+  `演讲结束后，林薇走到陈远身边。两人相视而笑，无需多言。他们知道，这段经历将永远成为彼此生命中的<span class="w">cardinal(基本的)📢</span>记忆。`,
+
+  `傍晚，展览馆逐渐安静下来。陈远提议去附近的咖啡厅坐坐。路上，林薇提到自己曾经在一本古籍中读到过一句话："探险的真谛，是让人学会珍惜<span class="w">finite(有限的)📢</span>的生命。"`,
+
+  `陈远感慨："确实如此。在深海中，当通道崩塌的那一刻，我才真正理解了这句话。"他停下脚步，看向林薇，"谢谢你，让这次探险有了不同的意义。"`,
+
+  `林薇心中一动。她突然意识到，这次探险带给她的，不仅是学术上的成就，更是内心深处的变化。她不再只是一个冷静的研究者，而是一个真正理解了<span class="w">bond(联结)📢</span>与<span class="w">loyalty(忠诚)📢</span>意义的人。`,
+
+  `几天后，研究团队公布了新的发现：克劳狄乌斯的遗产中，有一部分被隐藏在另一个地点。这意味着，新的探险即将开始。陈远再次召集团队，准备迎接新的挑战。`,
+
+  `林薇站在船舱门口，准备<span class="w">accept(接受)📢</span>新的任务。她看向窗外的海面，心中充满期待。过去的经历让她明白，真正的宝藏，往往隐藏在最意想不到的地方。`,
+
+  `船缓缓<span class="w">sail(航行)📢</span>出港口，驶向未知的远方。陈远和林薇并肩站在甲板上，注视着前方。他们知道，无论面对怎样的<span class="w">catastrophe(灾难)📢</span>，只要团队保持信任，就一定能克服困难。`,
+
+  `海风拂过，带来一丝咸涩的气息。林薇突然想起那枚胸针，她把它别在衣领上，阳光下闪烁着微光。那只狮子图案，仿佛在默默<span class="w">uphold(支持)📢</span>着她继续前行。`,
+
+  `"准备好了吗？"陈远问。林薇点头，眼神坚定："准备好了。"随着船只驶入开阔海域，一段新的冒险故事就此拉开序幕。这一次，他们将穿越更广阔的海域，追寻更遥远的传说，而那<span class="w">across(横跨)📢</span>时空的宝藏，终将被他们所发现。`
+];
+
+// 生成学习版 HTML
+const learningHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>深海迷踪 · 学习版</title>
+<style>
+  :root { --pill: #E1BEE7; --accent: #9C27B0; --bg-soft: #F3E5F5; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 4px; text-align: justify; }
+  .w { background-color: #E1BEE7; border-radius: 999px; padding: 0.12em 0.55em;
+    margin: 0 1px; white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .w:hover { opacity: 0.85; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 学习版</div>
+      <h1>深海迷踪：一场跨越时空的寻宝之旅</h1>
+      <p class="sub">冒险 · 悬疑 · 寻宝</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 1：在语境中认识单词</div>
+      <h2><span class="no">Story20</span>深海寻宝，跨越时空</h2>
+      <div class="meta">本篇约 2800 字 · 融入 50 个重点词汇 · 点击📢可朗读发音</div>
+      <div class="text">${storyParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>深海迷踪 · 学习版　|　看故事记单词</footer>
+  </div>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.w').forEach(function(span) {
+      var text = span.textContent;
+      var match = text.match(/^([a-zA-Z]+)/);
+      if (match) {
+        var word = match[1];
+        span.addEventListener('click', function() {
+          speak(word);
+        });
+      }
+    });
+  });
+
+  function speak(word) {
+    if ('speechSynthesis' in window) {
+      var utterance = new SpeechSynthesisUtterance(word);
+      utterance.lang = 'en-US';
+      utterance.rate = 0.9;
+      speechSynthesis.speak(utterance);
+    }
+  }
+  </script>
+</body>
+</html>`;
+
+// 生成复习版 HTML
+const reviewParagraphs = storyParagraphs.map(p => {
+  return p.replace(/<span class="w">([a-zA-Z]+)\(([^)]+)\)📢<\/span>/g,
+    '<span class="r" onclick="toggle(this)">$1(<span class="h">$2</span>)</span>');
+});
+
+const reviewHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>深海迷踪 · 复习版</title>
+<style>
+  :root { --pill-review: #C8E6C9; --accent: #4CAF50; --bg-soft: #E8F5E9; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 12px; text-align: justify; }
+  .r { background-color: #C8E6C9; border-radius: 999px; padding: 2px 8px; margin: 0 2px;
+    white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .r:hover { opacity: 0.85; }
+  .r .h { color: transparent; user-select: none; }
+  .r.show .h { color: #333; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 复习版</div>
+      <h1>深海迷踪：一场跨越时空的寻宝之旅</h1>
+      <p class="sub">冒险 · 悬疑 · 寻宝</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 2：看单词回忆中文释义</div>
+      <h2><span class="no">Story20</span>深海寻宝，跨越时空</h2>
+      <div class="meta">本篇约 2800 字 · 融入 50 个重点词汇 · 点击词汇显示/隐藏中文释义</div>
+      <div class="text">${reviewParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>深海迷踪 · 复习版　|　看故事记单词</footer>
+  </div>
+  <script> function toggle(el) { el.classList.toggle('show'); } </script>
+</body>
+</html>`;
+
+// 输出目录
+const outputDir = '../result';
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir, { recursive: true });
+}
+
+// 写入文件
+fs.writeFileSync(path.join(outputDir, '20_深海迷踪_学习版.html'), learningHtml, 'utf-8');
+fs.writeFileSync(path.join(outputDir, '20_深海迷踪_复习版.html'), reviewHtml, 'utf-8');
+
+console.log('✓ 已生成：20_深海迷踪_学习版.html');
+console.log('✓ 已生成：20_深海迷踪_复习版.html');
+console.log(`\n故事信息：`);
+console.log(`- 标题：深海迷踪：一场跨越时空的寻宝之旅`);
+console.log(`- 题材：冒险 · 悬疑 · 寻宝`);
+console.log(`- 融入单词数：50 个`);
+console.log(`- 故事篇幅：约 2800 字`);
