@@ -1,0 +1,271 @@
+{
+  "chunk": 110,
+  "range": "5451-5494",
+  "count": 44,
+  "vocabulary": [
+    {
+      "index": 5451,
+      "word": "till",
+      "phonetic": "/til/",
+      "definition": "prep.直到，直到…为止，与until意思相同"
+    },
+    {
+      "index": 5452,
+      "word": "twin",
+      "phonetic": "/twin/",
+      "definition": "a.双的,成对的,孪生的 n.孪生子,双生子"
+    },
+    {
+      "index": 5453,
+      "word": "worse",
+      "phonetic": "/wə:s/",
+      "definition": "a./ad.更坏,更差(的/地)"
+    },
+    {
+      "index": 5454,
+      "word": "new",
+      "phonetic": "/nju:/",
+      "definition": "a.新(近)的；新来的；不熟悉的；没经验的"
+    },
+    {
+      "index": 5455,
+      "word": "birth",
+      "phonetic": "/bɑ:θ/",
+      "definition": "n.出生，诞生；出身，血统；起源；出现"
+    },
+    {
+      "index": 5456,
+      "word": "pan",
+      "phonetic": "/pæn/",
+      "definition": "n.平底锅,盘子,面板"
+    },
+    {
+      "index": 5457,
+      "word": "magistrate",
+      "phonetic": "/'mædʒistreit/",
+      "definition": "n.地方行政官，地方法官，治安官"
+    },
+    {
+      "index": 5458,
+      "word": "marry",
+      "phonetic": "/'mæri/",
+      "definition": "v.结婚,嫁,娶"
+    },
+    {
+      "index": 5459,
+      "word": "certain",
+      "phonetic": "/'sə:tən/",
+      "definition": "a.某,某一,某些;(of)一定的,确信的,可靠的"
+    },
+    {
+      "index": 5460,
+      "word": "priest",
+      "phonetic": "/pri:st/",
+      "definition": "n.教士,神父"
+    },
+    {
+      "index": 5461,
+      "word": "grasp",
+      "phonetic": "/grɑ:sp/",
+      "definition": "v./n.抓住,抓紧;掌握,领会"
+    },
+    {
+      "index": 5462,
+      "word": "circular",
+      "phonetic": "/'sɜ:kjələ(r)/",
+      "definition": "a.圆(形)的,环形的;循环的 n.传单,通报"
+    },
+    {
+      "index": 5463,
+      "word": "spill",
+      "phonetic": "/spil/",
+      "definition": "v.溢出,溅出 n.摔下,跌下"
+    },
+    {
+      "index": 5464,
+      "word": "valid",
+      "phonetic": "/'vælɪd/",
+      "definition": "a.有效的;有根据的;正当的"
+    },
+    {
+      "index": 5465,
+      "word": "press",
+      "phonetic": "/pres/",
+      "definition": "v.压;压榨;紧迫,催促 n.报刊,通讯社;压榨机"
+    },
+    {
+      "index": 5466,
+      "word": "steady",
+      "phonetic": "/'stedi/",
+      "definition": "a.稳定的,不变的;坚定的v.(使)稳固/稳定"
+    },
+    {
+      "index": 5467,
+      "word": "advertise",
+      "phonetic": "/'ædvətaiz/",
+      "definition": "vt.公告，公布；为...做广告 vi.登广告"
+    },
+    {
+      "index": 5468,
+      "word": "bet",
+      "phonetic": "/bet/",
+      "definition": "v.赌,打赌 n.打赌,赌注"
+    },
+    {
+      "index": 5469,
+      "word": "ability",
+      "phonetic": "/ə'biliti/",
+      "definition": "n.能力；本领；才能；专门技能，天资"
+    },
+    {
+      "index": 5470,
+      "word": "we",
+      "phonetic": "/wi:/",
+      "definition": "pron．我们<主格>"
+    },
+    {
+      "index": 5471,
+      "word": "eventually",
+      "phonetic": "/i'ventʃuəli/",
+      "definition": "ad.终于,最后"
+    },
+    {
+      "index": 5472,
+      "word": "colleague",
+      "phonetic": "/'kɔli:g/",
+      "definition": "n.同事,同僚"
+    },
+    {
+      "index": 5473,
+      "word": "operation",
+      "phonetic": "/ˌɔpə'reiʃən/",
+      "definition": "n.运转,开动,操作,手术,运算,经营"
+    },
+    {
+      "index": 5474,
+      "word": "hotel",
+      "phonetic": "/həu'tel/",
+      "definition": "n.旅馆"
+    },
+    {
+      "index": 5475,
+      "word": "conservation",
+      "phonetic": "/ˌkɔnsə'veiʃən/",
+      "definition": "n.保存,保护,保守;守恒,不灭"
+    },
+    {
+      "index": 5476,
+      "word": "obstacle",
+      "phonetic": "/'ɒbstəkl/",
+      "definition": "n.障碍(物),妨碍,阻碍,干扰"
+    },
+    {
+      "index": 5477,
+      "word": "distract",
+      "phonetic": "/dis'trækt/",
+      "definition": "v.分散;使分心;打扰;使心情烦乱"
+    },
+    {
+      "index": 5478,
+      "word": "dump",
+      "phonetic": "/dʌmp/",
+      "definition": "v.倾倒,倾卸 n.垃圾场"
+    },
+    {
+      "index": 5479,
+      "word": "elementary",
+      "phonetic": "/ˌeli'mentəri/",
+      "definition": "a.初步的;基本的;[化]元素的;自然力的"
+    },
+    {
+      "index": 5480,
+      "word": "earth",
+      "phonetic": "/ɜ:θ/",
+      "definition": "n.地球；陆地；泥土，土壤；尘世，人间"
+    },
+    {
+      "index": 5481,
+      "word": "activity",
+      "phonetic": "/æk'tivəti/",
+      "definition": "n.活动；活力；能动性；"
+    },
+    {
+      "index": 5482,
+      "word": "executive",
+      "phonetic": "/ig'zekjutiv/",
+      "definition": "n.总经理,董事,行政负责人 a.执行的,实施的"
+    },
+    {
+      "index": 5483,
+      "word": "club",
+      "phonetic": "/klʌb/",
+      "definition": "n.俱乐部,夜总会;社团;棍棒,球棒"
+    },
+    {
+      "index": 5484,
+      "word": "poultry",
+      "phonetic": "/'pəultri/",
+      "definition": "n.家禽"
+    },
+    {
+      "index": 5485,
+      "word": "stock",
+      "phonetic": "/stɒk/",
+      "definition": "n.备料,库存,现货;股票,公债 v.储存"
+    },
+    {
+      "index": 5486,
+      "word": "sympathize",
+      "phonetic": "/'simpəθaiz/",
+      "definition": "v.(sympathise)(with)同情;共鸣,同感;赞成"
+    },
+    {
+      "index": 5487,
+      "word": "defence",
+      "phonetic": "/di'fens/",
+      "definition": "n.(defense)防御,保卫;防务工事;辩护"
+    },
+    {
+      "index": 5488,
+      "word": "silly",
+      "phonetic": "/'sɪli/",
+      "definition": "a.傻的,糊涂的,愚蠢的"
+    },
+    {
+      "index": 5489,
+      "word": "thirsty",
+      "phonetic": "/'θə:sti/",
+      "definition": "a.口渴的;(for)渴望的,热望的"
+    },
+    {
+      "index": 5490,
+      "word": "collection",
+      "phonetic": "/kə'lekʃən/",
+      "definition": "n.收藏(品),收集(物)"
+    },
+    {
+      "index": 5491,
+      "word": "conviction",
+      "phonetic": "/kən'vɪkʃn/",
+      "definition": "n.深信,确信；定罪，判罪；"
+    },
+    {
+      "index": 5492,
+      "word": "considerable",
+      "phonetic": "/kən'sidərəbl/",
+      "definition": "a.相当大(或多)的,可观的;值得考虑的"
+    },
+    {
+      "index": 5493,
+      "word": "rotate",
+      "phonetic": "/rəu'teit/",
+      "definition": "v.(使)旋转"
+    },
+    {
+      "index": 5494,
+      "word": "",
+      "phonetic": "",
+      "definition": ""
+    }
+  ]
+}

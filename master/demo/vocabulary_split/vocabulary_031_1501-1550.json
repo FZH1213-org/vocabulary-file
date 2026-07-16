@@ -1,0 +1,307 @@
+{
+  "chunk": 31,
+  "range": "1501-1550",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 1501,
+      "word": "harden",
+      "phonetic": "/'hɑ:dən/",
+      "definition": "v.(使)变硬"
+    },
+    {
+      "index": 1502,
+      "word": "motivate",
+      "phonetic": "/'məutiveit/",
+      "definition": "vt.促动；激励，鼓励，作为…的动机"
+    },
+    {
+      "index": 1503,
+      "word": "lady",
+      "phonetic": "/'leidi/",
+      "definition": "n.女士,夫人"
+    },
+    {
+      "index": 1504,
+      "word": "correlate",
+      "phonetic": "/'kɒrələt /",
+      "definition": "n.相关联的事物 v.(with,to)(使)互相关联"
+    },
+    {
+      "index": 1505,
+      "word": "inflation",
+      "phonetic": "/in'fleiʃən/",
+      "definition": "n.通货膨胀"
+    },
+    {
+      "index": 1506,
+      "word": "propel",
+      "phonetic": "/prəu'pel/",
+      "definition": "vt.推进，推动；激励，驱使"
+    },
+    {
+      "index": 1507,
+      "word": "medical",
+      "phonetic": "/'medikəl/",
+      "definition": "a.医学的，医疗的，医药的；内科的"
+    },
+    {
+      "index": 1508,
+      "word": "dirt",
+      "phonetic": "/də:t/",
+      "definition": "n.污物,污垢"
+    },
+    {
+      "index": 1509,
+      "word": "ultraviolet",
+      "phonetic": "/ˌʌltrə'vaiələt/",
+      "definition": "a./n.紫外线(的)"
+    },
+    {
+      "index": 1510,
+      "word": "assimilate",
+      "phonetic": "/ə'simileit/",
+      "definition": "vt.吸收，消化；使同化 vi.被吸收；被同化"
+    },
+    {
+      "index": 1511,
+      "word": "rouse",
+      "phonetic": "/rauz/",
+      "definition": "vt./vi.唤醒，唤起；激励；激起"
+    },
+    {
+      "index": 1512,
+      "word": "not",
+      "phonetic": "/nɒt/",
+      "definition": "ad.不，不是，不会；没有"
+    },
+    {
+      "index": 1513,
+      "word": "believe",
+      "phonetic": "/bi'li:v/",
+      "definition": "vt.相信，认为 vi.相信，信任，信奉"
+    },
+    {
+      "index": 1514,
+      "word": "troublesome",
+      "phonetic": "/'trʌblsəm/",
+      "definition": "a.令人烦恼的,讨厌的"
+    },
+    {
+      "index": 1515,
+      "word": "destiny",
+      "phonetic": "/'destini/",
+      "definition": "n.命运;天数,天命"
+    },
+    {
+      "index": 1516,
+      "word": "defect",
+      "phonetic": "/'di:fekt/",
+      "definition": "n.过失;缺点;不足"
+    },
+    {
+      "index": 1517,
+      "word": "northern",
+      "phonetic": "/'nɔ:ðən/",
+      "definition": "a.北方的,北部的"
+    },
+    {
+      "index": 1518,
+      "word": "party",
+      "phonetic": "/'pɑ:ti/",
+      "definition": "n.聚会,政党,当事人 v.举行(参加)社交聚会"
+    },
+    {
+      "index": 1519,
+      "word": "connect",
+      "phonetic": "/kə'nekt/",
+      "definition": "vt.连接；与…联系，接通(电话) vi.连接"
+    },
+    {
+      "index": 1520,
+      "word": "whip",
+      "phonetic": "/hwip/",
+      "definition": "n.鞭子;车夫 v.鞭打,抽打;突然移动"
+    },
+    {
+      "index": 1521,
+      "word": "too",
+      "phonetic": "/tu:/",
+      "definition": "ad.也，还；太，过于；很，非常"
+    },
+    {
+      "index": 1522,
+      "word": "explosion",
+      "phonetic": "/ɪk'spləuʒn/",
+      "definition": "n.爆炸,爆发"
+    },
+    {
+      "index": 1523,
+      "word": "parade",
+      "phonetic": "/pə'reid/",
+      "definition": "n./v.游行,夸耀n.检阅,阅兵式v.使列队行进"
+    },
+    {
+      "index": 1524,
+      "word": "fuse",
+      "phonetic": "/fju:z/",
+      "definition": "n.保险丝,导火线,引信 v.熔化,熔合"
+    },
+    {
+      "index": 1525,
+      "word": "dwelling",
+      "phonetic": "/'dweliŋ/",
+      "definition": "n.住宅,寓所"
+    },
+    {
+      "index": 1526,
+      "word": "illustrate",
+      "phonetic": "/'iləstreit/",
+      "definition": "v.举例说明,阐明;图解,加插图"
+    },
+    {
+      "index": 1527,
+      "word": "garden",
+      "phonetic": "/'gɑ:dn/",
+      "definition": "n.(菜,花)园;公园"
+    },
+    {
+      "index": 1528,
+      "word": "inhabitant",
+      "phonetic": "/in'hæbitənt/",
+      "definition": "n.居民,住户"
+    },
+    {
+      "index": 1529,
+      "word": "parcel",
+      "phonetic": "/'pɑ:sl/",
+      "definition": "n.包裹,邮包,部分 v.打包,捆扎,分配"
+    },
+    {
+      "index": 1530,
+      "word": "gallon",
+      "phonetic": "/'gælən/",
+      "definition": "n.加仑"
+    },
+    {
+      "index": 1531,
+      "word": "ice-cream",
+      "phonetic": "/'aiskri:m/",
+      "definition": "n.冰淇淋"
+    },
+    {
+      "index": 1532,
+      "word": "Monday",
+      "phonetic": "/'mʌndei/",
+      "definition": "n.星期一"
+    },
+    {
+      "index": 1533,
+      "word": "goat",
+      "phonetic": "/gəut/",
+      "definition": "n.山羊"
+    },
+    {
+      "index": 1534,
+      "word": "bag",
+      "phonetic": "/bæg/",
+      "definition": "n.袋，提包 v.把…装入袋中；猎杀；占有"
+    },
+    {
+      "index": 1535,
+      "word": "anyhow",
+      "phonetic": "/'enihau/",
+      "definition": "ad.不管怎么说，无论如何；不论用何种方法"
+    },
+    {
+      "index": 1536,
+      "word": "employee",
+      "phonetic": "/ˌemplɔi'i:/",
+      "definition": "n.雇工,雇员"
+    },
+    {
+      "index": 1537,
+      "word": "wonder",
+      "phonetic": "/'wʌndə/",
+      "definition": "n.惊奇,惊异;奇迹,奇事 v.(at)诧异;想知道"
+    },
+    {
+      "index": 1538,
+      "word": "southwest",
+      "phonetic": "/ˌsauθ'west/",
+      "definition": "n./a.西南(的),西南部(的)"
+    },
+    {
+      "index": 1539,
+      "word": "classroom",
+      "phonetic": "/'klɑ:srum/",
+      "definition": "n.教室，课堂"
+    },
+    {
+      "index": 1540,
+      "word": "knob",
+      "phonetic": "/nɔb/",
+      "definition": "n.门把,(球形)把手,旋纽"
+    },
+    {
+      "index": 1541,
+      "word": "obtain",
+      "phonetic": "/əb'tein/",
+      "definition": "v.获得,得到"
+    },
+    {
+      "index": 1542,
+      "word": "kiss",
+      "phonetic": "/kis/",
+      "definition": "n./v.吻,接吻"
+    },
+    {
+      "index": 1543,
+      "word": "discount",
+      "phonetic": "/'diskaunt/",
+      "definition": "n.折扣；贴现(率) vt.打折扣;不重视"
+    },
+    {
+      "index": 1544,
+      "word": "intrigue",
+      "phonetic": "/in'tri:g/",
+      "definition": "n.阴谋v.密谋,私通;激起…的兴趣;诡计取得"
+    },
+    {
+      "index": 1545,
+      "word": "differentiate",
+      "phonetic": "/ˌdifə'renʃieit/",
+      "definition": "v.区分,区别;(使)不同"
+    },
+    {
+      "index": 1546,
+      "word": "shuttle",
+      "phonetic": "/'ʃʌtl/",
+      "definition": "n.往返汽车/列车/飞机；穿梭 v.往返穿梭"
+    },
+    {
+      "index": 1547,
+      "word": "infinite",
+      "phonetic": "/'infinət/",
+      "definition": "a.无限的,无穷的 n.无限"
+    },
+    {
+      "index": 1548,
+      "word": "knit",
+      "phonetic": "/nit/",
+      "definition": "v.编织,编结;接合,粘合"
+    },
+    {
+      "index": 1549,
+      "word": "tie",
+      "phonetic": "/tai/",
+      "definition": "n.领带;联系,关系,纽带;束缚 v.扎,系,捆"
+    },
+    {
+      "index": 1550,
+      "word": "lemon",
+      "phonetic": "/'lemən/",
+      "definition": "n.柠檬"
+    }
+  ]
+}

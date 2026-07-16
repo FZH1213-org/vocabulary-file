@@ -1,0 +1,307 @@
+{
+  "chunk": 103,
+  "range": "5101-5150",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 5101,
+      "word": "whole",
+      "phonetic": "/həul/",
+      "definition": "n.全部 a.全体的；全部的；完整的；无缺的"
+    },
+    {
+      "index": 5102,
+      "word": "compassion",
+      "phonetic": "/kəm'pæʃən/",
+      "definition": "n.同情；怜悯(for)"
+    },
+    {
+      "index": 5103,
+      "word": "constituent",
+      "phonetic": "/kən'stɪtjuənt/",
+      "definition": "n.选民；成分，组分a.组成的，构成的"
+    },
+    {
+      "index": 5104,
+      "word": "undertake",
+      "phonetic": "/ˌʌndə'teik/",
+      "definition": "v.承担,担任;许诺,保证;着手,从事"
+    },
+    {
+      "index": 5105,
+      "word": "hatred",
+      "phonetic": "/'heitrid/",
+      "definition": "n.憎恨,憎恶,怨恨"
+    },
+    {
+      "index": 5106,
+      "word": "bleed",
+      "phonetic": "/bli:d/",
+      "definition": "v.出血,流血"
+    },
+    {
+      "index": 5107,
+      "word": "plantation",
+      "phonetic": "/plæn'teiʃən/",
+      "definition": "n.种植园"
+    },
+    {
+      "index": 5108,
+      "word": "learn",
+      "phonetic": "/lə:n/",
+      "definition": "v.学习，学，学会；(of，about)听到，获悉"
+    },
+    {
+      "index": 5109,
+      "word": "throw",
+      "phonetic": "/θrəu/",
+      "definition": "vt.扔；使突然陷入；使困惑n.投掷(距离)"
+    },
+    {
+      "index": 5110,
+      "word": "should",
+      "phonetic": "/ʃud/",
+      "definition": "aux.v.应该；万一；可能，该；就；竟然会"
+    },
+    {
+      "index": 5111,
+      "word": "miniature",
+      "phonetic": "/'miniətʃə/",
+      "definition": "n.缩小的模型,缩图 a.微型的,缩小的"
+    },
+    {
+      "index": 5112,
+      "word": "negative",
+      "phonetic": "/'negətiv/",
+      "definition": "a.否定的,消极的,阴性的n.负数;(摄影)底片"
+    },
+    {
+      "index": 5113,
+      "word": "root",
+      "phonetic": "/ru:t/",
+      "definition": "n.根,根部;根本,根源 v.(使)生根,(使)扎根"
+    },
+    {
+      "index": 5114,
+      "word": "necessary",
+      "phonetic": "/'nesisəri/",
+      "definition": "a.必需的,必要的;必然的 n.必需品"
+    },
+    {
+      "index": 5115,
+      "word": "cliff",
+      "phonetic": "/klif/",
+      "definition": "n.悬崖;峭壁"
+    },
+    {
+      "index": 5116,
+      "word": "residence",
+      "phonetic": "/'rezidəns/",
+      "definition": "n.住处,住宅"
+    },
+    {
+      "index": 5117,
+      "word": "raise",
+      "phonetic": "/reɪz/",
+      "definition": "v.举起,提升;增加;饲养;引起;竖起;提出"
+    },
+    {
+      "index": 5118,
+      "word": "narrow",
+      "phonetic": "/'nærəu/",
+      "definition": "a.狭窄的,狭的,狭隘的"
+    },
+    {
+      "index": 5119,
+      "word": "retrieve",
+      "phonetic": "/ri'tri:v/",
+      "definition": "vt.重新得到，取回；挽回，补救；检索"
+    },
+    {
+      "index": 5120,
+      "word": "weekly",
+      "phonetic": "/'wi:kli/",
+      "definition": "a.每星期的,一周的ad.每周一次 n.周刊,周报"
+    },
+    {
+      "index": 5121,
+      "word": "trim",
+      "phonetic": "/trim/",
+      "definition": "a.整齐的,整洁的 v./n.整理,修整,装饰"
+    },
+    {
+      "index": 5122,
+      "word": "trigger",
+      "phonetic": "/'trigə/",
+      "definition": "n.扳机 vt.触发，引起"
+    },
+    {
+      "index": 5123,
+      "word": "howl",
+      "phonetic": "/haul/",
+      "definition": "n.怒吼，嗥叫 vi.(风等)怒吼，咆哮"
+    },
+    {
+      "index": 5124,
+      "word": "insight",
+      "phonetic": "/'insait/",
+      "definition": "n.洞察力,见识"
+    },
+    {
+      "index": 5125,
+      "word": "polite",
+      "phonetic": "/pə'lait/",
+      "definition": "a.有礼貌的,客气的;有教养的,文雅的"
+    },
+    {
+      "index": 5126,
+      "word": "cloak",
+      "phonetic": "/kləuk/",
+      "definition": "n.斗蓬，披风；掩饰，幌子vt.掩盖，掩饰"
+    },
+    {
+      "index": 5127,
+      "word": "suggestion",
+      "phonetic": "/səg'dʒestʃən/",
+      "definition": "n.建议，意见；细微的迹象；暗示，联想"
+    },
+    {
+      "index": 5128,
+      "word": "video",
+      "phonetic": "/'vidiəu/",
+      "definition": "n.电视,视频;录像 a.电视的,视频的;录像的"
+    },
+    {
+      "index": 5129,
+      "word": "handy",
+      "phonetic": "/'hændi/",
+      "definition": "a.手边的,近便的;方便的"
+    },
+    {
+      "index": 5130,
+      "word": "candy",
+      "phonetic": "/'kændi/",
+      "definition": "n.糖果"
+    },
+    {
+      "index": 5131,
+      "word": "student",
+      "phonetic": "/'stju:dənt/",
+      "definition": "n.(大中学校的)学生；研究者，学者"
+    },
+    {
+      "index": 5132,
+      "word": "melt",
+      "phonetic": "/melt/",
+      "definition": "v.(使)融化,(使)熔化"
+    },
+    {
+      "index": 5133,
+      "word": "card",
+      "phonetic": "/kɑ:d/",
+      "definition": "n.卡片,名片;纸牌;纸片"
+    },
+    {
+      "index": 5134,
+      "word": "embrace",
+      "phonetic": "/im'breis/",
+      "definition": "v.拥抱;包含;包围;环绕;采用;接受"
+    },
+    {
+      "index": 5135,
+      "word": "rice",
+      "phonetic": "/rais/",
+      "definition": "n.稻,米"
+    },
+    {
+      "index": 5136,
+      "word": "translation",
+      "phonetic": "/træns'leiʃən/",
+      "definition": "n.翻译;译文,译本"
+    },
+    {
+      "index": 5137,
+      "word": "doorway",
+      "phonetic": "/'dɔ:wei/",
+      "definition": "n.门口"
+    },
+    {
+      "index": 5138,
+      "word": "mineral",
+      "phonetic": "/'minərəl/",
+      "definition": "n.矿物,矿石 a.矿物的,矿质的"
+    },
+    {
+      "index": 5139,
+      "word": "scatter",
+      "phonetic": "/'skætə/",
+      "definition": "v.散开,驱散;散布,散播"
+    },
+    {
+      "index": 5140,
+      "word": "adjoin",
+      "phonetic": "/ə'dʒɔin/",
+      "definition": "v.临近，靠近；贴近，毗连"
+    },
+    {
+      "index": 5141,
+      "word": "window",
+      "phonetic": "/'windəu/",
+      "definition": "n.窗,窗口"
+    },
+    {
+      "index": 5142,
+      "word": "drought",
+      "phonetic": "/draut/",
+      "definition": "n.旱灾,干旱"
+    },
+    {
+      "index": 5143,
+      "word": "variation",
+      "phonetic": "/ˌvεəri'eiʃən/",
+      "definition": "n.变化,变动;变种,变异"
+    },
+    {
+      "index": 5144,
+      "word": "diminish",
+      "phonetic": "/di'miniʃ/",
+      "definition": "v.缩小,减少,递减"
+    },
+    {
+      "index": 5145,
+      "word": "collective",
+      "phonetic": "/kə'lektiv/",
+      "definition": "n.集体 a.集体的,共同的"
+    },
+    {
+      "index": 5146,
+      "word": "prescription",
+      "phonetic": "/pris'kripʃən/",
+      "definition": "n.药方,处方"
+    },
+    {
+      "index": 5147,
+      "word": "hawk",
+      "phonetic": "/hɔ:k/",
+      "definition": "n.鹰,隼"
+    },
+    {
+      "index": 5148,
+      "word": "tax",
+      "phonetic": "/tæks/",
+      "definition": "n.税(款),负担 v.对…征税,使负重担"
+    },
+    {
+      "index": 5149,
+      "word": "courtyard",
+      "phonetic": "/'kɔ:tˌjɑ:d/",
+      "definition": "n.院子，庭院，天井"
+    },
+    {
+      "index": 5150,
+      "word": "pole",
+      "phonetic": "/pəul/",
+      "definition": "n.柱,杆;地极,磁极,电极"
+    }
+  ]
+}

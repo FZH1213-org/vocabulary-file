@@ -1,0 +1,307 @@
+{
+  "chunk": 85,
+  "range": "4201-4250",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 4201,
+      "word": "scarce",
+      "phonetic": "/skεəs/",
+      "definition": "a.缺乏的,不足的;稀少的,罕见的"
+    },
+    {
+      "index": 4202,
+      "word": "say",
+      "phonetic": "/sei/",
+      "definition": "vt.说，讲；说明；比如说 vi.说，发表意见"
+    },
+    {
+      "index": 4203,
+      "word": "captain",
+      "phonetic": "/'kæptin/",
+      "definition": "n.首领,队长;船长;上尉 v.做…的首领,指挥"
+    },
+    {
+      "index": 4204,
+      "word": "comment",
+      "phonetic": "/'kɒment/",
+      "definition": "n.注释,评论,意见 v.(on)注释,评论"
+    },
+    {
+      "index": 4205,
+      "word": "fell",
+      "phonetic": "/fel/",
+      "definition": "v.击倒;打倒(疾病等);砍伐a.凶猛的;可怕的"
+    },
+    {
+      "index": 4206,
+      "word": "commonwealth",
+      "phonetic": "/'kɔmənwelθ/",
+      "definition": "n.共和国,联邦,共同体"
+    },
+    {
+      "index": 4207,
+      "word": "literary",
+      "phonetic": "/'litərəri/",
+      "definition": "a.文学上的,文学的;精通文学的,从事写作的"
+    },
+    {
+      "index": 4208,
+      "word": "ice",
+      "phonetic": "/ais/",
+      "definition": "n.冰；冰冻甜食 vt.冰冻，使成冰"
+    },
+    {
+      "index": 4209,
+      "word": "recorder",
+      "phonetic": "/ri'kɔ:də/",
+      "definition": "n.记录员;录音机"
+    },
+    {
+      "index": 4210,
+      "word": "voluntary",
+      "phonetic": "/'vɔləntəri/",
+      "definition": "a.自愿的,志愿的"
+    },
+    {
+      "index": 4211,
+      "word": "yourself",
+      "phonetic": "/jɔ:'self/",
+      "definition": "pron.[反身代词]你自己；你亲自"
+    },
+    {
+      "index": 4212,
+      "word": "weather",
+      "phonetic": "/'weðə/",
+      "definition": "n.天气,气象"
+    },
+    {
+      "index": 4213,
+      "word": "pound",
+      "phonetic": "/paund/",
+      "definition": "n.磅;英镑 v.(连续)猛击,(猛烈)敲打,捣碎"
+    },
+    {
+      "index": 4214,
+      "word": "compulsory",
+      "phonetic": "/kəm'pʌlsəri/",
+      "definition": "a.必须做的，强制性的，(课程)必修的"
+    },
+    {
+      "index": 4215,
+      "word": "spectacle",
+      "phonetic": "/'spektəkl/",
+      "definition": "n.(pl.)眼镜;场面,景象;奇观,壮观"
+    },
+    {
+      "index": 4216,
+      "word": "civilize",
+      "phonetic": "/'sivilaiz/",
+      "definition": "v.(=civilise)使文明,开化"
+    },
+    {
+      "index": 4217,
+      "word": "instrumental",
+      "phonetic": "/ˌinstru'mentəl/",
+      "definition": "a.仪器的;器械的;乐器的;起作用的;有帮助的"
+    },
+    {
+      "index": 4218,
+      "word": "misfortune",
+      "phonetic": "/mis'fɔ:tʃən/",
+      "definition": "n.不幸,灾祸,灾难"
+    },
+    {
+      "index": 4219,
+      "word": "Friday",
+      "phonetic": "/'fraidei/",
+      "definition": "n.星期五"
+    },
+    {
+      "index": 4220,
+      "word": "May",
+      "phonetic": "/mei/",
+      "definition": "n.五月"
+    },
+    {
+      "index": 4221,
+      "word": "million",
+      "phonetic": "/'mɪljən/",
+      "definition": "num./n.百万,百万个"
+    },
+    {
+      "index": 4222,
+      "word": "talent",
+      "phonetic": "/'tælənt/",
+      "definition": "n.才能,天资;人才"
+    },
+    {
+      "index": 4223,
+      "word": "catch",
+      "phonetic": "/kætʃ/",
+      "definition": "v.捕捉,捕获;赶上;感染;理解,听到"
+    },
+    {
+      "index": 4224,
+      "word": "crowd",
+      "phonetic": "/kraud/",
+      "definition": "n.人群;一群,一伙 v.聚集,群集;挤满,拥挤"
+    },
+    {
+      "index": 4225,
+      "word": "shorthand",
+      "phonetic": "/'ʃɔ:thænd/",
+      "definition": "n.速记"
+    },
+    {
+      "index": 4226,
+      "word": "shave",
+      "phonetic": "/ʃeɪv/",
+      "definition": "v.剃,刮,刨,削 n.刮脸"
+    },
+    {
+      "index": 4227,
+      "word": "capacity",
+      "phonetic": "/kə'pæsəti/",
+      "definition": "n.容量,容积;能量,能力;接受力"
+    },
+    {
+      "index": 4228,
+      "word": "inquiry",
+      "phonetic": "/in'kwaiəri/",
+      "definition": "n.(enquiry)询问,打听,调查"
+    },
+    {
+      "index": 4229,
+      "word": "politics",
+      "phonetic": "/'pɔlitiks/",
+      "definition": "n.政治,政治学;政纲,政见"
+    },
+    {
+      "index": 4230,
+      "word": "gold",
+      "phonetic": "/gəuld/",
+      "definition": "n.金，黄金；金币；金黄色 a.金的，金制的"
+    },
+    {
+      "index": 4231,
+      "word": "acknowledge",
+      "phonetic": "/ək'nɔlidʒ/",
+      "definition": "vt.承认；接受；告知(信件等的)收到；答谢"
+    },
+    {
+      "index": 4232,
+      "word": "management",
+      "phonetic": "/'mænidʒmənt/",
+      "definition": "n.经营,管理;处理,操纵;管理部门"
+    },
+    {
+      "index": 4233,
+      "word": "brace",
+      "phonetic": "/breis/",
+      "definition": "v.使防备;支撑;使(手,足,肩等)绷紧 n.托架"
+    },
+    {
+      "index": 4234,
+      "word": "bump",
+      "phonetic": "/bʌmp/",
+      "definition": "v.(against,into)碰;颠簸着前进 n.碰撞"
+    },
+    {
+      "index": 4235,
+      "word": "urge",
+      "phonetic": "/ə:dʒ/",
+      "definition": "vt.催促;怂恿;强调 n.强烈欲望,迫切要求"
+    },
+    {
+      "index": 4236,
+      "word": "expectation",
+      "phonetic": "/ˌekspek'teiʃən/",
+      "definition": "n.预期,期望,指望"
+    },
+    {
+      "index": 4237,
+      "word": "permanent",
+      "phonetic": "/'pɜ:mənənt/",
+      "definition": "a.永久的,持久的"
+    },
+    {
+      "index": 4238,
+      "word": "dictate",
+      "phonetic": "/dik'teit/",
+      "definition": "v.口授;(使)听写;指令,指示,命令;"
+    },
+    {
+      "index": 4239,
+      "word": "nap",
+      "phonetic": "/næp/",
+      "definition": "n.小睡,打盹"
+    },
+    {
+      "index": 4240,
+      "word": "anger",
+      "phonetic": "/'æŋgə/",
+      "definition": "n.愤怒，气愤 vt.使发怒，激怒 vi.发怒"
+    },
+    {
+      "index": 4241,
+      "word": "personality",
+      "phonetic": "/ˌpə:sə'næləti/",
+      "definition": "n.人格,个性"
+    },
+    {
+      "index": 4242,
+      "word": "conscientious",
+      "phonetic": "/ˌkɔnʃi'enʃəs/",
+      "definition": "a.审慎正直的，认真的，本着良心的"
+    },
+    {
+      "index": 4243,
+      "word": "cross",
+      "phonetic": "/krɒs/",
+      "definition": "n.十字(架)；苦难 a.交叉的；发怒的 v.穿过"
+    },
+    {
+      "index": 4244,
+      "word": "shop",
+      "phonetic": "/ʃɔp/",
+      "definition": "n.商店，店铺；工厂，车间  v.买东西"
+    },
+    {
+      "index": 4245,
+      "word": "coke",
+      "phonetic": "/kəuk/",
+      "definition": "n.焦炭；可口可乐（COCA-COLA）的缩写"
+    },
+    {
+      "index": 4246,
+      "word": "bench",
+      "phonetic": "/bentʃ/",
+      "definition": "n.长凳,条凳;(工作)台,座"
+    },
+    {
+      "index": 4247,
+      "word": "excite",
+      "phonetic": "/ik'sait/",
+      "definition": "v.刺激,使激动;激发,激励"
+    },
+    {
+      "index": 4248,
+      "word": "substitute",
+      "phonetic": "/'sʌbstitju:t/",
+      "definition": "n.代替者；替身；代用品 v.(for)代替,替换"
+    },
+    {
+      "index": 4249,
+      "word": "saucer",
+      "phonetic": "/'sɔ:sə/",
+      "definition": "n.茶托,碟子"
+    },
+    {
+      "index": 4250,
+      "word": "owner",
+      "phonetic": "/'əunə/",
+      "definition": "n.物主,所有者"
+    }
+  ]
+}

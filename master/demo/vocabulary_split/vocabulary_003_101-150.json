@@ -1,0 +1,307 @@
+{
+  "chunk": 3,
+  "range": "101-150",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 101,
+      "word": "liberal",
+      "phonetic": "/'libərəl/",
+      "definition": "a.慷慨的,大方的;富足的;自由的,思想开放的"
+    },
+    {
+      "index": 102,
+      "word": "wait",
+      "phonetic": "/weit/",
+      "definition": "v.(for)等待；(on)侍候 n.等候，等待时间"
+    },
+    {
+      "index": 103,
+      "word": "waterfall",
+      "phonetic": "/'wɔ:təfɔ:l/",
+      "definition": "n.瀑布"
+    },
+    {
+      "index": 104,
+      "word": "steep",
+      "phonetic": "/sti:p/",
+      "definition": "a.陡峭，险峻的；急剧升降的vt.浸泡,沉浸"
+    },
+    {
+      "index": 105,
+      "word": "pig",
+      "phonetic": "/pɪg/",
+      "definition": "n.猪，猪肉；猪一般的人(指肮脏，贪吃的人)"
+    },
+    {
+      "index": 106,
+      "word": "temperament",
+      "phonetic": "/'tempərəmənt/",
+      "definition": "n.气质，性格，性情；资质"
+    },
+    {
+      "index": 107,
+      "word": "fist",
+      "phonetic": "/fɪst/",
+      "definition": "n.拳头 vt.用拳头打；紧握"
+    },
+    {
+      "index": 108,
+      "word": "search",
+      "phonetic": "/sə:tʃ/",
+      "definition": "v./n.(for)搜索,寻找,探查"
+    },
+    {
+      "index": 109,
+      "word": "account",
+      "phonetic": "/ə'kaunt/",
+      "definition": "a.叙述，说明；账目，账户 vi.说明，解释"
+    },
+    {
+      "index": 110,
+      "word": "depth",
+      "phonetic": "/depθ/",
+      "definition": "n.深，深度,深奥,深刻"
+    },
+    {
+      "index": 111,
+      "word": "local",
+      "phonetic": "/'ləukəl/",
+      "definition": "a.地方的,当地的;局部的"
+    },
+    {
+      "index": 112,
+      "word": "utilize",
+      "phonetic": "/'ju:tilaiz/",
+      "definition": "vt.利用"
+    },
+    {
+      "index": 113,
+      "word": "punish",
+      "phonetic": "/'pʌniʃ/",
+      "definition": "v.惩罚,处罚"
+    },
+    {
+      "index": 114,
+      "word": "fault",
+      "phonetic": "/fɔ:lt/",
+      "definition": "n.过失,过错;缺点,毛病"
+    },
+    {
+      "index": 115,
+      "word": "proficiency",
+      "phonetic": "/prəu'fiʃənsi/",
+      "definition": "n.(in)熟练,精通"
+    },
+    {
+      "index": 116,
+      "word": "spite",
+      "phonetic": "/spait/",
+      "definition": "n.恶意;怨恨"
+    },
+    {
+      "index": 117,
+      "word": "annual",
+      "phonetic": "/'ænjuəl/",
+      "definition": "a.每年的，一年生的 n.年刊；一年生植物"
+    },
+    {
+      "index": 118,
+      "word": "scholar",
+      "phonetic": "/'skɔlə/",
+      "definition": "n.学者"
+    },
+    {
+      "index": 119,
+      "word": "fundamental",
+      "phonetic": "/ˌfʌndə'mentəl/",
+      "definition": "a.基础的,基本的 n.(pl.)基本原则,基本原理"
+    },
+    {
+      "index": 120,
+      "word": "manage",
+      "phonetic": "/'mænɪdʒ/",
+      "definition": "v.经营,管理,处理;设法,对付;操纵,运用"
+    },
+    {
+      "index": 121,
+      "word": "cage",
+      "phonetic": "/keidʒ/",
+      "definition": "n.鸟笼"
+    },
+    {
+      "index": 122,
+      "word": "crisis",
+      "phonetic": "/'kraisis/",
+      "definition": "n.(pl.crises)危机,紧要关头"
+    },
+    {
+      "index": 123,
+      "word": "veil",
+      "phonetic": "/veil/",
+      "definition": "n.面纱,遮蔽物 v.用面纱掩盖,掩饰"
+    },
+    {
+      "index": 124,
+      "word": "awe",
+      "phonetic": "/ɔ:/",
+      "definition": "n.敬畏，惊惧vt.使敬畏，使惊惧"
+    },
+    {
+      "index": 125,
+      "word": "privacy",
+      "phonetic": "/'praivəsi/",
+      "definition": "n.(不受干扰的)独处，自由，隐私；私生活"
+    },
+    {
+      "index": 126,
+      "word": "poem",
+      "phonetic": "/'pəuim/",
+      "definition": "n.诗"
+    },
+    {
+      "index": 127,
+      "word": "spaceship",
+      "phonetic": "/'speisʃip/",
+      "definition": "n.宇宙飞船"
+    },
+    {
+      "index": 128,
+      "word": "remark",
+      "phonetic": "/ri'mɑ:k/",
+      "definition": "n.(about,on)评语,意见 v.(on)评论;注意到"
+    },
+    {
+      "index": 129,
+      "word": "anything",
+      "phonetic": "/'eniθiŋ/",
+      "definition": "pron.任何东西(事物)；无论什么东西(事物)"
+    },
+    {
+      "index": 130,
+      "word": "tangle",
+      "phonetic": "/'tæŋgl/",
+      "definition": "n.纠缠；缠结；混乱 v.(使)缠绕；变乱"
+    },
+    {
+      "index": 131,
+      "word": "mistress",
+      "phonetic": "/'mistris/",
+      "definition": "n.女主人;主妇;情妇,情人"
+    },
+    {
+      "index": 132,
+      "word": "temperature",
+      "phonetic": "/'temprətʃə(r)/",
+      "definition": "n.温度，体温；热度，发烧"
+    },
+    {
+      "index": 133,
+      "word": "lecture",
+      "phonetic": "/'lektʃə/",
+      "definition": "n./v.演讲,讲课"
+    },
+    {
+      "index": 134,
+      "word": "fix",
+      "phonetic": "/fiks/",
+      "definition": "v.(使)固定;修理;安装;决定;注视 n.困境"
+    },
+    {
+      "index": 135,
+      "word": "examine",
+      "phonetic": "/ig'zæmin/",
+      "definition": "v.检查,调查;对…进行考试"
+    },
+    {
+      "index": 136,
+      "word": "destination",
+      "phonetic": "/ˌdesti'neiʃən/",
+      "definition": "n.目的地,终点"
+    },
+    {
+      "index": 137,
+      "word": "polish",
+      "phonetic": "/'pɔliʃ/",
+      "definition": "v.磨光,擦亮;使优美,润饰 n.擦光剂,上光蜡"
+    },
+    {
+      "index": 138,
+      "word": "pill",
+      "phonetic": "/pil/",
+      "definition": "n.药丸"
+    },
+    {
+      "index": 139,
+      "word": "rape",
+      "phonetic": "/reip/",
+      "definition": "n./vt.掠夺,蹂躏,强奸"
+    },
+    {
+      "index": 140,
+      "word": "consolidate",
+      "phonetic": "/kən'sɔlideit/",
+      "definition": "v.使加固，使加强；(把...)联为一体，合并"
+    },
+    {
+      "index": 141,
+      "word": "block",
+      "phonetic": "/blɒk/",
+      "definition": "n.大块木（石）料;街区;障碍物 v.阻塞,拦阻"
+    },
+    {
+      "index": 142,
+      "word": "software",
+      "phonetic": "/'sɔftwεə/",
+      "definition": "n.软件"
+    },
+    {
+      "index": 143,
+      "word": "wind",
+      "phonetic": "/wɪnd/",
+      "definition": "n.风;气息 v.转动;缠绕;上发条,;蜿蜒而行"
+    },
+    {
+      "index": 144,
+      "word": "fabulous",
+      "phonetic": "/'fæbjuləs/",
+      "definition": "a.极好的；极为巨大的；寓言中的，传说中的"
+    },
+    {
+      "index": 145,
+      "word": "ethnic",
+      "phonetic": "/'eθnik/",
+      "definition": "a.种族的；人种学的"
+    },
+    {
+      "index": 146,
+      "word": "inspire",
+      "phonetic": "/in'spaiə/",
+      "definition": "vt.鼓舞,激起;使产生灵感"
+    },
+    {
+      "index": 147,
+      "word": "register",
+      "phonetic": "/'redʒistə/",
+      "definition": "n./v.登记,注册 v.(仪表等)指示,(邮件)挂号"
+    },
+    {
+      "index": 148,
+      "word": "emperor",
+      "phonetic": "/'empərə/",
+      "definition": "n.皇帝"
+    },
+    {
+      "index": 149,
+      "word": "escort",
+      "phonetic": "/'eskɔ:t/",
+      "definition": "vt.护送(卫)；陪同 n.警卫，护送者；仪仗兵"
+    },
+    {
+      "index": 150,
+      "word": "theme",
+      "phonetic": "/θi:m/",
+      "definition": "n.题目，主题；主旋律，基调"
+    }
+  ]
+}

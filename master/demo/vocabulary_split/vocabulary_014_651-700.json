@@ -1,0 +1,307 @@
+{
+  "chunk": 14,
+  "range": "651-700",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 651,
+      "word": "hypothesis",
+      "phonetic": "/hai'pɔθisis/",
+      "definition": "n.假说,假设,前提"
+    },
+    {
+      "index": 652,
+      "word": "paralyze",
+      "phonetic": "/'pærəlaiz/",
+      "definition": "v.(paralyse)使瘫痪(麻痹);使丧失作用"
+    },
+    {
+      "index": 653,
+      "word": "inference",
+      "phonetic": "/'infərəns/",
+      "definition": "n.推论,推理,推断;结论"
+    },
+    {
+      "index": 654,
+      "word": "tour",
+      "phonetic": "/tuə/",
+      "definition": "n.旅游，旅行；巡回演出/比赛 v.旅游"
+    },
+    {
+      "index": 655,
+      "word": "garbage",
+      "phonetic": "/'gɑ:bidʒ/",
+      "definition": "n.垃圾"
+    },
+    {
+      "index": 656,
+      "word": "advise",
+      "phonetic": "/əd'vaiz/",
+      "definition": "vt.忠告，劝告，建议；通知，告知"
+    },
+    {
+      "index": 657,
+      "word": "organ",
+      "phonetic": "/'ɔ:gən/",
+      "definition": "n.器官;机构,机关;风琴"
+    },
+    {
+      "index": 658,
+      "word": "bolt",
+      "phonetic": "/bəult/",
+      "definition": "n.螺栓,(门,窗的)插销 v.闩(门),关窗,拴住"
+    },
+    {
+      "index": 659,
+      "word": "lottery",
+      "phonetic": "/'lɔtəri/",
+      "definition": "n.抽彩；碰运气的事，难于算计的事"
+    },
+    {
+      "index": 660,
+      "word": "thing",
+      "phonetic": "/θiŋ/",
+      "definition": "n.物，东西；事，事情；所有物；局面，情况"
+    },
+    {
+      "index": 661,
+      "word": "muscle",
+      "phonetic": "/'mʌsl/",
+      "definition": "n.肌肉,体力"
+    },
+    {
+      "index": 662,
+      "word": "hold",
+      "phonetic": "/həuld/",
+      "definition": "v.拿着;保有;托住;举行;继续 n.握住;船舱"
+    },
+    {
+      "index": 663,
+      "word": "rib",
+      "phonetic": "/rib/",
+      "definition": "n.肋骨,肋状物"
+    },
+    {
+      "index": 664,
+      "word": "visitor",
+      "phonetic": "/'vizitə/",
+      "definition": "n.访问者,客人,来宾,参观者"
+    },
+    {
+      "index": 665,
+      "word": "meeting",
+      "phonetic": "/'mi:tiŋ/",
+      "definition": "n.会议,集合,汇合,会见,接见,汇合点"
+    },
+    {
+      "index": 666,
+      "word": "endow",
+      "phonetic": "/in'dau/",
+      "definition": "vt.资助，捐赠；(with)给予，赋予"
+    },
+    {
+      "index": 667,
+      "word": "load",
+      "phonetic": "/ləud/",
+      "definition": "v.装(货),装载 n.装载(量),负荷(量);(一)担"
+    },
+    {
+      "index": 668,
+      "word": "gorgeous",
+      "phonetic": "/'gɔ:dʒəs/",
+      "definition": "a.华丽的；灿烂的；美丽的；宜人的；棒的"
+    },
+    {
+      "index": 669,
+      "word": "track",
+      "phonetic": "/træk/",
+      "definition": "n.跑道,小路;轨迹,轮迹 v.跟踪,追踪"
+    },
+    {
+      "index": 670,
+      "word": "alphabet",
+      "phonetic": "/'ælfəbet/",
+      "definition": "n.字母表；初步，入门"
+    },
+    {
+      "index": 671,
+      "word": "elder",
+      "phonetic": "/'eldə/",
+      "definition": "a.年长的,资格老的 n.长辈"
+    },
+    {
+      "index": 672,
+      "word": "spot",
+      "phonetic": "/spɔt/",
+      "definition": "n.斑点;地点 v.认出,认清,发现;玷污,弄脏"
+    },
+    {
+      "index": 673,
+      "word": "enthusiasm",
+      "phonetic": "/in'θju:ziæzəm/",
+      "definition": "n.热情,热心;狂热;积极性(for)"
+    },
+    {
+      "index": 674,
+      "word": "egg",
+      "phonetic": "/eg/",
+      "definition": "n.蛋; 卵; 卵形物"
+    },
+    {
+      "index": 675,
+      "word": "savage",
+      "phonetic": "/'sævɪdʒ/",
+      "definition": "a.野蛮的;凶恶,残暴的 n.野人,未开化的人"
+    },
+    {
+      "index": 676,
+      "word": "uproar",
+      "phonetic": "/'ʌprɔ:/",
+      "definition": "n.骚动,喧嚣,鼎沸"
+    },
+    {
+      "index": 677,
+      "word": "child",
+      "phonetic": "/tʃaɪld/",
+      "definition": "n.( [pl.] children)小孩，儿童，儿女"
+    },
+    {
+      "index": 678,
+      "word": "inhibit",
+      "phonetic": "/in'hibit/",
+      "definition": "vt.抑制，约束"
+    },
+    {
+      "index": 679,
+      "word": "maid",
+      "phonetic": "/meid/",
+      "definition": "n.少女,处女,女仆"
+    },
+    {
+      "index": 680,
+      "word": "clockwise",
+      "phonetic": "/'klɔkwaiz/",
+      "definition": "a.顺时针方向"
+    },
+    {
+      "index": 681,
+      "word": "poisonous",
+      "phonetic": "/'pɔizənəs/",
+      "definition": "a.有毒的,恶意的,恶毒的,道德败坏的"
+    },
+    {
+      "index": 682,
+      "word": "weekday",
+      "phonetic": "/'wi:kdeɪ/",
+      "definition": "n.平常日,工作日"
+    },
+    {
+      "index": 683,
+      "word": "contact",
+      "phonetic": "/'kɒntækt/",
+      "definition": "v./n.(使)接触,联系,交往"
+    },
+    {
+      "index": 684,
+      "word": "cord",
+      "phonetic": "/kɔ:d/",
+      "definition": "n.绳,索"
+    },
+    {
+      "index": 685,
+      "word": "unanimous",
+      "phonetic": "/ju:'næniməs/",
+      "definition": "a.全体一致的,一致同意的"
+    },
+    {
+      "index": 686,
+      "word": "please",
+      "phonetic": "/pli:z/",
+      "definition": "v.请;使愉快,使满意;喜欢,愿意"
+    },
+    {
+      "index": 687,
+      "word": "fuel",
+      "phonetic": "/'fju:əl/",
+      "definition": "n.燃料 vt.给…加燃料"
+    },
+    {
+      "index": 688,
+      "word": "detector",
+      "phonetic": "/dɪ'tektə(r)/",
+      "definition": "n.发现者,侦察器,探测器,检波器,检电器"
+    },
+    {
+      "index": 689,
+      "word": "oral",
+      "phonetic": "/'ɔ:rəl/",
+      "definition": "a.口头的"
+    },
+    {
+      "index": 690,
+      "word": "complicate",
+      "phonetic": "/'kɔmplikeit/",
+      "definition": "v.使..复杂；使..难懂；使（疾病等）恶化；"
+    },
+    {
+      "index": 691,
+      "word": "peace",
+      "phonetic": "/pi:s/",
+      "definition": "n.和平;平静,安宁"
+    },
+    {
+      "index": 692,
+      "word": "harbor",
+      "phonetic": "/'hɑ:bə/",
+      "definition": "n.(harbour)海港;避难所 v.隐匿,窝藏"
+    },
+    {
+      "index": 693,
+      "word": "tedious",
+      "phonetic": "/'ti:diəs/",
+      "definition": "a.乏味的,单调的,冗长的"
+    },
+    {
+      "index": 694,
+      "word": "undo",
+      "phonetic": "/ˌʌn'du:/",
+      "definition": "v.松开,解开"
+    },
+    {
+      "index": 695,
+      "word": "shift",
+      "phonetic": "/ʃift/",
+      "definition": "v.替换,转移n.转换,转变;(轮)班,(换)班"
+    },
+    {
+      "index": 696,
+      "word": "sprout",
+      "phonetic": "/spraut/",
+      "definition": "vi.发芽，抽条 vt.使发芽 n.新芽，嫩苗"
+    },
+    {
+      "index": 697,
+      "word": "personnel",
+      "phonetic": "/ˌpə:sə'nel/",
+      "definition": "n.全体人员,全体职员;人事(部门)"
+    },
+    {
+      "index": 698,
+      "word": "accordingly",
+      "phonetic": "/ə'kɔ:dɪŋli/",
+      "definition": "ad.相应地，照着办，按照；于是，因此"
+    },
+    {
+      "index": 699,
+      "word": "aircraft",
+      "phonetic": "/'εəkrɑ:ft/",
+      "definition": "n.飞机，飞船，飞行器"
+    },
+    {
+      "index": 700,
+      "word": "predominant",
+      "phonetic": "/ˌpri'dɔminənt/",
+      "definition": "a.(over)占优势的;主要的,突出的"
+    }
+  ]
+}

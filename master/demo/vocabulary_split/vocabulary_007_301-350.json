@@ -1,0 +1,307 @@
+{
+  "chunk": 7,
+  "range": "301-350",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 301,
+      "word": "neglect",
+      "phonetic": "/ni'glekt/",
+      "definition": "v./n.忽视;疏忽,漏做,忽略"
+    },
+    {
+      "index": 302,
+      "word": "orientation",
+      "phonetic": "/ˌɔ:riən'teɪʃn/",
+      "definition": "n.方向,方位,定位,倾向性,向东方"
+    },
+    {
+      "index": 303,
+      "word": "interior",
+      "phonetic": "/in'tiəriə/",
+      "definition": "a.内部的,里面的 n.内部,内地"
+    },
+    {
+      "index": 304,
+      "word": "reliance",
+      "phonetic": "/ri'laiəns/",
+      "definition": "n.信任,信心,依靠,依靠的人或物"
+    },
+    {
+      "index": 305,
+      "word": "exciting",
+      "phonetic": "/ik'saitiŋ/",
+      "definition": "a.令人兴奋的,使人激动的"
+    },
+    {
+      "index": 306,
+      "word": "scrap",
+      "phonetic": "/skræp/",
+      "definition": "n.碎片;废料 v.废弃,报废"
+    },
+    {
+      "index": 307,
+      "word": "pirate",
+      "phonetic": "/'paɪrɪt/",
+      "definition": "n./v.海盗,盗版(者)"
+    },
+    {
+      "index": 308,
+      "word": "brave",
+      "phonetic": "/breiv/",
+      "definition": "a.勇敢的 v.勇敢地面对(危险等)"
+    },
+    {
+      "index": 309,
+      "word": "recognize",
+      "phonetic": "/'rekəgnaɪz/",
+      "definition": "v.(recognise)认出,承认,公认,赏识,表扬"
+    },
+    {
+      "index": 310,
+      "word": "flag",
+      "phonetic": "/flæg/",
+      "definition": "n.旗"
+    },
+    {
+      "index": 311,
+      "word": "waiter",
+      "phonetic": "/weitə/",
+      "definition": "n.侍者,服务员"
+    },
+    {
+      "index": 312,
+      "word": "comedy",
+      "phonetic": "/'kɒmɪdɪ/",
+      "definition": "n.喜剧;喜剧性事件"
+    },
+    {
+      "index": 313,
+      "word": "overhear",
+      "phonetic": "/ˌəuvə'hiə/",
+      "definition": "v.偶然听到,从旁听到"
+    },
+    {
+      "index": 314,
+      "word": "sensitive",
+      "phonetic": "/'sensətɪv/",
+      "definition": "a.(to)敏感的,易受伤害的;灵敏的"
+    },
+    {
+      "index": 315,
+      "word": "housework",
+      "phonetic": "/'hauswə:k/",
+      "definition": "n.家务，家事(不可数)"
+    },
+    {
+      "index": 316,
+      "word": "acceptance",
+      "phonetic": "/ək'septəns/",
+      "definition": "n.接受，接收，验收，接纳；承认，认可"
+    },
+    {
+      "index": 317,
+      "word": "sore",
+      "phonetic": "/sɔ:/",
+      "definition": "a.疼痛的;痛心的 n.痛处,疮口"
+    },
+    {
+      "index": 318,
+      "word": "exhibit",
+      "phonetic": "/ig'zibit/",
+      "definition": "v.展出,陈列 n.展览品,陈列品"
+    },
+    {
+      "index": 319,
+      "word": "locate",
+      "phonetic": "/ləu'keit/",
+      "definition": "v.查出,探出,查找…地点,使…坐落于,位于"
+    },
+    {
+      "index": 320,
+      "word": "inform",
+      "phonetic": "/in'fɔ:m/",
+      "definition": "v.(of,about)通知,告诉,报告;告发,告密"
+    },
+    {
+      "index": 321,
+      "word": "princess",
+      "phonetic": "/prin'ses/",
+      "definition": "n.公主,王妃"
+    },
+    {
+      "index": 322,
+      "word": "importance",
+      "phonetic": "/im'pɔ:təns/",
+      "definition": "n.重要,重要性"
+    },
+    {
+      "index": 323,
+      "word": "scheme",
+      "phonetic": "/ski:m/",
+      "definition": "n.计划,方案;阴谋;配置 v.计划,策划;阴谋"
+    },
+    {
+      "index": 324,
+      "word": "try",
+      "phonetic": "/trai/",
+      "definition": "v.尝试，试图；试验，试用；审讯 n.尝试"
+    },
+    {
+      "index": 325,
+      "word": "cruel",
+      "phonetic": "/'kru:əl/",
+      "definition": "a.残忍的,残酷的"
+    },
+    {
+      "index": 326,
+      "word": "outcome",
+      "phonetic": "/'autkʌm/",
+      "definition": "n.结果,成果"
+    },
+    {
+      "index": 327,
+      "word": "regulation",
+      "phonetic": "/ˌregju'leiʃən/",
+      "definition": "n.规则,规章;调节,校准;调整"
+    },
+    {
+      "index": 328,
+      "word": "confident",
+      "phonetic": "/'kɔnfidənt/",
+      "definition": "n.(of,in)确信的,自信的"
+    },
+    {
+      "index": 329,
+      "word": "void",
+      "phonetic": "/vɔid/",
+      "definition": "a.空虚的;没有的;无效的"
+    },
+    {
+      "index": 330,
+      "word": "helmet",
+      "phonetic": "/'helmit/",
+      "definition": "n.头盔,钢盔"
+    },
+    {
+      "index": 331,
+      "word": "evacuate",
+      "phonetic": "/i'vækjueit/",
+      "definition": "vt.撤离，疏散，排泄，剥夺"
+    },
+    {
+      "index": 332,
+      "word": "Tuesday",
+      "phonetic": "/'tju:zdei/",
+      "definition": "n.星期二"
+    },
+    {
+      "index": 333,
+      "word": "quick",
+      "phonetic": "/kwik/",
+      "definition": "a.快的;灵敏的,伶俐的;敏锐的 ad.快,迅速地"
+    },
+    {
+      "index": 334,
+      "word": "hole",
+      "phonetic": "/həul/",
+      "definition": "n.洞,孔"
+    },
+    {
+      "index": 335,
+      "word": "annoy",
+      "phonetic": "/ə'nɔi/",
+      "definition": "vt.使恼怒，使生气；打扰 vi.招人讨厌"
+    },
+    {
+      "index": 336,
+      "word": "expand",
+      "phonetic": "/ik'spænd/",
+      "definition": "v.(使)膨胀,(使)扩张;张开,展开"
+    },
+    {
+      "index": 337,
+      "word": "excel",
+      "phonetic": "/ik'sel/",
+      "definition": "vi.胜过其他;擅长 vt.胜过，优于"
+    },
+    {
+      "index": 338,
+      "word": "conclude",
+      "phonetic": "/kən'klu:d/",
+      "definition": "v.结束,终止;断定,下结论;缔结,议定"
+    },
+    {
+      "index": 339,
+      "word": "aboard",
+      "phonetic": "/ə'bɔ:d/",
+      "definition": "ad.&prep.在船(飞机、车)上；ad.上船(飞机)"
+    },
+    {
+      "index": 340,
+      "word": "counsel",
+      "phonetic": "/'kaunsəl/",
+      "definition": "v./n.劝告,忠告 n.法律顾问,辩护人"
+    },
+    {
+      "index": 341,
+      "word": "barn",
+      "phonetic": "/bɑ:n/",
+      "definition": "n.谷仓,仓库"
+    },
+    {
+      "index": 342,
+      "word": "barber",
+      "phonetic": "/'bɑ:bə/",
+      "definition": "n.理发师"
+    },
+    {
+      "index": 343,
+      "word": "switch",
+      "phonetic": "/switʃ/",
+      "definition": "n.开关；转换；鞭子 v.转变,转换；抽打"
+    },
+    {
+      "index": 344,
+      "word": "rein",
+      "phonetic": "/rein/",
+      "definition": "n.缰绳,统治,支配 v.驾驭,控制,统治"
+    },
+    {
+      "index": 345,
+      "word": "doubt",
+      "phonetic": "/daut/",
+      "definition": "n./v.怀疑,疑虑"
+    },
+    {
+      "index": 346,
+      "word": "fight",
+      "phonetic": "/fait/",
+      "definition": "v./n.打(仗),搏斗,斗争,战斗"
+    },
+    {
+      "index": 347,
+      "word": "likewise",
+      "phonetic": "/'laikwaiz/",
+      "definition": "ad.同样地,照样地;又,也,而且"
+    },
+    {
+      "index": 348,
+      "word": "half",
+      "phonetic": "/hɑ:fˌ hæf/",
+      "definition": "n.半，一半 a.一半的，不完全的 ad.一半地"
+    },
+    {
+      "index": 349,
+      "word": "textile",
+      "phonetic": "/'tekstail/",
+      "definition": "n.纺织品 a.纺织的"
+    },
+    {
+      "index": 350,
+      "word": "universe",
+      "phonetic": "/'ju:nivə:s/",
+      "definition": "n.宇宙,万物"
+    }
+  ]
+}

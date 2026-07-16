@@ -1,0 +1,307 @@
+{
+  "chunk": 61,
+  "range": "3001-3050",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 3001,
+      "word": "asset",
+      "phonetic": "/'æset/",
+      "definition": "n.(pl.)资产,财产；有价值的物品；天赋"
+    },
+    {
+      "index": 3002,
+      "word": "cigar",
+      "phonetic": "/si'gɑ:/",
+      "definition": "n.雪茄烟"
+    },
+    {
+      "index": 3003,
+      "word": "depart",
+      "phonetic": "/di'pɑ:t/",
+      "definition": "vi.离开,起程  a.过去的,逝世的"
+    },
+    {
+      "index": 3004,
+      "word": "later",
+      "phonetic": "/'leitə/",
+      "definition": "ad.后来,过后"
+    },
+    {
+      "index": 3005,
+      "word": "feeling",
+      "phonetic": "/'fi:liŋ/",
+      "definition": "n.感情;心情;知觉;同情"
+    },
+    {
+      "index": 3006,
+      "word": "rival",
+      "phonetic": "/'raivəl/",
+      "definition": "n.竞争者,对手 v.竞争,对抗 a.竞争的"
+    },
+    {
+      "index": 3007,
+      "word": "digital",
+      "phonetic": "/'didʒitəl/",
+      "definition": "a.数字的;数位的;手指的 n.数字"
+    },
+    {
+      "index": 3008,
+      "word": "address",
+      "phonetic": "/ə'dres/",
+      "definition": "n.住址；致词 v.向...致词；在信封上写姓名"
+    },
+    {
+      "index": 3009,
+      "word": "furthermore",
+      "phonetic": "/'fə:ðəmɔ:/",
+      "definition": "ad.而且,此外"
+    },
+    {
+      "index": 3010,
+      "word": "beer",
+      "phonetic": "/biə/",
+      "definition": "n.啤酒"
+    },
+    {
+      "index": 3011,
+      "word": "law",
+      "phonetic": "/lɔ:/",
+      "definition": "n.法律,法规,法学,规律,定律"
+    },
+    {
+      "index": 3012,
+      "word": "induce",
+      "phonetic": "/in'dju:s/",
+      "definition": "v.引诱,劝使;引起,导致;感应"
+    },
+    {
+      "index": 3013,
+      "word": "desk",
+      "phonetic": "/desk/",
+      "definition": "n.书桌，办公桌，服务台"
+    },
+    {
+      "index": 3014,
+      "word": "quote",
+      "phonetic": "/kwəut/",
+      "definition": "v.引用,援引"
+    },
+    {
+      "index": 3015,
+      "word": "criticize",
+      "phonetic": "/'krɪtɪsaɪz/",
+      "definition": "v.(criticise)批评,评论"
+    },
+    {
+      "index": 3016,
+      "word": "feminine",
+      "phonetic": "/'feminin/",
+      "definition": "a.女性的;娇柔的"
+    },
+    {
+      "index": 3017,
+      "word": "arise",
+      "phonetic": "/ə'raɪz/",
+      "definition": "v.出现，发生；(from)由…引起，由…产生"
+    },
+    {
+      "index": 3018,
+      "word": "ours",
+      "phonetic": "/'auəz/",
+      "definition": "pron.[we的物主代词]我们的(所有物)"
+    },
+    {
+      "index": 3019,
+      "word": "noticeable",
+      "phonetic": "/'nəutisəbl/",
+      "definition": "a.显而易见的,值得注意的,重要的"
+    },
+    {
+      "index": 3020,
+      "word": "budget",
+      "phonetic": "/'bʌdʒit/",
+      "definition": "n.预算 v.做预算"
+    },
+    {
+      "index": 3021,
+      "word": "effect",
+      "phonetic": "/i'fekt/",
+      "definition": "n.结果;效果;影响;印象 vt.招致;实现;达到"
+    },
+    {
+      "index": 3022,
+      "word": "week",
+      "phonetic": "/wi:k/",
+      "definition": "n.星期，周"
+    },
+    {
+      "index": 3023,
+      "word": "flee",
+      "phonetic": "/fli:/",
+      "definition": "v.逃走;逃避"
+    },
+    {
+      "index": 3024,
+      "word": "fertilizer",
+      "phonetic": "/'fə:tilaizə/",
+      "definition": "n.(fertiliser)肥料"
+    },
+    {
+      "index": 3025,
+      "word": "nor",
+      "phonetic": "/nɔ:/",
+      "definition": "conj.／ad.也不，也没有"
+    },
+    {
+      "index": 3026,
+      "word": "industrialize",
+      "phonetic": "/in'dʌtriəlaiz/",
+      "definition": "v.(industrialise)(使)工业化"
+    },
+    {
+      "index": 3027,
+      "word": "burn",
+      "phonetic": "/bə:n/",
+      "definition": "v.燃烧，烧着；烧毁；灼伤 n.烧伤，灼伤"
+    },
+    {
+      "index": 3028,
+      "word": "plumber",
+      "phonetic": "/'plʌmə/",
+      "definition": "n.(装修水管的)管子工"
+    },
+    {
+      "index": 3029,
+      "word": "nurse",
+      "phonetic": "/nə:s/",
+      "definition": "n.护士,保姆 v.护理,看护"
+    },
+    {
+      "index": 3030,
+      "word": "beginning",
+      "phonetic": "/bi'giniŋ/",
+      "definition": "n.开始，开端；起源，早期阶段"
+    },
+    {
+      "index": 3031,
+      "word": "bone",
+      "phonetic": "/bəun/",
+      "definition": "n.骨(骼)"
+    },
+    {
+      "index": 3032,
+      "word": "remarkable",
+      "phonetic": "/ri'mɑ:kəbl/",
+      "definition": "a.值得注意的;显著的,异常的,非凡的"
+    },
+    {
+      "index": 3033,
+      "word": "cherry",
+      "phonetic": "/'tʃeri/",
+      "definition": "n.樱桃(树)"
+    },
+    {
+      "index": 3034,
+      "word": "handkerchief",
+      "phonetic": "/'hæŋkətʃif/",
+      "definition": "n.手帕"
+    },
+    {
+      "index": 3035,
+      "word": "murder",
+      "phonetic": "/'mə:də/",
+      "definition": "v./n.谋杀,凶杀"
+    },
+    {
+      "index": 3036,
+      "word": "but",
+      "phonetic": "/bʌt/",
+      "definition": "conj.但是 prep.除...以外 ad.只，才，仅仅"
+    },
+    {
+      "index": 3037,
+      "word": "punctual",
+      "phonetic": "/'pʌŋktjuəl/",
+      "definition": "a.严守时刻的,准时的,正点的"
+    },
+    {
+      "index": 3038,
+      "word": "practitioner",
+      "phonetic": "/præk'tɪʃənə(r)/",
+      "definition": "n.实践者，从事者；(医生或律师等)开业者"
+    },
+    {
+      "index": 3039,
+      "word": "remember",
+      "phonetic": "/ri'membə/",
+      "definition": "v.记住;(to)转达问候,代…致意,代…问好"
+    },
+    {
+      "index": 3040,
+      "word": "historic",
+      "phonetic": "/his'tɔrik/",
+      "definition": "a.有历史意义的;历史的"
+    },
+    {
+      "index": 3041,
+      "word": "since",
+      "phonetic": "/sins/",
+      "definition": "prep.自从 conj.自从；因为，既然  ad.后来"
+    },
+    {
+      "index": 3042,
+      "word": "breakfast",
+      "phonetic": "/'brekfəst/",
+      "definition": "n.早餐 v.(给某人)吃早餐"
+    },
+    {
+      "index": 3043,
+      "word": "rubber",
+      "phonetic": "/'rʌbə(r)/",
+      "definition": "n.橡皮,橡胶;橡胶制品,胶鞋"
+    },
+    {
+      "index": 3044,
+      "word": "mental",
+      "phonetic": "/'mentəl/",
+      "definition": "a.精神的,思想的,心理的,智力的,脑力的"
+    },
+    {
+      "index": 3045,
+      "word": "academy",
+      "phonetic": "/ə'kædəmi/",
+      "definition": "n.(高等)专科院校；学术社团,协会，研究院"
+    },
+    {
+      "index": 3046,
+      "word": "department",
+      "phonetic": "/di'pɑ:tmənt/",
+      "definition": "n.部,局,处,科,部门;系,学部"
+    },
+    {
+      "index": 3047,
+      "word": "radiant",
+      "phonetic": "/'reidiənt/",
+      "definition": "a.发光的,辐射的,容光焕发的"
+    },
+    {
+      "index": 3048,
+      "word": "ward",
+      "phonetic": "/wɔ:d/",
+      "definition": "n.病房;行政区;监护;被监护人 vt.挡住"
+    },
+    {
+      "index": 3049,
+      "word": "reputation",
+      "phonetic": "/ˌrepju'teiʃən/",
+      "definition": "n.名誉,名声,声望"
+    },
+    {
+      "index": 3050,
+      "word": "whirl",
+      "phonetic": "/hwə:l/",
+      "definition": "v.(使)旋转,打转 n.旋转;-连串快速的活动"
+    }
+  ]
+}

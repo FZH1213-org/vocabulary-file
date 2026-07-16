@@ -1,0 +1,307 @@
+{
+  "chunk": 106,
+  "range": "5251-5300",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 5251,
+      "word": "wide",
+      "phonetic": "/waid/",
+      "definition": "a.宽阔的;睁大的;远离的 ad.广阔地;偏差地"
+    },
+    {
+      "index": 5252,
+      "word": "suck",
+      "phonetic": "/sʌk/",
+      "definition": "v.&n.吸，舐；吸收(取)"
+    },
+    {
+      "index": 5253,
+      "word": "good",
+      "phonetic": "/gud/",
+      "definition": "a.好的;善良的;擅长的;乖的 n.好处;利益"
+    },
+    {
+      "index": 5254,
+      "word": "angry",
+      "phonetic": "/'æŋgri/",
+      "definition": "a.生气的，愤怒的；(天气)风雨交加的"
+    },
+    {
+      "index": 5255,
+      "word": "slender",
+      "phonetic": "/'slendə/",
+      "definition": "a.修长的,细长的,苗条的;微小的,微薄的"
+    },
+    {
+      "index": 5256,
+      "word": "yesterday",
+      "phonetic": "/'jestədi/",
+      "definition": "n.&ad.昨天；前不久"
+    },
+    {
+      "index": 5257,
+      "word": "illiterate",
+      "phonetic": "/i'litərət/",
+      "definition": "a.文盲的,未受教育的"
+    },
+    {
+      "index": 5258,
+      "word": "dangerous",
+      "phonetic": "/'deindʒərəs/",
+      "definition": "a.危险的，不安全的"
+    },
+    {
+      "index": 5259,
+      "word": "receipt",
+      "phonetic": "/ri'si:t/",
+      "definition": "n.收据,收条;收到,接到"
+    },
+    {
+      "index": 5260,
+      "word": "college",
+      "phonetic": "/'kɔlidʒ/",
+      "definition": "n.学院,高等专科学校,大学"
+    },
+    {
+      "index": 5261,
+      "word": "food",
+      "phonetic": "/fu:d/",
+      "definition": "n.食物，粮食，养料"
+    },
+    {
+      "index": 5262,
+      "word": "aerial",
+      "phonetic": "/'εəriəl/",
+      "definition": "a.(在或来自)空中的，航空的 n.天线"
+    },
+    {
+      "index": 5263,
+      "word": "ambition",
+      "phonetic": "/æm'biʃən/",
+      "definition": "n.对(权力等)的强烈欲望，野心；雄心"
+    },
+    {
+      "index": 5264,
+      "word": "foreign",
+      "phonetic": "/'fɔrin/",
+      "definition": "a.外国的,(to)无关的;外来的;异质的"
+    },
+    {
+      "index": 5265,
+      "word": "airline",
+      "phonetic": "/'εəlain/",
+      "definition": "n.(飞机)航线  a.(飞机)航线的"
+    },
+    {
+      "index": 5266,
+      "word": "elect",
+      "phonetic": "/i'lekt/",
+      "definition": "v.选举,推选;选择,作出选择"
+    },
+    {
+      "index": 5267,
+      "word": "conscience",
+      "phonetic": "/'kɔnʃəns/",
+      "definition": "n.良心,良知"
+    },
+    {
+      "index": 5268,
+      "word": "pistol",
+      "phonetic": "/'pistl/",
+      "definition": "n.手枪"
+    },
+    {
+      "index": 5269,
+      "word": "crawl",
+      "phonetic": "/krɔ:l/",
+      "definition": "v./n.爬行,蠕动;缓慢(的)行进"
+    },
+    {
+      "index": 5270,
+      "word": "posture",
+      "phonetic": "/'pɔstʃə/",
+      "definition": "n.姿势,姿态,心态,态度 v.作出某种姿势"
+    },
+    {
+      "index": 5271,
+      "word": "sightseeing",
+      "phonetic": "/'saitsi:iŋ/",
+      "definition": "n.观光,游览"
+    },
+    {
+      "index": 5272,
+      "word": "tendency",
+      "phonetic": "/'tendənsi/",
+      "definition": "n.趋势，趋向；倾向"
+    },
+    {
+      "index": 5273,
+      "word": "spin",
+      "phonetic": "/spin/",
+      "definition": "v.旋转;纺纱;织网,吐丝 n.旋转;自转"
+    },
+    {
+      "index": 5274,
+      "word": "wrist",
+      "phonetic": "/rist/",
+      "definition": "n.腕,腕关节"
+    },
+    {
+      "index": 5275,
+      "word": "spider",
+      "phonetic": "/'spaidə/",
+      "definition": "n.蜘蛛"
+    },
+    {
+      "index": 5276,
+      "word": "indicative",
+      "phonetic": "/in'dikətiv/",
+      "definition": "a.(of)指示的,暗示的"
+    },
+    {
+      "index": 5277,
+      "word": "process",
+      "phonetic": "/'prəuses/",
+      "definition": "n.过程,进程;工序,制作法;工艺 v.加工,处理"
+    },
+    {
+      "index": 5278,
+      "word": "yellow",
+      "phonetic": "/'jeləu/",
+      "definition": "a.黄的，黄色的 n.黄色"
+    },
+    {
+      "index": 5279,
+      "word": "revolution",
+      "phonetic": "/ˌrevə'lu:ʃən/",
+      "definition": "n.革命;旋转,转数"
+    },
+    {
+      "index": 5280,
+      "word": "term",
+      "phonetic": "/tɜ:m/",
+      "definition": "n.学期;期限,期间;(pl.)条件,条款;术语"
+    },
+    {
+      "index": 5281,
+      "word": "scene",
+      "phonetic": "/si:n/",
+      "definition": "n.景色,景象,舞台;(戏)一场"
+    },
+    {
+      "index": 5282,
+      "word": "clay",
+      "phonetic": "/klei/",
+      "definition": "n.粘土,泥土"
+    },
+    {
+      "index": 5283,
+      "word": "overlook",
+      "phonetic": "/ˌəuvə'luk/",
+      "definition": "v.看漏,忽略;俯瞰,眺望;宽容,放任"
+    },
+    {
+      "index": 5284,
+      "word": "withhold",
+      "phonetic": "/'wið'həuld/",
+      "definition": "vt.使停止;拒给;保留;抑制 vi.忍住"
+    },
+    {
+      "index": 5285,
+      "word": "sketch",
+      "phonetic": "/sketʃ/",
+      "definition": "n.素描;略图,草图;梗概 v.绘略图,速写,写生"
+    },
+    {
+      "index": 5286,
+      "word": "sake",
+      "phonetic": "/seik/",
+      "definition": "n.缘故,理由"
+    },
+    {
+      "index": 5287,
+      "word": "maintenance",
+      "phonetic": "/'meintənəns/",
+      "definition": "n.维修,保养,维持,保持,生活费用"
+    },
+    {
+      "index": 5288,
+      "word": "queer",
+      "phonetic": "/kwiə/",
+      "definition": "a.奇怪的,古怪的"
+    },
+    {
+      "index": 5289,
+      "word": "velvet",
+      "phonetic": "/'velvit/",
+      "definition": "n.丝绒,天鹅绒 a.丝绒制的,柔软的"
+    },
+    {
+      "index": 5290,
+      "word": "recollect",
+      "phonetic": "/ˌrekə'lekt/",
+      "definition": "v.回忆,想起,记起,忆起,记得"
+    },
+    {
+      "index": 5291,
+      "word": "glitter",
+      "phonetic": "/'glitə/",
+      "definition": "n.光辉,灿烂 v.闪闪发光;闪耀"
+    },
+    {
+      "index": 5292,
+      "word": "postpone",
+      "phonetic": "/pəust'pəun/",
+      "definition": "v.推迟,延期"
+    },
+    {
+      "index": 5293,
+      "word": "number",
+      "phonetic": "/'nʌmbə/",
+      "definition": "n.数,数字,数量,号码,一群 v.共计,编号"
+    },
+    {
+      "index": 5294,
+      "word": "secretary",
+      "phonetic": "/'sekrətəri/",
+      "definition": "n.秘书,书记;部长,大臣"
+    },
+    {
+      "index": 5295,
+      "word": "erupt",
+      "phonetic": "/i'rʌpt/",
+      "definition": "v.(尤指火山)爆发"
+    },
+    {
+      "index": 5296,
+      "word": "profile",
+      "phonetic": "/'prəufail/",
+      "definition": "n.侧面(像);轮廓,外形;人物简介"
+    },
+    {
+      "index": 5297,
+      "word": "house",
+      "phonetic": "/haus/",
+      "definition": "n.房屋；商业机构；[H-]议院 v.给...房子住"
+    },
+    {
+      "index": 5298,
+      "word": "defy",
+      "phonetic": "/di'fai/",
+      "definition": "v.(公然)违抗,反抗;蔑视"
+    },
+    {
+      "index": 5299,
+      "word": "drink",
+      "phonetic": "/driŋk/",
+      "definition": "v.(drank,drunk)喝，饮 n.饮料；喝酒"
+    },
+    {
+      "index": 5300,
+      "word": "nest",
+      "phonetic": "/nest/",
+      "definition": "n.窝,巢 v.筑巢"
+    }
+  ]
+}

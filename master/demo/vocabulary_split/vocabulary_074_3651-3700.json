@@ -1,0 +1,307 @@
+{
+  "chunk": 74,
+  "range": "3651-3700",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 3651,
+      "word": "town",
+      "phonetic": "/taun/",
+      "definition": "n.市镇；市民；城市商业区，闹市区"
+    },
+    {
+      "index": 3652,
+      "word": "priority",
+      "phonetic": "/prai'ɔrəti/",
+      "definition": "n.先,前;优先,重点,优先权"
+    },
+    {
+      "index": 3653,
+      "word": "signify",
+      "phonetic": "/'signifai/",
+      "definition": "v.表示,意味;要紧,有重要性"
+    },
+    {
+      "index": 3654,
+      "word": "stop",
+      "phonetic": "/stɔp/",
+      "definition": "v.停止;塞住;阻止,阻挠;逗留 n.停车站;停止"
+    },
+    {
+      "index": 3655,
+      "word": "resign",
+      "phonetic": "/ri'zain/",
+      "definition": "v.辞去,辞职,使听从(于),使顺从"
+    },
+    {
+      "index": 3656,
+      "word": "morality",
+      "phonetic": "/mə'ræləti/",
+      "definition": "n.道德,美德"
+    },
+    {
+      "index": 3657,
+      "word": "prevent",
+      "phonetic": "/pri'vent/",
+      "definition": "v.(from)预防,防止,阻止,制止,妨碍"
+    },
+    {
+      "index": 3658,
+      "word": "fax",
+      "phonetic": "/fæks/",
+      "definition": "n./v.传真(机)"
+    },
+    {
+      "index": 3659,
+      "word": "base",
+      "phonetic": "/beɪs/",
+      "definition": "n.基础,底部;根据地 v.(on)把…基于"
+    },
+    {
+      "index": 3660,
+      "word": "subscribe",
+      "phonetic": "/səb'skraib/",
+      "definition": "vi.(to)订阅，订购；同意vt.捐助，赞助"
+    },
+    {
+      "index": 3661,
+      "word": "jug",
+      "phonetic": "/dʒʌg/",
+      "definition": "n.(有柄，小口，可盛水等的)大壶，罐，盂"
+    },
+    {
+      "index": 3662,
+      "word": "assert",
+      "phonetic": "/ə'sə:t/",
+      "definition": "vt.断言,宣称；坚持；主张（权利、权威等）"
+    },
+    {
+      "index": 3663,
+      "word": "tolerant",
+      "phonetic": "/'tɔlərənt/",
+      "definition": "a.容忍的,宽容的；有耐药力的"
+    },
+    {
+      "index": 3664,
+      "word": "extend",
+      "phonetic": "/ik'stend/",
+      "definition": "v.延长,延伸;扩充;给予;提供;估价"
+    },
+    {
+      "index": 3665,
+      "word": "faulty",
+      "phonetic": "/'fɔ:lti/",
+      "definition": "a.有错误的，有缺点的，不完善的"
+    },
+    {
+      "index": 3666,
+      "word": "kidnap",
+      "phonetic": "/'kidnæp/",
+      "definition": "vt.诱拐；绑架，劫持"
+    },
+    {
+      "index": 3667,
+      "word": "work",
+      "phonetic": "/wɜ:k/",
+      "definition": "n.工作(量)；作品；[pl.]工厂 v.工作；运转"
+    },
+    {
+      "index": 3668,
+      "word": "neat",
+      "phonetic": "/ni:t/",
+      "definition": "a.整洁的,干净的,优美的,精致的"
+    },
+    {
+      "index": 3669,
+      "word": "home",
+      "phonetic": "/həum/",
+      "definition": "ad.回家,在家 n.家；家乡a.家庭的；家乡的"
+    },
+    {
+      "index": 3670,
+      "word": "intelligible",
+      "phonetic": "/in'telidʒəbl/",
+      "definition": "a.可理解的，明白易懂的，清楚的"
+    },
+    {
+      "index": 3671,
+      "word": "detain",
+      "phonetic": "/di'tein/",
+      "definition": "v.耽搁;扣押,拘留"
+    },
+    {
+      "index": 3672,
+      "word": "sly",
+      "phonetic": "/slai/",
+      "definition": "a.狡猾的,偷偷摸摸的"
+    },
+    {
+      "index": 3673,
+      "word": "powder",
+      "phonetic": "/'paudə/",
+      "definition": "n.粉末,药粉;火药,炸药"
+    },
+    {
+      "index": 3674,
+      "word": "consensus",
+      "phonetic": "/kən'sensəs/",
+      "definition": "n.(意见等的)一致，一致同意，共识"
+    },
+    {
+      "index": 3675,
+      "word": "adverb",
+      "phonetic": "/'ædvə:b/",
+      "definition": "n.副词 a.副词的"
+    },
+    {
+      "index": 3676,
+      "word": "branch",
+      "phonetic": "/brɑ:ntʃ/",
+      "definition": "n.(树)条,分支;分店;(学科)分科,部门;支流"
+    },
+    {
+      "index": 3677,
+      "word": "soon",
+      "phonetic": "/su:n/",
+      "definition": "ad.不久，即刻；快，早"
+    },
+    {
+      "index": 3678,
+      "word": "weed",
+      "phonetic": "/wi:d/",
+      "definition": "n.杂草,野草 v.除草,锄草"
+    },
+    {
+      "index": 3679,
+      "word": "reinforce",
+      "phonetic": "/ˌri:in'fɔ:s/",
+      "definition": "v.增援,加强"
+    },
+    {
+      "index": 3680,
+      "word": "drawback",
+      "phonetic": "/'drɔ:bæk/",
+      "definition": "n.欠缺,缺点;退还的关税"
+    },
+    {
+      "index": 3681,
+      "word": "translate",
+      "phonetic": "/trænz'leɪt/",
+      "definition": "v.翻译，解释；转化，"
+    },
+    {
+      "index": 3682,
+      "word": "used",
+      "phonetic": "/ju:zd/",
+      "definition": "a.用旧了的，旧的；习惯于…；过去惯/经常"
+    },
+    {
+      "index": 3683,
+      "word": "me",
+      "phonetic": "/mi:/",
+      "definition": "pron.[I 的宾格]我"
+    },
+    {
+      "index": 3684,
+      "word": "integrate",
+      "phonetic": "/'intigreit/",
+      "definition": "v.(into,with)(使)成为一体,(使)结合在一起"
+    },
+    {
+      "index": 3685,
+      "word": "majority",
+      "phonetic": "/mə'dʒɔriti/",
+      "definition": "n.多数,大多数,成年,法定年龄"
+    },
+    {
+      "index": 3686,
+      "word": "soccer",
+      "phonetic": "/'sɔkə/",
+      "definition": "n.足球"
+    },
+    {
+      "index": 3687,
+      "word": "grope",
+      "phonetic": "/grəup/",
+      "definition": "n./v.摸索,探索"
+    },
+    {
+      "index": 3688,
+      "word": "pronunciation",
+      "phonetic": "/prəuˌnʌnsi'eiʃən/",
+      "definition": "n.发音,发音方法"
+    },
+    {
+      "index": 3689,
+      "word": "directory",
+      "phonetic": "/di'rektəri/",
+      "definition": "n.人名地址录,(电话)号码簿"
+    },
+    {
+      "index": 3690,
+      "word": "outline",
+      "phonetic": "/'autlain/",
+      "definition": "n.轮廓,略图;大纲,梗概 v.概述,略述"
+    },
+    {
+      "index": 3691,
+      "word": "prudent",
+      "phonetic": "/'pru:dənt/",
+      "definition": "a.谨慎的,智慧的,稳健的,节俭的"
+    },
+    {
+      "index": 3692,
+      "word": "temple",
+      "phonetic": "/'templ/",
+      "definition": "n.庙宇,神殿,寺;太阳穴"
+    },
+    {
+      "index": 3693,
+      "word": "thereafter",
+      "phonetic": "/ˌðεər'ɑ:ftə/",
+      "definition": "ad.此后,以后"
+    },
+    {
+      "index": 3694,
+      "word": "versatile",
+      "phonetic": "/'və:sətail/",
+      "definition": "a.通用的;多才多艺的,多方面的"
+    },
+    {
+      "index": 3695,
+      "word": "diffuse",
+      "phonetic": "/di'fju:s/",
+      "definition": "v.扩散;传播 a.(文章等)冗长的,漫无边际的"
+    },
+    {
+      "index": 3696,
+      "word": "nucleus",
+      "phonetic": "/'nju:kliəs/",
+      "definition": "n.(pl.nuclei)核,核心,原子核"
+    },
+    {
+      "index": 3697,
+      "word": "bullet",
+      "phonetic": "/'bulit/",
+      "definition": "n.子弹,枪弹"
+    },
+    {
+      "index": 3698,
+      "word": "glove",
+      "phonetic": "/glʌv/",
+      "definition": "n.手套"
+    },
+    {
+      "index": 3699,
+      "word": "abolish",
+      "phonetic": "/ə'bɔliʃ/",
+      "definition": "vt.废除(法律、习惯等)；取消"
+    },
+    {
+      "index": 3700,
+      "word": "overthrow",
+      "phonetic": "/ˌəuvə'θrəu/",
+      "definition": "v./n.推翻,颠覆"
+    }
+  ]
+}

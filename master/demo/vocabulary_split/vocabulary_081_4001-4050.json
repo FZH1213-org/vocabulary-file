@@ -1,0 +1,307 @@
+{
+  "chunk": 81,
+  "range": "4001-4050",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 4001,
+      "word": "towel",
+      "phonetic": "/'tauəl/",
+      "definition": "n.毛巾 vt.用毛巾擦或擦干"
+    },
+    {
+      "index": 4002,
+      "word": "insert",
+      "phonetic": "/in'sə:t/",
+      "definition": "v.插入,嵌入;登载 n.插入物"
+    },
+    {
+      "index": 4003,
+      "word": "intensity",
+      "phonetic": "/in'tensəti/",
+      "definition": "n.强烈,剧烈;强度"
+    },
+    {
+      "index": 4004,
+      "word": "much",
+      "phonetic": "/mʌtʃ/",
+      "definition": "a.多的，大量的 ad.十分，非常；到极大程度"
+    },
+    {
+      "index": 4005,
+      "word": "blueprint",
+      "phonetic": "/'blu:print/",
+      "definition": "n.蓝图，设计图，计划 vt.制成蓝图，计划"
+    },
+    {
+      "index": 4006,
+      "word": "fox",
+      "phonetic": "/fɔks/",
+      "definition": "n.狐狸"
+    },
+    {
+      "index": 4007,
+      "word": "abrupt",
+      "phonetic": "/ə'brʌpt/",
+      "definition": "a.突然的,出其不意的；(行为等)粗鲁无礼的"
+    },
+    {
+      "index": 4008,
+      "word": "assume",
+      "phonetic": "/ə'sju:m/",
+      "definition": "vt.假装；假定，设想；承担；呈现，采取"
+    },
+    {
+      "index": 4009,
+      "word": "feedback",
+      "phonetic": "/'fi:dbæk/",
+      "definition": "n.反馈;反应;回授"
+    },
+    {
+      "index": 4010,
+      "word": "person",
+      "phonetic": "/'pə:sən/",
+      "definition": "n.人，喜欢(或适应)..的人；人物；人称"
+    },
+    {
+      "index": 4011,
+      "word": "goodby",
+      "phonetic": "/ˌgud'bai/",
+      "definition": "int.(goodbye)再见"
+    },
+    {
+      "index": 4012,
+      "word": "stare",
+      "phonetic": "/stεə/",
+      "definition": "v.(at)盯,凝视"
+    },
+    {
+      "index": 4013,
+      "word": "chill",
+      "phonetic": "/tʃil/",
+      "definition": "n.寒冷,寒气,寒战 v.使寒冷"
+    },
+    {
+      "index": 4014,
+      "word": "belong",
+      "phonetic": "/bi'lɔŋ/",
+      "definition": "v.(to)属于,附属,隶属;应归入(类别,范畴等)"
+    },
+    {
+      "index": 4015,
+      "word": "hasty",
+      "phonetic": "/'heɪsti/",
+      "definition": "a.匆忙的,仓促的;草率的"
+    },
+    {
+      "index": 4016,
+      "word": "song",
+      "phonetic": "/sɔŋ/",
+      "definition": "n.歌唱，(虫、鸟等)鸣声；歌曲，歌词"
+    },
+    {
+      "index": 4017,
+      "word": "accuracy",
+      "phonetic": "/'ækjurəsi/",
+      "definition": "n.准确（性）；精确；准确度"
+    },
+    {
+      "index": 4018,
+      "word": "loom",
+      "phonetic": "/lu:m/",
+      "definition": "n.织布机,织机 v.隐现,(危险、忧虑等)迫近"
+    },
+    {
+      "index": 4019,
+      "word": "tense",
+      "phonetic": "/tens/",
+      "definition": "n.时态 v.拉紧，(使)紧张 a.绷紧的，紧张的"
+    },
+    {
+      "index": 4020,
+      "word": "density",
+      "phonetic": "/'densəti/",
+      "definition": "n.密集,密度,浓度"
+    },
+    {
+      "index": 4021,
+      "word": "exaggerate",
+      "phonetic": "/ig'zædʒəreit/",
+      "definition": "v.夸大,夸张"
+    },
+    {
+      "index": 4022,
+      "word": "solar",
+      "phonetic": "/'səulə/",
+      "definition": "a.太阳的,日光的"
+    },
+    {
+      "index": 4023,
+      "word": "dance",
+      "phonetic": "/dɑ:ns/",
+      "definition": "n.舞(蹈)；舞曲，舞会 v.跳舞;跳动"
+    },
+    {
+      "index": 4024,
+      "word": "lawn",
+      "phonetic": "/lɔ:n/",
+      "definition": "n.草地,草坪"
+    },
+    {
+      "index": 4025,
+      "word": "intrude",
+      "phonetic": "/in'tru:d/",
+      "definition": "vi.闯入,侵入vt.把(思想等)强加于人;强挤入"
+    },
+    {
+      "index": 4026,
+      "word": "mechanical",
+      "phonetic": "/mi'kænikəl/",
+      "definition": "a.机械的,由机构制成的;机械似的,呆板的"
+    },
+    {
+      "index": 4027,
+      "word": "invite",
+      "phonetic": "/in'vait/",
+      "definition": "vt.邀请,招待"
+    },
+    {
+      "index": 4028,
+      "word": "purpose",
+      "phonetic": "/'pə:pəs/",
+      "definition": "n.目的,意图;用途,效果"
+    },
+    {
+      "index": 4029,
+      "word": "mistake",
+      "phonetic": "/mi'steik/",
+      "definition": "n.错误,过失,误解 v.弄错;(for)把…误认为"
+    },
+    {
+      "index": 4030,
+      "word": "third",
+      "phonetic": "/θə:d/",
+      "definition": "num.第三(个)，三分之一(的)"
+    },
+    {
+      "index": 4031,
+      "word": "surname",
+      "phonetic": "/'sə:neim/",
+      "definition": "n.姓"
+    },
+    {
+      "index": 4032,
+      "word": "rope",
+      "phonetic": "/rəup/",
+      "definition": "n.绳,索"
+    },
+    {
+      "index": 4033,
+      "word": "snatch",
+      "phonetic": "/snætʃ/",
+      "definition": "n./v.攫取,抢夺"
+    },
+    {
+      "index": 4034,
+      "word": "minimize",
+      "phonetic": "/'minimaiz/",
+      "definition": "v.(minimize)使减少到最少,使降到最低"
+    },
+    {
+      "index": 4035,
+      "word": "independence",
+      "phonetic": "/ˌindi'pendəns/",
+      "definition": "n.独立,自主"
+    },
+    {
+      "index": 4036,
+      "word": "protect",
+      "phonetic": "/prəu'tekt/",
+      "definition": "v.(from)保护,保卫"
+    },
+    {
+      "index": 4037,
+      "word": "microscope",
+      "phonetic": "/'maikrəskəup/",
+      "definition": "n.显微镜"
+    },
+    {
+      "index": 4038,
+      "word": "harness",
+      "phonetic": "/'hɑ:nis/",
+      "definition": "v.治理,利用 n.马具,挽具"
+    },
+    {
+      "index": 4039,
+      "word": "obsession",
+      "phonetic": "/əb'seʃən/",
+      "definition": "n.迷住, 困扰"
+    },
+    {
+      "index": 4040,
+      "word": "freedom",
+      "phonetic": "/'fri:dəm/",
+      "definition": "n.自由,自主,免除,特权"
+    },
+    {
+      "index": 4041,
+      "word": "extraordinary",
+      "phonetic": "/ɪk'strɔ:dnri/",
+      "definition": "a.非常的;格外的;意外的;离奇的;临时的"
+    },
+    {
+      "index": 4042,
+      "word": "strap",
+      "phonetic": "/stræp/",
+      "definition": "n.皮带v.用带扣住，束牢；用绷带包扎"
+    },
+    {
+      "index": 4043,
+      "word": "communication",
+      "phonetic": "/kəˌmju:nɪ'keɪʃn/",
+      "definition": "n.通讯,传达;(pl.)通讯系统;交通(工具)"
+    },
+    {
+      "index": 4044,
+      "word": "dark",
+      "phonetic": "/dɑ:k/",
+      "definition": "a.黑的，深(色)的；隐秘的；n.无光，黑暗"
+    },
+    {
+      "index": 4045,
+      "word": "erect",
+      "phonetic": "/i'rekt/",
+      "definition": "v.树立,建立,使竖立 a.直立的,垂直的"
+    },
+    {
+      "index": 4046,
+      "word": "weird",
+      "phonetic": "/wiəd/",
+      "definition": "a.古怪的，离奇的；怪诞的，神秘而可怕的"
+    },
+    {
+      "index": 4047,
+      "word": "predict",
+      "phonetic": "/pri'dikt/",
+      "definition": "v.预言,预测,预告"
+    },
+    {
+      "index": 4048,
+      "word": "preceding",
+      "phonetic": "/pri'si:diŋ/",
+      "definition": "a.在前的,在先的"
+    },
+    {
+      "index": 4049,
+      "word": "forgive",
+      "phonetic": "/fə'giv/",
+      "definition": "v.原谅,饶恕"
+    },
+    {
+      "index": 4050,
+      "word": "delivery",
+      "phonetic": "/di'livəri/",
+      "definition": "n.递送;交付;分娩;交货;引渡"
+    }
+  ]
+}

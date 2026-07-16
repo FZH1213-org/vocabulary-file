@@ -1,0 +1,307 @@
+{
+  "chunk": 88,
+  "range": "4351-4400",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 4351,
+      "word": "copper",
+      "phonetic": "/'kɒpə(r)/",
+      "definition": "n.铜;铜币,铜制器"
+    },
+    {
+      "index": 4352,
+      "word": "their",
+      "phonetic": "/ðεə/",
+      "definition": "pron..[they的所有格]他(她、它)们的"
+    },
+    {
+      "index": 4353,
+      "word": "drown",
+      "phonetic": "/draun/",
+      "definition": "v.溺死,淹没"
+    },
+    {
+      "index": 4354,
+      "word": "label",
+      "phonetic": "/'leibl/",
+      "definition": "n.标签 v.把...称为；用标签于；用标签标明"
+    },
+    {
+      "index": 4355,
+      "word": "willing",
+      "phonetic": "/'wiliŋ/",
+      "definition": "a.愿意的，乐意的，心甘情愿的"
+    },
+    {
+      "index": 4356,
+      "word": "odor",
+      "phonetic": "/'əudə/",
+      "definition": "n.(odour)气味,香味,臭味,名声"
+    },
+    {
+      "index": 4357,
+      "word": "stand",
+      "phonetic": "/stænd/",
+      "definition": "vi.站立；位于；经受 n.台，座；货摊；立场"
+    },
+    {
+      "index": 4358,
+      "word": "how",
+      "phonetic": "/hau/",
+      "definition": "ad.1.(表示方法、手段、状态)怎样；如何"
+    },
+    {
+      "index": 4359,
+      "word": "revolve",
+      "phonetic": "/ri'vɔlv/",
+      "definition": "v.(使)旋转;考虑;【天】公转,循环"
+    },
+    {
+      "index": 4360,
+      "word": "leak",
+      "phonetic": "/li:k/",
+      "definition": "v.漏,泄漏 n.漏洞,漏隙;泄漏,漏出"
+    },
+    {
+      "index": 4361,
+      "word": "patch",
+      "phonetic": "/pætʃ/",
+      "definition": "n.补丁,斑点,碎片小块 v.补,修补,掩饰"
+    },
+    {
+      "index": 4362,
+      "word": "intelligence",
+      "phonetic": "/ɪn'telɪdʒəns/",
+      "definition": "n.智力,聪明;理解力;情报,消息,报导"
+    },
+    {
+      "index": 4363,
+      "word": "surplus",
+      "phonetic": "/'sə:plʌs/",
+      "definition": "n.过剩,剩余；余款,余额 a.过剩的,剩余的"
+    },
+    {
+      "index": 4364,
+      "word": "fragment",
+      "phonetic": "/'frægmənt /",
+      "definition": "n.碎片,小部分,片断"
+    },
+    {
+      "index": 4365,
+      "word": "deserve",
+      "phonetic": "/di'zə:v/",
+      "definition": "v.应受,值得"
+    },
+    {
+      "index": 4366,
+      "word": "nail",
+      "phonetic": "/neil/",
+      "definition": "n.指甲,爪;钉 v.将…钉牢,钉住"
+    },
+    {
+      "index": 4367,
+      "word": "meditate",
+      "phonetic": "/'mediteit/",
+      "definition": "v.想,考虑,(尤指宗教上的)沉思,冥想"
+    },
+    {
+      "index": 4368,
+      "word": "hide",
+      "phonetic": "/haid/",
+      "definition": "v.隐藏,躲藏;隐瞒 n.皮革,兽皮"
+    },
+    {
+      "index": 4369,
+      "word": "edition",
+      "phonetic": "/i'diʃən/",
+      "definition": "n.版,版本,版次"
+    },
+    {
+      "index": 4370,
+      "word": "force",
+      "phonetic": "/fɔ:s/",
+      "definition": "n.力量,力;势力;(pl.)(总称)军队 v.强迫"
+    },
+    {
+      "index": 4371,
+      "word": "freeze",
+      "phonetic": "/fri:z/",
+      "definition": "v.使结冰,使凝固"
+    },
+    {
+      "index": 4372,
+      "word": "kingdom",
+      "phonetic": "/'kiŋdəm/",
+      "definition": "n.王国,领域"
+    },
+    {
+      "index": 4373,
+      "word": "notwithstanding",
+      "phonetic": "/ˌnɔtwiθ'stændiŋ/",
+      "definition": "prep./ad./conj.尽管"
+    },
+    {
+      "index": 4374,
+      "word": "pale",
+      "phonetic": "/peil/",
+      "definition": "a.苍白的,灰白的;浅的,暗淡的"
+    },
+    {
+      "index": 4375,
+      "word": "parent",
+      "phonetic": "/'pεərənt/",
+      "definition": "n.父母,母亲;(pl.)双亲;父母"
+    },
+    {
+      "index": 4376,
+      "word": "puppet",
+      "phonetic": "/'pʌpit/",
+      "definition": "n.木偶,傀儡"
+    },
+    {
+      "index": 4377,
+      "word": "soap",
+      "phonetic": "/səup/",
+      "definition": "n.肥皂"
+    },
+    {
+      "index": 4378,
+      "word": "costly",
+      "phonetic": "/'kɔstli/",
+      "definition": "a.昂贵的,价值高的,豪华的"
+    },
+    {
+      "index": 4379,
+      "word": "appoint",
+      "phonetic": "/ə'pɔint/",
+      "definition": "vt.任命，委派；指定，约定(时间、地点等)"
+    },
+    {
+      "index": 4380,
+      "word": "appendix",
+      "phonetic": "/ə'pendiks/",
+      "definition": "n.附录，附属物；阑尾，盲肠"
+    },
+    {
+      "index": 4381,
+      "word": "license",
+      "phonetic": "/'laisəns/",
+      "definition": "n.(licence)许可证,执照 v.准许,认可"
+    },
+    {
+      "index": 4382,
+      "word": "destruction",
+      "phonetic": "/di'strʌkʃən/",
+      "definition": "n.毁坏，毁灭(的原因)"
+    },
+    {
+      "index": 4383,
+      "word": "bus",
+      "phonetic": "/bʌs/",
+      "definition": "n.公共汽车，总线，信息通路"
+    },
+    {
+      "index": 4384,
+      "word": "echo",
+      "phonetic": "/'ekəu/",
+      "definition": "v./n.回声,反响,共鸣"
+    },
+    {
+      "index": 4385,
+      "word": "dive",
+      "phonetic": "/'di:vei/",
+      "definition": "v./n.潜水,跳水,俯冲"
+    },
+    {
+      "index": 4386,
+      "word": "connection",
+      "phonetic": "/kə'nekʃn/",
+      "definition": "n.(connexion)联系,连接；亲戚，社会关系"
+    },
+    {
+      "index": 4387,
+      "word": "manifest",
+      "phonetic": "/'mænifest/",
+      "definition": "v.表明,证明,显示 a.明白的,明了的"
+    },
+    {
+      "index": 4388,
+      "word": "shut",
+      "phonetic": "/ʃʌt/",
+      "definition": "v.关,关闭"
+    },
+    {
+      "index": 4389,
+      "word": "studio",
+      "phonetic": "/'stju:diəu/",
+      "definition": "n.画室;播音室;(电影)制片厂"
+    },
+    {
+      "index": 4390,
+      "word": "clerk",
+      "phonetic": "/klɑ:k/",
+      "definition": "n.职员,办事员;店员"
+    },
+    {
+      "index": 4391,
+      "word": "fragile",
+      "phonetic": "/'frædʒail/",
+      "definition": "a.易碎的，脆的，易损坏的；虚弱的，脆弱的"
+    },
+    {
+      "index": 4392,
+      "word": "cue",
+      "phonetic": "/kju:/",
+      "definition": "暗示, 提示, 球杆"
+    },
+    {
+      "index": 4393,
+      "word": "fireman",
+      "phonetic": "/'faiəmən/",
+      "definition": "n.消防队员"
+    },
+    {
+      "index": 4394,
+      "word": "sleep",
+      "phonetic": "/sli:p/",
+      "definition": "v.(slept,slept)睡 n.睡眠"
+    },
+    {
+      "index": 4395,
+      "word": "possession",
+      "phonetic": "/pə'zeʃən/",
+      "definition": "n.持有,拥有;所有权;所有物;(pl.)财产,财富"
+    },
+    {
+      "index": 4396,
+      "word": "fasten",
+      "phonetic": "/'fɑ:sən/",
+      "definition": "v.扎牢,使固定"
+    },
+    {
+      "index": 4397,
+      "word": "rot",
+      "phonetic": "/rɔt/",
+      "definition": "v.(使)腐烂,(使)腐败,腐朽"
+    },
+    {
+      "index": 4398,
+      "word": "rock",
+      "phonetic": "/rɔk/",
+      "definition": "n.岩石,石块 v.摇,摇动"
+    },
+    {
+      "index": 4399,
+      "word": "twenty",
+      "phonetic": "/'twenti/",
+      "definition": "num.二十 pron./a.二十(个，只...)"
+    },
+    {
+      "index": 4400,
+      "word": "cottage",
+      "phonetic": "/'kɒtɪdʒ/",
+      "definition": "n.村舍,小屋,别墅"
+    }
+  ]
+}

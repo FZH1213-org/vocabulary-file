@@ -1,0 +1,307 @@
+{
+  "chunk": 2,
+  "range": "51-100",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 51,
+      "word": "component",
+      "phonetic": "/kəm'pəunənt/",
+      "definition": "n.组成部分,成分,元件 a.组成的,合成的"
+    },
+    {
+      "index": 52,
+      "word": "tea",
+      "phonetic": "/ti:/",
+      "definition": "n.茶(叶)；午后茶点"
+    },
+    {
+      "index": 53,
+      "word": "mountain",
+      "phonetic": "/'mauntin/",
+      "definition": "n.山"
+    },
+    {
+      "index": 54,
+      "word": "small",
+      "phonetic": "/smɔ:l/",
+      "definition": "a.小的；年幼的；不重要的；小规模(经营)的"
+    },
+    {
+      "index": 55,
+      "word": "isolate",
+      "phonetic": "/'aisəleit/",
+      "definition": "vt.隔离,孤立"
+    },
+    {
+      "index": 56,
+      "word": "administer",
+      "phonetic": "/əd'ministə/",
+      "definition": "v.施行，实施；掌管，料理...的事务；给予"
+    },
+    {
+      "index": 57,
+      "word": "trail",
+      "phonetic": "/treil/",
+      "definition": "n.踪迹,痕迹;小路 v.追踪,跟踪;拖,拖曳;"
+    },
+    {
+      "index": 58,
+      "word": "hospital",
+      "phonetic": "/'hɔspitəl/",
+      "definition": "n.医院"
+    },
+    {
+      "index": 59,
+      "word": "elegant",
+      "phonetic": "/'elɪgənt/",
+      "definition": "a.优雅的;端庄的;雅致的"
+    },
+    {
+      "index": 60,
+      "word": "conversation",
+      "phonetic": "/ˌkɒnvə'seɪʃn/",
+      "definition": "n.会话,谈话"
+    },
+    {
+      "index": 61,
+      "word": "interest",
+      "phonetic": "/'ɪntrəst/",
+      "definition": "n.(in)兴趣,重要性;利益v.(in)使发生兴趣"
+    },
+    {
+      "index": 62,
+      "word": "naughty",
+      "phonetic": "/'nɔ:ti/",
+      "definition": "a.顽皮的,淘气的"
+    },
+    {
+      "index": 63,
+      "word": "trolley",
+      "phonetic": "/'trɔli/",
+      "definition": "n.手推车;(英)无轨电车,(美)有轨电车"
+    },
+    {
+      "index": 64,
+      "word": "fork",
+      "phonetic": "/fɔ:k/",
+      "definition": "n.叉,耙;叉形物;餐叉"
+    },
+    {
+      "index": 65,
+      "word": "awake",
+      "phonetic": "/ə'weik/",
+      "definition": "a.醒着的 vt.唤醒，使觉醒 vi.醒来，醒悟到"
+    },
+    {
+      "index": 66,
+      "word": "away",
+      "phonetic": "/ə'wei/",
+      "definition": "ad.在远处；离开；渐渐远去；一直；去掉"
+    },
+    {
+      "index": 67,
+      "word": "banana",
+      "phonetic": "/bə'nɑ:nə/",
+      "definition": "n.香蕉"
+    },
+    {
+      "index": 68,
+      "word": "unlikely",
+      "phonetic": "/ˌʌn'laikli/",
+      "definition": "a.未必的,靠不住的"
+    },
+    {
+      "index": 69,
+      "word": "temporary",
+      "phonetic": "/'tempərəri/",
+      "definition": "a.暂时的,临时的"
+    },
+    {
+      "index": 70,
+      "word": "advance",
+      "phonetic": "/əd'vɑ:ns/",
+      "definition": "n.前进，预付 vi.前进，进展 vt.促进，推进"
+    },
+    {
+      "index": 71,
+      "word": "locality",
+      "phonetic": "/ləu'kæləti/",
+      "definition": "n.位置,地点"
+    },
+    {
+      "index": 72,
+      "word": "eccentric",
+      "phonetic": "/ik'sentrik/",
+      "definition": "a.古怪的，怪癖的，异乎寻常的n.古怪的人"
+    },
+    {
+      "index": 73,
+      "word": "parasite",
+      "phonetic": "/'pærəsaɪt/",
+      "definition": "n.寄生虫,食客"
+    },
+    {
+      "index": 74,
+      "word": "minister",
+      "phonetic": "/'ministə/",
+      "definition": "n.部长,大臣"
+    },
+    {
+      "index": 75,
+      "word": "musical",
+      "phonetic": "/'mju:zikəl/",
+      "definition": "a.音乐的;有音乐才能的 n.音乐片"
+    },
+    {
+      "index": 76,
+      "word": "fairly",
+      "phonetic": "/'fεəli/",
+      "definition": "ad.公正地,正当地;相当,还算"
+    },
+    {
+      "index": 77,
+      "word": "wish",
+      "phonetic": "/wiʃ/",
+      "definition": "v.希望；但愿；祝 n.愿望，希望；[pl.]祝愿"
+    },
+    {
+      "index": 78,
+      "word": "character",
+      "phonetic": "/'kærəktə/",
+      "definition": "n.性格,品质,特性;人物,角色;字符,(汉)字"
+    },
+    {
+      "index": 79,
+      "word": "install",
+      "phonetic": "/in'stɔ:l/",
+      "definition": "vt.(instal)安装,设置,安置；使就职,任命"
+    },
+    {
+      "index": 80,
+      "word": "danger",
+      "phonetic": "/'deindʒə/",
+      "definition": "n.危险;威胁;危险事物"
+    },
+    {
+      "index": 81,
+      "word": "piece",
+      "phonetic": "/pi:s/",
+      "definition": "n.(一)件/片/篇;碎片v.(together)拼合,拼凑"
+    },
+    {
+      "index": 82,
+      "word": "abstract",
+      "phonetic": "/'æbstrækt/",
+      "definition": "a.抽象的 n.摘要，梗概 vt.提取；摘录要点"
+    },
+    {
+      "index": 83,
+      "word": "cook",
+      "phonetic": "/kuk/",
+      "definition": "n.厨师 v.烹调，烧煮；纂改(账目)，捏造"
+    },
+    {
+      "index": 84,
+      "word": "explain",
+      "phonetic": "/ik'splein/",
+      "definition": "v.解释,说明"
+    },
+    {
+      "index": 85,
+      "word": "lucky",
+      "phonetic": "/'lʌki/",
+      "definition": "a.幸运的,侥幸的"
+    },
+    {
+      "index": 86,
+      "word": "governor",
+      "phonetic": "/'gʌvənə/",
+      "definition": "n.统治者,管理者,总督,州(省)长"
+    },
+    {
+      "index": 87,
+      "word": "unusual",
+      "phonetic": "/ˌʌn'ju:ʒuəl/",
+      "definition": "a.不平常的,与众不同的"
+    },
+    {
+      "index": 88,
+      "word": "membership",
+      "phonetic": "/'membəʃɪp/",
+      "definition": "n.会员资格,成员资格"
+    },
+    {
+      "index": 89,
+      "word": "identify",
+      "phonetic": "/aɪ'dentɪfaɪ/",
+      "definition": "v.识别,鉴别;(with)把…和…看成一样"
+    },
+    {
+      "index": 90,
+      "word": "generous",
+      "phonetic": "/'dʒenərəs/",
+      "definition": "a.宽宏大量的,慷慨的"
+    },
+    {
+      "index": 91,
+      "word": "sick",
+      "phonetic": "/sɪk/",
+      "definition": "a.有病的,患病的;恶心的,想吐的"
+    },
+    {
+      "index": 92,
+      "word": "fridge",
+      "phonetic": "/fridʒ/",
+      "definition": "n.(refrigerator的略语)冰箱"
+    },
+    {
+      "index": 93,
+      "word": "beast",
+      "phonetic": "/bi:st/",
+      "definition": "n.兽,牲畜;凶残的人,举止粗鲁的人"
+    },
+    {
+      "index": 94,
+      "word": "manager",
+      "phonetic": "/'mænidʒə/",
+      "definition": "n.经理,管理人"
+    },
+    {
+      "index": 95,
+      "word": "tray",
+      "phonetic": "/trei/",
+      "definition": "n.盘,碟,托盘"
+    },
+    {
+      "index": 96,
+      "word": "creep",
+      "phonetic": "/kri:p/",
+      "definition": "v.爬,爬行;(植物)蔓延"
+    },
+    {
+      "index": 97,
+      "word": "conscious",
+      "phonetic": "/'kɔnʃəs/",
+      "definition": "a.(of)意识到的,自觉的;神志清醒的"
+    },
+    {
+      "index": 98,
+      "word": "afternoon",
+      "phonetic": "/ˌɑ:ftə:'nu:n/",
+      "definition": "n.下午，午后"
+    },
+    {
+      "index": 99,
+      "word": "maneuver",
+      "phonetic": "/mə'nu:və/",
+      "definition": "n.(manoeuvre)机动;运用,操作; v.机动"
+    },
+    {
+      "index": 100,
+      "word": "marginal",
+      "phonetic": "/'mɑ:dʒɪnl/",
+      "definition": "a.记在页边的,旁注的;(意识)边缘的"
+    }
+  ]
+}

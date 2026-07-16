@@ -1,0 +1,307 @@
+{
+  "chunk": 33,
+  "range": "1601-1650",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 1601,
+      "word": "engage",
+      "phonetic": "/ɪn'geɪdʒ/",
+      "definition": "v.(in)从事,着手;约定;使订婚;保证;雇用"
+    },
+    {
+      "index": 1602,
+      "word": "dusk",
+      "phonetic": "/dʌsk/",
+      "definition": "n.薄暮,黄昏"
+    },
+    {
+      "index": 1603,
+      "word": "purple",
+      "phonetic": "/'pə:pl/",
+      "definition": "a.紫的 n.紫色"
+    },
+    {
+      "index": 1604,
+      "word": "chimney",
+      "phonetic": "/'tʃimni/",
+      "definition": "n.烟囱"
+    },
+    {
+      "index": 1605,
+      "word": "dignity",
+      "phonetic": "/'dignəti/",
+      "definition": "n.(举止,态度等的)庄严,端庄;尊贵,高贵"
+    },
+    {
+      "index": 1606,
+      "word": "religion",
+      "phonetic": "/ri'lidʒən/",
+      "definition": "n.宗教,信仰"
+    },
+    {
+      "index": 1607,
+      "word": "beverage",
+      "phonetic": "/'bevəridʒ/",
+      "definition": "n.(水，酒等之外的)饮料"
+    },
+    {
+      "index": 1608,
+      "word": "gigantic",
+      "phonetic": "/ˌdʒai'gæntik/",
+      "definition": "a.巨大的,庞大的"
+    },
+    {
+      "index": 1609,
+      "word": "cassette",
+      "phonetic": "/kæ'set/",
+      "definition": "n.盒子;盒式磁带"
+    },
+    {
+      "index": 1610,
+      "word": "inverse",
+      "phonetic": "/'invə:s/",
+      "definition": "a.相反的,倒转的,反转的 n.相反之物 v.倒转"
+    },
+    {
+      "index": 1611,
+      "word": "recommend",
+      "phonetic": "/ˌrekə'mend/",
+      "definition": "v.推荐,介绍;劝告,建议"
+    },
+    {
+      "index": 1612,
+      "word": "basement",
+      "phonetic": "/'beismənt/",
+      "definition": "n.建筑物的底部,地下室,地窖"
+    },
+    {
+      "index": 1613,
+      "word": "crude",
+      "phonetic": "/kru:d/",
+      "definition": "a.天然的,未加工的;未熟的;粗鲁的,粗野的"
+    },
+    {
+      "index": 1614,
+      "word": "community",
+      "phonetic": "/kə'mju:niti/",
+      "definition": "n.同一地区的全体居民,社会,社区;共同体"
+    },
+    {
+      "index": 1615,
+      "word": "uniform",
+      "phonetic": "/'ju:nifɔ:m/",
+      "definition": "n.制服,军服 a.相同的,一律的"
+    },
+    {
+      "index": 1616,
+      "word": "tongue",
+      "phonetic": "/tʌŋ/",
+      "definition": "n.舌;语言"
+    },
+    {
+      "index": 1617,
+      "word": "attend",
+      "phonetic": "/ə'tend/",
+      "definition": "vt.出席，参加；照顾，护理 vi.注意；侍奉"
+    },
+    {
+      "index": 1618,
+      "word": "bare",
+      "phonetic": "/bεə/",
+      "definition": "a.赤裸的,空的;稀少的,仅有的 v.露出,暴露"
+    },
+    {
+      "index": 1619,
+      "word": "fare",
+      "phonetic": "/fεə/",
+      "definition": "n.车费,船费;伙食;乘客 v.过活;进展;经营"
+    },
+    {
+      "index": 1620,
+      "word": "haul",
+      "phonetic": "/hɔ:l/",
+      "definition": "v.拖曳,拖运,用力拖"
+    },
+    {
+      "index": 1621,
+      "word": "squirrel",
+      "phonetic": "/'skwə:rəl/",
+      "definition": "n.松鼠"
+    },
+    {
+      "index": 1622,
+      "word": "futile",
+      "phonetic": "/'fju:tail/",
+      "definition": "a.无效的，无用的，无希望的"
+    },
+    {
+      "index": 1623,
+      "word": "wagon",
+      "phonetic": "/'wægən/",
+      "definition": "n.运货马车,运货车;敞蓬车厢"
+    },
+    {
+      "index": 1624,
+      "word": "perfect",
+      "phonetic": "/'pə:fikt/",
+      "definition": "a.完善的;完全的;(语法)完成的 v.使完美"
+    },
+    {
+      "index": 1625,
+      "word": "latter",
+      "phonetic": "/'lætə/",
+      "definition": "a.后者的；后一半的，接近终了的 n.后者"
+    },
+    {
+      "index": 1626,
+      "word": "soak",
+      "phonetic": "/səuk/",
+      "definition": "v.浸泡,浸湿,浸透"
+    },
+    {
+      "index": 1627,
+      "word": "frequency",
+      "phonetic": "/'frikwənsi/",
+      "definition": "n.频率,周率"
+    },
+    {
+      "index": 1628,
+      "word": "another",
+      "phonetic": "/ə'nʌðə/",
+      "definition": "a.另一个，再 pron.另一个，类似的一个"
+    },
+    {
+      "index": 1629,
+      "word": "victory",
+      "phonetic": "/'viktəri/",
+      "definition": "n.胜利"
+    },
+    {
+      "index": 1630,
+      "word": "newspaper",
+      "phonetic": "/'nju:sˌpeipə/",
+      "definition": "n.报纸"
+    },
+    {
+      "index": 1631,
+      "word": "ago",
+      "phonetic": "/ə'gəu/",
+      "definition": "ad.(常和一般过去时的动词连用)以前，…前"
+    },
+    {
+      "index": 1632,
+      "word": "laptop",
+      "phonetic": "/'læptɔp/",
+      "definition": "n.膝上型电脑"
+    },
+    {
+      "index": 1633,
+      "word": "ink",
+      "phonetic": "/iŋk/",
+      "definition": "n.墨水，油墨"
+    },
+    {
+      "index": 1634,
+      "word": "exotic",
+      "phonetic": "/ˌig'zɔtik/",
+      "definition": "a.奇异的;异国情调的;外(国)来的"
+    },
+    {
+      "index": 1635,
+      "word": "formation",
+      "phonetic": "/fɔ:'meiʃən/",
+      "definition": "n.形成;构成;组织;构造;编制;塑造"
+    },
+    {
+      "index": 1636,
+      "word": "fair",
+      "phonetic": "/fεə/",
+      "definition": "a.公平的,合理的;相当的 n.集市,交易会"
+    },
+    {
+      "index": 1637,
+      "word": "charm",
+      "phonetic": "/tʃɑ:m/",
+      "definition": "n.吸引力,魅力 v.迷人,(使)陶醉;施魔法于"
+    },
+    {
+      "index": 1638,
+      "word": "metal",
+      "phonetic": "/'metəl/",
+      "definition": "n.金属,金属制品"
+    },
+    {
+      "index": 1639,
+      "word": "detach",
+      "phonetic": "/di'tætʃ/",
+      "definition": "vt.分开, 分离, 分遣, 派遣(军队)"
+    },
+    {
+      "index": 1640,
+      "word": "kindergarten",
+      "phonetic": "/'kindəˌgɑ:tən/",
+      "definition": "n.幼儿园"
+    },
+    {
+      "index": 1641,
+      "word": "launch",
+      "phonetic": "/lɔ:ntʃ/",
+      "definition": "v.发射;使(船)下水,发动,开展 n.发射,下水"
+    },
+    {
+      "index": 1642,
+      "word": "heroic",
+      "phonetic": "/hi'rəuik/",
+      "definition": "a.英雄的，英勇的，崇高的"
+    },
+    {
+      "index": 1643,
+      "word": "crystal",
+      "phonetic": "/'kristəl/",
+      "definition": "n.水晶,水晶饰品;结晶 a.水晶的,透明的"
+    },
+    {
+      "index": 1644,
+      "word": "smoke",
+      "phonetic": "/sməuk/",
+      "definition": "n.烟,烟尘;吸烟,抽烟 v.抽(烟);冒烟,冒气"
+    },
+    {
+      "index": 1645,
+      "word": "donkey",
+      "phonetic": "/'dɔŋki/",
+      "definition": "n.驴子；蠢人；顽固的人"
+    },
+    {
+      "index": 1646,
+      "word": "hill",
+      "phonetic": "/hil/",
+      "definition": "n.小山，山岗，高地；[pl.]丘陵(地带)"
+    },
+    {
+      "index": 1647,
+      "word": "epoch",
+      "phonetic": "/'epɒk/",
+      "definition": "n.新纪元;时代;时期;【地质】世,纪,期"
+    },
+    {
+      "index": 1648,
+      "word": "brush",
+      "phonetic": "/brʌʃ/",
+      "definition": "n.刷(子),毛刷;画笔 v.刷,擦,掸,拂;掠过"
+    },
+    {
+      "index": 1649,
+      "word": "simply",
+      "phonetic": "/'simpli/",
+      "definition": "ad.简单地;完全,简直;仅仅,只不过;朴素地"
+    },
+    {
+      "index": 1650,
+      "word": "consult",
+      "phonetic": "/kɔn'sʌlt/",
+      "definition": "v.请教，向...咨询，找...商量；查阅，查看"
+    }
+  ]
+}

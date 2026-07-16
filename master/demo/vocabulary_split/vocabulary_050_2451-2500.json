@@ -1,0 +1,307 @@
+{
+  "chunk": 50,
+  "range": "2451-2500",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 2451,
+      "word": "spacious",
+      "phonetic": "/'speiʃəs/",
+      "definition": "adj.广阔的，宽敞的"
+    },
+    {
+      "index": 2452,
+      "word": "dig",
+      "phonetic": "/dig/",
+      "definition": "v.挖,掘"
+    },
+    {
+      "index": 2453,
+      "word": "clumsy",
+      "phonetic": "/'klʌmzi/",
+      "definition": "a.笨拙的,愚笨的"
+    },
+    {
+      "index": 2454,
+      "word": "chorus",
+      "phonetic": "/'kɔ:rəs/",
+      "definition": "n.合唱队;合唱 v.异口同声地说,随声附和"
+    },
+    {
+      "index": 2455,
+      "word": "moist",
+      "phonetic": "/mɔist/",
+      "definition": "a.潮湿的,湿润的,多雨的"
+    },
+    {
+      "index": 2456,
+      "word": "extinguish",
+      "phonetic": "/ik'stiŋgwiʃ/",
+      "definition": "v.熄灭;消灭;结束;压制;使黯然失色;偿清"
+    },
+    {
+      "index": 2457,
+      "word": "reach",
+      "phonetic": "/ri:tʃ/",
+      "definition": "v.抵达;(out)伸手,够到 n.能达到的范围"
+    },
+    {
+      "index": 2458,
+      "word": "announce",
+      "phonetic": "/ə'nauns/",
+      "definition": "v.正式宣布；发表；通告；广播（电台节目）"
+    },
+    {
+      "index": 2459,
+      "word": "breathe",
+      "phonetic": "/bri:ð/",
+      "definition": "v.呼吸,吸入"
+    },
+    {
+      "index": 2460,
+      "word": "readily",
+      "phonetic": "/'redili/",
+      "definition": "ad.容易地;乐意地,欣然地"
+    },
+    {
+      "index": 2461,
+      "word": "collision",
+      "phonetic": "/kə'lɪʒn/",
+      "definition": "n.碰撞；(利益，意见等的)冲突，抵触"
+    },
+    {
+      "index": 2462,
+      "word": "so",
+      "phonetic": "/'səu/",
+      "definition": "ad.那么；非常；也；不错 conj.因此；以便"
+    },
+    {
+      "index": 2463,
+      "word": "fit",
+      "phonetic": "/'fit/",
+      "definition": "a.(病的)发作，痉挛 v./a.n.合适,试穿,安装"
+    },
+    {
+      "index": 2464,
+      "word": "meet",
+      "phonetic": "/mi:t/",
+      "definition": "n.会,集会 v.遇见;会谈;迎接;满足;符合"
+    },
+    {
+      "index": 2465,
+      "word": "kite",
+      "phonetic": "/kaɪt/",
+      "definition": "n.风筝"
+    },
+    {
+      "index": 2466,
+      "word": "disclose",
+      "phonetic": "/dis'kləuz/",
+      "definition": "v.揭示,泄露"
+    },
+    {
+      "index": 2467,
+      "word": "landlord",
+      "phonetic": "/'lændlɔ:d/",
+      "definition": "n.房东,地主"
+    },
+    {
+      "index": 2468,
+      "word": "versus",
+      "phonetic": "/'və:səs/",
+      "definition": "prep.(vs.)…对…(在诉讼,比赛等);与…相对"
+    },
+    {
+      "index": 2469,
+      "word": "after",
+      "phonetic": "/'ɑ:ftə-/",
+      "definition": "prep.在...以后；在...后面 adv.以后，后来"
+    },
+    {
+      "index": 2470,
+      "word": "corn",
+      "phonetic": "/kɔ:n/",
+      "definition": "n.谷物,庄稼,玉米"
+    },
+    {
+      "index": 2471,
+      "word": "amplify",
+      "phonetic": "/'æmplifai/",
+      "definition": "vt.放大，增强；详述，详加解说"
+    },
+    {
+      "index": 2472,
+      "word": "come",
+      "phonetic": "/kʌm/",
+      "definition": "v.来；出现于，产生；是，成为；开始，终于"
+    },
+    {
+      "index": 2473,
+      "word": "and",
+      "phonetic": "/ænd/",
+      "definition": "conj.和，与，而且；那么；接连，又"
+    },
+    {
+      "index": 2474,
+      "word": "swift",
+      "phonetic": "/swift/",
+      "definition": "a./ad.快的(地);敏捷的(地)a.立刻的n.雨燕"
+    },
+    {
+      "index": 2475,
+      "word": "angle",
+      "phonetic": "/'æŋgl/",
+      "definition": "n.角，角度 v.钓鱼；(采用各种方法）取得"
+    },
+    {
+      "index": 2476,
+      "word": "bewilder",
+      "phonetic": "/bi'wildə/",
+      "definition": "v.使迷惑,难住"
+    },
+    {
+      "index": 2477,
+      "word": "careful",
+      "phonetic": "/'kεəful/",
+      "definition": "a.小心的,仔细的;细致的,精心的"
+    },
+    {
+      "index": 2478,
+      "word": "visible",
+      "phonetic": "/'vizəbl/",
+      "definition": "a.看得见的, 明显的, 显著的"
+    },
+    {
+      "index": 2479,
+      "word": "this",
+      "phonetic": "/ðis/",
+      "definition": "pron.这(个) a.这(个)；今 ad.这(样)"
+    },
+    {
+      "index": 2480,
+      "word": "crab",
+      "phonetic": "/kræb/",
+      "definition": "n.螃蟹,蟹肉"
+    },
+    {
+      "index": 2481,
+      "word": "scare",
+      "phonetic": "/skεə/",
+      "definition": "n.惊恐,恐慌v.惊吓,受惊"
+    },
+    {
+      "index": 2482,
+      "word": "shady",
+      "phonetic": "/'ʃeidi/",
+      "definition": "a.成荫的,多荫的;可疑的,靠不住的"
+    },
+    {
+      "index": 2483,
+      "word": "exclusive",
+      "phonetic": "/ik'sklu:siv/",
+      "definition": "a.独占的;排他的;孤高的;唯一的;高级的"
+    },
+    {
+      "index": 2484,
+      "word": "bloody",
+      "phonetic": "/'blʌdi/",
+      "definition": "a.流血的,血腥的"
+    },
+    {
+      "index": 2485,
+      "word": "think",
+      "phonetic": "/θiŋk/",
+      "definition": "v.想，思索；认为，以为；想要；料想，预料"
+    },
+    {
+      "index": 2486,
+      "word": "okay",
+      "phonetic": "/'əu'kei/",
+      "definition": "a.(okey，OK，O.K.)好，行，不错 n.同意"
+    },
+    {
+      "index": 2487,
+      "word": "jeans",
+      "phonetic": "/dʒi:nz/",
+      "definition": "n.牛仔裤（又称blue jeans, dungarees等）"
+    },
+    {
+      "index": 2488,
+      "word": "cellar",
+      "phonetic": "/'selə/",
+      "definition": "n.地窑,地下室"
+    },
+    {
+      "index": 2489,
+      "word": "grief",
+      "phonetic": "/gri:f/",
+      "definition": "n.悲伤，悲痛；悲伤的事，悲痛的缘由"
+    },
+    {
+      "index": 2490,
+      "word": "machine",
+      "phonetic": "/mə'ʃi:n/",
+      "definition": "n.机器,机械 v.用机器加工"
+    },
+    {
+      "index": 2491,
+      "word": "trade",
+      "phonetic": "/treɪd/",
+      "definition": "n.贸易,商业;职业,行业 v.经商,交易"
+    },
+    {
+      "index": 2492,
+      "word": "deliver",
+      "phonetic": "/di'livə/",
+      "definition": "v.交付,递送;发表,表达;释放;接生"
+    },
+    {
+      "index": 2493,
+      "word": "mass",
+      "phonetic": "/mæs/",
+      "definition": "n.大量,众多;团,块;(pl.)群众,民众;质量"
+    },
+    {
+      "index": 2494,
+      "word": "honor",
+      "phonetic": "/'ɔnə/",
+      "definition": "n.(honour)尊敬,敬意;荣誉,光荣 v.尊敬"
+    },
+    {
+      "index": 2495,
+      "word": "footstep",
+      "phonetic": "/'fut'step/",
+      "definition": "n.脚步(声),足迹"
+    },
+    {
+      "index": 2496,
+      "word": "reign",
+      "phonetic": "/rein/",
+      "definition": "n./v.统治,支配,盛行 n.统治时期 v.占优势"
+    },
+    {
+      "index": 2497,
+      "word": "provision",
+      "phonetic": "/prəu'viʒən/",
+      "definition": "n.供应,(一批)供应品;预备;条款;(pl.)给养"
+    },
+    {
+      "index": 2498,
+      "word": "information",
+      "phonetic": "/ˌɪnfə'meɪʃn/",
+      "definition": "n.通知,报告;情报,资料,消息;信息"
+    },
+    {
+      "index": 2499,
+      "word": "summon",
+      "phonetic": "/'sʌmən/",
+      "definition": "v.召唤;传讯,传唤;鼓起(勇气),振作(精神)"
+    },
+    {
+      "index": 2500,
+      "word": "emphasis",
+      "phonetic": "/'emfəsis/",
+      "definition": "n.强调,重点"
+    }
+  ]
+}

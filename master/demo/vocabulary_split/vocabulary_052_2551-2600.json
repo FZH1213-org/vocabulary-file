@@ -1,0 +1,307 @@
+{
+  "chunk": 52,
+  "range": "2551-2600",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 2551,
+      "word": "anxiety",
+      "phonetic": "/æŋ'zaiəti/",
+      "definition": "n.挂念，焦虑，焦急，忧虑；渴望，热望"
+    },
+    {
+      "index": 2552,
+      "word": "grieve",
+      "phonetic": "/gri:v/",
+      "definition": "v.使悲伤,使伤心"
+    },
+    {
+      "index": 2553,
+      "word": "cycle",
+      "phonetic": "/'saikl/",
+      "definition": "n.自行车;周期,循环 v.骑自行车;循环"
+    },
+    {
+      "index": 2554,
+      "word": "darling",
+      "phonetic": "/'dɑ:liŋ/",
+      "definition": "n.心爱的人,亲爱的"
+    },
+    {
+      "index": 2555,
+      "word": "match",
+      "phonetic": "/mætʃ/",
+      "definition": "n.火柴;比赛,竞赛;对手,配偶 v.匹配,相称"
+    },
+    {
+      "index": 2556,
+      "word": "sorry",
+      "phonetic": "/'sɔ:ri/",
+      "definition": "a.对不起，抱歉的；难过，悔恨的；使人伤心"
+    },
+    {
+      "index": 2557,
+      "word": "influential",
+      "phonetic": "/ˌɪnflu'enʃl/",
+      "definition": "a.有影响的;有权势的"
+    },
+    {
+      "index": 2558,
+      "word": "width",
+      "phonetic": "/widθ/",
+      "definition": "n.宽度;宽阔,广阔"
+    },
+    {
+      "index": 2559,
+      "word": "profit",
+      "phonetic": "/'prɒfɪt/",
+      "definition": "n.利润,收益 v.(by,from)得利,获益;有利于"
+    },
+    {
+      "index": 2560,
+      "word": "youngster",
+      "phonetic": "/'jʌŋstə/",
+      "definition": "n.小伙子，年轻人；少年，儿童"
+    },
+    {
+      "index": 2561,
+      "word": "bribe",
+      "phonetic": "/braib/",
+      "definition": "n.贿赂 v.向…行贿,买通"
+    },
+    {
+      "index": 2562,
+      "word": "magic",
+      "phonetic": "/'mædʒik/",
+      "definition": "n.魔术,魔(魅)力,巫术 a.有魔力的,魔术的"
+    },
+    {
+      "index": 2563,
+      "word": "shy",
+      "phonetic": "/ʃai/",
+      "definition": "a.怕羞的，腼腆的；胆怯的vi.惊退，畏缩"
+    },
+    {
+      "index": 2564,
+      "word": "axe",
+      "phonetic": "/æks/",
+      "definition": "n.（ax）斧子；削减 vt.用斧砍"
+    },
+    {
+      "index": 2565,
+      "word": "spoon",
+      "phonetic": "/spu:n/",
+      "definition": "n.匙,调羹"
+    },
+    {
+      "index": 2566,
+      "word": "specification",
+      "phonetic": "/ˌspesifi'keiʃən/",
+      "definition": "n.详述;(常pl.)规格,说明书,规范"
+    },
+    {
+      "index": 2567,
+      "word": "rest",
+      "phonetic": "/rest/",
+      "definition": "n.休息；剩余部分 v.休息；睡；放，靠，搁"
+    },
+    {
+      "index": 2568,
+      "word": "disappear",
+      "phonetic": "/ˌdisə'piə/",
+      "definition": "v.不见,消失"
+    },
+    {
+      "index": 2569,
+      "word": "detail",
+      "phonetic": "/'di:teɪl/",
+      "definition": "n.细节,详情 v.详述"
+    },
+    {
+      "index": 2570,
+      "word": "library",
+      "phonetic": "/'laibrəri/",
+      "definition": "n.图书馆;藏书室;藏书,丛书,文库"
+    },
+    {
+      "index": 2571,
+      "word": "at",
+      "phonetic": "/æt/",
+      "definition": "prep.[表示价格、速度等]以，达；在..方面"
+    },
+    {
+      "index": 2572,
+      "word": "browse",
+      "phonetic": "/brauz/",
+      "definition": "vi.随意翻阅，浏览；(牛、羊等)吃草"
+    },
+    {
+      "index": 2573,
+      "word": "idiot",
+      "phonetic": "/'idiət/",
+      "definition": "n.白痴；极蠢的人；笨蛋"
+    },
+    {
+      "index": 2574,
+      "word": "indispensable",
+      "phonetic": "/ˌindis'pensəbl/",
+      "definition": "a.(to,for)必不可少的,必需的"
+    },
+    {
+      "index": 2575,
+      "word": "descendant",
+      "phonetic": "/di'sendənt/",
+      "definition": "n.子孙,后代"
+    },
+    {
+      "index": 2576,
+      "word": "alert",
+      "phonetic": "/ə'lə:t/",
+      "definition": "a.机警的，警觉的；机灵的 vt.使…警觉"
+    },
+    {
+      "index": 2577,
+      "word": "attach",
+      "phonetic": "/ə'tætʃ/",
+      "definition": "v.系，贴，连接；使成为一部分；使依恋"
+    },
+    {
+      "index": 2578,
+      "word": "carve",
+      "phonetic": "/kɑ:v/",
+      "definition": "v.(雕)刻"
+    },
+    {
+      "index": 2579,
+      "word": "year",
+      "phonetic": "/jɪə(r)/",
+      "definition": "n.年，年度，学年 a./ad.每年，一年一次"
+    },
+    {
+      "index": 2580,
+      "word": "display",
+      "phonetic": "/ˌdis'plei/",
+      "definition": "v./n.陈列,展览,显示(器)"
+    },
+    {
+      "index": 2581,
+      "word": "direct",
+      "phonetic": "/di'rekt/",
+      "definition": "a./ad.径直的(地) v.管理,指导;(at,to)指向"
+    },
+    {
+      "index": 2582,
+      "word": "chair",
+      "phonetic": "/tʃεə/",
+      "definition": "n.椅子；(会议的)主席 vt.当…的主席，主持"
+    },
+    {
+      "index": 2583,
+      "word": true,
+      "phonetic": "/tru:/",
+      "definition": "a.真实，不假的；忠实，可靠的；正确无误的"
+    },
+    {
+      "index": 2584,
+      "word": "male",
+      "phonetic": "/meil/",
+      "definition": "n./a.男性(的),雄性(的)"
+    },
+    {
+      "index": 2585,
+      "word": "organization",
+      "phonetic": "/ˌɔ:gənai'zeiʃən/",
+      "definition": "n.(organization)组织,团体,机构"
+    },
+    {
+      "index": 2586,
+      "word": "flatter",
+      "phonetic": "/'flætə/",
+      "definition": "vt.奉承;使高兴;使满意;胜过"
+    },
+    {
+      "index": 2587,
+      "word": "occurrence",
+      "phonetic": "/ə'kə:rəns/",
+      "definition": "n.发生,出现;事件,事故,发生的事情"
+    },
+    {
+      "index": 2588,
+      "word": "handicap",
+      "phonetic": "/'hændikæp/",
+      "definition": "v.妨碍 n.(身体或智力方面的)缺陷;不利条件"
+    },
+    {
+      "index": 2589,
+      "word": "exile",
+      "phonetic": "/'egzail/",
+      "definition": "n.流放；被流放者 vt.流放，放逐，把…充军"
+    },
+    {
+      "index": 2590,
+      "word": "split",
+      "phonetic": "/split/",
+      "definition": "v.裂开,劈开;分裂,分离 n.分化,分裂,裂口"
+    },
+    {
+      "index": 2591,
+      "word": "letter",
+      "phonetic": "/'letə(r)/",
+      "definition": "n.信,函件;字母,文字"
+    },
+    {
+      "index": 2592,
+      "word": "star",
+      "phonetic": "/stɑ:/",
+      "definition": "n.星；恒星；明星 v.用星号标出；扮演主角"
+    },
+    {
+      "index": 2593,
+      "word": "put",
+      "phonetic": "/put/",
+      "definition": "vt.放，搁，置；表达；使处于...状态，记下"
+    },
+    {
+      "index": 2594,
+      "word": "recur",
+      "phonetic": "/ri'kə:/",
+      "definition": "v.(尤指不好的事)一再发生；重现"
+    },
+    {
+      "index": 2595,
+      "word": "horizon",
+      "phonetic": "/hə'raizən/",
+      "definition": "n.地平线;眼界,见识"
+    },
+    {
+      "index": 2596,
+      "word": "hoist",
+      "phonetic": "/hɔist/",
+      "definition": "v.举起,升起,吊起"
+    },
+    {
+      "index": 2597,
+      "word": "controversial",
+      "phonetic": "/ˌkɔntrə'və:ʃəl/",
+      "definition": "a.引起争论的,有争议的"
+    },
+    {
+      "index": 2598,
+      "word": "deputy",
+      "phonetic": "/'depjuti/",
+      "definition": "n.代理人,代表 a.副的,代理的"
+    },
+    {
+      "index": 2599,
+      "word": "around",
+      "phonetic": "/ə'raund/",
+      "definition": "ad.在...周围，到处 prep.在..四周(或附近)"
+    },
+    {
+      "index": 2600,
+      "word": "mask",
+      "phonetic": "/mɑ:sk/",
+      "definition": "n.面具,面罩;假面具,伪装 v. 掩饰,化装"
+    }
+  ]
+}

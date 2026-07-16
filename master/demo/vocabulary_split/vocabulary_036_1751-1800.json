@@ -1,0 +1,307 @@
+{
+  "chunk": 36,
+  "range": "1751-1800",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 1751,
+      "word": "aisle",
+      "phonetic": "/ail/",
+      "definition": "n.(教堂、教室、戏院等里的)过道，通道"
+    },
+    {
+      "index": 1752,
+      "word": "data",
+      "phonetic": "/'deitə/",
+      "definition": "n.(datum的复数)资料，数据"
+    },
+    {
+      "index": 1753,
+      "word": "soluble",
+      "phonetic": "/'sɔljubl/",
+      "definition": "a.可溶的"
+    },
+    {
+      "index": 1754,
+      "word": "July",
+      "phonetic": "/dʒu'laɪ/",
+      "definition": "n.七月"
+    },
+    {
+      "index": 1755,
+      "word": "surround",
+      "phonetic": "/sə'raund/",
+      "definition": "vt.包围，环绕 n.环绕物"
+    },
+    {
+      "index": 1756,
+      "word": "rarely",
+      "phonetic": "/'rεəli/",
+      "definition": "ad.很少,难得,非常地"
+    },
+    {
+      "index": 1757,
+      "word": "nonetheless",
+      "phonetic": "/ˌnʌnðə'les/",
+      "definition": "ad.[nevertheless]虽然如此, 但是"
+    },
+    {
+      "index": 1758,
+      "word": "former",
+      "phonetic": "/'fɔ:mə/",
+      "definition": "a.以前的,在前的 pron.前者"
+    },
+    {
+      "index": 1759,
+      "word": "drawer",
+      "phonetic": "/drɔ:(r)/",
+      "definition": "n.抽屉"
+    },
+    {
+      "index": 1760,
+      "word": "mother",
+      "phonetic": "/'mʌðə/",
+      "definition": "n.母亲"
+    },
+    {
+      "index": 1761,
+      "word": "magnify",
+      "phonetic": "/'mægnifai/",
+      "definition": "vt.放大,扩大,夸大,夸张"
+    },
+    {
+      "index": 1762,
+      "word": "pinch",
+      "phonetic": "/pintʃ/",
+      "definition": "v.捏,掐,拧;收缩;紧急关头;匮乏;压力"
+    },
+    {
+      "index": 1763,
+      "word": "pregnant",
+      "phonetic": "/'pregnənt/",
+      "definition": "a.怀孕的,孕育的,充满的,意味深长的"
+    },
+    {
+      "index": 1764,
+      "word": "have",
+      "phonetic": "/hæv/",
+      "definition": "v.有，具有；体会，经受；从事；使；吃，喝"
+    },
+    {
+      "index": 1765,
+      "word": "enforce",
+      "phonetic": "/in'fɔ:s/",
+      "definition": "v.实施,执行;强制;支持,坚持(要求,主张等)"
+    },
+    {
+      "index": 1766,
+      "word": "thigh",
+      "phonetic": "/θai/",
+      "definition": "n.大腿；股骨"
+    },
+    {
+      "index": 1767,
+      "word": "battle",
+      "phonetic": "/'bætl/",
+      "definition": "n.战役,战斗;斗争 v.战斗,斗争,搏斗"
+    },
+    {
+      "index": 1768,
+      "word": "layer",
+      "phonetic": "/'leɪə(r)/",
+      "definition": "n.层，层次；铺设者"
+    },
+    {
+      "index": 1769,
+      "word": "rich",
+      "phonetic": "/rɪtʃ/",
+      "definition": "a.富的,有钱的;富饶的;(in)充足的,丰富的"
+    },
+    {
+      "index": 1770,
+      "word": "qualitative",
+      "phonetic": "/'kwɔlitətiv/",
+      "definition": "a.性质上的,定性的"
+    },
+    {
+      "index": 1771,
+      "word": "eleven",
+      "phonetic": "/i'levən/",
+      "definition": "num.十一 pron./a.十一(个，只...)"
+    },
+    {
+      "index": 1772,
+      "word": "training",
+      "phonetic": "/'treiniŋ/",
+      "definition": "n.训练,培养"
+    },
+    {
+      "index": 1773,
+      "word": "elite",
+      "phonetic": "/ei'li:t/",
+      "definition": "n.<法>[集合名词]精华;精锐;中坚分子"
+    },
+    {
+      "index": 1774,
+      "word": "combination",
+      "phonetic": "/ˌkɔmbi'neiʃən/",
+      "definition": "n.结合，联合；化合；团体；组合数码"
+    },
+    {
+      "index": 1775,
+      "word": "fireplace",
+      "phonetic": "/'faiəpleis/",
+      "definition": "n.壁炉"
+    },
+    {
+      "index": 1776,
+      "word": "support",
+      "phonetic": "/sə'pɔ:t/",
+      "definition": "n./vt.支撑;支持;赡养;维持 n.支持者;支柱"
+    },
+    {
+      "index": 1777,
+      "word": "huge",
+      "phonetic": "/hju:dʒ/",
+      "definition": "a.巨大的,庞大的"
+    },
+    {
+      "index": 1778,
+      "word": "car",
+      "phonetic": "/kɑ:/",
+      "definition": "n.汽车，车辆，车；(火车)车厢"
+    },
+    {
+      "index": 1779,
+      "word": "toward",
+      "phonetic": "/tɔ:d/",
+      "definition": "prep.(towards)朝，向；将近；对于；为了"
+    },
+    {
+      "index": 1780,
+      "word": "transaction",
+      "phonetic": "/træn'zækʃən/",
+      "definition": "n.办理,处理;交易,事务;(pl.)会报,学报"
+    },
+    {
+      "index": 1781,
+      "word": "hate",
+      "phonetic": "/heit/",
+      "definition": "v.恨,憎恨;不愿,不喜欢 n.恨,憎恶"
+    },
+    {
+      "index": 1782,
+      "word": "harm",
+      "phonetic": "/hɑ:m/",
+      "definition": "n./v.伤害,损害,危害"
+    },
+    {
+      "index": 1783,
+      "word": "breeze",
+      "phonetic": "/bri:z/",
+      "definition": "n.微风；轻而易举的事 vi.来去匆匆，急速走"
+    },
+    {
+      "index": 1784,
+      "word": "preface",
+      "phonetic": "/'prefis/",
+      "definition": "n.序言,引言,前言 v.作序,写前言"
+    },
+    {
+      "index": 1785,
+      "word": "liability",
+      "phonetic": "/ˌlaɪə'bɪləti/",
+      "definition": "n.责任,义务;(pl.)债务"
+    },
+    {
+      "index": 1786,
+      "word": "red",
+      "phonetic": "/red/",
+      "definition": "a.红的，红色的 n.红色；红色颜料"
+    },
+    {
+      "index": 1787,
+      "word": "cab",
+      "phonetic": "/kæb/",
+      "definition": "n.出租车，出租马车；驾驶室 vi.乘出租马车"
+    },
+    {
+      "index": 1788,
+      "word": "click",
+      "phonetic": "/klik/",
+      "definition": "n.滴答声；vi.发出滴答声"
+    },
+    {
+      "index": 1789,
+      "word": "subtract",
+      "phonetic": "/səb'trækt/",
+      "definition": "v. (from)减(去)"
+    },
+    {
+      "index": 1790,
+      "word": "clash",
+      "phonetic": "/klæʃ/",
+      "definition": "v./n.碰撞 n.碰撞声"
+    },
+    {
+      "index": 1791,
+      "word": "ridiculous",
+      "phonetic": "/ri'dikjuləs/",
+      "definition": "a.荒谬的,可笑的"
+    },
+    {
+      "index": 1792,
+      "word": "confidential",
+      "phonetic": "/ˌkɔnfi'denʃəl/",
+      "definition": "a.秘(机)密的；表信任的；担任机密工作的"
+    },
+    {
+      "index": 1793,
+      "word": "fashion",
+      "phonetic": "/'fæʃn/",
+      "definition": "n.流行式样(或货品),风尚,风气;样子,方式"
+    },
+    {
+      "index": 1794,
+      "word": "intercourse",
+      "phonetic": "/'intəkɔ:s/",
+      "definition": "n.交流,交往,交际,性交"
+    },
+    {
+      "index": 1795,
+      "word": "exam",
+      "phonetic": "/ig'zæm/",
+      "definition": "n.(examination)考试,测验"
+    },
+    {
+      "index": 1796,
+      "word": "tilt",
+      "phonetic": "/tilt/",
+      "definition": "v.(使)倾侧；(使)倾斜 n.倾侧；倾斜"
+    },
+    {
+      "index": 1797,
+      "word": "pioneer",
+      "phonetic": "/ˌpaiə'niə/",
+      "definition": "n.先驱,倡导者,开拓者"
+    },
+    {
+      "index": 1798,
+      "word": "fruitful",
+      "phonetic": "/'fru:tful/",
+      "definition": "a.多产的;果实累累的,富有成效的"
+    },
+    {
+      "index": 1799,
+      "word": "renew",
+      "phonetic": "/rɪ'nju:/",
+      "definition": "v.(使)更新,恢复,重新开始,继续"
+    },
+    {
+      "index": 1800,
+      "word": "valuable",
+      "phonetic": "/'væljuəbl/",
+      "definition": "a.贵重的,有价值的 n.(pl.)贵重物品,财宝"
+    }
+  ]
+}

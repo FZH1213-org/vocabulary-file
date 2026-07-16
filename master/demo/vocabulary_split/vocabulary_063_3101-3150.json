@@ -1,0 +1,307 @@
+{
+  "chunk": 63,
+  "range": "3101-3150",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 3101,
+      "word": "miss",
+      "phonetic": "/mɪs/",
+      "definition": "n.小姐 v. 思念,未击中,错过,漏掉,逃脱"
+    },
+    {
+      "index": 3102,
+      "word": "corrupt",
+      "phonetic": "/kə'rʌpt/",
+      "definition": "v.贿赂,收买 a.腐败的,贪污的"
+    },
+    {
+      "index": 3103,
+      "word": "modest",
+      "phonetic": "/'mɔdist/",
+      "definition": "a.谦虚的,有节制的"
+    },
+    {
+      "index": 3104,
+      "word": "hysterical",
+      "phonetic": "/his'terikəl/",
+      "definition": "a.情绪异常激动的,歇斯底里的"
+    },
+    {
+      "index": 3105,
+      "word": "librarian",
+      "phonetic": "/lai'brεəriən/",
+      "definition": "n.图书管理员"
+    },
+    {
+      "index": 3106,
+      "word": "eligible",
+      "phonetic": "/'elidʒəbl/",
+      "definition": "a.符合条件的;(尤指婚姻等)合适(意)的"
+    },
+    {
+      "index": 3107,
+      "word": "wax",
+      "phonetic": "/wæks/",
+      "definition": "n.蜡,蜂蜡 v.打蜡"
+    },
+    {
+      "index": 3108,
+      "word": "response",
+      "phonetic": "/ri'spɔns/",
+      "definition": "n.回答,响应,反应"
+    },
+    {
+      "index": 3109,
+      "word": "shake",
+      "phonetic": "/ʃeɪk/",
+      "definition": "n./v.摇动,摇;颤抖,震动"
+    },
+    {
+      "index": 3110,
+      "word": "salt",
+      "phonetic": "/sɔ:lt/",
+      "definition": "n.盐,盐,类 v.腌,盐渍"
+    },
+    {
+      "index": 3111,
+      "word": "hike",
+      "phonetic": "/haik/",
+      "definition": "n.徒步旅行；增加vi.徒步旅行vt.提高"
+    },
+    {
+      "index": 3112,
+      "word": "intelligent",
+      "phonetic": "/in'telidʒent/",
+      "definition": "a.聪明的,明智的,理智的"
+    },
+    {
+      "index": 3113,
+      "word": "rub",
+      "phonetic": "/rʌb/",
+      "definition": "v.擦,摩擦"
+    },
+    {
+      "index": 3114,
+      "word": "closet",
+      "phonetic": "/'klɔzit/",
+      "definition": "n.(壁)橱a.私下的vt.把…引进密室会谈"
+    },
+    {
+      "index": 3115,
+      "word": "understand",
+      "phonetic": "/ˌʌndə'stænd/",
+      "definition": "v.懂,理解;获悉,听说;揣测,认为"
+    },
+    {
+      "index": 3116,
+      "word": "twice",
+      "phonetic": "/twais/",
+      "definition": "ad.两次,两倍"
+    },
+    {
+      "index": 3117,
+      "word": "them",
+      "phonetic": "/ðem/",
+      "definition": "pron.他们/她们/它们(they的宾格形式)"
+    },
+    {
+      "index": 3118,
+      "word": "pleasant",
+      "phonetic": "/'plezənt/",
+      "definition": "a.令人愉快的 vt.使高兴 vi.满意；喜欢"
+    },
+    {
+      "index": 3119,
+      "word": "tentative",
+      "phonetic": "/'tentətiv/",
+      "definition": "a.试探性的，暂时的；犹豫不决的"
+    },
+    {
+      "index": 3120,
+      "word": "prison",
+      "phonetic": "/'prizən/",
+      "definition": "n.监狱"
+    },
+    {
+      "index": 3121,
+      "word": "accident",
+      "phonetic": "/'æksidənt/",
+      "definition": "n.意外遭遇,事故；意外(因素)"
+    },
+    {
+      "index": 3122,
+      "word": "doze",
+      "phonetic": "/dəuz/",
+      "definition": "v./n.瞌睡;假寐"
+    },
+    {
+      "index": 3123,
+      "word": "radioactive",
+      "phonetic": "/ˌreidiəu'æktiv/",
+      "definition": "a.放射性,放射引起的"
+    },
+    {
+      "index": 3124,
+      "word": "collect",
+      "phonetic": "/kə'lekt/",
+      "definition": "v.收集,搜集;领取,接走;收(税等);聚集,堆积"
+    },
+    {
+      "index": 3125,
+      "word": "sustain",
+      "phonetic": "/sə'stein/",
+      "definition": "vt.支撑,撑住;维持,持续,经受,忍耐"
+    },
+    {
+      "index": 3126,
+      "word": "hurricane",
+      "phonetic": "/'hʌrikən/",
+      "definition": "n.飓风"
+    },
+    {
+      "index": 3127,
+      "word": "integrity",
+      "phonetic": "/in'tegrəti/",
+      "definition": "n.正直,诚实;完整,完全"
+    },
+    {
+      "index": 3128,
+      "word": "glorious",
+      "phonetic": "/'glɔ:riəs/",
+      "definition": "a.壮丽的,辉煌的;光荣的"
+    },
+    {
+      "index": 3129,
+      "word": "university",
+      "phonetic": "/ˌju:ni'və:səti/",
+      "definition": "n.(综合)大学"
+    },
+    {
+      "index": 3130,
+      "word": "back",
+      "phonetic": "/bæk/",
+      "definition": "a.后面的 ad.向后 v.倒退；支持 n.背；后面"
+    },
+    {
+      "index": 3131,
+      "word": "lung",
+      "phonetic": "/lʌŋ/",
+      "definition": "n.肺"
+    },
+    {
+      "index": 3132,
+      "word": "means",
+      "phonetic": "/mi:nz/",
+      "definition": "n.方法,手段"
+    },
+    {
+      "index": 3133,
+      "word": "eject",
+      "phonetic": "/i'dʒekt/",
+      "definition": "v.喷射,排出;驱逐"
+    },
+    {
+      "index": 3134,
+      "word": "scenery",
+      "phonetic": "/'si:nəri/",
+      "definition": "n.风景,舞台布景"
+    },
+    {
+      "index": 3135,
+      "word": "partly",
+      "phonetic": "/'pɑ:tli/",
+      "definition": "ad.部分地,不完全地,在一定程度上"
+    },
+    {
+      "index": 3136,
+      "word": "grocer",
+      "phonetic": "/'grəusə/",
+      "definition": "n.食品商,杂货商"
+    },
+    {
+      "index": 3137,
+      "word": "vegetable",
+      "phonetic": "/'vedʒitəbl/",
+      "definition": "n.蔬菜,植物 a.植物的,蔬菜的"
+    },
+    {
+      "index": 3138,
+      "word": "pair",
+      "phonetic": "/pεə/",
+      "definition": "n.一对,一双;一副;夫妇 v.配对,成对"
+    },
+    {
+      "index": 3139,
+      "word": "physics",
+      "phonetic": "/'fiziks/",
+      "definition": "n.物理(学)"
+    },
+    {
+      "index": 3140,
+      "word": "impossible",
+      "phonetic": "/im'pɔsəbl/",
+      "definition": "a.不可能的；难以忍受的，很难对付的"
+    },
+    {
+      "index": 3141,
+      "word": "thorough",
+      "phonetic": "/'θʌrə/",
+      "definition": "a.彻底的,完全的;精心的"
+    },
+    {
+      "index": 3142,
+      "word": "latitude",
+      "phonetic": "/'lætitju:d/",
+      "definition": "n.纬度,行动或言论的自由(范围),(pl.)地区"
+    },
+    {
+      "index": 3143,
+      "word": "myth",
+      "phonetic": "/miθ/",
+      "definition": "n.神话;虚构的理论"
+    },
+    {
+      "index": 3144,
+      "word": "sideways",
+      "phonetic": "/'saidweiz/",
+      "definition": "ad./a.向旁边(的),侧身,横着(的),斜着(的)"
+    },
+    {
+      "index": 3145,
+      "word": "adventure",
+      "phonetic": "/əd'ventʃə/",
+      "definition": "n.冒险，冒险活动，奇遇 vt.大胆进行"
+    },
+    {
+      "index": 3146,
+      "word": "intersection",
+      "phonetic": "/ˌintə'sekʃən/",
+      "definition": "n.相交，交叉；道路交叉口，十字路口"
+    },
+    {
+      "index": 3147,
+      "word": "store",
+      "phonetic": "/stɔ:/",
+      "definition": "n.商店,店铺;贮藏,贮备品 v.贮藏,贮备"
+    },
+    {
+      "index": 3148,
+      "word": "deposit",
+      "phonetic": "/dɪ'pɒzɪt/",
+      "definition": "v.存放;使沉淀;付(保证金) n.存款;沉积物"
+    },
+    {
+      "index": 3149,
+      "word": "go",
+      "phonetic": "/gəu/",
+      "definition": "v.去，离开；走；放置；变成；运转 n.围棋"
+    },
+    {
+      "index": 3150,
+      "word": "despatch",
+      "phonetic": "/di'spætʃ/",
+      "definition": "n./v.(dispatch)派遣;发送 n.急件;新闻报道"
+    }
+  ]
+}

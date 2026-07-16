@@ -1,0 +1,307 @@
+{
+  "chunk": 59,
+  "range": "2901-2950",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 2901,
+      "word": "embark",
+      "phonetic": "/em'bɑ:k/",
+      "definition": "v.(使)上船(或飞机,汽车等);着手,从事"
+    },
+    {
+      "index": 2902,
+      "word": "yield",
+      "phonetic": "/ji:ld/",
+      "definition": "v.出产,生长;(to)屈服,服从 n.产量,收获"
+    },
+    {
+      "index": 2903,
+      "word": "inclusive",
+      "phonetic": "/in'klu:siv/",
+      "definition": "a.(of)包括的,包含的;范围广的"
+    },
+    {
+      "index": 2904,
+      "word": "distance",
+      "phonetic": "/'distəns/",
+      "definition": "n.距离,间隔,远方,路程"
+    },
+    {
+      "index": 2905,
+      "word": "paradox",
+      "phonetic": "/'pærədɒks/",
+      "definition": "n.似非而是的话,自相矛盾的话,反论"
+    },
+    {
+      "index": 2906,
+      "word": "crazy",
+      "phonetic": "/'kreizi/",
+      "definition": "a.疯狂的,古怪的,蠢的;(about)狂热的"
+    },
+    {
+      "index": 2907,
+      "word": "drag",
+      "phonetic": "/dræg/",
+      "definition": "v.拖,拖曳"
+    },
+    {
+      "index": 2908,
+      "word": "panorama",
+      "phonetic": "/ˌpænə'rɑ:mə/",
+      "definition": "n.全景,全景画,全景摄影,全景照片[装置]"
+    },
+    {
+      "index": 2909,
+      "word": "planet",
+      "phonetic": "/'plænit/",
+      "definition": "n.行星"
+    },
+    {
+      "index": 2910,
+      "word": "metropolitan",
+      "phonetic": "/ˌmetrə'pɔlitən/",
+      "definition": "a.首都的,主要都市的,大城市"
+    },
+    {
+      "index": 2911,
+      "word": "amuse",
+      "phonetic": "/ə'mju:z/",
+      "definition": "vt.向…提供娱乐，使…消遣；引人发笑"
+    },
+    {
+      "index": 2912,
+      "word": "debate",
+      "phonetic": "/di'beit/",
+      "definition": "v./n.争论,辩论"
+    },
+    {
+      "index": 2913,
+      "word": "front",
+      "phonetic": "/frʌnt/",
+      "definition": "a.前面的,前部的 n.正面;前线,战线 v.面对"
+    },
+    {
+      "index": 2914,
+      "word": "exchange",
+      "phonetic": "/iks'tʃeindʒ/",
+      "definition": "v./n.(for)交换,兑换;交流,交易;交换台"
+    },
+    {
+      "index": 2915,
+      "word": "editor",
+      "phonetic": "/'editə/",
+      "definition": "n.编辑,编者"
+    },
+    {
+      "index": 2916,
+      "word": "be",
+      "phonetic": "/bi/",
+      "definition": "v.(就)是，等于；(存)在；到达，来到，发生"
+    },
+    {
+      "index": 2917,
+      "word": "hungry",
+      "phonetic": "/'hʌgri/",
+      "definition": "a.饥饿的,渴望的"
+    },
+    {
+      "index": 2918,
+      "word": "flat",
+      "phonetic": "/flæt/",
+      "definition": "a.平坦的,扁平的,平淡的 n.一套房间;平面"
+    },
+    {
+      "index": 2919,
+      "word": "clean",
+      "phonetic": "/kli:n/",
+      "definition": "a.清洁的，干净的v.除去..污垢,把...弄干净"
+    },
+    {
+      "index": 2920,
+      "word": "most",
+      "phonetic": "/məust/",
+      "definition": "a.最多的；大多数的 ad.最；极其 n.大多数"
+    },
+    {
+      "index": 2921,
+      "word": "step",
+      "phonetic": "/step/",
+      "definition": "n.步;台阶,梯级;步骤,措施 v.踏,走,举步"
+    },
+    {
+      "index": 2922,
+      "word": "pyramid",
+      "phonetic": "/'pirəmid/",
+      "definition": "n.金字塔"
+    },
+    {
+      "index": 2923,
+      "word": "barely",
+      "phonetic": "/'bεəli/",
+      "definition": "ad.赤裸裸地,无遮蔽地;仅仅,勉强,几乎没有"
+    },
+    {
+      "index": 2924,
+      "word": "allowance",
+      "phonetic": "/ə'lauəns/",
+      "definition": "n.补贴，津贴；零用钱；减价，折扣；允许"
+    },
+    {
+      "index": 2925,
+      "word": "tremble",
+      "phonetic": "/'trembl/",
+      "definition": "n.战栗,颤抖 v.发抖,颤抖；摇动；焦虑"
+    },
+    {
+      "index": 2926,
+      "word": "questionnaire",
+      "phonetic": "/ˌkwestʃə'nεə/",
+      "definition": "n.调查表,问卷"
+    },
+    {
+      "index": 2927,
+      "word": "leadership",
+      "phonetic": "/'li:dəʃip/",
+      "definition": "n.领导"
+    },
+    {
+      "index": 2928,
+      "word": "unify",
+      "phonetic": "/'ju:nifai/",
+      "definition": "v.使联合,统一;使相同,使一致"
+    },
+    {
+      "index": 2929,
+      "word": "tropic",
+      "phonetic": "/'trɔpik/",
+      "definition": "n.回归线；[the T-s]热带地区"
+    },
+    {
+      "index": 2930,
+      "word": "cherish",
+      "phonetic": "/'tʃeriʃ/",
+      "definition": "vt.抱有，怀有(希望等)；爱护，抚育；珍爱"
+    },
+    {
+      "index": 2931,
+      "word": "token",
+      "phonetic": "/'təukən/",
+      "definition": "n.表示;标志;记号;代用硬币 a.象征性的"
+    },
+    {
+      "index": 2932,
+      "word": "wrong",
+      "phonetic": "/rɔŋ/",
+      "definition": "a.错的 ad.错误地，不正确地 n.错误 v.委屈"
+    },
+    {
+      "index": 2933,
+      "word": "exempt",
+      "phonetic": "/ig'zempt/",
+      "definition": "a.免除的 v.免除 n.免税者;被免除义务者"
+    },
+    {
+      "index": 2934,
+      "word": "verbal",
+      "phonetic": "/'və:bəl/",
+      "definition": "a.用言辞的,用文字的;口头的;动词的"
+    },
+    {
+      "index": 2935,
+      "word": "cite",
+      "phonetic": "/sait/",
+      "definition": "v.引用,引证,举(例)"
+    },
+    {
+      "index": 2936,
+      "word": "smooth",
+      "phonetic": "/smu:ð/",
+      "definition": "a.光滑的;顺利的;柔和的 v.(over)掩饰"
+    },
+    {
+      "index": 2937,
+      "word": "beyond",
+      "phonetic": "/bi'jɔnd/",
+      "definition": "prep.在(或向)...的那边，远于；超出；"
+    },
+    {
+      "index": 2938,
+      "word": "study",
+      "phonetic": "/'stʌdi/",
+      "definition": "vt.学习；研究；细看 vi.读书 n.学习；研究"
+    },
+    {
+      "index": 2939,
+      "word": "target",
+      "phonetic": "/'tɑ:gɪt/",
+      "definition": "n.目标,对象,靶子"
+    },
+    {
+      "index": 2940,
+      "word": "chase",
+      "phonetic": "/tʃeis/",
+      "definition": "v./n.追逐,追求"
+    },
+    {
+      "index": 2941,
+      "word": "disgust",
+      "phonetic": "/dis'gʌst/",
+      "definition": "n.厌恶,恶心 v.使厌恶"
+    },
+    {
+      "index": 2942,
+      "word": "cabbage",
+      "phonetic": "/'kæbɪdʒ/",
+      "definition": "n.洋白菜,卷心菜"
+    },
+    {
+      "index": 2943,
+      "word": "ideology",
+      "phonetic": "/ˌaidi'ɔlədʒi/",
+      "definition": "n.意识形态，(政治或社会的)思想意识"
+    },
+    {
+      "index": 2944,
+      "word": "striking",
+      "phonetic": "/'straikiŋ/",
+      "definition": "a.显著的；惹人注目的，容貌出众的"
+    },
+    {
+      "index": 2945,
+      "word": "heal",
+      "phonetic": "/hi:l/",
+      "definition": "v.治愈,愈合"
+    },
+    {
+      "index": 2946,
+      "word": "son",
+      "phonetic": "/sʌn/",
+      "definition": "n.儿子；孩子(长者对年青或年幼男子的称呼)"
+    },
+    {
+      "index": 2947,
+      "word": "cocaine",
+      "phonetic": "/kə'kein/",
+      "definition": "n.可卡因，古柯碱（用作局部麻醉剂）"
+    },
+    {
+      "index": 2948,
+      "word": "any",
+      "phonetic": "/'eni/",
+      "definition": "a.(用于否定句、疑问句等)什么,一些;任何的"
+    },
+    {
+      "index": 2949,
+      "word": "intention",
+      "phonetic": "/in'tenʃən/",
+      "definition": "n.意图,意向,目的"
+    },
+    {
+      "index": 2950,
+      "word": "solemn",
+      "phonetic": "/'sɔləm/",
+      "definition": "a.庄严的,隆重的;严肃的"
+    }
+  ]
+}

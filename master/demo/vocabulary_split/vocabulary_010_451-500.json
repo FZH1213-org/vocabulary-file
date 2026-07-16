@@ -1,0 +1,307 @@
+{
+  "chunk": 10,
+  "range": "451-500",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 451,
+      "word": "experiment",
+      "phonetic": "/ik'speriment/",
+      "definition": "n.实验;试验 v.(on)进行实验;做试验"
+    },
+    {
+      "index": 452,
+      "word": "permit",
+      "phonetic": "/pə'mit/",
+      "definition": "v.许可,允许 n.许可证,执照"
+    },
+    {
+      "index": 453,
+      "word": "feed",
+      "phonetic": "/fi:d/",
+      "definition": "v.(on,with)喂养,饲养;(with)向…供给"
+    },
+    {
+      "index": 454,
+      "word": "incur",
+      "phonetic": "/in'kə:/",
+      "definition": "v.招致,惹起,遭受"
+    },
+    {
+      "index": 455,
+      "word": "guilt",
+      "phonetic": "/gilt/",
+      "definition": "n.罪过,内疚"
+    },
+    {
+      "index": 456,
+      "word": "plead",
+      "phonetic": "/pli:d/",
+      "definition": "v.恳求,请求;为…辩护;提出…为理由"
+    },
+    {
+      "index": 457,
+      "word": "beef",
+      "phonetic": "/bi:f/",
+      "definition": "n.牛肉"
+    },
+    {
+      "index": 458,
+      "word": "boom",
+      "phonetic": "/bu:m/",
+      "definition": "v.迅速发展,兴旺;发出隆隆声"
+    },
+    {
+      "index": 459,
+      "word": "direction",
+      "phonetic": "/di'rekʃən/",
+      "definition": "n.方向,方位;指令,说明"
+    },
+    {
+      "index": 460,
+      "word": "enemy",
+      "phonetic": "/'enimi/",
+      "definition": "n.敌人，仇敌，反对者；敌人，敌军，敌国"
+    },
+    {
+      "index": 461,
+      "word": "enrich",
+      "phonetic": "/in'ritʃ/",
+      "definition": "v.使富足;使肥沃;装饰;加料于;浓缩"
+    },
+    {
+      "index": 462,
+      "word": "delight",
+      "phonetic": "/di'lait/",
+      "definition": "n.快乐,高兴 v.(使)高兴,(使)欣喜"
+    },
+    {
+      "index": 463,
+      "word": "tumour",
+      "phonetic": "/'tju:mə/",
+      "definition": "n.(tumor)(肿)瘤，肿块"
+    },
+    {
+      "index": 464,
+      "word": "divert",
+      "phonetic": "/dai'və:t/",
+      "definition": "vt.使转向，使改道；转移(注意力)；使娱乐"
+    },
+    {
+      "index": 465,
+      "word": "effort",
+      "phonetic": "/'efət/",
+      "definition": "n.努力;成就;艰难的尝试"
+    },
+    {
+      "index": 466,
+      "word": "friendship",
+      "phonetic": "/'frendʃip/",
+      "definition": "n.友谊,友好"
+    },
+    {
+      "index": 467,
+      "word": "miserable",
+      "phonetic": "/'mizərəbl/",
+      "definition": "a.痛苦的,悲惨的"
+    },
+    {
+      "index": 468,
+      "word": "banquet",
+      "phonetic": "/'bæŋkwit/",
+      "definition": "n.(正式的)宴会 vi.参加宴会 vt.宴情"
+    },
+    {
+      "index": 469,
+      "word": "sister",
+      "phonetic": "/'sɪstə(r)/",
+      "definition": "n.姐，妹；护士长；修女，女教士"
+    },
+    {
+      "index": 470,
+      "word": "present",
+      "phonetic": "/'prezənt/",
+      "definition": "a.出席的,现在的 n.现在,礼物 v.赠送,提出"
+    },
+    {
+      "index": 471,
+      "word": "formidable",
+      "phonetic": "/'fɔ:midəbl/",
+      "definition": "a.强大的;令人敬畏的;可怕的;艰难的"
+    },
+    {
+      "index": 472,
+      "word": "remedy",
+      "phonetic": "/'remidi/",
+      "definition": "n.药品;治疗措施 v.治疗,医治;纠正,补救"
+    },
+    {
+      "index": 473,
+      "word": "post",
+      "phonetic": "/pəust/",
+      "definition": "v.贴出;公告;投寄 n.(支)柱;邮政,邮寄;职位"
+    },
+    {
+      "index": 474,
+      "word": "operational",
+      "phonetic": "/ˌɔpə'reiʃənəl/",
+      "definition": "a.操作的,运转的,起作用的,经营的"
+    },
+    {
+      "index": 475,
+      "word": "climax",
+      "phonetic": "/'klaimæks/",
+      "definition": "n.顶点,高潮"
+    },
+    {
+      "index": 476,
+      "word": "contemporary",
+      "phonetic": "/kən'tempərəri/",
+      "definition": "a.现代的,当代的;同时代的"
+    },
+    {
+      "index": 477,
+      "word": "rod",
+      "phonetic": "/rɒd/",
+      "definition": "n.杆,棒"
+    },
+    {
+      "index": 478,
+      "word": "clue",
+      "phonetic": "/klu:/",
+      "definition": "n.线索,暗示"
+    },
+    {
+      "index": 479,
+      "word": "forthcoming",
+      "phonetic": "/'fɔ:θ'kʌmiŋ/",
+      "definition": "a.即将到来的;准备好的;乐意帮助的;n.来临"
+    },
+    {
+      "index": 480,
+      "word": "liner",
+      "phonetic": "/'lainə/",
+      "definition": "n.班机,定期轮船,邮船"
+    },
+    {
+      "index": 481,
+      "word": "dubious",
+      "phonetic": "/'dju:bjəs/",
+      "definition": "a.怀疑的，无把握的；有问题的，靠不住的"
+    },
+    {
+      "index": 482,
+      "word": "extreme",
+      "phonetic": "/ik'stri:m/",
+      "definition": "a.末端的,尽头的;极度的 n.极端;最大程度"
+    },
+    {
+      "index": 483,
+      "word": "spacecraft",
+      "phonetic": "/'speiskrɑ:ft/",
+      "definition": "n.宇宙飞船"
+    },
+    {
+      "index": 484,
+      "word": "redundant",
+      "phonetic": "/ri'dʌndənt/",
+      "definition": "a.多余的,过剩的;(食物)丰富的;被解雇的"
+    },
+    {
+      "index": 485,
+      "word": "settlement",
+      "phonetic": "/'setlmənt/",
+      "definition": "n.解决,决定,调停;居留区,住宅区"
+    },
+    {
+      "index": 486,
+      "word": "large",
+      "phonetic": "/lɑ:dʒ/",
+      "definition": "a.大的,广大的,大规模的"
+    },
+    {
+      "index": 487,
+      "word": "contract",
+      "phonetic": "/'kɔntrækt/",
+      "definition": "n.(承包)合同/契约 v.订合同/契约；使缩小"
+    },
+    {
+      "index": 488,
+      "word": "panda",
+      "phonetic": "/'pændə/",
+      "definition": "n.熊猫"
+    },
+    {
+      "index": 489,
+      "word": "steel",
+      "phonetic": "/sti:l/",
+      "definition": "n.钢"
+    },
+    {
+      "index": 490,
+      "word": "fierce",
+      "phonetic": "/fiəs/",
+      "definition": "a.凶猛的,残忍的;狂热的,强烈的"
+    },
+    {
+      "index": 491,
+      "word": "bake",
+      "phonetic": "/beik/",
+      "definition": "v.烤,烘,焙;烧硬,焙干"
+    },
+    {
+      "index": 492,
+      "word": "triangle",
+      "phonetic": "/'traiæŋgl/",
+      "definition": "n.三角(形)"
+    },
+    {
+      "index": 493,
+      "word": "correspondence",
+      "phonetic": "/ˌkɔ:ris'pɔndəns/",
+      "definition": "n.通信,信件;(with)符合;(to)相当于,对应"
+    },
+    {
+      "index": 494,
+      "word": "sometimes",
+      "phonetic": "/'sʌmtaimz/",
+      "definition": "ad.不时，有时，间或"
+    },
+    {
+      "index": 495,
+      "word": "swarm",
+      "phonetic": "/swɔ:m/",
+      "definition": "n.蜂群;一大群 vi.涌往;挤满;云集;成群移动"
+    },
+    {
+      "index": 496,
+      "word": "meaning",
+      "phonetic": "/'mi:niŋ/",
+      "definition": "n.意思,意义,含义;重要性,价值"
+    },
+    {
+      "index": 497,
+      "word": "grass",
+      "phonetic": "/grɑ:s/",
+      "definition": "n.草，草地"
+    },
+    {
+      "index": 498,
+      "word": "phrase",
+      "phonetic": "/freiz/",
+      "definition": "n.短语,词语,习语"
+    },
+    {
+      "index": 499,
+      "word": "strip",
+      "phonetic": "/strip/",
+      "definition": "v.剥,剥去 n.窄条,条纹"
+    },
+    {
+      "index": 500,
+      "word": "equator",
+      "phonetic": "/i'kweitə/",
+      "definition": "n.赤道"
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "chunk": 12,
+  "range": "551-600",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 551,
+      "word": "sheer",
+      "phonetic": "/ʃɪə(r)/",
+      "definition": "a.纯粹的,十足的,全然的;陡峭的,险峻的"
+    },
+    {
+      "index": 552,
+      "word": "boost",
+      "phonetic": "/bu:st/",
+      "definition": "n./ vt.提升；增加；抬高（价格）；支援；"
+    },
+    {
+      "index": 553,
+      "word": "campus",
+      "phonetic": "/'kæmpəs/",
+      "definition": "n.(大学)校园"
+    },
+    {
+      "index": 554,
+      "word": "gamble",
+      "phonetic": "/'gæmbl/",
+      "definition": "n./v.投机,冒险;赌博"
+    },
+    {
+      "index": 555,
+      "word": "ball",
+      "phonetic": "/bɔ:l/",
+      "definition": "n.球(状物);(正式的)舞会vt.把…捏成球状"
+    },
+    {
+      "index": 556,
+      "word": "official",
+      "phonetic": "/ə'fɪʃl/",
+      "definition": "n.官员,行政官员 a.官方的,官方的,正式的"
+    },
+    {
+      "index": 557,
+      "word": "jungle",
+      "phonetic": "/'dʒʌŋgl/",
+      "definition": "n.丛林,生死地带"
+    },
+    {
+      "index": 558,
+      "word": "communism",
+      "phonetic": "/'kɔmjunizəm/",
+      "definition": "n.共产主义"
+    },
+    {
+      "index": 559,
+      "word": "tiger",
+      "phonetic": "/'taigə/",
+      "definition": "n．虎；老虎"
+    },
+    {
+      "index": 560,
+      "word": "why",
+      "phonetic": "/hwai/",
+      "definition": "ad./conj.为什么；…的理由 int.咳，哎呀"
+    },
+    {
+      "index": 561,
+      "word": "fashionable",
+      "phonetic": "/'fæʃənəbl/",
+      "definition": "a.流行的,时髦的"
+    },
+    {
+      "index": 562,
+      "word": "confuse",
+      "phonetic": "/kən'fju:z/",
+      "definition": "v.使混乱,混淆"
+    },
+    {
+      "index": 563,
+      "word": "turbine",
+      "phonetic": "/'tə:bain/",
+      "definition": "n.汽轮机,涡轮机"
+    },
+    {
+      "index": 564,
+      "word": "eighty",
+      "phonetic": "/'eiti/",
+      "definition": "num./a.八十 pron.八十(个，只...)"
+    },
+    {
+      "index": 565,
+      "word": "award",
+      "phonetic": "/ə'wɔ:d/",
+      "definition": "vt.授予,给予；判定 n.奖,奖金；仲裁"
+    },
+    {
+      "index": 566,
+      "word": "similar",
+      "phonetic": "/'similə/",
+      "definition": "a.(to)相似的,类似的"
+    },
+    {
+      "index": 567,
+      "word": "remainder",
+      "phonetic": "/ri'meində/",
+      "definition": "n.剩余物,剩下的;余数,余项"
+    },
+    {
+      "index": 568,
+      "word": "snowstorm",
+      "phonetic": "/'snəustɔ:m/",
+      "definition": "n.暴风雪"
+    },
+    {
+      "index": 569,
+      "word": "wholly",
+      "phonetic": "/'həuli/",
+      "definition": "ad.完全地,全部,一概"
+    },
+    {
+      "index": 570,
+      "word": "countryside",
+      "phonetic": "/'kʌntriˌsaid/",
+      "definition": "n.乡下,农村"
+    },
+    {
+      "index": 571,
+      "word": "commemorate",
+      "phonetic": "/kə'meməreit/",
+      "definition": "vt.纪念，庆祝"
+    },
+    {
+      "index": 572,
+      "word": "multiple",
+      "phonetic": "/'mʌltipl/",
+      "definition": "a.多样的,多重的 n.倍数 v.成倍增加"
+    },
+    {
+      "index": 573,
+      "word": "jealous",
+      "phonetic": "/'dʒeləs/",
+      "definition": "a.(of)妒忌的;猜疑的,警惕的"
+    },
+    {
+      "index": 574,
+      "word": "superior",
+      "phonetic": "/sju:'piriə/",
+      "definition": "a.优良的,卓越的;上级的 n.上级;长者;高手"
+    },
+    {
+      "index": 575,
+      "word": "thirty",
+      "phonetic": "/'θə:ti/",
+      "definition": "num.三十，三十个(人或物)"
+    },
+    {
+      "index": 576,
+      "word": "whichever",
+      "phonetic": "/hwitʃ'evə/",
+      "definition": "pron./a.无论哪个,无论哪些"
+    },
+    {
+      "index": 577,
+      "word": "tall",
+      "phonetic": "/tɔ:l/",
+      "definition": "a.(身材)高的,高大的；夸大的,离谱的"
+    },
+    {
+      "index": 578,
+      "word": "random",
+      "phonetic": "/'rændəm/",
+      "definition": "a.随机的,随意的 n.随机,随意"
+    },
+    {
+      "index": 579,
+      "word": "decade",
+      "phonetic": "/'dekeid/",
+      "definition": "n.十年"
+    },
+    {
+      "index": 580,
+      "word": "commit",
+      "phonetic": "/kə'mit/",
+      "definition": "v.把…交托给,提交;犯(错误),干(坏事)"
+    },
+    {
+      "index": 581,
+      "word": "bottom",
+      "phonetic": "/'bɔtəm/",
+      "definition": "n.底(部);基础,根基;海底,湖底,河床"
+    },
+    {
+      "index": 582,
+      "word": "fire",
+      "phonetic": "/'faiə/",
+      "definition": "n.火；火灾，失火；炉火 vi.开火 vt.放(枪)"
+    },
+    {
+      "index": 583,
+      "word": "discharge",
+      "phonetic": "/dis'tʃɑ:dʒ/",
+      "definition": "v./n.卸货,排出;发射,放(电);遣散,解雇"
+    },
+    {
+      "index": 584,
+      "word": "progress",
+      "phonetic": "/'prəugres/",
+      "definition": "v./n.进步，进展；前进"
+    },
+    {
+      "index": 585,
+      "word": "thirst",
+      "phonetic": "/θə:st/",
+      "definition": "n.渴,口渴;(for)渴望,热望"
+    },
+    {
+      "index": 586,
+      "word": "knock",
+      "phonetic": "/nɔk/",
+      "definition": "v.敲,敲打,碰撞 n.敲,击"
+    },
+    {
+      "index": 587,
+      "word": "messenger",
+      "phonetic": "/'mesindʒə/",
+      "definition": "n.送信者,使者,传令兵"
+    },
+    {
+      "index": 588,
+      "word": "band",
+      "phonetic": "/bænd/",
+      "definition": "n.条,带;乐队;波段;一群,一伙 v.缚,绑扎"
+    },
+    {
+      "index": 589,
+      "word": "excitement",
+      "phonetic": "/ik'saitmənt/",
+      "definition": "n.刺激,激动,兴奋"
+    },
+    {
+      "index": 590,
+      "word": "indicate",
+      "phonetic": "/'indikeit/",
+      "definition": "v.指出,指示;表明,暗示"
+    },
+    {
+      "index": 591,
+      "word": "torture",
+      "phonetic": "/'tɔ:tʃə/",
+      "definition": "v.拷问,拷打;折磨,磨难 n.拷问;折磨,痛苦"
+    },
+    {
+      "index": 592,
+      "word": "rent",
+      "phonetic": "/rent/",
+      "definition": "v.租,租赁 n.租金"
+    },
+    {
+      "index": 593,
+      "word": "serial",
+      "phonetic": "/'siəriəl/",
+      "definition": "n.连载小说，连续剧；连载刊物 a.连续的"
+    },
+    {
+      "index": 594,
+      "word": "prophet",
+      "phonetic": "/'prɔfit/",
+      "definition": "n.预言家；先知；提倡者"
+    },
+    {
+      "index": 595,
+      "word": "phase",
+      "phonetic": "/feɪz/",
+      "definition": "n.阶段,状态,时期;相,相位"
+    },
+    {
+      "index": 596,
+      "word": "suppose",
+      "phonetic": "/sə'pəuz/",
+      "definition": "v.料想,猜想;假定;conj.假使...结果会怎样"
+    },
+    {
+      "index": 597,
+      "word": "succeed",
+      "phonetic": "/sək'si:d/",
+      "definition": "vi.成功；继承，接替 vt.接替；继…之后"
+    },
+    {
+      "index": 598,
+      "word": "import",
+      "phonetic": "/im'pɔ:t/",
+      "definition": "v./n.进口,输入,(pl.)进口商品;要旨,含意"
+    },
+    {
+      "index": 599,
+      "word": "question",
+      "phonetic": "/'kwestʃən/",
+      "definition": "n.问题;询问 v.询问;怀疑,对…表示疑问"
+    },
+    {
+      "index": 600,
+      "word": "situated",
+      "phonetic": "/'sitjueitid/",
+      "definition": "a.坐落在…的"
+    }
+  ]
+}

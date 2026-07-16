@@ -1,0 +1,307 @@
+{
+  "chunk": 11,
+  "range": "501-550",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 501,
+      "word": "via",
+      "phonetic": "/'vaiə/",
+      "definition": "prep.经；通过；凭借"
+    },
+    {
+      "index": 502,
+      "word": "lip",
+      "phonetic": "/lip/",
+      "definition": "n.嘴唇"
+    },
+    {
+      "index": 503,
+      "word": "tactic",
+      "phonetic": "/'tæktik/",
+      "definition": "n.(tactics)策略,战术"
+    },
+    {
+      "index": 504,
+      "word": "fairy",
+      "phonetic": "/'feəri/",
+      "definition": "a.幻想中的;虚构的;优雅的 n.仙女;精灵"
+    },
+    {
+      "index": 505,
+      "word": "navigation",
+      "phonetic": "/ˌnævi'geiʃən/",
+      "definition": "n.航海,航空;导航,领航"
+    },
+    {
+      "index": 506,
+      "word": "sin",
+      "phonetic": "/sin/",
+      "definition": "n.罪,罪恶 v.犯罪"
+    },
+    {
+      "index": 507,
+      "word": "five",
+      "phonetic": "/faiv/",
+      "definition": "num.五 pron./a.五(个，只...)"
+    },
+    {
+      "index": 508,
+      "word": "sculpture",
+      "phonetic": "/'skʌlptʃə/",
+      "definition": "n.雕刻(术)，雕塑(术)；雕刻作品"
+    },
+    {
+      "index": 509,
+      "word": "grease",
+      "phonetic": "/gri:s/",
+      "definition": "n.动物脂,油脂,润滑脂 v.抹油,润滑"
+    },
+    {
+      "index": 510,
+      "word": "cinema",
+      "phonetic": "/'sinəmə/",
+      "definition": "n.电影院;电影,影片"
+    },
+    {
+      "index": 511,
+      "word": "technique",
+      "phonetic": "/tek'ni:k/",
+      "definition": "n.技巧，手艺，技能；技术，工艺"
+    },
+    {
+      "index": 512,
+      "word": "handful",
+      "phonetic": "/'hændful/",
+      "definition": "n.一把;少数;一小撮"
+    },
+    {
+      "index": 513,
+      "word": "physical",
+      "phonetic": "/'fɪzɪkl/",
+      "definition": "a.物质的;肉体的,身体的;自然科学的,物理的"
+    },
+    {
+      "index": 514,
+      "word": "interrupt",
+      "phonetic": "/ˌintə'rʌpt/",
+      "definition": "v.中断,遮断,阻碍;打断(话),打扰"
+    },
+    {
+      "index": 515,
+      "word": "death",
+      "phonetic": "/deθ/",
+      "definition": "n.死，死亡；灭亡，毁灭，死因"
+    },
+    {
+      "index": 516,
+      "word": "cautious",
+      "phonetic": "/'kɔ:ʃəs/",
+      "definition": "a.(of)小心的,谨慎的"
+    },
+    {
+      "index": 517,
+      "word": "triumph",
+      "phonetic": "/'traiəmf/",
+      "definition": "n.胜利,成功 v.得胜,战胜"
+    },
+    {
+      "index": 518,
+      "word": "spray",
+      "phonetic": "/spreɪ/",
+      "definition": "n.喷雾,飞沫,浪花,水花 v.喷,喷射"
+    },
+    {
+      "index": 519,
+      "word": "choice",
+      "phonetic": "/tʃɔis/",
+      "definition": "n.选择(机会),抉择,选择项;入选者 a.精选的"
+    },
+    {
+      "index": 520,
+      "word": "date",
+      "phonetic": "/deit/",
+      "definition": "n.日期,年代 v.注明…的日期 n./v.约会"
+    },
+    {
+      "index": 521,
+      "word": "moderate",
+      "phonetic": "/'mɔdərət/",
+      "definition": "a.有节制的,中等的,适度的,温和的,稳健的"
+    },
+    {
+      "index": 522,
+      "word": "four",
+      "phonetic": "/fɔ:/",
+      "definition": "num.四 pron./a.四(个，只...)"
+    },
+    {
+      "index": 523,
+      "word": "build",
+      "phonetic": "/bild/",
+      "definition": "vt.建造，建筑；建设，建立 vi.增大，增强"
+    },
+    {
+      "index": 524,
+      "word": "nineteen",
+      "phonetic": "/ˌnain'ti:n/",
+      "definition": "num./a.十九 pron.十九(个，只...)"
+    },
+    {
+      "index": 525,
+      "word": "agriculture",
+      "phonetic": "/'ægrɪkʌltʃə(r)/",
+      "definition": "n.农业，农艺，农耕"
+    },
+    {
+      "index": 526,
+      "word": "basic",
+      "phonetic": "/'beisik/",
+      "definition": "a.基本的,基础的"
+    },
+    {
+      "index": 527,
+      "word": "idea",
+      "phonetic": "/ai'diə/",
+      "definition": "n.想法，念头；概念，观念；意见，主意"
+    },
+    {
+      "index": 528,
+      "word": "refrain",
+      "phonetic": "/ˌri:'frein/",
+      "definition": "v.节制,避免,制止 n.(诗的)叠句"
+    },
+    {
+      "index": 529,
+      "word": "patrol",
+      "phonetic": "/pə'trəul/",
+      "definition": "v.巡逻，巡查 n.巡逻，巡查；巡逻队"
+    },
+    {
+      "index": 530,
+      "word": "sheep",
+      "phonetic": "/ʃi:p/",
+      "definition": "n.(绵)羊；易受人摆布的人"
+    },
+    {
+      "index": 531,
+      "word": "advice",
+      "phonetic": "/əd'vais/",
+      "definition": "n.劝告，忠告，(医生等的)意见"
+    },
+    {
+      "index": 532,
+      "word": "experience",
+      "phonetic": "/ik'spiəriəns/",
+      "definition": "n./vt.经验;经历;体验;阅历"
+    },
+    {
+      "index": 533,
+      "word": "threaten",
+      "phonetic": "/'θretən/",
+      "definition": "v.恐吓,威胁;有…危险,快要来临"
+    },
+    {
+      "index": 534,
+      "word": "mammal",
+      "phonetic": "/'mæməl/",
+      "definition": "n.哺乳动物"
+    },
+    {
+      "index": 535,
+      "word": "dominant",
+      "phonetic": "/'dɔminənt/",
+      "definition": "a.支配的,统治的,占优势的"
+    },
+    {
+      "index": 536,
+      "word": "survival",
+      "phonetic": "/sə'vaivəl/",
+      "definition": "n.幸存,生存;幸存者,残存物"
+    },
+    {
+      "index": 537,
+      "word": "manuscript",
+      "phonetic": "/'mænjuskript/",
+      "definition": "n.手稿,原稿"
+    },
+    {
+      "index": 538,
+      "word": "glance",
+      "phonetic": "/glɑ:ns/",
+      "definition": "v.(at,over)扫视 n.匆匆看,一瞥,一眼"
+    },
+    {
+      "index": 539,
+      "word": "disperse",
+      "phonetic": "/dis'pə:s/",
+      "definition": "v.(使)分散;(使)散开;疏散"
+    },
+    {
+      "index": 540,
+      "word": "painful",
+      "phonetic": "/'peinfl/",
+      "definition": "a.疼痛的,使痛苦的,费力[心]的,棘手的"
+    },
+    {
+      "index": 541,
+      "word": "confess",
+      "phonetic": "/kən'fes/",
+      "definition": "v.供认，承认，坦白，忏悔"
+    },
+    {
+      "index": 542,
+      "word": "himself",
+      "phonetic": "/him'self/",
+      "definition": "pron.[反身代词]他自己；他本人"
+    },
+    {
+      "index": 543,
+      "word": "supper",
+      "phonetic": "/'sʌpə(r)/",
+      "definition": "n.晚餐"
+    },
+    {
+      "index": 544,
+      "word": "petty",
+      "phonetic": "/'peti/",
+      "definition": "a.小(器、规模)的,不重要的,细微的,卑鄙的"
+    },
+    {
+      "index": 545,
+      "word": "index",
+      "phonetic": "/'indeks/",
+      "definition": "n.(pl.indexes,indices)索引 v.附以索引"
+    },
+    {
+      "index": 546,
+      "word": "least",
+      "phonetic": "/li:st/",
+      "definition": "a.最小的;最少的 ad.最小;最少"
+    },
+    {
+      "index": 547,
+      "word": "content",
+      "phonetic": "/'kɔntent/",
+      "definition": "n.容量,内容,(pl.)目录 a.(with)满足的"
+    },
+    {
+      "index": 548,
+      "word": "forever",
+      "phonetic": "/fə'revə/",
+      "definition": "adv.(for ever)永远；总是"
+    },
+    {
+      "index": 549,
+      "word": "hitherto",
+      "phonetic": "/ˌhiðə'tu:/",
+      "definition": "ad.到目前为止,迄今"
+    },
+    {
+      "index": 550,
+      "word": "motel",
+      "phonetic": "/məu'tel/",
+      "definition": "n.(附有停车场的)汽车旅馆"
+    }
+  ]
+}

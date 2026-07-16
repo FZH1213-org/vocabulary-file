@@ -1,0 +1,307 @@
+{
+  "chunk": 86,
+  "range": "4251-4300",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 4251,
+      "word": "dependent",
+      "phonetic": "/di'pendənt/",
+      "definition": "a.依靠的,依赖的,从属的;随…而定的"
+    },
+    {
+      "index": 4252,
+      "word": "fear",
+      "phonetic": "/fiə/",
+      "definition": "n.害怕，恐惧；危险vt.畏惧，害怕，担心"
+    },
+    {
+      "index": 4253,
+      "word": "evening",
+      "phonetic": "/'i:vniŋ/",
+      "definition": "n.傍晚，黄昏，晚上"
+    },
+    {
+      "index": 4254,
+      "word": "refer",
+      "phonetic": "/ri'fə:/",
+      "definition": "v.参考,查询;提到,引用,涉及;提交,上呈"
+    },
+    {
+      "index": 4255,
+      "word": "low",
+      "phonetic": "/ləu/",
+      "definition": "a.低，矮；低级的，下层的，卑贱的；低声的"
+    },
+    {
+      "index": 4256,
+      "word": "fluid",
+      "phonetic": "/'flu(:)id/",
+      "definition": "a.流动的,液体的 n.流体,液体"
+    },
+    {
+      "index": 4257,
+      "word": "offspring",
+      "phonetic": "/'ɔfspriŋ/",
+      "definition": "n.子孙,后代;结果,产物"
+    },
+    {
+      "index": 4258,
+      "word": "web",
+      "phonetic": "/web/",
+      "definition": "n.网,蜘蛛网"
+    },
+    {
+      "index": 4259,
+      "word": "abound",
+      "phonetic": "/ə'baund/",
+      "definition": "vi.大量存在；(in，with)充满，富于"
+    },
+    {
+      "index": 4260,
+      "word": "upgrade",
+      "phonetic": "/'ʌpgreidˌ ʌp'greid/",
+      "definition": "v.提升,使升级"
+    },
+    {
+      "index": 4261,
+      "word": "run",
+      "phonetic": "/rʌn/",
+      "definition": "v.跑；流，淌；蔓延，伸展；经营；运转"
+    },
+    {
+      "index": 4262,
+      "word": "December",
+      "phonetic": "/di'sembə/",
+      "definition": "n.十二月"
+    },
+    {
+      "index": 4263,
+      "word": "expose",
+      "phonetic": "/ik'spəuz/",
+      "definition": "v.(to)使暴露,受到;使曝光"
+    },
+    {
+      "index": 4264,
+      "word": "survive",
+      "phonetic": "/sə'vaiv/",
+      "definition": "v.幸免于,幸存;比…长命"
+    },
+    {
+      "index": 4265,
+      "word": "senate",
+      "phonetic": "/'senit/",
+      "definition": "n.参议院,上院"
+    },
+    {
+      "index": 4266,
+      "word": "sulfur",
+      "phonetic": "/'sʌlfə/",
+      "definition": "n.(sulphur)硫"
+    },
+    {
+      "index": 4267,
+      "word": "fast",
+      "phonetic": "/fɑ:st/",
+      "definition": "a.快的，迅速的；坚固的 ad.紧紧地；迅速地"
+    },
+    {
+      "index": 4268,
+      "word": "typhoon",
+      "phonetic": "/tai'fu:n/",
+      "definition": "n.台风"
+    },
+    {
+      "index": 4269,
+      "word": "tank",
+      "phonetic": "/tæŋk/",
+      "definition": "n.罐,槽,箱；坦克 vt.储于槽中"
+    },
+    {
+      "index": 4270,
+      "word": "rehearsal",
+      "phonetic": "/ri'hə:səl/",
+      "definition": "n.排练,排演,演习,预演,试演"
+    },
+    {
+      "index": 4271,
+      "word": "persist",
+      "phonetic": "/pə'sist/",
+      "definition": "v.(in)坚持,持续"
+    },
+    {
+      "index": 4272,
+      "word": "dizzy",
+      "phonetic": "/'dizi/",
+      "definition": "a.头晕目眩的,眩晕的;(可能)使人头晕的"
+    },
+    {
+      "index": 4273,
+      "word": "overtime",
+      "phonetic": "/'əuvətaim/",
+      "definition": "a.超时的,加班的 ad.加班"
+    },
+    {
+      "index": 4274,
+      "word": "sausage",
+      "phonetic": "/'sɔsidʒ/",
+      "definition": "n.香肠,腊肠"
+    },
+    {
+      "index": 4275,
+      "word": "opportunity",
+      "phonetic": "/ˌɔpə'tju:niti/",
+      "definition": "n.机会"
+    },
+    {
+      "index": 4276,
+      "word": "nearby",
+      "phonetic": "/'niə'bai/",
+      "definition": "a.附近的 ad.在附近 prep.在…附近"
+    },
+    {
+      "index": 4277,
+      "word": "investment",
+      "phonetic": "/in'vestmənt/",
+      "definition": "n.投资,投资额"
+    },
+    {
+      "index": 4278,
+      "word": "nominate",
+      "phonetic": "/'nɔmineit/",
+      "definition": "v.提名,任命"
+    },
+    {
+      "index": 4279,
+      "word": "spare",
+      "phonetic": "/spεə/",
+      "definition": "a.多余的,备用的 v.节约,节省;抽出(时间)"
+    },
+    {
+      "index": 4280,
+      "word": "professor",
+      "phonetic": "/prəu'fesə/",
+      "definition": "n.教授"
+    },
+    {
+      "index": 4281,
+      "word": "ship",
+      "phonetic": "/ʃip/",
+      "definition": "n.船舶，舰艇 v.装运，航运，运送；发货"
+    },
+    {
+      "index": 4282,
+      "word": "Sunday",
+      "phonetic": "/'sʌndei/",
+      "definition": "n.星期日"
+    },
+    {
+      "index": 4283,
+      "word": "fraud",
+      "phonetic": "/frɔ:d/",
+      "definition": "n.欺诈，诈骗；欺骗(行为)；骗子；假货"
+    },
+    {
+      "index": 4284,
+      "word": "nine",
+      "phonetic": "/nain/",
+      "definition": "num.九 pron./ad.九(个，只...)"
+    },
+    {
+      "index": 4285,
+      "word": "plausible",
+      "phonetic": "/'plɔ:zəble/",
+      "definition": "a.似是而非的,似乎合理的,似乎可信的"
+    },
+    {
+      "index": 4286,
+      "word": "handbook",
+      "phonetic": "/'hændbuk/",
+      "definition": "n.手册,指南"
+    },
+    {
+      "index": 4287,
+      "word": "hazard",
+      "phonetic": "/'hæzəd/",
+      "definition": "n.危险,冒险,危害 v.冒险,拼命"
+    },
+    {
+      "index": 4288,
+      "word": "wolf",
+      "phonetic": "/wulf/",
+      "definition": "n.狼"
+    },
+    {
+      "index": 4289,
+      "word": "allow",
+      "phonetic": "/ə'lau/",
+      "definition": "vt.允许，准许；承认；给予；(for)考虑到"
+    },
+    {
+      "index": 4290,
+      "word": "pencil",
+      "phonetic": "/'pensl/",
+      "definition": "n.铅笔 vt.用铅笔写"
+    },
+    {
+      "index": 4291,
+      "word": "gown",
+      "phonetic": "/gaun/",
+      "definition": "n.长袍，特殊场合穿的长服"
+    },
+    {
+      "index": 4292,
+      "word": "replacement",
+      "phonetic": "/ri'pleismənt/",
+      "definition": "n.取代,替换,替换物,代替物"
+    },
+    {
+      "index": 4293,
+      "word": "diameter",
+      "phonetic": "/dai'æmitə/",
+      "definition": "n.直径"
+    },
+    {
+      "index": 4294,
+      "word": "fume",
+      "phonetic": "/fju:m/",
+      "definition": "n.(浓烈或难闻的）烟，气，汽"
+    },
+    {
+      "index": 4295,
+      "word": "vehicle",
+      "phonetic": "/'vi:ɪk(ə)l/",
+      "definition": "n.车辆,交通工具;媒介,载体"
+    },
+    {
+      "index": 4296,
+      "word": "fountain",
+      "phonetic": "/'fauntin/",
+      "definition": "n.泉水,喷泉,源泉"
+    },
+    {
+      "index": 4297,
+      "word": "narrative",
+      "phonetic": "/'nærətiv/",
+      "definition": "a.叙述性的 n.叙述"
+    },
+    {
+      "index": 4298,
+      "word": "porcelain",
+      "phonetic": "/'pɔ:səlin/",
+      "definition": "n.瓷器 a.精制的,瓷器的"
+    },
+    {
+      "index": 4299,
+      "word": "tutor",
+      "phonetic": "/'tju:tə/",
+      "definition": "n.导师;家教 v.辅导;当导师;当家庭教师"
+    },
+    {
+      "index": 4300,
+      "word": "satisfaction",
+      "phonetic": "/ˌsætis'fækʃən/",
+      "definition": "n.满足,满意;乐事,愉快"
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "chunk": 22,
+  "range": "1051-1100",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 1051,
+      "word": "power",
+      "phonetic": "/'pauə(r)/",
+      "definition": "n.力,精力;功率,电力;(数学)幂;权力,势力"
+    },
+    {
+      "index": 1052,
+      "word": "radio",
+      "phonetic": "/'reidiəu/",
+      "definition": "n.收音机；无线电报，无线电话v.无线电通讯"
+    },
+    {
+      "index": 1053,
+      "word": "dose",
+      "phonetic": "/dəus/",
+      "definition": "n.剂量,一服,一剂 v.(给…)服药"
+    },
+    {
+      "index": 1054,
+      "word": "hen",
+      "phonetic": "/hen/",
+      "definition": "n.母鸡"
+    },
+    {
+      "index": 1055,
+      "word": "amend",
+      "phonetic": "/ə'mend/",
+      "definition": "vt.修改，修订，改进"
+    },
+    {
+      "index": 1056,
+      "word": "regardless",
+      "phonetic": "/ri'gɑ:dlis/",
+      "definition": "a./ad.不管…的,不顾…的,不注意的"
+    },
+    {
+      "index": 1057,
+      "word": "failure",
+      "phonetic": "/'feiljə/",
+      "definition": "n.失败,不及格;失败者;故障,失灵;未能"
+    },
+    {
+      "index": 1058,
+      "word": "ritual",
+      "phonetic": "/'ritjuəl/",
+      "definition": "a.宗教仪式的,典礼的 n.(宗教)仪式,典礼"
+    },
+    {
+      "index": 1059,
+      "word": "wedge",
+      "phonetic": "/wedʒ/",
+      "definition": "n.楔,楔形 vt.楔牢,楔入,挤进"
+    },
+    {
+      "index": 1060,
+      "word": "live",
+      "phonetic": "/lɪv/",
+      "definition": "v.活着,生活,居住 a.活的,生动的,直播的"
+    },
+    {
+      "index": 1061,
+      "word": "upstairs",
+      "phonetic": "/'ʌp'stεəz/",
+      "definition": "ad.向楼上;在楼上;上楼 ad.楼上的"
+    },
+    {
+      "index": 1062,
+      "word": "rip",
+      "phonetic": "/rip/",
+      "definition": "v.撕,剥,劈,锯,裂开,撕裂 n.裂口,裂缝"
+    },
+    {
+      "index": 1063,
+      "word": "invisible",
+      "phonetic": "/in'vizəbl/",
+      "definition": "a.看不见的,无形的"
+    },
+    {
+      "index": 1064,
+      "word": "profound",
+      "phonetic": "/prə'faund/",
+      "definition": "a.深刻的,意义深远的;渊博的,造诣深的"
+    },
+    {
+      "index": 1065,
+      "word": "abundant",
+      "phonetic": "/ə'bʌndənt/",
+      "definition": "a.大量(充足)的；(in)丰富(富裕)的"
+    },
+    {
+      "index": 1066,
+      "word": "output",
+      "phonetic": "/'autput/",
+      "definition": "n.产量,输出(量)"
+    },
+    {
+      "index": 1067,
+      "word": "norm",
+      "phonetic": "/nɔ:m/",
+      "definition": "n.准则,规范,准则,平均数"
+    },
+    {
+      "index": 1068,
+      "word": "centimetre",
+      "phonetic": "/'sentiˌmi:tə/",
+      "definition": "n.(centimeter)厘米"
+    },
+    {
+      "index": 1069,
+      "word": "mention",
+      "phonetic": "/'menʃən/",
+      "definition": "v./n.提及,说起"
+    },
+    {
+      "index": 1070,
+      "word": "absence",
+      "phonetic": "/'æbsəns/",
+      "definition": "n.缺乏，不存在；缺席，不在；缺席的时间"
+    },
+    {
+      "index": 1071,
+      "word": "menu",
+      "phonetic": "/'menju:/",
+      "definition": "n.菜单"
+    },
+    {
+      "index": 1072,
+      "word": "eyesight",
+      "phonetic": "/'aisait/",
+      "definition": "n.视力"
+    },
+    {
+      "index": 1073,
+      "word": "flourish",
+      "phonetic": "/'flauriʃ/",
+      "definition": "n./v.繁荣,茂盛,兴旺"
+    },
+    {
+      "index": 1074,
+      "word": "rifle",
+      "phonetic": "/'raifl/",
+      "definition": "n.步枪"
+    },
+    {
+      "index": 1075,
+      "word": "rally",
+      "phonetic": "/'ræli/",
+      "definition": "v.重整,恢复,振作 n.聚集,集会,拉力赛"
+    },
+    {
+      "index": 1076,
+      "word": "nonsense",
+      "phonetic": "/'nɔnsəns/",
+      "definition": "n.胡说,废话"
+    },
+    {
+      "index": 1077,
+      "word": "carry",
+      "phonetic": "/'kæri/",
+      "definition": "v.运送,搬运;传送,传播;领,带"
+    },
+    {
+      "index": 1078,
+      "word": "disgrace",
+      "phonetic": "/dis'greis/",
+      "definition": "n.失宠,耻辱 v.使失宠;玷辱,使蒙羞"
+    },
+    {
+      "index": 1079,
+      "word": "chairman",
+      "phonetic": "/'tʃεəmən/",
+      "definition": "n.主席,议长,会长,董事长"
+    },
+    {
+      "index": 1080,
+      "word": "bomb",
+      "phonetic": "/bɔm/",
+      "definition": "n.炸弹 v.投弹于,轰炸"
+    },
+    {
+      "index": 1081,
+      "word": "indication",
+      "phonetic": "/ˌindi'keiʃən/",
+      "definition": "n.指出,指示;表明,暗示"
+    },
+    {
+      "index": 1082,
+      "word": "lie",
+      "phonetic": "/lai/",
+      "definition": "vi.躺，平放；处于；位于 v.说谎 n.谎话"
+    },
+    {
+      "index": 1083,
+      "word": "attractive",
+      "phonetic": "/ə'træktiv/",
+      "definition": "a.吸引人的，引人注意的；漂亮的，迷人的"
+    },
+    {
+      "index": 1084,
+      "word": "sale",
+      "phonetic": "/seil/",
+      "definition": "n.出售,上市;贱卖,廉价出售;销售额"
+    },
+    {
+      "index": 1085,
+      "word": "expend",
+      "phonetic": "/ik'spend/",
+      "definition": "v.消费,花费"
+    },
+    {
+      "index": 1086,
+      "word": "ally",
+      "phonetic": "/'ælaɪ/",
+      "definition": "n.同盟者，同盟国，vt.使结盟；与…有关联"
+    },
+    {
+      "index": 1087,
+      "word": "toxic",
+      "phonetic": "/'tɔksik/",
+      "definition": "a.有毒的；中毒的"
+    },
+    {
+      "index": 1088,
+      "word": "island",
+      "phonetic": "/'ailənd/",
+      "definition": "n.岛，岛屿；(道路上的)交通安全岛"
+    },
+    {
+      "index": 1089,
+      "word": "sarcastic",
+      "phonetic": "/sɑ:'kæztik/",
+      "definition": "a.讽刺的"
+    },
+    {
+      "index": 1090,
+      "word": "slogan",
+      "phonetic": "/'sləugən/",
+      "definition": "n.标语,口号"
+    },
+    {
+      "index": 1091,
+      "word": "fence",
+      "phonetic": "/'fens/",
+      "definition": "n.篱笆;围栏;剑术 v.用篱笆瓦围住;击剑"
+    },
+    {
+      "index": 1092,
+      "word": "traitor",
+      "phonetic": "/'treitə/",
+      "definition": "n.叛徒,卖国贼"
+    },
+    {
+      "index": 1093,
+      "word": "institution",
+      "phonetic": "/ˌinsti'tju:ʃən/",
+      "definition": "n.公共机构;协会;学校;研究所;制度;惯例"
+    },
+    {
+      "index": 1094,
+      "word": "leather",
+      "phonetic": "/'leðə/",
+      "definition": "n.皮革,皮革制品"
+    },
+    {
+      "index": 1095,
+      "word": "attorney",
+      "phonetic": "/ə'tɜ:ni/",
+      "definition": "n.(业务或法律事务上的)代理人；辩护律师"
+    },
+    {
+      "index": 1096,
+      "word": "ashore",
+      "phonetic": "/ə'ʃɔ:/",
+      "definition": "ad.上岸；在岸上，向岸上"
+    },
+    {
+      "index": 1097,
+      "word": "electric",
+      "phonetic": "/i'lektrik/",
+      "definition": "a.电的,导电的,电动的"
+    },
+    {
+      "index": 1098,
+      "word": "alternate",
+      "phonetic": "/ɔ:l'tə:nət/",
+      "definition": "a.交替的，轮流的 v.(使)交替，(使)轮流"
+    },
+    {
+      "index": 1099,
+      "word": "affair",
+      "phonetic": "/ə'fεə/",
+      "definition": "n.[pl.]事务；事情(件)；(个人的)事"
+    },
+    {
+      "index": 1100,
+      "word": "consistent",
+      "phonetic": "/kən'sistənt/",
+      "definition": "a.(in)前后一致的；（with）一致，符合"
+    }
+  ]
+}

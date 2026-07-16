@@ -1,0 +1,307 @@
+{
+  "chunk": 5,
+  "range": "201-250",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 201,
+      "word": "slice",
+      "phonetic": "/slais/",
+      "definition": "n.薄片,切片;一份;部分切(片)"
+    },
+    {
+      "index": 202,
+      "word": "satisfactory",
+      "phonetic": "/ˌsætis'fæktəri/",
+      "definition": "a.令人满意的,圆满的,良好的,符合要求的"
+    },
+    {
+      "index": 203,
+      "word": "kid",
+      "phonetic": "/kid/",
+      "definition": "n.小孩,儿童 v.戏弄,取笑"
+    },
+    {
+      "index": 204,
+      "word": "lunch",
+      "phonetic": "/lʌntʃ/",
+      "definition": "n.午餐，(美)便餐"
+    },
+    {
+      "index": 205,
+      "word": "coherent",
+      "phonetic": "/kəu'hɪərənt/",
+      "definition": "a.一致的，协调的；(话语等)条理清楚的"
+    },
+    {
+      "index": 206,
+      "word": "thrift",
+      "phonetic": "/θrift/",
+      "definition": "a.节约，节俭"
+    },
+    {
+      "index": 207,
+      "word": "chest",
+      "phonetic": "/tʃest/",
+      "definition": "n.胸腔,胸膛;箱,柜"
+    },
+    {
+      "index": 208,
+      "word": "articulate",
+      "phonetic": "/ɑ:'tɪkjuleɪt/",
+      "definition": "a.善于表达的；有关节相连的 v.清楚地讲话"
+    },
+    {
+      "index": 209,
+      "word": "e-mail",
+      "phonetic": "/i: meɪl/",
+      "definition": "n.(electronic mail)电子信函，电子邮件"
+    },
+    {
+      "index": 210,
+      "word": "brass",
+      "phonetic": "/brɑ:s/",
+      "definition": "n.黄铜,铜器"
+    },
+    {
+      "index": 211,
+      "word": "acquisition",
+      "phonetic": "/ˌækwɪ'zɪʃn/",
+      "definition": "n.取得，学到，养成(习惯)；获得的东西"
+    },
+    {
+      "index": 212,
+      "word": "dial",
+      "phonetic": "/'daiəlˌ dail/",
+      "definition": "n.钟(表)面,刻度盘,拨号盘 v.拨号,打电话"
+    },
+    {
+      "index": 213,
+      "word": "eternal",
+      "phonetic": "/i'tə:nəl/",
+      "definition": "n.永久的,永恒的"
+    },
+    {
+      "index": 214,
+      "word": "historical",
+      "phonetic": "/his'tɔrikəl/",
+      "definition": "a.历史的;有关历史的"
+    },
+    {
+      "index": 215,
+      "word": "lumber",
+      "phonetic": "/'lʌmbə/",
+      "definition": "n.木材,木料"
+    },
+    {
+      "index": 216,
+      "word": "motion",
+      "phonetic": "/'məuʃn/",
+      "definition": "n.运动,动;提议,动议 v.提议,动议"
+    },
+    {
+      "index": 217,
+      "word": "breed",
+      "phonetic": "/bri:d/",
+      "definition": "v.(使)繁殖,生殖;产生;教养,抚养 n.品种"
+    },
+    {
+      "index": 218,
+      "word": "organism",
+      "phonetic": "/'ɔ:gənizəm/",
+      "definition": "n.生物，有机体"
+    },
+    {
+      "index": 219,
+      "word": "theirs",
+      "phonetic": "/ðεəz/",
+      "definition": "pron.[they的物主代词]他(她、它)们的"
+    },
+    {
+      "index": 220,
+      "word": "taste",
+      "phonetic": "/teist/",
+      "definition": "v.品尝;(of)有…味道;体验 n.滋味;味觉"
+    },
+    {
+      "index": 221,
+      "word": "educate",
+      "phonetic": "/'edju:keit/",
+      "definition": "v.教育,培养,训练"
+    },
+    {
+      "index": 222,
+      "word": "hello",
+      "phonetic": "/he'ləu/",
+      "definition": "int.英(美)喂,你好(用来打招呼或引起注意)"
+    },
+    {
+      "index": 223,
+      "word": "accessory",
+      "phonetic": "/ək'sesəri/",
+      "definition": "n.附件,附属品;(为全套衣服增加美感的)服饰"
+    },
+    {
+      "index": 224,
+      "word": "far",
+      "phonetic": "/fɑ:/",
+      "definition": "a./ad.远，久远，遥远 ad.到…程度，…得多"
+    },
+    {
+      "index": 225,
+      "word": "dismay",
+      "phonetic": "/dis'mei/",
+      "definition": "n./v.(使)沮丧;(使)惊慌;(使)失望,(使)绝望"
+    },
+    {
+      "index": 226,
+      "word": "evoke",
+      "phonetic": "/i'vəuk/",
+      "definition": "vt.唤起(回忆、感情等)；引起"
+    },
+    {
+      "index": 227,
+      "word": "metaphor",
+      "phonetic": "/'metəfə/",
+      "definition": "n.隐喻，暗喻"
+    },
+    {
+      "index": 228,
+      "word": "wit",
+      "phonetic": "/wɪt/",
+      "definition": "n.智力,才智,智慧"
+    },
+    {
+      "index": 229,
+      "word": "story",
+      "phonetic": "/'stɔ:ri/",
+      "definition": "n.故事,传说,小说;(=storey)楼层"
+    },
+    {
+      "index": 230,
+      "word": "parameter",
+      "phonetic": "/pə'ræmitə/",
+      "definition": "n.参数,参量"
+    },
+    {
+      "index": 231,
+      "word": "cunning",
+      "phonetic": "/'kʌniŋ/",
+      "definition": "a./n.狡猾(的),狡诈(的)"
+    },
+    {
+      "index": 232,
+      "word": "axis",
+      "phonetic": "/'æksis/",
+      "definition": "n.轴，轴线，中心线；坐标轴，基准线"
+    },
+    {
+      "index": 233,
+      "word": "strive",
+      "phonetic": "/straiv/",
+      "definition": "v.奋斗,努力"
+    },
+    {
+      "index": 234,
+      "word": "lamp",
+      "phonetic": "/læmp/",
+      "definition": "n.灯"
+    },
+    {
+      "index": 235,
+      "word": "envisage",
+      "phonetic": "/in'vizidʒ/",
+      "definition": "v.想象，设想，展望，正视"
+    },
+    {
+      "index": 236,
+      "word": "accuse",
+      "phonetic": "/ə'kju:z/",
+      "definition": "vt.控告，指责 vi.指控，指责"
+    },
+    {
+      "index": 237,
+      "word": "fail",
+      "phonetic": "/feil/",
+      "definition": "v.失败,不及格;衰退,减弱"
+    },
+    {
+      "index": 238,
+      "word": "comply",
+      "phonetic": "/kəm'plai/",
+      "definition": "v.(with)遵照，照做，应允；顺从，服从"
+    },
+    {
+      "index": 239,
+      "word": "deceit",
+      "phonetic": "/di'si:t/",
+      "definition": "n.欺骗,欺骗行为"
+    },
+    {
+      "index": 240,
+      "word": "dash",
+      "phonetic": "/dæʃ/",
+      "definition": "v./n.冲,猛冲,突进 n.破折号"
+    },
+    {
+      "index": 241,
+      "word": "oven",
+      "phonetic": "/'ʌvən/",
+      "definition": "n.炉,灶,灶箱"
+    },
+    {
+      "index": 242,
+      "word": "conduct",
+      "phonetic": "/'kɔndʌkt/",
+      "definition": "n.行为,品行 v.引导;管理;指挥(乐队);传导"
+    },
+    {
+      "index": 243,
+      "word": "assault",
+      "phonetic": "/ə'sɔ:lt/",
+      "definition": "v.猛烈地攻击，袭击 n.突然而猛烈的攻击"
+    },
+    {
+      "index": 244,
+      "word": "worldwide",
+      "phonetic": "/'wə:ldˌwaid/",
+      "definition": "a.全世界的,世界范围的 ad.遍及全世界"
+    },
+    {
+      "index": 245,
+      "word": "lower",
+      "phonetic": "/'ləuə/",
+      "definition": "a.较低的,下级的,下游的 v.降下,放低"
+    },
+    {
+      "index": 246,
+      "word": "seed",
+      "phonetic": "/si:d/",
+      "definition": "n.种子 v.播种;结实,结籽"
+    },
+    {
+      "index": 247,
+      "word": "percentage",
+      "phonetic": "/pə'sentidʒ/",
+      "definition": "n.百分数,百分率,百分比"
+    },
+    {
+      "index": 248,
+      "word": "tire",
+      "phonetic": "/'taiə/",
+      "definition": "v.(使)疲倦,(使)厌倦 n.(=tyre)轮胎,车胎"
+    },
+    {
+      "index": 249,
+      "word": "tough",
+      "phonetic": "/tʌf/",
+      "definition": "a.坚韧的,棘手的;强健的,吃苦耐劳的;粗暴的"
+    },
+    {
+      "index": 250,
+      "word": "uncover",
+      "phonetic": "/ˌʌn'kʌvə/",
+      "definition": "v.揭开,揭露"
+    }
+  ]
+}

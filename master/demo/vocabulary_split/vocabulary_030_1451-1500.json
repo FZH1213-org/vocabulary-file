@@ -1,0 +1,307 @@
+{
+  "chunk": 30,
+  "range": "1451-1500",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 1451,
+      "word": "decrease",
+      "phonetic": "/di'kri:s/",
+      "definition": "n.减少,减小;减少量 v.减少,变少,降低"
+    },
+    {
+      "index": 1452,
+      "word": "suitable",
+      "phonetic": "/'sju:təbl/",
+      "definition": "a.(for)合适的,适宜的"
+    },
+    {
+      "index": 1453,
+      "word": "walk",
+      "phonetic": "/wɔ:k/",
+      "definition": "v.走，步行，散步；走遍 n.走，步行，散步"
+    },
+    {
+      "index": 1454,
+      "word": "fellow",
+      "phonetic": "/'feləu/",
+      "definition": "n.人,家伙;伙伴,同事 a.同样的,同事的"
+    },
+    {
+      "index": 1455,
+      "word": "besides",
+      "phonetic": "/bi'saidz/",
+      "definition": "ad.此外；并且 prep.于…之外；除…以外"
+    },
+    {
+      "index": 1456,
+      "word": "Bible",
+      "phonetic": "/'baibl/",
+      "definition": "n.圣经"
+    },
+    {
+      "index": 1457,
+      "word": "else",
+      "phonetic": "/els/",
+      "definition": "ad.其它，另外，别的；[与or连用]否则"
+    },
+    {
+      "index": 1458,
+      "word": "heading",
+      "phonetic": "/'hediŋ/",
+      "definition": "n.标题"
+    },
+    {
+      "index": 1459,
+      "word": "lounge",
+      "phonetic": "/laundʒ/",
+      "definition": "n.休息室,起居室,客厅"
+    },
+    {
+      "index": 1460,
+      "word": "neck",
+      "phonetic": "/nek/",
+      "definition": "n.颈脖"
+    },
+    {
+      "index": 1461,
+      "word": "log",
+      "phonetic": "/lɔg/",
+      "definition": "n.原木,圆木;航海日志"
+    },
+    {
+      "index": 1462,
+      "word": "butterfly",
+      "phonetic": "/'bʌtəflai/",
+      "definition": "n.蝴蝶"
+    },
+    {
+      "index": 1463,
+      "word": "orthodox",
+      "phonetic": "/'ɔ:θədɒks/",
+      "definition": "a.传统的,正统的,习惯的,保守的,东正教的"
+    },
+    {
+      "index": 1464,
+      "word": "participant",
+      "phonetic": "/pɑ:'tisipənt/",
+      "definition": "n.参加者,参与者 a.有份的,参与的"
+    },
+    {
+      "index": 1465,
+      "word": "assess",
+      "phonetic": "/ə'ses/",
+      "definition": "vt.(为征税)评估(财产、收入)；征税；评价"
+    },
+    {
+      "index": 1466,
+      "word": "advantage",
+      "phonetic": "/əd'vɑ:ntidʒ/",
+      "definition": "n.优点，长处，有利条件；利益，好处"
+    },
+    {
+      "index": 1467,
+      "word": "reproduce",
+      "phonetic": "/ˌri:prə'dju:s/",
+      "definition": "v.生殖;翻版;繁殖;复制,仿造"
+    },
+    {
+      "index": 1468,
+      "word": "stereotype",
+      "phonetic": "/'steriəutaip/",
+      "definition": "n.陈规，模式化 vt.使定型，使模式化"
+    },
+    {
+      "index": 1469,
+      "word": "refund",
+      "phonetic": "/ri'fʌnd/",
+      "definition": "n.归还,偿还额,退款 v.退还,偿还,偿付"
+    },
+    {
+      "index": 1470,
+      "word": "close",
+      "phonetic": "/kləuz/",
+      "definition": "v./n.关；结束 a./ad.近的(地)；紧密的(地)"
+    },
+    {
+      "index": 1471,
+      "word": "addict",
+      "phonetic": "/ə'dikt/",
+      "definition": "v.使沉溺；使上瘾 n.沉溺于不良嗜好的人"
+    },
+    {
+      "index": 1472,
+      "word": "interesting",
+      "phonetic": "/'ɪntrɪstɪŋ/",
+      "definition": "a.有趣的,引人入胜的"
+    },
+    {
+      "index": 1473,
+      "word": "sink",
+      "phonetic": "/siŋk/",
+      "definition": "v.(使)下沉,下落 n.水槽,水池"
+    },
+    {
+      "index": 1474,
+      "word": "pastime",
+      "phonetic": "/'pɑ:staim/",
+      "definition": "n.消遣,娱乐"
+    },
+    {
+      "index": 1475,
+      "word": "comb",
+      "phonetic": "/kəum/",
+      "definition": "n.梳子 v.梳(理)"
+    },
+    {
+      "index": 1476,
+      "word": "hinder",
+      "phonetic": "/'hində/",
+      "definition": "v.(from)阻止,妨碍 a.后面的"
+    },
+    {
+      "index": 1477,
+      "word": "reckon",
+      "phonetic": "/'rekən/",
+      "definition": "v.计算,总计,估计,猜想,依赖"
+    },
+    {
+      "index": 1478,
+      "word": "feeble",
+      "phonetic": "/'fi:bl/",
+      "definition": "a.虚弱的,无力的"
+    },
+    {
+      "index": 1479,
+      "word": "swing",
+      "phonetic": "/swiŋ/",
+      "definition": "v.摇摆,摇荡,回转,旋转 n.秋千;摇摆,摆动"
+    },
+    {
+      "index": 1480,
+      "word": "secure",
+      "phonetic": "/si'kjuə/",
+      "definition": "a.(from,against)安全的,放心的v.得到;防护"
+    },
+    {
+      "index": 1481,
+      "word": "popular",
+      "phonetic": "/'pɔpjulə/",
+      "definition": "a.流行的,通俗的,大众的;广受欢迎的"
+    },
+    {
+      "index": 1482,
+      "word": "anguish",
+      "phonetic": "/'æŋgwiʃ/",
+      "definition": "n.(尤指心灵上的)极度痛苦，烦恼"
+    },
+    {
+      "index": 1483,
+      "word": "architect",
+      "phonetic": "/'ɑ:kitekt/",
+      "definition": "n.建筑师；设计师；缔造者；创造者"
+    },
+    {
+      "index": 1484,
+      "word": "utter",
+      "phonetic": "/'ʌtə/",
+      "definition": "v.说,发出(声音) a.彻底的,完全的"
+    },
+    {
+      "index": 1485,
+      "word": "fifteen",
+      "phonetic": "/'fifti:n/",
+      "definition": "num.十五 pron./a.十五(个，只...)"
+    },
+    {
+      "index": 1486,
+      "word": "seize",
+      "phonetic": "/si:z/",
+      "definition": "v.抓住,逮住;夺取,占领;没收,查封"
+    },
+    {
+      "index": 1487,
+      "word": "fancy",
+      "phonetic": "/'fænsi/",
+      "definition": "n.爱好,迷恋 v.想象,幻想 a.花式的,奇特的"
+    },
+    {
+      "index": 1488,
+      "word": "precise",
+      "phonetic": "/pri'sais/",
+      "definition": "a.精确的,准确的"
+    },
+    {
+      "index": 1489,
+      "word": "ready",
+      "phonetic": "/'redi/",
+      "definition": "a.(for)准备好的,现成的;甘心的"
+    },
+    {
+      "index": 1490,
+      "word": "cafe",
+      "phonetic": "/'kafeɪ/",
+      "definition": "n.咖啡馆,(小)餐馆"
+    },
+    {
+      "index": 1491,
+      "word": "gravity",
+      "phonetic": "/'græviti/",
+      "definition": "n.重力,引力;严肃,庄重"
+    },
+    {
+      "index": 1492,
+      "word": "identity",
+      "phonetic": "/ai'dentəti/",
+      "definition": "n.身份;本体;特征;同一(性);一致;国籍;等式"
+    },
+    {
+      "index": 1493,
+      "word": "dare",
+      "phonetic": "/dεə/",
+      "definition": "v.敢,胆敢"
+    },
+    {
+      "index": 1494,
+      "word": "electron",
+      "phonetic": "/i'lektrɔn/",
+      "definition": "n.电子"
+    },
+    {
+      "index": 1495,
+      "word": "stomach",
+      "phonetic": "/'stʌmək/",
+      "definition": "n.胃，胃口；肚子，腹部vt.承受，忍受"
+    },
+    {
+      "index": 1496,
+      "word": "tension",
+      "phonetic": "/'tenʃən/",
+      "definition": "n.(紧张)状态；拉(绷)紧；张力，拉力"
+    },
+    {
+      "index": 1497,
+      "word": "passion",
+      "phonetic": "/'pæʃən/",
+      "definition": "n.热情,激情,爱好;激怒;强烈感情"
+    },
+    {
+      "index": 1498,
+      "word": "I",
+      "phonetic": "/ai/",
+      "definition": "pron.(主格)我"
+    },
+    {
+      "index": 1499,
+      "word": "pop",
+      "phonetic": "/pɔp/",
+      "definition": "a.流行的n.(发出)砰的一声 v.突然出现"
+    },
+    {
+      "index": 1500,
+      "word": "headline",
+      "phonetic": "/'hedlain/",
+      "definition": "n.大字标题,新闻标题"
+    }
+  ]
+}

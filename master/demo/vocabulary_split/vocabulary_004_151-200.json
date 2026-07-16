@@ -1,0 +1,307 @@
+{
+  "chunk": 4,
+  "range": "151-200",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 151,
+      "word": "romantic",
+      "phonetic": "/rəu'mæntik/",
+      "definition": "a.浪漫的,传奇式的;不切实际的,好幻想的"
+    },
+    {
+      "index": 152,
+      "word": "tobacco",
+      "phonetic": "/tə'bækəu/",
+      "definition": "n.烟草,烟叶"
+    },
+    {
+      "index": 153,
+      "word": "expire",
+      "phonetic": "/ik'spaiə/",
+      "definition": "v.期满,(期限)终止;呼气;断气,死亡"
+    },
+    {
+      "index": 154,
+      "word": "sharp",
+      "phonetic": "/ʃɑ:p/",
+      "definition": "a.锋利的;轮廓分明的;急转的ad.(指时刻)正"
+    },
+    {
+      "index": 155,
+      "word": "teenager",
+      "phonetic": "/'ti:nˌeidʒə/",
+      "definition": "n.十几岁的青少年"
+    },
+    {
+      "index": 156,
+      "word": "pessimistic",
+      "phonetic": "/ˌpesi'mistik/",
+      "definition": "a.悲观(主义)的"
+    },
+    {
+      "index": 157,
+      "word": "exception",
+      "phonetic": "/ik'sepʃən/",
+      "definition": "n.例外,除外;反对;异议"
+    },
+    {
+      "index": 158,
+      "word": "mostly",
+      "phonetic": "/'məustli/",
+      "definition": "ad.几乎全部地;主要地,大部分,基本上"
+    },
+    {
+      "index": 159,
+      "word": "along",
+      "phonetic": "/ə'lɔŋ/",
+      "definition": "ad.向前；和...一起，一同 prep.沿着，顺着"
+    },
+    {
+      "index": 160,
+      "word": "patriotic",
+      "phonetic": "/ˌpætri'ɔtik/",
+      "definition": "a.爱国的"
+    },
+    {
+      "index": 161,
+      "word": "dye",
+      "phonetic": "/dai/",
+      "definition": "n.染料 v.染,染色"
+    },
+    {
+      "index": 162,
+      "word": "reassure",
+      "phonetic": "/ˌri:ə'ʃuə/",
+      "definition": "v.使安心，使放心；使消除疑虑"
+    },
+    {
+      "index": 163,
+      "word": "verse",
+      "phonetic": "/və:s/",
+      "definition": "n.韵文,诗;诗节,诗句"
+    },
+    {
+      "index": 164,
+      "word": "normalization",
+      "phonetic": "/ˌnɔ:məlai'zeiʃən/",
+      "definition": "n.(normalisation)正常化,标准化"
+    },
+    {
+      "index": 165,
+      "word": "employ",
+      "phonetic": "/im'plɔi/",
+      "definition": "n./v.雇用;用,使用"
+    },
+    {
+      "index": 166,
+      "word": "significance",
+      "phonetic": "/sig'nifikəns/",
+      "definition": "n.意义,含义;重要性,重要的"
+    },
+    {
+      "index": 167,
+      "word": "absolute",
+      "phonetic": "/'æbsəlju:t/",
+      "definition": "a.绝对的，完全的；确实的，肯定的"
+    },
+    {
+      "index": 168,
+      "word": "finance",
+      "phonetic": "/fai'næns/",
+      "definition": "n.财政,金融 v.为…提供资金"
+    },
+    {
+      "index": 169,
+      "word": "shipment",
+      "phonetic": "/'ʃɪpmənt/",
+      "definition": "n.装船,装运;装载的货物,装货量"
+    },
+    {
+      "index": 170,
+      "word": "muscular",
+      "phonetic": "/'mʌskjulə/",
+      "definition": "a.肌肉的;肌肉发达的;强健的"
+    },
+    {
+      "index": 171,
+      "word": "damp",
+      "phonetic": "/dæmp/",
+      "definition": "n.潮湿 a.潮湿的 vt.使潮湿;使衰减"
+    },
+    {
+      "index": 172,
+      "word": "paperback",
+      "phonetic": "/'peipəbæk/",
+      "definition": "n.平装本，简装本"
+    },
+    {
+      "index": 173,
+      "word": "wreck",
+      "phonetic": "/rek/",
+      "definition": "n.失事船(或飞机)v.(船等)失事,遇难;破坏"
+    },
+    {
+      "index": 174,
+      "word": "drive",
+      "phonetic": "/draiv/",
+      "definition": "v.开(车);驱;驱动,把(钉,桩)打入 n.驾驶"
+    },
+    {
+      "index": 175,
+      "word": "scissors",
+      "phonetic": "/'sizəz/",
+      "definition": "n.剪子"
+    },
+    {
+      "index": 176,
+      "word": "alive",
+      "phonetic": "/ə'laiv/",
+      "definition": "a.活着的；存在的；活跃的；(to)敏感的"
+    },
+    {
+      "index": 177,
+      "word": "exterior",
+      "phonetic": "/ik'stiəriə/",
+      "definition": "a.外部的,外面的 n.外部"
+    },
+    {
+      "index": 178,
+      "word": "found",
+      "phonetic": "/faund/",
+      "definition": "vt.建立;创立;创办;使有根据;铸造;熔制"
+    },
+    {
+      "index": 179,
+      "word": "auxiliary",
+      "phonetic": "/ɔ:g'ziljəri/",
+      "definition": "a.辅助的，支援的 n.辅助者，辅助设备"
+    },
+    {
+      "index": 180,
+      "word": "lavatory",
+      "phonetic": "/'lævətəri/",
+      "definition": "n.厕所,盥洗室"
+    },
+    {
+      "index": 181,
+      "word": "constrain",
+      "phonetic": "/kən'strein/",
+      "definition": "vt.限制，约束；克制，抑制"
+    },
+    {
+      "index": 182,
+      "word": "clap",
+      "phonetic": "/klæp/",
+      "definition": "v.拍手,拍,轻拍 n.拍(手),掌声,霹雳声"
+    },
+    {
+      "index": 183,
+      "word": "lens",
+      "phonetic": "/lenz/",
+      "definition": "n.透镜,镜头"
+    },
+    {
+      "index": 184,
+      "word": "scrutiny",
+      "phonetic": "/'skru:tini/",
+      "definition": "n.周密的调查；仔细看；监视；选票复查"
+    },
+    {
+      "index": 185,
+      "word": "strike",
+      "phonetic": "/straik/",
+      "definition": "n./vi.罢工 vt.打，击；攻击；给…深刻印象"
+    },
+    {
+      "index": 186,
+      "word": "cereal",
+      "phonetic": "/'siəriəl/",
+      "definition": "n.加工而成的谷类食物；谷类植物，谷物"
+    },
+    {
+      "index": 187,
+      "word": "plain",
+      "phonetic": "/plein/",
+      "definition": "a.明白的;朴素的;坦率;平凡 n.平原,旷野"
+    },
+    {
+      "index": 188,
+      "word": "gratitude",
+      "phonetic": "/'grætɪtju:d/",
+      "definition": "n.感激,感谢"
+    },
+    {
+      "index": 189,
+      "word": "opera",
+      "phonetic": "/'ɔpərə/",
+      "definition": "n.歌剧"
+    },
+    {
+      "index": 190,
+      "word": "electricity",
+      "phonetic": "/ˌilek'trisəti/",
+      "definition": "n.电,电流;电学"
+    },
+    {
+      "index": 191,
+      "word": "potential",
+      "phonetic": "/pəu'tenʃəl/",
+      "definition": "a.潜在的,可能的 n.潜能,潜力"
+    },
+    {
+      "index": 192,
+      "word": "quilt",
+      "phonetic": "/kwilt/",
+      "definition": "n.被子"
+    },
+    {
+      "index": 193,
+      "word": "these",
+      "phonetic": "/ði:z/",
+      "definition": "pron.&a.[this的复数]这些；这些人(东西)"
+    },
+    {
+      "index": 194,
+      "word": "slack",
+      "phonetic": "/slæk/",
+      "definition": "a.懈怠的,松驰的;萧条的 n.淡季;(pl.)便裤"
+    },
+    {
+      "index": 195,
+      "word": "spectrum",
+      "phonetic": "/'spektrəm/",
+      "definition": "n.谱，光谱，频谱；范围，幅度，系列"
+    },
+    {
+      "index": 196,
+      "word": "serve",
+      "phonetic": "/sə:v/",
+      "definition": "v.服务,尽责;招待,侍候;符合,适用"
+    },
+    {
+      "index": 197,
+      "word": "instinct",
+      "phonetic": "/'instiŋkt/",
+      "definition": "n.本能,直觉,天性"
+    },
+    {
+      "index": 198,
+      "word": "unite",
+      "phonetic": "/ju:'nait/",
+      "definition": "vi.联合,团结;统一,合并vt.使联合"
+    },
+    {
+      "index": 199,
+      "word": "sufficient",
+      "phonetic": "/sə'fiʃənt/",
+      "definition": "a.(for)足够的,充分的(比enough拘谨、正式)"
+    },
+    {
+      "index": 200,
+      "word": "major",
+      "phonetic": "/'meidʒə/",
+      "definition": "a.主要的n.成年人,专业学生,主修课程v.主修"
+    }
+  ]
+}

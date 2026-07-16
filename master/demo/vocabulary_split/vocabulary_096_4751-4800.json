@@ -1,0 +1,307 @@
+{
+  "chunk": 96,
+  "range": "4751-4800",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 4751,
+      "word": "yard",
+      "phonetic": "/jɑ:d/",
+      "definition": "n.院子,场地;码"
+    },
+    {
+      "index": 4752,
+      "word": "handsome",
+      "phonetic": "/'hænsəm/",
+      "definition": "a.漂亮的,英俊的;慷慨的,数量可观的"
+    },
+    {
+      "index": 4753,
+      "word": "empirical",
+      "phonetic": "/ɪm'pɪrɪkl/",
+      "definition": "a.凭经验(或观察)的,经验主义的"
+    },
+    {
+      "index": 4754,
+      "word": "setting",
+      "phonetic": "/'setiŋ/",
+      "definition": "n.安置;落山;(固定东西的)柜架底座;环境"
+    },
+    {
+      "index": 4755,
+      "word": "confine",
+      "phonetic": "/kən'faɪn/",
+      "definition": "vt.限制；使不外出，禁闭n.[pl.]界限，范围"
+    },
+    {
+      "index": 4756,
+      "word": "stake",
+      "phonetic": "/steik/",
+      "definition": "n.桩,标桩;赌注,利害关系"
+    },
+    {
+      "index": 4757,
+      "word": "medieval",
+      "phonetic": "/ˌmedi'i:vəl/",
+      "definition": "a.中世纪的,中古(时代)的,老式的,原始的"
+    },
+    {
+      "index": 4758,
+      "word": "ham",
+      "phonetic": "/hæm/",
+      "definition": "n.火腿"
+    },
+    {
+      "index": 4759,
+      "word": "plug",
+      "phonetic": "/plʌg/",
+      "definition": "n.塞子,插头 v.堵,塞,插上,插栓"
+    },
+    {
+      "index": 4760,
+      "word": "compartment",
+      "phonetic": "/kəm'pɑ:tmənt/",
+      "definition": "n.卧车包房,(客车车厢内的)隔间;分隔的空间"
+    },
+    {
+      "index": 4761,
+      "word": "mud",
+      "phonetic": "/mʌd/",
+      "definition": "n.泥，泥浆 v.弄脏，使沾污泥"
+    },
+    {
+      "index": 4762,
+      "word": "lest",
+      "phonetic": "/lest/",
+      "definition": "conj.惟恐,免得"
+    },
+    {
+      "index": 4763,
+      "word": "household",
+      "phonetic": "/'haushəuld/",
+      "definition": "n.家庭，家人 a.家庭(务)的，家常的"
+    },
+    {
+      "index": 4764,
+      "word": "generator",
+      "phonetic": "/'dʒenəreitə/",
+      "definition": "n.发电机,发生器"
+    },
+    {
+      "index": 4765,
+      "word": "leaf",
+      "phonetic": "/li:f/",
+      "definition": "n.叶子;(书刊的)一页,一张;金属薄片"
+    },
+    {
+      "index": 4766,
+      "word": "bill",
+      "phonetic": "/bil/",
+      "definition": "n.账单;招贴,广告;(人员,职称等的)表;钞票"
+    },
+    {
+      "index": 4767,
+      "word": "installation",
+      "phonetic": "/ˌinstə'leiʃən/",
+      "definition": "n.安装,设置;装置,设备"
+    },
+    {
+      "index": 4768,
+      "word": "blood",
+      "phonetic": "/blʌd/",
+      "definition": "n.血液，血；血统，血亲；血气"
+    },
+    {
+      "index": 4769,
+      "word": "engineer",
+      "phonetic": "/ˌendʒi'niə/",
+      "definition": "n.工程师"
+    },
+    {
+      "index": 4770,
+      "word": "severe",
+      "phonetic": "/si'viə/",
+      "definition": "a.严厉的;剧烈的,严重的,严峻的,艰难的"
+    },
+    {
+      "index": 4771,
+      "word": "other",
+      "phonetic": "/'ʌðə/",
+      "definition": "a.另外的，其他的 n./pron.另一个人(或事)"
+    },
+    {
+      "index": 4772,
+      "word": "watch",
+      "phonetic": "/wɔtʃ/",
+      "definition": "v.观看;注视;看守;警戒 n.注视;手表;守护"
+    },
+    {
+      "index": 4773,
+      "word": "afford",
+      "phonetic": "/ə'fɔrd/",
+      "definition": "vt.担负得起(损失、费用、后果等)，买得起"
+    },
+    {
+      "index": 4774,
+      "word": "health",
+      "phonetic": "/helθ/",
+      "definition": "n.健康,健康状况;卫生"
+    },
+    {
+      "index": 4775,
+      "word": "ugly",
+      "phonetic": "/'ʌgli/",
+      "definition": "a.丑陋的,难看的;丑恶的,讨厌的"
+    },
+    {
+      "index": 4776,
+      "word": "consequently",
+      "phonetic": "/'kɔnsiˌkwəntli/",
+      "definition": "ad.结果，因此，所以"
+    },
+    {
+      "index": 4777,
+      "word": "presently",
+      "phonetic": "/'prezəntli/",
+      "definition": "ad.一会儿,不久;现在,目前"
+    },
+    {
+      "index": 4778,
+      "word": "brochure",
+      "phonetic": "/'brəuʃə(r)/",
+      "definition": "n.小册子"
+    },
+    {
+      "index": 4779,
+      "word": "guideline",
+      "phonetic": "/'gaidlain/",
+      "definition": "n.指导方针，指导原则，准则，标准"
+    },
+    {
+      "index": 4780,
+      "word": "cling",
+      "phonetic": "/kliŋ/",
+      "definition": "v.(to)粘住;依附;坚持"
+    },
+    {
+      "index": 4781,
+      "word": "starve",
+      "phonetic": "/stɑ:v/",
+      "definition": "v.(使)饿死,饿得慌,挨饿"
+    },
+    {
+      "index": 4782,
+      "word": "scope",
+      "phonetic": "/skəup/",
+      "definition": "n.(活动)范围;机会,余地"
+    },
+    {
+      "index": 4783,
+      "word": "steak",
+      "phonetic": "/steik/",
+      "definition": "n.牛排；大块肉(或鱼)片"
+    },
+    {
+      "index": 4784,
+      "word": "quit",
+      "phonetic": "/kwit/",
+      "definition": "v.离开,退出;停止,放弃,辞职"
+    },
+    {
+      "index": 4785,
+      "word": "ore",
+      "phonetic": "/ɔ:/",
+      "definition": "n.矿石,矿砂"
+    },
+    {
+      "index": 4786,
+      "word": "relief",
+      "phonetic": "/rɪ'li:f/",
+      "definition": "n.(痛苦等)减轻,解除;援救,救济"
+    },
+    {
+      "index": 4787,
+      "word": "campaign",
+      "phonetic": "/kæm'pein/",
+      "definition": "n.战役;运动"
+    },
+    {
+      "index": 4788,
+      "word": "transparent",
+      "phonetic": "/træns'pærənt/",
+      "definition": "a.透明的，透光的；易理解的；明显的"
+    },
+    {
+      "index": 4789,
+      "word": "mad",
+      "phonetic": "/mæd/",
+      "definition": "a.发疯的;狂热的,着迷的;恼火的,生气的"
+    },
+    {
+      "index": 4790,
+      "word": "wound",
+      "phonetic": "/waund/",
+      "definition": "n.创伤,伤口 v.伤,伤害"
+    },
+    {
+      "index": 4791,
+      "word": "analytic",
+      "phonetic": "/ˌænə'litik/",
+      "definition": "a.(analytical)分析的；分解的"
+    },
+    {
+      "index": 4792,
+      "word": "actress",
+      "phonetic": "/'æktris/",
+      "definition": "n.女演员"
+    },
+    {
+      "index": 4793,
+      "word": "figure",
+      "phonetic": "/'figə/",
+      "definition": "n.体形;轮廓;数字;图形v.描绘;计算;推测"
+    },
+    {
+      "index": 4794,
+      "word": "update",
+      "phonetic": "/ʌp'deitˌ 'ʌpdeit/",
+      "definition": "v.更新,使现代化"
+    },
+    {
+      "index": 4795,
+      "word": "chance",
+      "phonetic": "/tʃɑ:ns/",
+      "definition": "n.机会;可能性;偶然性,运气v.碰巧,偶然发生"
+    },
+    {
+      "index": 4796,
+      "word": "weld",
+      "phonetic": "/weld/",
+      "definition": "v.焊接 n.焊接,焊缝"
+    },
+    {
+      "index": 4797,
+      "word": "entry",
+      "phonetic": "/'entri/",
+      "definition": "n.进入,入口;通道;记载,条目"
+    },
+    {
+      "index": 4798,
+      "word": "skillful",
+      "phonetic": "/'skilful/",
+      "definition": "a.(skilful)(in,at)灵巧的,娴熟的"
+    },
+    {
+      "index": 4799,
+      "word": "it",
+      "phonetic": "/ɪt/",
+      "definition": "pron.它；[作无人称动词的主语]"
+    },
+    {
+      "index": 4800,
+      "word": "drill",
+      "phonetic": "/drɪl/",
+      "definition": "v.练习;操练;钻孔 n.操练;练习;钻孔(机)"
+    }
+  ]
+}

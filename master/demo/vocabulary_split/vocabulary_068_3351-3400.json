@@ -1,0 +1,307 @@
+{
+  "chunk": 68,
+  "range": "3351-3400",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 3351,
+      "word": "computer",
+      "phonetic": "/kəm'pju:tə/",
+      "definition": "n.计算机,电脑;计算者"
+    },
+    {
+      "index": 3352,
+      "word": "thereby",
+      "phonetic": "/ˌðεə'bai/",
+      "definition": "ad.因此,从而"
+    },
+    {
+      "index": 3353,
+      "word": "pigeon",
+      "phonetic": "/'pidʒin/",
+      "definition": "n.鸽"
+    },
+    {
+      "index": 3354,
+      "word": "cart",
+      "phonetic": "/kɑ:t/",
+      "definition": "n.(二轮货运)马车,手推车"
+    },
+    {
+      "index": 3355,
+      "word": "vast",
+      "phonetic": "/vɑ:st/",
+      "definition": "a.巨大的,辽阔的,大量的;巨额的"
+    },
+    {
+      "index": 3356,
+      "word": "democracy",
+      "phonetic": "/di'mɔkrəsi/",
+      "definition": "n.民主,民主制,民主国家"
+    },
+    {
+      "index": 3357,
+      "word": "already",
+      "phonetic": "/ɔ:l'redi/",
+      "definition": "ad.已，已经，早已"
+    },
+    {
+      "index": 3358,
+      "word": "medal",
+      "phonetic": "/'medəl/",
+      "definition": "n.奖章,勋章,纪念章"
+    },
+    {
+      "index": 3359,
+      "word": "limitation",
+      "phonetic": "/ˌlɪmɪ'teɪʃn/",
+      "definition": "n.限制,局限性"
+    },
+    {
+      "index": 3360,
+      "word": "thermal",
+      "phonetic": "/'θɜ:ml/",
+      "definition": "a.热的,热力的；(小规模的)上升气流"
+    },
+    {
+      "index": 3361,
+      "word": "chaos",
+      "phonetic": "/'keɪɒs/",
+      "definition": "n.混乱,紊乱"
+    },
+    {
+      "index": 3362,
+      "word": "mile",
+      "phonetic": "/mail/",
+      "definition": "n.英里，哩，海里"
+    },
+    {
+      "index": 3363,
+      "word": "honest",
+      "phonetic": "/'ɔnist/",
+      "definition": "a.诚实的,正直的,老实的"
+    },
+    {
+      "index": 3364,
+      "word": "flour",
+      "phonetic": "/'flauə/",
+      "definition": "n.面粉"
+    },
+    {
+      "index": 3365,
+      "word": "barrel",
+      "phonetic": "/'bærəl/",
+      "definition": "n.桶;枪管,炮管"
+    },
+    {
+      "index": 3366,
+      "word": "old",
+      "phonetic": "/əuld/",
+      "definition": "a.年老的；…岁的；长时间的，老的；过去的"
+    },
+    {
+      "index": 3367,
+      "word": "subject",
+      "phonetic": "/'sʌbdʒikt/",
+      "definition": "n.主题;学科 a.隶属的;易遭..的 v.使隶属"
+    },
+    {
+      "index": 3368,
+      "word": "swamp",
+      "phonetic": "/swɔmp/",
+      "definition": "n.沼泽；湿地 vt.浸没；使…应接不暇"
+    },
+    {
+      "index": 3369,
+      "word": "road",
+      "phonetic": "/rəud/",
+      "definition": "n.路,道路,途径"
+    },
+    {
+      "index": 3370,
+      "word": "concede",
+      "phonetic": "/kən'si:d/",
+      "definition": "vt.承认；容许；(比赛结束前)认输；退让"
+    },
+    {
+      "index": 3371,
+      "word": "lightning",
+      "phonetic": "/'laitniŋ/",
+      "definition": "n.闪电 a.闪电般的,快速的"
+    },
+    {
+      "index": 3372,
+      "word": "operator",
+      "phonetic": "/'ɒpəreɪtə(r)/",
+      "definition": "n.操作人员,(电话)接线员"
+    },
+    {
+      "index": 3373,
+      "word": "consist",
+      "phonetic": "/kən'sɪst/",
+      "definition": "v.(in)在于,存在于;(of)由…组成,由…构成"
+    },
+    {
+      "index": 3374,
+      "word": "edge",
+      "phonetic": "/edʒ/",
+      "definition": "n.边,棱;刀口,刃 v.侧身移动,挤进"
+    },
+    {
+      "index": 3375,
+      "word": "lame",
+      "phonetic": "/leɪm/",
+      "definition": "a.跛的,(辩解、论据等)无说服力的"
+    },
+    {
+      "index": 3376,
+      "word": "decisive",
+      "phonetic": "/di'saisiv/",
+      "definition": "a.决定性的"
+    },
+    {
+      "index": 3377,
+      "word": "altogether",
+      "phonetic": "/ˌɔ:ltə'geðə/",
+      "definition": "ad.完全，总之，全部地；总共；总而言之"
+    },
+    {
+      "index": 3378,
+      "word": "rubbish",
+      "phonetic": "/'rʌbiʃ/",
+      "definition": "n.垃圾,废物;废话"
+    },
+    {
+      "index": 3379,
+      "word": "exact",
+      "phonetic": "/ɪg'zækt/",
+      "definition": "a.确切的,正确的,精确的"
+    },
+    {
+      "index": 3380,
+      "word": "way",
+      "phonetic": "/wei/",
+      "definition": "n.道路，路程；方法/式，手段；习惯；状态"
+    },
+    {
+      "index": 3381,
+      "word": "upward",
+      "phonetic": "/'ʌpwəd/",
+      "definition": "a.向上的,上升的 ad.向上"
+    },
+    {
+      "index": 3382,
+      "word": "loosen",
+      "phonetic": "/'lu:sən/",
+      "definition": "v.解开,放松"
+    },
+    {
+      "index": 3383,
+      "word": "doom",
+      "phonetic": "/du:m/",
+      "definition": "n.厄运,劫数 v.注定,命定"
+    },
+    {
+      "index": 3384,
+      "word": "majesty",
+      "phonetic": "/'mædʒisti/",
+      "definition": "n.雄伟,壮丽,庄严,威严;最高权威,王权"
+    },
+    {
+      "index": 3385,
+      "word": "visual",
+      "phonetic": "/'vizjuəl/",
+      "definition": "a.看的,看得见的;视觉的"
+    },
+    {
+      "index": 3386,
+      "word": "shrewd",
+      "phonetic": "/ʃru:d/",
+      "definition": "a.机灵的,敏锐的;精明的"
+    },
+    {
+      "index": 3387,
+      "word": "humble",
+      "phonetic": "/'hʌmbl/",
+      "definition": "a.谦卑的,恭顺的;地位低下的 v.降低,贬低"
+    },
+    {
+      "index": 3388,
+      "word": "dumb",
+      "phonetic": "/dʌm/",
+      "definition": "a.哑的,无言的"
+    },
+    {
+      "index": 3389,
+      "word": "game",
+      "phonetic": "/geim/",
+      "definition": "n.游戏，娱乐；比赛；(pl.)运动会 vi.赌博"
+    },
+    {
+      "index": 3390,
+      "word": "ascertain",
+      "phonetic": "/ˌæsə'tein/",
+      "definition": "vt.确定，查明，弄清"
+    },
+    {
+      "index": 3391,
+      "word": "incident",
+      "phonetic": "/'insidənt/",
+      "definition": "n.事件,事变"
+    },
+    {
+      "index": 3392,
+      "word": "parliament",
+      "phonetic": "/'pɑ:ləmənt/",
+      "definition": "n.国会,议会"
+    },
+    {
+      "index": 3393,
+      "word": "latent",
+      "phonetic": "/'leitənt/",
+      "definition": "a.潜在的,潜伏的,不易察觉的"
+    },
+    {
+      "index": 3394,
+      "word": "stress",
+      "phonetic": "/stres/",
+      "definition": "n.压力；重要性；应力；重音vt.强调，重读"
+    },
+    {
+      "index": 3395,
+      "word": "actual",
+      "phonetic": "/'æktʃuəl/",
+      "definition": "a.实际的；现实的，真实的，目前的"
+    },
+    {
+      "index": 3396,
+      "word": "mat",
+      "phonetic": "/mæt/",
+      "definition": "n.席子,垫子"
+    },
+    {
+      "index": 3397,
+      "word": "necessitate",
+      "phonetic": "/ni'sesiˌteit/",
+      "definition": "v.使成为必要,需要"
+    },
+    {
+      "index": 3398,
+      "word": "disease",
+      "phonetic": "/di'zi:z/",
+      "definition": "n.疾病"
+    },
+    {
+      "index": 3399,
+      "word": "goal",
+      "phonetic": "/gəul/",
+      "definition": "n.目的,目标;守门员,球门;进球"
+    },
+    {
+      "index": 3400,
+      "word": "equal",
+      "phonetic": "/'i:kwəl/",
+      "definition": "a.相等的;胜任的n.相等的事务;对手v.等于"
+    }
+  ]
+}

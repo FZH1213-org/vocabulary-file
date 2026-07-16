@@ -1,0 +1,307 @@
+{
+  "chunk": 19,
+  "range": "901-950",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 901,
+      "word": "living-room",
+      "phonetic": "/'lɪvɪŋ ru:m/",
+      "definition": "n.起居室"
+    },
+    {
+      "index": 902,
+      "word": "court",
+      "phonetic": "/kɔ:t/",
+      "definition": "n.法院,法庭;宫廷,朝廷;院子;球场"
+    },
+    {
+      "index": 903,
+      "word": "capable",
+      "phonetic": "/'keipəbl/",
+      "definition": "a.有本领的,有能力的;(of)可以…的,能…的"
+    },
+    {
+      "index": 904,
+      "word": "adolescent",
+      "phonetic": "/ˌædəu'lesnt/",
+      "definition": "n.青少年  a.青春期的，青少年的"
+    },
+    {
+      "index": 905,
+      "word": "January",
+      "phonetic": "/'dʒænjuəri/",
+      "definition": "n.一月"
+    },
+    {
+      "index": 906,
+      "word": "journey",
+      "phonetic": "/'dʒə:ni/",
+      "definition": "n.旅行,旅程 v.旅行"
+    },
+    {
+      "index": 907,
+      "word": "destructive",
+      "phonetic": "/di'strʌktiv/",
+      "definition": "a.破坏性"
+    },
+    {
+      "index": 908,
+      "word": "preferable",
+      "phonetic": "/'prefərəbl/",
+      "definition": "a.(to)更可取的,更好的"
+    },
+    {
+      "index": 909,
+      "word": "influence",
+      "phonetic": "/'influəns/",
+      "definition": "n.(on)影响,感化;势力,权势 v.影响,感化"
+    },
+    {
+      "index": 910,
+      "word": "utmost",
+      "phonetic": "/'ʌtməust/",
+      "definition": "a.最远的;极度的 n.极限,极度,最大可能"
+    },
+    {
+      "index": 911,
+      "word": "origin",
+      "phonetic": "/'ɔridʒin/",
+      "definition": "n.起源,由来;出身,来历"
+    },
+    {
+      "index": 912,
+      "word": "group",
+      "phonetic": "/gru:p/",
+      "definition": "n.群,组 v.分组"
+    },
+    {
+      "index": 913,
+      "word": "average",
+      "phonetic": "/'ævəridʒ/",
+      "definition": "n.平均,平均数 a.平均的；普通的 v.平均"
+    },
+    {
+      "index": 914,
+      "word": "worship",
+      "phonetic": "/'wə:ʃip/",
+      "definition": "n.礼拜,礼拜仪式;崇拜 v.崇拜,敬仰;做礼拜"
+    },
+    {
+      "index": 915,
+      "word": "lick",
+      "phonetic": "/lik/",
+      "definition": "vt.舔；(火焰或浪)掠过；打败 n.舔；少量"
+    },
+    {
+      "index": 916,
+      "word": "profitable",
+      "phonetic": "/'prɔfitəbl/",
+      "definition": "a.有利可图的,有益的"
+    },
+    {
+      "index": 917,
+      "word": "recruit",
+      "phonetic": "/ri'kru:t/",
+      "definition": "v.征募(新兵)，吸收；补充 n.新成员，新兵"
+    },
+    {
+      "index": 918,
+      "word": "turnover",
+      "phonetic": "/'tə:nˌəuvə/",
+      "definition": "n.翻倒(物);人员调整;(资金等)周转;营业额"
+    },
+    {
+      "index": 919,
+      "word": "foresee",
+      "phonetic": "/fɔ:'si:/",
+      "definition": "v.预见,预知"
+    },
+    {
+      "index": 920,
+      "word": "ninety",
+      "phonetic": "/'nainti/",
+      "definition": "num.九十，九十个"
+    },
+    {
+      "index": 921,
+      "word": "declaration",
+      "phonetic": "/ˌdeklə'reiʃən/",
+      "definition": "n.宣言,宣布,声明"
+    },
+    {
+      "index": 922,
+      "word": "crack",
+      "phonetic": "/kræk/",
+      "definition": "n.裂纹,缝隙;破裂声 v.(使)破裂,砸开"
+    },
+    {
+      "index": 923,
+      "word": "common",
+      "phonetic": "/'kɔmən/",
+      "definition": "a.普通的；共同的；一般的；n.公有地"
+    },
+    {
+      "index": 924,
+      "word": "tomb",
+      "phonetic": "/tu:m/",
+      "definition": "n.坟,冢"
+    },
+    {
+      "index": 925,
+      "word": "overlap",
+      "phonetic": "/ˌəuvə'læp/",
+      "definition": "v.重叠,与…交叠 n.重叠"
+    },
+    {
+      "index": 926,
+      "word": "crime",
+      "phonetic": "/kraim/",
+      "definition": "n.罪行,犯罪"
+    },
+    {
+      "index": 927,
+      "word": "develop",
+      "phonetic": "/di'veləp/",
+      "definition": "v.发展,开发,研制;显现,显影;发育,生长"
+    },
+    {
+      "index": 928,
+      "word": "courage",
+      "phonetic": "/'kʌridʒ/",
+      "definition": "n.勇气,胆量"
+    },
+    {
+      "index": 929,
+      "word": "goods",
+      "phonetic": "/gudz/",
+      "definition": "n.(pl.)货物，商品"
+    },
+    {
+      "index": 930,
+      "word": "sofa",
+      "phonetic": "/'səufə/",
+      "definition": "n.长沙发，沙发"
+    },
+    {
+      "index": 931,
+      "word": "salute",
+      "phonetic": "/sə'lju:t/",
+      "definition": "v./n.敬礼,鸣礼炮;迎接,欢迎"
+    },
+    {
+      "index": 932,
+      "word": "scientist",
+      "phonetic": "/'saiəntist/",
+      "definition": "n.科学家"
+    },
+    {
+      "index": 933,
+      "word": "western",
+      "phonetic": "/'westən/",
+      "definition": "a.西方的,西部的"
+    },
+    {
+      "index": 934,
+      "word": "deprive",
+      "phonetic": "/di'praiv/",
+      "definition": "vt.剥夺,夺去,使丧失"
+    },
+    {
+      "index": 935,
+      "word": "refugee",
+      "phonetic": "/ˌrefju'dʒi:/",
+      "definition": "n.(政治上的)避难者，难民"
+    },
+    {
+      "index": 936,
+      "word": "female",
+      "phonetic": "/'fi:meil/",
+      "definition": "n.女性;女人;雌兽 a.女性的;雌的;柔弱的"
+    },
+    {
+      "index": 937,
+      "word": "southeast",
+      "phonetic": "/ˌsauθ'i:st/",
+      "definition": "n./a.东南(的),东南部(的)"
+    },
+    {
+      "index": 938,
+      "word": "export",
+      "phonetic": "/ik'spɔ:t/",
+      "definition": "v./n.输出,出口 n.出口商品"
+    },
+    {
+      "index": 939,
+      "word": "preposition",
+      "phonetic": "/ˌprepə'ziʃən/",
+      "definition": "n.介词"
+    },
+    {
+      "index": 940,
+      "word": "penny",
+      "phonetic": "/'peni/",
+      "definition": "n.便士,美分"
+    },
+    {
+      "index": 941,
+      "word": "infant",
+      "phonetic": "/'infənt/",
+      "definition": "n.婴儿,幼儿"
+    },
+    {
+      "index": 942,
+      "word": "noisy",
+      "phonetic": "/'nɔɪzi/",
+      "definition": "a.吵闹的,喧闹的"
+    },
+    {
+      "index": 943,
+      "word": "tradition",
+      "phonetic": "/trə'diʃən/",
+      "definition": "n.传统； 惯例； 传说"
+    },
+    {
+      "index": 944,
+      "word": "institute",
+      "phonetic": "/'institjut/",
+      "definition": "n.学会,研究所;学院 v.设立,设置,制定"
+    },
+    {
+      "index": 945,
+      "word": "hamburger",
+      "phonetic": "/'hæmbɜ:gə(r)/",
+      "definition": "n.汉堡包,牛肉饼"
+    },
+    {
+      "index": 946,
+      "word": "pneumonia",
+      "phonetic": "/nju:'məunjə/",
+      "definition": "n.肺炎"
+    },
+    {
+      "index": 947,
+      "word": "solution",
+      "phonetic": "/sə'lju:ʃən/",
+      "definition": "n.解答,解决办法;溶解,溶液"
+    },
+    {
+      "index": 948,
+      "word": "portable",
+      "phonetic": "/'pɔ:təbl/",
+      "definition": "a.轻便的,手提(式)的,可移动的"
+    },
+    {
+      "index": 949,
+      "word": "pact",
+      "phonetic": "/pækt/",
+      "definition": "n.合同,条约,公约,协定"
+    },
+    {
+      "index": 950,
+      "word": "delay",
+      "phonetic": "/di'lei/",
+      "definition": "v./n.耽搁,延迟"
+    }
+  ]
+}

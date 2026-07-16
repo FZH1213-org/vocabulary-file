@@ -1,0 +1,307 @@
+{
+  "chunk": 93,
+  "range": "4601-4650",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 4601,
+      "word": "leisure",
+      "phonetic": "/'lɛʒə/",
+      "definition": "n.空闲,闲暇;悠闲,安逸"
+    },
+    {
+      "index": 4602,
+      "word": "county",
+      "phonetic": "/'kaunti/",
+      "definition": "n.(英国)郡,(美国)县"
+    },
+    {
+      "index": 4603,
+      "word": "humor",
+      "phonetic": "/'hju:mə/",
+      "definition": "n.(humour)幽默,诙谐"
+    },
+    {
+      "index": 4604,
+      "word": "rainbow",
+      "phonetic": "/'reinbəu/",
+      "definition": "n.虹"
+    },
+    {
+      "index": 4605,
+      "word": "bundle",
+      "phonetic": "/'bʌndl/",
+      "definition": "n.捆,包,束"
+    },
+    {
+      "index": 4606,
+      "word": "lay",
+      "phonetic": "/leɪ/",
+      "definition": "v.放，搁；下(蛋)；铺设，敷设；设置，布置"
+    },
+    {
+      "index": 4607,
+      "word": "continent",
+      "phonetic": "/'kɔntinənt/",
+      "definition": "n.大陆,洲"
+    },
+    {
+      "index": 4608,
+      "word": "era",
+      "phonetic": "/'iərə/",
+      "definition": "n.时代,年代,阶段,纪元"
+    },
+    {
+      "index": 4609,
+      "word": "rust",
+      "phonetic": "/rʌst/",
+      "definition": "n.铁锈 v.(使)生锈"
+    },
+    {
+      "index": 4610,
+      "word": "bother",
+      "phonetic": "/'bɔðə/",
+      "definition": "vt.打扰，麻烦 vi.担心，烦恼 n.烦恼，焦急"
+    },
+    {
+      "index": 4611,
+      "word": "memory",
+      "phonetic": "/'meməri/",
+      "definition": "n.记忆,记忆力;回忆;存储(器)"
+    },
+    {
+      "index": 4612,
+      "word": "preclude",
+      "phonetic": "/pri'klu:d/",
+      "definition": "v.排除,阻止,妨碍"
+    },
+    {
+      "index": 4613,
+      "word": "minus",
+      "phonetic": "/'mainəs/",
+      "definition": "a.负的,减的 prep.减去 n.负号,减号"
+    },
+    {
+      "index": 4614,
+      "word": "facilitate",
+      "phonetic": "/fə'siliteit/",
+      "definition": "v.使变得(更)容易;使便利;推动;帮助;处进"
+    },
+    {
+      "index": 4615,
+      "word": "elephant",
+      "phonetic": "/'elifənt/",
+      "definition": "n.(动物)象"
+    },
+    {
+      "index": 4616,
+      "word": "office",
+      "phonetic": "/'ɔfis/",
+      "definition": "n.办公室,办事处;职务,公职;部,局,处"
+    },
+    {
+      "index": 4617,
+      "word": "marine",
+      "phonetic": "/mə'ri:n/",
+      "definition": "a.海的,海生的;船舶的,航海的"
+    },
+    {
+      "index": 4618,
+      "word": "summarize",
+      "phonetic": "/'sʌməraiz/",
+      "definition": "v.(summarise)概括,总结"
+    },
+    {
+      "index": 4619,
+      "word": "monopoly",
+      "phonetic": "/mə'nɔpəli/",
+      "definition": "n.垄断,专卖,专利权,专利事业"
+    },
+    {
+      "index": 4620,
+      "word": "burglar",
+      "phonetic": "/'bə:glə/",
+      "definition": "n.(入室行窃的)盗贼"
+    },
+    {
+      "index": 4621,
+      "word": "compute",
+      "phonetic": "/kəm'pju:t/",
+      "definition": "v./n.计算,估计"
+    },
+    {
+      "index": 4622,
+      "word": "denounce",
+      "phonetic": "/di'nauns/",
+      "definition": "vt.公开指责,公然抨击;谴责"
+    },
+    {
+      "index": 4623,
+      "word": "peel",
+      "phonetic": "/pi:l/",
+      "definition": "v.削皮,剥皮 n.果皮"
+    },
+    {
+      "index": 4624,
+      "word": "probable",
+      "phonetic": "/'prɔbəbl/",
+      "definition": "a.很可能的,大概的;有希望的,可能的"
+    },
+    {
+      "index": 4625,
+      "word": "oriental",
+      "phonetic": "/ˌɔ:ri'entəl/",
+      "definition": "a.东方的,东方诸国的 n.东方人"
+    },
+    {
+      "index": 4626,
+      "word": "anyone",
+      "phonetic": "/'eniwʌn/",
+      "definition": "pron.(用于疑问句，否定式)任何人"
+    },
+    {
+      "index": 4627,
+      "word": "omit",
+      "phonetic": "/əu'mit/",
+      "definition": "v.省略,删去;遗漏,忽略"
+    },
+    {
+      "index": 4628,
+      "word": "incredible",
+      "phonetic": "/in'kredəbl/",
+      "definition": "a.不可相信的,惊人的,不可思议的"
+    },
+    {
+      "index": 4629,
+      "word": "self",
+      "phonetic": "/self/",
+      "definition": "n.自我，自己(pl.selves)"
+    },
+    {
+      "index": 4630,
+      "word": "maybe",
+      "phonetic": "/'meibi/",
+      "definition": "adv.可能；大概；也许"
+    },
+    {
+      "index": 4631,
+      "word": "invert",
+      "phonetic": "/in'və:t/",
+      "definition": "v.倒置,倒转,颠倒"
+    },
+    {
+      "index": 4632,
+      "word": "tolerance",
+      "phonetic": "/'tɒlərəns/",
+      "definition": "n.宽容；容忍,忍受；耐药力；公差"
+    },
+    {
+      "index": 4633,
+      "word": "weep",
+      "phonetic": "/wi:p/",
+      "definition": "v.哭泣,流泪;滴下 n.哭泣"
+    },
+    {
+      "index": 4634,
+      "word": "harvest",
+      "phonetic": "/'hɑ:vist/",
+      "definition": "n.收获,收成;成果,后果 v.收获,收割"
+    },
+    {
+      "index": 4635,
+      "word": "scandal",
+      "phonetic": "/'skændəl/",
+      "definition": "n.丑闻,诽谤,耻辱,流言蜚语,反感,公愤"
+    },
+    {
+      "index": 4636,
+      "word": "disappoint",
+      "phonetic": "/ˌdisə'pɔint/",
+      "definition": "vt.失望；(希望等)破灭，挫败(计划等)"
+    },
+    {
+      "index": 4637,
+      "word": "prosper",
+      "phonetic": "/'prɔspə/",
+      "definition": "v.成功,兴隆,昌盛,使成功,使昌隆,繁荣"
+    },
+    {
+      "index": 4638,
+      "word": "occupy",
+      "phonetic": "/'ɔkjupai/",
+      "definition": "v.占,占用;占据,占领;使忙碌,使从事"
+    },
+    {
+      "index": 4639,
+      "word": "diagram",
+      "phonetic": "/'daiəgræm/",
+      "definition": "n.图表;图解"
+    },
+    {
+      "index": 4640,
+      "word": "ecology",
+      "phonetic": "/i:'kɔlədʒi/",
+      "definition": "n.生态学"
+    },
+    {
+      "index": 4641,
+      "word": "anxious",
+      "phonetic": "/'ænkʃəs/",
+      "definition": "a.焦虑的，担心的；急于(得到的)，渴望的"
+    },
+    {
+      "index": 4642,
+      "word": "ten",
+      "phonetic": "/ten/",
+      "definition": "num.十 pron./a.十(个，只...)"
+    },
+    {
+      "index": 4643,
+      "word": "gift",
+      "phonetic": "/gift/",
+      "definition": "n.礼品,赠品;天赋,才能"
+    },
+    {
+      "index": 4644,
+      "word": "conspiracy",
+      "phonetic": "/kən'spirəsi/",
+      "definition": "n.阴谋，密谋，共谋"
+    },
+    {
+      "index": 4645,
+      "word": "jacket",
+      "phonetic": "/'dʒækɪt/",
+      "definition": "n.短上衣,茄克衫"
+    },
+    {
+      "index": 4646,
+      "word": "porch",
+      "phonetic": "/pɔ:tʃ/",
+      "definition": "n.门廊,入口处"
+    },
+    {
+      "index": 4647,
+      "word": "silk",
+      "phonetic": "/silk/",
+      "definition": "n.丝,绸"
+    },
+    {
+      "index": 4648,
+      "word": "safeguard",
+      "phonetic": "/'seifgɑ:d/",
+      "definition": "v.维护,保护,捍卫 n.安全装置,安全措施"
+    },
+    {
+      "index": 4649,
+      "word": "stage",
+      "phonetic": "/steidʒ/",
+      "definition": "n.舞台,戏剧;阶段,时期"
+    },
+    {
+      "index": 4650,
+      "word": "concise",
+      "phonetic": "/kən'sais/",
+      "definition": "a.简明的,简洁的"
+    }
+  ]
+}

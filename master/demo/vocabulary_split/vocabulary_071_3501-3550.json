@@ -1,0 +1,307 @@
+{
+  "chunk": 71,
+  "range": "3501-3550",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 3501,
+      "word": "permeate",
+      "phonetic": "/'pə:mieit/",
+      "definition": "v.弥漫，遍布，散布；渗入，渗透"
+    },
+    {
+      "index": 3502,
+      "word": "efficiency",
+      "phonetic": "/i'fiʃənsi/",
+      "definition": "n.效率;功效"
+    },
+    {
+      "index": 3503,
+      "word": "waken",
+      "phonetic": "/'weikən/",
+      "definition": "v.醒,弄醒,唤醒"
+    },
+    {
+      "index": 3504,
+      "word": "receive",
+      "phonetic": "/ri'si:v/",
+      "definition": "v.收到,接到;遭受,受到;接待,接见"
+    },
+    {
+      "index": 3505,
+      "word": "deteriorate",
+      "phonetic": "/di'tiəriəreit/",
+      "definition": "v.(使)恶化,(使)变坏"
+    },
+    {
+      "index": 3506,
+      "word": "butter",
+      "phonetic": "/'bʌtə/",
+      "definition": "n.黄油,奶油 v.涂黄油于…上"
+    },
+    {
+      "index": 3507,
+      "word": "exploit",
+      "phonetic": "/'eksplɔit/",
+      "definition": "v.开拓;开发;剥削 n.功绩[勋];业绩"
+    },
+    {
+      "index": 3508,
+      "word": "initiative",
+      "phonetic": "/ɪ'nɪʃətɪv/",
+      "definition": "a.创始的,起始的 n.第一步,创始,主动精神"
+    },
+    {
+      "index": 3509,
+      "word": "warrant",
+      "phonetic": "/'wɔrənt/",
+      "definition": "n.正当理由;许可证,委任状 v.保证,担保"
+    },
+    {
+      "index": 3510,
+      "word": "facility",
+      "phonetic": "/fə'sɪləti/",
+      "definition": "n.灵巧,熟练;(pl.)设备,设施,便利条件"
+    },
+    {
+      "index": 3511,
+      "word": "brandy",
+      "phonetic": "/'brændi/",
+      "definition": "n.白兰地酒"
+    },
+    {
+      "index": 3512,
+      "word": "client",
+      "phonetic": "/'klaiənt/",
+      "definition": "n.律师等的当事人，委托人；商店的顾客"
+    },
+    {
+      "index": 3513,
+      "word": "coach",
+      "phonetic": "/kəutʃ/",
+      "definition": "n.长途公共汽车；教练 vt.训练，指导，培训"
+    },
+    {
+      "index": 3514,
+      "word": "relate",
+      "phonetic": "/ri'leit/",
+      "definition": "v.叙述,讲述;使互相关联"
+    },
+    {
+      "index": 3515,
+      "word": "damn",
+      "phonetic": "/dæm/",
+      "definition": "int.该死 vt.遣责；使失败 a.十足的 ad.极"
+    },
+    {
+      "index": 3516,
+      "word": "diary",
+      "phonetic": "/'daiəri/",
+      "definition": "n.日记,日记簿"
+    },
+    {
+      "index": 3517,
+      "word": "extension",
+      "phonetic": "/ik'stenʃən/",
+      "definition": "n.延长;扩大;范围;大小;尺寸;电话分机"
+    },
+    {
+      "index": 3518,
+      "word": "yet",
+      "phonetic": "/jet/",
+      "definition": "ad.还，尚，仍然；已经 conj.然而 ad.甚至"
+    },
+    {
+      "index": 3519,
+      "word": "carpenter",
+      "phonetic": "/'kɑ:pəntə/",
+      "definition": "n.木工,木匠"
+    },
+    {
+      "index": 3520,
+      "word": "democratic",
+      "phonetic": "/ˌdemə'krætik/",
+      "definition": "a.民主的"
+    },
+    {
+      "index": 3521,
+      "word": "oxide",
+      "phonetic": "/'ɔksaid/",
+      "definition": "n.[化]氧化物"
+    },
+    {
+      "index": 3522,
+      "word": "premier",
+      "phonetic": "/'premjə/",
+      "definition": "n.首相,总理"
+    },
+    {
+      "index": 3523,
+      "word": "wonderful",
+      "phonetic": "/'wʌndəfl/",
+      "definition": "a.惊人的,奇妙的;极好的"
+    },
+    {
+      "index": 3524,
+      "word": "insurance",
+      "phonetic": "/in'ʃuərəns/",
+      "definition": "n.保险,保险费,保险业"
+    },
+    {
+      "index": 3525,
+      "word": "pedal",
+      "phonetic": "/'pedl/",
+      "definition": "n.踏板 v.踩踏板,骑自行车"
+    },
+    {
+      "index": 3526,
+      "word": "scent",
+      "phonetic": "/sent/",
+      "definition": "n.气味,香味,香水,线索,嗅觉 v.嗅,发觉"
+    },
+    {
+      "index": 3527,
+      "word": "correspond",
+      "phonetic": "/ˌkɔ:ri'spɔnd/",
+      "definition": "v.通信,(with)符合,一致;(to)相当于,对应"
+    },
+    {
+      "index": 3528,
+      "word": "assemble",
+      "phonetic": "/ə'sembl/",
+      "definition": "vt.集合，召集；装配；收集 vi.集合，聚集"
+    },
+    {
+      "index": 3529,
+      "word": "so-called",
+      "phonetic": "/'səu'kɔ:ld/",
+      "definition": "a.(贬)所谓的，号称的"
+    },
+    {
+      "index": 3530,
+      "word": "reject",
+      "phonetic": "/ri'dʒekt/",
+      "definition": "v.拒绝,抵制,丢弃,排斥,退掉 n.落选者"
+    },
+    {
+      "index": 3531,
+      "word": "observe",
+      "phonetic": "/əb'zɜ:v/",
+      "definition": "v.观察,观测,注意到,监视,遵守,评述,说"
+    },
+    {
+      "index": 3532,
+      "word": "bull",
+      "phonetic": "/bul/",
+      "definition": "n.公牛"
+    },
+    {
+      "index": 3533,
+      "word": "brisk",
+      "phonetic": "/brisk/",
+      "definition": "a.轻快的;生气勃勃的;兴隆的"
+    },
+    {
+      "index": 3534,
+      "word": "beloved",
+      "phonetic": "/bi'lʌvid/",
+      "definition": "a./n.受爱戴的,敬爱的;爱人,被心爱的人"
+    },
+    {
+      "index": 3535,
+      "word": "professional",
+      "phonetic": "/prə'feʃənəl/",
+      "definition": "a.职业的,专门的 n.自由职业者,专业人员"
+    },
+    {
+      "index": 3536,
+      "word": "pace",
+      "phonetic": "/peɪs /",
+      "definition": "n.步,步伐,步调,速度 v.踱步,用步测"
+    },
+    {
+      "index": 3537,
+      "word": "invaluable",
+      "phonetic": "/in'væljuəbl/",
+      "definition": "a.非常宝贵的,无价的"
+    },
+    {
+      "index": 3538,
+      "word": "pail",
+      "phonetic": "/peil/",
+      "definition": "n.桶, 提桶; 一桶的量"
+    },
+    {
+      "index": 3539,
+      "word": "kindness",
+      "phonetic": "/'kaindnis/",
+      "definition": "n.仁慈,亲切;好意;友好行为"
+    },
+    {
+      "index": 3540,
+      "word": "establish",
+      "phonetic": "/ɪ'stæblɪʃ/",
+      "definition": "v.建立,设立;安置,使定居"
+    },
+    {
+      "index": 3541,
+      "word": "downtown",
+      "phonetic": "/'daun'taun/",
+      "definition": "ad.在城市的商业区 n./a.城市商业区(的)"
+    },
+    {
+      "index": 3542,
+      "word": "part",
+      "phonetic": "/pɑ:t/",
+      "definition": "n.部分,角色,一方,零件,地区,部,篇v.使分开"
+    },
+    {
+      "index": 3543,
+      "word": "china",
+      "phonetic": "/'tʃaɪnə/",
+      "definition": "n.瓷器"
+    },
+    {
+      "index": 3544,
+      "word": "sun",
+      "phonetic": "/sʌn/",
+      "definition": "n.太阳；恒星；美国Sun公司"
+    },
+    {
+      "index": 3545,
+      "word": "enclose",
+      "phonetic": "/in'kləuz/",
+      "definition": "v.围住,圈起,封入"
+    },
+    {
+      "index": 3546,
+      "word": "ignite",
+      "phonetic": "/ig'nait/",
+      "definition": "v.点火,引燃"
+    },
+    {
+      "index": 3547,
+      "word": "absent",
+      "phonetic": "/'æbsənt/",
+      "definition": "a.缺席的；缺乏的,不存在的;心不在焉的"
+    },
+    {
+      "index": 3548,
+      "word": "stone",
+      "phonetic": "/stəun/",
+      "definition": "n.石，石头；岩石，矿石；(水果的)核、子"
+    },
+    {
+      "index": 3549,
+      "word": "hard",
+      "phonetic": "/hɑ:d/",
+      "definition": "a.坚硬的；结实的；困难的；难忍的；严厉的"
+    },
+    {
+      "index": 3550,
+      "word": "anniversary",
+      "phonetic": "/ˌæni'və:səri/",
+      "definition": "n.周年，周年纪念日"
+    }
+  ]
+}

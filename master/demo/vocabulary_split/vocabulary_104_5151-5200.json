@@ -1,0 +1,307 @@
+{
+  "chunk": 104,
+  "range": "5151-5200",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 5151,
+      "word": "competitive",
+      "phonetic": "/kəm'petitiv/",
+      "definition": "a.竞争的；好竞争的；(价格等的)有竞争力的"
+    },
+    {
+      "index": 5152,
+      "word": "paddle",
+      "phonetic": "/'pædl/",
+      "definition": "n.桨 v.用桨划"
+    },
+    {
+      "index": 5153,
+      "word": "pay",
+      "phonetic": "/peɪ/",
+      "definition": "v.付款,付出代价,给予注意 n.工资,薪金"
+    },
+    {
+      "index": 5154,
+      "word": "certainly",
+      "phonetic": "/'sə:tənli/",
+      "definition": "ad.一定,必定,无疑;当然,行"
+    },
+    {
+      "index": 5155,
+      "word": "feather",
+      "phonetic": "/'feðə/",
+      "definition": "n.羽毛"
+    },
+    {
+      "index": 5156,
+      "word": "faithful",
+      "phonetic": "/'feiθful/",
+      "definition": "a.守信的,忠实的,如实的,可靠的"
+    },
+    {
+      "index": 5157,
+      "word": "transient",
+      "phonetic": "/'trænziənt/",
+      "definition": "a.短暂的，转瞬即逝的；临时的，暂住的"
+    },
+    {
+      "index": 5158,
+      "word": "detective",
+      "phonetic": "/di'tektiv/",
+      "definition": "n.侦探"
+    },
+    {
+      "index": 5159,
+      "word": "considerate",
+      "phonetic": "/kən'sidərit/",
+      "definition": "a.考虑周到的,体谅的"
+    },
+    {
+      "index": 5160,
+      "word": "whatsoever",
+      "phonetic": "/ˌhwɔtsəu'evə/",
+      "definition": "ad.(用于否定句中以加强语气)任何"
+    },
+    {
+      "index": 5161,
+      "word": "dilemma",
+      "phonetic": "/di'lemə/",
+      "definition": "n.(进退两难的)窘境,困境"
+    },
+    {
+      "index": 5162,
+      "word": "eighteen",
+      "phonetic": "/'ei'ti:n/",
+      "definition": "num.十八，十八个"
+    },
+    {
+      "index": 5163,
+      "word": "immerse",
+      "phonetic": "/i'mə:s/",
+      "definition": "v.使沉浸在;使浸没"
+    },
+    {
+      "index": 5164,
+      "word": "education",
+      "phonetic": "/ˌedju:'keiʃən/",
+      "definition": "n.教育,培养,训练"
+    },
+    {
+      "index": 5165,
+      "word": "riddle",
+      "phonetic": "/'ridl/",
+      "definition": "n.谜,谜语"
+    },
+    {
+      "index": 5166,
+      "word": "deadly",
+      "phonetic": "/'dedli/",
+      "definition": "a.致命的;势不两立的; 极度的;必定的"
+    },
+    {
+      "index": 5167,
+      "word": "shadow",
+      "phonetic": "/'ʃædəu/",
+      "definition": "n.阴影,影子,荫;暗处,阴暗"
+    },
+    {
+      "index": 5168,
+      "word": "grammar",
+      "phonetic": "/'græmə/",
+      "definition": "n.语法,语法书"
+    },
+    {
+      "index": 5169,
+      "word": "distant",
+      "phonetic": "/'dɪstənt/",
+      "definition": "a.远的;遥远的;疏远的;不亲近的"
+    },
+    {
+      "index": 5170,
+      "word": "conquer",
+      "phonetic": "/'kɔŋkə/",
+      "definition": "v.征服,战胜,占领;克服,破除(坏习惯等)"
+    },
+    {
+      "index": 5171,
+      "word": "warfare",
+      "phonetic": "/'wɔ:fεə/",
+      "definition": "n.战争(状态);斗争;冲突"
+    },
+    {
+      "index": 5172,
+      "word": "single",
+      "phonetic": "/'siŋgl/",
+      "definition": "a.单人的;单一的,单个的;未婚的,独身的"
+    },
+    {
+      "index": 5173,
+      "word": "exclaim",
+      "phonetic": "/ik'skleim/",
+      "definition": "v.呼喊,惊叫,大声说"
+    },
+    {
+      "index": 5174,
+      "word": "seemingly",
+      "phonetic": "/'si:miŋli/",
+      "definition": "ad.外观上，表面上"
+    },
+    {
+      "index": 5175,
+      "word": "stuff",
+      "phonetic": "/stʌf/",
+      "definition": "n.原料,材料,东西 v.填满,塞满"
+    },
+    {
+      "index": 5176,
+      "word": "mourn",
+      "phonetic": "/mɔ:n/",
+      "definition": "v.哀悼,忧伤"
+    },
+    {
+      "index": 5177,
+      "word": "massacre",
+      "phonetic": "/'mæsəkə/",
+      "definition": "vt.残杀,集体屠杀 n.残杀,大屠杀"
+    },
+    {
+      "index": 5178,
+      "word": "hostess",
+      "phonetic": "/'həustis/",
+      "definition": "n.女主人,女主持人"
+    },
+    {
+      "index": 5179,
+      "word": "render",
+      "phonetic": "/'rendə/",
+      "definition": "v.使得,致使;提出,提供,呈报"
+    },
+    {
+      "index": 5180,
+      "word": "affection",
+      "phonetic": "/ə'fekʃən/",
+      "definition": "n.爱，喜爱；爱慕之情；感情；疾病，不适"
+    },
+    {
+      "index": 5181,
+      "word": "elastic",
+      "phonetic": "/i'læstik/",
+      "definition": "a.弹性的 n.松紧带,橡皮圈"
+    },
+    {
+      "index": 5182,
+      "word": "bowling",
+      "phonetic": "/'bəuliŋ/",
+      "definition": "n.保龄球运动"
+    },
+    {
+      "index": 5183,
+      "word": "compliment",
+      "phonetic": "/'kɔmplimənt/",
+      "definition": "n.(pl.)问候,致意 n./v.称赞,恭维"
+    },
+    {
+      "index": 5184,
+      "word": "myself",
+      "phonetic": "/mai'self/",
+      "definition": "pron.[反身代词]我自己；我亲自"
+    },
+    {
+      "index": 5185,
+      "word": "dome",
+      "phonetic": "/dəum/",
+      "definition": "n.圆屋顶"
+    },
+    {
+      "index": 5186,
+      "word": "seek",
+      "phonetic": "/si:k/",
+      "definition": "v.(after,for)寻找,探索;试图,企图"
+    },
+    {
+      "index": 5187,
+      "word": "dry",
+      "phonetic": "/drai/",
+      "definition": "a.干(旱)的；干渴的；枯燥 vt.使干燥，晒干"
+    },
+    {
+      "index": 5188,
+      "word": "string",
+      "phonetic": "/strɪŋ/",
+      "definition": "n.弦,线,细绳;(一串),(一行) v.缚,捆"
+    },
+    {
+      "index": 5189,
+      "word": "harsh",
+      "phonetic": "/hɑ:ʃ/",
+      "definition": "a.粗糙的；(声音)刺耳的；苛刻的，严酷的"
+    },
+    {
+      "index": 5190,
+      "word": "everywhere",
+      "phonetic": "/'evrihwεə/",
+      "definition": "ad.到处，各处，无论何处"
+    },
+    {
+      "index": 5191,
+      "word": "encourage",
+      "phonetic": "/in'kʌridʒ/",
+      "definition": "v.鼓励,怂恿"
+    },
+    {
+      "index": 5192,
+      "word": "furnish",
+      "phonetic": "/'fə:niʃ/",
+      "definition": "v.供应,提供;装备,布置"
+    },
+    {
+      "index": 5193,
+      "word": "identical",
+      "phonetic": "/ai'dentikəl/",
+      "definition": "a.(to.with)同一的,同样的"
+    },
+    {
+      "index": 5194,
+      "word": "patron",
+      "phonetic": "/'peitrən/",
+      "definition": "n.赞助人；资助人；老顾客，老主顾"
+    },
+    {
+      "index": 5195,
+      "word": "bird",
+      "phonetic": "/bə:d/",
+      "definition": "n.鸟，雀；女人；嘘声"
+    },
+    {
+      "index": 5196,
+      "word": "productive",
+      "phonetic": "/prəu'dʌktiv/",
+      "definition": "a.生产(性)的,能产的,多产的"
+    },
+    {
+      "index": 5197,
+      "word": "loop",
+      "phonetic": "/lu:p/",
+      "definition": "n.圈,环"
+    },
+    {
+      "index": 5198,
+      "word": "unfold",
+      "phonetic": "/ˌʌn'fəuld/",
+      "definition": "vt.打开;显露;展示 vi.呈现;显示;展示"
+    },
+    {
+      "index": 5199,
+      "word": "novelty",
+      "phonetic": "/'nɔvəlti/",
+      "definition": "n.新奇,新颖,新奇的事物"
+    },
+    {
+      "index": 5200,
+      "word": "storm",
+      "phonetic": "/stɔ:m/",
+      "definition": "n.暴风雨,暴风雪;激动,爆发 v.猛攻,直捣"
+    }
+  ]
+}

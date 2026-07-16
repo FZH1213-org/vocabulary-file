@@ -1,0 +1,307 @@
+{
+  "chunk": 17,
+  "range": "801-850",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 801,
+      "word": "gentleman",
+      "phonetic": "/'dʒentlmən/",
+      "definition": "n.绅士,先生"
+    },
+    {
+      "index": 802,
+      "word": "mend",
+      "phonetic": "/mend/",
+      "definition": "v.修理,缝补;改正,改进"
+    },
+    {
+      "index": 803,
+      "word": "bitter",
+      "phonetic": "/'bitə/",
+      "definition": "a.(有)苦(味)的;痛苦的,厉害的"
+    },
+    {
+      "index": 804,
+      "word": "adequate",
+      "phonetic": "/'ædikwit/",
+      "definition": "adj.充足的，足够的；适当的，胜任的"
+    },
+    {
+      "index": 805,
+      "word": "indeed",
+      "phonetic": "/in'di:d/",
+      "definition": "ad.确实,实在;真正地,多么"
+    },
+    {
+      "index": 806,
+      "word": "broom",
+      "phonetic": "/bru:m/",
+      "definition": "n.扫帚"
+    },
+    {
+      "index": 807,
+      "word": "peanut",
+      "phonetic": "/'pi:nʌt/",
+      "definition": "n.花生"
+    },
+    {
+      "index": 808,
+      "word": "dam",
+      "phonetic": "/dæm/",
+      "definition": "n.水坝,水闸"
+    },
+    {
+      "index": 809,
+      "word": "pronounce",
+      "phonetic": "/prəu'nauns/",
+      "definition": "v.发…的音;宣布,宣判"
+    },
+    {
+      "index": 810,
+      "word": "chain",
+      "phonetic": "/tʃeɪn/",
+      "definition": "n.链(条);(pl.)镣铐;一连串 v.用链条拴住"
+    },
+    {
+      "index": 811,
+      "word": "tropical",
+      "phonetic": "/'trɔpikəl/",
+      "definition": "a.热带的"
+    },
+    {
+      "index": 812,
+      "word": "kitchen",
+      "phonetic": "/'kitʃin/",
+      "definition": "n.厨房"
+    },
+    {
+      "index": 813,
+      "word": "class",
+      "phonetic": "/klɑ:s/",
+      "definition": "n.班，年级；种类，等级，阶级；(一节)课"
+    },
+    {
+      "index": 814,
+      "word": "auto",
+      "phonetic": "/'ɔ:təu/",
+      "definition": "n.(automobile)(口语)汽车"
+    },
+    {
+      "index": 815,
+      "word": "minimum",
+      "phonetic": "/'miniməm/",
+      "definition": "n.最小值,最低限度 a.最小的,最低的"
+    },
+    {
+      "index": 816,
+      "word": "fame",
+      "phonetic": "/feim/",
+      "definition": "n.名声;名望;传说 vt使出名;传扬…的名"
+    },
+    {
+      "index": 817,
+      "word": "communicate",
+      "phonetic": "/kə'mju:nɪkeɪt/",
+      "definition": "v.传达,传送;交流;通讯,通话"
+    },
+    {
+      "index": 818,
+      "word": "foot",
+      "phonetic": "/fut/",
+      "definition": "n.(pl.feet)脚，足；英尺；底部"
+    },
+    {
+      "index": 819,
+      "word": "constitution",
+      "phonetic": "/ˌkɒnstɪ'tju:ʃn/",
+      "definition": "n.构成,构造,组成(方式),成分;体格;宪法"
+    },
+    {
+      "index": 820,
+      "word": "thin",
+      "phonetic": "/θin/",
+      "definition": "a.薄的,细的;稀薄的,淡的;瘦的 v.变薄;变稀"
+    },
+    {
+      "index": 821,
+      "word": "skeleton",
+      "phonetic": "/'skelitən/",
+      "definition": "n.骨骼;骨架,框架;梗概,提要"
+    },
+    {
+      "index": 822,
+      "word": "interim",
+      "phonetic": "/'intərim/",
+      "definition": "a.中间的,暂时的,临时的 n.过渡时期,暂定"
+    },
+    {
+      "index": 823,
+      "word": "revelation",
+      "phonetic": "/ˌrevə'leiʃən/",
+      "definition": "n.揭示,揭露,显示,启示,新发现,被揭露的事"
+    },
+    {
+      "index": 824,
+      "word": "console",
+      "phonetic": "/kən'səul /",
+      "definition": "n.控制台，仪表板；落地柜 vt.安慰，慰问"
+    },
+    {
+      "index": 825,
+      "word": "which",
+      "phonetic": "/hwitʃ/",
+      "definition": "a./pron.哪个，哪些；什么样的；那个，那些"
+    },
+    {
+      "index": 826,
+      "word": "beware",
+      "phonetic": "/bi'wεə/",
+      "definition": "v.当心,谨防"
+    },
+    {
+      "index": 827,
+      "word": "afterward",
+      "phonetic": "/'ɑ:ftəwəd/",
+      "definition": "ad.(afterwards)以后，后来"
+    },
+    {
+      "index": 828,
+      "word": "biography",
+      "phonetic": "/bai'ɔgrəfi/",
+      "definition": "n.传记；传记文学"
+    },
+    {
+      "index": 829,
+      "word": "artificial",
+      "phonetic": "/ˌɑ:ti'fiʃəl/",
+      "definition": "a.人工的，人造的，人为的；假的，做作的"
+    },
+    {
+      "index": 830,
+      "word": "zoo",
+      "phonetic": "/zu:/",
+      "definition": "n.动物园"
+    },
+    {
+      "index": 831,
+      "word": "satire",
+      "phonetic": "/'sætaiə/",
+      "definition": "n.讽刺,讽刺文学,讽刺作品"
+    },
+    {
+      "index": 832,
+      "word": "oak",
+      "phonetic": "/əuk/",
+      "definition": "n.橡树,橡木 a.橡木的"
+    },
+    {
+      "index": 833,
+      "word": "pilgrim",
+      "phonetic": "/'pilgrim/",
+      "definition": "n.(在国外)旅游者;朝圣者,最初的移民"
+    },
+    {
+      "index": 834,
+      "word": "guidance",
+      "phonetic": "/'gaidəns/",
+      "definition": "n.引导,指导"
+    },
+    {
+      "index": 835,
+      "word": "militant",
+      "phonetic": "/'mɪlɪtənt/",
+      "definition": "a.好战的，富于战斗性的 n.斗士"
+    },
+    {
+      "index": 836,
+      "word": "warm",
+      "phonetic": "/wɔ:m/",
+      "definition": "a.温暖的，热心的，热情的  v.(使)变暖"
+    },
+    {
+      "index": 837,
+      "word": "cry",
+      "phonetic": "/krai/",
+      "definition": "n.&v.叫，喊，哭；(鸟兽)叫，啼，鸣，嗥"
+    },
+    {
+      "index": 838,
+      "word": "precaution",
+      "phonetic": "/pri'kɔ:ʃən/",
+      "definition": "n.预防,谨慎,警惕"
+    },
+    {
+      "index": 839,
+      "word": "steward",
+      "phonetic": "/'stju:əd/",
+      "definition": "n.乘务员，服务员；看管人；膳食管理员"
+    },
+    {
+      "index": 840,
+      "word": "reading",
+      "phonetic": "/'ri:diŋ/",
+      "definition": "n.读书,读物,(仪表等的)读数,阅读"
+    },
+    {
+      "index": 841,
+      "word": "pocket",
+      "phonetic": "/'pɔkit/",
+      "definition": "n.衣袋 a.袖珍的,小型的 v.把…装入袋内"
+    },
+    {
+      "index": 842,
+      "word": "mixture",
+      "phonetic": "/'mikstʃə/",
+      "definition": "n.混合;混合物,混合剂"
+    },
+    {
+      "index": 843,
+      "word": "voyage",
+      "phonetic": "/'vɔiidʒ/",
+      "definition": "n.航海;航行;旅行"
+    },
+    {
+      "index": 844,
+      "word": "Christ",
+      "phonetic": "/kraist/",
+      "definition": "n.基督，救世主，耶稣"
+    },
+    {
+      "index": 845,
+      "word": "background",
+      "phonetic": "/'bækgraund/",
+      "definition": "n.背景,经历；幕后"
+    },
+    {
+      "index": 846,
+      "word": "heave",
+      "phonetic": "/hi:v/",
+      "definition": "v.(用力)举，提，拉；扔；拖；呕吐n.举起"
+    },
+    {
+      "index": 847,
+      "word": "pool",
+      "phonetic": "/pu:l/",
+      "definition": "n.水池,游泳池;合资经营v.合伙经营,联营"
+    },
+    {
+      "index": 848,
+      "word": "tight",
+      "phonetic": "/tait/",
+      "definition": "a.紧的;紧身的,装紧的;密封的 ad.紧紧地"
+    },
+    {
+      "index": 849,
+      "word": "condemn",
+      "phonetic": "/kən'dem/",
+      "definition": "v.谴责,指责;判刑,宣告有罪"
+    },
+    {
+      "index": 850,
+      "word": "intact",
+      "phonetic": "/in'tækt/",
+      "definition": "a.完整无缺的,未经触动的,未受损伤的"
+    }
+  ]
+}

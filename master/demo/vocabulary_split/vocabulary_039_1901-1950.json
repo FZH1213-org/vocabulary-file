@@ -1,0 +1,307 @@
+{
+  "chunk": 39,
+  "range": "1901-1950",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 1901,
+      "word": "mission",
+      "phonetic": "/'miʃən/",
+      "definition": "n.使命,任务;使团,代表团"
+    },
+    {
+      "index": 1902,
+      "word": "up",
+      "phonetic": "/ʌp/",
+      "definition": "ad.向上，...起来；...完；起床 prep.向上"
+    },
+    {
+      "index": 1903,
+      "word": "pant",
+      "phonetic": "/pænt/",
+      "definition": "n.喘气 v.喘,气喘吁吁地说"
+    },
+    {
+      "index": 1904,
+      "word": "complement",
+      "phonetic": "/'kɔmplimənt/",
+      "definition": "n.补足物，船上的定员；补语 vt.补充，补足"
+    },
+    {
+      "index": 1905,
+      "word": "assumption",
+      "phonetic": "/ə'sʌmpʃən/",
+      "definition": "n.假定，设想；采取；承担；推测；假装"
+    },
+    {
+      "index": 1906,
+      "word": "drum",
+      "phonetic": "/drʌm/",
+      "definition": "n.鼓;圆桶"
+    },
+    {
+      "index": 1907,
+      "word": "disrupt",
+      "phonetic": "/dis'rʌpt/",
+      "definition": "vt.使混乱，使崩溃，使分裂，使瓦解"
+    },
+    {
+      "index": 1908,
+      "word": "chief",
+      "phonetic": "/tʃi:f/",
+      "definition": "a.主要的,首要的 n.首领,领袖"
+    },
+    {
+      "index": 1909,
+      "word": "ghost",
+      "phonetic": "/gəust/",
+      "definition": "n.鬼魂,幽灵"
+    },
+    {
+      "index": 1910,
+      "word": "permission",
+      "phonetic": "/pə'miʃən/",
+      "definition": "n.允许,同意"
+    },
+    {
+      "index": 1911,
+      "word": "slam",
+      "phonetic": "/slæm/",
+      "definition": "v.(门、窗等)砰地关上 n.猛然关闭的声音"
+    },
+    {
+      "index": 1912,
+      "word": "nourish",
+      "phonetic": "/'nʌriʃ/",
+      "definition": "v.提供养分,养育,怀有(希望,仇恨等)"
+    },
+    {
+      "index": 1913,
+      "word": "restless",
+      "phonetic": "/'restlis/",
+      "definition": "a.得不到休息的;不平静的;坐立不安的"
+    },
+    {
+      "index": 1914,
+      "word": "zone",
+      "phonetic": "/zəun/",
+      "definition": "n.地区,区域 v.分区,划分地带"
+    },
+    {
+      "index": 1915,
+      "word": "excursion",
+      "phonetic": "/ɪk'skɜ:ʃn/",
+      "definition": "n.短途旅行,游览;离题;[物理]偏移,漂移"
+    },
+    {
+      "index": 1916,
+      "word": "monument",
+      "phonetic": "/'mɔnjumənt/",
+      "definition": "n.纪念碑,纪念馆,遗迹,不朽的业绩"
+    },
+    {
+      "index": 1917,
+      "word": "ruler",
+      "phonetic": "/'ru:lə/",
+      "definition": "n.统治者,支配者;尺,直尺"
+    },
+    {
+      "index": 1918,
+      "word": "soil",
+      "phonetic": "/sɔil/",
+      "definition": "n.泥土,土地,土壤 v.弄脏,(使)变脏"
+    },
+    {
+      "index": 1919,
+      "word": "calorie",
+      "phonetic": "/'kæləri/",
+      "definition": "n.卡路里(食物所产生的热量或能量单位)"
+    },
+    {
+      "index": 1920,
+      "word": "discuss",
+      "phonetic": "/dis'kʌs/",
+      "definition": "vt.讨论,商议"
+    },
+    {
+      "index": 1921,
+      "word": "patience",
+      "phonetic": "/'peiʃəns/",
+      "definition": "n.耐心,忍耐"
+    },
+    {
+      "index": 1922,
+      "word": "puff",
+      "phonetic": "/pʌf/",
+      "definition": "n.一阵,一股(气味等);喘息;吹嘘v.喘息,鼓吹"
+    },
+    {
+      "index": 1923,
+      "word": "breadth",
+      "phonetic": "/bredθ/",
+      "definition": "n.宽度,幅"
+    },
+    {
+      "index": 1924,
+      "word": "trifle",
+      "phonetic": "/'traifl/",
+      "definition": "n.少量；小事,琐事 v.玩弄；嬉耍；忽视"
+    },
+    {
+      "index": 1925,
+      "word": "organic",
+      "phonetic": "/ɔ:'gænik/",
+      "definition": "a.器官的;有机的;有机体的"
+    },
+    {
+      "index": 1926,
+      "word": "oblige",
+      "phonetic": "/ə'blaɪdʒ/",
+      "definition": "v.强迫,迫使;责成;(使)感激,施恩于"
+    },
+    {
+      "index": 1927,
+      "word": "plane",
+      "phonetic": "/plein/",
+      "definition": "n.飞机;平面,水平面"
+    },
+    {
+      "index": 1928,
+      "word": "texture",
+      "phonetic": "/'tekstʃə/",
+      "definition": "n.(织物)质地；(材料)构造；结构；肌理"
+    },
+    {
+      "index": 1929,
+      "word": "maximum",
+      "phonetic": "/'mæksiməm/",
+      "definition": "n.最大值,极限 a.最大的,最高的"
+    },
+    {
+      "index": 1930,
+      "word": "cargo",
+      "phonetic": "/'kɑ:gəu/",
+      "definition": "n.船货,货物"
+    },
+    {
+      "index": 1931,
+      "word": "prayer",
+      "phonetic": "/preə/",
+      "definition": "n.祈祷,祷告,祷文"
+    },
+    {
+      "index": 1932,
+      "word": "whenever",
+      "phonetic": "/hwen'evə/",
+      "definition": "conj.无论何时,随时;每当"
+    },
+    {
+      "index": 1933,
+      "word": "synthesis",
+      "phonetic": "/'sinθisis/",
+      "definition": "n.(pl.syntheses)综合,合成"
+    },
+    {
+      "index": 1934,
+      "word": "convey",
+      "phonetic": "/kən'vei/",
+      "definition": "v.运送,搬运,转运;传达,传播"
+    },
+    {
+      "index": 1935,
+      "word": "preside",
+      "phonetic": "/pri'zaid/",
+      "definition": "v.(at,over)主持"
+    },
+    {
+      "index": 1936,
+      "word": "simulate",
+      "phonetic": "/'simjuleit/",
+      "definition": "v.模仿,模拟;假装,冒充"
+    },
+    {
+      "index": 1937,
+      "word": "success",
+      "phonetic": "/sək'ses/",
+      "definition": "n.成就，成功；成功的事物，有成就的人"
+    },
+    {
+      "index": 1938,
+      "word": "attendant",
+      "phonetic": "/ə'tendənt/",
+      "definition": "n.陪从；出席人；服务员 a.出席的；伴随的"
+    },
+    {
+      "index": 1939,
+      "word": "endurance",
+      "phonetic": "/in'djuərəns/",
+      "definition": "n.忍耐(力),持久(力),耐久(性)"
+    },
+    {
+      "index": 1940,
+      "word": "expect",
+      "phonetic": "/ik'spekt/",
+      "definition": "v.预期;期望,指望"
+    },
+    {
+      "index": 1941,
+      "word": "electronic",
+      "phonetic": "/ɪˌlek'trɒnɪk/",
+      "definition": "a.电子的"
+    },
+    {
+      "index": 1942,
+      "word": "fog",
+      "phonetic": "/fɔg/",
+      "definition": "n.雾气，雾 v.以雾笼罩，被雾笼罩"
+    },
+    {
+      "index": 1943,
+      "word": "cooperative",
+      "phonetic": "/kəu'ɔpərətiv/",
+      "definition": "a.合作的,协作的 n.合作社"
+    },
+    {
+      "index": 1944,
+      "word": "distinct",
+      "phonetic": "/dis'tiŋkt/",
+      "definition": "a.清楚的,明显的;(from)截然不同的"
+    },
+    {
+      "index": 1945,
+      "word": "outskirts",
+      "phonetic": "/'autskə:ts/",
+      "definition": "n.郊区"
+    },
+    {
+      "index": 1946,
+      "word": "fracture",
+      "phonetic": "/'fræktʃə/",
+      "definition": "n.裂缝(痕);骨折 v.(使)断裂,(使)折断"
+    },
+    {
+      "index": 1947,
+      "word": "wake",
+      "phonetic": "/weɪk/",
+      "definition": "v.醒来,唤醒;使觉醒,激发,引起"
+    },
+    {
+      "index": 1948,
+      "word": "dirty",
+      "phonetic": "/'də:ti/",
+      "definition": "a.弄脏的;下流的 v.弄脏,玷污"
+    },
+    {
+      "index": 1949,
+      "word": "traffic",
+      "phonetic": "/'træfik/",
+      "definition": "n.交通,交通量"
+    },
+    {
+      "index": 1950,
+      "word": "distress",
+      "phonetic": "/di'stres/",
+      "definition": "n.苦恼;危难;不幸 v.使苦恼"
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "chunk": 73,
+  "range": "3601-3650",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 3601,
+      "word": "reliable",
+      "phonetic": "/ri'laiəbl/",
+      "definition": "a.可靠的,可信赖的,确实的"
+    },
+    {
+      "index": 3602,
+      "word": "magnificent",
+      "phonetic": "/mæg'nifisənt/",
+      "definition": "a.华丽的,高尚的,宏伟的"
+    },
+    {
+      "index": 3603,
+      "word": "daylight",
+      "phonetic": "/'deilait/",
+      "definition": "n.日光,白昼,黎明"
+    },
+    {
+      "index": 3604,
+      "word": "aluminum",
+      "phonetic": "/ə'lju:minəm/",
+      "definition": "n.(aluminium)铝"
+    },
+    {
+      "index": 3605,
+      "word": "curb",
+      "phonetic": "/kə:b/",
+      "definition": "n.路边，场外证券市场，vt.制止，抑制"
+    },
+    {
+      "index": 3606,
+      "word": "niece",
+      "phonetic": "/ni:s/",
+      "definition": "n.侄女,甥女"
+    },
+    {
+      "index": 3607,
+      "word": "reason",
+      "phonetic": "/'ri:zən/",
+      "definition": "n.原因,理性,理智 v.推理,说服,辩论,讨论"
+    },
+    {
+      "index": 3608,
+      "word": "recover",
+      "phonetic": "/ri'kʌvə/",
+      "definition": "v.收回;(from)恢复,痊愈;重新获得"
+    },
+    {
+      "index": 3609,
+      "word": "technician",
+      "phonetic": "/tek'niʃən/",
+      "definition": "n.技术员,技师,技工"
+    },
+    {
+      "index": 3610,
+      "word": "luggage",
+      "phonetic": "/'lʌgidʒ/",
+      "definition": "n.行李,皮箱"
+    },
+    {
+      "index": 3611,
+      "word": "worthy",
+      "phonetic": "/'wə:ði/",
+      "definition": "a.(of)值得…的,配得上…的;有价值的"
+    },
+    {
+      "index": 3612,
+      "word": "cover",
+      "phonetic": "/'kʌvə(r)/",
+      "definition": "v.覆盖,包括,涉及，报道 n.盖子,套子;(书的)封面"
+    },
+    {
+      "index": 3613,
+      "word": "goodness",
+      "phonetic": "/'gudnɪs/",
+      "definition": "n.善良，仁慈；(食物等)精华 int.天哪"
+    },
+    {
+      "index": 3614,
+      "word": "economical",
+      "phonetic": "/ˌi:kə'nɔmikəl/",
+      "definition": "a.节约的,经济的"
+    },
+    {
+      "index": 3615,
+      "word": "statistical",
+      "phonetic": "/stə'tistikəl/",
+      "definition": "a.统计的,统计学的"
+    },
+    {
+      "index": 3616,
+      "word": "crash",
+      "phonetic": "/kræʃ/",
+      "definition": "v./n.碰撞,坠落,摔坏 n.失败,瓦解;爆裂声"
+    },
+    {
+      "index": 3617,
+      "word": "theory",
+      "phonetic": "/'θiəri/",
+      "definition": "n.理论,原理;学说,见解,看法"
+    },
+    {
+      "index": 3618,
+      "word": "crow",
+      "phonetic": "/krəu/",
+      "definition": "n.乌鸦 v./n.鸡啼,鸣叫"
+    },
+    {
+      "index": 3619,
+      "word": "schedule",
+      "phonetic": "/'ʃədju:əl/",
+      "definition": "n.时间表,进度表 v.安排,预定"
+    },
+    {
+      "index": 3620,
+      "word": "become",
+      "phonetic": "/bi'kʌm/",
+      "definition": "vi.变成，开始变得vt.适合，同…相称"
+    },
+    {
+      "index": 3621,
+      "word": "regard",
+      "phonetic": "/ri'gɑ:d/",
+      "definition": "v.(as)把…看作为;考虑n.(pl.)敬重,问候"
+    },
+    {
+      "index": 3622,
+      "word": "wine",
+      "phonetic": "/wain/",
+      "definition": "n.葡萄酒,果酒"
+    },
+    {
+      "index": 3623,
+      "word": "quarter",
+      "phonetic": "/'kwɔ:tə/",
+      "definition": "n.四分之一;季;一刻钟;(pl.)方向;(pl.)住处"
+    },
+    {
+      "index": 3624,
+      "word": "flow",
+      "phonetic": "/fləu/",
+      "definition": "v.流,流动 n.流量,流速"
+    },
+    {
+      "index": 3625,
+      "word": "bloom",
+      "phonetic": "/blu:m/",
+      "definition": "n.花(朵);开花(期) v.开花"
+    },
+    {
+      "index": 3626,
+      "word": "balloon",
+      "phonetic": "/bə'lu:n/",
+      "definition": "n.气球,飞船；a.气球状的 v.乘坐气球；膨胀"
+    },
+    {
+      "index": 3627,
+      "word": "terrific",
+      "phonetic": "/tə'rifik/",
+      "definition": "a.极好的,非常的,极度的"
+    },
+    {
+      "index": 3628,
+      "word": "make",
+      "phonetic": "/meik/",
+      "definition": "n.(产品)来源，制法 vt.制造，做成，准备"
+    },
+    {
+      "index": 3629,
+      "word": "couple",
+      "phonetic": "/'kʌpl/",
+      "definition": "n.(一)对,双;夫妇; v.连接,结合"
+    },
+    {
+      "index": 3630,
+      "word": "sword",
+      "phonetic": "/sɔ:d/",
+      "definition": "n.剑，刀；武力"
+    },
+    {
+      "index": 3631,
+      "word": "elsewhere",
+      "phonetic": "/ˌels'hwεə/",
+      "definition": "ad.在别处,向别处"
+    },
+    {
+      "index": 3632,
+      "word": "alter",
+      "phonetic": "/'ɔ:ltə(r)/",
+      "definition": "vt.改变，更改；改做(衣服) vi.改变，变化"
+    },
+    {
+      "index": 3633,
+      "word": "specialize",
+      "phonetic": "/'speʃəlaiz/",
+      "definition": "v.(specialise)(in)专攻,专门研究,专业化"
+    },
+    {
+      "index": 3634,
+      "word": "divorce",
+      "phonetic": "/di'vɔ:s/",
+      "definition": "v./n.离婚,分离"
+    },
+    {
+      "index": 3635,
+      "word": "acquaintance",
+      "phonetic": "/ə'kweintəns/",
+      "definition": "n.认识，相识，了解；相识的人，熟人"
+    },
+    {
+      "index": 3636,
+      "word": "compel",
+      "phonetic": "/kəm'pel/",
+      "definition": "v.强迫,迫使"
+    },
+    {
+      "index": 3637,
+      "word": "judicial",
+      "phonetic": "/dʒu:'diʃəl/",
+      "definition": "a.司法的，审判的；明断的，公正的"
+    },
+    {
+      "index": 3638,
+      "word": "simultaneous",
+      "phonetic": "/ˌsiməl'teiniəs/",
+      "definition": "a.同时的,同时存在的"
+    },
+    {
+      "index": 3639,
+      "word": "durable",
+      "phonetic": "/'djuərəbl/",
+      "definition": "a.持久的,耐久的"
+    },
+    {
+      "index": 3640,
+      "word": "always",
+      "phonetic": "/'ɔ:lweiz/",
+      "definition": "ad.总是，无例外地；永远，始终"
+    },
+    {
+      "index": 3641,
+      "word": "jar",
+      "phonetic": "/dʒɑ:/",
+      "definition": "n.罐坛,广口瓶"
+    },
+    {
+      "index": 3642,
+      "word": "row",
+      "phonetic": "/rəu/",
+      "definition": "n.(一)排，(一)行；吵嚷 v.划(船等)，荡桨"
+    },
+    {
+      "index": 3643,
+      "word": "dominate",
+      "phonetic": "/'dɔmineit/",
+      "definition": "v.支配,统治,控制;占优势"
+    },
+    {
+      "index": 3644,
+      "word": "grind",
+      "phonetic": "/graind/",
+      "definition": "v.磨(碎),碾(碎)"
+    },
+    {
+      "index": 3645,
+      "word": "director",
+      "phonetic": "/di'rektə/",
+      "definition": "n.指导者,主任,导演"
+    },
+    {
+      "index": 3646,
+      "word": "modernization",
+      "phonetic": "/ˌmɔdənai'zeiʃən/",
+      "definition": "n.(modernisation)现代化"
+    },
+    {
+      "index": 3647,
+      "word": "semester",
+      "phonetic": "/si'mestə/",
+      "definition": "n.学期"
+    },
+    {
+      "index": 3648,
+      "word": "antenna",
+      "phonetic": "/æn'tenə/",
+      "definition": "n.(无线电或电视的)天线"
+    },
+    {
+      "index": 3649,
+      "word": "entertain",
+      "phonetic": "/ˌentə'tein/",
+      "definition": "v.招待,款待;使娱乐;使欢乐;容纳,接受"
+    },
+    {
+      "index": 3650,
+      "word": "solo",
+      "phonetic": "/'səuləu/",
+      "definition": "n.独奏 a.&ad.单独的(地)；独唱的(地)"
+    }
+  ]
+}

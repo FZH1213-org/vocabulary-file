@@ -1,0 +1,307 @@
+{
+  "chunk": 102,
+  "range": "5051-5100",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 5051,
+      "word": "that",
+      "phonetic": "/ðæt/",
+      "definition": "a./pron.那，那个 ad.那么 conj.[引导从句]"
+    },
+    {
+      "index": 5052,
+      "word": "transport",
+      "phonetic": "/'trænspɔ:t /",
+      "definition": "v.运输,运送,搬运n.运输;运输系统,运载工具"
+    },
+    {
+      "index": 5053,
+      "word": "behavior",
+      "phonetic": "/bi'heivjə/",
+      "definition": "n.(behaviour)行为,举止；(机器等)运转情况"
+    },
+    {
+      "index": 5054,
+      "word": "right",
+      "phonetic": "/raɪt/",
+      "definition": "a.右的,正确的 n.右,权利ad.在右边,正确地"
+    },
+    {
+      "index": 5055,
+      "word": "pharmacy",
+      "phonetic": "/'fɑ:məsi/",
+      "definition": "n.药房,药剂学,制药业,配药业,一批备用药品"
+    },
+    {
+      "index": 5056,
+      "word": "grin",
+      "phonetic": "/grin/",
+      "definition": "n./vi.露齿而笑，咧嘴一笑"
+    },
+    {
+      "index": 5057,
+      "word": "shock",
+      "phonetic": "/ʃɔk/",
+      "definition": "n.震动;电击,触电;休克v.(使)震动/震惊"
+    },
+    {
+      "index": 5058,
+      "word": "opponent",
+      "phonetic": "/ə'pəunənt/",
+      "definition": "n.对手,反对者,敌手 a.对立的,对抗的"
+    },
+    {
+      "index": 5059,
+      "word": "supersonic",
+      "phonetic": "/ˌsju:pə'sɔnik/",
+      "definition": "a.超音速的,超声波的 n.超声波，超声频"
+    },
+    {
+      "index": 5060,
+      "word": "applicable",
+      "phonetic": "/'æplikəbl/",
+      "definition": "a.可应用(实施)的；适当的,合适的"
+    },
+    {
+      "index": 5061,
+      "word": "trait",
+      "phonetic": "/treɪt/",
+      "definition": "n.特征,特点,特性"
+    },
+    {
+      "index": 5062,
+      "word": "nephew",
+      "phonetic": "/'nefju:/",
+      "definition": "n.侄子,外甥"
+    },
+    {
+      "index": 5063,
+      "word": "candidate",
+      "phonetic": "/'kændɪdət/",
+      "definition": "n.候选人,候补者;报考者"
+    },
+    {
+      "index": 5064,
+      "word": "net",
+      "phonetic": "/net/",
+      "definition": "n.网,网状物 v.用网捕,使落网 a.纯净的"
+    },
+    {
+      "index": 5065,
+      "word": "remnant",
+      "phonetic": "/'remnənt/",
+      "definition": "n.剩余(物),零料,遗迹[风] a.剩余的,残留的"
+    },
+    {
+      "index": 5066,
+      "word": "shelter",
+      "phonetic": "/'ʃeltə/",
+      "definition": "n.掩蔽处;掩蔽,保护 v.掩蔽,躲避,庇护"
+    },
+    {
+      "index": 5067,
+      "word": "being",
+      "phonetic": "/'bi:ŋ/",
+      "definition": "n.生物，生命,存在；"
+    },
+    {
+      "index": 5068,
+      "word": "top",
+      "phonetic": "/tɔp/",
+      "definition": "n.顶，顶端；首位；顶点 a.最高的；顶上的"
+    },
+    {
+      "index": 5069,
+      "word": "quality",
+      "phonetic": "/'kwɒləti/",
+      "definition": "n.质量,品质,特性"
+    },
+    {
+      "index": 5070,
+      "word": "impart",
+      "phonetic": "/im'pɑ:t/",
+      "definition": "vt.传授，给予；告知，通知"
+    },
+    {
+      "index": 5071,
+      "word": "procedure",
+      "phonetic": "/prə'si:dʒə/",
+      "definition": "n.程序,手续,步骤"
+    },
+    {
+      "index": 5072,
+      "word": "hang",
+      "phonetic": "/'hæŋ/",
+      "definition": "v.悬挂,垂吊;吊死,绞死"
+    },
+    {
+      "index": 5073,
+      "word": "assist",
+      "phonetic": "/ə'sist/",
+      "definition": "vt.协助，帮助，促进 vi.帮忙，参加"
+    },
+    {
+      "index": 5074,
+      "word": "skilled",
+      "phonetic": "/skild/",
+      "definition": "a.(in)熟练的,有技能的;需要技能的"
+    },
+    {
+      "index": 5075,
+      "word": "noun",
+      "phonetic": "/naun/",
+      "definition": "n.名词"
+    },
+    {
+      "index": 5076,
+      "word": "pipe",
+      "phonetic": "/paip/",
+      "definition": "n.管子,导管;烟斗;笛"
+    },
+    {
+      "index": 5077,
+      "word": "pretend",
+      "phonetic": "/pri'tend/",
+      "definition": "v.假装,假托,借口,(在演戏中)装扮"
+    },
+    {
+      "index": 5078,
+      "word": "guard",
+      "phonetic": "/gɑ:d/",
+      "definition": "v./n.保卫，守卫，提防 n.哨兵，警卫，看守"
+    },
+    {
+      "index": 5079,
+      "word": "graph",
+      "phonetic": "/grɑ:f/",
+      "definition": "n.图表,曲线图"
+    },
+    {
+      "index": 5080,
+      "word": "rat",
+      "phonetic": "/ræt/",
+      "definition": "n.鼠"
+    },
+    {
+      "index": 5081,
+      "word": "cure",
+      "phonetic": "/kjuə/",
+      "definition": "v.(of)治愈,医治;矫正 n.治愈,痊愈;良药"
+    },
+    {
+      "index": 5082,
+      "word": "reform",
+      "phonetic": "/ri'fɔ:m/",
+      "definition": "v./n.改革,改造,改良"
+    },
+    {
+      "index": 5083,
+      "word": "veto",
+      "phonetic": "/'vi:təu/",
+      "definition": "n./v.否决"
+    },
+    {
+      "index": 5084,
+      "word": "ring",
+      "phonetic": "/riŋ/",
+      "definition": "n.戒指;环;铃声;(打)电话 v.按(铃),敲(钟)"
+    },
+    {
+      "index": 5085,
+      "word": "slipper",
+      "phonetic": "/'slipə/",
+      "definition": "n.便鞋,拖鞋"
+    },
+    {
+      "index": 5086,
+      "word": "national",
+      "phonetic": "/'næʃənəl/",
+      "definition": "a.民族的,国家的,国立的"
+    },
+    {
+      "index": 5087,
+      "word": "zero",
+      "phonetic": "/'ziərəu/",
+      "definition": "n.零,零度 num.零"
+    },
+    {
+      "index": 5088,
+      "word": "reclaim",
+      "phonetic": "/ri'kleim/",
+      "definition": "v.要求归还,收回;开垦"
+    },
+    {
+      "index": 5089,
+      "word": "mine",
+      "phonetic": "/main/",
+      "definition": "pron.(I的物主代词)我的(东西)n.矿 v.采矿"
+    },
+    {
+      "index": 5090,
+      "word": "pavement",
+      "phonetic": "/'peivmənt/",
+      "definition": "n.人行道"
+    },
+    {
+      "index": 5091,
+      "word": "sensation",
+      "phonetic": "/sen'seiʃən/",
+      "definition": "n.感觉,知觉;激动,轰动,轰动一时的事情"
+    },
+    {
+      "index": 5092,
+      "word": "dip",
+      "phonetic": "/dip/",
+      "definition": "v./n.浸,蘸"
+    },
+    {
+      "index": 5093,
+      "word": "bowel",
+      "phonetic": "/'bauəl/",
+      "definition": "n.肠；［pl.］内部，深处"
+    },
+    {
+      "index": 5094,
+      "word": "throughout",
+      "phonetic": "/θru:'aut/",
+      "definition": "prep.遍及，贯穿 ad.到处，自始至终，彻底"
+    },
+    {
+      "index": 5095,
+      "word": "workshop",
+      "phonetic": "/'wə:kʃɔp/",
+      "definition": "n.车间，工场，修理厂；研讨会，讲习班"
+    },
+    {
+      "index": 5096,
+      "word": "cake",
+      "phonetic": "/keik/",
+      "definition": "n.饼，糕，蛋糕；扁平的块状物"
+    },
+    {
+      "index": 5097,
+      "word": "exquisite",
+      "phonetic": "/'ekskwizit/",
+      "definition": "a.优美的，高雅的，精致的；剧烈的，异常的"
+    },
+    {
+      "index": 5098,
+      "word": "removal",
+      "phonetic": "/ri'mu:vəl/",
+      "definition": "n.移动,迁居;除去"
+    },
+    {
+      "index": 5099,
+      "word": "valley",
+      "phonetic": "/'væli/",
+      "definition": "n.(山)谷;流域"
+    },
+    {
+      "index": 5100,
+      "word": "escape",
+      "phonetic": "/ɪ'skeɪp/",
+      "definition": "n.逃跑,逃脱 v.逃跑;避开,避免"
+    }
+  ]
+}

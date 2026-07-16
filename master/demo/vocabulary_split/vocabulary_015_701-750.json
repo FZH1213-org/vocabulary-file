@@ -1,0 +1,307 @@
+{
+  "chunk": 15,
+  "range": "701-750",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 701,
+      "word": "prefer",
+      "phonetic": "/pri'fə:/",
+      "definition": "v.(to)更喜欢,宁愿"
+    },
+    {
+      "index": 702,
+      "word": "horn",
+      "phonetic": "/hɔ:n/",
+      "definition": "n.(牛羊等的)角;号,喇叭;角状物;角制品"
+    },
+    {
+      "index": 703,
+      "word": "room",
+      "phonetic": "/ru:m/",
+      "definition": "n.房间，室，空间，地方；余地"
+    },
+    {
+      "index": 704,
+      "word": "introduce",
+      "phonetic": "/ˌintrə'dju:s/",
+      "definition": "vt.介绍；引进，传入；提出(议案等)"
+    },
+    {
+      "index": 705,
+      "word": "principle",
+      "phonetic": "/'prinsəpl/",
+      "definition": "n.原理,原则;主义,信念"
+    },
+    {
+      "index": 706,
+      "word": "king",
+      "phonetic": "/kɪŋ/",
+      "definition": "n.君主，国王"
+    },
+    {
+      "index": 707,
+      "word": "setback",
+      "phonetic": "/'setbæk/",
+      "definition": "n.挫折；失效；复发；倒退"
+    },
+    {
+      "index": 708,
+      "word": "recovery",
+      "phonetic": "/ri'kʌvəri/",
+      "definition": "n.痊愈,复元;重获,恢复"
+    },
+    {
+      "index": 709,
+      "word": "procession",
+      "phonetic": "/prəu'seʃən/",
+      "definition": "n.队伍,行列"
+    },
+    {
+      "index": 710,
+      "word": "get",
+      "phonetic": "/get/",
+      "definition": "v.获得，得到；使，使得；变得，成为；到达"
+    },
+    {
+      "index": 711,
+      "word": "pronoun",
+      "phonetic": "/'prəunaun/",
+      "definition": "n.代词"
+    },
+    {
+      "index": 712,
+      "word": "belief",
+      "phonetic": "/bi'li:f/",
+      "definition": "n.信任，相信，信念；信仰，信条"
+    },
+    {
+      "index": 713,
+      "word": "unity",
+      "phonetic": "/'ju:niti/",
+      "definition": "n.团结;统一,一致,整体"
+    },
+    {
+      "index": 714,
+      "word": "invasion",
+      "phonetic": "/in'veiʒən/",
+      "definition": "n.入侵,侵略,侵犯"
+    },
+    {
+      "index": 715,
+      "word": "board",
+      "phonetic": "/bɔ:d/",
+      "definition": "n.板,木板;全体委员;伙食 v.上船(车,飞机)"
+    },
+    {
+      "index": 716,
+      "word": "resemblance",
+      "phonetic": "/ri'zembləns/",
+      "definition": "n.相似,相似性[点,物]"
+    },
+    {
+      "index": 717,
+      "word": "virgin",
+      "phonetic": "/'və:dʒin/",
+      "definition": "n.处女 a.处女的;纯洁的;原始的;未使用的"
+    },
+    {
+      "index": 718,
+      "word": "life",
+      "phonetic": "/laif/",
+      "definition": "n.生命，生存；一生，寿命；生活；生物"
+    },
+    {
+      "index": 719,
+      "word": "often",
+      "phonetic": "/'ɔfən/",
+      "definition": "ad.常常，经常，通常"
+    },
+    {
+      "index": 720,
+      "word": "bachelor",
+      "phonetic": "/'bætʃələ/",
+      "definition": "n.单身汉;(亦作B-)学士(学位)"
+    },
+    {
+      "index": 721,
+      "word": "audience",
+      "phonetic": "/'ɔ:diəns/",
+      "definition": "n.听众，观众，读者；见面，会见"
+    },
+    {
+      "index": 722,
+      "word": "speaker",
+      "phonetic": "/'spi:kə/",
+      "definition": "n.说话者，发言者；说某种语言者；扬声器"
+    },
+    {
+      "index": 723,
+      "word": "lad",
+      "phonetic": "/læd/",
+      "definition": "n.男孩,小伙子"
+    },
+    {
+      "index": 724,
+      "word": "buy",
+      "phonetic": "/baɪ/",
+      "definition": "vt.买，买得；向…行贿，收买vi.购买东西"
+    },
+    {
+      "index": 725,
+      "word": "decide",
+      "phonetic": "/di'said/",
+      "definition": "v.决定,下决心;解决,裁决"
+    },
+    {
+      "index": 726,
+      "word": "teach",
+      "phonetic": "/ti:tʃ/",
+      "definition": "vt.教，讲授；教导(训)vi.讲课，当教师"
+    },
+    {
+      "index": 727,
+      "word": "pad",
+      "phonetic": "/pæd/",
+      "definition": "n.垫,衬垫;便笺簿 v.加上衬垫"
+    },
+    {
+      "index": 728,
+      "word": "century",
+      "phonetic": "/'sentʃuri/",
+      "definition": "n.世纪,(一)百年"
+    },
+    {
+      "index": 729,
+      "word": "proportion",
+      "phonetic": "/prə'pɔ:ʃn/",
+      "definition": "n.比例;部分;均衡,相称"
+    },
+    {
+      "index": 730,
+      "word": "neighbor",
+      "phonetic": "/'neibə/",
+      "definition": "n.(neighbour)邻居"
+    },
+    {
+      "index": 731,
+      "word": "meadow",
+      "phonetic": "/'medəu/",
+      "definition": "n.草地,牧场"
+    },
+    {
+      "index": 732,
+      "word": "certificate",
+      "phonetic": "/sə'tifikeit/",
+      "definition": "n.证(明)书,执照"
+    },
+    {
+      "index": 733,
+      "word": "theoretical",
+      "phonetic": "/ˌθiə'retikəl/",
+      "definition": "a.理论(上)的"
+    },
+    {
+      "index": 734,
+      "word": "susceptible",
+      "phonetic": "/sə'septəbl/",
+      "definition": "a.易受影响的;易受感动的;易受感染的"
+    },
+    {
+      "index": 735,
+      "word": "implement",
+      "phonetic": "/'implimənt/",
+      "definition": "n.(pl.)工具,器具 v.贯彻,实现"
+    },
+    {
+      "index": 736,
+      "word": "furnace",
+      "phonetic": "/'fə:nis/",
+      "definition": "n.炉子,熔炉"
+    },
+    {
+      "index": 737,
+      "word": "confront",
+      "phonetic": "/kən'frʌnt/",
+      "definition": "v.使面临,使遭遇;面对(危险等)"
+    },
+    {
+      "index": 738,
+      "word": "favorable",
+      "phonetic": "/'feivərəbl/",
+      "definition": "a.(favourable)赞许的,有利的,讨人喜欢的"
+    },
+    {
+      "index": 739,
+      "word": "agreement",
+      "phonetic": "/ə'gri:mənt/",
+      "definition": "n.协定,协议；契约；达成协议；同意，一致"
+    },
+    {
+      "index": 740,
+      "word": "canal",
+      "phonetic": "/kə'næl/",
+      "definition": "n.运河;(沟)渠"
+    },
+    {
+      "index": 741,
+      "word": "lag",
+      "phonetic": "/læg/",
+      "definition": "v./n.落后,滞后 vt.用隔热材料覆盖(锅炉等)"
+    },
+    {
+      "index": 742,
+      "word": "emigrate",
+      "phonetic": "/'emigreit/",
+      "definition": "v.(反)immigrate;(to,from)自本国移居他"
+    },
+    {
+      "index": 743,
+      "word": "shutter",
+      "phonetic": "/'ʃʌtə/",
+      "definition": "n.百叶窗；(照相机)快门；关闭装置"
+    },
+    {
+      "index": 744,
+      "word": "strength",
+      "phonetic": "/streŋθ/",
+      "definition": "n.力量；实力；长处，优点；人力；兵力"
+    },
+    {
+      "index": 745,
+      "word": "skip",
+      "phonetic": "/skip/",
+      "definition": "vi.略过，跳过 n.跳跃 vt.故意忽略；略过"
+    },
+    {
+      "index": 746,
+      "word": "interfere",
+      "phonetic": "/ˌintə'fiə/",
+      "definition": "v.(in)干涉,干预;(with)妨碍,打扰"
+    },
+    {
+      "index": 747,
+      "word": "height",
+      "phonetic": "/hait/",
+      "definition": "n.高,高度;(常pl.)高地,高处"
+    },
+    {
+      "index": 748,
+      "word": "breach",
+      "phonetic": "/bri:tʃ/",
+      "definition": "n.违反，不履行；破裂 vt.冲破，攻破"
+    },
+    {
+      "index": 749,
+      "word": "plural",
+      "phonetic": "/'pluərəl/",
+      "definition": "a.复数的 n.复数"
+    },
+    {
+      "index": 750,
+      "word": "legend",
+      "phonetic": "/'ledʒənd/",
+      "definition": "n.传说,传奇"
+    }
+  ]
+}

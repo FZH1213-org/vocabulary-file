@@ -1,0 +1,307 @@
+{
+  "chunk": 54,
+  "range": "2651-2700",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 2651,
+      "word": "retort",
+      "phonetic": "/ri'tɔ:t/",
+      "definition": "n./v.报复,反击,反驳"
+    },
+    {
+      "index": 2652,
+      "word": "finger",
+      "phonetic": "/'fiŋgə/",
+      "definition": "n.手指;指状物;指针"
+    },
+    {
+      "index": 2653,
+      "word": "contaminate",
+      "phonetic": "/kən'tæmɪneɪt/",
+      "definition": "v.弄污,弄脏,毒害,传染,染污"
+    },
+    {
+      "index": 2654,
+      "word": "invalid",
+      "phonetic": "/'ɪnvəlɪd/",
+      "definition": "n.病人,伤残人 a.有病的,伤残的;无效的"
+    },
+    {
+      "index": 2655,
+      "word": "secret",
+      "phonetic": "/'si:krit/",
+      "definition": "a.秘密的,机密的 n.秘密"
+    },
+    {
+      "index": 2656,
+      "word": "evident",
+      "phonetic": "/'evidənt/",
+      "definition": "a.明显的,明白的"
+    },
+    {
+      "index": 2657,
+      "word": "farm",
+      "phonetic": "/fɑ:m/",
+      "definition": "n.农场,饲养场 v.种田,经营农牧业"
+    },
+    {
+      "index": 2658,
+      "word": "eight",
+      "phonetic": "/eit/",
+      "definition": "num.八 pron.八(个，只...)"
+    },
+    {
+      "index": 2659,
+      "word": "staff",
+      "phonetic": "/stɑ:f/",
+      "definition": "n.全体职工;杠,棒;参谋部 v.配备工作人员"
+    },
+    {
+      "index": 2660,
+      "word": "vegetarian",
+      "phonetic": "/ˌvedʒi'tεəriən/",
+      "definition": "n.素食主义者"
+    },
+    {
+      "index": 2661,
+      "word": "fling",
+      "phonetic": "/fliŋ/",
+      "definition": "v.(用力地)扔,抛,丢"
+    },
+    {
+      "index": 2662,
+      "word": "city",
+      "phonetic": "/'siti/",
+      "definition": "n．城市；都市；市"
+    },
+    {
+      "index": 2663,
+      "word": "busy",
+      "phonetic": "/'bizi/",
+      "definition": "a.忙，忙碌的；热闹的，繁忙的；(电话)占线"
+    },
+    {
+      "index": 2664,
+      "word": "plea",
+      "phonetic": "/pli:/",
+      "definition": "n.(法律)抗辩；请求，恳求，托词，口实"
+    },
+    {
+      "index": 2665,
+      "word": "agenda",
+      "phonetic": "/ə'dʒendə/",
+      "definition": "n.议事日程，记事册"
+    },
+    {
+      "index": 2666,
+      "word": "port",
+      "phonetic": "/pɔ:t/",
+      "definition": "n.港口"
+    },
+    {
+      "index": 2667,
+      "word": "peach",
+      "phonetic": "/pi:tʃ/",
+      "definition": "n.桃,桃树"
+    },
+    {
+      "index": 2668,
+      "word": "seaside",
+      "phonetic": "/'si:said/",
+      "definition": "n.海滨,海边"
+    },
+    {
+      "index": 2669,
+      "word": "hit",
+      "phonetic": "/hit/",
+      "definition": "v.打,击;碰撞 n.击中;成功而风行一时的事物"
+    },
+    {
+      "index": 2670,
+      "word": "flame",
+      "phonetic": "/fleim/",
+      "definition": "n.火焰,火苗;热情;光辉 v.发火焰,燃烧"
+    },
+    {
+      "index": 2671,
+      "word": "cigaret",
+      "phonetic": "/ˌsigə'ret/",
+      "definition": "n.(cigarette)香烟,纸烟,卷烟"
+    },
+    {
+      "index": 2672,
+      "word": "plate",
+      "phonetic": "/pleit/",
+      "definition": "n.金属板,片;盘子,盆子;板,钢板v.镀,电镀"
+    },
+    {
+      "index": 2673,
+      "word": "feast",
+      "phonetic": "/fi:st/",
+      "definition": "n.节日;宴会"
+    },
+    {
+      "index": 2674,
+      "word": "hip",
+      "phonetic": "/hip/",
+      "definition": "n.臀部，髋；屋脊"
+    },
+    {
+      "index": 2675,
+      "word": "enjoy",
+      "phonetic": "/in'dʒɔi/",
+      "definition": "vt.享受…的乐趣；欣赏；喜爱"
+    },
+    {
+      "index": 2676,
+      "word": "action",
+      "phonetic": "/'ækʃən/",
+      "definition": "n.行动，动作；作用；运转；行为；战斗"
+    },
+    {
+      "index": 2677,
+      "word": "slide",
+      "phonetic": "/slaid/",
+      "definition": "v.(使)滑动 n.滑坡,滑道;滑,滑动;幻灯片"
+    },
+    {
+      "index": 2678,
+      "word": "division",
+      "phonetic": "/dɪ'vɪʒn/",
+      "definition": "n.分,分割;部门,科,处;除法;分界线"
+    },
+    {
+      "index": 2679,
+      "word": "headmaster",
+      "phonetic": "/'hed'mɑ:stə/",
+      "definition": "n.校长"
+    },
+    {
+      "index": 2680,
+      "word": "quarterly",
+      "phonetic": "/'kwɔ:təli/",
+      "definition": "a.每季的 ad.每季一次 n.季刊"
+    },
+    {
+      "index": 2681,
+      "word": "attendance",
+      "phonetic": "/ə'tendəns/",
+      "definition": "n.出席；出席人数；护理，照料"
+    },
+    {
+      "index": 2682,
+      "word": "shot",
+      "phonetic": "/ʃɒt/",
+      "definition": "n.开枪,射击;投篮;弹丸,炮弹,子弹"
+    },
+    {
+      "index": 2683,
+      "word": "mobilize",
+      "phonetic": "/'məubilaiz/",
+      "definition": "v.(mobilise)动员,赋予可动性"
+    },
+    {
+      "index": 2684,
+      "word": "magnitude",
+      "phonetic": "/'mægnitju:d/",
+      "definition": "n.大小,数量;巨大,广大"
+    },
+    {
+      "index": 2685,
+      "word": "dream",
+      "phonetic": "/dri:m/",
+      "definition": "n./v.梦,梦想,幻想"
+    },
+    {
+      "index": 2686,
+      "word": "royal",
+      "phonetic": "/'rɔiəl/",
+      "definition": "a.王室的,皇家的;第一流的,高贵的"
+    },
+    {
+      "index": 2687,
+      "word": "concerning",
+      "phonetic": "/kən'sə:niŋ/",
+      "definition": "prep.关于，论及"
+    },
+    {
+      "index": 2688,
+      "word": "formula",
+      "phonetic": "/'fɔ:mjulə/",
+      "definition": "n.(pl.formulae)公式;规则;分子式;药方"
+    },
+    {
+      "index": 2689,
+      "word": "bay",
+      "phonetic": "/bei/",
+      "definition": "n.海湾,(港)湾"
+    },
+    {
+      "index": 2690,
+      "word": "zoom",
+      "phonetic": "/zu:m/",
+      "definition": "vi.(飞机)陡升 n.陡升；嗡嗡声"
+    },
+    {
+      "index": 2691,
+      "word": "indifferent",
+      "phonetic": "/in'difərənt/",
+      "definition": "a.冷漠的,不关心的,不积极的"
+    },
+    {
+      "index": 2692,
+      "word": "cold",
+      "phonetic": "/kəuld/",
+      "definition": "a.冷的，寒冷的；冷淡的 n.冷，寒冷；伤风"
+    },
+    {
+      "index": 2693,
+      "word": "officer",
+      "phonetic": "/'ɔfisə/",
+      "definition": "n.官员,办事员;工作人员;军官"
+    },
+    {
+      "index": 2694,
+      "word": "philosophy",
+      "phonetic": "/fi'lɔsəfi/",
+      "definition": "n.哲学,哲理,人生观,价值观,世界观"
+    },
+    {
+      "index": 2695,
+      "word": "appropriate",
+      "phonetic": "/ə'prəupriət/",
+      "definition": "a.适当的,恰当的,特有的 vt.拨给,挪用,盗用"
+    },
+    {
+      "index": 2696,
+      "word": "distribute",
+      "phonetic": "/di'stribju:t/",
+      "definition": "v.分发;分配;分布;配(电);(over)散布"
+    },
+    {
+      "index": 2697,
+      "word": "aspect",
+      "phonetic": "/'æspekt/",
+      "definition": "n.样子, 外表, 面貌, (问题等的)方面"
+    },
+    {
+      "index": 2698,
+      "word": "apparent",
+      "phonetic": "/ə'pærənt/",
+      "definition": "a.表面上的,貌似真实的；显然的,明明白白的"
+    },
+    {
+      "index": 2699,
+      "word": "proposal",
+      "phonetic": "/prəu'pəuzəl/",
+      "definition": "n.提议,建议;求婚"
+    },
+    {
+      "index": 2700,
+      "word": "spear",
+      "phonetic": "/spiə/",
+      "definition": "n.矛,枪"
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "chunk": 43,
+  "range": "2101-2150",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 2101,
+      "word": "petroleum",
+      "phonetic": "/pi'trəuliəm/",
+      "definition": "n.石油"
+    },
+    {
+      "index": 2102,
+      "word": "resolution",
+      "phonetic": "/ˌrezə'lu:ʃən/",
+      "definition": "n.坚决,决心;决定,决议"
+    },
+    {
+      "index": 2103,
+      "word": "human",
+      "phonetic": "/'hju:mən/",
+      "definition": "a.人的,人类的 n.人"
+    },
+    {
+      "index": 2104,
+      "word": "practice",
+      "phonetic": "/'præktis/",
+      "definition": "n.练习,实践,实际,业务,惯例,习惯"
+    },
+    {
+      "index": 2105,
+      "word": "learned",
+      "phonetic": "/'lə:nid/",
+      "definition": "a.博学的,有学问的"
+    },
+    {
+      "index": 2106,
+      "word": "publicity",
+      "phonetic": "/pʌb'lisiti/",
+      "definition": "n.公开,宣传,广告,推销"
+    },
+    {
+      "index": 2107,
+      "word": "otherwise",
+      "phonetic": "/'ʌðəwaɪz/",
+      "definition": "ad.另样,用别的方法;在其他方面conj.要不然"
+    },
+    {
+      "index": 2108,
+      "word": "solitary",
+      "phonetic": "/'sɔlitəri/",
+      "definition": "a.(好)孤独的；偏僻的；单一的，唯一的"
+    },
+    {
+      "index": 2109,
+      "word": "coal",
+      "phonetic": "/kəul/",
+      "definition": "n.煤,煤块"
+    },
+    {
+      "index": 2110,
+      "word": "principal",
+      "phonetic": "/'prinsəpəl/",
+      "definition": "a.最重要的,主要的n.负责人,校长;资本,本金"
+    },
+    {
+      "index": 2111,
+      "word": "companion",
+      "phonetic": "/kəm'pænjən/",
+      "definition": "n.同伴,共事者;伴侣"
+    },
+    {
+      "index": 2112,
+      "word": "woman",
+      "phonetic": "/'wumən/",
+      "definition": "n.(pl.）women妇女，成年女子"
+    },
+    {
+      "index": 2113,
+      "word": "themselves",
+      "phonetic": "/ðəm'selvz/",
+      "definition": "pron.他(她、它)们自己；他(她、它)们亲自"
+    },
+    {
+      "index": 2114,
+      "word": "pick",
+      "phonetic": "/pik/",
+      "definition": "v.拾,采,摘;挑选,选择 n.镐,鹤嘴锄"
+    },
+    {
+      "index": 2115,
+      "word": "inevitable",
+      "phonetic": "/in'evitəbl/",
+      "definition": "a.不可避免的,必然发生的"
+    },
+    {
+      "index": 2116,
+      "word": "fruit",
+      "phonetic": "/fru:t/",
+      "definition": "n.水果,果实;成果,效果"
+    },
+    {
+      "index": 2117,
+      "word": "street",
+      "phonetic": "/stri:t/",
+      "definition": "n.街，街道；行车道"
+    },
+    {
+      "index": 2118,
+      "word": "polar",
+      "phonetic": "/'pəulə/",
+      "definition": "a.两极的,极地的,南辕北辙的 n.极线,极面"
+    },
+    {
+      "index": 2119,
+      "word": "review",
+      "phonetic": "/ri'vju:/",
+      "definition": "v.回顾,复习 n.回顾,复习;评论"
+    },
+    {
+      "index": 2120,
+      "word": "speciality",
+      "phonetic": "/ˌspeʃi'æləti/",
+      "definition": "n.(specialty)特性，性质；专业/长；特产"
+    },
+    {
+      "index": 2121,
+      "word": "ripe",
+      "phonetic": "/raɪp/",
+      "definition": "a.熟的,成熟的;(for)时机成熟的"
+    },
+    {
+      "index": 2122,
+      "word": "thrill",
+      "phonetic": "/θril/",
+      "definition": "n.一阵激动(恐惧) v.激动；(使)毛骨悚然"
+    },
+    {
+      "index": 2123,
+      "word": "neither",
+      "phonetic": "/'naiðə/",
+      "definition": "a.两者都不 pron.两者都不 ad.也不"
+    },
+    {
+      "index": 2124,
+      "word": "tool",
+      "phonetic": "/tu:l/",
+      "definition": "n.工具，用具；方法，手段"
+    },
+    {
+      "index": 2125,
+      "word": "postcard",
+      "phonetic": "/'pəustka:d/",
+      "definition": "n.明信片"
+    },
+    {
+      "index": 2126,
+      "word": "exercise",
+      "phonetic": "/'eksəsaiz/",
+      "definition": "n.练习,习题;训练,锻练 v.训练,锻练;行使"
+    },
+    {
+      "index": 2127,
+      "word": "thumb",
+      "phonetic": "/θʌm/",
+      "definition": "n.拇指 v.示意要求搭车；迅速翻阅"
+    },
+    {
+      "index": 2128,
+      "word": "poverty",
+      "phonetic": "/'pɔvəti/",
+      "definition": "n.贫穷,贫困"
+    },
+    {
+      "index": 2129,
+      "word": "ceiling",
+      "phonetic": "/'si:liŋ/",
+      "definition": "n.天花板；(规定价格、工资等的)最高限额"
+    },
+    {
+      "index": 2130,
+      "word": "complication",
+      "phonetic": "/ˌkɔmpli'keiʃən/",
+      "definition": "n.复杂,纠纷;并发症"
+    },
+    {
+      "index": 2131,
+      "word": "accommodation",
+      "phonetic": "/əˌkɔmə'deiʃən/",
+      "definition": "n.(accommodations)住宿，留宿；膳宿供应"
+    },
+    {
+      "index": 2132,
+      "word": "blunder",
+      "phonetic": "/'blʌndə/",
+      "definition": "v.(因无知等而)犯大错;踉踉跄跄地走 n.大错"
+    },
+    {
+      "index": 2133,
+      "word": "groan",
+      "phonetic": "/grəun/",
+      "definition": "v./n.呻吟"
+    },
+    {
+      "index": 2134,
+      "word": "supplement",
+      "phonetic": "/'sʌplɪm(ə)nt/",
+      "definition": "n.补遗;增刊;附录 v.增刊,补充"
+    },
+    {
+      "index": 2135,
+      "word": "bracket",
+      "phonetic": "/'brækɪt/",
+      "definition": "n.(方)括号"
+    },
+    {
+      "index": 2136,
+      "word": "weak",
+      "phonetic": "/wi:k/",
+      "definition": "a.虚弱的,软弱的;不够标准的;淡薄的,稀的"
+    },
+    {
+      "index": 2137,
+      "word": "glow",
+      "phonetic": "/gləu/",
+      "definition": "v.发热,发光,发红 n.白热"
+    },
+    {
+      "index": 2138,
+      "word": "vertical",
+      "phonetic": "/'vɜ:tɪkl/",
+      "definition": "a.垂直的,竖的 n.垂线"
+    },
+    {
+      "index": 2139,
+      "word": "fund",
+      "phonetic": "/fʌnd/",
+      "definition": "n.资金,基金;存款,现款;(知识等的)累积"
+    },
+    {
+      "index": 2140,
+      "word": "humid",
+      "phonetic": "/'hju:mid/",
+      "definition": "a.湿的,湿气重的"
+    },
+    {
+      "index": 2141,
+      "word": "specimen",
+      "phonetic": "/'spesimin/",
+      "definition": "n.标本,样本"
+    },
+    {
+      "index": 2142,
+      "word": "conceal",
+      "phonetic": "/kən'si:l/",
+      "definition": "v.隐藏,隐瞒,隐蔽"
+    },
+    {
+      "index": 2143,
+      "word": "yes",
+      "phonetic": "/jes/",
+      "definition": "ad.是[用于肯定句前]，是的"
+    },
+    {
+      "index": 2144,
+      "word": "goose",
+      "phonetic": "/gu:s/",
+      "definition": "n.(pl.geese)鹅,雌鹅,鹅肉"
+    },
+    {
+      "index": 2145,
+      "word": "see",
+      "phonetic": "/si:/",
+      "definition": "vt.看见；会面；探望；知道，获悉；送行"
+    },
+    {
+      "index": 2146,
+      "word": "plot",
+      "phonetic": "/plɔt/",
+      "definition": "n.秘密计划;情节 v.标绘,绘制;密谋,策划"
+    },
+    {
+      "index": 2147,
+      "word": "vicinity",
+      "phonetic": "/vɪ'sɪnɪtɪ/",
+      "definition": "n.邻近,附近"
+    },
+    {
+      "index": 2148,
+      "word": "celebrate",
+      "phonetic": "/'selɪbreɪt/",
+      "definition": "vt.庆祝；颂扬，赞美vi.庆祝，过节"
+    },
+    {
+      "index": 2149,
+      "word": "warn",
+      "phonetic": "/wɔ:n/",
+      "definition": "vt.警告 vi.发出警告"
+    },
+    {
+      "index": 2150,
+      "word": "space",
+      "phonetic": "/speis/",
+      "definition": "n.间隔;空地,余地;空间 v.留间隔,隔开"
+    }
+  ]
+}

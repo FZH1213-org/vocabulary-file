@@ -1,0 +1,307 @@
+{
+  "chunk": 90,
+  "range": "4451-4500",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 4451,
+      "word": "tend",
+      "phonetic": "/tend/",
+      "definition": "v.趋向,往往是;照料,看护"
+    },
+    {
+      "index": 4452,
+      "word": "example",
+      "phonetic": "/ig'zɑ:mpl/",
+      "definition": "n.例子,实例;模范,榜样"
+    },
+    {
+      "index": 4453,
+      "word": "phenomenon",
+      "phonetic": "/fi'nɔminən/",
+      "definition": "n.现象,稀有现象,珍品,奇迹,杰出人才"
+    },
+    {
+      "index": 4454,
+      "word": "ventilate",
+      "phonetic": "/'ventileit/",
+      "definition": "vt.使通风;给…装通风设备"
+    },
+    {
+      "index": 4455,
+      "word": "shilling",
+      "phonetic": "/'ʃiliŋ/",
+      "definition": "n.先令"
+    },
+    {
+      "index": 4456,
+      "word": "chef",
+      "phonetic": "/ʃef/",
+      "definition": "n.(餐馆等的)厨师长，厨师"
+    },
+    {
+      "index": 4457,
+      "word": "predecessor",
+      "phonetic": "/'pri:disesə/",
+      "definition": "n.前辈，前任"
+    },
+    {
+      "index": 4458,
+      "word": "jewelry",
+      "phonetic": "/'dʒu:əlri/",
+      "definition": "n.(jewllery)(总称)珠宝"
+    },
+    {
+      "index": 4459,
+      "word": "warehouse",
+      "phonetic": "/'wεəhaus/",
+      "definition": "n.仓库,货栈"
+    },
+    {
+      "index": 4460,
+      "word": "although",
+      "phonetic": "/ɔ:l'ðəu/",
+      "definition": "conj.尽管，虽然...但是"
+    },
+    {
+      "index": 4461,
+      "word": "genetic",
+      "phonetic": "/dʒi'netik/",
+      "definition": "a.遗传(学)的 n.[-s]遗传学"
+    },
+    {
+      "index": 4462,
+      "word": "look",
+      "phonetic": "/luk/",
+      "definition": "vi./n.看，注视 v.好像，显得 n.外表，脸色"
+    },
+    {
+      "index": 4463,
+      "word": "lot",
+      "phonetic": "/lɒt/",
+      "definition": "n.许多，大量；签，抽签；命运；场地"
+    },
+    {
+      "index": 4464,
+      "word": "owing",
+      "phonetic": "/'əuiŋ/",
+      "definition": "a.欠的,未付的"
+    },
+    {
+      "index": 4465,
+      "word": "corrode",
+      "phonetic": "/kə'rəud/",
+      "definition": "v.(受)腐蚀,侵蚀"
+    },
+    {
+      "index": 4466,
+      "word": "wrap",
+      "phonetic": "/ræp/",
+      "definition": "v.裹,缠,卷,包 n.披肩,围巾"
+    },
+    {
+      "index": 4467,
+      "word": "finally",
+      "phonetic": "/'fainəli/",
+      "definition": "ad.最后,最终;决定性地"
+    },
+    {
+      "index": 4468,
+      "word": "winter",
+      "phonetic": "/'wintə/",
+      "definition": "n.冬季，冬天"
+    },
+    {
+      "index": 4469,
+      "word": "wardrobe",
+      "phonetic": "/'wɔ:drəub/",
+      "definition": "n.衣柜,衣厨;衣服;行头;剧装"
+    },
+    {
+      "index": 4470,
+      "word": "copyright",
+      "phonetic": "/'kɔpiˌrait/",
+      "definition": "n.／a.版权(的)"
+    },
+    {
+      "index": 4471,
+      "word": "smog",
+      "phonetic": "/smɒg/",
+      "definition": "n.烟雾"
+    },
+    {
+      "index": 4472,
+      "word": "focus",
+      "phonetic": "/'fəukəs/",
+      "definition": "n.焦点,(活动,兴趣等的)中心 v.(on)使聚集"
+    },
+    {
+      "index": 4473,
+      "word": "comprise",
+      "phonetic": "/kəm'praiz/",
+      "definition": "vt.包含，包括，由...组成；构成，组成"
+    },
+    {
+      "index": 4474,
+      "word": "shield",
+      "phonetic": "/ʃi:ld/",
+      "definition": "n.防护物,护罩;盾,盾状物 v.保护,防护"
+    },
+    {
+      "index": 4475,
+      "word": "gesture",
+      "phonetic": "/'dʒestʃə/",
+      "definition": "n.姿势,姿态,手势 v.做手势"
+    },
+    {
+      "index": 4476,
+      "word": "stitch",
+      "phonetic": "/stitʃ/",
+      "definition": "n.一针；(因跑步引起的)肋部剧痛 v.缝(合)"
+    },
+    {
+      "index": 4477,
+      "word": "section",
+      "phonetic": "/'sekʃn/",
+      "definition": "n.章节,部分;地区,部门,科;截面,剖面"
+    },
+    {
+      "index": 4478,
+      "word": "capsule",
+      "phonetic": "/'kæpsju:l/",
+      "definition": "n.胶囊;太空舱"
+    },
+    {
+      "index": 4479,
+      "word": "illustration",
+      "phonetic": "/ˌilə'streiʃən/",
+      "definition": "n.说明；例证，插图；举例说明"
+    },
+    {
+      "index": 4480,
+      "word": "pose",
+      "phonetic": "/pəuz/",
+      "definition": "n.姿势,姿态 v.造成,提出,摆姿势,佯装"
+    },
+    {
+      "index": 4481,
+      "word": "automatic",
+      "phonetic": "/ˌɔ:tə'mætik/",
+      "definition": "a.自动(装置)的；无意识的；n.自动机械"
+    },
+    {
+      "index": 4482,
+      "word": "prosecute",
+      "phonetic": "/'prɔsikju:t/",
+      "definition": "vt.实行，从事 v.起诉，告发 vi.作检察官"
+    },
+    {
+      "index": 4483,
+      "word": "napkin",
+      "phonetic": "/'næpkin/",
+      "definition": "n.餐巾,餐巾纸,<英>尿布"
+    },
+    {
+      "index": 4484,
+      "word": "achieve",
+      "phonetic": "/ə'tʃi:v/",
+      "definition": "vt.实现，完成；达到，得到vi.达到预期目的"
+    },
+    {
+      "index": 4485,
+      "word": "underlying",
+      "phonetic": "/ˌʌndə'laiiŋ/",
+      "definition": "a.含蓄的,潜在的;在下面的"
+    },
+    {
+      "index": 4486,
+      "word": "segment",
+      "phonetic": "/'segmənt/",
+      "definition": "n.段,片,节,部分"
+    },
+    {
+      "index": 4487,
+      "word": "tail",
+      "phonetic": "/teil/",
+      "definition": "n.尾巴；尾部；跟踪者 vt.尾随，跟踪"
+    },
+    {
+      "index": 4488,
+      "word": "terminal",
+      "phonetic": "/'tə:minəl/",
+      "definition": "a.晚期的;终点的;期末的 n.终点(站);终端"
+    },
+    {
+      "index": 4489,
+      "word": "capture",
+      "phonetic": "/kæptʃə(r)/",
+      "definition": "v./n.捕获,俘虏;夺得,攻占"
+    },
+    {
+      "index": 4490,
+      "word": "different",
+      "phonetic": "/'difərənt/",
+      "definition": "a.差异的,差异的,不同的"
+    },
+    {
+      "index": 4491,
+      "word": "underground",
+      "phonetic": "/'ʌndəgraund/",
+      "definition": "a.地下的;秘密的 n.地铁 ad.在地下"
+    },
+    {
+      "index": 4492,
+      "word": "barren",
+      "phonetic": "/'bærən/",
+      "definition": "a.贫瘠的,不育的；(植物)不结果的；无用的"
+    },
+    {
+      "index": 4493,
+      "word": "liver",
+      "phonetic": "/'livə/",
+      "definition": "n.肝,肝脏"
+    },
+    {
+      "index": 4494,
+      "word": "suffer",
+      "phonetic": "/'sʌfə/",
+      "definition": "v.(from)受痛苦,患病;受损失;遭受;忍受"
+    },
+    {
+      "index": 4495,
+      "word": "patent",
+      "phonetic": "/'pætnt/",
+      "definition": "a.专利的,特许的n.专利(权、品)v.批准专利"
+    },
+    {
+      "index": 4496,
+      "word": "unexpected",
+      "phonetic": "/ˌʌnik'spektid/",
+      "definition": "a.想不到的, 意外的, 未预料到"
+    },
+    {
+      "index": 4497,
+      "word": "set",
+      "phonetic": "/set/",
+      "definition": "n.一套,一副,装置,接受机v.提出,调整,日落"
+    },
+    {
+      "index": 4498,
+      "word": "appraisal",
+      "phonetic": "/ə'preizəl/",
+      "definition": "n.对...作出的评价；评价，鉴定，评估"
+    },
+    {
+      "index": 4499,
+      "word": "friendly",
+      "phonetic": "/'frendli/",
+      "definition": "a.友好的,友谊的"
+    },
+    {
+      "index": 4500,
+      "word": "overcome",
+      "phonetic": "/ˌəuvə'kʌm/",
+      "definition": "v.战胜,克服"
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "chunk": 38,
+  "range": "1851-1900",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 1851,
+      "word": "spouse",
+      "phonetic": "/spaus/",
+      "definition": "n.配偶(指夫或妻)"
+    },
+    {
+      "index": 1852,
+      "word": "improvement",
+      "phonetic": "/ɪm'pru:vmənt/",
+      "definition": "n.改进,进步,增进;改进措施"
+    },
+    {
+      "index": 1853,
+      "word": "enter",
+      "phonetic": "/'entə/",
+      "definition": "vt.进入；参加，加入；写入 vi.进去，进来"
+    },
+    {
+      "index": 1854,
+      "word": "shark",
+      "phonetic": "/ʃɑ:k/",
+      "definition": "n.鲨鱼"
+    },
+    {
+      "index": 1855,
+      "word": "spirit",
+      "phonetic": "/'spirit/",
+      "definition": "n.精神;志气;(pl.)情绪,心情;(pl.)酒精"
+    },
+    {
+      "index": 1856,
+      "word": "formulate",
+      "phonetic": "/'fɔ:mjuleit/",
+      "definition": "v. 用公式表示;规划;设计;系统地阐述"
+    },
+    {
+      "index": 1857,
+      "word": "welfare",
+      "phonetic": "/'welfεə/",
+      "definition": "n.福利；幸福；福利事业"
+    },
+    {
+      "index": 1858,
+      "word": "overnight",
+      "phonetic": "/ˌəuvə'nait/",
+      "definition": "a.通宵的,晚上的 ad.在昨夜,一夜工夫,突然"
+    },
+    {
+      "index": 1859,
+      "word": "audio",
+      "phonetic": "/'ɔ:diəu/",
+      "definition": "n./a.音频(响)(的)；声音(的)，听觉(的)"
+    },
+    {
+      "index": 1860,
+      "word": "competent",
+      "phonetic": "/'kɔmpitənt/",
+      "definition": "a.有能力的，能胜任的；足够的"
+    },
+    {
+      "index": 1861,
+      "word": "wear",
+      "phonetic": "/wεə/",
+      "definition": "v.穿着，戴着；磨损，用旧 n.穿，戴；磨损"
+    },
+    {
+      "index": 1862,
+      "word": "whisper",
+      "phonetic": "/'hwispə/",
+      "definition": "v.耳语;私下说,偷偷告诉 n.耳语;传闻"
+    },
+    {
+      "index": 1863,
+      "word": "argue",
+      "phonetic": "/'ɑgju:/",
+      "definition": "vi.辩论，争论 vt.辩论，论证；说服，劝说"
+    },
+    {
+      "index": 1864,
+      "word": "favor",
+      "phonetic": "/'feivə/",
+      "definition": "n.(favour)好感;喜爱;关切v.赞成,支持,偏爱"
+    },
+    {
+      "index": 1865,
+      "word": "imitate",
+      "phonetic": "/'imiteit/",
+      "definition": "v.模仿,仿效;仿造,伪造"
+    },
+    {
+      "index": 1866,
+      "word": "ridge",
+      "phonetic": "/ridʒ/",
+      "definition": "n.岭,山脉;屋脊;鼻梁"
+    },
+    {
+      "index": 1867,
+      "word": "tragedy",
+      "phonetic": "/'trædʒidi/",
+      "definition": "n.悲剧;惨事,灾难"
+    },
+    {
+      "index": 1868,
+      "word": "dinner",
+      "phonetic": "/'dinə/",
+      "definition": "n.正餐,宴会"
+    },
+    {
+      "index": 1869,
+      "word": "complex",
+      "phonetic": "/'kɔmpleks/",
+      "definition": "a.复杂的;合成的,综合的 n.联合体"
+    },
+    {
+      "index": 1870,
+      "word": "avoid",
+      "phonetic": "/ə'vɔid/",
+      "definition": "vt.防止，避免；逃避，避开"
+    },
+    {
+      "index": 1871,
+      "word": "end",
+      "phonetic": "/end/",
+      "definition": "n.末端，端，梢；目标，目的 v.终止，结束"
+    },
+    {
+      "index": 1872,
+      "word": "violent",
+      "phonetic": "/'vaiələnt/",
+      "definition": "a.猛烈的,激烈的;暴力引起的,强暴的"
+    },
+    {
+      "index": 1873,
+      "word": "anyway",
+      "phonetic": "/'eniwei/",
+      "definition": "ad.不管怎么说，无论如何；不论以何种方式"
+    },
+    {
+      "index": 1874,
+      "word": "submarine",
+      "phonetic": "/'sʌbməri:n/",
+      "definition": "n.潜水艇 a.水底的,海底的"
+    },
+    {
+      "index": 1875,
+      "word": "explode",
+      "phonetic": "/ik'spləud/",
+      "definition": "v.(使)爆炸,(使)爆发"
+    },
+    {
+      "index": 1876,
+      "word": "coincidence",
+      "phonetic": "/kəu'insidəns/",
+      "definition": "n.巧合；同时发生，共同存在；符合，一致"
+    },
+    {
+      "index": 1877,
+      "word": "spread",
+      "phonetic": "/spred/",
+      "definition": "v./n.伸开,伸展;散布,传播"
+    },
+    {
+      "index": 1878,
+      "word": "really",
+      "phonetic": "/'riəli/",
+      "definition": "ad.确实,实在,真正地,果然"
+    },
+    {
+      "index": 1879,
+      "word": "commend",
+      "phonetic": "/kə'mend/",
+      "definition": "v.称赞，表扬：委托保管；推荐"
+    },
+    {
+      "index": 1880,
+      "word": "adjust",
+      "phonetic": "/ə'dʒʌst/",
+      "definition": "vt.调节；整顿，调整 vi.适应(to)；使调节"
+    },
+    {
+      "index": 1881,
+      "word": "skyscraper",
+      "phonetic": "/'skaiˌskreipə/",
+      "definition": "n.摩天大楼"
+    },
+    {
+      "index": 1882,
+      "word": "interval",
+      "phonetic": "/'intəvəl/",
+      "definition": "n.间隔,间歇;(幕间或工间)休息"
+    },
+    {
+      "index": 1883,
+      "word": "whale",
+      "phonetic": "/hweil/",
+      "definition": "n.鲸；庞然大物"
+    },
+    {
+      "index": 1884,
+      "word": "estimate",
+      "phonetic": "/'estimeit/",
+      "definition": "v./n.估计,估价;评估"
+    },
+    {
+      "index": 1885,
+      "word": "mathematical",
+      "phonetic": "/ˌmæθi'mætikəl/",
+      "definition": "a.数学的；数学上的"
+    },
+    {
+      "index": 1886,
+      "word": "exhaust",
+      "phonetic": "/ig'zɔ:st/",
+      "definition": "v.使筋疲力尽,耗尽;抽完 n.排气装置;废气"
+    },
+    {
+      "index": 1887,
+      "word": "pursuit",
+      "phonetic": "/pə'sju:t/",
+      "definition": "n.追赶,追求;职业,工作"
+    },
+    {
+      "index": 1888,
+      "word": "degenerate",
+      "phonetic": "/di'dʒenəreit/",
+      "definition": "v.衰退,堕落,蜕化 a.堕落的 n.堕落者"
+    },
+    {
+      "index": 1889,
+      "word": "empire",
+      "phonetic": "/'empaiə/",
+      "definition": "n.帝国"
+    },
+    {
+      "index": 1890,
+      "word": "equation",
+      "phonetic": "/i'kweiʒən/",
+      "definition": "n.(数学)等式,方程式;(with)相等;均衡"
+    },
+    {
+      "index": 1891,
+      "word": "hut",
+      "phonetic": "/hʌt/",
+      "definition": "n.小屋,棚屋"
+    },
+    {
+      "index": 1892,
+      "word": "illuminate",
+      "phonetic": "/i'lju:mineit/",
+      "definition": "vt.照亮，照明；用灯光装饰；说明，阐释"
+    },
+    {
+      "index": 1893,
+      "word": "improve",
+      "phonetic": "/im'pru:v/",
+      "definition": "v.改善,改进,增进;好转,进步"
+    },
+    {
+      "index": 1894,
+      "word": "fearful",
+      "phonetic": "/'fiəful/",
+      "definition": "a.可怕的，吓人的；害怕，担心，惊恐"
+    },
+    {
+      "index": 1895,
+      "word": "council",
+      "phonetic": "/'kaunsəl/",
+      "definition": "n.理事会,委员会,议事机构"
+    },
+    {
+      "index": 1896,
+      "word": "shiver",
+      "phonetic": "/'ʃivə/",
+      "definition": "v./n.战栗,发抖"
+    },
+    {
+      "index": 1897,
+      "word": "moreover",
+      "phonetic": "/mɔ:'rəuvə/",
+      "definition": "conj./ad.再者,加之,而且"
+    },
+    {
+      "index": 1898,
+      "word": "fill",
+      "phonetic": "/fil/",
+      "definition": "v.(with)填满,充满"
+    },
+    {
+      "index": 1899,
+      "word": "instead",
+      "phonetic": "/ɪn'sted/",
+      "definition": "ad.代替,顶替"
+    },
+    {
+      "index": 1900,
+      "word": "fan",
+      "phonetic": "/fæn/",
+      "definition": "n.扇子,风扇;(影,球等)迷 v.扇,扇动,激起"
+    }
+  ]
+}

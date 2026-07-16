@@ -1,0 +1,307 @@
+{
+  "chunk": 34,
+  "range": "1651-1700",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 1651,
+      "word": "knowledge",
+      "phonetic": "/'nɔlidʒ/",
+      "definition": "n.知识,学识;知道,了解"
+    },
+    {
+      "index": 1652,
+      "word": "add",
+      "phonetic": "/æd/",
+      "definition": "vt.加；增加(进)；进一步说/写 vi.(to)增添"
+    },
+    {
+      "index": 1653,
+      "word": "species",
+      "phonetic": "/'spi:ʃi:z/",
+      "definition": "n.(物)种,种类"
+    },
+    {
+      "index": 1654,
+      "word": "competition",
+      "phonetic": "/ˌkɔmpi'tiʃən/",
+      "definition": "n.竞争，比赛；角逐，较量；[总称]竞争者"
+    },
+    {
+      "index": 1655,
+      "word": "hobby",
+      "phonetic": "/'hɔbi/",
+      "definition": "n.业余爱好,嗜好,兴趣"
+    },
+    {
+      "index": 1656,
+      "word": "presence",
+      "phonetic": "/'prezəns/",
+      "definition": "n.出席,到场,存在,在"
+    },
+    {
+      "index": 1657,
+      "word": "abdomen",
+      "phonetic": "/æb'dəumen/",
+      "definition": "n.腹，下腹(胸部到腿部的部分)"
+    },
+    {
+      "index": 1658,
+      "word": "seldom",
+      "phonetic": "/'seldəm/",
+      "definition": "ad.很少,不常"
+    },
+    {
+      "index": 1659,
+      "word": "poetry",
+      "phonetic": "/'pəuitri/",
+      "definition": "n.诗歌,诗集"
+    },
+    {
+      "index": 1660,
+      "word": "Christmas",
+      "phonetic": "/'krɪsməs/",
+      "definition": "n．圣诞节"
+    },
+    {
+      "index": 1661,
+      "word": "superb",
+      "phonetic": "/sju'pə:b/",
+      "definition": "a.极好的,杰出的；华丽的；"
+    },
+    {
+      "index": 1662,
+      "word": "diversion",
+      "phonetic": "/dai'və:ʃən/",
+      "definition": "n.转向,转移;牵制;解闷;娱乐"
+    },
+    {
+      "index": 1663,
+      "word": "combat",
+      "phonetic": "/'kɔmbæt/",
+      "definition": "v./n.战斗,搏斗,格斗"
+    },
+    {
+      "index": 1664,
+      "word": "humiliate",
+      "phonetic": "/hju:'milieit/",
+      "definition": "v.使羞辱，使丢脸[同]disgrace"
+    },
+    {
+      "index": 1665,
+      "word": "better",
+      "phonetic": "/betə/",
+      "definition": "a.较好的 ad.更好(地) v.改良 n.较佳者"
+    },
+    {
+      "index": 1666,
+      "word": "description",
+      "phonetic": "/di'skripʃən/",
+      "definition": "n.描写,形容;种类"
+    },
+    {
+      "index": 1667,
+      "word": "notebook",
+      "phonetic": "/'nəutbuk/",
+      "definition": "n.笔记本"
+    },
+    {
+      "index": 1668,
+      "word": "ought",
+      "phonetic": "/ɔ:t/",
+      "definition": "aux.应该(使用时,之后应接to,再接动词原形)"
+    },
+    {
+      "index": 1669,
+      "word": "clause",
+      "phonetic": "/klɔ:z/",
+      "definition": "n.(正式文件或法律文件的)条款;从句,分句"
+    },
+    {
+      "index": 1670,
+      "word": "lodge",
+      "phonetic": "/lɔdʒ/",
+      "definition": "v.临时住宿,寄宿,寄存,容纳n.传达室,小旅馆"
+    },
+    {
+      "index": 1671,
+      "word": "legitimate",
+      "phonetic": "/li'dʒitimət/",
+      "definition": "a.合法的；合理的，合乎逻辑的 vt.使合法"
+    },
+    {
+      "index": 1672,
+      "word": "speculate",
+      "phonetic": "/'spekjuleit/",
+      "definition": "vi.思索；推测vt.投机；思索，推测"
+    },
+    {
+      "index": 1673,
+      "word": "wire",
+      "phonetic": "/'waiə/",
+      "definition": "n.金属线,电线;电报,电信 v.发电报(给)"
+    },
+    {
+      "index": 1674,
+      "word": "petrol",
+      "phonetic": "/'petrəl/",
+      "definition": "n.汽油"
+    },
+    {
+      "index": 1675,
+      "word": "mood",
+      "phonetic": "/mu:d/",
+      "definition": "n.心情,情绪;语气"
+    },
+    {
+      "index": 1676,
+      "word": "assistance",
+      "phonetic": "/ə'sistəns/",
+      "definition": "n.协作; 援助; 帮助"
+    },
+    {
+      "index": 1677,
+      "word": "fact",
+      "phonetic": "/fækt/",
+      "definition": "n.事实,实际"
+    },
+    {
+      "index": 1678,
+      "word": "parachute",
+      "phonetic": "/'pærəˌʃu:t/",
+      "definition": "n.降落伞 v.跳伞"
+    },
+    {
+      "index": 1679,
+      "word": "rescue",
+      "phonetic": "/'reskju:/",
+      "definition": "v./n.营救,援救"
+    },
+    {
+      "index": 1680,
+      "word": "cloth",
+      "phonetic": "/klɔθ/",
+      "definition": "n.(一块)布,织物,衣料"
+    },
+    {
+      "index": 1681,
+      "word": "pack",
+      "phonetic": "/pæk/",
+      "definition": "v.捆扎,打包;塞满,挤满n.包裹,背包,一群/副"
+    },
+    {
+      "index": 1682,
+      "word": "best",
+      "phonetic": "/best/",
+      "definition": "a.最好的(good和well最高级) ad.最好地；"
+    },
+    {
+      "index": 1683,
+      "word": "expansion",
+      "phonetic": "/ik'spænʃən/",
+      "definition": "n.扩张,膨胀;张开,伸展"
+    },
+    {
+      "index": 1684,
+      "word": "choke",
+      "phonetic": "/tʃəuk/",
+      "definition": "v.窒息,噎住;闷塞,堵塞,阻塞"
+    },
+    {
+      "index": 1685,
+      "word": "ordinary",
+      "phonetic": "/'ɔ:dinəri/",
+      "definition": "a.普通的,平凡的,平常的;平庸的"
+    },
+    {
+      "index": 1686,
+      "word": "physicist",
+      "phonetic": "/'fizisist/",
+      "definition": "n.物理学家"
+    },
+    {
+      "index": 1687,
+      "word": "birthday",
+      "phonetic": "/'bə:θdei/",
+      "definition": "n.生日；(成方)纪念日"
+    },
+    {
+      "index": 1688,
+      "word": "exceedingly",
+      "phonetic": "/ik'si:diŋli/",
+      "definition": "ad.极端地,非常"
+    },
+    {
+      "index": 1689,
+      "word": "early",
+      "phonetic": "/'ə:li/",
+      "definition": "a.早的,早期的,及早的 ad.早,在初期"
+    },
+    {
+      "index": 1690,
+      "word": "pamphlet",
+      "phonetic": "/'pæmflit/",
+      "definition": "n.小册子"
+    },
+    {
+      "index": 1691,
+      "word": "handwriting",
+      "phonetic": "/'hændˌraitiŋ/",
+      "definition": "n.笔迹,手迹,书法"
+    },
+    {
+      "index": 1692,
+      "word": "gossip",
+      "phonetic": "/'gɔsip/",
+      "definition": "n./v.(说)闲话,闲聊"
+    },
+    {
+      "index": 1693,
+      "word": "incline",
+      "phonetic": "/in'klain/",
+      "definition": "v.(使)倾斜;(使)倾向于 n.斜坡,斜面"
+    },
+    {
+      "index": 1694,
+      "word": "wherever",
+      "phonetic": "/hwεə'evə/",
+      "definition": "conj.无论在哪里 ad.无论在哪里,究竟在哪里"
+    },
+    {
+      "index": 1695,
+      "word": "visa",
+      "phonetic": "/'vi:zə/",
+      "definition": "n.(护照等的)签证;维萨信用卡 vt.签证"
+    },
+    {
+      "index": 1696,
+      "word": "caress",
+      "phonetic": "/kə'res/",
+      "definition": "vt.／n.爱抚，抚摸"
+    },
+    {
+      "index": 1697,
+      "word": "appal",
+      "phonetic": "/ə'pɔ:l/",
+      "definition": "v.使惊骇，使恐怖"
+    },
+    {
+      "index": 1698,
+      "word": "lubricate",
+      "phonetic": "/'lubrikeit/",
+      "definition": "v.润滑,加润滑油,行贿,收买"
+    },
+    {
+      "index": 1699,
+      "word": "discourage",
+      "phonetic": "/dis'kʌridʒ/",
+      "definition": "v.使泄气,使失去信心"
+    },
+    {
+      "index": 1700,
+      "word": "depend",
+      "phonetic": "/di'pend/",
+      "definition": "v.(on)取决于,依靠,信赖,相信"
+    }
+  ]
+}

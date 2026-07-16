@@ -1,0 +1,307 @@
+{
+  "chunk": 51,
+  "range": "2501-2550",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 2501,
+      "word": "boil",
+      "phonetic": "/bɔil/",
+      "definition": "v.(使)沸腾,煮(沸)"
+    },
+    {
+      "index": 2502,
+      "word": "agency",
+      "phonetic": "/'eidʒənsi/",
+      "definition": "n.代理(处)；代办处；[美](政府的)机关，厅"
+    },
+    {
+      "index": 2503,
+      "word": "brief",
+      "phonetic": "/bri:f/",
+      "definition": "a.简短的,简洁的 v.简短介绍,简要汇报"
+    },
+    {
+      "index": 2504,
+      "word": "combine",
+      "phonetic": "/kəm'bain/",
+      "definition": "v.联合；结合；化合 n.集团；联合企业"
+    },
+    {
+      "index": 2505,
+      "word": "roast",
+      "phonetic": "/rəust/",
+      "definition": "v.烤,炙,烘"
+    },
+    {
+      "index": 2506,
+      "word": "snap",
+      "phonetic": "/snæp/",
+      "definition": "v.啪地移动；(使）突然断开，断开（成两截)"
+    },
+    {
+      "index": 2507,
+      "word": "whose",
+      "phonetic": "/hu:z/",
+      "definition": "pron.谁的；哪(个)人的，那些(人)的"
+    },
+    {
+      "index": 2508,
+      "word": "ambitious",
+      "phonetic": "/æm'biʃəs/",
+      "definition": "a.有抱负的，雄心勃勃的；有野心的"
+    },
+    {
+      "index": 2509,
+      "word": "blanket",
+      "phonetic": "/'blæŋkit/",
+      "definition": "n.毯子(可数)；厚厚一层(可数) vt.铺上一层"
+    },
+    {
+      "index": 2510,
+      "word": "escalate",
+      "phonetic": "/'eskəleit/",
+      "definition": "v.(使)逐步增长(或发展)，(使)逐步升级"
+    },
+    {
+      "index": 2511,
+      "word": "hop",
+      "phonetic": "/hɔp/",
+      "definition": "v.人单足跳;跳上(车等) n.蹦跳;短程飞行"
+    },
+    {
+      "index": 2512,
+      "word": "hug",
+      "phonetic": "/hʌg/",
+      "definition": "v./n.热烈拥抱,紧抱"
+    },
+    {
+      "index": 2513,
+      "word": "foolish",
+      "phonetic": "/'fu:liʃ/",
+      "definition": "a.愚笨的,愚蠢的"
+    },
+    {
+      "index": 2514,
+      "word": "splash",
+      "phonetic": "/splæʃ/",
+      "definition": "v.溅,泼 n.溅,飞溅声"
+    },
+    {
+      "index": 2515,
+      "word": "condense",
+      "phonetic": "/kən'dens/",
+      "definition": "v.(使)冷凝，(使)凝结；浓缩，压缩，简缩"
+    },
+    {
+      "index": 2516,
+      "word": "coward",
+      "phonetic": "/'kauəd/",
+      "definition": "n.懦夫,胆怯者"
+    },
+    {
+      "index": 2517,
+      "word": "riot",
+      "phonetic": "/'raiət/",
+      "definition": "n.暴(骚)乱,蔓延,彩色缤纷 v.骚乱,暴动"
+    },
+    {
+      "index": 2518,
+      "word": "kit",
+      "phonetic": "/kit/",
+      "definition": "n.成套工具,用具包,工具箱"
+    },
+    {
+      "index": 2519,
+      "word": "station",
+      "phonetic": "/'steɪʃn/",
+      "definition": "n.车站;所,站,局;身份,地位 v.安置,驻扎"
+    },
+    {
+      "index": 2520,
+      "word": "symphony",
+      "phonetic": "/'simfəni/",
+      "definition": "n.交响乐,交响曲"
+    },
+    {
+      "index": 2521,
+      "word": "nitrogen",
+      "phonetic": "/'naitrədʒən/",
+      "definition": "n.[化]氮"
+    },
+    {
+      "index": 2522,
+      "word": "scrape",
+      "phonetic": "/skreip/",
+      "definition": "v.刮(掉),擦过,勉强通过 n.刮,擦痕,刮擦声"
+    },
+    {
+      "index": 2523,
+      "word": "autumn",
+      "phonetic": "/'ɔ:təm/",
+      "definition": "n.秋，秋季；成熟期，渐衰期"
+    },
+    {
+      "index": 2524,
+      "word": "gate",
+      "phonetic": "/geit/",
+      "definition": "n.大门；入口；观众人数，门票收入"
+    },
+    {
+      "index": 2525,
+      "word": "aural",
+      "phonetic": "/'ɔ:rəl/",
+      "definition": "a.听觉的，听力的"
+    },
+    {
+      "index": 2526,
+      "word": "free",
+      "phonetic": "/fri:/",
+      "definition": "a.自由的;免费的;免税的;空闲的 vt.释放"
+    },
+    {
+      "index": 2527,
+      "word": "able",
+      "phonetic": "/'eibl/",
+      "definition": "a.有(能力、知识等)做某事，有本事的"
+    },
+    {
+      "index": 2528,
+      "word": "skate",
+      "phonetic": "/skeit/",
+      "definition": "v.溜冰,滑冰 n.冰鞋"
+    },
+    {
+      "index": 2529,
+      "word": "cater",
+      "phonetic": "/'keitə/",
+      "definition": "vi.(for/to)满足,迎合;(for)提供饮食及服务"
+    },
+    {
+      "index": 2530,
+      "word": "miracle",
+      "phonetic": "/'mirəkl/",
+      "definition": "n.奇迹,令人惊奇的人(或事)"
+    },
+    {
+      "index": 2531,
+      "word": "hundred",
+      "phonetic": "/'hʌndrəd/",
+      "definition": "num.百，一百；[pl.]许多 a.一百的；许多"
+    },
+    {
+      "index": 2532,
+      "word": "textbook",
+      "phonetic": "/'tekstbuk/",
+      "definition": "n.课本,教科书"
+    },
+    {
+      "index": 2533,
+      "word": "police",
+      "phonetic": "/pə'li:s/",
+      "definition": "n.警察,警察机关 a.警察的 v.管辖"
+    },
+    {
+      "index": 2534,
+      "word": "graze",
+      "phonetic": "/greiz/",
+      "definition": "vi.吃青草 vt.放牧;擦伤;掠过 .n.擦伤(处)"
+    },
+    {
+      "index": 2535,
+      "word": "route",
+      "phonetic": "/ru:t/",
+      "definition": "n.路线,路程"
+    },
+    {
+      "index": 2536,
+      "word": "northwest",
+      "phonetic": "/ˌnɔ:θ'west/",
+      "definition": "n.西北方,西北部a.西北的ad.向西北,在西北"
+    },
+    {
+      "index": 2537,
+      "word": "merry",
+      "phonetic": "/'meri/",
+      "definition": "a.欢乐的,愉快的"
+    },
+    {
+      "index": 2538,
+      "word": "powerful",
+      "phonetic": "/'pauəful/",
+      "definition": "a.强大的,有力的,有权的"
+    },
+    {
+      "index": 2539,
+      "word": "brown",
+      "phonetic": "/braun/",
+      "definition": "n./a.褐色(的),棕色(的)"
+    },
+    {
+      "index": 2540,
+      "word": "lonely",
+      "phonetic": "/'ləunli/",
+      "definition": "a.孤独的，寂寞的；荒凉的，人迹稀少的"
+    },
+    {
+      "index": 2541,
+      "word": "fabric",
+      "phonetic": "/'fæbrik/",
+      "definition": "n.织物;织品;结构;构造;建筑物"
+    },
+    {
+      "index": 2542,
+      "word": "composition",
+      "phonetic": "/ˌkɒmpə'zɪʃn/",
+      "definition": "n.作品,作文,乐曲;作曲;结构,组成,成分"
+    },
+    {
+      "index": 2543,
+      "word": "cylinder",
+      "phonetic": "/'silində/",
+      "definition": "n.圆筒,圆锥体;汽缸"
+    },
+    {
+      "index": 2544,
+      "word": "when",
+      "phonetic": "/hwen/",
+      "definition": "ad./pron.何时；当时 conj.那时；然后；而"
+    },
+    {
+      "index": 2545,
+      "word": "radar",
+      "phonetic": "/'reidə/",
+      "definition": "n.雷达"
+    },
+    {
+      "index": 2546,
+      "word": "baggage",
+      "phonetic": "/'bægidʒ/",
+      "definition": "n.行李"
+    },
+    {
+      "index": 2547,
+      "word": "prompt",
+      "phonetic": "/prɔmpt/",
+      "definition": "a.敏捷的,迅速的,即刻的 v.激起,促进,推动"
+    },
+    {
+      "index": 2548,
+      "word": "criminal",
+      "phonetic": "/'kriminəl/",
+      "definition": "n.罪犯,刑事犯 a.犯罪的,刑事的"
+    },
+    {
+      "index": 2549,
+      "word": "impose",
+      "phonetic": "/im'pəuz/",
+      "definition": "v.征(税);(on)把…强加给"
+    },
+    {
+      "index": 2550,
+      "word": "delicious",
+      "phonetic": "/di'liʃəs/",
+      "definition": "a.美味的;美妙的;使人愉快的"
+    }
+  ]
+}

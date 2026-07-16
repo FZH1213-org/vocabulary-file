@@ -1,0 +1,307 @@
+{
+  "chunk": 35,
+  "range": "1701-1750",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 1701,
+      "word": "devise",
+      "phonetic": "/dɪ'vaɪz/",
+      "definition": "vt.设计;发明;图谋;作出(计划);想出(办法)"
+    },
+    {
+      "index": 1702,
+      "word": "alone",
+      "phonetic": "/ə'ləun/",
+      "definition": "a.单独的，孤独的 ad.独自地；仅仅"
+    },
+    {
+      "index": 1703,
+      "word": "kilometre",
+      "phonetic": "/'kiləmi:tə(r)/",
+      "definition": "n.(kilometer) 公里，千米(略作km)"
+    },
+    {
+      "index": 1704,
+      "word": "joint",
+      "phonetic": "/dʒɔint/",
+      "definition": "n.接合处,接头;关节a.联合的,共同的,连接的"
+    },
+    {
+      "index": 1705,
+      "word": "guy",
+      "phonetic": "/gai/",
+      "definition": "n.家伙, 人"
+    },
+    {
+      "index": 1706,
+      "word": "largely",
+      "phonetic": "/'lɑ:dʒli/",
+      "definition": "ad.主要地,基本上;大量地,大规模地"
+    },
+    {
+      "index": 1707,
+      "word": "pint",
+      "phonetic": "/paint/",
+      "definition": "n.品脱"
+    },
+    {
+      "index": 1708,
+      "word": "plunge",
+      "phonetic": "/plʌndʒ/",
+      "definition": "v.(into)(使)投入,(使)插进,陷入;猛冲"
+    },
+    {
+      "index": 1709,
+      "word": "bid",
+      "phonetic": "/bid/",
+      "definition": "v.祝愿;命令,吩咐;报价,投标 n.出众,投标"
+    },
+    {
+      "index": 1710,
+      "word": "stick",
+      "phonetic": "/stɪk/",
+      "definition": "n.棍,棒,手杖 v.刺,戳,扎;粘贴"
+    },
+    {
+      "index": 1711,
+      "word": "advent",
+      "phonetic": "/'ædvənt/",
+      "definition": "n.(重要事件等的)到来，来临"
+    },
+    {
+      "index": 1712,
+      "word": "require",
+      "phonetic": "/ri'kwaiə/",
+      "definition": "v.需要;(of)要求,命令"
+    },
+    {
+      "index": 1713,
+      "word": "handle",
+      "phonetic": "/'hændl/",
+      "definition": "n.柄,把手,拉手 v.处理,对待,操纵;触,抚养"
+    },
+    {
+      "index": 1714,
+      "word": "naval",
+      "phonetic": "/'neivəl/",
+      "definition": "n.海军的,军舰的"
+    },
+    {
+      "index": 1715,
+      "word": "tuck",
+      "phonetic": "/tʌk/",
+      "definition": "v.卷起;塞进"
+    },
+    {
+      "index": 1716,
+      "word": "millionaire",
+      "phonetic": "/ˌmiljə'nεə/",
+      "definition": "n.百万富翁"
+    },
+    {
+      "index": 1717,
+      "word": "compress",
+      "phonetic": "/kəm'pres/",
+      "definition": "vt.压紧，压缩；(把思想、文字等)浓缩"
+    },
+    {
+      "index": 1718,
+      "word": "piston",
+      "phonetic": "/'pistən/",
+      "definition": "n.活塞"
+    },
+    {
+      "index": 1719,
+      "word": "season",
+      "phonetic": "/'si:zən/",
+      "definition": "n.季,季节,时节"
+    },
+    {
+      "index": 1720,
+      "word": "bury",
+      "phonetic": "/'beri/",
+      "definition": "v.埋(葬),安葬;埋藏,遮盖"
+    },
+    {
+      "index": 1721,
+      "word": "prize",
+      "phonetic": "/praiz/",
+      "definition": "n.奖赏,奖金,奖品 v.珍视,珍惜"
+    },
+    {
+      "index": 1722,
+      "word": "canvas",
+      "phonetic": "/'kænvəs/",
+      "definition": "n.帆布；帆布画布，(帆布)油画"
+    },
+    {
+      "index": 1723,
+      "word": "delicate",
+      "phonetic": "/'delikət/",
+      "definition": "a.纤弱的;精致的;微妙的;灵敏的"
+    },
+    {
+      "index": 1724,
+      "word": "circus",
+      "phonetic": "/'sə:kəs/",
+      "definition": "n.马戏团,杂技团;马戏场,杂技场"
+    },
+    {
+      "index": 1725,
+      "word": "spade",
+      "phonetic": "/'speid/",
+      "definition": "n.铁锹,铲子"
+    },
+    {
+      "index": 1726,
+      "word": "between",
+      "phonetic": "/bi'twi:n/",
+      "definition": "prep.在…之间，在(两者)之间 ad.在中间"
+    },
+    {
+      "index": 1727,
+      "word": "cap",
+      "phonetic": "/kæp/",
+      "definition": "n.便帽,军帽;盖,罩,套 v.覆盖于…顶端"
+    },
+    {
+      "index": 1728,
+      "word": "impress",
+      "phonetic": "/im'pres/",
+      "definition": "v.(on)印,盖印;留下印象,引人注目"
+    },
+    {
+      "index": 1729,
+      "word": "disorder",
+      "phonetic": "/dis'ɔ:də/",
+      "definition": "n.混乱,杂乱;骚乱;失调,疾病"
+    },
+    {
+      "index": 1730,
+      "word": "there",
+      "phonetic": "/ðεə/",
+      "definition": "ad.在那儿；往那儿；[作引导词表示\"存在\"]"
+    },
+    {
+      "index": 1731,
+      "word": "task",
+      "phonetic": "/tɑ:sk/",
+      "definition": "n.任务,作业,工作"
+    },
+    {
+      "index": 1732,
+      "word": "wall",
+      "phonetic": "/wɔ:l/",
+      "definition": "n.墙，壁，围墙vt.筑墙围住，用墙隔开"
+    },
+    {
+      "index": 1733,
+      "word": "discourse",
+      "phonetic": "/'diskɔ:s/",
+      "definition": "n.论文;演说;谈话;话语 vi.讲述,著述"
+    },
+    {
+      "index": 1734,
+      "word": "eve",
+      "phonetic": "/i:v/",
+      "definition": "n.(节日等的)前夜,前夕"
+    },
+    {
+      "index": 1735,
+      "word": "inner",
+      "phonetic": "/'inə/",
+      "definition": "a.内部的,里面的;内心的"
+    },
+    {
+      "index": 1736,
+      "word": "union",
+      "phonetic": "/'ju:niən/",
+      "definition": "n.联合,团结;联盟,联邦;协会,社团;和谐"
+    },
+    {
+      "index": 1737,
+      "word": "ton",
+      "phonetic": "/tʌnˌ tuŋ/",
+      "definition": "n.吨;(pl.)大量,许多"
+    },
+    {
+      "index": 1738,
+      "word": "radiate",
+      "phonetic": "/'reidieit/",
+      "definition": "v.放射,辐射;散布,传播"
+    },
+    {
+      "index": 1739,
+      "word": "encyclopedia",
+      "phonetic": "/ɪnˌsaɪklə'pi:diə/",
+      "definition": "n.(encyclopaedia)百科全书"
+    },
+    {
+      "index": 1740,
+      "word": "rank",
+      "phonetic": "/ræŋk/",
+      "definition": "n.军衔,社会阶层;排 v.分等级,把…分类"
+    },
+    {
+      "index": 1741,
+      "word": "whoever",
+      "phonetic": "/hu:'evə/",
+      "definition": "pron.[引导名词从句]谁；无论谁；究竟是谁"
+    },
+    {
+      "index": 1742,
+      "word": "mild",
+      "phonetic": "/maild/",
+      "definition": "a.温和的,轻微的,味淡的,不含有害物质的的"
+    },
+    {
+      "index": 1743,
+      "word": "mechanic",
+      "phonetic": "/mi'kænik/",
+      "definition": "n.技工,机修工"
+    },
+    {
+      "index": 1744,
+      "word": "owe",
+      "phonetic": "/əu/",
+      "definition": "v.欠(债等),应向…付出,归功于,得感谢"
+    },
+    {
+      "index": 1745,
+      "word": "welcome",
+      "phonetic": "/'welkəm/",
+      "definition": "int.欢迎 a.受欢迎的 vt./n.欢迎；迎接"
+    },
+    {
+      "index": 1746,
+      "word": "briefcase",
+      "phonetic": "/'bri:fkeis/",
+      "definition": "n.手提箱，公事皮包"
+    },
+    {
+      "index": 1747,
+      "word": "dairy",
+      "phonetic": "/'dεəri/",
+      "definition": "n.牛奶场,奶店"
+    },
+    {
+      "index": 1748,
+      "word": "loud",
+      "phonetic": "/laud/",
+      "definition": "a.大声的,响亮的;吵闹的,喧嚣的"
+    },
+    {
+      "index": 1749,
+      "word": "strict",
+      "phonetic": "/strikt/",
+      "definition": "a.(with)严格的,严厉的;严谨的,精确的"
+    },
+    {
+      "index": 1750,
+      "word": "likelihood",
+      "phonetic": "/'laiklihud/",
+      "definition": "n.可能性"
+    }
+  ]
+}

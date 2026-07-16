@@ -1,0 +1,307 @@
+{
+  "chunk": 55,
+  "range": "2701-2750",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 2701,
+      "word": "flesh",
+      "phonetic": "/fleʃ/",
+      "definition": "n.肉,肌肉"
+    },
+    {
+      "index": 2702,
+      "word": "refresh",
+      "phonetic": "/ri'freʃ/",
+      "definition": "v.(使)精神振作,(使)精力恢复"
+    },
+    {
+      "index": 2703,
+      "word": "astronaut",
+      "phonetic": "/'æstrənɔ:t/",
+      "definition": "n.太空人，太空旅行者"
+    },
+    {
+      "index": 2704,
+      "word": "golden",
+      "phonetic": "/'gəuldən/",
+      "definition": "a.金黄色的;贵重的,极好的"
+    },
+    {
+      "index": 2705,
+      "word": "yawn",
+      "phonetic": "/jɔ:n/",
+      "definition": "v.打呵欠 n.呵欠"
+    },
+    {
+      "index": 2706,
+      "word": "sophomore",
+      "phonetic": "/'sɔfəmɔ:/",
+      "definition": "(中学、大学)二年级学生"
+    },
+    {
+      "index": 2707,
+      "word": "virus",
+      "phonetic": "/'vaiərəs/",
+      "definition": "n.病毒;(精神,道德方面的)有害影响"
+    },
+    {
+      "index": 2708,
+      "word": "status",
+      "phonetic": "/'steɪtəs/",
+      "definition": "n.地位,身份;情形,状况"
+    },
+    {
+      "index": 2709,
+      "word": "range",
+      "phonetic": "/reɪndʒ/",
+      "definition": "n.范围,领域;排列,连续;(山)脉v.排列成行"
+    },
+    {
+      "index": 2710,
+      "word": "vivid",
+      "phonetic": "/'vivid/",
+      "definition": "a.鲜艳的;生动的,栩栩如生的"
+    },
+    {
+      "index": 2711,
+      "word": "aloud",
+      "phonetic": "/ə'laud/",
+      "definition": "adv.出声地，大声地"
+    },
+    {
+      "index": 2712,
+      "word": "saw",
+      "phonetic": "/sɔ:/",
+      "definition": "n.锯子,锯床 v.锯,锯开"
+    },
+    {
+      "index": 2713,
+      "word": "testify",
+      "phonetic": "/'testifai/",
+      "definition": "v.作证，证明；(to)表明，说明"
+    },
+    {
+      "index": 2714,
+      "word": "remains",
+      "phonetic": "/ri'meinz/",
+      "definition": "n.(pl.)剩余,残余,遗迹"
+    },
+    {
+      "index": 2715,
+      "word": "heaven",
+      "phonetic": "/'hevən/",
+      "definition": "n.天,天空,天堂;(Heaven)上帝,神"
+    },
+    {
+      "index": 2716,
+      "word": "transform",
+      "phonetic": "/træns'fɔ:m/",
+      "definition": "vt.改变,变换;变压;转化;改造,改造"
+    },
+    {
+      "index": 2717,
+      "word": "inherent",
+      "phonetic": "/in'hiərənt/",
+      "definition": "a.固有的,内在的,天生的"
+    },
+    {
+      "index": 2718,
+      "word": "dull",
+      "phonetic": "/dʌl/",
+      "definition": "a.单调的;迟钝的,愚笨的;不锋利的"
+    },
+    {
+      "index": 2719,
+      "word": "robot",
+      "phonetic": "/'rəubɔt/",
+      "definition": "n.机器人,自动机械"
+    },
+    {
+      "index": 2720,
+      "word": "suggest",
+      "phonetic": "/sə'dʒest/",
+      "definition": "v.建议,提出；使联想,使想起…；暗示"
+    },
+    {
+      "index": 2721,
+      "word": "romance",
+      "phonetic": "/rəu'mæns/",
+      "definition": "n.传奇,爱情故事"
+    },
+    {
+      "index": 2722,
+      "word": "text",
+      "phonetic": "/tekst/",
+      "definition": "n.正文，文本；原文；教科书"
+    },
+    {
+      "index": 2723,
+      "word": "lantern",
+      "phonetic": "/'læntən/",
+      "definition": "n.灯,灯笼"
+    },
+    {
+      "index": 2724,
+      "word": "clergy",
+      "phonetic": "/'klə:dʒi/",
+      "definition": "n.[总称]牧师，神职人员"
+    },
+    {
+      "index": 2725,
+      "word": "apartment",
+      "phonetic": "/ə'pɑ:tmənt/",
+      "definition": "n.[英]房间，套间；[美]公寓"
+    },
+    {
+      "index": 2726,
+      "word": "gather",
+      "phonetic": "/'gæðə/",
+      "definition": "v.聚集,聚拢;推测,推断"
+    },
+    {
+      "index": 2727,
+      "word": "arrival",
+      "phonetic": "/ə'raivəl/",
+      "definition": "n.到达，到来；到达者，到达物"
+    },
+    {
+      "index": 2728,
+      "word": "forget",
+      "phonetic": "/fə'gɛt/",
+      "definition": "v.忘记,遗忘"
+    },
+    {
+      "index": 2729,
+      "word": "outlook",
+      "phonetic": "/'autluk/",
+      "definition": "n.景色,风光;观点,见解;展望,前景"
+    },
+    {
+      "index": 2730,
+      "word": "grand",
+      "phonetic": "/grænd/",
+      "definition": "a.盛大的,豪华的;重大的,主要的"
+    },
+    {
+      "index": 2731,
+      "word": "slip",
+      "phonetic": "/slip/",
+      "definition": "v.滑,滑倒;滑掉;溜走n.疏忽,小错,口误,笔误"
+    },
+    {
+      "index": 2732,
+      "word": "survey",
+      "phonetic": "/sə:'vei/",
+      "definition": "v./n.俯瞰,眺望;全面审视,调查;测量图,勘定"
+    },
+    {
+      "index": 2733,
+      "word": "refreshment",
+      "phonetic": "/ri'freʃmənt/",
+      "definition": "n.(pl.)点心,饮料;精力恢复,爽快"
+    },
+    {
+      "index": 2734,
+      "word": "adapt",
+      "phonetic": "/ə'dæpt/",
+      "definition": "vt.使适应，使适合；改编；改写 vi.适应"
+    },
+    {
+      "index": 2735,
+      "word": "outrage",
+      "phonetic": "/'autreidʒ/",
+      "definition": "n.暴行,侮辱,愤怒 v.凌辱,引起…义愤,强奸"
+    },
+    {
+      "index": 2736,
+      "word": "wool",
+      "phonetic": "/wul/",
+      "definition": "n.羊毛,毛线,毛织品"
+    },
+    {
+      "index": 2737,
+      "word": "sit",
+      "phonetic": "/sɪt/",
+      "definition": "vi.坐，坐下；位于；栖息；孵卵 vt.使就坐"
+    },
+    {
+      "index": 2738,
+      "word": "pedestrian",
+      "phonetic": "/pi'destriən/",
+      "definition": "n.步行者 a.徒步的,呆板的,通俗的"
+    },
+    {
+      "index": 2739,
+      "word": "artery",
+      "phonetic": "/'ɑ:təri/",
+      "definition": "n.动脉；干线，要道"
+    },
+    {
+      "index": 2740,
+      "word": "compensation",
+      "phonetic": "/ˌkɔmpen'seiʃən/",
+      "definition": "n.补偿(或赔偿)的款物；补偿，赔偿"
+    },
+    {
+      "index": 2741,
+      "word": "calm",
+      "phonetic": "/kɑ:m/",
+      "definition": "a.(天气,海洋等)静的 n.平静 v.(使)平静"
+    },
+    {
+      "index": 2742,
+      "word": "monthly",
+      "phonetic": "/'mʌnθli/",
+      "definition": "a.每月的 ad.每月一次,按月 n.月刊"
+    },
+    {
+      "index": 2743,
+      "word": "income",
+      "phonetic": "/'inkʌm/",
+      "definition": "n.收入,收益,所得"
+    },
+    {
+      "index": 2744,
+      "word": "chocolate",
+      "phonetic": "/'tʃɔkəlit/",
+      "definition": "n.巧克力(糖),赭色"
+    },
+    {
+      "index": 2745,
+      "word": "swear",
+      "phonetic": "/swεə/",
+      "definition": "v.(at)诅咒,骂人;宣誓,发誓"
+    },
+    {
+      "index": 2746,
+      "word": "gap",
+      "phonetic": "/gæp/",
+      "definition": "n.缺口;差距;空白;缺乏"
+    },
+    {
+      "index": 2747,
+      "word": "sincere",
+      "phonetic": "/sin'siə/",
+      "definition": "a.诚挚的,真实的,诚恳的"
+    },
+    {
+      "index": 2748,
+      "word": "worst",
+      "phonetic": "/wə:st/",
+      "definition": "a./ad.最坏(的),最差(的)"
+    },
+    {
+      "index": 2749,
+      "word": "everyday",
+      "phonetic": "/'evridei/",
+      "definition": "adj.每日的，日常的"
+    },
+    {
+      "index": 2750,
+      "word": "outbreak",
+      "phonetic": "/'autbreik/",
+      "definition": "n.(战争,愤怒,火灾等的)爆发,(疾病的)发作"
+    }
+  ]
+}

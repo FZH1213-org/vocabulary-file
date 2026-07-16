@@ -1,0 +1,307 @@
+{
+  "chunk": 95,
+  "range": "4701-4750",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 4701,
+      "word": "subjective",
+      "phonetic": "/səb'dʒektiv/",
+      "definition": "a.主观(上)的，个人的"
+    },
+    {
+      "index": 4702,
+      "word": "leave",
+      "phonetic": "/li:v/",
+      "definition": "v.离开;留下,忘带;让,听任;交付n.许可;假期"
+    },
+    {
+      "index": 4703,
+      "word": "horrible",
+      "phonetic": "/'hɔrəbl/",
+      "definition": "a.令人恐惧的，可怕的；极讨厌的，糟透的"
+    },
+    {
+      "index": 4704,
+      "word": "volleyball",
+      "phonetic": "/'vɔlibɔ:l/",
+      "definition": "n.排球"
+    },
+    {
+      "index": 4705,
+      "word": "react",
+      "phonetic": "/ri'ækt/",
+      "definition": "v.反应,起作用;(against)反对,起反作用"
+    },
+    {
+      "index": 4706,
+      "word": "charity",
+      "phonetic": "/'tʃærəti/",
+      "definition": "n.慈善(团体),仁慈,施舍"
+    },
+    {
+      "index": 4707,
+      "word": "ingenious",
+      "phonetic": "/in'dʒi:njəs/",
+      "definition": "a.机敏的;有独创性的;精致的;精巧制成的"
+    },
+    {
+      "index": 4708,
+      "word": "reality",
+      "phonetic": "/ri'æləti/",
+      "definition": "n.现实,实际;真实"
+    },
+    {
+      "index": 4709,
+      "word": "lock",
+      "phonetic": "/lɔk/",
+      "definition": "n.锁 v.锁,锁上"
+    },
+    {
+      "index": 4710,
+      "word": "stay",
+      "phonetic": "/stei/",
+      "definition": "vi.逗留；保持vt.停止，延缓n.逗留，停留"
+    },
+    {
+      "index": 4711,
+      "word": "habitat",
+      "phonetic": "/'hæbitæt/",
+      "definition": "n.(动物的)栖息地，(植物的)产地"
+    },
+    {
+      "index": 4712,
+      "word": "frost",
+      "phonetic": "/frɔst/",
+      "definition": "n.霜,霜冻,严寒"
+    },
+    {
+      "index": 4713,
+      "word": "field",
+      "phonetic": "/fi:ld/",
+      "definition": "n.田野；运动场；(电或磁)场；领域，范围"
+    },
+    {
+      "index": 4714,
+      "word": "senator",
+      "phonetic": "/'senətə/",
+      "definition": "n.参议员"
+    },
+    {
+      "index": 4715,
+      "word": "volt",
+      "phonetic": "/vɔlt/",
+      "definition": "n.伏特"
+    },
+    {
+      "index": 4716,
+      "word": "distinguish",
+      "phonetic": "/dis'tiŋgwiʃ/",
+      "definition": "v.(from)区别,辨别;辨认出;使杰出"
+    },
+    {
+      "index": 4717,
+      "word": "objection",
+      "phonetic": "/əb'dʒekʃən/",
+      "definition": "n.(to)反对,异议,不喜欢,反对的理由"
+    },
+    {
+      "index": 4718,
+      "word": "chew",
+      "phonetic": "/tʃu:/",
+      "definition": "v.咀嚼;思量"
+    },
+    {
+      "index": 4719,
+      "word": "society",
+      "phonetic": "/sə'saiəti/",
+      "definition": "n.社会;社团,协会,社;社交界,上流社会"
+    },
+    {
+      "index": 4720,
+      "word": "routine",
+      "phonetic": "/ru:'ti:n/",
+      "definition": "n.例行公事,常规 a.常规的,例行的"
+    },
+    {
+      "index": 4721,
+      "word": "bacon",
+      "phonetic": "/'beikən/",
+      "definition": "n.咸猪肉,熏猪肉"
+    },
+    {
+      "index": 4722,
+      "word": "relation",
+      "phonetic": "/ri'leiʃən/",
+      "definition": "n.关系,联系;亲属,亲戚"
+    },
+    {
+      "index": 4723,
+      "word": "habit",
+      "phonetic": "/'hæbit/",
+      "definition": "n.习惯,习性,脾性"
+    },
+    {
+      "index": 4724,
+      "word": "alcohol",
+      "phonetic": "/'ælkəhɔl/",
+      "definition": "n.酒精，乙醇；含酒精的饮料"
+    },
+    {
+      "index": 4725,
+      "word": "fluent",
+      "phonetic": "/'flu(:)ənt/",
+      "definition": "a.流利的,流畅的"
+    },
+    {
+      "index": 4726,
+      "word": "constitute",
+      "phonetic": "/'kɔnstitju:t/",
+      "definition": "vt.组成，构成，形成；设立，建立，任命"
+    },
+    {
+      "index": 4727,
+      "word": "pillow",
+      "phonetic": "/'piləu/",
+      "definition": "n.枕头"
+    },
+    {
+      "index": 4728,
+      "word": "thus",
+      "phonetic": "/ðʌs/",
+      "definition": "ad.如此；像这样；于是；因此"
+    },
+    {
+      "index": 4729,
+      "word": "dismiss",
+      "phonetic": "/dɪs'mɪs/",
+      "definition": "v.免职,解雇,开除,解散"
+    },
+    {
+      "index": 4730,
+      "word": "headache",
+      "phonetic": "/'hedeik/",
+      "definition": "n.头痛"
+    },
+    {
+      "index": 4731,
+      "word": "comrade",
+      "phonetic": "/'kɔmrid/",
+      "definition": "n.同志,同事,同伴,朋友"
+    },
+    {
+      "index": 4732,
+      "word": "diamond",
+      "phonetic": "/'daiəmənd/",
+      "definition": "n.金钢石,钻石;菱形"
+    },
+    {
+      "index": 4733,
+      "word": "motor",
+      "phonetic": "/'məutə/",
+      "definition": "n.发动机,电动机"
+    },
+    {
+      "index": 4734,
+      "word": "draft",
+      "phonetic": "/drɑ:ft/",
+      "definition": "n.草稿,草案,草图 v.起草,草拟"
+    },
+    {
+      "index": 4735,
+      "word": "nose",
+      "phonetic": "/nəuz/",
+      "definition": "n.鼻子;(飞机,船等的)前端,突出部分"
+    },
+    {
+      "index": 4736,
+      "word": "sting",
+      "phonetic": "/stiŋ/",
+      "definition": "v./n.刺,刺痛,剧痛;刺,叮"
+    },
+    {
+      "index": 4737,
+      "word": "exist",
+      "phonetic": "/ig'zist/",
+      "definition": "v.存在;生存;生活"
+    },
+    {
+      "index": 4738,
+      "word": "slaughter",
+      "phonetic": "/'slɔ:tə/",
+      "definition": "n.屠杀，屠宰 vt.屠杀，宰杀"
+    },
+    {
+      "index": 4739,
+      "word": "widow",
+      "phonetic": "/'widəu/",
+      "definition": "n.寡妇"
+    },
+    {
+      "index": 4740,
+      "word": "minor",
+      "phonetic": "/'maɪnə(r)/",
+      "definition": "a.较小的,较小的 n.兼修学科 v.(in)兼修"
+    },
+    {
+      "index": 4741,
+      "word": "shatter",
+      "phonetic": "/'ʃætə/",
+      "definition": "n.碎片；粉碎　v.粉碎；使疲惫；使震骇"
+    },
+    {
+      "index": 4742,
+      "word": "momentum",
+      "phonetic": "/məu'mentəm/",
+      "definition": "n.动力,要素"
+    },
+    {
+      "index": 4743,
+      "word": "vocal",
+      "phonetic": "/'vəukl/",
+      "definition": "a.声音的;有声的;歌唱的 n.元音;声乐作品"
+    },
+    {
+      "index": 4744,
+      "word": "lunar",
+      "phonetic": "/'lju:nə/",
+      "definition": "a.月亮的"
+    },
+    {
+      "index": 4745,
+      "word": "culture",
+      "phonetic": "/'kʌltʃə/",
+      "definition": "n.文化,文明;修养;耕种；栽培,培育;"
+    },
+    {
+      "index": 4746,
+      "word": "comparison",
+      "phonetic": "/kəm'pærisən/",
+      "definition": "n.比较,对比,比喻,比拟"
+    },
+    {
+      "index": 4747,
+      "word": "region",
+      "phonetic": "/'ri:dʒən/",
+      "definition": "n.地区,地带,行政区,(科学等)领域"
+    },
+    {
+      "index": 4748,
+      "word": "recent",
+      "phonetic": "/'ri:sənt/",
+      "definition": "a.新近的,近来的"
+    },
+    {
+      "index": 4749,
+      "word": "simplify",
+      "phonetic": "/'simplifai/",
+      "definition": "v.简化,使单纯"
+    },
+    {
+      "index": 4750,
+      "word": "tick",
+      "phonetic": "/tik/",
+      "definition": "n.滴答声;勾号 v.滴答响;打勾号于"
+    }
+  ]
+}

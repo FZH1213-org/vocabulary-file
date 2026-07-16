@@ -1,0 +1,307 @@
+{
+  "chunk": 62,
+  "range": "3051-3100",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 3051,
+      "word": "policeman",
+      "phonetic": "/pə'li:smən/",
+      "definition": "n.警察"
+    },
+    {
+      "index": 3052,
+      "word": "murmur",
+      "phonetic": "/'mə:mə/",
+      "definition": "v./n.小声说(话);小声抱怨,咕哝"
+    },
+    {
+      "index": 3053,
+      "word": "jet",
+      "phonetic": "/dʒet/",
+      "definition": "n.喷气发动机,喷气式飞机;喷口 v.喷出,喷射"
+    },
+    {
+      "index": 3054,
+      "word": "length",
+      "phonetic": "/leŋθ/",
+      "definition": "n.长,长度;一段,一节,程度,范围"
+    },
+    {
+      "index": 3055,
+      "word": "mug",
+      "phonetic": "/mʌg/",
+      "definition": "n.(有柄的)大茶杯"
+    },
+    {
+      "index": 3056,
+      "word": "graphic",
+      "phonetic": "/'græfik/",
+      "definition": "a.绘画似的, 图解的,生动的"
+    },
+    {
+      "index": 3057,
+      "word": "sudden",
+      "phonetic": "/'sʌdən/",
+      "definition": "a.出乎意料的，突然的"
+    },
+    {
+      "index": 3058,
+      "word": "weight",
+      "phonetic": "/weit/",
+      "definition": "n.重量;负荷,重担;重要性,分量;砝码,秤砣"
+    },
+    {
+      "index": 3059,
+      "word": "surgeon",
+      "phonetic": "/'sə:dʒən/",
+      "definition": "n.外科医生"
+    },
+    {
+      "index": 3060,
+      "word": "ribbon",
+      "phonetic": "/'ribən/",
+      "definition": "n.缎带,丝带,带,带状物"
+    },
+    {
+      "index": 3061,
+      "word": "augment",
+      "phonetic": "/ɔ:g'ment/",
+      "definition": "vt.(使)增大，增加，增长，扩张"
+    },
+    {
+      "index": 3062,
+      "word": "domain",
+      "phonetic": "/dəu'mein/",
+      "definition": "n.(活动,思想等)领域,范围;领地"
+    },
+    {
+      "index": 3063,
+      "word": "pollute",
+      "phonetic": "/pə'lut/",
+      "definition": "v.弄脏,污染"
+    },
+    {
+      "index": 3064,
+      "word": "costume",
+      "phonetic": "/'kɔstju:m/",
+      "definition": "n.(流行的)服饰；戏装，(特定场合的)套装"
+    },
+    {
+      "index": 3065,
+      "word": "money",
+      "phonetic": "/'mʌni/",
+      "definition": "n.货币,钱"
+    },
+    {
+      "index": 3066,
+      "word": "particle",
+      "phonetic": "/'pɑ:tikl/",
+      "definition": "n.粒子,微粒;极小量;小品词,虚词"
+    },
+    {
+      "index": 3067,
+      "word": "pope",
+      "phonetic": "/pəup/",
+      "definition": "n.罗马教皇,主教,大腿上要害部位"
+    },
+    {
+      "index": 3068,
+      "word": "month",
+      "phonetic": "/mʌnθ/",
+      "definition": "n.月,月份"
+    },
+    {
+      "index": 3069,
+      "word": "diligent",
+      "phonetic": "/'dilidʒənt/",
+      "definition": "a.勤奋的,用功的"
+    },
+    {
+      "index": 3070,
+      "word": "family",
+      "phonetic": "/'fæməli/",
+      "definition": "n.家,家庭成员;氏族,家庭;族,科"
+    },
+    {
+      "index": 3071,
+      "word": "current",
+      "phonetic": "/'kʌrənt/",
+      "definition": "n.电流,水流;潮流,趋势 a.当前的;流通的"
+    },
+    {
+      "index": 3072,
+      "word": "cancel",
+      "phonetic": "/'kænsl/",
+      "definition": "v.取消,把…作废;删去,划掉"
+    },
+    {
+      "index": 3073,
+      "word": "surge",
+      "phonetic": "/sɜ:dʒ/",
+      "definition": "vi.汹涌；彭湃；蜂拥而至 n.巨浪;汹涌;彭湃"
+    },
+    {
+      "index": 3074,
+      "word": "publish",
+      "phonetic": "/'pʌbliʃ/",
+      "definition": "v.出版,刊印;公布,发布"
+    },
+    {
+      "index": 3075,
+      "word": "soldier",
+      "phonetic": "/'səuldʒə/",
+      "definition": "n.士兵,军人"
+    },
+    {
+      "index": 3076,
+      "word": "vocation",
+      "phonetic": "/vəu'keiʃən/",
+      "definition": "n.职业;召唤;天命;天职;才能"
+    },
+    {
+      "index": 3077,
+      "word": "resolute",
+      "phonetic": "/'rezəlju:t/",
+      "definition": "a.坚决的,果断的"
+    },
+    {
+      "index": 3078,
+      "word": "service",
+      "phonetic": "/'sə:vis/",
+      "definition": "n.服务;公共设施;维修保养;行政部门v.维修"
+    },
+    {
+      "index": 3079,
+      "word": "mutter",
+      "phonetic": "/'mʌtə/",
+      "definition": "n.喃喃而语,小声低语;抱怨 v.低声说,抱怨"
+    },
+    {
+      "index": 3080,
+      "word": "dean",
+      "phonetic": "/di:n/",
+      "definition": "n.(大学)院长;主持牧师; (基督教)教长"
+    },
+    {
+      "index": 3081,
+      "word": "metric",
+      "phonetic": "/'metrik/",
+      "definition": "a.米制的,公制的"
+    },
+    {
+      "index": 3082,
+      "word": "than",
+      "phonetic": "/ðæn/",
+      "definition": "conj.(用于形容词，副词的比较级之后)比"
+    },
+    {
+      "index": 3083,
+      "word": "never",
+      "phonetic": "/'nevə/",
+      "definition": "ad.永不，从不，决不；从来没有；不，没有"
+    },
+    {
+      "index": 3084,
+      "word": "compact",
+      "phonetic": "/kəm'pækt/",
+      "definition": "a.紧密的,结实的;简明的 v.使紧凑,压缩"
+    },
+    {
+      "index": 3085,
+      "word": "noon",
+      "phonetic": "/nu:n/",
+      "definition": "n.中午，正午"
+    },
+    {
+      "index": 3086,
+      "word": "outward",
+      "phonetic": "/'autwəd/",
+      "definition": "a.外面的,公开的,向外的ad.向外,在外n.外表"
+    },
+    {
+      "index": 3087,
+      "word": "notion",
+      "phonetic": "/'nəuʃən/",
+      "definition": "n.概念,想法,意念,看法,观点"
+    },
+    {
+      "index": 3088,
+      "word": "defend",
+      "phonetic": "/di'fend/",
+      "definition": "v.防守,保卫;为…辩护,为…答辩"
+    },
+    {
+      "index": 3089,
+      "word": "quartz",
+      "phonetic": "/kwɔ:ts/",
+      "definition": "n.石英"
+    },
+    {
+      "index": 3090,
+      "word": "investigate",
+      "phonetic": "/in'vestigeit/",
+      "definition": "v.调查,调查研究"
+    },
+    {
+      "index": 3091,
+      "word": "night",
+      "phonetic": "/nait/",
+      "definition": "n.夜间；夜；晚(上)"
+    },
+    {
+      "index": 3092,
+      "word": "earnest",
+      "phonetic": "/'ə:nist/",
+      "definition": "a.热心的,诚挚的 n.热心;真挚;定金;认真"
+    },
+    {
+      "index": 3093,
+      "word": "farewell",
+      "phonetic": "/'fεə'wel/",
+      "definition": "int.再会,别了 n.告别"
+    },
+    {
+      "index": 3094,
+      "word": "international",
+      "phonetic": "/ˌintə'næʃənəl/",
+      "definition": "a.国际的,世界(性)的,跨国的"
+    },
+    {
+      "index": 3095,
+      "word": "tolerate",
+      "phonetic": "/'tɔləreit/",
+      "definition": "vt.容忍,默许；对(药物、毒品等)有耐力"
+    },
+    {
+      "index": 3096,
+      "word": "everybody",
+      "phonetic": "/'evriˌbədi/",
+      "definition": "pron.(everyone)每人，人人"
+    },
+    {
+      "index": 3097,
+      "word": "throat",
+      "phonetic": "/θrəut/",
+      "definition": "n.咽喉,嗓子"
+    },
+    {
+      "index": 3098,
+      "word": "layman",
+      "phonetic": "/'leimən/",
+      "definition": "n.外行"
+    },
+    {
+      "index": 3099,
+      "word": "perform",
+      "phonetic": "/pə'fɔ:m/",
+      "definition": "v.履行,执行;表演,演出;完成(事业)"
+    },
+    {
+      "index": 3100,
+      "word": "sober",
+      "phonetic": "/'səubə(r)/",
+      "definition": "a.清醒的;认真的,冷静的,适度的"
+    }
+  ]
+}

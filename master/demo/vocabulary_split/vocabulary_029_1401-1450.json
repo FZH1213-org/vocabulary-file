@@ -1,0 +1,307 @@
+{
+  "chunk": 29,
+  "range": "1401-1450",
+  "count": 50,
+  "vocabulary": [
+    {
+      "index": 1401,
+      "word": "for",
+      "phonetic": "/fɔ:/",
+      "definition": "prep.为了；给；代替；向；支持 conj.因为?"
+    },
+    {
+      "index": 1402,
+      "word": "camel",
+      "phonetic": "/'kæməl/",
+      "definition": "n.骆驼"
+    },
+    {
+      "index": 1403,
+      "word": "water",
+      "phonetic": "/'wɔ:tə(r)/",
+      "definition": "n.水 vt.浇灌；给…饮水 vi.流泪，加水"
+    },
+    {
+      "index": 1404,
+      "word": "deep",
+      "phonetic": "/di:p/",
+      "definition": "a.深的,深长的;深奥的;强烈的 ad.深入的,迟"
+    },
+    {
+      "index": 1405,
+      "word": "sense",
+      "phonetic": "/sens/",
+      "definition": "n.感官;感觉;判断力;意义 v.觉得,意识到"
+    },
+    {
+      "index": 1406,
+      "word": "area",
+      "phonetic": "/'εəriə/",
+      "definition": "n.面积；地区，地域；领域，范围"
+    },
+    {
+      "index": 1407,
+      "word": "aviation",
+      "phonetic": "/ˌeivi'eiʃən/",
+      "definition": "n.航空，航空学；飞机制造业"
+    },
+    {
+      "index": 1408,
+      "word": "shoulder",
+      "phonetic": "/'ʃəuldə/",
+      "definition": "n.肩,肩部 v.肩负,承担"
+    },
+    {
+      "index": 1409,
+      "word": "fool",
+      "phonetic": "/fu:l/",
+      "definition": "n.傻子，笨蛋vt.欺骗，愚弄vi.干蠢事"
+    },
+    {
+      "index": 1410,
+      "word": "horizontal",
+      "phonetic": "/'hɔri'zɔntəl/",
+      "definition": "a.地平线的;水平的"
+    },
+    {
+      "index": 1411,
+      "word": "flight",
+      "phonetic": "/flait/",
+      "definition": "n.飞翔,飞行;航班;航程;逃跑;楼梯的一段"
+    },
+    {
+      "index": 1412,
+      "word": "shame",
+      "phonetic": "/ʃeim/",
+      "definition": "n.羞耻,耻辱;可耻的人(或事物) v.使羞愧"
+    },
+    {
+      "index": 1413,
+      "word": "hamper",
+      "phonetic": "/'hæmpə/",
+      "definition": "v.妨碍,阻碍,牵制"
+    },
+    {
+      "index": 1414,
+      "word": "blind",
+      "phonetic": "/blaind/",
+      "definition": "a.盲的，瞎的；盲目的 vt.使失明 n.百叶窗"
+    },
+    {
+      "index": 1415,
+      "word": "contrive",
+      "phonetic": "/kən'traiv/",
+      "definition": "vt.谋划，策划；设法做到；设计，想出"
+    },
+    {
+      "index": 1416,
+      "word": "subsequent",
+      "phonetic": "/'sʌbsikwənt/",
+      "definition": "a.随后的,后来的"
+    },
+    {
+      "index": 1417,
+      "word": "indulge",
+      "phonetic": "/in'dʌldʒ/",
+      "definition": "v.放任，纵容，沉溺；使(自己)纵情享受"
+    },
+    {
+      "index": 1418,
+      "word": "senior",
+      "phonetic": "/'si:njə/",
+      "definition": "a.年长的;地位较高的 n.(大学)四年级学生"
+    },
+    {
+      "index": 1419,
+      "word": "postage",
+      "phonetic": "/'pəustidʒ/",
+      "definition": "n.邮费,邮资"
+    },
+    {
+      "index": 1420,
+      "word": "stern",
+      "phonetic": "/stə:n/",
+      "definition": "a.严厉的;坚决的,坚定的 n.船尾,舟尾"
+    },
+    {
+      "index": 1421,
+      "word": "amaze",
+      "phonetic": "/ə'meiz/",
+      "definition": "vt.使惊奇，使惊愕；使困惑 vi.表现出惊奇"
+    },
+    {
+      "index": 1422,
+      "word": "glare",
+      "phonetic": "/glεə/",
+      "definition": "vi.怒目而视;发射强光 n.强光;怒视;炫耀"
+    },
+    {
+      "index": 1423,
+      "word": "mill",
+      "phonetic": "/mil/",
+      "definition": "n.磨粉机,磨坊;作坊,工厂"
+    },
+    {
+      "index": 1424,
+      "word": "stab",
+      "phonetic": "/stæb/",
+      "definition": "v./n.刺,戳"
+    },
+    {
+      "index": 1425,
+      "word": "invitation",
+      "phonetic": "/ˌɪnvɪ'teɪʃn/",
+      "definition": "n.邀请,招待;请柬"
+    },
+    {
+      "index": 1426,
+      "word": "laundry",
+      "phonetic": "/'lɔ:ndri/",
+      "definition": "n.洗衣房(店);待洗衣物,所洗衣物"
+    },
+    {
+      "index": 1427,
+      "word": "next",
+      "phonetic": "/nekst/",
+      "definition": "a.紧接的，其次的；贴近的 ad.其次；居后"
+    },
+    {
+      "index": 1428,
+      "word": "tariff",
+      "phonetic": "/'tærif/",
+      "definition": "n.关税,税率;(旅馆,饭店等)价目表,收费表"
+    },
+    {
+      "index": 1429,
+      "word": "Christian",
+      "phonetic": "/'kristjən/",
+      "definition": "n.基督教徒 a.基督教徒的"
+    },
+    {
+      "index": 1430,
+      "word": "brim",
+      "phonetic": "/brim/",
+      "definition": "n.边缘,帽沿"
+    },
+    {
+      "index": 1431,
+      "word": "slow",
+      "phonetic": "/sləu/",
+      "definition": "a.慢的,不活跃的 v.(down)(使)放慢,减速"
+    },
+    {
+      "index": 1432,
+      "word": "digest",
+      "phonetic": "/di'dʒest/",
+      "definition": "vt.消化；领会，融会贯通 n.文摘，摘要"
+    },
+    {
+      "index": 1433,
+      "word": "network",
+      "phonetic": "/'netwə:k/",
+      "definition": "n.网状物;广播网,电视网;网络"
+    },
+    {
+      "index": 1434,
+      "word": "main",
+      "phonetic": "/mein/",
+      "definition": "a.主要的,总的 n.总管道;干线"
+    },
+    {
+      "index": 1435,
+      "word": "adopt",
+      "phonetic": "/ə'dɔpt/",
+      "definition": "vt.采用，采取(态度等)；选定；收养"
+    },
+    {
+      "index": 1436,
+      "word": "clip",
+      "phonetic": "/klɪp/",
+      "definition": "v.剪,修剪;钳,夹住 n.夹,钳;回形针"
+    },
+    {
+      "index": 1437,
+      "word": "business",
+      "phonetic": "/'biznis/",
+      "definition": "n.商业,生意;事务,业务,职责"
+    },
+    {
+      "index": 1438,
+      "word": "tomorrow",
+      "phonetic": "/tə'mɔrəu/",
+      "definition": "n.明天；来日，未来 ad.在明天，在明日"
+    },
+    {
+      "index": 1439,
+      "word": "psychology",
+      "phonetic": "/psai'kɔlədʒi/",
+      "definition": "n.心理,心理学,心理状态"
+    },
+    {
+      "index": 1440,
+      "word": "statement",
+      "phonetic": "/'steitmənt/",
+      "definition": "n.声明,陈述"
+    },
+    {
+      "index": 1441,
+      "word": "mischief",
+      "phonetic": "/'mistʃif/",
+      "definition": "n.损害,伤害,危害;恶作剧,胡闹;灾祸"
+    },
+    {
+      "index": 1442,
+      "word": "roundabout",
+      "phonetic": "/'raundəˌbaut/",
+      "definition": "a.迂回的,转弯抹角的 n.环状交叉路口"
+    },
+    {
+      "index": 1443,
+      "word": "aside",
+      "phonetic": "/ə'said/",
+      "definition": "ad.在旁边，到一边 n.旁白；离题的话"
+    },
+    {
+      "index": 1444,
+      "word": "treasure",
+      "phonetic": "/'treʒə(r)/",
+      "definition": "n.财宝,财富;珍品 v.珍爱,珍惜"
+    },
+    {
+      "index": 1445,
+      "word": "aspire",
+      "phonetic": "/ə'spaiə/",
+      "definition": "vi.(to，after)渴望，追求，有志于"
+    },
+    {
+      "index": 1446,
+      "word": "pardon",
+      "phonetic": "/'pɑ:dn/",
+      "definition": "n.原谅,宽恕;请再说一遍 v.原谅,饶恕,赦免"
+    },
+    {
+      "index": 1447,
+      "word": "foreigner",
+      "phonetic": "/'fɔrinə/",
+      "definition": "n.外国人"
+    },
+    {
+      "index": 1448,
+      "word": "definition",
+      "phonetic": "/ˌdefi'niʃən/",
+      "definition": "n.定义,解释;(轮廓影像等的)清晰度;阐明;"
+    },
+    {
+      "index": 1449,
+      "word": "bind",
+      "phonetic": "/baind/",
+      "definition": "v.捆,绑,包括,束缚"
+    },
+    {
+      "index": 1450,
+      "word": "envy",
+      "phonetic": "/'envi/",
+      "definition": "v./n.羡慕,忌妒"
+    }
+  ]
+}
