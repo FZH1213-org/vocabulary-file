@@ -1,0 +1,53 @@
+词汇组 40 (共 50 个词汇)
+序号	单词	音标	释义
+================================================================================
+3253	roof	/ruːf/	n. 屋顶；最高处，顶部；最高限度vt. 给…盖屋顶，覆盖n. (Roof)人名；(英)鲁夫
+3599	southwest	/ˌsaʊθˈwest/	n. 西南方adj. 西南的adv. 往西南；来自西南
+4135	unexpected	/ˌʌnɪkˈspektɪd/	adj. 意外的，想不到的
+1693	grace	/ɡreɪs/	n. 优雅；恩惠；魅力；慈悲vt. 使优美n. (Grace)人名；(英)格雷斯，格雷丝 (女名)；(法)格拉斯
+1137	dock	/dɑːk/	n. 码头；船坞；被告席；尾巴的骨肉部分vt. 使靠码头；剪短vi. 入船坞n. （Dock）程序坞n. （Dock）人名；(老)多；(英、法、瑞典)多克
+1955	index	/ˈɪndeks/	n. 指标；指数；索引；指针vi. 做索引vt. 指出；编入索引中
+4216	verify	/ˈverɪfaɪ/	vt. 核实；查证
+190	applicable	/əˈplɪkəbl/	adj. 可适用的；可应用的；合适的
+3837	swim	/swɪm/	vi. 游泳；漂浮；浸；眩晕vt. 游过；使浮起n. 游泳；漂浮；眩晕adj. 游泳时穿戴的
+3956	throne	/θroʊn/	n. 王座；君主；王权vi. 登上王座vt. 使登王位n. (Throne)人名；(瑞典)特罗内；(英)特罗恩
+4293	weapon	/ˈwepən/	n. 武器，兵器
+2381	medium	/ˈmiːdiəm/	adj. 中间的，中等的；半生熟的；（投球）中速的n. 方法；媒体；媒介；中间物；溶剂；灵媒；中庸
+1245	element	/ˈelɪmənt/	n. 元素；要素；原理；成分；自然环境n. (Element)人名；(德)埃勒门特；(英)埃利门特
+333	bathroom	/ˈbɑːθruːm/	n. 浴室；厕所；盥洗室
+2832	position	/pəˈzɪʃn/	n. 位置；姿态；处境，地位；观点；职位，工作；站位v. 安置；把……放在适当位置
+456	brave	/breɪv/	adj.勇敢的
+1620	future	/ˈfjuːtʃər/	n. 未来；前途；期货；将来时adj. 将来的，未来的
+4319	wheel	/wiːl/	n. 车轮；方向盘；转动vt. 转动；使变换方向；给…装轮子vi. 旋转；突然转变方向；盘旋飞行
+1577	frank	/fræŋk/	adj. 坦白的，直率的；老实的n. 免费邮寄特权vt. 免费邮寄n. （Frank）弗兰克（人名）
+695	clock	/klɑːk/	n. 时钟；计时器vt. 记录；记时vi. 打卡；记录时间n. (Clock)人名；(英)克洛克
+362	behind	/bɪˈhaɪnd/	adv.在后地 prep.在...之后
+3775	sudden	/ˈsʌdn/	adj. 突然的，意外的；快速的n. 突然发生的事
+2698	our	/ɑːr,ˈaʊər/	pron. 我们的
+1140	dog	/dɔːɡ/	n. 狗；卑鄙的人；(俚)朋友vt. 跟踪；尾随
+2630	occupy	/ˈɑːkjupaɪ/	vt. 占据，占领；居住；使忙碌
+2186	leap	/liːp/	v.跳,跳越,跳跃n.跳跃,飞跃
+4250	vitamin	/ˈvaɪtəmɪn/	n. [生化] 维生素；[生化] 维他命
+1446	favour	/ˈfeɪvər/	n. 偏爱；赞同；善行vt. 赞成；喜爱；有助于
+3729	strategy	/ˈstrætədʒi/	n. 战略，策略
+1201	ear	/ɪr/	n. 耳朵；穗；听觉；倾听vi. （美俚）听见；抽穗n. (Ear)人名；(柬)伊
+335	battle	/ˈbætl/	n. 战役；斗争vi. 斗争；作战vt. 与…作战n. (Battle)人名；(英)巴特尔；(法)巴特勒；(西)巴特莱
+218	arrival	/əˈraɪvl/	n. 到来；到达；到达者
+2143	lady	/ˈleɪdi/	n. 女士，夫人；小姐；妻子
+658	Christian	/'krɪtʃən/	n. 基督徒，信徒adj. 基督教的；信基督教的
+4120	unconscious	/ʌnˈkɑːnʃəs/	adj. 无意识的；失去知觉的；不省人事的；未发觉的
+1607	fun	/fʌn/	vi. 非正式开玩笑n. 乐趣；玩笑
+1965	indoors	/ˌɪnˈdɔːrz/	adv. 在室内，在户内
+4186	utilize	/ˈjuːtəlaɪz/	vt. 利用
+2114	kick	/kɪk/	v.踢n.踢
+3851	tail	/teɪl/	n. 尾巴；踪迹；辫子；燕尾服vt. 尾随；装上尾巴vi. 跟踪；变少或缩小adj. 从后面而来的；尾部的
+2576	nobody	/ˈnoʊbədi/	pron. 无人，没有人；谁也不n. 无名小卒，小人物
+463	breast	/brest/	n. 乳房，胸部；胸怀；心情vt. 以胸对着；与…搏斗
+2288	low	/loʊ/	adj. 低的，浅的；卑贱的；粗俗的；消沉的adv. 低声地；谦卑地，低下地n. 低；低价；低点；牛叫声vi. 牛叫n. （Low）（英、德）洛（人名）
+2754	pile	/paɪl/	n. 堆；大量；建筑群vt. 累积；打桩于vi. 挤；堆积；积累n. (Pile)人名；(西)皮莱；(英)派尔
+3619	specially	/ˈspeʃəli/	adv. 特别地；专门地
+329	basketball	/ˈbæskɪtbɔːl/	n. 篮球；篮球运动
+3753	stumble	/ˈstʌmbl/	vi. 踌躇，蹒跚；失足；犯错vt. 使…困惑；使…绊倒n. 绊倒；蹒跚而行
+2257	living	/ˈlɪvɪŋ/	n.生活,生计,生存空间,居住面积adj.活的,起作用的,逼真的,现存的
+3656	squirrel	/ˈskwɜːrəl/	n. 松鼠；松鼠毛皮vt. 贮藏
+1452	feast	/fiːst/	n. 筵席，宴会；（感官）享受；节日v. 尽情享用，饱餐；宴请；赴宴

@@ -1,0 +1,53 @@
+词汇组 69 (共 50 个词汇)
+序号	单词	音标	释义
+================================================================================
+2027	interaction	/ˌɪntərˈækʃn/	n. 相互作用，相互影响；交流；[数] 交互作用；互动
+101	aggressive	/əˈɡresɪv/	adj. 侵略性的；好斗的；有进取心的；有闯劲的
+3601	sow	/soʊ; saʊ/	vt. 播种；散布；使密布vi. 播种n. 母猪n. (Sow)人名；(几、马里、乍、毛里塔、塞内)索乌
+4108	typical	/ˈtɪpɪkl/	adj. 典型的；特有的；象征性的
+2371	measurement	/ˈmeʒərmənt/	n. 测量；[计量] 度量；尺寸；量度制
+3919	themselves	/ðəmˈselvz/	pron. 他们自己；他们亲自
+813	conscience	/ˈkɑːnʃəns/	n. 道德心，良心n. (Conscience)人名；(法)孔西延斯
+3286	rusty	/ˈrʌsti/	adj. 生锈的，腐蚀的；铁锈色的，锈色的；迟钝的
+1169	dress	/dres/	n.女服,童装,服装,衣服v.(给...)穿衣
+1509	flat	/flæt/	adj.平坦的,扁平的,单调的,倒下的,浅的,干脆的,无聊的,无力的adv.平直地,仰卧地,恰恰,正好,断然地n.平面,平地,一层,公寓v.(使)变平,(使)降半音
+2935	pronounce	/prəˈnaʊns/	vt. 发音；宣判；断言vi. 发音；作出判断
+750	community	/kəˈmjuːnəti/	n. 社区；[生态] 群落；共同体；团体
+3983	tissue	/ˈtɪʃuː/	n. 组织；纸巾；薄纱；一套vt. 饰以薄纱；用化妆纸揩去
+4322	where	/wer/	adv. 在哪里pron. 哪里conj. 在…的地方n. 地点
+4119	uncomfortable	/ʌnˈkʌmftəbl/	adj. 不舒服的；不安的
+1886	however	/haʊˈevər/	adv. 无论如何；不管怎样（接副词或形容词）；然而；可是conj. 无论以何种方式; 不管怎样
+3686	stay	/steɪ/	vi. 停留；坚持；暂住；停下vt. 坚持；暂住；抑制n. 逗留；停止；支柱
+3681	static	/ˈstætɪk/	adj. 静态的；静电的；静力的n. 静电；静电干扰
+2055	investment	/ɪnˈvestmənt/	n. 投资；投入；封锁
+3527	slightly	/ˈslaɪtli/	adv. 些微地，轻微地；纤细地，瘦小的
+588	cattle	/ˈkætl/	n. 牛；牲畜（骂人的话）；家畜；无价值的人n. (Cattle)人名；(意)卡特莱
+3318	saucer	/ˈsɔːsər/	n. 茶托，浅碟；浅碟形物；微波或射频辐射用抛物面反射器构成的定向天线；投掷比赛用的圆盘
+2983	pursuit	/pərˈsuːt/	n. 追赶，追求；职业，工作
+4356	window	/ˈwɪndoʊ/	n. 窗；窗口；窗户
+812	conquest	/ˈkɑːŋkwest/	n. 征服，战胜；战利品n. (Conquest)人名；(英)康奎斯特
+3654	square	/skwer/	adj. 平方的；正方形的；直角的；正直的vt. 使成方形；与…一致vi. 一致；成方形n. 平方；广场；正方形adv. 成直角地
+4416	yield	/jiːld/	v. 出产（产品或作物）；产出（效果、收益等）；生息；屈服；放弃；停止争论；给（车辆）让路；（在外力、重压等下）屈曲n. 产量；利润，红利率
+3267	route	/ruːt,raʊt/	n.路线,路程,通道v.发送
+3624	speech	/spiːtʃ/	n. 演讲；讲话；[语] 语音；演说
+599	centigrade	/ˈsentɪɡreɪd/	adj. 摄氏温度的；百分度的n. 摄氏温标
+800	confine	/kənˈfaɪn/	vt.限制,禁闭n.界限,边界
+4349	width	/wɪdθ,wɪtθ/	n. 宽度；广度
+3936	thirdly	/ˈθɜːrdli/	adv. 第三
+4364	wisdom	/ˈwɪzdəm/	n. 智慧，才智；明智；学识；至理名言n. (Wisdom)人名；(英)威兹德姆
+1011	delicious	/dɪˈlɪʃəs/	adj. 美味的；可口的
+2445	mistress	/ˈmɪstrəs/	n. 情妇；女主人；主妇；女教师；女能人
+3224	rider	/ˈraɪdər/	n. 骑手；附文；扶手n. (Rider)人名；(英)赖德；(西)里德尔
+2160	last	/læst/	adj.最后的,临终的,末尾的,最近的,结论性的vi.持续,支持,维持vt.使维持,楦adv.最后,后来n.最后,末尾,临终,鞋楦头
+4338	whole	/hoʊl/	adj. 完整的；纯粹的n. 整体；全部
+3174	resident	/ˈrezɪdənt/	n.居民adj.居住的,常驻的
+728	color	/ˈkʌlər/	n. 颜色；肤色；颜料；脸色vt. 粉饰；给...涂颜色；歪曲vi. 变色；获得颜色
+603	century	/ˈsentʃəri/	n. 世纪，百年；（板球）一百分
+3255	root	/ruːt/	n. 根；根源；词根；祖先vi. 生根；根除vt. 生根，固定；根源在于n. (Root)人名；(英)鲁特；(德、瑞典)罗特
+2238	limited	/ˈlɪmɪtɪd/	adj. 有限的n. 高级快车
+2141	lack	/læk/	n. 缺乏，不足v. 缺乏，不足，没有；需要n. (Lack) （美、德）拉克（人名）
+3066	recall	/rɪˈkɔːl/	vt. 召回；回想起，记起；取消n. 召回；回忆；撤消
+771	composition	/ˌkɑːmpəˈzɪʃn/	n. 作文，作曲，作品；[材] 构成；合成物；成分
+1830	here	/hɪr/	adv. 在这里；此时int. 嘿！；喂！n. 这里n. (Here)人名；(罗)赫尔施
+413	block	/blɑːk/	n. 块；街区；大厦；障碍物vt. 阻止；阻塞；限制；封盖adj. 成批的，大块的；交通堵塞的n. (Block)人名；(英、法、德、西、葡、芬、罗)布洛克
+503	bullet	/ˈbʊlɪt/	n. 子弹；只选某党全部候选人的投票；豆子vi. 射出；迅速行进n. (Bullet)人名；(法)比莱

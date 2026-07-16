@@ -1,0 +1,53 @@
+词汇组 70 (共 50 个词汇)
+序号	单词	音标	释义
+================================================================================
+4234	vigorous	/ˈvɪɡərəs/	adj. 有力的；精力充沛的
+439	bother	/ˈbɑːðər/	vt. 烦扰，打扰；使……不安；使……恼怒vi. 操心，麻烦；烦恼n. 麻烦；烦恼
+3670	stand	/stænd/	vi. 站立；位于；停滞vt. 使站立；忍受；抵抗n. 站立；立场；看台；停止；货摊；证人席；支架
+219	arrive	/əˈraɪv/	vi. 到达；成功；达成；出生n. (Arrive)人名；(法)阿里夫
+1179	drug	/drʌɡ/	n. 药；毒品；麻醉药；滞销货vt. 使服麻醉药；使服毒品；掺麻醉药于vi. 吸毒n. （Drug）（罗）德鲁格（人名）
+3051	reader	/ˈriːdər/	n. 读者；阅读器；读物n. (Reader)人名；(英)里德
+391	bind	/baɪnd/	vi. 结合；装订；有约束力；过紧vt. 绑；约束；装订；包扎；凝固n. 捆绑；困境；讨厌的事情；植物的藤蔓n. (Bind)人名；(德)宾德
+2938	proper	/ˈprɑːpər/	adj. 适当的；本身的；特有的；正派的adv. 完全地n. (Proper)人名；(英、德)普罗珀
+1103	discussion	/dɪˈskʌʃn/	n. 讨论，议论
+3637	splendid	/ˈsplendɪd/	adj. 辉煌的；灿烂的；极好的；杰出的
+820	conservative	/kənˈsɜːrvətɪv/	adj. 保守的n. 保守派，守旧者
+618	channel	/ˈtʃænl/	n.海峡,水道,沟,路线vt.引导,开导,形成河道 信道,频道
+2444	Mister	/ˈmɪstər/	n. 先生（用于姓名或职称前，常缩写为Mr.）
+876	correspond	/ˌkɔːrəˈspɑːnd/	vi. 符合，一致；相应；通信
+3494	single	/ˈsɪŋɡl/	adj. 单一的；单身的；单程的n. 一个；单打；单程票vt. 选出vi. 击出一垒安打
+3809	surface	/ˈsɜːrfɪs/	n. 表面；表层；外观adj. 表面的，肤浅的vi. 浮出水面vt. 使浮出水面；使成平面n. (Surface)人名；(英)瑟菲斯
+2491	movement	/ˈmuːvmənt/	n. 运动；活动；运转；乐章
+1269	employment	/ɪmˈplɔɪmənt/	n. 使用；职业；雇用
+881	costly	/ˈkɔːstli/	adj. 昂贵的；代价高的n. (Costly)人名；(英)科斯特利
+1354	excessive	/ɪkˈsesɪv/	adj. 过多的，极度的；过分的
+3611	sparrow	/ˈspæroʊ/	n. 麻雀；矮小的人
+3510	skill	/skɪl/	n. 技能，技巧；本领，技术n. (Skill)人名；(瑞典)希尔
+1519	flour	/ˈflaʊər/	n. 面粉；粉状物质vt. 撒粉于；把…磨成粉n. (Flour)人名；(法)弗卢尔
+16	abuse	/əˈbjuːs/	n. 滥用；虐待；辱骂；弊端；恶习，陋习vt. 滥用；虐待；辱骂n. (Abuse)人名；(英)阿比斯
+4146	universal	/ˌjuːnɪˈvɜːrsl/	adj. 普遍的；通用的；宇宙的；全世界的；全体的n. 一般概念；普通性
+398	bite	/baɪt/	vt. 咬；刺痛n. 咬；一口；咬伤；刺痛vi. 咬；刺痛abbr. 机内测试设备（Built-In Test Equipment）n. (Bite)人名；(匈)比泰
+1460	feedback	/ˈfiːdbæk/	n. 反馈；成果，资料；回复
+2054	investigation	/ɪnˌvestɪˈɡeɪʃn/	n. 调查；调查研究
+297	back	/bæk/	adj.后面的,在后面,早过去的,前(欠)的钱adv.向后地n.背部,后面v.后退,支持
+3017	radioactive	/ˌreɪdioʊˈæktɪv/	adj. [核] 放射性的；有辐射的
+3762	substantial	/səbˈstænʃl/	adj. 大量的；实质的；内容充实的n. 本质；重要材料
+411	bless	/bles/	vt. 祝福；保佑；赞美n. (Bless)人名；(英、意、德、匈)布莱斯
+2188	learned	/ˈlɜːrnɪd/	adj.有学问的,学术上的
+3857	tall	/tɔːl/	adj. 高的；长的；过分的；夸大的adv. 夸大地n. (Tall)人名；(马里、阿拉伯)塔勒；(芬、罗、瑞典)塔尔；(英)托尔；(土)塔勒
+4005	topic	/ˈtɑːpɪk/	n. 主题（等于theme）；题目；一般规则；总论
+2879	preserve	/prɪˈzɜːrv/	vt. 保存；保护；维持；腌；禁猎n. 保护区；禁猎地；（某人或群体的）专门活动；果酱；蜜饯；腌菜
+1909	idle	/ˈaɪdl/	adj. 闲置的；懒惰的；停顿的vi. 无所事事；虚度；空转vt. 虚度；使空转
+1532	follow	/ˈfɑːloʊ/	vt. 跟随；遵循；追求；密切注意，注视；注意；倾听vi. 跟随；接着n. 跟随；追随
+3820	survive	/sərˈvaɪv/	vt. 幸存；生还；幸免于；比...活得长vi. 幸存；活下来
+1883	household	/ˈhaʊshoʊld/	n. 一家人，一户；同住一所房子的人；王室 (the Household)adj. 家庭的，家用的；家喻户晓的n. (Household)（美、瑞）豪斯霍尔德（人名）
+3715	stoop	/stuːp/	vi. 弯腰；屈服；堕落n. 弯腰，屈背；屈服vt. 辱没，堕落；俯曲n. (Stoop)人名；(法、荷、葡)斯托普
+3583	son	/sʌn/	n. 儿子；孩子（对年轻人的称呼）；男性后裔n. (Son)人名；(土、老、柬)松；(法、罗)索恩；(日)存(名)；(日)孙(姓)；(越)山
+1203	earn	/ɜːrn/	vt. 赚，赚得；获得，挣得；使得到；博得n. (Earn)人名；(泰)炎
+2543	need	/niːd/	n.需要,必需,必需品,要求,贫困vt.需要 modalv.必要,必须
+4091	turkey	/ˈtɜːrki/	n. 火鸡；笨蛋；失败之作
+939	cup	/kʌp/	n. 杯子；奖杯；酒杯vt. 使成杯状；为…拔火罐
+1192	dust	/dʌst/	n. 灰尘；尘埃；尘土vt. 撒；拂去灰尘vi. 拂去灰尘；化为粉末n. (Dust)人名；(德、俄)杜斯特
+380	bet	/bet/	n.赌,打赌v.赌,赌钱
+352	beer	/bɪr/	n. 啤酒vi. 喝啤酒n. (Beer)人名；(法、德、俄、罗、捷、瑞典)贝尔；(英、西、南非)[纺] 比尔
+2325	manner	/ˈmænər/	n. 方式；习惯；种类；规矩；风俗n. (Manner)人名；(德、芬、瑞典)曼纳

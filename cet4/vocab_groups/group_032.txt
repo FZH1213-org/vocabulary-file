@@ -1,0 +1,53 @@
+词汇组 32 (共 50 个词汇)
+序号	单词	音标	释义
+================================================================================
+39	accurate	/ˈækjərət/	adj. 精确的
+2800	poetry	/ˈpoʊətri/	n. 诗；诗意，诗情；诗歌艺术
+926	crown	/kraʊn/	n. 王冠；花冠；王权；顶点vt. 加冕；居…之顶；表彰；使圆满完成n. (Crown)人名；(英)克朗
+1689	govern	/ˈɡʌvərn/	vt. 管理；支配；统治；控制vi. 居支配地位；进行统治n. (Govern)人名；(英)戈文
+2075	January	/ˈdʒænjueri/	n. 一月
+1864	honourable	/ˈɑːnərəbl/	adj. 荣誉的；值得尊敬的；表示尊敬的；正直的（honorable的英式写法）
+2607	numerous	/ˈnuːmərəs/	adj. 许多的，很多的
+2971	punishment	/ˈpʌnɪʃmənt/	n. 惩罚；严厉对待，虐待
+1437	fashionable	/ˈfæʃnəbl/	adj. 流行的；时髦的；上流社会的
+3987	tobacco	/təˈbækoʊ/	n. 烟草，烟叶；烟草制品；抽烟
+4252	vocabulary	/vəˈkæbjəleri/	n. 词汇；词表；词汇量
+803	confuse	/kənˈfjuːz/	vt. 使混乱；使困惑
+1593	friendship	/ˈfrendʃɪp/	n. 友谊；友爱；友善n. (Friendship)人名；(英)弗兰德希普
+4148	university	/ˌjuːnɪˈvɜːrsəti/	n. 大学；综合性大学；大学校舍
+452	branch	/bræntʃ/	n. 分支；分公司；分部；树枝；支流；岔路；（血管）分枝v. 发出新枝；岔开，分岔；出现分歧n. (Branch) 布兰奇（人名）
+1995	insect	/ˈɪnsekt/	n. 昆虫；卑鄙的人
+2533	navy	/ˈneɪvi/	n. 海军深蓝色的
+2139	labour	/ˈleɪbər/	n. 劳动力，人工；分娩vi. 劳动；分娩；费力地前进
+298	background	/ˈbækɡraʊnd/	n. 背景；隐蔽的位置vt. 作…的背景adj. 背景的；发布背景材料的
+2715	outwards	/ˈaʊtwərdz/	adv. 向外地
+3228	right	/raɪt/	adj. 正确的；直接的；右方的vi. 复正；恢复平稳n. 正确；右边；正义；权利adv. 正确地；恰当地；彻底地vt. 纠正n. (Right)人名；(英)赖特
+3847	system	/ˈsɪstəm/	n. 制度，体制；系统；方法
+748	communism	/ˈkɑːmjunɪzəm/	n. 共产主义
+3134	reluctant	/rɪˈlʌktənt/	adj. 不情愿的；勉强的；顽抗的
+2633	ocean	/ˈoʊʃn/	n. 海洋；大量n. （Ocean）（罗）奥切安（人名）
+592	ceiling	/ˈsiːlɪŋ/	n. 天花板；上限
+666	circulate	/ˈsɜːrkjəleɪt/	vi. 传播，流传；循环；流通vt. 使循环；使流通；使传播
+2547	neglect	/nɪˈɡlekt/	v. 忽视，忽略；疏忽；漏做n. 忽略，忽视；未被重视
+1691	governor	/ˈɡʌvərnər/	n. 主管人员；统治者，管理者；[自] 调节器；地方长官
+2487	mouse	/maʊs/	n. 鼠标；老鼠；胆小羞怯的人vt. 探出vi. 捕鼠；窥探
+2652	once	/wʌns/	adv. 一次；曾经conj. 一旦n. 一次，一回
+959	dance	/dæns/	n. 舞蹈；舞会；舞曲vi. 跳舞；跳跃；飘扬vt. 跳舞；使跳跃adj. 舞蹈的；用于跳舞的n. (Dance)人名；(英)丹斯；(法)当斯
+3356	seaman	/ˈsiːmən/	n. 海员，水手；水兵n. (Seaman)人名；(英)西曼；(意、瑞典)塞亚曼
+1916	illustrate	/ˈɪləstreɪt/	vt. 阐明，举例说明；图解vi. 举例
+2432	minus	/ˈmaɪnəs/	adj.负的,减的 prep.减去n.负数
+2271	lonely	/ˈloʊnli/	adj. 寂寞的；偏僻的n. 孤独者
+20	acceleration	/əkˌseləˈreɪʃn/	n. 加速，促进；[物] 加速度；跳级
+2806	policeman	/pəˈliːsmən/	n. 警察，警员；[分化] 淀帚（橡皮头玻璃搅棒）
+2144	lag	/læɡ/	n. 落后；迟延；防护套；囚犯；桶板vt. 给......保温vi. 滞后；缓缓而行；蹒跚adj. 最后的n. （Lag）（俄）拉格（人名）
+4297	weave	/wiːv/	vt. 编织；编排；使迂回前进vi. 纺织；编成；迂回行进n. 织物；织法；编织式样
+3114	rein	/reɪn/	n. 缰绳；驾驭；统治；支配vt. 控制；驾驭；勒住vi. 勒住马n. (Rein)人名；(西、阿拉伯)雷因；(法)兰；(英、荷、捷、德、芬、瑞典)赖因；(爱沙)雷恩
+2557	network	/ˈnetwɜːrk/	n. 网络；广播网；网状物
+2147	lame	/leɪm/	adj. 跛足的；僵痛的；不完全的；无说服力的；差劲的，蹩脚的vi. 变跛vt. 使跛；使成残废
+8	abroad	/əˈbrɔːd/	adv. 在国外；到海外adj. 往国外的n. 海外；异国
+3511	skilled	/skɪld/	adj. 熟练的；有技能的；需要技能的
+3781	suggest	/səˈdʒest,səɡˈdʒest/	vt. 提议，建议；启发；使人想起；显示；暗示
+4351	wild	/waɪld/	adj. 野生的；野蛮的；狂热的；荒凉的n. 荒野adv. 疯狂地；胡乱地n. (Wild)人名；(英)怀尔德；(法、德、葡、捷、匈)维尔德
+964	dark	/dɑːrk/	n.黑暗,夜,黄昏,暗色,无知,模糊adj.黑暗的,暗的,(头发、皮肤等)黑色的,隐秘的,无知的,隐晦的,模糊的
+2031	interference	/ˌɪntərˈfɪrəns/	n. 干扰，冲突；干涉
+1670	globe	/ɡloʊb/	n. 地球；地球仪；球体vt. 使…成球形vi. 成球状

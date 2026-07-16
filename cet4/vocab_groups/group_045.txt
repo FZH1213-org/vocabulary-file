@@ -1,0 +1,53 @@
+词汇组 45 (共 50 个词汇)
+序号	单词	音标	释义
+================================================================================
+1587	fresh	/freʃ/	adj. 新鲜的；清新的；淡水的；无经验的n. 开始；新生；泛滥adv. 刚刚，才；最新地
+2233	likewise	/ˈlaɪkwaɪz/	adv. 同样地；也
+224	artist	/ˈɑːrtɪst/	n. 艺术家；美术家（尤指画家）；大师
+2011	instruct	/ɪnˈstrʌkt/	vt. 指导；通知；命令；教授
+2538	necessarily	/ˌnesəˈserəli/	adv. 必要地；必定地，必然地
+859	convey	/kənˈveɪ/	vt. 传达；运输；让与
+875	correction	/kəˈrekʃn/	n. 改正，修正
+1384	explanation	/ˌekspləˈneɪʃn/	n. 说明，解释；辩解
+1561	fortunate	/ˈfɔːrtʃənət/	adj. 幸运的；侥幸的；吉祥的；带来幸运的
+2203	less	/les/	n.较少,较小adj.少的,小的adv.较少地,更小地,不及 prep.减去
+2589	northwest	/ˌnɔːrθˈwest/	n. 西北方；西北部adj. （风）来自西北的；在西北部的adv. 在西北，向西北，来自西北地
+1488	finance	/ˈfaɪnæns/	n. 财政，财政学；金融vt. 负担经费，供给…经费vi. 筹措资金n. (Finance)人名；(法)菲南斯
+1709	grant	/ɡrænt/	v. （合法地）授予，允许；（勉强）承认，同意n. （政府）拨款，补助金；授予，给予；合法转让，正式授予n. （Grant）（美）格朗（人名）
+3849	tablet	/ˈtæblət/	n. 碑；药片；写字板；小块；平板电脑vt. 用碑牌纪念；将(备忘录等)写在板上；将…制成小片或小块
+345	beautiful	/ˈbjuːtɪfl/	adj. 美丽的；出色的；迷人的
+1789	hatch	/hætʃ/	n. 孵化；舱口vt. 孵；策划vi. 孵化n. （Hatch）（西）阿奇；（英）哈奇（人名）
+2716	oven	/ˈʌvn/	n. 炉，灶；烤炉，烤箱n. (Oven)人名；(荷)奥芬
+2877	present	/ˈpreznt/	n.赠品,礼物,现在,瞄准adj.现在的,出席的,当面的vt.介绍,引见,给,赠送,上演,提出,呈现vi.举枪瞄准
+1621	gain	/ɡeɪn/	n. 增加；利润；收获vt. 获得；增加；赚到vi. 增加；获利n. (Gain)人名；(英、匈、法)盖恩
+819	conservation	/ˌkɑːnsərˈveɪʃn/	n. 保存，保持；保护
+4423	zeal	/ziːl/	n. 热情；热心；热诚
+2914	procession	/prəˈseʃn/	n. 队伍，行列；一列，一排；列队行进vi. 列队行进vt. 沿著……行进
+1495	fire	/ˈfaɪər/	n. 火；火灾；炮火；炉火；热情；激情；磨难vt. 点燃；解雇；开除；使发光；烧制；激动；放枪vi. 着火；射击；开枪；激动；烧火
+2933	prompt	/prɑːmpt/	n.提示,付款期限vt.提示,鼓动,促使,(给演员)提白adj.敏捷的,迅速的,即时的adv.准时地
+1000	defence	/dɪˈfens/	n. 防御；防卫；答辩；防卫设备
+1964	individual	/ˌɪndɪˈvɪdʒuəl/	adj. 个人的；个别的；独特的n. 个人，个体
+1682	golden	/ˈɡoʊldən/	adj. 金色的，黄金般的；珍贵的；金制的n. (Golden)人名；(英、法、罗、德、瑞典)戈尔登
+2511	mutual	/ˈmjuːtʃuəl/	adj. 共同的；相互的，彼此的
+3536	slum	/slʌm/	n. 贫民窟；（不宜居住的）房屋；脏乱的地方v. （为猎奇或救济）去贫民窟；将就适应，过穷日子
+1331	everybody	/ˈevribɑːdi,ˈevribʌdi/	pron. 每个人，人人
+2534	near	/nɪr/	adj.亲近的,亲密的,近,(车,马等)左侧的,吝啬的adv.(时间,空间方面)近,不远 prep.在...近旁,近...v.接近,走近
+906	cream	/kriːm/	n. 奶油，乳脂；精华；面霜；乳酪
+305	baggage	/ˈbæɡɪdʒ/	n. 行李；[交] 辎重（军队的）
+1638	gay	/ɡeɪ/	adj. 同性恋的；与同性恋相关的；快乐的；放荡的；艳丽的n. 同性恋者n. （Gay）（西）加伊；（英、法、瑞典、毛里塔）盖伊（人名）
+1020	density	/ˈdensəti/	n. 密度
+2876	presence	/ˈprezns/	n. 存在；出席；参加；风度；仪态
+4114	umbrella	/ʌmˈbrelə/	n. 雨伞；保护伞；庇护；伞形结构
+2510	mutton	/ˈmʌtn/	n. 羊肉
+3500	site	/saɪt/	n. 地点；位置；场所vt. 设置；为…选址
+2283	loudly	/ˈlaʊdli/	adv. 大声地，响亮地
+1021	deny	/dɪˈnaɪ/	vt. 否定，否认；拒绝给予；拒绝…的要求vi. 否认；拒绝
+284	aviation	/ˌeɪviˈeɪʃn/	n. 航空；飞行术；飞机制造业
+3770	successfully	/səkˈsesfəli/	adv. 成功地；顺利地
+1372	exit	/ˈeksɪt,ˈeɡzɪt/	n. 出口，通道；退场vi. 退出；离去
+2906	prize	/praɪz/	n. 奖品；奖赏；战利品vt. 珍视；捕获；估价adj. 获奖的
+3384	send	/send/	vt. 发送，寄；派遣；使进入；发射vi. 派人；寄信n. 上升运动n. (Send)人名；(德)森德
+428	bone	/boʊn/	n. 骨；骨骼vt. 剔去……的骨；施骨肥于vi. 苦学；专心致志n. （Bone）（英）博恩；（法、西、罗、塞）博内；（老）奔（人名）
+4123	undergo	/ˌʌndərˈɡoʊ/	vt. 经历，经受；忍受
+2369	measurable	/ˈmeʒərəbl/	adj. 可测量的；重要的；重大的
+2781	platform	/ˈplætfɔːrm/	n. 平台；月台，站台；坛；讲台；厚底松糕鞋

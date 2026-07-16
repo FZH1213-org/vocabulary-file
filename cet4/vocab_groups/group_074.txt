@@ -1,0 +1,53 @@
+词汇组 74 (共 50 个词汇)
+序号	单词	音标	释义
+================================================================================
+994	deed	/diːd/	n. 行动；功绩；证书；[法] 契据vt. 立契转让
+2251	literary	/ˈlɪtəreri/	adj. 文学的；书面的；精通文学的
+3817	surround	/səˈraʊnd/	vt. 围绕；包围n. 围绕物adj. 环绕立体声的
+202	April	/ˈeɪprəl/	n. 四月
+3908	text	/tekst/	n. [计] 文本；课文；主题vt. 发短信
+4141	union	/ˈjuːniən/	n. 联盟，协会；工会；联合
+2414	midst	/mɪdst/	n. 当中，中间prep. 在…中间（等于amidst）
+2896	prince	/prɪns/	n. 王子，国君；亲王；贵族n. (Prince)人名；(英、葡)普林斯；(法)普兰斯；
+1111	dismiss	/dɪsˈmɪs/	vt. 解散；解雇；开除；让...离开；不予理会、不予考虑vi. 解散
+173	anyhow	/ˈenihaʊ/	adv. 总之；无论如何；不管怎样
+324	basic	/ˈbeɪsɪk/	adj. 基本的；基础的n. 基础；要素
+3924	thereby	/ˌðerˈbaɪ/	adv. 从而，因此；在那附近；在那方面
+4166	up	/ʌp/	adv.向上,到(较高的地方,北方),起来,起床 prep.向上,在上,沿adj.向上的,上行的
+4323	wherever	/werˈevər/	adv. 无论什么地方；究竟在哪里conj. 无论在哪里；无论什么情况下
+1164	draw	/drɔː/	vt. 画；拉；吸引vi. 拉；拖n. 平局；抽签n. （Draw）（英）德劳（人名）
+2249	listener	/ˈlɪsənər/	n. 听者，认真倾听的人；收听广播节目的人
+690	clever	/ˈklevər/	adj. 聪明的；机灵的；熟练的[ 比较级cleverer 最高级 cleverest ]
+2520	nap	/næp/	n. 小睡，打盹儿；细毛；孤注一掷vt. 使拉毛vi. 小睡；疏忽n. (Nap)人名；(朝、越)纳
+3862	tape	/teɪp/	n. 胶带；磁带；带子；卷尺vt. 录音；用带子捆扎；用胶布把…封住vi. 用磁带录音n. (Tape)人名；(英)泰普
+1792	hatred	/ˈheɪtrɪd/	n. 憎恨；怨恨；敌意
+1581	freeze	/friːz/	v.(使)结冰,(使)冷冻,冻结
+3800	supermarket	/ˈsuːpərmɑːrkɪt/	n. 超级市场；自助售货商店
+2152	landlord	/ˈlændlɔːrd/	n. 房东，老板；地主
+1279	enemy	/ˈenəmi/	n. 敌人，仇敌；敌军adj. 敌人的，敌方的
+2006	instantly	/ˈɪnstəntli/	adv. 立即地；马上地；即刻地conj. 一…就…
+1180	drum	/drʌm/	n.鼓,鼓声,鼓形圆桶,[解]鼓膜,鼓室vi.击鼓,作鼓声vt.打鼓奏
+1567	foundation	/faʊnˈdeɪʃn/	n. 基础；地基；基金会；根据；创立
+2017	insure	/ɪnˈʃʊr/	vt. 给……保险；北美确保，保证vi. 投保；北美确保
+2155	lantern	/ˈlæntərn/	n. 灯笼；提灯；灯笼式天窗
+3572	solution	/səˈluːʃn/	n. 解决方案；溶液；溶解；解答
+2041	interval	/ˈɪntərvl/	n. 间隔；间距；幕间休息
+1223	effective	/ɪˈfektɪv/	adj. 有效的，起作用的；实际的，实在的；给人深刻印象
+3206	return	/rɪˈtɜːrn/	n.回来,返回,来回票,利润,回答adj.返回的,回程的,报答的,反向的,重现的vi.回返,归还vt.归还,回报,报告,获得,回答,返回
+3177	resist	/rɪˈzɪst/	vi. 抵抗，抗拒；忍耐vt. 抵抗；忍耐，忍住n. [助剂] 抗蚀剂；防染剂
+3280	run	/rʌn/	vi. 经营；奔跑；运转vt. 管理，经营；运行；参赛n. 奔跑；赛跑；趋向；奔跑的路程n. (Run)人名；(塞)鲁恩
+1799	headache	/ˈhedeɪk/	n. 头痛；麻烦；令人头痛之事
+2503	mushroom	/ˈmʌʃrʊm,ˈmʌʃruːm/	n. 蘑菇，伞菌；蘑菇形物体；暴发户adj. 蘑菇的；蘑菇形的；迅速生长的vi. 迅速增加；采蘑菇；迅速生长
+3265	round	/raʊnd/	n.圆,圆形物,巡回,一轮;adj.圆的,丰满的,大概的,完全的,率直的;prep.围着,附近,绕过,在...周围;vt.弄圆,使成圆形,绕行,完成,四舍五入vi.变圆,发胖,环行,拐弯,进展;adv.围绕着,循环地,在周围,迂回地,朝反方向,挨个
+681	classify	/ˈklæsɪfaɪ/	vt. 分类；分等
+332	bathe	/beɪð/	vt. 沐浴；用水洗vi. 洗澡；沐浴n. 洗澡；游泳n. (Bathe)人名；(德)巴特；(英)巴思
+2273	look	/lʊk/	vt. 看；期待；注意；面向；看上去像vi. 看；看起来；注意；面向n. 看；样子；面容n. (Look)人名；(瑞典)洛克；(英)卢克
+931	cry	/kraɪ/	vi.哭,流泪v.叫,喊n.哭泣,哭声,叫喊,喊声
+138	ambition	/æmˈbɪʃn/	n. 野心，雄心；抱负，志向vt. 追求；有…野心
+2836	possibility	/ˌpɑːsəˈbɪləti/	n. 可能性；可能发生的事物
+2738	photograph	/ˈfoʊtəɡræf/	n. 照片，相片v. 摄影，为......照相；在照片上显得
+3076	recollect	/ˌrekəˈlekt/	v. 回忆，想起
+2496	mug	/mʌɡ/	n. 杯子；脸；苦读者vi. 扮鬼脸，做怪相vt. 行凶抢劫
+2002	install	/ɪnˈstɔːl/	vt. 安装；任命；安顿
+88	affection	/əˈfekʃn/	n. 喜爱，感情；影响；感染
+2204	lessen	/ˈlesn/	vt. 使…变小；使…减轻；使…变少vi. 减少；减轻；变小n. (Lessen)人名；(德、罗)莱森

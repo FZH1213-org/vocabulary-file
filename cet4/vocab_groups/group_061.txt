@@ -1,0 +1,53 @@
+词汇组 61 (共 50 个词汇)
+序号	单词	音标	释义
+================================================================================
+3530	slippery	/ˈslɪpəri/	adj. 滑的；狡猾的；不稳定的
+2909	probably	/ˈprɑːbəbli/	adv. 大概；或许；很可能
+1283	engine	/ˈendʒɪn/	n. 引擎，发动机；机车，火车头；工具
+2661	operate	/ˈɑːpəreɪt/	vi. 运转；动手术；起作用vt. 操作；经营；引起；对…开刀；行动
+2814	pollute	/pəˈluːt/	vt. 污染；玷污；败坏
+520	buy	/baɪ/	vt. 购买；买得起；获得；贿赂；相信n. 购买；所购的物品；合算的东西n. （Buy）（法）比伊（人名）
+679	classical	/ˈklæsɪkl/	adj. 古典的；经典的；传统的；第一流的n. 古典音乐
+2231	like	/laɪk/	n.爱好,同样的人(或物)adj.相似的,同样的vt.喜欢,希望,愿意vi.喜欢,希望 prep.象,如同adv.可能
+2581	nonsense	/ˈnɑːnsens,ˈnɑːnsns/	n. 胡说；废话adj. 荒谬的int. 胡说！
+4160	unstable	/ʌnˈsteɪbl/	adj. 不稳定的；动荡的；易变的
+1613	fur	/fɜːr/	n. 皮，皮子；毛皮；软毛n. 水垢vt. 用毛皮覆盖；使穿毛皮服装n. (Fur)人名；(法)菲尔；(瑞典)富尔
+110	aim	/eɪm/	v. 目的在于；引导；把……对准；瞄准n. 目的；瞄准
+1837	hi	/haɪ/	int. 嗨！（表示问候或用以唤起注意）n. (Hi)人名；(柬)希
+2140	lace	/leɪs/	n. 花边；鞋带；饰带；少量烈酒vt. 饰以花边；结带子vi. 系带子n. (Lace)人名；(意)拉切
+1009	delete	/dɪˈliːt/	vt. 删除
+2997	queue	/kjuː/	n. 队列；长队；辫子vi. 排队；排队等候vt. 将…梳成辫子；使…排队
+2889	price	/praɪs/	n. 价格；价值；代价vt. 给……定价；问……的价格n. (Price)人名；(英)普赖斯；(法)普里斯；(葡、瑞典)普里塞
+4267	waken	/ˈweɪkən/	vt. 唤醒；使觉醒vi. 醒来；觉醒
+2070	its	/ɪts/	pron. 它的n. (Its)人名；(俄)伊茨
+3254	room	/ruːm,rʊm/	n.房间,屋子,寓所,场所,地位,空间,机会,余地
+2710	outset	/ˈaʊtset/	n. 开始；开端
+1004	definitely	/ˈdefɪnətli/	adv. 清楚地，当然；明确地，肯定地
+541	can	/kæn; kən/	vt.装进罐中,把食品装罐n.罐头,铁罐 conj.能,可以
+1987	injury	/ˈɪndʒəri/	n. 伤害，损害；受伤处
+1938	impressive	/ɪmˈpresɪv/	adj. 感人的；令人钦佩的；给人以深刻印象的
+1950	increasingly	/ɪnˈkriːsɪŋli/	adv. 越来越多地；渐增地
+2294	luggage	/ˈlʌɡɪdʒ/	n. 行李；皮箱
+4196	valuable	/ˈvæljuəbl/	adj. 有价值的；贵重的；可估价的n. 贵重物品
+1445	faulty	/ˈfɔːlti/	adj. 有错误的；有缺点的
+521	by	/baɪ/	prep. 由，被；通过；相差……；到……之前；在……旁边adv. 经过；（时间）过去；在旁边；短暂访问n. （体育比赛）轮空晋级adj. 旁边的，侧面的
+3632	spin	/spɪn/	vi. 旋转；纺纱；吐丝；晕眩vt. 使旋转；纺纱；编造；结网n. 旋转；疾驰
+1729	grieve	/ɡriːv/	vt. 使悲伤，使苦恼vi. 悲痛，哀悼n. (Grieve)人名；(英)格里夫
+4248	visual	/ˈvɪʒuəl/	adj. 视觉的，视力的；栩栩如生的
+4197	value	/ˈvæljuː/	n. 值；价值；价格；重要性；确切涵义vt. 评价；重视；估价
+32	accomplish	/əˈkɑːmplɪʃ/	vt. 完成；实现；达到
+4287	we	/wi,wiː/	pron. 我们（主格）；笔者，本人（作者或演讲人使用）；朕，寡人n. (We)人名；(缅)韦
+1713	grasp	/ɡræsp/	v. 抓牢，握紧；试图抓住；理解，领悟；毫不犹豫地抓住（机会）n. 抓，握；理解，领会；力所能及，把握；权力，控制
+2990	quarrel	/ˈkwɑːrəl/	n. 吵架，口角；反目，失和；争吵（或抱怨）的原因；方头凿，方头投掷物；方镞箭v. 吵架，争论；反对；挑剔；抱怨
+680	classification	/ˌklæsɪfɪˈkeɪʃn/	n. 分类；类别，等级
+2673	option	/ˈɑːpʃn/	n. [计] 选项；选择权；买卖的特权
+168	anticipate	/ænˈtɪsɪpeɪt/	v. 预料，预期；预见，预计（并做准备）； 期盼，期望； 先于……做，早于……行动；在期限内履行（义务），偿还（债务）；提前使用
+2375	mechanically	/məˈkænɪkli/	adv. 机械地；呆板地；物理上地
+3495	singular	/ˈsɪŋɡjələr/	adj. 单数的；单一的；非凡的；异常的n. 单数
+643	chief	/tʃiːf/	n. 首领；酋长；主要部分adj. 首席的；主要的；主任的adv. 主要地；首要地
+2950	protective	/prəˈtektɪv/	adj. 防护的；关切保护的；保护贸易的
+4008	tortoise	/ˈtɔːrtəs/	n. 龟，[脊椎] 乌龟（等于testudo）；迟缓的人
+4173	upwards	/ˈʌpwərdz/	adv. 向上；在上部；向上游
+410	blend	/blend/	vt. 混合vi. 混合；协调n. 混合；掺合物
+236	assembly	/əˈsembli/	n. 装配；集会，集合n. 汇编，编译
+2880	president	/ˈprezɪdənt/	n. 总统；董事长；校长；主席；总裁

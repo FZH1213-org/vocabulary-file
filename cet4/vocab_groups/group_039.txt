@@ -1,0 +1,53 @@
+词汇组 39 (共 50 个词汇)
+序号	单词	音标	释义
+================================================================================
+2918	production	/prəˈdʌkʃn/	n. 成果；产品；生产；作品
+2437	mislead	/ˌmɪsˈliːd/	vt. 误导；带错
+891	county	/ˈkaʊnti/	n. 郡，县
+907	create	/kriˈeɪt/	vt. 创造，创作；造成
+248	at	/ət,æt/	 prep.在,于,向,对准,在...方面;Austria,奥地利
+1952	indefinite	/ɪnˈdefɪnət/	adj. 不确定的；无限的；模糊的
+1030	derive	/dɪˈraɪv/	vt. 源于；得自；获得vi. 起源n. （Derive）（法）德里夫（人名）
+1175	driver	/ˈdraɪvər/	n. 驾驶员；驱动程序；起子；传动器n. (Driver)人名；(德)德里弗；(英)德赖弗
+122	alloy	/ˈælɔɪ; əˈlɔɪ/	n. 合金v. 把……铸成合金；使……减低成色n. (Alloy) （美、法、英、巴、加）阿洛伊（人名）
+3466	sick	/sɪk/	adj. 厌恶的；病态的；不舒服；渴望的；恶心的 ；生病的n. 病人vt. 使狗去咬；呕吐；追击n. （Sick）（德、西）西克（人名）
+4082	tube	/tuːb/	n. 管；电子管；隧道；电视机vt. 使成管状；把…装管；用管输送vi. 乘地铁；不及格
+2609	nursery	/ˈnɜːrsəri/	n. 苗圃；托儿所；温床
+1474	fiction	/ˈfɪkʃn/	n. 小说；虚构，编造；谎言
+1185	dull	/dʌl/	adj. 钝的；迟钝的；无趣的；呆滞的；阴暗的vt. 使迟钝；使阴暗；缓和vi. 减少；变迟钝n. (Dull)人名；(罗、匈)杜尔；(柬)杜；(英)达尔
+2841	postman	/ˈpoʊstmən/	n. 邮递员；邮差
+1230	eighth	/eɪtθ/	adj. 第八的；八分之一的num. 第八；八分之一
+3659	stable	/ˈsteɪbl/	adj.稳定的
+1517	flood	/flʌd/	n.洪水,水灾,(因雨)涨潮,[诗]水vt.淹没,使泛滥,注满,充满vi.被水淹,溢出,涌进,喷出,涌出
+1306	equation	/ɪˈkweɪʒn/	n. 方程式，等式；相等；[化学] 反应式
+962	dare	/der/	v. 胆敢；激（某人做某事）；（诗、文）冒险，挑战n. 挑战；激将n. (Dare) （美）达雷（人名）
+4328	whilst	/waɪlst/	conj. 当……的时候；与……同时；然而；虽然，尽管；直到……为止（等于 while）adv. 在……时候（等于 while）
+3047	reach	/riːtʃ/	vi. 达到；延伸；伸出手；传开vt. 达到；影响；抵达；伸出n. 范围；延伸；河段；横风行驶n. (Reach)人名；(柬)列
+1131	dive	/daɪv/	vi.潜水,跳水,下潜,俯冲n.潜水,跳水,下潜,俯冲
+2849	powder	/ˈpaʊdər/	n. 粉；粉末；[化工][军] 火药；尘土vt. 使成粉末；撒粉；搽粉于vi. 搽粉；变成粉末
+1777	hardware	/ˈhɑːrdwer/	n. 计算机硬件；五金器具
+3449	shopkeeper	/ˈʃɑːpkiːpər/	n. 店主，老板
+2198	leisure	/ˈliːʒər/	n. 闲暇；空闲；安逸adj. 空闲的；有闲的；业余的n. (Leisure)人名；(英)莱热
+3777	suffer	/ˈsʌfər/	vt. 遭受；忍受；经历vi. 遭受，忍受；受痛苦；经验；受损害n. (Suffer)人名；(意)苏费尔
+1491	finding	/ˈfaɪndɪŋ/	n. 发现；裁决；发现物v. 找到；感到（find的ing形式）；遇到
+3841	sword	/sɔːrd/	n. 刀，剑；武力，战争n. (Sword)人名；(英)索德
+4044	transmit	/trænsˈmɪt/	vt. 传输；传播；发射；传达；遗传vi. 传输；发射信号
+1349	exceedingly	/ɪkˈsiːdɪŋli/	adv. 非常；极其；极度地；极端
+1257	emerge	/ɪˈmɜːrdʒ/	vi. 浮现；摆脱；暴露
+655	choke	/tʃoʊk/	vt. 呛；使窒息；阻塞；抑制；扑灭vi. 窒息；阻塞；说不出话来n. 窒息；噎；[动力] 阻气门
+1819	helicopter	/ˈhelɪkɑːptər/	n. [航] 直升飞机vi. [航] 乘直升飞机vt. 由直升机运送
+2042	interview	/ˈɪntərvjuː/	n. 接见，采访；面试，面谈vt. 采访；接见；对…进行面谈；对某人进行面试
+2713	outstanding	/aʊtˈstændɪŋ/	adj. 杰出的；显著的；未解决的；未偿付的n. 未偿贷款
+3292	sadly	/ˈsædli/	adv. 悲哀地；悲痛地
+3315	satisfy	/ˈsætɪsfaɪ/	vi. 令人满意；令人满足vt. 满足；说服，使相信；使满意，使高兴
+3034	rank	/ræŋk/	n. 排；等级；军衔；队列adj. 讨厌的；恶臭的；繁茂的vt. 排列；把…分等vi. 列为；列队n. (Rank)人名；(英、德、芬、捷)兰克
+3927	these	/ðiːz/	det. 这些（this 的复数）pron. 这些（this 的复数）adj. 这些的（this 的复数）
+1380	experiment	/ɪkˈsperɪmənt/	n. 实验，试验；尝试v. 尝试；试验；进行实验
+60	ad	/æd/	abbr. 优势 (advantage)n. 广告；促销活动；预告片（advertisement，非正式）
+2542	necklace	/ˈnekləs/	n. 项链
+3703	stiffen	/ˈstɪfn/	vi. 变硬；变猛烈；变粘vt. 使变硬；使粘稠
+3813	surprise	/sərˈpraɪz/	n. 惊奇，诧异；突然袭击vt. 使惊奇；奇袭adj. 令人惊讶的
+531	calculation	/ˌkælkjuˈleɪʃn/	n. 计算；估计；计算的结果；深思熟虑
+4165	unwilling	/ʌnˈwɪlɪŋ/	adj. 不愿意的；不情愿的；勉强的
+495	bucket	/ˈbʌkɪt/	n. 桶，水桶；铲斗；一桶的量；（俚）篮球得分v. 倾盆而下；颠簸着行进n. （Bucket）（德）布克特（人名）
+4020	town	/taʊn/	n. 城镇，市镇；市内商业区n. (Town)人名；(英)汤

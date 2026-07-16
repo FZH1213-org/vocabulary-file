@@ -1,0 +1,53 @@
+词汇组 78 (共 50 个词汇)
+序号	单词	音标	释义
+================================================================================
+763	complaint	/kəmˈpleɪnt/	n. 抱怨；诉苦；疾病；委屈
+1544	forecast	/ˈfɔːrkæst/	n. （天气、财经等的）预测，预报；预想v. 预报，预测；预示；预言；进行预报，作预测
+4100	twice	/twaɪs/	adv. 两次；两倍
+2181	leading	/ˈliːdɪŋ; ˈledɪŋ/	adj. 领导的；主要的n. 领导；铅板；行距v. 领导（lead的ing形式）
+3093	reflexion	/rɪˈflekʃn/	n. 反射；沉思；映象
+3513	skim	/skɪm/	v.撇去
+2544	needle	/ˈniːdl/	n. 针；指针；刺激；针状物vi. 缝纫；做针线vt. 刺激；用针缝n. (Needle)人名；(英)尼德尔
+450	brain	/breɪn/	n. 头脑，智力；脑袋vt. 猛击…的头部n. (Brain)人名；(英)布雷恩
+807	congress	/ˈkɑːŋɡrəs/	n. 国会；代表大会；会议；社交
+2473	morning	/ˈmɔːrnɪŋ/	n. 早晨；黎明；初期
+3667	stake	/steɪk/	n. 桩，棍子；赌注；火刑；奖金vt. 资助，支持；系…于桩上；把…押下打赌vi. 打赌n. (Stake)人名；(瑞典)斯塔克
+3193	restaurant	/ˈrestrɑːnt,ˈrestərɑːnt/	n. 餐馆；[经] 饭店
+2742	physician	/fɪˈzɪʃn/	n. 医师，内科医师；抚慰者
+3687	steadily	/ˈstedəli/	adv. 稳定地；稳固地；有规则地
+331	bath	/bæθ/	n. 沐浴；浴室；浴盆vt. 洗澡vi. 洗澡
+1748	gum	/ɡʌm/	n. 口香糖；树胶；橡皮；牙龈；牙床vt. 用胶粘，涂以树胶；使……有粘性n. （Gum）古姆（人名）
+1046	destruction	/dɪˈstrʌkʃn/	n. 破坏，毁灭；摧毁
+1365	exercise	/ˈeksərsaɪz/	n. 运动；练习；运用；操练；礼拜；典礼vt. 锻炼；练习；使用；使忙碌；使惊恐vi. 运动；练习
+4156	unlucky	/ʌnˈlʌki/	adj. 不幸的；倒霉的；不吉利的
+2848	poverty	/ˈpɑːvərti/	n. 贫困；困难；缺少；低劣
+114	airplane	/ˈerpleɪn/	n. 飞机
+573	carrier	/ˈkæriər/	n. [化学] 载体；运送者；带菌者；货架n. (Carrier)人名；(英)卡里尔；(法)卡里耶
+3252	romantic	/roʊˈmæntɪk/	adj. 浪漫的；多情的；空想的n. 浪漫的人vt. 使…浪漫化
+1960	indifferent	/ɪnˈdɪfrənt/	adj. 冷淡的；不关心的；中等的；平庸的；一般的；相当差的；中立的；不分化的n. 冷漠的人
+3986	toast	/toʊst/	n. 干杯；烤面包；接受敬酒的人；（在某领域）广受赞誉的人vt. 向…祝酒，为…干杯vi. 烤火，取暖；使暖和；烘烤（面包片等）
+774	comprehensive	/ˌkɑːmprɪˈhensɪv/	adj. 综合的；广泛的；有理解力的n. 综合学校；专业综合测验
+1966	industrial	/ɪnˈdʌstriəl/	adj. 工业的，产业的；从事工业的；供工业用的；来自勤劳的n. 工业股票；工业工人
+943	curious	/ˈkjʊriəs/	adj. 好奇的，有求知欲的；古怪的；爱挑剔的
+1106	disgust	/dɪsˈɡʌst/	n. 厌恶，嫌恶vt. 使厌恶；使作呕
+1273	encounter	/ɪnˈkaʊntər/	v. 遭遇；邂逅；遇到n. 遭遇；偶然碰见
+1769	happen	/ˈhæpən/	vi. 发生；碰巧；偶然遇到
+808	conjunction	/kənˈdʒʌŋkʃn/	n. 结合；[语] 连接词；同时发生
+3336	scheme	/skiːm/	n. 计划；组合；体制；诡计vi. 搞阴谋；拟订计划vt. 计划；策划n. (Scheme)人名；(瑞典)谢默
+2917	product	/ˈprɑːdʌkt/	n. 产品；结果；[数] 乘积；作品
+3052	readily	/ˈredɪli/	adv. 容易地；乐意地；无困难地
+2885	prevail	/prɪˈveɪl/	vi. 盛行，流行；战胜，获胜
+3635	spit	/spɪt/	vi. 吐痰；吐口水；发出劈啪声vt. 吐，吐出；发出；发射n. 唾液
+1831	hero	/ˈhɪroʊ,ˈhiːroʊ/	n. 英雄；男主角，男主人公
+2911	procedure	/prəˈsiːdʒər/	n. 程序，手续；步骤
+608	certificate	/sərˈtɪfɪkət/	n. 证书；文凭，合格证书；电影放映许可证v. 发给证明书，用证书证明
+4307	weight	/weɪt/	n. 重量，重力；负担；砝码；重要性vt. 加重量于，使变重n. (Weight)人名；(英)韦特；(捷)魏格特
+1127	distribution	/ˌdɪstrɪˈbjuːʃn/	n. 分布；分配；供应
+4024	tractor	/ˈtræktər/	n. 拖拉机；牵引机
+3594	sour	/ˈsaʊər/	adj. 酸的；发酵的；刺耳的；酸臭的；讨厌的vi. 发酵；变酸；厌烦vt. 使变酸；使失望n. 酸味；苦事n. (Sour)人名；(柬)索
+2405	method	/ˈmeθəd/	n. 方法；条理；类函数
+3058	really	/ˈriːəli/	adv. 实际上，事实上；真正地，真实地；真的吗？（表语气）
+734	comfort	/ˈkʌmfərt/	n. 安慰；舒适；安慰者vt. 安慰；使（痛苦等）缓和
+210	arithmetic	/əˈrɪθmətɪk/	n. 算术，算法；数字
+1700	grain	/ɡreɪn/	n. 粮食；颗粒；谷物；纹理；晶粒；旧格令（质量单位，等于0.0648克）vi. 成谷粒vt. 使成谷粒n. （Grain）（法）格兰（人名）
+3724	straight	/streɪt/	adj.直的,诚实的,正直的,率直的,整齐的adv.直,直接,一直

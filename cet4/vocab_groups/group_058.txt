@@ -1,0 +1,53 @@
+词汇组 58 (共 50 个词汇)
+序号	单词	音标	释义
+================================================================================
+3465	shy	/ʃaɪ/	adj. 害羞的；畏缩的，胆怯的vi. 投；畏缩；惊退；厌恶vt. 投；乱掷n. 投掷；惊跳n. (Shy)人名；(英)夏伊
+968	date	/deɪt/	n. 日期；约会；年代；枣椰子vi. 过时；注明日期；始于（某一历史时期）vt. 确定…年代；和…约会n. (Date)人名；(日)伊达 (姓)；(英)戴特
+3054	ready	/ˈredi/	adj. 准备好；现成的；迅速的；情愿的；快要…的n. 现款；预备好的状态adv. 迅速地；预先vt. 使准备好n. (Ready)人名；(英)雷迪
+254	atomic	/əˈtɑːmɪk/	adj. 原子的，原子能的；微粒子的
+255	attach	/əˈtætʃ/	vt. 使依附；贴上；系上；使依恋vi. 附加；附属；伴随
+3722	story	/ˈstɔːri/	n. 故事；小说；描述；新闻报道；来历；假话；层；一种测量单位（1 story 等于 3.3 米）vt. 用历史故事画装饰vi. 说谎n. （Story）斯托里（人名）
+2515	mystery	/ˈmɪstəri/	n. 秘密，谜；神秘，神秘的事物；推理小说，推理剧；常作 mysteries 秘技，秘诀
+1919	imaginary	/ɪˈmædʒɪneri/	adj. 虚构的，假想的；想象的；虚数的
+3661	stadium	/ˈsteɪdiəm/	n. 体育场；露天大型运动场
+4076	trumpet	/ˈtrʌmpɪt/	n. 喇叭；喇叭声vt. 吹喇叭；吹嘘vi. 吹喇叭；发出喇叭般的声音
+4009	torture	/ˈtɔːrtʃər/	n. 折磨；拷问；歪曲v. 折磨；拷问；歪曲
+3386	sense	/sens/	n. 感觉，官能；观念；道理；理智vt. 感觉到；检测n. (Sense) （美）森斯（人名）
+1788	hat	/hæt/	n. 帽子vt. 给……戴上帽子vi. 供应帽子；制造帽子n. （Hat）（中）（广东话·威妥玛）核（人名）
+3509	ski	/skiː/	n. 滑雪橇vi. 滑雪adj. 滑雪（用）的
+4103	twist	/twɪst/	n.一扭,扭曲,盘旋,曲折,歪曲,手法,螺旋状vt.拧,扭曲,绞,搓,捻,使苦恼,使转动,编织vi.扭弯,扭曲,缠绕,扭动,呈螺旋形
+3460	show	/ʃoʊ/	vt. 显示；说明；演出；展出vi. 显示；说明；指示n. 显示；表演；炫耀n. (Show) （美、巴西）肖（人名）
+4425	zebra	/ˈziːbrə/	n. [脊椎] 斑马adj. 有斑纹的（Zebra）斑马（文具品牌）；斑马公司（指盈利性和有责任感的公司）
+1985	injection	/ɪnˈdʒekʃn/	n. 注射；注射剂；充血；射入轨道
+4189	vacant	/ˈveɪkənt/	adj. 空虚的；空的；空缺的；空闲的；茫然的n. （Vacant）（法）瓦康（人名）
+2780	plate	/pleɪt/	n. 碟；金属板；金属牌；感光底片vt. 电镀；给…装甲n. (Plate)人名；(英、德、俄、西、意、瑞典)普拉特
+2081	jealous	/ˈdʒeləs/	adj. 妒忌的；猜疑的；唯恐失去的；戒备的
+2784	playground	/ˈpleɪɡraʊnd/	n. 运动场，操场；游乐场
+1904	idea	/aɪˈdiːə/	n. 想法；主意；概念
+4062	tribe	/traɪb/	n. 部落；族；宗族；一伙n. (Tribe)人名；(英)特赖布
+951	customer	/ˈkʌstəmər/	n. 顾客；家伙
+1703	gramme	/ɡræm/	n. 克n. (Gramme)人名；(法)格拉姆
+2699	ours	/ɑːrz,ˈaʊərz/	pron. 我们的，属于我们的n. (Ours) （美）乌尔斯（人名）
+3013	radar	/ˈreɪdɑːr/	n. [雷达] 雷达，无线电探测器n. (Radar)人名；(塞)拉达尔
+3400	service	/ˈsɜːrvɪs/	n. 服务，服侍；服役；仪式adj. 服务性的；耐用的；服现役的vt. 维修，检修；保养n. (Service)人名；(英)瑟维斯
+3799	superior	/suːˈpɪriər/	adj. 上级的；优秀的，出众的；高傲的n. 上级，长官；优胜者，高手；长者
+1246	elementary	/ˌelɪˈmentri/	adj. 基本的；初级的；[化学] 元素的
+1063	diameter	/daɪˈæmɪtər/	n. 直径
+277	automation	/ˌɔːtəˈmeɪʃn/	n. 自动化；自动操作
+1391	expose	/ɪkˈspoʊz/	vt. 揭露，揭发；使曝光；显示
+3180	resolution	/ˌrezəˈluːʃn/	n. [物] 分辨率；决议；解决；决心
+2723	overnight	/ˌoʊvərˈnaɪt/	adv. 在夜间；突然；一夜之间adj. 晚上的，只供一夜的；突然的v. 过夜；连夜快递（某物）n. 一夜的逗留
+3795	sunset	/ˈsʌnset/	n. 日落，傍晚
+4016	toward	/tɔːrd/	prep. 向；趋向；对于；接近（时间）；靠近；用于，为了（同 towards）adj. 即将来到的，进行中的n. (Toward) （美、加、沙特）特沃德
+1483	fill	/fɪl/	vt. 装满，使充满；满足；堵塞；任职vi. 被充满，膨胀n. 满足；填满的量；装填物n. (Fill)人名；(德、俄、匈)菲尔
+2734	phenomenon	/fəˈnɑːmɪnən/	n. 现象；奇迹；杰出的人才
+2736	philosophy	/fəˈlɑːsəfi/	n. 哲学；哲理；人生观
+1383	explain	/ɪkˈspleɪn/	v. 说明；解释
+3544	smooth	/smuːð/	adj. 顺利的；光滑的；平稳的vt. 使光滑；消除（障碍等）；使优雅；缓和n. 平滑部分；一块平地vi. 变平静；变平滑adv. 光滑地；平稳地；流畅地
+2585	normally	/ˈnɔːrməli/	adv. 正常地；通常地，一般地
+1342	exactly	/ɪɡˈzæktli/	adv. 恰好地；正是；精确地；正确地
+47	acquaintance	/əˈkweɪntəns/	n. 熟人；相识；了解；知道
+2327	manufacture	/ˌmænjuˈfæktʃər/	n. 制造；产品；制造业vt. 制造；加工；捏造vi. 制造
+3689	steal	/stiːl/	vt. 剽窃；偷偷地做；偷窃vi. 窃取；偷偷地行动；偷垒n. 偷窃；便宜货；偷垒；断球
+180	apologize	/əˈpɑːlədʒaɪz/	vi. 道歉，谢罪；辩解，辩护
+1398	extent	/ɪkˈstent/	n. 程度；范围；长度

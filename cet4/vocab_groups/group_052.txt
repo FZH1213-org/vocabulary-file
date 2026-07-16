@@ -1,0 +1,53 @@
+词汇组 52 (共 50 个词汇)
+序号	单词	音标	释义
+================================================================================
+427	bond	/bɑːnd/	n. 债券；结合；约定；粘合剂；纽带vi. 结合，团结在一起vt. 使结合；以…作保n. (Bond)人名；(英、德、西、刚(金)、瑞典)邦德
+3907	test	/test/	n. 测验，考查；测试；检验；化验v. 测验；化验，检查；试验，测试；考验
+1044	destination	/ˌdestɪˈneɪʃn/	n. 目的地，终点
+749	communist	/ˈkɑːmjənɪst/	n. 共产党员；共产主义者adj. 共产主义的
+1290	enormous	/ɪˈnɔːrməs/	adj. 庞大的，巨大的；凶暴的，极恶的
+2169	laundry	/ˈlɔːndri/	n. 洗衣店，洗衣房；要洗的衣服；洗熨；洗好的衣服
+3459	shout	/ʃaʊt/	vi. 呼喊；喊叫；大声说vt. 呼喊；大声说n. 呼喊；呼叫
+1319	estimate	/ˈestɪmeɪt/	n. 估计，估价；判断，看法v. 估计，估量；判断，评价
+3240	rob	/rɑːb/	v. 抢劫，掠夺；（非正式）敲诈；（非正式）盗窃；使……丧失，非法剥夺；（英足）夺（对手）的球
+2564	newspaper	/ˈnuːzpeɪpər/	n. 报纸报社旧报纸
+2677	orange	/'ɔrɪndʒ/	n.柑,桔,橙,橙色
+41	accustom	/əˈkʌstəm/	v. 使习惯于，使适应
+1443	fatigue	/fəˈtiːɡ/	n. 疲劳，疲乏；杂役vt. 使疲劳；使心智衰弱vi. 疲劳adj. 疲劳的
+1869	horizon	/həˈraɪzn/	n. [天] 地平线；视野；眼界；范围
+1326	evening	/ˈiːvnɪŋ/	n. 晚上；傍晚；（联欢性的）晚会；后期adj. 在晚上的；为晚上的；晚上用的int. 晚上好（等于good evening）
+1426	famine	/ˈfæmɪn/	n. 饥荒；饥饿，奇缺
+2598	novel	/ˈnɑːvl/	adj. 新奇的；异常的n. 小说n. (Novel)人名；(法、西、英)诺韦尔
+3875	technician	/tekˈnɪʃn/	n. 技师，技术员；技巧纯熟的人
+4107	typhoon	/taɪˈfuːn/	n. [气象] 台风
+641	chew	/tʃuː/	vt.咀爵(食物等)v.咀嚼,认真考虑
+4291	wealth	/welθ/	n. 财富；大量；富有
+2373	mechanic	/məˈkænɪk/	n. 技工，机修工adj. 手工的n. (Mechanic)人名；(英)梅凯尼克
+3046	razor	/ˈreɪzər/	n. 剃（须）刀v. 用剃刀剃，用剃刀刮
+4210	vehicle	/ˈviːəkl,ˈviːhɪkl/	n. [车辆] 车辆；工具；交通工具；运载工具；传播媒介；媒介物
+2232	likely	/ˈlaɪkli/	adj. 很可能的；合适的；有希望的adv. 很可能；或许
+500	bulb	/bʌlb/	n. 电灯泡；鳞茎；球状物vi. 生球茎；膨胀成球状
+3520	sleep	/sliːp/	vi. 睡，睡觉n. 睡眠n. (Sleep)人名；(英)斯利普
+1002	define	/dɪˈfaɪn/	vt. 定义；使明确；规定n. (Define)人名；(英)德法恩；(葡)德菲内
+3185	respectful	/rɪˈspektfl/	adj. 恭敬的；有礼貌的
+3711	stomach	/ˈstʌmək/	n. 胃；腹部；胃口vt. 忍受；吃下vi. 忍受
+334	battery	/ˈbætəri/	n. [电] 电池，蓄电池n. [法]殴打n. [军]炮台，炮位
+4394	worthless	/ˈwɜːrθləs/	adj. 无价值的；不值钱的；卑微的
+133	altitude	/ˈæltɪtuːd/	n. 高地；高度；[数] 顶垂线；（等级和地位等的）高级；海拔
+1325	even	/ˈiːvn/	adj.平的,平滑的,偶数的,一致的,平静的,恰好的,平均的,连贯的adv.[加强语气]甚至(...也),连...都,即使,恰好,正当vt.使平坦,使相等vi.变平,相等n.偶数,偶校验
+3394	sequence	/ˈsiːkwəns/	n. [数][计] 序列；顺序；续发事件vt. 按顺序排好
+3357	seaport	/ˈsiːpɔːrt/	n. 海港；港口都市
+897	cover	/ˈkʌvər/	n.盖子,封面,藉口vt.覆盖,铺,掩饰,保护,掩护,包括,包含,适用vi.覆盖,涂,代替
+363	being	/ˈbiːɪŋ/	n. 存在；生物；身心；生活，有生命；本质adj. 存在的v. 存在；在场；从事；就是；代表（be 的现在分词）
+4061	triangle	/ˈtraɪæŋɡl/	n. 三角（形）；三角关系；三角形之物；三人一组
+2393	merchant	/ˈmɜːrtʃənt/	n. 商人，批发商；店主adj. 商业的，商人的n. (Merchant)人名；(英)麦钱特
+3694	steer	/stɪr/	vt. 控制，引导；驾驶vi. 驾驶，掌舵；行驶n. 阉牛n. (Steer)人名；(英)斯蒂尔；(德、匈)施特尔
+2040	interruption	/ˌɪntəˈrʌpʃn/	n. 中断；干扰；中断之事
+25	access	/ˈækses/	n.通路,访问,入门vt.存取,接近
+2782	play	/pleɪ/	vt. 游戏；扮演；演奏；播放；同…比赛vi. 演奏；玩耍；上演；参加比赛n. 游戏；比赛；剧本n. (Play)人名；(法、瑞典)普莱
+2458	moisture	/ˈmɔɪstʃər/	n. 水分；湿度；潮湿；降雨量
+2189	learning	/ˈlɜːrnɪŋ/	n. 学习；学问v. 学习（learn的现在分词）
+2730	owner	/ˈoʊnər/	n. [经] 所有者；物主
+4085	tuition	/tuˈɪʃn/	n. 学费；讲授
+3811	surgery	/ˈsɜːrdʒəri/	n. 外科；外科手术；手术室；诊疗室
+2903	prisoner	/ˈprɪznər/	n. 囚犯，犯人；俘虏；刑事被告

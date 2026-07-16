@@ -1,0 +1,53 @@
+词汇组 64 (共 50 个词汇)
+序号	单词	音标	释义
+================================================================================
+2939	properly	/ˈprɑːpərli/	adv. 适当地；正确地；恰当地
+3913	that	/ðæt/	adj.那,那个 pron.那,那个 conj.引导从句
+2177	lazy	/ˈleɪzi/	adj. 懒惰的；懒洋洋的；怠惰的；慢吞吞的n. (Lazy)人名；(德)拉齐
+3606	span	/spæn/	n. 跨度，跨距；范围vt. 跨越；持续；以手指测量n. (Span)人名；(捷)斯潘
+2021	intend	/ɪnˈtend/	vt. 打算；想要；意指vi. 有打算
+21	accent	/ˈæksənt/	n. 口音；重音；强调；特点；重音符号vt. 强调；重读；带…口音讲话
+3540	smell	/smel/	n. 气味，嗅觉；臭味v. 嗅，闻；有……气味；察觉到；发出……的气味n. (Smell) （美、俄、英、印、新）史默乐（人名）
+2058	invite	/ɪnˈvaɪt/	vt. 邀请，招待；招致n. 邀请
+86	affair	/əˈfer/	n. 事情；事务；私事；（尤指关系不长久的）风流韵事
+2846	pound	/paʊnd/	n. 英镑；重击，重击声；兽栏；拘留所vt. 捣烂；敲打；监禁，拘留vi. 连续重击，猛击n. (Pound)人名；(英)庞德
+3948	thousand	/ˈθaʊznd/	n. 一千；一千个；许许多多
+1347	example	/ɪɡˈzæmpl/	n. 例子；榜样vt. 作为…的例子；为…做出榜样vi. 举例
+839	content	/'kɑntent/	n. 内容，目录；满足；容量adj. 满意的vt. 使满意n. （Content）（法）孔唐（人名）
+4116	unbearable	/ʌnˈberəbl/	adj. 难以忍受的；承受不住的
+1453	feather	/ˈfeðər/	n. 羽毛vt. 用羽毛装饰vi. 长羽毛n. (Feather)人名；(英)费瑟
+2777	plantation	/plænˈteɪʃn/	n. 栽植；殖民；大农场adj. 适用于种植园或热带、亚热带国家的
+400	bitterly	/ˈbɪtərli/	adv. 苦涩地，悲痛地，残酷地，怨恨地；极其，非常，强烈地
+2328	manufacturer	/ˌmænjuˈfæktʃərər/	n. 制造商；[经] 厂商
+4389	worry	/ˈwɜːri/	v. （使）担心,（使）发愁；骚扰，烦扰；撕咬（动物）n. 担心；让人发愁的事（或人）
+1986	injure	/ˈɪndʒər/	vt. 伤害，损害
+3476	significance	/sɪɡˈnɪfɪkəns/	n. 意义；重要性；意思
+2851	powerful	/ˈpaʊərfl/	adj. 强大的；强有力的adv. 很；非常
+4019	tower	/ˈtaʊər/	n. 塔；高楼；堡垒vi. 高耸；超越n. (Tower)人名；(英)托尔
+835	contain	/kənˈteɪn/	vt. 包含；控制；容纳；牵制（敌军）vi. 含有；自制
+3141	remember	/rɪˈmembər/	vt. 记得；牢记；纪念；代…问好vi. 记得，记起
+3095	refresh	/rɪˈfreʃ/	vt. 更新；使……恢复；使……清新；消除……的疲劳vi. 恢复精神；喝饮料，吃点心；补充给养
+471	bright	/braɪt/	adj. 明亮的，鲜明的；聪明的；愉快的adv. 明亮地；光明地；欢快地n. 车头灯光n. (Bright)人名；(英)布赖特
+2570	nineteen	/ˌnaɪnˈtiːn/	num. 十九n. 十九个；十九岁；十九号
+4175	urgent	/ˈɜːrdʒənt/	adj. 紧急的；急迫的
+2080	jazz	/dʒæz/	n. 爵士乐，爵士舞；喧闹vi. 奏爵士乐，跳爵士舞；游荡vt. 奏爵士乐；使活泼adj. 爵士乐的；喧吵的n. (Jazz)人名；(德)雅茨
+1133	divide	/dɪˈvaɪd/	v. （使）分开，分成；分配，分担；分隔；（道路）分叉；使产生分歧；（数）除，除以n. 分歧，差异；分水岭；界限
+3560	sock	/sɑːk/	n. 短袜；一击vt. 重击；给……穿袜adv. 正着地；不偏不倚地adj. 非常成功的n. (Sock)人名；(德)佐克
+554	canvas	/ˈkænvəs/	n. 帆布vt. 用帆布覆盖，用帆布装备adj. 帆布制的
+2425	miner	/ˈmaɪnər/	n. 矿工；开矿机n. (Miner)人名；(英)迈纳；(西)米内尔
+4348	widow	/ˈwɪdoʊ/	n. 寡妇；未排足的行；寡妇鸟v. 使丧偶
+278	automobile	/ˈɔːtəməbiːl/	n. 汽车vt. 驾驶汽车[ 过去式 automobiled 过去分词 automobiled 现在分词 automobiling ]
+3178	resistance	/rɪˈzɪstəns/	n. 阻力；电阻；抵抗；反抗；抵抗力
+1329	ever	/ˈevər/	adv. 永远；曾经；究竟n. (Ever)人名；(英)埃弗；(俄)叶韦尔；(西、法)埃韦尔
+1540	footstep	/ˈfʊtstep/	n. 脚步；脚步声；足迹
+4273	war	/wɔːr/	n. 战争，斗争；军事，战术；冲突，对抗，竞争vi. 打仗，作战；对抗
+3498	sister	/ˈsɪstər/	n. 姐妹；（称志同道合者）姐妹；修女；护士adj. 姐妹般的；同类型的
+4285	wax	/wæks/	n. 蜡；蜡状物vt. 给…上蜡vi. 月亮渐满；增大adj. 蜡制的；似蜡的n. (Wax)人名；(德、罗、匈、英)瓦克斯
+3872	team	/tiːm/	n. 队；组vt. 使合作vi. 合作n. (Team)人名；(柬)甸
+3895	tendency	/ˈtendənsi/	n. 倾向，趋势；癖好
+1173	drip	/drɪp/	n.水滴v.(使)滴下
+2061	iron	/ˈaɪərn/	n. 熨斗；烙铁；坚强vt. 熨；用铁铸成adj. 铁的；残酷的；刚强的vi. 熨衣；烫平n. (Iron)人名；(英)艾恩
+3023	rage	/reɪdʒ/	n. 愤怒；狂暴，肆虐；情绪激动vi. 大怒，发怒；流行，风行n. (Rage)人名；(丹)拉厄
+1715	grateful	/ˈɡreɪtfl/	adj. 感谢的；令人愉快的，宜人的
+1523	flu	/fluː/	n. 流感n. (Flu)人名；(法)弗吕
+646	childish	/ˈtʃaɪldɪʃ/	adj. 幼稚的，孩子气的

@@ -1,0 +1,53 @@
+词汇组 49 (共 50 个词汇)
+序号	单词	音标	释义
+================================================================================
+1464	female	/ˈfiːmeɪl/	adj. 女性的；雌性的n. 女人；[动] 雌性动物
+271	Australia	/ɔːˈstreɪljə/	n. 澳大利亚，澳洲
+3556	social	/ˈsoʊʃl/	adj. 社会的，社交的；群居的n. 联谊会；联欢会
+2046	introduction	/ˌɪntrəˈdʌkʃn/	n. 介绍；引进；采用；入门；传入
+2798	poem	/ˈpoʊəm/	n. 诗
+4094	turnip	/ˈtɜːrnɪp/	n. 萝卜；芜菁甘蓝，大头菜
+2353	mathematics	/ˌmæθəˈmætɪks/	n. 数学；数学运算
+3262	rotten	/ˈrɑːtn/	adj. 腐烂的；堕落的；恶臭的；虚弱的；极坏的adv. 非常n. (Rotten)人名；(法、德)罗滕
+3854	tale	/teɪl/	n. 故事；传说；叙述；流言蜚语n. (Tale)人名；(塞)塔莱
+3747	structural	/ˈstrʌktʃərəl/	adj. 结构的；建筑的
+3186	respective	/rɪˈspektɪv/	adj. 分别的，各自的
+3450	shopping	/ˈʃɑːpɪŋ/	n. 购物，买东西v. 购物（shop的ing形式）
+1949	increase	/ɪnˈkriːs; ˈɪnkriːs/	v. 增加；增大；提高；增强n. 增加；增多；增长n. (Increase) （英、美、印、尼日尼亚）英克里斯（人名）
+2277	lord	/lɔːrd/	n. 主；上帝int. 主，天啊vt. 使成贵族vi. 作威作福，称王称霸n. (Lord)人名；(瑞典)洛德；(法)洛尔
+3469	sideways	/ˈsaɪdweɪz/	adv. 向侧面地，向一旁地；平级变动地；间接地adj. 向侧面的，向一旁的；平级变动的；间接的；非正统的
+1876	host	/hoʊst/	n. [计] 主机；主人；主持人；许多vt. 主持；当主人招待vi. 群集；做主人
+4336	who	/huː/	pron. 谁；什么人
+1409	factor	/ˈfæktər/	n. 因素；要素；[物] 因数；代理人vi. 做代理商vt. 把…作为因素计入；代理经营；把…分解成n. (Factor)人名；(英)法克特
+4059	trend	/trend/	n. 趋势，倾向；走向vi. 趋向，伸向vt. 使…趋向n. (Trend)人名；(英)特伦德
+2565	next	/nekst/	adj. 紧接在后的；贴近的；其次的adv. 然后；下次；其次n. 下一个人或事件prep. 靠近；居于…之后det. 下次；紧接在后的；另一个
+2072	jacket	/ˈdʒækɪt/	n. 羽绒滑雪衫；西装短外套；短上衣，夹克；土豆皮；书籍的护封；文件套，公文夹vt. 给…穿夹克；给…装护套；给…包上护封；〈口〉打
+4358	wing	/wɪŋ/	n. 翼；翅膀；飞翔；派别；侧厅，耳房，厢房vt. 使飞；飞过；空运；增加…速度；装以翼vi. 飞行n. (Wing)人名；(英、印尼)温
+3122	relatively	/ˈrelətɪvli/	adv. 相当地；相对地，比较地
+401	black	/blæk/	n.黑色,黑颜料,黑人adj.黑色的,弄脏了的,忧郁的vt.(使)变黑,涂黑
+2695	otherwise	/ˈʌðərwaɪz/	adv. 否则；另外；在其他方面adj. 另外的；其他方面的；原本，本来conj. 其他；如果不；然后
+46	acid	/ˈæsɪd/	n. 酸；俚迷幻药adj. 酸的；讽刺的；刻薄的
+502	bull	/bʊl/	n.[动]公牛,粗壮如牛的人
+1921	imagine	/ɪˈmædʒɪn/	vt. 想象；猜想；臆断vi. 想象；猜想；想象起来
+4314	westward	/ˈwestwərd/	adj. 向西的；西方的adv. 向西n. 西部；西方n. (Westward) （英、美）韦史特华尔德（人名）
+2482	motor	/ˈmoʊtər/	n. 发动机，马达；汽车adj. 汽车的；机动的vi. 乘汽车vt. 以汽车载运
+2093	journey	/ˈdʒɜːrni/	n. 旅行；行程vi. 旅行n. (Journey)人名；(英)朱尼，朱妮(女名)
+1261	emotional	/ɪˈmoʊʃənl/	adj. 情绪的；易激动的；感动人的
+4213	velvet	/ˈvelvɪt/	n. 天鹅绒，丝绒；天鹅绒似的东西adj. 天鹅绒的
+1754	hair	/her/	n. 头发；毛发；些微
+4021	toy	/tɔɪ/	n. 玩具；小装饰品；不值钱的东西vi. 玩弄；调情；随随便便地对待adj. 作为玩具的；玩物似的n. (Toy) （美）托伊（人名）
+476	brisk	/brɪsk/	adj. 敏锐的，活泼的，轻快的；凛冽的vi. 活跃起来；变得轻快vt. 使……活泼；使……轻快；使……兴旺n. (Brisk)人名；(法、芬)布里斯克
+1163	dramatization	/ˌdræmətəˈzeɪʃn/	n. 编剧；改编成戏剧
+606	certainly	/ˈsɜːrtnli/	adv. 当然；行（用于回答）；必定
+1705	granddaughter	/ˈɡrændɔːtər/	n. 孙女；外孙女
+2822	porch	/pɔːrtʃ/	n. 门廊；走廊
+2172	lawn	/lɔːn/	n. 草地；草坪n. (Lawn)人名；(缅)朗
+3552	soap	/soʊp/	n. 肥皂vt. 将肥皂涂在……上；俚对……拍马屁vi. 用肥皂擦洗
+1429	fancy	/ˈfænsi/	adj.奇特的,异样的vt.想象,设想,认为,爱好,自负n.爱好,迷恋,想象力
+3035	rapid	/ˈræpɪd/	adj. 迅速的，急促的；飞快的；险峻的n. 急流；高速交通工具，高速交通网
+2923	profit	/ˈprɑːfɪt/	n. 利润；利益vi. 获利；有益vt. 有益于n. （Profit）（法）普罗菲（人名）
+3616	specialist	/ˈspeʃəlɪst/	n. 专家；专门医师adj. 专家的；专业的
+1804	heal	/hiːl/	vt. 治愈，痊愈；和解vi. 痊愈n. (Heal)人名；(英)希尔
+4117	uncertain	/ʌnˈsɜːrtn/	adj. 无把握的；多变的；不确定的；信心不足的；靠不住的
+2842	postpone	/poʊˈspoʊn/	vt. 使……延期；把……放在次要地位；把……放在后面vi. 延缓，延迟；延缓发作
+1082	dip	/dɪp/	v. 浸，蘸; 下降，减少; 浏览; 给(动物)洗药浴; 将(汽车前灯)调为近光 n. 减少; 低洼处; 药浴液; 蘸酱; (短时的)游泳，泡水; 浏览
