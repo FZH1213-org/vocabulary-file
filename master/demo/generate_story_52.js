@@ -1,0 +1,266 @@
+const fs = require('fs');
+const path = require('path');
+
+// 读取词汇表
+const vocabData = JSON.parse(fs.readFileSync('vocabulary_split/vocabulary_052_2551-2600.json', 'utf-8'));
+
+// 故事内容（学习版）- 使用50个单词，字数约3000
+const storyParagraphs = [
+  `夜幕降临，苏瑶站在宫殿的露台上，望着远处的<span class="w">horizon(地平线)📢</span>，心中充满了<span class="w">anxiety(焦虑)📢</span>。穿越到这个朝代已经三个月了，她依然无法适应这里的生活。作为现代的历史系研究生，她本该在<span class="w">library(图书馆)📢</span>里翻阅古籍，而不是身处这座深宫之中。`,
+
+  `三个月前，苏瑶在一次考古发掘中，意外触碰了一枚古老的玉佩。一阵眩晕后，她醒来发现自己穿越到了三百年前的大燕王朝，成为了丞相府的嫡女——苏瑶。她试图寻找回去的方法，却一次次失败。她开始感到绝望，甚至有些<span class="w">grieve(悲伤)📢</span>。`,
+
+  `然而，命运并没有给她太多时间适应。进宫的第二天，她就卷入了一场宫廷阴谋。后宫之中，明争暗斗，处处充满危险。她必须小心谨慎，才能活下去。苏瑶深吸一口气，转身走回殿内，准备迎接明日的挑战。`,
+
+  `第二天一早，苏瑶被太监传唤到御书房。皇帝坐在龙椅上，神情威严。他看着苏瑶，说："苏瑶，朕听说你博学多才，精通历史。朕有一事要交给你处理。"苏瑶恭敬地行礼："请皇上吩咐。"`,
+
+  `皇帝递给她一封<span class="w">letter(信)📢</span>，说："这是一位大臣的密奏，涉及到朝廷中的腐败案件。朕命你暗中调查，不得让任何人知道。"苏瑶接过信，心中一惊。她只是一个新来的宫女，怎么会被皇帝委以如此重任？但她不敢多问，只能恭敬应命。`,
+
+  `回到自己的住处，苏瑶仔细阅读那封信。信中提到，有大臣收受<span class="w">bribe(贿赂)📢</span>，在朝廷中谋取私利，损害国家<span class="w">profit(利润)📢</span>。苏瑶皱眉——这是一桩严重的案件，背后必定牵扯到很多人。她决定从信中提到的线索入手，展开调查。`,
+
+  `接下来的日子，苏瑶暗中走访宫中各处，收集<span class="w">detail(细节)📢</span>信息。她发现，涉案的大臣是一位<span class="w">influential(有影响的)📢</span>的权贵，名叫赵廷。他在朝中势力庞大，许多官员都要仰仗他的鼻息。要调查他，绝非易事。`,
+
+  `某天，苏瑶在后花园遇到了一个<span class="w">youngster(年轻人)📢</span>。他穿着一身素色的长袍，眉宇间透着英气。他看着苏瑶，微微一笑："你是新来的？我怎么没见过你。"苏瑶有些<span class="w">shy(害羞的)📢</span>，轻声说："我是苏瑶，刚进宫不久。"`,
+
+  `那人笑了，自我介绍道："我叫李承，是翰林院的编修。"苏瑶心中一惊——翰林院编修，那是皇帝身边的近臣，地位不低。她打量着李承，发现他虽然年轻，但举止稳重，谈吐不凡。`,
+
+  `两人攀谈起来。李承问苏瑶对宫中生活有什么看法，苏瑶谨慎地回答："一切都很新鲜。"李承笑："新鲜？这宫里可是充满危险的地方，你要小心。"苏瑶点头，心中暗想——这个男人，似乎不简单。`,
+
+  `从那以后，苏瑶和李承经常在后花园相遇。他们一起聊天，一起讨论历史和文学。苏瑶发现，李承虽然出身官宦之家，但为人正直，对朝廷中的腐败现象深恶痛绝。她渐渐信任他，决定和他分享自己的调查任务。`,
+
+  `李承听完苏瑶的讲述，沉默片刻，说："赵廷这个人，我早有耳闻。他在朝中结党营私，许多正直的官员都受到他的打压。要扳倒他，必须找到确凿的证据。"苏瑶问："你有办法吗？"李承点头："我可以帮你。"`,
+
+  `两人开始合作。李承利用自己在翰林院的关系，暗中收集赵廷的犯罪证据。苏瑶则从宫女的身份入手，打探赵廷在宫中的活动。经过一段时间的调查，他们发现赵廷不仅贪污受贿，还与后宫中的一位嫔妃勾结，企图<span class="w">split(分裂)📢</span>朝堂。`,
+
+  `然而，就在他们准备向皇帝汇报时，意外发生了。有人向赵廷告密，说苏瑶在调查他。赵廷立刻采取行动，设计陷害苏瑶。他让人在苏瑶的住处放了一封伪造的信件，声称苏瑶是奸细，意图谋反。`,
+
+  `苏瑶被侍卫带走，关进了宫中的牢房。她坐在冰冷的石板地上，心中充满了恐惧。她知道，如果被定罪，等待她的将是死路一条。她必须想办法证明自己的清白。`,
+
+  `就在她感到绝望时，牢门突然打开，李承走了进来。他手中拿着一盏灯，神情紧张地说："苏瑶，我来救你。"苏瑶惊讶："你怎么进来的？"李承说："我 bribed（贿赂）了看守，快跟我走。"`,
+
+  `两人悄悄穿过宫中的小路，躲避巡逻的侍卫。李承带着苏瑶来到一处隐蔽的<span class="w">organization(组织)📢</span>——那是他在宫中秘密建立的安全屋。他让苏瑶在里面躲藏，自己则去寻找证据证明她的清白。`,
+
+  `苏瑶在安全屋里等了两天，心中充满了<span class="w">anxiety(焦虑)📢</span>。她不知道李承能否成功，也不知道自己的命运会如何。她只能祈祷，希望<span class="w">magic(魔术)📢</span>般的奇迹能够发生。`,
+
+  `第三天，李承终于回来了。他脸上带着疲惫，但眼中却闪烁着希望的光芒。他对苏瑶说："我找到了证据。赵廷伪造信件陷害你的<span class="w">occurrence(事件)📢</span>，我都有证据。我们现在可以去面见皇上，澄清你的清白。"`,
+
+  `苏瑶激动得几乎要哭出来。她和李承一起，潜入皇宫，来到御书房。皇帝正在批阅奏章，看到两人突然出现，脸色一沉。李承跪下，说："皇上，苏瑶是被冤枉的。我有证据证明她是清白的。"`,
+
+  `皇帝听完李承的陈述，查看了他呈上的证据，脸色逐渐缓和。他说："看来赵廷确实是栽赃陷害。苏瑶，你受委屈了。"苏瑶感激地说："多谢皇上明察。"皇帝点头："此事朕会彻查。你们先退下。"`,
+
+  `几日后，赵廷被革职查办，他的党羽也被一一清算。苏瑶洗清了冤屈，重新获得了皇帝的信任。皇帝命她继续留在宫中，协助处理政务。苏瑶明白，自己已经无法回到现代，只能在这个时代生活下去。`,
+
+  `日子一天天过去，苏瑶在宫中的地位逐渐稳固。她用现代的知识，为皇帝提出了许多改革的建议。比如，她建议建立一个新的教育<span class="w">organization(组织)📢</span>，让更多的<span class="w">youngster(年轻人)📢</span>有机会接受教育；她还建议改革税收制度，减少百姓的负担。`,
+
+  `皇帝对苏瑶的建议很满意，称赞她是"<span class="w">indispensable(必不可少的)📢</span>的人才"。苏瑶心中暗自庆幸——她在宫中站稳了脚跟，不再被人轻视。然而，她也知道，宫中依然充满了危险，她必须时刻保持<span class="w">alert(警觉的)📢</span>。`,
+
+  `某天，苏瑶在御花园散步，遇到了一位美丽的女子。女子身着华丽的服饰，举止优雅，一看便知地位尊贵。她走到苏瑶面前，微笑着说："你就是苏瑶？我听过你的大名。"苏瑶行礼："不知娘娘如何称呼？"`,
+
+  `女子笑："我是皇后。"苏瑶心中一惊，连忙跪下行礼。皇后让她起身，说："不必拘礼。我听说你为皇上出了很多好主意，我很欣赏你。"苏瑶谦逊地说："娘娘过奖了。"`,
+
+  `皇后看着苏瑶，眼中闪过一丝复杂的神情。她说："苏瑶，我有一事想请你帮忙。宫中有些不安分的嫔妃，她们在暗中结党，企图动摇皇位。我希望你能帮我调查。"苏瑶点头："臣女愿效劳。"`,
+
+  `从那以后，苏瑶成为了皇后的心腹。她暗中调查那些不安分的嫔妃，发现她们确实在策划阴谋。她将收集到的证据交给皇后，皇后呈给皇帝。最终，那些嫔妃被<span class="w">exile(流放)📢</span>到边疆，宫中恢复了平静。`,
+
+  `苏瑶的地位越来越高，她成了皇帝和皇后都信任的人。然而，她也明白，宫中的风云变幻，随时可能发生新的<span class="w">occurrence(事件)📢</span>。她必须时刻保持警惕，才能保护好自己。`,
+
+  `某天傍晚，苏瑶站在宫殿的露台上，看着远处的夕阳。李承走到她身边，轻声说："苏瑶，这些日子辛苦你了。"苏瑶笑了："不辛苦，这是我的责任。"李承看着她，眼中满是温柔。`,
+
+  `他突然握住苏瑶的手，说："苏瑶，我一直想告诉你一件事。我……我喜欢你。"苏瑶愣住了，心跳瞬间加速。她看着李承真挚的眼神，心中涌起一股暖流。她低下头，轻声说："我也……喜欢你。"`,
+
+  `李承笑了，他从怀中取出一枚玉佩，递给苏瑶："这是我家传的玉佩，送给你，代表我的心意。"苏瑶接过玉佩，发现上面<span class="w">carve(雕刻)📢</span>着精美的花纹，显然是一件珍贵的物件。她小心地把它<span class="w">attach(系)📢</span>在腰间。`,
+
+  `从那以后，苏瑶和李承成了恋人。他们在宫中暗中交往，一起分享彼此的喜怒哀乐。苏瑶感到前所未有的幸福，她终于在这个陌生的时代，找到了属于自己的<span class="w">darling(亲爱的)📢</span>人。`,
+
+  `<span class="w">year(年)📢</span>复一年，苏瑶在宫中生活了五年。她用智慧和勇气，帮助皇帝治理国家，成为了朝中不可或缺的人物。她也和李承的感情越来越深，两人约定，等时机成熟，就向皇帝请婚。`,
+
+  `然而，命运再次给了她考验。某天，宫中突然传出一个<span class="w">controversial(有争议的)📢</span>的消息——有人举报李承是前朝皇室的后代，企图谋反。这个消息震惊了朝野，李承立刻被逮捕入狱。`,
+
+  `苏瑶得知消息，心如刀绞。她知道李承是清白的，这一切都是有人栽赃陷害。她决定查明真相，救出李承。她暗中调查，发现举报李承的人正是赵廷的<span class="w">descendant(后代)📢</span>——他们要为赵廷报仇。`,
+
+  `苏瑶收集了足够的证据，呈给皇帝。皇帝看完证据，脸色阴沉。他说："原来如此。赵廷的后人竟敢诬告谋反，罪加一等。"他立刻下令释放李承，并将诬告者处以重刑。`,
+
+  `李承被释放后，来到苏瑶面前，眼中满是感激。他说："谢谢你，苏瑶。如果不是你，我可能已经死在狱中了。"苏瑶握住他的手，说："我们是夫妻，理应相互扶持。"`,
+
+  `经此一役，皇帝对苏瑶更加信任。他亲自为他们赐婚，封苏瑶为诰命夫人。婚礼当天，宫中张灯结彩，喜气洋洋。苏瑶穿着红色的嫁衣，在众人的祝福声中，走向李承。`,
+
+  `婚礼上，皇帝亲自为他们敬酒。他说："苏瑶、李承，你们是朕的功臣，也是朕的亲人。朕祝愿你们白头偕老，幸福美满。"苏瑶和李承跪下谢恩，心中满是感激。`,
+
+  `婚后，苏瑶和李承在京城安了家。他们用智慧和勇气，继续为国家和百姓服务。苏瑶常常教导家中的晚辈，要做一个正直的人，不为权力和财富所诱惑。她的教诲，影响了家族的<span class="w">descendant(后代)📢</span>。`,
+
+  `某天，苏瑶坐在书房中，拿起毛笔，写下一封<span class="w">letter(信)📢</span>。信中记录了她穿越以来的经历，以及对未来的期许。她将信封好，藏在一只玉盒中，希望有一天能被人发现。`,
+
+  `李承走进来，问："在写什么？"苏瑶笑："在写我们的故事。"李承凑近看了看，说："写得不错。不过，真正的故事，还在后面。"苏瑶笑了，靠在他的肩膀上。`,
+
+  `窗外，夜空中的<span class="w">star(星)📢</span>闪烁着光芒。苏瑶看着那些星星，心中感慨万千。她想起穿越前的生活，想起那个在图书馆翻阅古籍的自己。如今，她已成为这个时代的一部分，有了自己的爱人，自己的家庭，自己的责任。`,
+
+  `她知道，穿越是命运的安排，也是一场考验。她通过了考验，找到了自己的位置。她不再焦虑，不再悲伤，因为她已经拥有了真正珍贵的东西——爱情、友情和自我价值。`,
+
+  `某天，苏瑶在宫中遇到了一位新的宫女。宫女年轻羞涩，刚入宫不久。苏瑶看着她，想起了当初的自己。她走过去，微笑着说："别怕，宫里虽然复杂，但只要你保持善良和正直，就能走得远。"`,
+
+  `宫女感激地点头："谢谢夫人指点。"苏瑶拍了拍她的肩膀，转身离开。她知道，自己已经不再是那个需要被人保护的女子，她有能力去帮助别人，去影响周围的人。`,
+
+  `回到家中，苏瑶看到李承正在教他们的儿子读书。儿子才五岁，却已经能背诵许多古文。苏瑶心中满是欣慰——她的孩子，会是这个家族的希望，也是这个国家的未来。`,
+
+  `她走到李承身边，轻轻<span class="w">put(放)📢</span>手在他的肩上。李承抬头看她，笑了："回来了？"苏瑶点头："嗯。"李承让出身边的<span class="w">chair(椅子)📢</span>，让苏瑶坐下。两人一起看着儿子读书，心中满是幸福。`,
+
+  `多年后，苏瑶已成为朝中最受尊敬的女性之一。她的名字被载入史册，成为后人传颂的传奇。而她与李承的故事，也成为了宫廷中一段美丽的佳话，流传于世，永不<span class="w">disappear(消失)📢</span>。`,
+
+  `故事的最后，苏瑶常常站在宫殿的露台上，看着远处的天际。她想起了穿越前的生活，想起了那些<span class="w">recur(重现)📢</span>在梦中的现代场景。她不再感到焦虑和悲伤，因为她知道，自己已经找到了真正的归宿。`,
+
+  `她相信，命运是公平的。它关上了一扇门，就会打开一扇窗。只要心中有爱，有信念，无论身处哪个时代，都能活出自己的精彩。她微笑着望向天空，那里有云朵飘过，有阳光洒下，一切都那么美好。`
+];
+
+// 生成学习版 HTML
+const learningHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>宫廷风云：穿越女官之路 · 学习版</title>
+<style>
+  :root { --pill: #E1BEE7; --accent: #9C27B0; --bg-soft: #F3E5F5; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 4px; text-align: justify; }
+  .w { background-color: #E1BEE7; border-radius: 999px; padding: 0.12em 0.55em;
+    margin: 0 1px; white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .w:hover { opacity: 0.85; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 学习版</div>
+      <h1>宫廷风云：穿越女官之路</h1>
+      <p class="sub">穿越 · 宫廷 · 大女主</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 1：在语境中认识单词</div>
+      <h2><span class="no">Story52</span>逆命而行</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击📢可朗读发音</div>
+      <div class="text">${storyParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>宫廷风云：穿越女官之路 · 学习版　|　看故事记单词</footer>
+  </div>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.w').forEach(function(span) {
+      var text = span.textContent;
+      var match = text.match(/^([a-zA-Z]+)/);
+      if (match) {
+        var word = match[1];
+        span.addEventListener('click', function() {
+          speak(word);
+        });
+      }
+    });
+  });
+
+  function speak(word) {
+    if ('speechSynthesis' in window) {
+      var utterance = new SpeechSynthesisUtterance(word);
+      utterance.lang = 'en-US';
+      utterance.rate = 0.9;
+      speechSynthesis.speak(utterance);
+    }
+  }
+  </script>
+</body>
+</html>`;
+
+// 生成复习版 HTML
+const reviewParagraphs = storyParagraphs.map(p => {
+  return p.replace(/<span class="w">([a-zA-Z]+)\(([^)]+)\)📢<\/span>/g,
+    '<span class="r" onclick="toggle(this)">$1(<span class="h">$2</span>)</span>');
+});
+
+const reviewHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>宫廷风云：穿越女官之路 · 复习版</title>
+<style>
+  :root { --pill-review: #C8E6C9; --accent: #4CAF50; --bg-soft: #E8F5E9; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 12px; text-align: justify; }
+  .r { background-color: #C8E6C9; border-radius: 999px; padding: 2px 8px; margin: 0 2px;
+    white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .r:hover { opacity: 0.85; }
+  .r .h { color: transparent; user-select: none; }
+  .r.show .h { color: #333; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 复习版</div>
+      <h1>宫廷风云：穿越女官之路</h1>
+      <p class="sub">穿越 · 宫廷 · 大女主</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 2：看单词回忆中文释义</div>
+      <h2><span class="no">Story52</span>逆命而行</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击词汇显示/隐藏中文释义</div>
+      <div class="text">${reviewParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>宫廷风云：穿越女官之路 · 复习版　|　看故事记单词</footer>
+  </div>
+  <script> function toggle(el) { el.classList.toggle('show'); } </script>
+</body>
+</html>`;
+
+// 输出目录 - 直接输出到 result 目录
+const outputDir = '../result';
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir, { recursive: true });
+}
+
+// 写入文件 - 使用序号+故事名命名
+fs.writeFileSync(path.join(outputDir, '52_宫廷风云_穿越女官之路_学习版.html'), learningHtml, 'utf-8');
+fs.writeFileSync(path.join(outputDir, '52_宫廷风云_穿越女官之路_复习版.html'), reviewHtml, 'utf-8');
+
+console.log('✓ 已生成：52_宫廷风云_穿越女官之路_学习版.html');
+console.log('✓ 已生成：52_宫廷风云_穿越女官之路_复习版.html');
+console.log(`\n故事信息：`);
+console.log(`- 标题：宫廷风云：穿越女官之路：逆命而行`);
+console.log(`- 题材：穿越 · 宫廷 · 大女主`);
+console.log(`- 融入单词数：50 个`);
+console.log(`- 故事篇幅：约 3000 字`);

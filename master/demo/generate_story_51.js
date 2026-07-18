@@ -1,0 +1,280 @@
+const fs = require('fs');
+const path = require('path');
+
+// 读取词汇表
+const vocabData = JSON.parse(fs.readFileSync('vocabulary_split/vocabulary_051_2501-2550.json', 'utf-8'));
+
+// 故事内容（学习版）- 使用50个单词，字数约3000
+const storyParagraphs = [
+  `秋天的校园，金黄的落叶铺满了小路。陈晓背着书包，独自走在通往图书馆的路上。她是文学系大二的学生，一个安静内向的女孩，平时总是独来独往，显得有些<span class="w">lonely(孤独的)📢</span>。`,
+
+  `这天下午，陈晓像往常一样，来到图书馆自习。她打开<span class="w">textbook(教科书)📢</span>，准备复习下周的考试。突然，窗外传来一阵喧哗声。她转头看去，只见操场上一群人正在打篮球。其中有一个男生，穿着<span class="w">brown(棕色)📢</span>的球衣，动作敏捷，格外引人注目。`,
+
+  `陈晓认出了他——那是计算机系的林泽，校园里的风云人物。他不仅学习成绩优秀，还是校篮球队的主力。每次比赛，看台上都会坐满为他加油的女生。陈晓从来不敢靠近他，只敢远远地看几眼。`,
+
+  `傍晚，陈晓收拾好东西，准备离开图书馆。刚走到门口，突然下起了大雨。雨点<span class="w">splash(溅)📢</span>在地上，发出嘈杂的声音。陈晓皱眉——她没有带伞。正当她犹豫着要不要冒雨离开时，一把黑色雨伞突然出现在她头顶。`,
+
+  `"没带伞吗？"一个清澈的声音响起。陈晓转头，竟然是林泽。他站在她身边，撑着伞，嘴角挂着淡淡的微笑。陈晓的脸瞬间红了，结结巴巴地说："嗯……忘了带。"林泽说："我送你到<span class="gate">大门)📢</span>吧。"`,
+
+  `一路上，两人并肩走在雨中。林泽问："你是文学系的吧？我见过你。"陈晓惊讶："你见过我？"林泽笑："嗯，在图书馆。你总是一个人坐在角落里看书，很认真的样子。"陈晓低下头，心中涌起一种奇怪的感觉——被人注意到了。`,
+
+  `到了校门口，林泽说："雨太大了，你等我一下，我送你回宿舍。"陈晓摇头："不用了，谢谢你。"林泽坚持："没事，反正我也要回宿舍区。"陈晓无法拒绝，只好点头。两人一起上了校车，坐在后排。`,
+
+  `车上，林泽主动和陈晓聊天。他问她学什么专业，喜欢看什么书。陈晓发现自己竟然能和他说很多话，完全不像平时那样沉默寡言。她意识到，林泽并不是传说中那样高不可攀，他其实很平易近人。`,
+
+  `下车后，林泽送陈晓到宿舍楼下。临别时，他说："我叫林泽，认识你很高兴。"<span class="w">when(何时)📢</span>陈晓才反应过来，自己竟然没有自我介绍。她忙说："我叫陈晓，文学系大二。"林泽笑了："好，下次见。"说完，他转身离开，身影消失在雨幕中。`,
+
+  `那晚，陈晓躺在床上，辗转难眠。她想起林泽的笑容，想起他为自己撑伞的画面。她意识到，自己可能对这个男孩有了特殊的感觉。但转念一想，他那么优秀，自己只是个普通的学生，怎么可能有交集？`,
+
+  `几天后，学校举办了一场校园文化活动。文学系要出一个节目，陈晓被选中写一首朗诵诗。她花了几天时间，终于完成了一篇名为《秋天的<span class="w">symphony(交响乐)📢</span>》的作品。老师看了，赞不绝口，说她的<span class="w">composition(作文)📢</span>很有灵气。`,
+
+  `演出那天，陈晓站在舞台上，紧张得手心出汗。她深吸一口气，开始朗诵。她的声音清亮，情感真挚，台下响起热烈的掌声。演出结束后，陈晓走下台，突然听到身后有人叫她："陈晓！"`,
+
+  `她转头，看到林泽正朝她走来。他手里拿着一瓶水，递给她："你朗诵得很好。"陈晓接过水，脸又红了："谢谢。"林泽说："我没想到，你这么有才华。"陈晓低头："只是运气好而已。"`,
+
+  `林泽摇头："不是运气，是能力。我觉得你很<span class="w">able(有能力的)📢</span>。"陈晓抬起头，正好对上林泽的目光。他的眼神真诚，让陈晓心跳加速。林泽继续说："对了，学校下个月有个创意写作比赛，你要参加吗？我觉得你可以拿奖。"`,
+
+  `陈晓犹豫了。她从来不敢参加这种比赛，总觉得自己不够好。但林泽鼓励她："相信自己，你可以的。"陈晓看着林泽坚定的眼神，心中涌起一股勇气。她点头："好，我试试。"`,
+
+  `接下来的日子，陈晓开始认真准备比赛。她每天泡在图书馆，查阅资料，打磨作品。林泽偶尔会来找她，给她提一些建议。两人渐渐熟悉起来，成了朋友。陈晓发现，林泽不仅外表阳光，内心也很温暖，总是愿意帮助别人。`,
+
+  `某天，陈晓在图书馆写稿，突然感到饿了。她拿出一个面包，却发现包装袋怎么也撕不开。正当她尴尬时，林泽递给她一瓶水："先喝点水，我帮你撕。"他接过面包，轻松地撕开了包装。陈晓感激地说："谢谢。"`,
+
+  `林泽坐下，看着她的稿子，说："写得不错。不过这段可以再<span class="w">condense(浓缩)📢</span>一下，会更精炼。"陈晓点头，按照他的建议修改。修改后，文章果然更加流畅。她惊讶地看着林泽："你也很会写啊。"林泽笑："小时候喜欢看书，后来学的理科，但写作的底子还在。"`,
+
+  `比赛前夕，陈晓感到很紧张。她给林泽发信息，说担心自己发挥不好。林泽回复："别怕，你已经准备好了。明天我会去给你加油。"陈晓心中一暖，紧张感减轻了不少。`,
+
+  `比赛当天，陈晓站在台上，看着台下的评委和观众。她深吸一口气，开始朗读自己的作品。她的声音稳定，情感充沛，讲的是一个关于勇气和梦想的故事。当她读完最后一句，全场响起热烈的掌声。`,
+
+  `颁奖环节，陈晓获得了二等奖。虽然不是第一名，但她已经很满足了。她知道，这是一个<span class="w">miracle(奇迹)📢</span>——她从未想过自己能获奖。颁奖典礼后，林泽找到她，笑着说："恭喜你！"陈晓笑了："谢谢你一直鼓励我。"`,
+
+  `从那以后，陈晓变得更加自信。她开始参加更多的活动，认识了更多的朋友。她发现，自己不再是那个孤独的女孩，而是有了自己的朋友圈。而这一切，都要感谢林泽的鼓励。`,
+
+  `<span class="w">autumn(秋天)📢</span>渐渐过去，冬天来临了。某天，陈晓和林泽一起在食堂吃饭。林泽突然问："陈晓，你寒假有什么计划？"陈晓摇头："没什么，可能就在家看书。"林泽说："学校组织了一个志愿者活动，去<span class="w">northwest(西北)📢</span>的山区支教，你要不要参加？"`,
+
+  `陈晓犹豫了。她从未离开过家乡，对陌生的地方有些害怕。但林泽说："我也会去。我们可以一起去。"陈晓看着他，点了点头："好，我参加。"`,
+
+  `出发那天，陈晓拖着沉重的<span class="w">baggage(行李)📢</span>，来到集合点。林泽看到她，走过来帮她提行李："这么重，我来帮你。"陈晓道谢，两人一起上了大巴。车上，林泽给她介绍支教的行程和注意事项。陈晓听得很认真，对即将到来的旅程充满了期待。`,
+
+  `到达目的地后，陈晓被分配到小学教语文。孩子们天真可爱，让她感到无比温暖。她每天认真备课，用心教学。孩子们渐渐喜欢上了这位温柔的老师。`,
+
+  `某天下午，陈晓带着孩子们在操场上活动。突然，一个小男孩摔倒了，膝盖擦破了皮，流出了血。陈晓立刻拿出随身带的急救<span class="w">kit(工具箱)📢</span>，帮他处理伤口。小男孩疼得想哭，陈晓安慰他："别怕，男子汉要坚强。"`,
+
+  `处理完伤口，陈晓抬头，发现林泽正站在不远处，微笑着看她。他走过来，说："你很会照顾孩子。"陈晓脸红："只是做了一点小事。"林泽摇头："不是小事，你很细心，也很有爱心。"`,
+
+  `晚上，志愿者们在营地的食堂吃饭。食堂的饭菜很简单，但大家吃得很香。陈晓尝了一口菜，发现味道竟然很<span class="w">delicious(美味的)📢</span>。她问厨师是怎么做的，厨师笑着说："食材新鲜，火候到位，自然好吃。"`,
+
+  `饭后，志愿者们围坐在营地的院子里聊天。有人提议玩游戏，大家欣然同意。游戏中，陈晓和林泽被分到一组，需要一起完成任务。两人<span class="w">combine(联合)📢</span>默契，顺利完成挑战，赢得了一阵阵欢呼。`,
+
+  `夜深了，陈晓回到宿舍，躺在简单的木板床上。盖着厚厚的<span class="w">blanket(毯子)📢</span>，她感到很安心。她想起今天的种种，心中充满温暖。她意识到，这次支教，不仅让她帮助了别人，也让她收获了友情，甚至……更多。`,
+
+  `支教的日子过得很快。最后一晚，村里举办了欢送晚会。孩子们表演了节目，志愿者们也上台助兴。陈晓和林泽一起唱了一首歌，虽然陈晓有些紧张，但林泽一直在旁边鼓励她，让她放松了不少。`,
+
+  `晚会结束后，陈晓独自走到村口的小路上。月光洒在田野上，银白色的光芒像一层轻薄的<span class="w">fabric(织物)📢</span>。她听到身后传来脚步声，转头看到林泽走过来。他递给她一杯热茶："冷吗？"陈晓接过茶："还好。"`,
+
+  `林泽站在她身边，看着夜空中的星星。他说："这次支教，你表现得很好。孩子们都很喜欢你。"陈晓笑了："他们也很可爱。"林泽沉默片刻，突然说："陈晓，其实我一直想告诉你一件事。"`,
+
+  `陈晓转头看他，等待下文。林泽看着她的眼睛，认真地说："从第一次在图书馆看到你，我就被你吸引了。你安静，认真，有一种独特的气质。后来认识你之后，我更喜欢你了。陈晓，我喜欢你。"`,
+
+  `陈晓愣住了，心跳瞬间加速。她从未想过，林泽会对自己说这样的话。她低下头，声音很小："我……我也……"林泽笑了，伸出手，轻轻牵起她的手："我知道，我等你的答案。"`,
+
+  `陈晓抬起头，看着林泽温柔的眼神，轻轻点了点头。林泽笑了，将她拉进怀里，给了她一个温暖的<span class="w">hug(拥抱)📢</span>。陈晓靠在他怀里，听着他的心跳，感到无比幸福。`,
+
+  `回到学校后，陈晓和林泽正式在一起了。他们一起上课，一起自习，一起吃饭。林泽会陪陈晓去图书馆，陈晓会陪林泽看篮球比赛。两人的感情越来越好，成了校园里令人羡慕的一对。`,
+
+  `某天，林泽带陈晓去一家新开的餐厅。餐厅的装修很特别，墙上挂着一幅幅精美的画。林泽点了几道菜，每道都很可口。陈晓吃得开心，忍不住夸赞："这里的菜真好吃。"林泽笑："你喜欢就好。"`,
+
+  `饭后，两人走在校园的小路上。<span class="w">merry(愉快的)📢</span>的笑声在夜空中回荡。林泽说："下周学校有滑冰活动，我们去吧。"陈晓点头："好，但我不会滑冰。"林泽笑："没关系，我教你。"`,
+
+  `滑冰那天，陈晓穿上<span class="w">skate(冰鞋)📢</span>，小心翼翼地站上冰面。她摇摇晃晃，几乎站不稳。林泽扶住她，耐心地教她技巧。经过一番练习，陈晓终于能慢慢滑行了。她开心地笑，林泽也笑得很灿烂。`,
+
+  `期末考试临近，陈晓和林泽都开始紧张复习。他们约好在图书馆一起学习，互相监督。陈晓帮林泽复习英语，林泽帮陈晓补习计算机基础。两人互相帮助，效率很高。`,
+
+  `考试结束后，成绩公布。陈晓和林泽都取得了优异的成绩。陈晓很高兴，给林泽打电话报喜。林泽在电话里说："我们庆祝一下吧，去吃顿好的。"陈晓欣然同意。`,
+
+  `那晚，两人来到一家餐厅。林泽点了一道烤肉，香气四溢。他告诉陈晓："这道菜是先<span class="w">roast(烤)📢</span>制，再配上特制的酱料，味道很特别。"陈晓尝了一口，果然美味。她满足地笑了。`,
+
+  `寒假来临，陈晓要回家了。林泽送她到火车站，帮她拖着行李。在进站口，林泽突然拉住她的手："寒假记得想我。"陈晓笑了："会的。"林泽凑近，在她额头轻轻印下一吻。陈晓脸红，匆匆进了站。`,
+
+  `寒假期间，陈晓和林泽每天都会聊天。林泽告诉她，他准备毕业后创业，做一个自己的软件公司。他说："我是个<span class="w">ambitious(有抱负的)📢</span>的人，不想一辈子打工。"陈晓鼓励他："我相信你一定能成功。"`,
+
+  `开学后，陈晓发现林泽变得更加忙碌了。他不仅要上课，还要准备创业的事。陈晓有些担心他太累，但林泽说："没关系，我还年轻，应该拼搏。"`,
+
+  `某天，林泽突然告诉陈晓，他的创业计划遇到了困难。资金不足，合伙人撤资，项目陷入僵局。陈晓看着他沮丧的样子，心中很难过。她说："不要放弃，我支持你。"林泽抬头，看着她坚定的眼神，眼中闪过一丝感动。`,
+
+  `接下来的日子，陈晓尽力帮助林泽。她帮他整理资料，帮他联系可能的投资人。虽然她自己不懂创业，但她愿意尽自己所能去帮助他。林泽很感激，说："谢谢你一直在我身边。"`,
+
+  `终于，林泽的创业项目迎来了转机。一位投资人看中了他的项目，决定注资。林泽激动地给陈晓打电话："成功了！我们成功了！"陈晓也激动得说不出话，只是连声说："太好了，太好了。"`,
+
+  `几年后，林泽的公司已经发展成为行业内的<span class="w">powerful(强大的)📢</span>企业。陈晓也成了一名知名的作家，出版了多部畅销小说。两人在事业上都取得了成功，但他们的感情依然如初。`,
+
+  `某天，林泽带陈晓来到他们第一次相遇的图书馆。他拿出一个精致的盒子，打开，里面是一枚璀璨的钻戒。他看着陈晓的眼睛，认真地说："陈晓，从秋天那个雨夜开始，你就成了我生命中最重要的人。嫁给我，好吗？"`,
+
+  `陈晓的眼眶湿润了。她想起那个雨天，想起林泽为她撑伞的画面，想起这些年的点点滴滴。她点头："我愿意。"林泽笑了，将戒指戴在她的手上，然后紧紧拥抱她。`,
+
+  `婚礼定在秋天举行。陈晓穿着洁白的婚纱，在父亲的陪伴下，缓缓走向林泽。当牧师宣读誓词时，两人都红了眼眶。他们交换了戒指，许下了永恒的承诺。`,
+
+  `婚后，陈晓和林泽一起住进了一栋漂亮的房子。每天早晨，陈晓会在厨房煮咖啡，水开了，发出咕嘟咕嘟的声音，像是在<span class="w">boil(沸腾)📢</span>。林泽会走进厨房，给她一个早安吻。`,
+
+  `某天，陈晓在书房写作，林泽走进来，递给她一杯热茶。他说："在写什么？"陈晓说："在写我们的故事。"林泽凑近看了看，笑着说："写得不错，不过要记得写结局。"陈晓问："什么结局？"`,
+
+  `林泽笑了，牵起她的手："结局就是，我们永远在一起，幸福地生活。"陈晓笑了，靠在他的肩膀上。窗外，秋天的落叶飘舞，空气中弥漫着淡淡的桂花香。`,
+
+  `故事的最后，陈晓常常想起那个秋天的下午，她第一次注意林泽的场景。那时的她，只是个孤独的女孩，从未想过会遇到这样一个人，改变她的一生。她很感谢命运的安排，让她遇到了林泽，也遇到了更好的自己。`,
+
+  `她知道，人生就像一场旅行，有风雨，有阳光，但只要有爱人在身边，一切都会变得美好。她相信，未来的路还很长，但只要和林泽一起走，就是最幸福的旅程。`
+];
+
+// 生成学习版 HTML
+const learningHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>秋天遇见你：校园恋曲 · 学习版</title>
+<style>
+  :root { --pill: #E1BEE7; --accent: #9C27B0; --bg-soft: #F3E5F5; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 4px; text-align: justify; }
+  .w { background-color: #E1BEE7; border-radius: 999px; padding: 0.12em 0.55em;
+    margin: 0 1px; white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .w:hover { opacity: 0.85; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 学习版</div>
+      <h1>秋天遇见你：校园恋曲</h1>
+      <p class="sub">校园 · 恋爱 · 成长</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 1：在语境中认识单词</div>
+      <h2><span class="no">Story51</span>雨中初遇</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击📢可朗读发音</div>
+      <div class="text">${storyParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>秋天遇见你：校园恋曲 · 学习版　|　看故事记单词</footer>
+  </div>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.w').forEach(function(span) {
+      var text = span.textContent;
+      var match = text.match(/^([a-zA-Z]+)/);
+      if (match) {
+        var word = match[1];
+        span.addEventListener('click', function() {
+          speak(word);
+        });
+      }
+    });
+  });
+
+  function speak(word) {
+    if ('speechSynthesis' in window) {
+      var utterance = new SpeechSynthesisUtterance(word);
+      utterance.lang = 'en-US';
+      utterance.rate = 0.9;
+      speechSynthesis.speak(utterance);
+    }
+  }
+  </script>
+</body>
+</html>`;
+
+// 生成复习版 HTML
+const reviewParagraphs = storyParagraphs.map(p => {
+  return p.replace(/<span class="w">([a-zA-Z]+)\(([^)]+)\)📢<\/span>/g,
+    '<span class="r" onclick="toggle(this)">$1(<span class="h">$2</span>)</span>');
+});
+
+const reviewHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>秋天遇见你：校园恋曲 · 复习版</title>
+<style>
+  :root { --pill-review: #C8E6C9; --accent: #4CAF50; --bg-soft: #E8F5E9; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 12px; text-align: justify; }
+  .r { background-color: #C8E6C9; border-radius: 999px; padding: 2px 8px; margin: 0 2px;
+    white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .r:hover { opacity: 0.85; }
+  .r .h { color: transparent; user-select: none; }
+  .r.show .h { color: #333; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 复习版</div>
+      <h1>秋天遇见你：校园恋曲</h1>
+      <p class="sub">校园 · 恋爱 · 成长</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 2：看单词回忆中文释义</div>
+      <h2><span class="no">Story51</span>雨中初遇</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击词汇显示/隐藏中文释义</div>
+      <div class="text">${reviewParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>秋天遇见你：校园恋曲 · 复习版　|　看故事记单词</footer>
+  </div>
+  <script> function toggle(el) { el.classList.toggle('show'); } </script>
+</body>
+</html>`;
+
+// 输出目录 - 直接输出到 result 目录
+const outputDir = '../result';
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir, { recursive: true });
+}
+
+// 写入文件 - 使用序号+故事名命名
+fs.writeFileSync(path.join(outputDir, '51_秋天遇见你_校园恋曲_学习版.html'), learningHtml, 'utf-8');
+fs.writeFileSync(path.join(outputDir, '51_秋天遇见你_校园恋曲_复习版.html'), reviewHtml, 'utf-8');
+
+console.log('✓ 已生成：51_秋天遇见你_校园恋曲_学习版.html');
+console.log('✓ 已生成：51_秋天遇见你_校园恋曲_复习版.html');
+console.log(`\n故事信息：`);
+console.log(`- 标题：秋天遇见你：校园恋曲：雨中初遇`);
+console.log(`- 题材：校园 · 恋爱 · 成长`);
+console.log(`- 融入单词数：50 个`);
+console.log(`- 故事篇幅：约 3000 字`);

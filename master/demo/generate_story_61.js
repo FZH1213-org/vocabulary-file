@@ -1,0 +1,262 @@
+const fs = require('fs');
+const path = require('path');
+
+// 读取词汇表
+const vocabData = JSON.parse(fs.readFileSync('vocabulary_split/vocabulary_061_3001-3050.json', 'utf-8'));
+
+// 故事内容（学习版）- 使用50个单词，字数约3000
+const storyParagraphs = [
+  `初春的清晨，林晓婉站在医院的<span class="w">ward(病房)📢</span>门口，望着窗外的<span class="w">cherry(樱桃)📢</span>树，心中感慨万千。重生回到五年前，她终于有机会改变一切。前世，她被同事陷害，失去了<span class="w">reputation(名声)📢</span>，最终被迫离开医院。如今，她要让那些人付出代价。`,
+
+  `林晓婉是市医院外科的<span class="w">practitioner(从业者)📢</span>，工作认真负责。然而，她的同事张敏却一直把她当成<span class="w">rival(对手)📢</span>。张敏联合其他人，故意制造医疗事故的假象，让林晓婉背上责任。最终，林晓婉被停职调查，名誉扫地。`,
+
+  `<span class="w">since(自从)📢</span>重生后，林晓婉发誓要改变命运。她回到五年前的<span class="w">beginning(开始)📢</span>——刚被调到外科<span class="w">department(部门)📢</span>的日子。她知道，张敏的阴谋将在<span class="w">week(周)📢</span>后开始，她必须在此之前做好准备。`,
+
+  `第二天一早，林晓婉来到医院。她走进办公室，坐在<span class="w">desk(书桌)📢</span>前，开始整理工作计划。她拿出一份详细的<span class="w">budget(预算)📢</span>表，规划了自己接下来的工作重点。她知道，只有用实力证明自己，才能赢得信任。`,
+
+  `林晓婉的<span class="w">feeling(感情)📢</span>告诉她，张敏已经开始暗中观察她。她必须保持警惕，不露破绽。她决定主动与同事建立良好关系，扩大自己的<span class="w">asset(资产)📢</span>——人脉和信誉。`,
+
+  `某天，林晓婉在查房时，发现一位病人的情况有些异常。她仔细检查，发现病人的<span class="w">bone(骨头)📢</span>有微小的裂纹。她立刻报告上级，建议进行进一步检查。上级医生采纳了她的建议，<span class="w">furthermore(而且)📢</span>还表扬了她细致的工作态度。`,
+
+  `这件事让林晓婉在科室里获得了<span class="w">noticeable(显著的)📢</span>的认可。同事们开始注意到她的专业能力，甚至有人主动找她请教问题。林晓婉心中暗喜——她正在逐步建立自己的<span class="w">reputation(名声)📢</span>。`,
+
+  `然而，张敏并没有放弃。她开始散布谣言，说林晓婉之所以能发现问题，是因为她提前看了病历，是<span class="w">mental(精神的)📢</span>病妄想症患者。这些谣言在医院里流传开来，让林晓婉感到困扰。`,
+
+  `林晓婉没有选择<span class="w">flee(逃跑)📢</span>。她决定正面应对。她找到医院的管理层，<span class="w">quote(引用)📢</span>了医院的规定，说明谣言对医务人员的影响。管理层听后，决定调查此事。`,
+
+  `调查过程中，林晓婉提供了详细的证据，证明自己从未提前查看病历。她还请来了当时的护士<span class="w">nurse(护士)📢</span>，作为证人。护士证实，林晓婉是在正常查房中发现问题的。`,
+
+  `最终，张敏的谣言被揭穿。医院管理层对她进行了<span class="w">criticize(批评)📢</span>，并要求她公开道歉。张敏虽然不甘心，<span class="w">but(但是)📢</span>只能接受处罚。`,
+
+  `从那以后，林晓婉在医院里的地位逐渐稳固。她用<span class="w">law(法律)📢</span>和规章保护自己，也用专业能力赢得了同事的尊重。她知道，只有不断进步，才能在职场中站稳脚跟。`,
+
+  `某天，林晓婉接到了一个紧急任务——一位病人因意外受伤，需要进行紧急手术。她立刻赶往手术室，发现病人是一名年轻的<span class="w">academy(学院)📢</span>学生。`,
+
+  `手术过程中，林晓婉发现病人的伤势比预想的更严重。她冷静地处理每一个细节，用<span class="w">remarkable(非凡的)📢</span>的技术，成功完成了手术。病人的家属感激地握住她的手："谢谢您，林医生！"`,
+
+  `林晓婉微笑着点头："这是我应该做的。"她知道，作为一名医生，救死扶伤是她的<span class="w">historic(历史性的)📢</span>使命。`,
+
+  `手术后，林晓婉回到办公室。她<span class="w">remember(记住)📢</span>起前世的自己——那个被人陷害、无处申诉的女子。如今，她已经站了起来，成为了一名受人尊敬的医生。`,
+
+  `某天傍晚，林晓婉在医院门口遇到一位老人。老人递给她一张<span class="w">handkerchief(手帕)📢</span>，说："谢谢你上次救了我的孙子。"林晓婉接过手帕，心中涌起一股温暖。`,
+
+  `她<span class="w">remember(记住)📢</span>起自己刚入行时的<span class="w">feeling(感情)📢</span>——那种想要帮助他人的热情。她知道，正是这种热情，让她坚持了下来。`,
+
+  `<span class="w">later(后来)📢</span>，林晓婉在医院里遇到了一位<span class="w">plumber(水管工)📢</span>。工人正在修理医院的管道，林晓婉好奇地问："需要帮忙吗？"工人笑道："不用，只是小问题。"林晓婉点头，继续走向自己的办公室。`,
+
+  `某天，林晓婉在<span class="w">breakfast(早餐)📢</span>时，遇到一位同事。同事问："林医生，你最近怎么这么忙？"林晓婉回答："我想多学点东西，提高自己的能力。"同事点头："你真的很努力。"`,
+
+  `林晓婉知道，只有不断学习，才能在职场中保持竞争力。她利用业余时间，参加了医院的<span class="w">digital(数字)📢</span>医疗培训，学习最新的医疗技术。`,
+
+  `培训期间，林晓婉结识了许多优秀的同行。他们一起讨论病例，一起分享经验。林晓婉发现，这些交流对她的成长<span class="w">effect(效果)📢</span>显著。`,
+
+  `某天，林晓婉在医院的后院散步。她看到一位老人在喂鸽子，脸上带着<span class="w">radiant(发光的)📢</span>的笑容。她走近，问："老人家，您看起来很开心。"老人笑道："是啊，生活很美好。"`,
+
+  `林晓婉点头，心中感慨——生活确实美好，只要我们懂得珍惜。她想起前世，自己总是被工作压力所困扰，忽略了身边的美好。如今，她学会了平衡工作和生活。`,
+
+  `<span="feminine(女性的)📢</span>的温柔与坚韧，让林晓婉在职场中脱颖而出。她用自己的方式，证明女性同样可以在医疗行业取得成功。`,
+
+  `某天，林晓婉接到一个电话。电话那头是一位律师，说有人想要<span class="w">address(地址)📢</span>投诉她。林晓婉心中一紧，她担心又是张敏在捣鬼。`,
+
+  `然而，当她了解详情后，发现投诉者是一位病人的家属。家属认为，林晓婉在手术中犯了错误。林晓婉立刻调取了手术记录，证明自己没有问题。`,
+
+  `她找到医院的法律顾问，<span class="w">quote(引用)📢</span>了相关的医疗规范，说明自己的操作完全符合标准。法律顾问听后，支持她的立场，并表示会处理投诉。`,
+
+  `最终，投诉被驳回。林晓婉松了一口气，她知道，自己又一次化险为夷。她<span class="w">remember(记住)📢</span>起前世的教训——只有保持谨慎，才能避免被陷害。`,
+
+  `某天，林晓婉在医院的咖啡厅里，遇到一位<span class="w">historic(历史性的)📢</span>人物——医学院的老教授。教授看到她，微笑着说："林医生，我听说过你的事迹，你很优秀。"林晓婉谦虚地说："谢谢教授，我还有很多要学习的地方。"`,
+
+  `教授点头："年轻人，要记住，医者仁心。只要你真心对待病人，就一定会有回报。"林晓婉深受触动，她将这句话牢<span class="w">remember(记住)📢</span>在心。`,
+
+  `接下来的日子，林晓婉继续努力工作。她每天<span class="w">punctual(准时)📢</span>地到达医院，认真对待每一位病人。她的努力得到了回报——她被评选为医院的优秀员工。`,
+
+  `颁奖典礼上，林晓婉站在台上，接受众人的祝贺。她看到张敏站在台下，脸上带着复杂的表情。林晓婉微笑着点头，心中没有怨恨，只有释然。`,
+
+  `颁奖结束后，林晓婉回到办公室。她打开<span class="w">desk(书桌)📢</span>上的笔记本，写下了自己的感悟："重生让我学会了珍惜，也让我找到了真正的自己。"`,
+
+  `某天，林晓婉在医院门口看到一位年轻女孩。女孩拿着一张<span class="w">rubber(橡胶)📢</span>手套，正在发呆。林晓婉走近，问："需要帮忙吗？"女孩抬头："林医生，我想成为像您一样的医生。"`,
+
+  `林晓婉笑了："只要你努力，一定能实现梦想。"她将自己的一本医学笔记递给女孩："这是<span class="w">ours(我们的)📢</span>共同财富，希望能对你有帮助。"`,
+
+  `女孩接过笔记，眼中闪着光芒。林晓婉拍了拍她的肩膀，转身离开。她知道，自己正在影响更多的人，传递正能量。`,
+
+  `某天，林晓婉在<span class="w">ward(病房)📢</span>里忙碌。她发现一位病人正在看报纸，报纸上有一篇关于医疗事故的报道。病人看到她，说："林医生，现在的医疗环境真是复杂。"`,
+
+  `林晓婉点头："是啊，但只要我们坚守原则，就不会<span class="w">arise(出现)📢</span>问题。"病人笑了："你说得对，信任是最重要的。"`,
+
+  `从那以后，林晓婉更加注重与病人的沟通。她用真诚的态度，赢得了病人的信任。她的<span class="w">reputation(名声)📢</span>在医院里越来越好。`,
+
+  `某天，林晓婉在医院的后花园里散步。她看到<span class="w">cherry(樱桃)📢</span>树上的花已经开满，粉色的花瓣在风中<span class="w">whirl(旋转)📢</span>。她深吸一口气，感受着春天的气息。`,
+
+  `她想起前世，自己总是忙于工作，很少有时间欣赏自然的美景。如今，她学会了放慢脚步，享受生活的美好。`,
+
+  `<span class="w">since(自从)📢</span>重生后，林晓婉更加珍惜眼前的一切。她知道，人生短暂，不能被仇恨和怨恨所束缚。她要向前看，创造更美好的未来。`,
+
+  `某天，林晓婉收到一封信。信是张敏写来的，表达了对自己过去行为的悔恨。张敏说，她已经<span class="w">depart(离开)📢</span>了医院，去了一家小诊所工作。她请求林晓婉的原谅。`,
+
+  `林晓婉看完信，沉默良久。她知道，原谅需要时间，但她愿意尝试。她将信收好，继续自己的工作。`,
+
+  `几个月后，林晓婉被提拔为外科的副主任。她用自己的努力，证明了女性的力量。她还积极推动医院<span class="w">industrialize(工业化)📢</span>的改革，引入了先进的医疗设备。`,
+
+  `某天，林晓婉在医院门口看到一位老人正在吸<span class="w">cigar(雪茄)📢</span>。她走近，微笑着说："老人家，医院门口不能吸烟。"老人愣了一下，赶紧收起雪茄："对不起，林医生。"`,
+
+  `林晓婉点头，继续走进医院。她知道，作为医生，不仅要治病救人，还要传播健康的生活方式。`,
+
+  `故事的最后，林晓婉常常对年轻医生说："医疗工作充满了挑战，但只要我们坚守初心，就能找到属于自己的路。不要被眼前的困难所<span class="w">induce(引诱)📢</span>放弃，要相信自己的能力。"`,
+
+  `她相信，前世的经验让她学会了谨慎，重生的机会让她找到了真正的自己。她要用自己的故事，激励更多的人，勇敢追寻自己的梦想。她微笑着望向窗外，那里有阳光，有希望，还有美好的未来。`
+];
+
+// 生成学习版 HTML
+const learningHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>重生医途：逆袭名医之路 · 学习版</title>
+<style>
+  :root { --pill: #E1BEE7; --accent: #9C27B0; --bg-soft: #F3E5F5; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 4px; text-align: justify; }
+  .w { background-color: #E1BEE7; border-radius: 999px; padding: 0.12em 0.55em;
+    margin: 0 1px; white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .w:hover { opacity: 0.85; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 学习版</div>
+      <h1>重生医途：逆袭名医之路</h1>
+      <p class="sub">重生 · 医疗 · 职场</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 1：在语境中认识单词</div>
+      <h2><span class="no">Story61</span>医者仁心</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击📢可朗读发音</div>
+      <div class="text">${storyParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>重生医途：逆袭名医之路 · 学习版　|　看故事记单词</footer>
+  </div>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.w').forEach(function(span) {
+      var text = span.textContent;
+      var match = text.match(/^([a-zA-Z]+)/);
+      if (match) {
+        var word = match[1];
+        span.addEventListener('click', function() {
+          speak(word);
+        });
+      }
+    });
+  });
+
+  function speak(word) {
+    if ('speechSynthesis' in window) {
+      var utterance = new SpeechSynthesisUtterance(word);
+      utterance.lang = 'en-US';
+      utterance.rate = 0.9;
+      speechSynthesis.speak(utterance);
+    }
+  }
+  </script>
+</body>
+</html>`;
+
+// 生成复习版 HTML
+const reviewParagraphs = storyParagraphs.map(p => {
+  return p.replace(/<span class="w">([a-zA-Z]+)\(([^)]+)\)📢<\/span>/g,
+    '<span class="r" onclick="toggle(this)">$1(<span class="h">$2</span>)</span>');
+});
+
+const reviewHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>重生医途：逆袭名医之路 · 复习版</title>
+<style>
+  :root { --pill-review: #C8E6C9; --accent: #4CAF50; --bg-soft: #E8F5E9; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 12px; text-align: justify; }
+  .r { background-color: #C8E6C9; border-radius: 999px; padding: 2px 8px; margin: 0 2px;
+    white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .r:hover { opacity: 0.85; }
+  .r .h { color: transparent; user-select: none; }
+  .r.show .h { color: #333; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 复习版</div>
+      <h1>重生医途：逆袭名医之路</h1>
+      <p class="sub">重生 · 医疗 · 职场</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 2：看单词回忆中文释义</div>
+      <h2><span class="no">Story61</span>医者仁心</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击词汇显示/隐藏中文释义</div>
+      <div class="text">${reviewParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>重生医途：逆袭名医之路 · 复习版　|　看故事记单词</footer>
+  </div>
+  <script> function toggle(el) { el.classList.toggle('show'); } </script>
+</body>
+</html>`;
+
+// 输出目录 - 直接输出到 result 目录
+const outputDir = '../result';
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir, { recursive: true });
+}
+
+// 写入文件 - 使用序号+故事名命名
+fs.writeFileSync(path.join(outputDir, '61_重生医途_逆袭名医之路_学习版.html'), learningHtml, 'utf-8');
+fs.writeFileSync(path.join(outputDir, '61_重生医途_逆袭名医之路_复习版.html'), reviewHtml, 'utf-8');
+
+console.log('✓ 已生成：61_重生医途_逆袭名医之路_学习版.html');
+console.log('✓ 已生成：61_重生医途_逆袭名医之路_复习版.html');
+console.log(`\n故事信息：`);
+console.log(`- 标题：重生医途：逆袭名医之路：医者仁心`);
+console.log(`- 题材：重生 · 医疗 · 职场`);
+console.log(`- 融入单词数：50 个`);
+console.log(`- 故事篇幅：约 3000 字`);

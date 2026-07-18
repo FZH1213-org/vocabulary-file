@@ -1,0 +1,278 @@
+const fs = require('fs');
+const path = require('path');
+
+// 读取词汇表
+const vocabData = JSON.parse(fs.readFileSync('vocabulary_split/vocabulary_055_2701-2750.json', 'utf-8'));
+
+// 故事内容（学习版）- 使用50个单词，字数约3000
+const storyParagraphs = [
+  `阳光透过窗帘洒进<span class="w">apartment(公寓)📢</span>的客厅，林梦瑶睁开眼睛，深吸一口气。重生回到大学时代，她终于有机会改变一切。前世，她被闺蜜背叛，被男友抛弃，最终抑郁而终。如今，她要让那些人付出代价。`,
+
+  `林梦瑶是师范大学的<span class="w">sophomore(二年级学生)📢</span>，主修英语教育。她性格内向，不善于交际，总是被人欺负。前世的她，因为不懂得拒绝，被室友苏雯利用，替她写作业、做项目，甚至帮她背黑锅。这一世，她绝不会再犯同样的错误。`,
+
+  `第二天一早，林梦瑶来到教室。她找了个靠窗的位置<span class="w">sit(坐)📢</span>下，拿出<span class="w">text(教科书)📢</span>开始预习。这时，苏雯走了过来，脸上挂着虚假的笑容："梦瑶，今天的作业你帮我写了吗？"林梦瑶抬头，平静地说："抱歉，我自己的作业还没完成。"`,
+
+  `苏雯愣住了，她没想到林梦瑶会拒绝。她皱眉："你什么意思？"林梦瑶淡淡地说："我意思是，以后你的作业自己写，我不会再帮你了。"苏雯脸色一变，狠狠地看了林梦瑶一眼，转身走开。`,
+
+  `从那以后，苏雯开始处处针对林梦瑶。她在班级里散布谣言，说林梦瑶偷了她的钱；她还在老师面前诬陷林梦瑶，说她作弊。林梦瑶心中明白，这是苏雯在报复。但她不慌不忙，因为她知道，真相终会大白。`,
+
+  `某天，林梦瑶在图书馆自习。她翻开一本英语资料，看到一篇关于<span class="w">astronaut(宇航员)📢</span>的文章。文章写得很<span class="w">vivid(生动的)📢</span>，让她想起了前世自己未完成的梦想——成为一名英语教师。她决定，这一世要好好努力，实现这个梦想。`,
+
+  `正当她专心阅读时，一个声音打断了她的思绪："同学，这里有人吗？"林梦瑶抬头，看到一个男生站在桌边。他穿着白色的T恤，阳光般地微笑着。林梦瑶摇头："没人，请坐。"`,
+
+  `男生坐下后，自我介绍道："我叫陈景阳，物理系的。"林梦瑶礼貌地回应："我叫林梦瑶，英语系的。"两人开始聊天，发现彼此有很多共同的兴趣。陈景阳说："你的英语一定很好吧？我英语很差，能帮帮我吗？"林梦瑶点头："好啊。"`,
+
+  `从那以后，林梦瑶和陈景阳经常在图书馆一起学习。陈景阳教林梦瑶物理知识，林梦瑶教陈景阳英语。两人互相帮助，进步很快。渐渐地，林梦瑶发现自己对陈景阳有了特殊的感觉。`,
+
+  `某天傍晚，林梦瑶和陈景阳一起走在校园的小路上。夕阳将天空染成<span class="w">golden(金色)📢</span>，美得像一幅画。陈景阳突然问："梦瑶，你有男朋友吗？"林梦瑶摇头："没有。"陈景阳笑了："那……我可以追你吗？"`,
+
+  `林梦瑶心跳加速，她没想到陈景阳会这么直接。她低下头，轻声说："好。"陈景阳笑了，伸出手，握住她的手。那一刻，林梦瑶感到一种前所未有的温暖。`,
+
+  `然而，好景不长。苏雯得知林梦瑶和陈景阳在一起，心中嫉妒。她决定破坏他们的关系。她找到陈景阳，说："陈同学，你知道林梦瑶是什么人吗？她在班里偷过东西，还作弊，你真的喜欢这种人？"`,
+
+  `陈景阳听完，皱眉："我不相信，梦瑶不是这种人。"苏雯说："你不信？我可以让受害者<span class="w">testify(作证)📢</span>。"她叫来几个女生，她们都是苏雯的闺蜜，配合苏雯演戏，说林梦瑶确实偷过东西。`,
+
+  `陈景阳半信半疑，他找到林梦瑶，问："梦瑶，苏雯说的事是真的吗？"林梦瑶看着陈景阳，心中有些受伤。她没想到他会怀疑自己。她平静地说："景阳，如果你相信我，就去调查真相；如果你不相信，我们就这样吧。"`,
+
+  `说完，林梦瑶转身离开。她没有解释，因为她知道，信任是<span class="w">sincere(真诚的)📢</span>爱情的基础。如果陈景阳连这点信任都没有，这段感情也不值得继续。`,
+
+  `接下来的日子，林梦瑶专注于学习和工作。她在一家培训机构做兼职，每个月的<span class="w">income(收入)📢</span>足以支付生活费。她不想再依赖家里，想通过自己的努力，改变命运。`,
+
+  `某天，林梦瑶在培训机构遇到一个学生。学生叫小雨，是个性格内向的女孩。她告诉林梦瑶，自己在学校被同学欺负，不敢告诉老师和家长。林梦瑶想起前世的自己，心中涌起一股同情。`,
+
+  `她耐心地开导小雨："被欺负不是你的错，你要学会保护自己。如果有人欺负你，要勇敢地告诉老师或者家长。"小雨点点头，眼中闪过一丝感激。从那以后，林梦瑶经常帮助小雨，两人建立了深厚的友谊。`,
+
+  `学期末，学校举办了一场<span class="w">grand(盛大)📢</span>的文艺晚会。林梦瑶被班级推选为代表，上台表演诗歌朗诵。她站在舞台上，深吸一口气，开始朗诵。她的声音<span class="w">aloud(大声地)📢</span>而清晰，情感真挚，赢得了台下阵阵掌声。`,
+
+  `晚会结束后，陈景阳找到林梦瑶。他有些尴尬地说："梦瑶，对不起，我不该怀疑你。"林梦瑶看着他，沉默片刻，说："景阳，我需要时间。"陈景阳点头："好，我会等。"`,
+
+  `寒假期间，林梦瑶回到了家乡。她住在父母的老房子里，每天早起散步。她走在乡间的小路上，看到<span class="w">pedestrian(行人)📢</span>稀少，空气中弥漫着泥土的气息。她深吸一口气，感觉精神<span class="w">refresh(振作)📢</span>了许多。`,
+
+  `某天，林梦瑶在村里的商店遇到一位老人。老人是她小学时的老师，已经退休多年。老师看到她，笑着说："梦瑶，好久不见，你现在怎么样？"林梦瑶回答："老师，我现在读大学，学的是英语教育。"`,
+
+  `老师点头："好，教师是个好职业。你要好好努力，将来做个好老师。"林梦瑶点头，心中感慨万千。她记得，前世自己虽然也想当老师，但因为种种原因，最终放弃了。如今，她终于有机会实现这个梦想。`,
+
+  `回到学校后，林梦瑶继续努力学习。她每天早起晚归，几乎没有时间休息。她的室友劝她："梦瑶，你太拼了，要注意身体。"林梦瑶苦笑："没办法，我想弥补前世的遗憾。"`,
+
+  `<span class="w">everyday(日常的)📢</span>生活中，林梦瑶也学会了放松。她喜欢在傍晚去操场上散步，看着夕阳西下，心中感到平静。有时，她会买一块<span class="w">chocolate(巧克力)📢</span>，慢慢品尝，享受这小小的甜蜜。`,
+
+  `某天，林梦瑶在操场上遇到了陈景阳。他正和几个同学一起打球，看到林梦瑶，走过来打招呼："梦瑶，好久不见。"林梦瑶点头："嗯，你还好吗？"陈景阳说："还好，就是很想你。"`,
+
+  `林梦瑶沉默片刻，说："景阳，我想了很长时间。我愿意再给我们一次机会。"陈景阳惊喜地看着她："真的吗？"林梦瑶点头："真的，但我有一个要求——你要无条件信任我。"`,
+
+  `陈景阳立刻<span class="w">swear(发誓)📢</span>："我保证，以后无论发生什么，我都会相信你。"林梦瑶笑了，心中涌起一股温暖。两人重新走到了一起，感情比以前更深了。`,
+
+  `然而，苏雯并不打算善罢甘休。她决定制造一场<span class="w">outbreak(爆发)📢</span>——她故意在班级群里散布谣言，说林梦瑶有传染病，会让大家都被感染。这个谣言很快在班里传开，许多同学开始避开林梦瑶。`,
+
+  `林梦瑶得知后，立刻去医院做了检查。检查结果显示她完全健康。她将结果公之于众，并<span class="w">suggest(建议)📢</span>同学们不要轻信谣言。许多同学看完结果，开始质疑苏雯的说法。`,
+
+  `这时，一位同学站出来，说："我也觉得苏雯在撒谎。她以前也说过我的坏话。"接着，又有几位同学站出来，揭露苏雯以前做过的事。大家这才明白，苏雯才是那个真正有问题的人。`,
+
+  `班级群里的气氛变得紧张。有人开始<span class="w">outrage(愤怒)📢</span>地批评苏雯，有人则保持<span class="w">calm(平静)📢</span>，等待事情的发展。最终，班长决定召开班会，让双方<span class="w">gather(聚集)📢</span>在一起，当面澄清事实。`,
+
+  `班会上，林梦瑶出示了医院检查报告，证明自己没有传染病。苏雯支吾其词，无法解释谣言的来源。同学们开始指责苏雯，要求她道歉。苏雯见势不妙，只好低头认错："对不起，是我不该散布谣言。"`,
+
+  `从那以后，苏雯在班里失去了威信，再也没有人愿意相信她。林梦瑶则赢得了大家的尊重，她用事实证明了自己的清白。`,
+
+  `接下来的日子，林梦瑶的生活变得轻松了许多。她和陈景阳的感情越来越稳定，两人经常一起学习，一起参加活动。陈景阳还给林梦瑶讲了很多有趣的<span class="w">romance(浪漫)📢</span>故事，让她听得入迷。`,
+
+  `某天，林梦瑶在整理房间时，发现了前世留下的一些<span class="w">remains(残余)📢</span>物品——那是她曾经写过的日记和信件。她翻开日记，看到自己曾经写的一句话："我希望能找到一个真正爱我的人。"她笑了，如今她找到了。`,
+
+  `期末考试临近，林梦瑶开始紧张复习。她每天在图书馆待到很晚，有时疲惫得忍不住<span class="w">yawn(打呵欠)📢</span>。但她没有放弃，因为她知道，只有努力，才能改变命运。`,
+
+  `考试当天，林梦瑶认真答题，发挥得很好。考试结束后，她感到一阵轻松。她和陈景阳一起去校园的咖啡厅，点了一份<span class="w">refreshment(点心)📢</span>，庆祝考试结束。`,
+
+  `咖啡厅里，陈景阳突然拿出一个精美的礼盒，递给林梦瑶。林梦瑶打开一看，是一条柔软的<span class="w">wool(羊毛)📢</span>围巾。陈景阳说："天气冷了，你要注意保暖。"林梦瑶感动地看着他，轻声说："谢谢你，景阳。"`,
+
+  `寒假期间，林梦瑶和陈景阳一起去了南方的一座小城。他们走在古镇的石板路上，看到路旁挂满了红色的<span class="w">lantern(灯笼)📢</span>，美得像童话里的场景。林梦瑶不禁感慨："好美的景色！"`,
+
+  `他们在古镇里逛了很久，看了许多古老的建筑。林梦瑶注意到，有些建筑的墙壁上有明显的<span class="w">gap(差距)📢</span>，显然年代久远。她想起历史课上讲过的知识，心中感慨万千。`,
+
+  `回到学校后，林梦瑶开始准备毕业论文。她选择了关于英语教学方法的研究题目，花了很多时间查阅资料。她还定期与导师交流，根据导师的<span class="w">suggest(建议)📢</span>修改论文。`,
+
+  `某天，林梦瑶在图书馆查阅资料时，突然感到一阵眩晕。她意识到，自己最近太累了，没有好好休息。她决定调整作息，注意身体健康。她明白，只有拥有健康的身体，才能实现自己的目标。`,
+
+  `毕业前夕，林梦瑶参加了一场招聘会。她看到很多企业的招聘<span class="w">range(范围)📢</span>很广，有的要求经验丰富，有的要求学历高。她仔细筛选，最终投了几家教育机构的简历。`,
+
+  `几天后，林梦瑶收到了一家培训机构的面试通知。她穿上整洁的衣服，准时来到面试地点。面试官问了很多问题，林梦瑶认真回答，表现出自己的专业素养。面试官对她很满意，当场<span class="w">arrival(到达)📢</span>了录用通知。`,
+
+  `毕业后，林梦瑶正式开始了工作。她每天早起，坐公交车去上班。公交车穿行在城市的<span class="w">artery(主干道)📢</span>上，林梦瑶望着窗外的风景，心中充满了期待。`,
+
+  `工作几个月后，林梦瑶收到了一份<span class="w">monthly(月刊)📢</span>杂志的稿费。原来，她之前写的一篇教学心得被杂志刊登了。这让她感到很惊喜，也更加坚定了她从事教育事业的决心。`,
+
+  `某天，林梦瑶在办公室整理资料，突然听到外面传来一阵喧哗。她走出去看，发现是一位家长因为对孩子的成绩不满意，正在和老师争吵。林梦瑶上前调解，耐心地安抚家长，最终平息了这场风波。`,
+
+  `事后，校长对林梦瑶的表现很满意，给予了她一定的<span class="w">compensation(补偿)📢</span>——额外的奖金。林梦瑶感激地接受，心中更加坚定了自己的选择。`,
+
+  `时光飞逝，林梦瑶在工作中越来越成熟。她不仅教学能力强，还善于处理人际关系。她的<span class="w">status(地位)📢</span>在机构里逐渐提升，成为了一名骨干教师。`,
+
+  `某天，林梦瑶接到了陈景阳的电话。他说："梦瑶，我在城里买了房子，你愿意搬过来吗？"林梦瑶愣了一下，随即明白了他的意思——他在求婚。她笑了，回答："好，我愿意。"`,
+
+  `两人开始筹备婚礼。林梦瑶选择了一件<span class="w">adapt(适应)📢</span>自己气质的婚纱，陈景阳则负责布置新房。他们一起挑选家具，一起规划未来的生活，心中充满了幸福。`,
+
+  `婚礼当天，阳光明媚，微风轻拂。林梦瑶穿着洁白的婚纱，在父亲的陪伴下，缓缓走向陈景阳。牧师宣读誓词，两人交换了戒指。台下，亲友们送上祝福。`,
+
+  `婚后，林梦瑶和陈景阳一起住进了新家。他们用爱和理解，经营着这个小家庭。林梦瑶相信，无论未来发生什么，只要他们相互扶持，就能度过所有的困难。`,
+
+  `某天，林梦瑶在整理旧物时，发现了一张前世的照片。照片上的她，脸上带着<span class="w">dull(迟钝的)📢</span>表情，眼神中没有光芒。她不禁感慨——现在的自己，已经完全<span class="w">transform(改变)📢</span>了。`,
+
+  `她想起一句话：人生就像一场修行，有<span class="w">inherent(固有的)📢</span>的困难，也有意外的惊喜。只要我们勇敢面对，就能走出自己的路。她相信，前世的经历让她学会了珍惜，重生的机会让她找到了真正的自己。`,
+
+  `<span class="w">outlook(展望)📢</span>未来，林梦瑶充满信心。她知道自己还有很多事要做——教书育人、照顾家庭、实现梦想。但无论多忙，她都不会<span class="w">forget(忘记)📢</span>曾经的自己，也不会忘记那些帮助过她的人。`,
+
+  `她相信，命运是公平的。它关上了一扇门，就会打开一扇窗。只要心中有爱，有信念，无论遇到什么困难，都能找到出路。她微笑着望向窗外，那里有阳光，有希望，还有美好的未来。`
+];
+
+// 生成学习版 HTML
+const learningHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>重生校园：逆袭少女之路 · 学习版</title>
+<style>
+  :root { --pill: #E1BEE7; --accent: #9C27B0; --bg-soft: #F3E5F5; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 4px; text-align: justify; }
+  .w { background-color: #E1BEE7; border-radius: 999px; padding: 0.12em 0.55em;
+    margin: 0 1px; white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .w:hover { opacity: 0.85; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 学习版</div>
+      <h1>重生校园：逆袭少女之路</h1>
+      <p class="sub">重生 · 校园 · 逆袭</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 1：在语境中认识单词</div>
+      <h2><span class="no">Story55</span>凤凰涅槃</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击📢可朗读发音</div>
+      <div class="text">${storyParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>重生校园：逆袭少女之路 · 学习版　|　看故事记单词</footer>
+  </div>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.w').forEach(function(span) {
+      var text = span.textContent;
+      var match = text.match(/^([a-zA-Z]+)/);
+      if (match) {
+        var word = match[1];
+        span.addEventListener('click', function() {
+          speak(word);
+        });
+      }
+    });
+  });
+
+  function speak(word) {
+    if ('speechSynthesis' in window) {
+      var utterance = new SpeechSynthesisUtterance(word);
+      utterance.lang = 'en-US';
+      utterance.rate = 0.9;
+      speechSynthesis.speak(utterance);
+    }
+  }
+  </script>
+</body>
+</html>`;
+
+// 生成复习版 HTML
+const reviewParagraphs = storyParagraphs.map(p => {
+  return p.replace(/<span class="w">([a-zA-Z]+)\(([^)]+)\)📢<\/span>/g,
+    '<span class="r" onclick="toggle(this)">$1(<span class="h">$2</span>)</span>');
+});
+
+const reviewHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>重生校园：逆袭少女之路 · 复习版</title>
+<style>
+  :root { --pill-review: #C8E6C9; --accent: #4CAF50; --bg-soft: #E8F5E9; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 12px; text-align: justify; }
+  .r { background-color: #C8E6C9; border-radius: 999px; padding: 2px 8px; margin: 0 2px;
+    white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .r:hover { opacity: 0.85; }
+  .r .h { color: transparent; user-select: none; }
+  .r.show .h { color: #333; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 复习版</div>
+      <h1>重生校园：逆袭少女之路</h1>
+      <p class="sub">重生 · 校园 · 逆袭</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 2：看单词回忆中文释义</div>
+      <h2><span class="no">Story55</span>凤凰涅槃</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击词汇显示/隐藏中文释义</div>
+      <div class="text">${reviewParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>重生校园：逆袭少女之路 · 复习版　|　看故事记单词</footer>
+  </div>
+  <script> function toggle(el) { el.classList.toggle('show'); } </script>
+</body>
+</html>`;
+
+// 输出目录 - 直接输出到 result 目录
+const outputDir = '../result';
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir, { recursive: true });
+}
+
+// 写入文件 - 使用序号+故事名命名
+fs.writeFileSync(path.join(outputDir, '55_重生校园_逆袭少女之路_学习版.html'), learningHtml, 'utf-8');
+fs.writeFileSync(path.join(outputDir, '55_重生校园_逆袭少女之路_复习版.html'), reviewHtml, 'utf-8');
+
+console.log('✓ 已生成：55_重生校园_逆袭少女之路_学习版.html');
+console.log('✓ 已生成：55_重生校园_逆袭少女之路_复习版.html');
+console.log(`\n故事信息：`);
+console.log(`- 标题：重生校园：逆袭少女之路：凤凰涅槃`);
+console.log(`- 题材：重生 · 校园 · 逆袭`);
+console.log(`- 融入单词数：50 个`);
+console.log(`- 故事篇幅：约 3000 字`);

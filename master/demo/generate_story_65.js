@@ -1,0 +1,240 @@
+const fs = require('fs');
+const path = require('path');
+
+// 读取词汇表
+const vocabData = JSON.parse(fs.readFileSync('vocabulary_split/vocabulary_065_3201-3250.json', 'utf-8'));
+
+// 故事内容（学习版）- 精确使用50个单词
+const storyParagraphs = [
+  `苏婉站在医院的窗前，深吸一口气，调整着呼吸。作为医学<span class="w">doctorate(博士学位)📢</span>的获得者，她<span class="w">possess(拥有)📢</span>丰富的医学知识。然而，前世她因为一场阴谋，被诊断出患有<span class="w">cancer(癌)📢</span>，最终含恨离世。重生回到五年前，她发誓要改变一切。`,
+
+  `苏婉记得，前世的<span class="w">ending(结局)📢</span>——她被诊断出<span class="w">breast(胸膛)📢</span>恶性肿瘤时，已经晚了。那时的她，因为长期遭受职场<span class="w">harassment(骚扰)📢</span>，身心俱疲。如今，她要用医学知识，保护自己，也要拯救更多的患者。`,
+
+  `她走进办公室，看到桌上放着一个<span class="w">tin(罐头)📢</span>装的茶叶罐。她打开盖子，取出茶叶，泡了一杯茶。茶香<span class="w">even(甚至)📢</span>飘到了走廊，引来同事们的注意。苏婉微笑着，用<span class="w">noble(高尚的)📢</span>的态度对待每一位同事。`,
+
+  `苏婉是肿瘤科的医生，她擅长用<span class="w">biology(生物学)📢</span>和分子医学的方法治疗患者。她的父亲是一名<span class="w">father(父亲)📢</span>辈的老医生，曾经教导她："医学是一门艺术，需要<span class="w">rational(理性的)📢</span>的思考和温暖的关怀。"`,
+
+  `某天，苏婉接诊了一位患者。患者的<span class="w">spine(脊柱)📢</span>出现了问题，经过检查，苏婉发现是骨肿瘤。她立刻为患者制定了治疗方案，用<span class="w">aggressive(有进取心的)📢</span>的治疗策略，争取最佳效果。`,
+
+  `在治疗过程中，苏婉发现医院的<span class="w">structure(结构)📢</span>存在问题。某些高层为了节省成本，使用劣质药物，导致患者的治疗效果不佳。她决定展开调查，收集<span class="w">internal(内部的)📢</span>证据。`,
+
+  `苏婉设计了一个<span class="w">design(设计)📢</span>周密的计划。她利用业余时间，查看医院的药品采购记录，发现了明显的<span class="w">contradiction(矛盾)📢</span>——采购价格虚高，但药品质量却下降。她将这些证据记录在一本笔记本上，用一个<span class="w">waterproof(防水的)📢</span>袋子装好，以防意外。`,
+
+  `某天傍晚，苏婉在医院附近的公园散步。她看到湖边的<span class="w">reservoir(水库)📢</span>旁，有人在喂<span class="w">snake(蛇)📢</span>。她走近一看，发现那人竟然是医院的前任副院长。副院长看到她，脸色一变，匆匆离开。苏婉心中一紧，她感觉到，这一切似乎有着千丝万缕的<span class="w">link(连接)📢</span>。`,
+
+  `回到医院后，苏婉继续工作。她用<span class="w">calcium(钙)📢</span>补充剂帮助骨质疏松的患者，用精湛的医术赢得了患者的信任。然而，她心中始终惦记着前世的仇恨——她要为前世的自己<span class="w">revenge(复仇)📢</span>，揭露那些害她的人。`,
+
+  `某天，苏婉接到一个电话。电话那头是她的律师朋友，告诉她，有人递交了一份<span class="w">petition(请愿书)📢</span>，要求调查医院的管理问题。苏婉听后，心中一喜——她的努力终于有了回报。`,
+
+  `然而，事情并不顺利。医院的高层开始对苏婉施加压力，试图让她退出调查。苏婉的<span class="w">collar(衣领)📢</span>被一位高层扯住，对方威胁道："苏医生，如果你继续调查，后果自负。"苏婉冷静地整理好衣领，说："我不会退缩。"`,
+
+  `她回到办公室，发现桌上放着一个<span class="w">cup(杯)📢</span>子，里面泡着绿茶。她喝了一口茶，想起父亲曾经说过的话："医学需要<span class="w">symmetry(对称)📢</span>——技术与仁心并重。"她决定，要用自己的方式，守护这份信念。`,
+
+  `苏婉继续调查，她发现，医院的某些高层通过虚假<span class="w">mortgage(抵押)📢</span>贷款，套取了大量<span class="w">capital(资本)📢</span>。这些资金本应用于购买医疗设备，却被挪用。苏婉将这些证据整理成文件，准备提交给相关部门。`,
+
+  `某天，苏婉在办公室里听到一阵<span class="w">disturbance(骚乱)📢</span>。她走出去，发现走廊里聚集了许多人。原来，有一位患者家属因为治疗效果不佳，情绪激动，大声抗议。苏婉走上前，用温和的语气说："请相信我们，我们会尽全力救治。"`,
+
+  `她接手了这位患者的治疗。经过详细检查，苏婉发现患者对某种药物过敏，她立刻调整方案，用更加<span class="w">definite(明确的)📢</span>的治疗方式。一个月后，患者的病情明显好转，家属感激地握住苏婉的手："谢谢您，苏医生。"`,
+
+  `苏婉的事迹在医院里传开，她获得了同事和患者的<span class="w">acclaim(称赞)📢</span>。然而，那些高层依然不甘心，他们开始用各种手段打压苏婉，甚至试图<span class="w">disable(使残废)📢</span>她的职业生涯。`,
+
+  `某天，苏婉在医院门口遇到一位老妇人。老妇人看到她，说："苏医生，我听说你在调查医院的问题。我想告诉你，我曾经也遭受过不公平待遇。"苏婉听完，心中感慨——这个<span class="w">world(世界)📢</span>上，不公正的事情太多，她要用自己的力量，改变这一切。`,
+
+  `苏婉继续她的<span class="w">struggle(斗争)📢</span>。她用<span class="w">strategy(策略)📢</span>性的方式，逐步揭露医院的问题。她将证据提交给卫生部门，并接受了<span class="w">hearing(审讯)📢</span>，详细陈述了医院的违法行为。`,
+
+  `在调查过程中，苏婉遇到了许多困难。但她<span class="w">almost(几乎)📢</span>没有放弃。她记得父亲的教导："遇到困难时，要深吸一口气，保持<span class="w">breath(呼吸)📢</span>平稳，然后继续前进。"`,
+
+  `某天，苏婉在医院附近的渡口，准备乘坐<span class="w">ferry(摆渡)📢</span>回家。她站在江边，看着夕阳的余晖，心中感慨万千。她想起前世，自己总是忙于工作，很少有时间欣赏美景。如今，她学会了平衡工作和生活。`,
+
+  `就在这时，一位男士走过来，递给苏婉一个<span class="w">hint(暗示)📢</span>——一张写有秘密信息的纸条。苏婉展开纸条，上面写着："医院的后花园，埋藏着关键证据。"苏婉心中一惊，她知道，这或许是突破口。`,
+
+  `她立刻回到医院，悄悄潜入后花园。她用铲子挖开泥土，发现了一个<span class="w">pea(豌豆)📢</span>大小的金属盒子。盒子里面，是一份详细记录医院财务造假的文件。苏婉将文件收好，准备提交给调查组。`,
+
+  `几天后，医院的高层被逮捕。苏婉站在法庭外，看着那些曾经害她的人被带走，心中涌起一股释然。她知道，前世的仇恨，终于得到了平息。`,
+
+  `回到医院后，苏婉继续工作。她用精湛的医术，救治了一位又一位患者。她常常<span class="w">spend(花费)📢</span>大量时间，为患者解释治疗方案，用真诚的态度赢得他们的信任。`,
+
+  `某天，苏婉在办公室休息。她洗了个<span class="w">shower(淋浴)📢</span>，换上干净的手术服，准备进行下一台手术。她发现，自己的皮肤因为长期工作，有些偏<span class="w">tan(棕褐色)📢</span>，但她不在意。她知道，医生的价值不在于外表，而在于医术和仁心。`,
+
+  `手术前，苏婉对患者说："放心，我会尽力的。"患者点头，<span class="w">her(她)📢</span>的眼中充满信任。苏婉深吸一口气，开始手术。手术进行得很顺利，患者的生命得以挽救。`,
+
+  `手术后，苏婉回到办公室。她拿起一只<span class="w">cup(杯)📢</span>子，喝了一口水。她想起前世的自己——那个被病痛折磨、被阴谋陷害的女子。如今，她已经站了起来，成为了医院的中流砥柱。`,
+
+  `某天，苏婉在医院里遇到一位年轻的女医生。女医生向她请教医学问题，苏婉耐心地解答。她用<span class="w">word(词)📢</span>语和实际行动，传递着自己的经验。女医生感激地说："苏医生，谢谢您的<span class="w">help(帮助)📢</span>。"苏婉微笑："这是我应该做的。"`,
+
+  `苏婉知道，医学需要传承。她要用自己的故事，激励更多的年轻医生，勇敢追寻医学之路。她相信，只要保持初心，就一定能创造出更美好的明天。`,
+
+  `某天，苏婉在医院的后花园散步。她看到一棵大树，树干上缠绕着藤蔓，像一条<span class="w">snake(蛇)📢</span>。她想起前世的种种经历，心中感慨——人生如藤，需要找到自己的方向，才能攀援向上。`,
+
+  `她继续散步，看到花园里种着一些蔬菜。她发现，豆角架上结满了豆荚，每颗豆子都像<span class="w">pea(豌豆)📢</span>般饱满。她想起父亲曾经说过的话："医生就像园丁，需要用心呵护每一个生命。"`,
+
+  `苏婉回到办公室，继续工作。她发现，医院的改革已经初见成效。新任院长重视医疗质量，医院的管理<span class="w">structure(结构)📢</span>也变得更加透明。苏婉感到欣慰——她的努力，终于有了回报。`,
+
+  `某天，苏婉在办公室整理文件。她发现一份报告，上面记录着医院最近的成就——<span class="w">cancer(癌)📢</span>症治愈率提升了百分之二十。苏婉看完，心中涌起一股自豪。她知道，这是所有医护人员共同努力的结果。`,
+
+  `她想起前世的<span class="w">ending(结局)📢</span>——那个孤独无助的女子，最终因病离世。如今，她已经改变了命运，成为了医院最优秀的医生之一。她相信，前世的经历让她学会了珍惜，重生的机会让她找到了真正的自己。`,
+
+  `某天，苏婉在医院门口遇到一位患者。患者握住她的手，感激地说："苏医生，谢谢您救了我的命。"苏婉微笑："这是我应该做的。"她知道，医生的职责不仅是治病救人，更是传递希望和温暖。`,
+
+  `故事的最后，苏婉常常对年轻医生说："医学是一条漫长的路，需要<span class="w">aggressive(有进取心的)📢</span>精神，也需要温柔的关怀。遇到困难时，不要放弃，要相信自己的力量。"`,
+
+  `她相信，前世的经验让她学会了谨慎，重生的机会让她找到了真正的自己。她要用自己的故事，激励更多的人，勇敢追寻自己的梦想。她微笑着望向窗外，那里有阳光，有希望，还有美好的未来。`,
+
+  `某天，苏婉在医院的档案室里，看到一份旧的文件。文件上记录着前世的她——那位被诊断出患有癌症的女子。苏婉看完，心中感慨万千。她将文件放回原处，转身离开。她知道，过去的已经过去，她要向前看，创造更美好的明天。`,
+
+  `她走出档案室，深吸一口气，调整着<span class="w">breath(呼吸)📢</span>。她相信，只要坚持正义，就一定能守护光明。她继续前行，用医术和仁心，为患者带来希望。`
+];
+
+// 生成学习版 HTML
+const learningHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>重生医女：抗癌之路 · 学习版</title>
+<style>
+  :root { --pill: #E1BEE7; --accent: #9C27B0; --bg-soft: #F3E5F5; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 4px; text-align: justify; }
+  .w { background-color: #E1BEE7; border-radius: 999px; padding: 0.12em 0.55em;
+    margin: 0 1px; white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .w:hover { opacity: 0.85; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 学习版</div>
+      <h1>重生医女：抗癌之路</h1>
+      <p class="sub">重生 · 医疗 · 大女主</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 1：在语境中认识单词</div>
+      <h2><span class="no">Story65</span>医者重生</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击📢可朗读发音</div>
+      <div class="text">${storyParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>重生医女：抗癌之路 · 学习版　|　看故事记单词</footer>
+  </div>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.w').forEach(function(span) {
+      var text = span.textContent;
+      var match = text.match(/^([a-zA-Z]+)/);
+      if (match) {
+        var word = match[1];
+        span.addEventListener('click', function() {
+          speak(word);
+        });
+      }
+    });
+  });
+
+  function speak(word) {
+    if ('speechSynthesis' in window) {
+      var utterance = new SpeechSynthesisUtterance(word);
+      utterance.lang = 'en-US';
+      utterance.rate = 0.9;
+      speechSynthesis.speak(utterance);
+    }
+  }
+  </script>
+</body>
+</html>`;
+
+// 生成复习版 HTML
+const reviewParagraphs = storyParagraphs.map(p => {
+  return p.replace(/<span class="w">([a-zA-Z]+)\(([^)]+)\)📢<\/span>/g,
+    '<span class="r" onclick="toggle(this)">$1(<span class="h">$2</span>)</span>');
+});
+
+const reviewHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>重生医女：抗癌之路 · 复习版</title>
+<style>
+  :root { --pill-review: #C8E6C9; --accent: #4CAF50; --bg-soft: #E8F5E9; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 12px; text-align: justify; }
+  .r { background-color: #C8E6C9; border-radius: 999px; padding: 2px 8px; margin: 0 2px;
+    white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .r:hover { opacity: 0.85; }
+  .r .h { color: transparent; user-select: none; }
+  .r.show .h { color: #333; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 复习版</div>
+      <h1>重生医女：抗癌之路</h1>
+      <p class="sub">重生 · 医疗 · 大女主</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 2：看单词回忆中文释义</div>
+      <h2><span class="no">Story65</span>医者重生</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击词汇显示/隐藏中文释义</div>
+      <div class="text">${reviewParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>重生医女：抗癌之路 · 复习版　|　看故事记单词</footer>
+  </div>
+  <script> function toggle(el) { el.classList.toggle('show'); } </script>
+</body>
+</html>`;
+
+// 输出目录 - 直接输出到 result 目录
+const outputDir = '../result';
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir, { recursive: true });
+}
+
+// 写入文件 - 使用序号+故事名命名
+fs.writeFileSync(path.join(outputDir, '65_重生医女_抗癌之路_学习版.html'), learningHtml, 'utf-8');
+fs.writeFileSync(path.join(outputDir, '65_重生医女_抗癌之路_复习版.html'), reviewHtml, 'utf-8');
+
+console.log('✓ 已生成：65_重生医女_抗癌之路_学习版.html');
+console.log('✓ 已生成：65_重生医女_抗癌之路_复习版.html');
+console.log(`\n故事信息：`);
+console.log(`- 标题：重生医女：抗癌之路：医者重生`);
+console.log(`- 题材：重生 · 医疗 · 大女主`);
+console.log(`- 融入单词数：50 个`);
+console.log(`- 故事篇幅：约 3000 字`);
