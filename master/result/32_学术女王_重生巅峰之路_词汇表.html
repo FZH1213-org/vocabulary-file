@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学术女王：重生巅峰之路 - 词汇学习表</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;}
+        body{font-family:'Segoe UI',sans-serif;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);min-height:100vh;padding:20px;}
+        .container{max-width:1400px;margin:0 auto;}
+        h1{color:white;text-align:center;margin-bottom:20px;font-size:2.5em;text-shadow:2px 2px 4px rgba(0,0,0,0.3);}
+        .stats{background:white;padding:15px 25px;border-radius:10px;margin-bottom:20px;display:flex;justify-content:space-around;flex-wrap:wrap;gap:10px;box-shadow:0 4px 6px rgba(0,0,0,0.1);}
+        .stat-item{text-align:center;}
+        .stat-number{font-size:2em;color:#667eea;font-weight:bold;}
+        .stat-label{color:#666;font-size:0.9em;}
+        .search-box{background:white;padding:20px;border-radius:10px;margin-bottom:20px;box-shadow:0 4px 6px rgba(0,0,0,0.1);}
+        .search-controls{display:flex;gap:15px;flex-wrap:wrap;}
+        .search-input{flex:1;min-width:200px;padding:12px 20px;border:2px solid #e0e0e0;border-radius:25px;font-size:16px;}
+        .search-input:focus{outline:none;border-color:#667eea;box-shadow:0 0 10px rgba(102,126,234,0.3);}
+        .vocabulary-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(350px,1fr));gap:20px;}
+        .vocab-card{background:white;border-radius:15px;padding:20px;box-shadow:0 4px 6px rgba(0,0,0,0.1);transition:all 0.3s;}
+        .vocab-card:hover{transform:translateY(-5px);box-shadow:0 8px 15px rgba(0,0,0,0.2);}
+        .vocab-number{background:#667eea;color:white;padding:3px 10px;border-radius:12px;font-size:0.85em;font-weight:bold;}
+        .vocab-word{font-size:1.8em;color:#333;font-weight:bold;margin:10px 0 5px 0;}
+        .vocab-phonetic{display:flex;align-items:center;gap:10px;margin-bottom:12px;flex-wrap:wrap;}
+        .phonetic-text{color:#667eea;font-size:1.1em;font-style:italic;}
+        .speak-btn{background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);color:white;border:none;padding:8px 15px;border-radius:20px;cursor:pointer;font-size:0.9em;transition:all 0.3s;display:flex;align-items:center;gap:5px;}
+        .speak-btn:hover{transform:scale(1.05);box-shadow:0 4px 10px rgba(102,126,234,0.4);}
+        .vocab-pos{background:#f0f0f0;padding:8px 12px;border-radius:8px;margin-bottom:10px;}
+        .pos-label{color:#764ba2;font-weight:bold;font-size:0.85em;}
+        .pos-meaning{color:#333;margin-top:3px;}
+        .vocab-example{background:#f9f9f9;padding:10px;border-radius:8px;margin-bottom:10px;}
+        .example-en{color:#333;font-style:italic;margin-bottom:5px;}
+        .example-cn{color:#666;font-size:0.9em;}
+        .no-results{text-align:center;color:white;font-size:1.2em;padding:40px;grid-column:1/-1;}
+        .pagination{display:flex;justify-content:center;align-items:center;gap:10px;margin-top:30px;flex-wrap:wrap;}
+        .page-btn{background:white;color:#667eea;border:none;padding:10px 20px;border-radius:20px;cursor:pointer;font-size:16px;transition:all 0.3s;}
+        .page-btn:hover:not(:disabled){background:#667eea;color:white;}
+        .page-btn:disabled{opacity:0.5;cursor:not-allowed;}
+        .page-info{background:white;padding:10px 20px;border-radius:20px;color:#667eea;font-weight:bold;}
+        @media(max-width:768px){.vocabulary-list{grid-template-columns:1fr;}.search-controls{flex-direction:column;}h1{font-size:1.8em;}}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📚 学术女王：重生巅峰之路</h1>
+        <div class="stats">
+            <div class="stat-item"><div class="stat-number" id="total-words">38</div><div class="stat-label">总词汇数</div></div>
+            <div class="stat-item"><div class="stat-number" id="filtered-words">38</div><div class="stat-label">筛选结果</div></div>
+        </div>
+        <div class="search-box">
+            <div class="search-controls">
+                <input type="text" class="search-input" id="searchInput" placeholder="搜索单词或中文释义...">
+            </div>
+        </div>
+        <div class="vocabulary-list" id="vocabularyList"></div>
+        <div class="pagination" id="pagination"></div>
+    </div>
+    <script>
+const vocabularyData=[{"id":1,"word":"classroom","translation":"教室"},{"id":2,"word":"sociology","translation":"社会学"},{"id":3,"word":"lifetime","translation":"一生"},{"id":4,"word":"apple","translation":"苹果"},{"id":5,"word":"thesis","translation":"论文"},{"id":6,"word":"concentration","translation":"专注"},{"id":7,"word":"now","translation":"现在"},{"id":8,"word":"unit","translation":"单位"},{"id":9,"word":"lively","translation":"活泼的"},{"id":10,"word":"girl","translation":"女孩"},{"id":11,"word":"technical","translation":"技术的"},{"id":12,"word":"growth","translation":"增长"},{"id":13,"word":"vitamin","translation":"维生素"},{"id":14,"word":"distill","translation":"蒸馏"},{"id":15,"word":"sure","translation":"肯定"},{"id":16,"word":"excellent","translation":"卓越的"},{"id":17,"word":"series","translation":"系列"},{"id":18,"word":"imagine","translation":"想象"},{"id":19,"word":"arm","translation":"手臂"},{"id":20,"word":"climb","translation":"攀登"},{"id":21,"word":"dot","translation":"点"},{"id":22,"word":"concert","translation":"音乐会"},{"id":23,"word":"author","translation":"作者"},{"id":24,"word":"artistic","translation":"艺术的"},{"id":25,"word":"summit","translation":"顶点"},{"id":26,"word":"likely","translation":"可能的"},{"id":27,"word":"career","translation":"事业"},{"id":28,"word":"rabbit","translation":"兔子"},{"id":29,"word":"platform","translation":"平台"},{"id":30,"word":"daughter","translation":"女儿"},{"id":31,"word":"wife","translation":"妻子"},{"id":32,"word":"shell","translation":"壳"},{"id":33,"word":"anyhow","translation":"无论如何"},{"id":34,"word":"customer","translation":"顾客"},{"id":35,"word":"bat","translation":"球拍"},{"id":36,"word":"symptom","translation":"症状"},{"id":37,"word":"forward","translation":"向前"},{"id":38,"word":"oppose","translation":"反对"}];
+let currentPage=1;
+const itemsPerPage=50;
+let filteredData=[];
+function getPOS(w,t){
+    const s=w.toLowerCase();
+    if(s.endsWith('tion')||s.endsWith('sion')||s.endsWith('ment')||s.endsWith('ness')||s.endsWith('ity')||s.endsWith('ance')||s.endsWith('ence'))return'n.';
+    if(s.endsWith('ly'))return'adv.';
+    if(s.endsWith('ful')||s.endsWith('less')||s.endsWith('ous')||s.endsWith('ive')||s.endsWith('able')||s.endsWith('al'))return'adj.';
+    if(s.endsWith('ize')||s.endsWith('ify')||s.endsWith('ate'))return'v.';
+    if(t.includes('的'))return'adj.';
+    return'v./n.';
+}
+function getPhonetic(w){return'/'+w+'/';}
+function genEx(w,pos,t){
+    var word=w.toLowerCase();
+    var examples;
+    var cn=t.endsWith('的')?t.slice(0,-1):t;
+    if(pos.includes('adj')){
+        examples=[
+            {en:'The '+word+' view made everyone surprised.',cn:'这个'+cn+'的景色让每个人都感到惊讶。'},
+            {en:'She has a '+word+' personality.',cn:'她有一个'+cn+'的性格。'},
+            {en:'This is really '+word+'.',cn:'这真是'+t+'。'}
+        ];
+    }else if(pos.includes('n')){
+        examples=[
+            {en:'The '+word+' is important to understand.',cn:'这个'+t+'很重要,需要理解。'},
+            {en:'We need to deal with this '+word+'.',cn:'我们需要处理这个'+t+'。'},
+            {en:'This '+word+' matters a lot.',cn:'这个'+t+'很重要。'}
+        ];
+    }else if(pos.includes('adv')){
+        examples=[
+            {en:'She '+word+' finished the work.',cn:'她'+t+'完成了工作。'},
+            {en:'He speaks '+word+'.',cn:'他说话'+t+'。'}
+        ];
+    }else{
+        examples=[
+            {en:'They decided to '+word+' immediately.',cn:'他们决定立即'+t+'。'},
+            {en:'She wants to '+word+' tomorrow.',cn:'她想明天'+t+'。'},
+            {en:'Please '+word+' carefully.',cn:'请仔细'+t+'。'}
+        ];
+    }
+    var idx=Math.floor(Math.random()*examples.length);
+    var ex=examples[idx];
+    ex.en=ex.en.charAt(0).toUpperCase()+ex.en.slice(1);
+    return ex;
+}
+function init(){
+    vocabularyData.forEach(v=>{
+        v.pos=getPOS(v.word,v.translation);
+        v.phonetic=getPhonetic(v.word);
+        v.example=genEx(v.word,v.pos,v.translation);
+    });
+    filteredData=[...vocabularyData];
+    render();
+    document.getElementById('searchInput').addEventListener('input',debounce(search,300));
+}
+function debounce(f,w){let t;return function(...a){clearTimeout(t);t=setTimeout(()=>f(...a),w);};}
+function render(){
+    const c=document.getElementById('vocabularyList');
+    c.innerHTML='';
+    const start=(currentPage-1)*itemsPerPage;
+    const data=filteredData.slice(start,start+itemsPerPage);
+    if(!data.length){
+        c.innerHTML='<div class="no-results">未找到匹配的词汇 😢</div>';
+        document.getElementById('pagination').innerHTML='';
+        return;
+    }
+    data.forEach(v=>{
+        const card=document.createElement('div');
+        card.className='vocab-card';
+        card.innerHTML='<div class="vocab-number">#'+v.id+'</div><div class="vocab-word">'+v.word+'</div><div class="vocab-phonetic"><span class="phonetic-text">'+v.phonetic+'</span><button class="speak-btn" onclick="speak(\''+v.word+'\')">🔊 朗读</button></div><div class="vocab-pos"><div class="pos-label">'+v.pos+'</div><div class="pos-meaning">'+v.translation+'</div></div><div class="vocab-example"><div class="example-en">'+v.example.en+'</div><div class="example-cn">'+v.example.cn+'</div></div>';
+        c.appendChild(card);
+    });
+    paginate();
+}
+function paginate(){
+    const total=Math.ceil(filteredData.length/itemsPerPage);
+    const p=document.getElementById('pagination');
+    if(total<=1){
+        p.innerHTML='<span class="page-info">共 '+filteredData.length+' 个词汇</span>';
+        return;
+    }
+    p.innerHTML='<button class="page-btn" onclick="go(1)" '+(currentPage===1?'disabled':'')+'>首页</button><button class="page-btn" onclick="go('+(currentPage-1)+')" '+(currentPage===1?'disabled':'')+'>上一页</button><span class="page-info">第 '+currentPage+'/'+total+' 页</span><button class="page-btn" onclick="go('+(currentPage+1)+')" '+(currentPage===total?'disabled':'')+'>下一页</button><button class="page-btn" onclick="go('+total+')" '+(currentPage===total?'disabled':'')+'>尾页</button>';
+}
+function go(p){
+    const max=Math.ceil(filteredData.length/itemsPerPage);
+    if(p<1||p>max)return;
+    currentPage=p;
+    render();
+    scrollTo({top:0,behavior:'smooth'});
+}
+function search(e){
+    const q=e.target.value.toLowerCase().trim();
+    filteredData=vocabularyData.filter(v=>{
+        return !q||v.word.toLowerCase().includes(q)||v.translation.includes(q);
+    });
+    document.getElementById('filtered-words').textContent=filteredData.length;
+    currentPage=1;
+    render();
+}
+function speak(w){
+    if('speechSynthesis' in window){
+        speechSynthesis.cancel();
+        const u=new SpeechSynthesisUtterance(w);
+        u.lang='en-US';
+        u.rate=0.8;
+        speechSynthesis.speak(u);
+    }else{
+        alert('您的浏览器不支持语音朗读 😔');
+    }
+}
+window.addEventListener('load',init);
+    </script>
+</body>
+</html>
