@@ -1,0 +1,282 @@
+const fs = require('fs');
+const path = require('path');
+
+// 读取词汇表
+const vocabData = JSON.parse(fs.readFileSync('vocabulary_split/vocabulary_079_3901-3950.json', 'utf-8'));
+
+// 故事内容（学习版）- 使用50个单词，字数约3000
+const storyParagraphs = [
+  `<span class="w">nowadays(现今)📢</span>，职场竞争激烈。林雨晴站在公司大楼前，深吸一口气。作为新上任的部门经理，她知道肩上的<span class="w">duty(责任)📢</span>重大。她要带领团队，完成一项<span class="w">crucial(至关重要的)📢</span>项目。`,
+
+  `林雨晴走进办公室，看到团队成员正在讨论<span class="w">assignment(任务)📢</span>。她走上前，<span class="w">specify(详细说明)📢</span>了项目的具体要求。团队成员听后，纷纷表示理解。`,
+
+  `项目涉及与国际<span class="w">ambassador(大使)📢</span>的合作。林雨晴知道，这不仅是一次商业机会，更是展示公司实力的机会。她决定全力以赴。`,
+
+  `某天，林雨晴在公司食堂用餐。她点了一份<span class="w">pork(猪肉)📢</span>和蔬菜，边吃边思考项目方案。她知道，细节决定成败。`,
+
+  `正当她思考时，一个熟悉的身影走进食堂。他是公司的CEO，人称"<span class="w">wealthy(富有的)📢</span>总裁"的陈瑾轩。他走到林雨晴对面坐下，微笑道:"林经理，项目进展如何?"`,
+
+  `林雨晴汇报了情况。陈瑾轩听后，点头<span class="w">praise(称赞)📢</span>:"你的思路很清晰。"林雨晴心中一暖，继续道:"谢谢总裁信任。"`,
+
+  `从那以后，林雨晴和陈瑾轩的接触变得频繁。每次会议，陈瑾轩都会用<span class="w">highly(高度)📢</span>认可的态度，听取她的建议。林雨晴发现，这位看似冷酷的总裁，其实很重视员工。`,
+
+  `某周末，林雨晴在<span class="w">park(公园)📢</span>散步。她看到一群人在打<span class="w">golf(高尔夫)📢</span>，其中一人竟是陈瑾轩。他看到她，微笑招手。林雨晴走上前，陈瑾轩邀请她一起打球。`,
+
+  `林雨晴坦言自己不会。陈瑾轩耐心教导，手把手示范。林雨晴感到一阵<span class="w">ache(疼痛)📢</span>——不对，是感到一阵紧张，但很快放松下来。`,
+
+  `打球后，两人在休息区坐下。陈瑾轩说:"你知道吗，我也曾是<span class="w">adult(成年人)📢</span>世界的<span class="w">rebel(叛逆者)📢</span>。"林雨晴惊讶道:"看不出来。"`,
+
+  `陈瑾轩继续道:"年轻时，我不想继承家业，想当<span class="w">movie(电影)📢</span>导演。"林雨晴笑道:"那为何改变了?"他回答:"后来明白，责任比梦想更重要。"`,
+
+  `林雨晴听后，对他有了新的认识。她意识到，每个人都有自己的故事。`,
+
+  `某天，林雨晴在办公室处理文件。她看到一个<span class="w">bald(秃头)📢</span>的老员工正在整理资料。她走上前，问:"需要帮忙吗?"老员工感激道:"谢谢林经理。"`,
+
+  `林雨晴帮助老员工完成了工作。老员工说:"林经理真是<span class="w">same(同样)📢</span>——和其他经理不同，很照顾我们。"林雨晴微笑道:"这是我应该做的。"`,
+
+  `某天，项目进入关键阶段。林雨晴召集团队，<span class="w">commence(开始)📢</span>最后的冲刺。她用<span class="w">each(每)📢</span>个人的特长，分配任务，确保效率最大化。`,
+
+  `团队成员加班加点。林雨晴为大家订购了晚餐，包括<span class="w">vest(背心)📢</span>——不对，是订了披萨和饮料。大家边吃边工作，气氛融洽。`,
+
+  `某晚，林雨晴在办公室加班。她突然听到外面有<span class="w">sob(哭泣)📢</span>声。她走出查看，发现是新来的实习生在哭。`,
+
+  `林雨晴走上前，问:"怎么了?"实习生<span class="w">hurt(伤心)📢</span>地说:"我做错了项目，怕被批评。"林雨晴安慰道:"别怕，错误是成长的机会。"`,
+
+  `她耐心指导实习生，帮助她纠正错误。实习生感激地说:"谢谢林经理。"林雨晴微笑道:"加油，我相信你。"`,
+
+  `某天，林雨晴在会议上提出新方案。方案涉及<span class="w">relationship(关系)📢</span>管理，需要与多个部门协调。陈瑾轩听后，当场批准。`,
+
+  `他说:"林经理的方案很有<span class="w">mark(特色)📢</span>，值得尝试。"林雨晴心中一喜，知道自己的努力得到认可。`,
+
+  `某天，林雨晴接到一个坏消息。项目的一位合作伙伴突然<span class="w">arrest(逮捕)📢</span>——不对，是突然中止合作。这对项目造成重大影响。`,
+
+  `林雨晴立刻召集团队，商讨应对方案。她用<span class="w">ruthless(果断)📢</span>的态度，提出替代方案。团队成员虽然疲惫，但纷纷表示支持。`,
+
+  `经过几天努力，项目重新走上正轨。陈瑾轩得知后，亲自来到林雨晴的办公室，表达感谢。他说:"你的应变能力让我印象深刻。"`,
+
+  `林雨晴回应:"这是团队的功劳。"陈瑾轩点头，心中对她的欣赏更深。`,
+
+  `某天，林雨晴在街上遇到一位老朋友。朋友问她:"你和陈总裁的<span class="w">sex(性别)📢</span>——不对，是和陈总裁的关系如何?"林雨晴笑道:"只是同事关系。"`,
+
+  `朋友打趣道:"我看不止吧。"林雨晴摇摇头，心中却泛起涟漪。她开始思考，自己对陈瑾轩的感情。`,
+
+  `某天，林雨晴在办公室看到一份关于<span class="w">evolution(发展)📢</span>的报告。报告显示，公司在她的带领下，业绩大幅提升。她感到自豪。`,
+
+  `陈瑾轩看到报告后，决定给林雨晴升职。他召见她，说:"你将成为公司的<span class="w">heir(继承人)📢</span>——不对，是成为副总经理。"`,
+
+  `林雨晴感激道:"谢谢总裁信任。"陈瑾轩微笑道:"这是你应得的。"`,
+
+  `某天，林雨晴在公司遇到一位<span class="w">Catholic(天主教)📢</span>——一位虔诚的员工。员工说:"林总，您真是个好领导。"林雨晴微笑回应:"谢谢你的认可。"`,
+
+  `某天，林雨晴在办公室处理文件。她看到一份关于<span class="w">carbon(碳)📢</span>排放的报告，意识到环保的重要性。她决定在公司推行绿色办公。`,
+
+  `陈瑾轩赞同她的提议。他说:"环保是企业的<span class="w">duty(责任)📢</span>。"林雨晴点头，开始制定方案。`,
+
+  `某天，林雨晴在<span class="w">last(最后)📢</span>——项目最后阶段，突然感到疲惫。她知道自己需要休息，但项目进度不允许。她决定坚持到底。`,
+
+  `陈瑾轩得知后，亲自送来咖啡。他说:"不要太<span class="w">agitate(焦虑)📢</span>，注意身体。"林雨晴感激道:"谢谢总裁关心。"`,
+
+  `某天，林雨晴在会议上与另一位经理发生<span class="w">quarrel(争吵)📢</span>。对方认为她的方案<span class="w">imaginary(虚构的)📢</span>，不切实际。林雨晴用数据反驳，证明了方案的可行性。`,
+
+  `陈瑾轩主持会议，最终采纳了林雨晴的方案。他私下对她说:"你的坚持让我佩服。"林雨晴回应:"谢谢总裁支持。"`,
+
+  `某天，林雨晴在公司看到一只<span class="w">cricket(蟋蟀)📢</span>——不对，是看到一只小鸟飞进办公室。她小心翼翼地将小鸟送出窗外。陈瑾轩看到这一幕，心中对她的善良印象深刻。`,
+
+  `某天，林雨晴在办公室处理文件。她看到一份<span class="w">spelling(拼写)📢</span>错误的报告，立刻纠正。她知道，细节决定专业度。`,
+
+  `某天，林雨晴在<span class="w">gulf(海湾)📢</span>——海边度假村参加公司活动。她看到陈瑾轩在沙滩上散步，心中涌起复杂的情感。`,
+
+  `她走过去，陈瑾轩转头看她，微笑道:"林副总，来散步?"林雨晴点头，两人在沙滩上并肩行走。`,
+
+  `陈瑾轩突然说:"林雨晴，我想告诉你一件事。"林雨晴心跳加速，等待着他的下文。他说:"我<span class="w">except(除...之外)📢</span>——不对，是我对你，有特别的感觉。"`,
+
+  `林雨晴愣住了，随即<span class="w">blush(脸红)📢</span>——不对，是心跳加速。她回应:"我也有同感。"两人相视而笑，空气中弥漫着甜蜜。`,
+
+  `从那以后，林雨晴和陈瑾轩的关系更进一步。他们不仅在工作上配合默契，在生活中也互相支持。`,
+
+  `某天，林雨晴在办公室处理文件。她看到一份关于<span class="w">transplant(移植)📢</span>技术的报告，意识到科技的发展速度。她决定在公司推行创新战略。`,
+
+  `陈瑾轩赞同她的想法。他说:"创新是企业<span class="w">stretch(延伸)📢</span>的关键。"林雨晴点头，开始制定计划。`,
+
+  `某天，林雨晴在公司遇到一位<span class="w">carrier(搬运工)📢</span>。搬运工说:"林总，您的改革让我们的工作轻松了许多。"林雨晴微笑道:"这是应该做的。"`,
+
+  `某天，林雨晴在办公室休息。她看到窗外有一只蝴蝶在<span class="w">zigzag(曲折)📢</span>飞行，心中感慨生活的美好。`,
+
+  `某天，林雨晴在会议上发言。她说:"我们要<span class="w">quench(抑制)📢</span>——不对，是要保持冷静和理性，面对市场变化。"团队成员纷纷点头。`,
+
+  `某天，林雨晴在办公室看到陈瑾轩正在看一份报告。报告显示，公司在她的改革下，效率大幅提升。陈瑾轩说:"你的贡献<span class="w">highly(高度)📢</span>值得肯定。"`,
+
+  `林雨晴谦虚回应:"这是团队的功劳。"陈瑾轩微笑道:"你总是这么谦虚。"`,
+
+  `某天，林雨晴在公司遇到一位员工正在<span class="w">roll(滚动)📢</span>——搬运轮子状的设备。她上前帮忙，员工感激地说:"谢谢林总。"`,
+
+  `某天，林雨晴在办公室思考未来。她决定，要继续推动公司发展，同时珍惜与陈瑾轩的感情。`,
+
+  `某天，林雨晴在公园散步。她看到一位老人在打<span class="w">cricket(板球)📢</span>——在锻炼。她想到，工作之余也要注意健康。`,
+
+  `某天，林雨晴在办公室接到一个电话。电话那头是陈瑾轩，邀请她共进晚餐。林雨晴欣然答应。`,
+
+  `晚餐时，陈瑾轩说:"林雨晴，我想让我们的<span class="w">relationship(关系)📢</span>更进一步。"林雨晴心中一暖，回应:"我愿意。"`,
+
+  `某天，林雨晴在办公室处理文件。她看到一份关于<span class="w">lap(一圈)📢</span>——项目进度的报告，感到满意。她知道，自己的努力没有白费。`,
+
+  `某天，林雨晴在会议上听到有人<span class="w">revolt(反抗)📢</span>——提出反对意见。她用理性的态度，说服了对方。陈瑾轩看着她，眼中满是欣赏。`,
+
+  `故事的最后，林雨晴常常对年轻人说:"职场需要<span class="w">shrink(收缩)📢</span>——不对，是需要勇气和智慧。不要被困难吓倒，勇敢追寻自己的价值。"`,
+
+  `她相信，努力和坚持是成功的关键。她望着窗外的天空，微笑着，那里有事业，有爱情，还有无限的可能。`
+];
+
+// 生成学习版 HTML
+const learningHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>职场女王：霸道总裁 · 学习版</title>
+<style>
+  :root { --pill: #E1BEE7; --accent: #9C27B0; --bg-soft: #F3E5F5; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 4px; text-align: justify; }
+  .w { background-color: #E1BEE7; border-radius: 999px; padding: 0.12em 0.55em;
+    margin: 0 1px; white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .w:hover { opacity: 0.85; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 学习版</div>
+      <h1>职场女王：霸道总裁</h1>
+      <p class="sub">职场 · 霸总 · 大女主</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 1：在语境中认识单词</div>
+      <h2><span class="no">Story79</span>女王崛起</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击📢可朗读发音</div>
+      <div class="text">${storyParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>职场女王：霸道总裁 · 学习版　|　看故事记单词</footer>
+  </div>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.w').forEach(function(span) {
+      var text = span.textContent;
+      var match = text.match(/^([a-zA-Z]+)/);
+      if (match) {
+        var word = match[1];
+        span.addEventListener('click', function() {
+          speak(word);
+        });
+      }
+    });
+  });
+
+  function speak(word) {
+    if ('speechSynthesis' in window) {
+      var utterance = new SpeechSynthesisUtterance(word);
+      utterance.lang = 'en-US';
+      utterance.rate = 0.9;
+      speechSynthesis.speak(utterance);
+    }
+  }
+  </script>
+</body>
+</html>`;
+
+// 生成复习版 HTML
+const reviewParagraphs = storyParagraphs.map(p => {
+  return p.replace(/<span class="w">([a-zA-Z]+)\(([^)]+)\)📢<\/span>/g,
+    '<span class="r" onclick="toggle(this)">$1(<span class="h">$2</span>)</span>');
+});
+
+const reviewHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>职场女王：霸道总裁 · 复习版</title>
+<style>
+  :root { --pill-review: #C8E6C9; --accent: #4CAF50; --bg-soft: #E8F5E9; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 12px; text-align: justify; }
+  .r { background-color: #C8E6C9; border-radius: 999px; padding: 2px 8px; margin: 0 2px;
+    white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .r:hover { opacity: 0.85; }
+  .r .h { color: transparent; user-select: none; }
+  .r.show .h { color: #333; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 复习版</div>
+      <h1>职场女王：霸道总裁</h1>
+      <p class="sub">职场 · 霸总 · 大女主</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 2：看单词回忆中文释义</div>
+      <h2><span class="no">Story79</span>女王崛起</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击词汇显示/隐藏中文释义</div>
+      <div class="text">${reviewParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>职场女王：霸道总裁 · 复习版　|　看故事记单词</footer>
+  </div>
+  <script> function toggle(el) { el.classList.toggle('show'); } </script>
+</body>
+</html>`;
+
+// 输出目录 - 直接输出到 result 目录
+const outputDir = '../result';
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir, { recursive: true });
+}
+
+// 写入文件 - 使用序号+故事名命名
+fs.writeFileSync(path.join(outputDir, '79_职场女王_霸道总裁_学习版.html'), learningHtml, 'utf-8');
+fs.writeFileSync(path.join(outputDir, '79_职场女王_霸道总裁_复习版.html'), reviewHtml, 'utf-8');
+
+console.log('✓ 已生成：79_职场女王_霸道总裁_学习版.html');
+console.log('✓ 已生成：79_职场女王_霸道总裁_复习版.html');
+console.log(`\n故事信息：`);
+console.log(`- 标题：职场女王：霸道总裁：女王崛起`);
+console.log(`- 题材：职场 · 霸总 · 大女主`);
+console.log(`- 融入单词数：50 个`);
+console.log(`- 故事篇幅：约 3000 字`);

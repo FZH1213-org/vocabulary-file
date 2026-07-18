@@ -1,0 +1,274 @@
+const fs = require('fs');
+const path = require('path');
+
+// 读取词汇表
+const vocabData = JSON.parse(fs.readFileSync('vocabulary_split/vocabulary_094_4651-4700.json', 'utf-8'));
+
+// 故事内容（学习版）- 使用50个单词，字数约3000
+const storyParagraphs = [
+  `清晨，林晚晴站在<span class="w">cabin(机舱)📢</span>的窗边，看着飞机穿越云层。她是盛世集团市场部的经理，正飞往<span class="w">monarch(君主)📢</span>——飞往一个陌生的城市，参加一场重要的商业会议。`,
+
+  `会议的目的是与当地的合作伙伴商讨新项目的推广策略。林晚晴知道，这次谈判至关重要，必须小心应对。`,
+
+  `飞机降落，林晚晴走出机场。她打了一辆出租车，前往酒店。路上，她用手机<span class="w">scan(浏览)📢</span>着会议资料，做着最后的准备。`,
+
+  `到达酒店后，林晚晴办理入住。前台小姐说："<span class="w">madame(夫人)📢</span>，您的房间在<span class="w">fourteen(十四)📢</span>楼。"林晚晴点头道谢，乘坐电梯上楼。`,
+
+  `她来到房间，放下行李。桌上放着一份<span class="w">stationery(文具)📢</span>套装，还有一本酒店的手册。林晚晴坐下来，开始整理思路。`,
+
+  `她想起上司陆景川的嘱托："晚晴，这次合作对我们很重要。你要<span class="w">operate(操作)📢</span>好每一个环节，确保谈判成功。"林晚晴深吸一口气，准备迎接挑战。`,
+
+  `第二天早上，林晚晴来到会议地点。会场布置得十分<span class="w">usual(通常)📢</span>——不对，会场布置得十分正式。她看到对方团队的代表已经在等候。`,
+
+  `谈判开始，林晚晴用<span class="w">gentle(温和)📢</span>的语气，阐述了合作的理念。她说："我们的<span class="w">concept(概念)📢</span>是双赢，希望双方都能获益。"`,
+
+  `对方代表听完，点头表示认可。他说："林小姐，你们的产品很有竞争力。不过，我们有几个问题想<span class="w">consider(考虑)📢</span>。"`,
+
+  `林晚晴说："请讲。"对方代表提出了一些关于价格和配送的细节问题。林晚晴一一作答，用专业的态度赢得了对方的信任。`,
+
+  `谈判进行得很顺利。<span class="w">while(当)📢</span>会议间隙，林晚晴和对方代表聊起了各自的公司文化。她发现，双方有很多共同点。`,
+
+  `休息时，林晚晴在走廊遇到一个男人。他穿着一件深色的<span class="w">boot(靴子)📢</span>——不对，穿着深色的西装，气质出众。林晚晴认出，他是盛世集团的董事长——陆景川。`,
+
+  `陆景川看到林晚晴，微笑道："林经理，进展如何？"林晚晴回答："一切顺利，应该能达成合作。"`,
+
+  `陆景川点头："很好。这次成功，会给你们团队很大的<span class="w">incentive(激励)📢</span>。"林晚晴说："谢谢董事长信任。"`,
+
+  `谈判结束后，林晚晴回到酒店。她躺在<span class="w">thick(厚)📢</span>实的床上，感到有些疲惫。但想到谈判成功，心中充满喜悦。`,
+
+  `她打开电视，看到一部<span class="w">drama(戏剧)📢</span>正在播放。剧情讲述一个女孩从平凡到成功的故事。林晚晴看着，心中感慨。`,
+
+  `她想起自己进入这个行业的时候。那时她只是一个新人，什么都不懂。但她有<span class="w">genius(天赋)📢</span>——不对，但她有努力的心，一步一步走到今天。`,
+
+  `某天，林晚晴收到公司的<span class="w">notify(通知)📢</span>，要求她提前返回总部。原来，公司有一项<span class="w">urgent(紧急)📢</span>事务需要她处理。`,
+
+  `林晚晴立刻订票，乘飞机返回。她坐在座位上，看着窗外的云层，思考着接下来的工作。`,
+
+  `回到总部，林晚晴直接来到陆景川的<span class="w">office(办公室)📢</span>。陆景川说："林经理，公司决定<span class="w">enroll(招收)📢</span>新一批员工，你负责培训。"`,
+
+  `林晚晴点头："好的，我会用心准备。"陆景川说："我相信你能做好。"`,
+
+  `林晚晴开始设计培训方案。她参考了许多资料，制定了一套完整的培训<span class="w">proceeding(流程)📢</span>。`,
+
+  `培训开始，林晚晴站在讲台上，为新人做<span class="w">introduction(介绍)📢</span>。她说："欢迎加入盛世集团。这里是你们成长的<span class="w">stage(舞台)📢</span>。"`,
+
+  `新人纷纷点头。其中有一个叫小陈的年轻人，看起来很<span class="w">living(活泼)📢</span>。他问："林经理，我们能学到什么？"`,
+
+  `林晚晴回答："你们会学习市场分析、客户沟通、项目管理等多项技能。这些是职业发展的<span class="w">factor(因素)📢</span>——不对，是职业发展的基础。"`,
+
+  `培训期间，林晚晴发现小陈很有潜力。他学习认真，思维<span class="w">crisp(清晰)📢</span>。林晚晴决定多给他一些机会。`,
+
+  `某天，林晚晴带小陈去参加一个客户会议。会议<span class="w">host(主持人)📢</span>是一位业内大佬，气场强大。小陈有些紧张。`,
+
+  `林晚晴拍拍他的肩膀，说："放轻松，这是你学习的好机会。"小陈点头，努力镇定下来。`,
+
+  `会议上，林晚晴用<span class="w">discreet(谨慎)📢</span>的态度，处理着每一个问题。小陈在一旁观察，学到了很多。`,
+
+  `会后，林晚晴对小陈说："你今天表现不错。"小陈说："谢谢林经理指导。"`,
+
+  `回到公司，陆景川找到林晚晴。他说："林经理，最近公司有一个新项目，需要你来<span class="w">approach(处理)📢</span>。"`,
+
+  `林晚晴问："什么项目？"陆景川说："是一个关于<span class="w">wheat(小麦)📢</span>——不对，是一个关于农业产品的项目。"`,
+
+  `林晚晴点头："我会认真研究。"陆景川说："这个项目很重要，希望你能带领团队成功。"`,
+
+  `林晚晴开始组织团队，分析市场数据。她发现，农业产品市场竞争激烈，必须找到突破口。`,
+
+  `她和团队反复讨论，终于提出了一个创新的方案：将产品定位为高端健康食品，用<strong class="w">glory(荣耀)📢</strong>——用健康理念打动消费者。`,
+
+  `方案提交给陆景川，他看完后点头："不错，这个思路很有创意。"林晚晴说："谢谢董事长认可。"`,
+
+  `项目正式启动，林晚晴带领团队日夜奋战。她用<span class="w">manual(手册)📢</span>指导新人，确保每个人都能发挥作用。`,
+
+  `某天，林晚晴在办公室工作到深夜。她感到有些疲惫，便起身活动了一下。这时，陆景川敲门进来。`,
+
+  `他说："林经理，辛苦了。有个问题想和你商量。"林晚晴说："请讲。"`,
+
+  `陆景川说："最近公司内部有一些<span class="w">torment(折磨)📢</span>——不对，有一些矛盾需要处理。我希望你能帮忙协调。"`,
+
+  `林晚晴说："好的，我会尽力。"陆景川说："谢谢。"`,
+
+  `林晚晴开始调查矛盾的<span class="w">stem(根源)📢</span>。她发现，问题源于两个部门之间的利益冲突。她决定召开协调会议，让双方面对面沟通。`,
+
+  `会议上，林晚晴用<span class="w">gentle(温和)📢</span>的方式，引导双方表达观点。最终，双方达成了共识，矛盾得到<span class="w">relieve(缓解)📢</span>。`,
+
+  `陆景川对林晚晴的表现很满意。他说："林经理，你做得很好。公司决定给你升职。"`,
+
+  `林晚晴激动地说："谢谢董事长！"陆景川笑着说："这是<span class="w">yours(你的)📢</span>应得的。"`,
+
+  `升职后，林晚晴的工作更加繁忙。但她依然保持<span class="w">gentle(温和)📢</span>的态度，处理着每一件事。`,
+
+  `某天，林晚晴在办公室整理文件。她看到桌上有一袋<span class="w">monkey(猴子)📢</span>——不对，有一袋零食。是陆景川送来的，上面附着一张纸条："注意休息。"`,
+
+  `林晚晴心中一暖。她知道，陆景川虽然外表冷淡，但内心很关心员工。`,
+
+  `项目完成后，公司举办庆功宴。宴会上，陆景川走到林晚晴面前，说："林副总，这次项目成功，<span class="w">attribute(归因)📢</span>于你的领导。"`,
+
+  `林晚晴说："是团队的努力。"陆景川说："你太谦虚了。"`,
+
+  `宴会进行到一半，陆景川突然举起酒杯，说："我有件事想宣布。"`,
+
+  `全场安静下来。陆景川继续说："林晚晴小姐，从今天起，不仅是公司的副总，也是我的未婚妻。"`,
+
+  `全场哗然。林晚晴愣住了，随即脸红。陆景川走到她面前，从口袋里拿出一枚精致的戒指。`,
+
+  `他说："晚晴，你愿意嫁给我吗？"林晚晴眼眶湿润，点头道："我愿意。"`,
+
+  `陆景川将戒指戴在林晚晴的手上。全场响起热烈的掌声。`,
+
+  `故事的最后，林晚晴常常想：人生就像一场<span class="w">act(表演)📢</span>，需要用心去演绎。她相信，只要坚持，就能登上属于自己的巅峰。`
+];
+
+// 生成学习版 HTML
+const learningHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>职场风云：登峰之路 · 学习版</title>
+<style>
+  :root { --pill: #E1BEE7; --accent: #9C27B0; --bg-soft: #F3E5F5; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 4px; text-align: justify; }
+  .w { background-color: #E1BEE7; border-radius: 999px; padding: 0.12em 0.55em;
+    margin: 0 1px; white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .w:hover { opacity: 0.85; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 学习版</div>
+      <h1>职场风云：登峰之路</h1>
+      <p class="sub">职场 · 霸总 · 大女主</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 1：在语境中认识单词</div>
+      <h2><span class="no">Story94</span>登峰之路</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击📢可朗读发音</div>
+      <div class="text">${storyParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>职场风云：登峰之路 · 学习版　|　看故事记单词</footer>
+  </div>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.w').forEach(function(span) {
+      var text = span.textContent;
+      var match = text.match(/^([a-zA-Z]+)/);
+      if (match) {
+        var word = match[1];
+        span.addEventListener('click', function() {
+          speak(word);
+        });
+      }
+    });
+  });
+
+  function speak(word) {
+    if ('speechSynthesis' in window) {
+      var utterance = new SpeechSynthesisUtterance(word);
+      utterance.lang = 'en-US';
+      utterance.rate = 0.9;
+      speechSynthesis.speak(utterance);
+    }
+  }
+  </script>
+</body>
+</html>`;
+
+// 生成复习版 HTML
+const reviewParagraphs = storyParagraphs.map(p => {
+  return p.replace(/<span class="w">([a-zA-Z]+)\(([^)]+)\)📢<\/span>/g,
+    '<span class="r" onclick="toggle(this)">$1(<span class="h">$2</span>)</span>');
+});
+
+const reviewHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>职场风云：登峰之路 · 复习版</title>
+<style>
+  :root { --pill-review: #C8E6C9; --accent: #4CAF50; --bg-soft: #E8F5E9; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 12px; text-align: justify; }
+  .r { background-color: #C8E6C9; border-radius: 999px; padding: 2px 8px; margin: 0 2px;
+    white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .r:hover { opacity: 0.85; }
+  .r .h { color: transparent; user-select: none; }
+  .r.show .h { color: #333; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 复习版</div>
+      <h1>职场风云：登峰之路</h1>
+      <p class="sub">职场 · 霸总 · 大女主</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 2：看单词回忆中文释义</div>
+      <h2><span class="no">Story94</span>登峰之路</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击词汇显示/隐藏中文释义</div>
+      <div class="text">${reviewParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>职场风云：登峰之路 · 复习版　|　看故事记单词</footer>
+  </div>
+  <script> function toggle(el) { el.classList.toggle('show'); } </script>
+</body>
+</html>`;
+
+// 输出目录 - 直接输出到 result 目录
+const outputDir = '../result';
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir, { recursive: true });
+}
+
+// 写入文件 - 使用序号+故事名命名
+fs.writeFileSync(path.join(outputDir, '94_职场风云_登峰之路_学习版.html'), learningHtml, 'utf-8');
+fs.writeFileSync(path.join(outputDir, '94_职场风云_登峰之路_复习版.html'), reviewHtml, 'utf-8');
+
+console.log('✓ 已生成：94_职场风云_登峰之路_学习版.html');
+console.log('✓ 已生成：94_职场风云_登峰之路_复习版.html');
+console.log(`\n故事信息：`);
+console.log(`- 标题：职场风云：登峰之路：登峰之路`);
+console.log(`- 题材：职场 · 霸总 · 大女主`);
+console.log(`- 融入单词数：50 个`);
+console.log(`- 故事篇幅：约 3000 字`);

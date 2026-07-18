@@ -1,0 +1,270 @@
+const fs = require('fs');
+const path = require('path');
+
+// 读取词汇表
+const vocabData = JSON.parse(fs.readFileSync('vocabulary_split/vocabulary_096_4751-4800.json', 'utf-8'));
+
+// 故事内容（学习版）- 使用50个单词，字数约3000
+const storyParagraphs = [
+  `<span class="w">yard(院子)📢</span>里，林晚晴站在老槐树下，望着熟悉的风景。她刚刚重生回到了十年前——她人生最艰难的那段时光。`,
+
+  `林晚晴深吸一口气，心中感慨万千。前世的她，因为一次错误的决定，导致人生陷入困境。这一世，她决心改变一切。`,
+
+  `她回到屋内，看到桌上放着一张<span class="w">bill(账单)📢</span>。那是父亲生病住院的费用，数字让她心惊。她知道，必须尽快想办法解决。`,
+
+  `林晚晴翻出母亲的<span class="w">brochure(小册子)📢</span>——翻出母亲留下的工作手册。母亲曾经是一家公司的<span class="w">engineer(工程师)📢</span>，她希望林晚晴也能有一技之长。`,
+
+  `林晚晴决定用自己的<span class="w">skillful(娴熟的)📢</span>——用自己擅长的写作技能，寻找一份工作。她打开电脑，开始搜索招聘信息。`,
+
+  `很快，她找到了一家公司招聘文案<span class="w">actress(女演员)📢</span>——不对，招聘文案编辑。林晚晴立刻投递简历，并<span class="w">presently(不久)📢</span>收到了面试通知。`,
+
+  `面试那天，林晚晴穿上职业装，来到公司。公司位于一栋<span class="w">handsome(漂亮的)📢</span>的建筑里，环境十分优雅。`,
+
+  `面试官问："你有什么工作经验？"林晚晴说："我曾<span class="w">drill(练习)📢</span>——不对，我曾做过自由撰稿人，写过许多文章。"`,
+
+  `面试官点头："你的文笔如何？"林晚晴说："我可以用<span class="w">analytic(分析的)📢</span>思维，将复杂的内容简单化。"`,
+
+  `面试官很满意，当场录用林晚晴。林晚晴激动地说："谢谢您给我这个<span class="w">chance(机会)📢</span>。"`,
+
+  `入职后，林晚晴努力工作。她每天写文案、改稿子，忙得几乎没有时间休息。但她没有<span class="w">quit(放弃)📢</span>，因为她知道父亲的医药费等着她挣。`,
+
+  `某天，林晚晴在办公室加班。同事李明走过来，说："晚晴，你最近很努力啊。"林晚晴说："谢谢，我会继续加油的。"`,
+
+  `李明说："听说你是<span class="w">other(其他)📢</span>——听说你是新来的？需要帮助可以找我。"林晚晴感激地点头。`,
+
+  `日子一天天过去，林晚晴的工作越来越顺手。她的文案<span class="w">figure(数字)📢</span>——她的文案质量得到客户认可，业绩不断提升。`,
+
+  `某天，老板召见林晚晴。他说："林晚晴，你最近表现很好。公司决定让你负责一个新的<span class="w">campaign(运动)📢</span>——不对，负责一个新的营销项目。"`,
+
+  `林晚晴惊讶地说："谢谢老板信任！"老板说："这是你应得的。"`,
+
+  `林晚晴开始着手项目。她用<span class="w">empirical(经验的)📢</span>方法，分析市场数据，制定推广方案。她知道，这个项目对公司的<span class="w">stake(赌注)📢</span>——对公司的意义重大。`,
+
+  `她加班到深夜，常常在公司的<span class="w">compartment(隔间)📢</span>里吃外卖。同事们都佩服她的敬业精神。`,
+
+  `某天晚上，林晚晴在<span class="w">watch(观看)📢</span>——在整理数据时，发现一个关键问题。如果不及时解决，项目可能失败。`,
+
+  `她立刻找到李明商量。李明说："我们需要<span class="w">update(更新)📢</span>策略，否则很难成功。"林晚晴点头："我也是这样想的。"`,
+
+  `两人一起加班，用<span class="w">guideline(指导方针)📢</span>——用专业的方法，重新设计方案。最终，他们提出了一个创新的策略。`,
+
+  `方案提交后，老板非常满意。他说："林晚晴，你很<span class="w">skillful(娴熟)📢</span>——你很有能力。"林晚晴说："谢谢老板。"`,
+
+  `项目启动后，林晚晴每天监控进度。她用<span class="w">transparent(透明)📢</span>的方式，向团队汇报每一步进展。`,
+
+  `然而，项目进行到一半，遇到了困难。客户的预算有限，无法<span class="w">afford(担负)📢</span>额外费用。林晚晴必须想办法降低成本。`,
+
+  `她想到一个办法：利用<span class="w">household(家庭)📢</span>网络——不对，利用社交媒体进行推广，降低营销成本。老板采纳了她的建议。`,
+
+  `策略调整后，项目顺利推进。林晚晴松了一口气，感到一阵<span class="w">relief(解脱)📢</span>。`,
+
+  `某天，林晚晴在公司<span class="w">setting(环境)📢</span>里——在公司休息室遇到一个男子。他叫陆景川，是公司的总经理。`,
+
+  `陆景川看着林晚晴，说："你就是林晚晴？听说你最近做得不错。"林晚晴说："谢谢总经理夸奖。"`,
+
+  `陆景川说："继续努力。"林晚晴点头。她发现，陆景川虽然外表严肃，但说话很温和。`,
+
+  `几个月后，项目顺利完成。公司举办庆功宴，林晚晴作为项目负责人，受到表彰。陆景川亲自为她颁奖。`,
+
+  `他说："林晚晴，你做得很好。公司决定给你升职。"林晚晴激动地说："谢谢！"`,
+
+  `升职后，林晚晴的工作<span class="w">scope(范围)📢</span>扩大了。她开始管理一个小团队，负责更多项目。`,
+
+  `她每天<span class="w">cling(坚持)📢</span>——每天都认真工作，带领团队创造佳绩。团队成员都敬佩她的敬业精神。`,
+
+  `某天，林晚晴的父亲病情好转，可以出院了。林晚晴接父亲回家，看到熟悉的<span class="w">yard(院子)📢</span>，心中感慨万千。`,
+
+  `父亲说："晚晴，这段时间辛苦你了。"林晚晴说："爸，这是我应该做的。"`,
+
+  `父亲说："你要注意<span class="w">health(健康)📢</span>，不要太累。"林晚晴点头："我会的。"`,
+
+  `回到公司，林晚晴继续努力工作。她用<span class="w">generator(发电机)📢</span>——不对，她用创新思维，为公司带来更多业绩。`,
+
+  `某天，陆景川找到林晚晴。他说："林晚晴，最近有一个新的项目，你有兴趣参与吗？"林晚晴说："当然。"`,
+
+  `陆景川说："这个项目涉及到<span class="w">medieval(中世纪)📢</span>艺术——不对，涉及到文化遗产推广。你了解这方面吗？"林晚晴说："我愿意学习。"`,
+
+  `林晚晴开始研究相关资料。她发现，文化遗产推广需要<span class="w">weld(焊接)📢</span>——需要融合历史与现代元素，才能吸引年轻人。`,
+
+  `她提出了一个方案：用现代的方式解读历史，让年轻人感受到文化的魅力。陆景川看完方案，点头赞许。`,
+
+  `方案实施后，效果很好。公司的知名度大大提升，林晚晴也因此获得了更高的认可。`,
+
+  `某天，林晚晴在办公室整理文件。她看到一张<span class="w">leaf(叶子)📢</span>——看到一张便签，上面写着："辛苦了，晚上一起吃饭？"是陆景川的笔迹。`,
+
+  `林晚晴心中一热。她知道，陆景川对她有特别的心意。她点头答应。`,
+
+  `晚上，两人来到一家餐厅。陆景川点了<span class="w">steak(牛排)📢</span>和<span class="w">ham(火腿)📢</span>沙拉，两人边吃边聊。`,
+
+  `陆景川说："林晚晴，认识你这段时间，我很开心。"林晚晴说："我也是。"`,
+
+  `陆景川深吸一口气，说："我想问你一个问题。"林晚晴看着他，等待下文。`,
+
+  `陆景川说："你愿意和我在一起吗？"林晚晴脸红了一下，点头道："我愿意。"`,
+
+  `陆景川握住林晚晴的手，两人相视而笑。窗外，城市的灯火璀璨，仿佛在为他们祝福。`,
+
+  `<span class="w">consequently(因此)📢</span>，林晚晴的生活发生了变化。她不仅事业成功，也收获了爱情。`,
+
+  `某天，林晚晴在医院<span class="w">entry(入口)📢</span>遇到一位老同学。老同学惊讶地说："晚晴，你变化真大，变得这么自信！"`,
+
+  `林晚晴微笑道："因为我想改变<span class="w">it(它)📢</span>——改变自己，也改变命运。"`,
+
+  `故事的最后，林晚晴常常想起重生前的日子。她知道，是那次重生让她学会了珍惜。她相信，只要努力，就能创造属于自己的幸福。`,
+
+  `她<span class="w">lest(免得)📢</span>——她时常提醒自己：不要忘记过去的教训，珍惜现在的每一天。因为，只有把握当下，才能拥抱未来。`
+];
+
+// 生成学习版 HTML
+const learningHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>重生逆袭：从零开始 · 学习版</title>
+<style>
+  :root { --pill: #E1BEE7; --accent: #9C27B0; --bg-soft: #F3E5F5; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 4px; text-align: justify; }
+  .w { background-color: #E1BEE7; border-radius: 999px; padding: 0.12em 0.55em;
+    margin: 0 1px; white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .w:hover { opacity: 0.85; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 学习版</div>
+      <h1>重生逆袭：从零开始</h1>
+      <p class="sub">重生 · 职场 · 励志</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 1：在语境中认识单词</div>
+      <h2><span class="no">Story96</span>从零开始</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击📢可朗读发音</div>
+      <div class="text">${storyParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>重生逆袭：从零开始 · 学习版　|　看故事记单词</footer>
+  </div>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.w').forEach(function(span) {
+      var text = span.textContent;
+      var match = text.match(/^([a-zA-Z]+)/);
+      if (match) {
+        var word = match[1];
+        span.addEventListener('click', function() {
+          speak(word);
+        });
+      }
+    });
+  });
+
+  function speak(word) {
+    if ('speechSynthesis' in window) {
+      var utterance = new SpeechSynthesisUtterance(word);
+      utterance.lang = 'en-US';
+      utterance.rate = 0.9;
+      speechSynthesis.speak(utterance);
+    }
+  }
+  </script>
+</body>
+</html>`;
+
+// 生成复习版 HTML
+const reviewParagraphs = storyParagraphs.map(p => {
+  return p.replace(/<span class="w">([a-zA-Z]+)\(([^)]+)\)📢<\/span>/g,
+    '<span class="r" onclick="toggle(this)">$1(<span class="h">$2</span>)</span>');
+});
+
+const reviewHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>重生逆袭：从零开始 · 复习版</title>
+<style>
+  :root { --pill-review: #C8E6C9; --accent: #4CAF50; --bg-soft: #E8F5E9; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 12px; text-align: justify; }
+  .r { background-color: #C8E6C9; border-radius: 999px; padding: 2px 8px; margin: 0 2px;
+    white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .r:hover { opacity: 0.85; }
+  .r .h { color: transparent; user-select: none; }
+  .r.show .h { color: #333; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 复习版</div>
+      <h1>重生逆袭：从零开始</h1>
+      <p class="sub">重生 · 职场 · 励志</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 2：看单词回忆中文释义</div>
+      <h2><span class="no">Story96</span>从零开始</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击词汇显示/隐藏中文释义</div>
+      <div class="text">${reviewParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>重生逆袭：从零开始 · 复习版　|　看故事记单词</footer>
+  </div>
+  <script> function toggle(el) { el.classList.toggle('show'); } </script>
+</body>
+</html>`;
+
+// 输出目录 - 直接输出到 result 目录
+const outputDir = '../result';
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir, { recursive: true });
+}
+
+// 写入文件 - 使用序号+故事名命名
+fs.writeFileSync(path.join(outputDir, '96_重生逆袭_从零开始_学习版.html'), learningHtml, 'utf-8');
+fs.writeFileSync(path.join(outputDir, '96_重生逆袭_从零开始_复习版.html'), reviewHtml, 'utf-8');
+
+console.log('✓ 已生成：96_重生逆袭_从零开始_学习版.html');
+console.log('✓ 已生成：96_重生逆袭_从零开始_复习版.html');
+console.log(`\n故事信息：`);
+console.log(`- 标题：重生逆袭：从零开始：从零开始`);
+console.log(`- 题材：重生 · 职场 · 励志`);
+console.log(`- 融入单词数：50 个`);
+console.log(`- 故事篇幅：约 3000 字`);

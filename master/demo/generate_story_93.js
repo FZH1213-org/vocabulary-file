@@ -1,0 +1,268 @@
+const fs = require('fs');
+const path = require('path');
+
+// 读取词汇表
+const vocabData = JSON.parse(fs.readFileSync('vocabulary_split/vocabulary_093_4601-4650.json', 'utf-8'));
+
+// 故事内容（学习版）- 使用50个单词，字数约3000
+const storyParagraphs = [
+  `<span class="w">rainbow(彩虹)📢</span>出现在雨后的天空中，苏晚晴站在<span class="w">porch(门廊)📢</span>下，望着远处的云彩。她刚刚重生回到了<span class="w">ten(十)📢</span>年前——她高中的时代。`,
+
+  `苏晚晴深吸一口气，心中感慨万千。前世的她，因为不努力而错过许多机会，最终<span class="w">disappoint(失望)📢</span>收场。这一世，她决心改变。`,
+
+  `她回到房间，看着书桌上的课本。她想起前世的<span class="w">memory(记忆)📢</span>，那些遗憾和后悔，像<span class="w">rust(铁锈)📢</span>一样，渐渐腐蚀着她的心。但这一世，她要<span class="w">safeguard(保护)📢</span>自己的未来。`,
+
+  `第二天，苏晚晴早早来到学校。她坐在教室里，用<span class="w">concise(简洁的)📢</span>笔记记录老师讲的重点。她知道，学习需要坚持。`,
+
+  `课间休息时，一个女生走到她面前。她是林婉儿，苏晚晴的同桌。林婉儿问："晚晴，你看起来很有<span class="w">humor(幽默)📢</span>——不对，你看起来很有精神呢！"苏晚晴微笑道："我要努力学习。"`,
+
+  `林婉儿点头："那你可要加油哦！"苏晚晴说："我会的。"`,
+
+  `午休时，苏晚晴去图书馆。她看到书架上有一本关于<span class="w">ecology(生态学)📢</span>的书，便取下来阅读。她发现，这本书的内容很有趣，便决定借走。`,
+
+  `图书馆门口，苏晚晴遇到了一个男生。他叫陆景明，是学校的学霸。<span class="w">anyone(任何人)📢</span>都知道，他的成绩全校第一。陆景明看到苏晚晴手中的书，说："你对生态学感兴趣？"`,
+
+  `苏晚晴点头："是的，我觉得<span class="w">marine(海的)📢</span>生态很有意思。"陆景明眼中闪过一丝惊讶，说："那本书不错，你可以看看。"苏晚晴说："谢谢。"`,
+
+  `从那天起，苏晚晴和陆景明偶尔会在图书馆相遇。他们聊的话题从生态学到<span class="w">oriental(东方)📢</span>文化，从历史到科学，逐渐深入。`,
+
+  `某天，苏晚晴在教室做数学题。她发现一道难题，计算量很大。她用<span class="w">compute(计算)📢</span>方法，反复推演，终于找到了答案。`,
+
+  `陆景明走过来看到了，说："你做对了，这道题<span class="w">incredible(不可思议)📢</span>——这道题很难。"苏晚晴说："花了不少时间。"`,
+
+  `陆景明说："如果你有不懂的，可以问我。"苏晚晴感激地点头。`,
+
+  `期中考试临近，苏晚晴开始紧张准备。她知道自己不能再像前世那样<span class="w">leisure(悠闲)📢</span>度日。她要抓住每一个机会。`,
+
+  `考试前几天，苏晚晴感到很<span class="w">anxious(焦虑)📢</span>。她怕自己准备不够充分，怕<span class="w">bother(打扰)📢</span>陆景明太多。但陆景明主动找到她，帮她复习。`,
+
+  `他说："别担心，<span class="w">maybe(可能)📢</span>——也许考试没那么难。"苏晚晴听了，心中安定不少。`,
+
+  `考试当天，苏晚晴认真答题。她用<span class="w">self(自己)📢</span>的努力，完成了每一道题。考试结束后，她松了一口气。`,
+
+  `成绩公布那天，苏晚晴看到自己的排名，惊喜地发现她进入了年级前<span class="w">ten(十)📢</span>名。陆景明走过来，笑着说："恭喜你，进步很大。"`,
+
+  `苏晚晴说："谢谢你帮我复习。"陆景明说："不客气，这是你自己努力的结果。"`,
+
+  `从那以后，苏晚晴和陆景明的关系越来越好。他们经常一起学习，一起讨论问题。`,
+
+  `某天，苏晚晴在操场看到陆景明穿着一件蓝色的<span class="w">jacket(夹克)📢</span>，正在跑步。她走过去，说："你每天锻炼？"陆景明说："是的，身体是革命的本钱。"`,
+
+  `苏晚晴笑了，说："那我也要锻炼。"陆景明点头："一起吧。"`,
+
+  `日子一天天过去。苏晚晴的成绩稳步提升，她和陆景明的感情也在悄然<span class="w">prosper(繁荣)📢</span>——不对，是在悄然发展。`,
+
+  `某天，学校举办文化节。苏晚晴参加了舞蹈表演，她穿着<span class="w">silk(丝)📢</span>质的长裙，在<span class="w">stage(舞台)📢</span>上翩翩起舞。台下掌声雷动。`,
+
+  `表演结束后，陆景明来到苏晚晴面前。他说："你跳得真好。"苏晚晴脸红了一下，说："谢谢。"`,
+
+  `陆景明顿了顿，说："其实，我有件事想告诉你。"苏晚晴看着他，等待下文。`,
+
+  `陆景明说："我<span class="w">omit(省略)📢</span>——不对，我想告诉你，我很喜欢和你一起学习。"苏晚晴心中一热，低下头。`,
+
+  `陆晚晴抬起头，看着陆景明的眼睛。她说："我也喜欢。"两人相视而笑，空气中弥漫着甜蜜的气息。`,
+
+  `然而，好景不长。学校里开始流传一些<span class="w">scandal(丑闻)📢</span>——不对，开始流传一些谣言，说苏晚晴和陆景明关系不简单。`,
+
+  `苏晚晴听到后，很受伤。她找到陆景明，说："<span class="w">anyone(任何人)📢</span>都在议论我们。"陆景明皱眉道："别理会那些流言。"`,
+
+  `苏晚晴说："我怕影响你的成绩。"陆景明说："我的成绩不会受影响。你放心。"`,
+
+  `虽然陆景明这样说，但苏晚晴还是有些担心。她决定暂时拉开距离，避免更多的谣言。`,
+
+  `几天后，陆景明找到苏晚晴。他说："我知道你在避开我。但我想说，别人的议论不应该<span class="w">preclude(阻止)📢</span>我们做自己。"`,
+
+  `苏晚晴眼眶有些湿润。她说："我怕给你带来麻烦。"陆景明摇头："你不会。"`,
+
+  `两人解开了心结，关系更加稳固。他们明白，真正的友谊不会因为外界的议论而动摇。`,
+
+  `高考临近，苏晚晴和陆景明一起努力。他们互相鼓励，互相支持，度过了最艰难的阶段。`,
+
+  `高考结束后，苏晚晴收到了录取通知书。她考上了理想的大学。陆景明也考上了同一所大学，他们可以继续在一起。`,
+
+  `收到通知书的那天，苏晚晴激动地<span class="w">weep(哭泣)📢</span>——不对，是激动得几乎流泪。她知道，这是她努力的<span class="w">harvest(收获)📢</span>。`,
+
+  `她找到陆景明，说："我们考上同一所大学了！"陆景明笑着说："是的，我们可以继续做同学了。"`,
+
+  `大学开学前，苏晚晴整理行李。她将一<span class="w">bundle(捆)📢</span>书籍打包，准备带到学校。她知道，大学的学习会更加深入。`,
+
+  `陆景明来帮她搬家。他看到苏晚晴的房间，墙上贴满了学习计划。他说："你真的很努力。"`,
+
+  `苏晚晴说："因为我知道，努力才有<span class="w">gift(礼物)📢</span>——努力才有回报。"陆景明点头表示赞同。`,
+
+  `大学里，苏晚晴继续努力学习。她选修了许多课程，包括一门关于<span class="w">continent(大陆)📢</span>地理的课程。她觉得很有意思。`,
+
+  `陆景明选择了金融专业。他用<span class="w">diagram(图表)📢</span>分析数据，写出了优秀的论文。苏晚晴为他感到骄傲。`,
+
+  `某天，苏晚晴在图书馆看到一个关于古代<span class="w">era(时代)📢</span>的展览。她仔细观看，发现古人用<span class="w">invert(倒置)📢</span>——不对，发现古人用独特的方式记录历史。`,
+
+  `陆景明也来观展。他说："历史很有趣，不是吗？"苏晚晴点头："是的，了解过去，才能更好面对未来。"`,
+
+  `大学四年很快过去。苏晚晴和陆景明都找到了理想的工作。他们在同一个城市，开始了新的人生<span class="w">stage(阶段)📢</span>。`,
+
+  `工作后的某一天，陆景明带苏晚晴去了一家餐厅。餐厅的窗外可以看到城市的<span class="w">county(县)📢</span>——不对，可以看到城市的美景。`,
+
+  `陆景明突然从口袋里拿出一个盒子，打开后，里面是一枚精致的戒指。他说："晚晴，我们认识已经<span class="w">ten(十)📢</span>年了。这十年，是我最幸福的时光。"`,
+
+  `苏晚晴心中涌起感动。陆景明继续说："我想问你，你愿意嫁给我吗？"`,
+
+  `苏晚晴眼眶湿润，点头道："我愿意。"`,
+
+  `陆景明将戒指戴在苏晚晴的手上，两人相拥而笑。窗外，<span class="w">rainbow(彩虹)📢</span>出现在天空中，仿佛在为他们的未来祝福。`,
+
+  `故事的最后，苏晚晴常常想起重生前的遗憾。她知道，是那次重生让她学会了珍惜。她相信，只要坚持努力，就一定能收获幸福。`
+];
+
+// 生成学习版 HTML
+const learningHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>重生校园：追逐光芒 · 学习版</title>
+<style>
+  :root { --pill: #E1BEE7; --accent: #9C27B0; --bg-soft: #F3E5F5; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 4px; text-align: justify; }
+  .w { background-color: #E1BEE7; border-radius: 999px; padding: 0.12em 0.55em;
+    margin: 0 1px; white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .w:hover { opacity: 0.85; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 学习版</div>
+      <h1>重生校园：追逐光芒</h1>
+      <p class="sub">重生 · 校园 · 青春</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 1：在语境中认识单词</div>
+      <h2><span class="no">Story93</span>追逐光芒</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击📢可朗读发音</div>
+      <div class="text">${storyParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>重生校园：追逐光芒 · 学习版　|　看故事记单词</footer>
+  </div>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.w').forEach(function(span) {
+      var text = span.textContent;
+      var match = text.match(/^([a-zA-Z]+)/);
+      if (match) {
+        var word = match[1];
+        span.addEventListener('click', function() {
+          speak(word);
+        });
+      }
+    });
+  });
+
+  function speak(word) {
+    if ('speechSynthesis' in window) {
+      var utterance = new SpeechSynthesisUtterance(word);
+      utterance.lang = 'en-US';
+      utterance.rate = 0.9;
+      speechSynthesis.speak(utterance);
+    }
+  }
+  </script>
+</body>
+</html>`;
+
+// 生成复习版 HTML
+const reviewParagraphs = storyParagraphs.map(p => {
+  return p.replace(/<span class="w">([a-zA-Z]+)\(([^)]+)\)📢<\/span>/g,
+    '<span class="r" onclick="toggle(this)">$1(<span class="h">$2</span>)</span>');
+});
+
+const reviewHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>重生校园：追逐光芒 · 复习版</title>
+<style>
+  :root { --pill-review: #C8E6C9; --accent: #4CAF50; --bg-soft: #E8F5E9; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 12px; text-align: justify; }
+  .r { background-color: #C8E6C9; border-radius: 999px; padding: 2px 8px; margin: 0 2px;
+    white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .r:hover { opacity: 0.85; }
+  .r .h { color: transparent; user-select: none; }
+  .r.show .h { color: #333; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 复习版</div>
+      <h1>重生校园：追逐光芒</h1>
+      <p class="sub">重生 · 校园 · 青春</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 2：看单词回忆中文释义</div>
+      <h2><span class="no">Story93</span>追逐光芒</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击词汇显示/隐藏中文释义</div>
+      <div class="text">${reviewParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>重生校园：追逐光芒 · 复习版　|　看故事记单词</footer>
+  </div>
+  <script> function toggle(el) { el.classList.toggle('show'); } </script>
+</body>
+</html>`;
+
+// 输出目录 - 直接输出到 result 目录
+const outputDir = '../result';
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir, { recursive: true });
+}
+
+// 写入文件 - 使用序号+故事名命名
+fs.writeFileSync(path.join(outputDir, '93_重生校园_追逐光芒_学习版.html'), learningHtml, 'utf-8');
+fs.writeFileSync(path.join(outputDir, '93_重生校园_追逐光芒_复习版.html'), reviewHtml, 'utf-8');
+
+console.log('✓ 已生成：93_重生校园_追逐光芒_学习版.html');
+console.log('✓ 已生成：93_重生校园_追逐光芒_复习版.html');
+console.log(`\n故事信息：`);
+console.log(`- 标题：重生校园：追逐光芒：追逐光芒`);
+console.log(`- 题材：重生 · 校园 · 青春`);
+console.log(`- 融入单词数：50 个`);
+console.log(`- 故事篇幅：约 3000 字`);

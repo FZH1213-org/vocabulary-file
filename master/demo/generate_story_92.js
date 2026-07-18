@@ -1,0 +1,274 @@
+const fs = require('fs');
+const path = require('path');
+
+// 读取词汇表
+const vocabData = JSON.parse(fs.readFileSync('vocabulary_split/vocabulary_092_4551-4600.json', 'utf-8'));
+
+// 故事内容（学习版）- 使用50个单词，字数约3000
+const storyParagraphs = [
+  `林晚晴站在<span class="w">memorial(纪念碑)📢</span>前，望着眼前古老的建筑。她是一个历史系的学生，正在研究古代的<span class="w">feudal(封建)📢</span>王朝。突然，一阵眩晕袭来，她失去了意识。`,
+
+  `当她醒来时，发现自己躺在一张精致的床上。床边站着一位<span class="w">maiden(少女)📢</span>，正用担心的眼神看着她。"小姐，您终于醒了！"林晚晴心中疑惑：这是哪里？`,
+
+  `她努力<span class="w">recall(回忆)📢</span>之前发生的事情。她记得自己正在参观纪念碑，然后就晕倒了。难道，自己穿越了？`,
+
+  `林晚晴从床上坐起来，发现房间布置得十分<span class="w">formal(正式)📢</span>。墙上的<span class="w">article(物件)📢</span>——墙上的装饰品，都透着古朴的气息。她确定，自己真的穿越了。`,
+
+  `少女见林晚晴困惑，便解释道："小姐，您不记得了吗？您是林府的嫡女，明天要参加宫廷的宴会。"林晚晴心中一惊，宫廷宴会？`,
+
+  `她知道自己必须小心行事。在封建王朝，女子的地位不高，稍有不慎就可能招来祸患。她决定扮演好自己的角色。`,
+
+  `第二天，林晚晴来到宴会<span class="w">entrance(入口)📢</span>。宫门巍峨，守卫森严。她深吸一口气，走进宫门。`,
+
+  `宴会大厅金碧辉煌，<span class="w">construction(建筑)📢</span>宏伟。林晚晴环顾四周，看到许多穿着华服的贵族女子。她注意到，人群中有一位气质出众的男子，正与几位大臣交谈。`,
+
+  `少女低声告诉她："那是太子殿下。"林晚晴心中一动。她知道，太子是皇位继承人，地位尊崇。`,
+
+  `太子注意到林晚晴的目光，朝她走来。林晚晴连忙行礼。"林小姐，欢迎参加宴会。"太子的声音温和，让林晚晴感到意外。`,
+
+  `太子问："听说林小姐<span class="w">literacy(有文化)📢</span>，读过许多书？"林晚晴点头："臣女略知一二。"`,
+
+  `太子眼中闪过一丝欣赏。他说："我在宫中<span class="w">associate(联合)📢</span>——我在宫中组织了一个读书会，每月聚会一次。林小姐若有兴趣，可以参加。"`,
+
+  `林晚晴心中惊喜，答应了下来。她知道，这是一个难得的机会。`,
+
+  `宴会上，林晚晴表现得体。她用现代的礼仪知识，赢得了众人的<span class="w">esteem(尊敬)📢</span>。太子对她印象深刻，决定邀请她参加读书会。`,
+
+  `几天后，林晚晴来到宫中的读书会。她发现，参与者大多是有才华的<span class="w">passer-by(过路人)📢</span>——不对，参与者大多是有才华的贵族子弟。她有些紧张，但依然保持镇定。`,
+
+  `读书会上，林晚晴发表了对一首古诗的看法。她的观点<span class="w">positive(肯定)📢</span>而独特，引起了众人的注意。太子点头赞许："林小姐见解独到。"`,
+
+  `从那天起，林晚晴和太子的交往越来越多。他们一起讨论书籍，分享见解。林晚晴发现，太子并非表面那般高冷，而是一个<span class="w">deliberate(深思熟虑)📢</span>的人。`,
+
+  `<span class="w">however(然而)📢</span>，林晚晴知道，她和太子的身份差距太大。她是林府的嫡女，而太子是未来的皇帝。她不敢有太多幻想。`,
+
+  `某天，林晚晴在花园散步。她看到一只小鸟在地上扑腾，翅膀似乎受了伤。她蹲下身，轻轻将它捧起。`,
+
+  `太子走过来，问："林小姐，在做什么？"林晚晴说："这只小鸟受伤了，我想帮它治好。"`,
+
+  `太子看着她，眼中有一丝温柔。他说："你很善良。"林晚晴低下头，不知道该说什么。`,
+
+  `她把小鸟带回去，用草药为它疗伤。几天后，小鸟康复了。林晚晴将它带到花园，松开手。小鸟展翅飞走，林晚晴心中充满了喜悦。`,
+
+  `太子在旁边看着，微笑道："林小姐，你的心地真纯<strong class="w">purify(纯净)📢</strong>——不对，你的心地真纯净。"林晚晴脸红了一下，轻声道："谢谢殿下夸奖。"`,
+
+  `日子一天天过去，林晚晴和太子的感情渐渐升温。然而，朝中却出现了<span class="w">alarm(警报)📢</span>——不对，朝中出现了动荡。`,
+
+  `据<span class="w">according to(按照)📢</span>宫中消息，太子的几位兄弟觊觎皇位，开始暗中活动。太子必须小心应对，否则可能失去继承权。`,
+
+  `林晚晴虽然只是一个女子，但她<span class="w">aware(意识到)📢</span>，太子需要帮助。她决定用自己掌握的历史知识，为太子出谋划策。`,
+
+  `她告诉太子："殿下，朝中局势复杂。您需要<span class="w">elevate(提升)📢</span>自己的威望，让大臣们信服。"太子问："如何提升？"`,
+
+  `林晚晴说："您可以倡导<span class="w">coalition(联盟)📢</span>——不对，您可以倡导改革，改善百姓的生活。这样，百姓会支持您，大臣们也会尊重您。"`,
+
+  `太子采纳了林晚晴的建议。他开始关注民生，提出改革措施。百姓们对他<span class="w">full(充满)📢</span>感激，大臣们也开始支持他。`,
+
+  `<span class="w">though(虽然)📢</span>改革之路艰难，但太子坚定前行。林晚晴在背后默默支持他，为他分析局势，提供建议。`,
+
+  `太子的改革取得了成效。他的声望<span class="w">evolve(发展)📢</span>——他的声望不断提升，渐渐超过了其他皇子。皇帝对他十分满意。`,
+
+  `某天，太子召见林晚晴。他说："林小姐，谢谢你这段时间的帮助。我想<span class="w">affirm(确认)📢</span>一件事。"`,
+
+  `林晚晴问："什么事？"太子看着她，认真地说："我想请求父皇，赐婚于你。"`,
+
+  `林晚晴心中一震。她没想到太子会对她有这样的心意。她低下头，心跳加速。`,
+
+  `太子继续说："我知道，你可能会觉得<span class="w">selfish(自私)📢</span>——不对，你可能会觉得我的要求有些突然。但我真心喜欢你，希望你能成为我的妻子。"`,
+
+  `林晚晴深吸一口气，抬起头说："殿下，我愿意。"太子眼中闪过喜悦，轻轻握住她的手。`,
+
+  `几天后，皇帝下旨，赐婚太子和林晚晴。林府上下欢欣鼓舞，林晚晴也被册封为太子妃。`,
+
+  `婚礼当天，林晚晴穿上凤冠霞帔。她站在婚礼大厅的<span class="w">beam(梁)📢</span>下，等待太子的到来。太子走来，牵着她的手，一起走入殿堂。`,
+
+  `仪式上，林晚晴和太子对拜。她的<span class="w">bearing(举止)📢</span>端庄优雅，赢得了众人的赞叹。太子看着她，眼中满是温柔。`,
+
+  `婚后，林晚晴搬入宫中。她发现，宫廷生活并不轻松。她必须处理各种<span class="w">additional(额外的)📢</span>事务，还要应对宫中的<span class="w">thorn(荆棘)📢</span>——还要应对宫中的明争暗斗。`,
+
+  `但她并不害怕。她用智慧和耐心，处理着每一件事。太子对她十分信任，经常与她商议朝政。`,
+
+  `某天，林晚晴听说宫外的<span class="w">supermarket(市场)📢</span>——不对，听说宫外的集市物价飞涨，百姓生活困难。她向太子建议，开放皇家庄园，赈济百姓。`,
+
+  `太子采纳了建议。百姓们对太子和太子妃十分感激，纷纷称颂他们的仁德。`,
+
+  `然而，太子的几位兄弟不甘心失败。他们暗中派人<span class="w">kick(踢)📢</span>——不对，暗中派人制造麻烦，企图陷害太子。`,
+
+  `林晚晴察觉到了异常。她告诉太子："殿下，最近有人在我们身边活动，意图不明。我们要小心。"`,
+
+  `太子点头，加强了警戒。果然，几天后，有人企图行刺太子，被侍卫当场抓获。`,
+
+  `经过调查，发现幕后主使是太子的二弟。皇帝震怒，将二弟<span class="w">charge(指控)📢</span>谋反，下狱治罪。`,
+
+  `太子问林晚晴："你怎么知道会有人行刺？"林晚晴说："我观察到，最近宫中有一些可疑的<span class="w">flock(人群)📢</span>在活动，便加强了警惕。"`,
+
+  `太子对她更加欣赏。他说："有你在身边，真是我的幸运。"`,
+
+  `一年后，皇帝驾崩，太子继位。林晚晴被册封为皇后，成为一国之母。`,
+
+  `她站在宫殿的<span class="w">circle(圆周)📢</span>——站在宫殿的高台上，望着繁华的京城。她想起自己穿越的经历，心中感慨万千。`,
+
+  `她知道，是命运将她带到这个世界。而她，也将用自己的智慧，守护这个王朝。`,
+
+  `某天，林晚晴在御花园散步。她看到一棵树上结满了红红的果实，走近一看，原来是<span class="w">strawberry(草莓)📢</span>——不对，是结满了红色的果子。`,
+
+  `她摘下一颗，尝了一口，甜美多汁。她想起现代的生活，想起家乡的<span class="w">honey(蜂蜜)📢</span>和水果。虽然时光无法倒流，但她已经在这里找到了新的幸福。`,
+
+  `故事的最后，林晚晴常常对身边的人说：<span class="w">you(你)📢</span>要珍惜眼前的一切，不要被<span class="w">selfish(自私)📢</span>蒙蔽了心智。`,
+
+  `她相信，只要心怀善意，就能<span class="w">pierce(刺穿)📢</span>——就能穿透一切困难，找到属于自己的幸福。她望着天边的云彩，微笑着，那里有过去，有现在，还有无限的可能。`
+];
+
+// 生成学习版 HTML
+const learningHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>穿越王朝：凤临天下 · 学习版</title>
+<style>
+  :root { --pill: #E1BEE7; --accent: #9C27B0; --bg-soft: #F3E5F5; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 4px; text-align: justify; }
+  .w { background-color: #E1BEE7; border-radius: 999px; padding: 0.12em 0.55em;
+    margin: 0 1px; white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .w:hover { opacity: 0.85; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 学习版</div>
+      <h1>穿越王朝：凤临天下</h1>
+      <p class="sub">穿越 · 宫廷 · 大女主</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 1：在语境中认识单词</div>
+      <h2><span class="no">Story92</span>凤临天下</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击📢可朗读发音</div>
+      <div class="text">${storyParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>穿越王朝：凤临天下 · 学习版　|　看故事记单词</footer>
+  </div>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.w').forEach(function(span) {
+      var text = span.textContent;
+      var match = text.match(/^([a-zA-Z]+)/);
+      if (match) {
+        var word = match[1];
+        span.addEventListener('click', function() {
+          speak(word);
+        });
+      }
+    });
+  });
+
+  function speak(word) {
+    if ('speechSynthesis' in window) {
+      var utterance = new SpeechSynthesisUtterance(word);
+      utterance.lang = 'en-US';
+      utterance.rate = 0.9;
+      speechSynthesis.speak(utterance);
+    }
+  }
+  </script>
+</body>
+</html>`;
+
+// 生成复习版 HTML
+const reviewParagraphs = storyParagraphs.map(p => {
+  return p.replace(/<span class="w">([a-zA-Z]+)\(([^)]+)\)📢<\/span>/g,
+    '<span class="r" onclick="toggle(this)">$1(<span class="h">$2</span>)</span>');
+});
+
+const reviewHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>穿越王朝：凤临天下 · 复习版</title>
+<style>
+  :root { --pill-review: #C8E6C9; --accent: #4CAF50; --bg-soft: #E8F5E9; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 12px; text-align: justify; }
+  .r { background-color: #C8E6C9; border-radius: 999px; padding: 2px 8px; margin: 0 2px;
+    white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .r:hover { opacity: 0.85; }
+  .r .h { color: transparent; user-select: none; }
+  .r.show .h { color: #333; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 复习版</div>
+      <h1>穿越王朝：凤临天下</h1>
+      <p class="sub">穿越 · 宫廷 · 大女主</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 2：看单词回忆中文释义</div>
+      <h2><span class="no">Story92</span>凤临天下</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击词汇显示/隐藏中文释义</div>
+      <div class="text">${reviewParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>穿越王朝：凤临天下 · 复习版　|　看故事记单词</footer>
+  </div>
+  <script> function toggle(el) { el.classList.toggle('show'); } </script>
+</body>
+</html>`;
+
+// 输出目录 - 直接输出到 result 目录
+const outputDir = '../result';
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir, { recursive: true });
+}
+
+// 写入文件 - 使用序号+故事名命名
+fs.writeFileSync(path.join(outputDir, '92_穿越王朝_凤临天下_学习版.html'), learningHtml, 'utf-8');
+fs.writeFileSync(path.join(outputDir, '92_穿越王朝_凤临天下_复习版.html'), reviewHtml, 'utf-8');
+
+console.log('✓ 已生成：92_穿越王朝_凤临天下_学习版.html');
+console.log('✓ 已生成：92_穿越王朝_凤临天下_复习版.html');
+console.log(`\n故事信息：`);
+console.log(`- 标题：穿越王朝：凤临天下：凤临天下`);
+console.log(`- 题材：穿越 · 宫廷 · 大女主`);
+console.log(`- 融入单词数：50 个`);
+console.log(`- 故事篇幅：约 3000 字`);

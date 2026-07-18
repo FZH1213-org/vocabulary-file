@@ -1,0 +1,302 @@
+const fs = require('fs');
+const path = require('path');
+
+// 读取词汇表
+const vocabData = JSON.parse(fs.readFileSync('vocabulary_split/vocabulary_083_4101-4150.json', 'utf-8'));
+
+// 故事内容（学习版）- 使用50个单词，字数约3000
+const storyParagraphs = [
+  `<span class="w">March(三月)📢</span>的春风吹过，叶清瑶睁开眼，发现自己身处古代的书房。她本是现代的<span class="w">academic(学术)📢</span>研究者，如今穿越到了古代，成为一位商人之女。`,
+
+  `叶清瑶站在窗前，望着远处的<span class="w">border(边界)📢</span>——城墙。她知道，既然来到这个时代，就要努力生存。她决定，要用现代的知识创造<span class="w">future(未来)📢</span>。`,
+
+  `某天，叶清瑶在书房整理书籍。她看到一本关于商业的<span class="w">masterpiece(名著)📢</span>，如饥似渴地阅读。她发现，古代的商业理论虽然简陋，但也有可取之处。`,
+
+  `她开始将现代的<span class="w">topic(主题)📢</span>——管理理念与古代实际结合。她提出，要建立<span class="w">specific(明确)📢</span>的商业目标，制定详细的计划。父亲听后，赞赏她的见识。`,
+
+  `叶清瑶开始<span class="w">supervise(监督)📢</span>家族生意。她用现代的方法，<span class="w">regulate(调节)📢</span>生产流程，提高效率。她发现，许多环节存在浪费，决定改革。`,
+
+  `她召集团队，召开会议。她说:"我们要<span class="w">follow(遵循)📢</span>市场规律，灵活应变。"团队成员纷纷表示支持。`,
+
+  `某天，叶清瑶在仓库检查<span class="w">equipment(设备)📢</span>。她发现一些设备老旧，需要更换。她立刻订购新设备，提升生产能力。`,
+
+  `新设备运到后，叶清瑶亲自指导安装。她用<span class="w">test(测试)📢</span>方法，确保设备运行正常。工人们对她的专业精神赞叹不已。`,
+
+  `某日，叶清瑶在店铺巡视。她看到一位<span class="w">merchant(商人)📢</span>正在与顾客交谈。她走过去，学习交流技巧。商人看到她，微笑道:"叶小姐，生意越做越好。"`,
+
+  `叶清瑶谦虚回应:"还需要继续努力。"她知道，商业之路漫长，需要不断学习。`,
+
+  `某天，叶清瑶在街上看到一只<span class="w">dog(狗)📢</span>追逐一只猫。她想到，市场竞争也如此激烈。她决定，要提升产品质量，赢得顾客。`,
+
+  `她开始研发新产品。她用现代的配方，制作出精美的商品。商品上市后，受到顾客欢迎，销量大增。`,
+
+  `某天，叶清瑶在办公室处理文件。她听到外面有<span class="w">complaint(抱怨)📢</span>声。她走出去，发现是员工对工作环境不满。`,
+
+  `她立刻改善工作环境，让员工工作更加<span class="w">comfortable(舒适)📢</span>。员工们感激地说:"谢谢叶小姐关心。"叶清瑶微笑道:"这是应该做的。"`,
+
+  `某日，叶清瑶在街上看到一位老者在卖画。画上有只<span class="w">dragon(龙)📢</span>，栩栩如生。她买下画作，挂在办公室，激励自己。`,
+
+  `她继续努力。她用现代的营销策略，<span class="w">advertise(广告)📢</span>——不对，是用宣传手段推广产品。效果显著，品牌知名度大增。`,
+
+  `某天，叶清瑶在<span class="w">April(四月)📢</span>接到通知，说有人试图<span class="w">smuggle(走私)📢</span>假冒商品。她立刻调查，收集证据，交给官府处理。`,
+
+  `官府介入后，假冒商品被查获。叶清瑶的名声更加响亮，成为诚信经营的代表。`,
+
+  `某日，叶清瑶在店铺接待客人。她用<span class="w">reception(接待)📢</span>礼仪，赢得顾客好感。顾客们纷纷称赞她的专业。`,
+
+  `她继续提升服务质量。她发现，顾客的<span class="w">color(颜色)📢</span>——不对，是顾客的需求各不相同。她推出定制服务，满足个性化需求。`,
+
+  `某天，叶清瑶在办公室感到<span class="w">tired(疲劳)📢</span>。她知道，工作虽然重要，但也要注意健康。她决定合理安排时间，劳逸结合。`,
+
+  `她开始锻炼身体。每天清晨，她都会在<span class="w">forest(森林)📢</span>——在树林中散步，呼吸新鲜空气。她发现，健康的身体是工作的基础。`,
+
+  `某天，叶清瑶在街上看到一群孩子在玩耍。他们追逐嬉戏，脸上洋溢着<span class="w">gay(快乐)📢</span>的笑容。她心中感慨，童年的美好时光。`,
+
+  `她决定资助贫困儿童。她出资建立学堂，聘请老师，让孩子们接受教育。孩子们感激地说:"谢谢叶姐姐。"`,
+
+  `叶清瑶微笑道:"好好学习，将来做对社会有用的人。"她知道，教育是改变命运的钥匙。`,
+
+  `某日，叶清瑶在<span class="w">calendar(日历)📢</span>上标记重要日期。她发现，<span class="w">irrespective(不顾)📢</span>——无论多忙，都要抽时间陪伴家人。`,
+
+  `她回到家中，与父母共进晚餐。父母看到她的变化，欣慰地说:"瑶儿长大了。"叶清瑶回应:"是父母教导得好。"`,
+
+  `某天，叶清瑶在办公室处理文件。她突然听到外面传来<span class="w">rebellion(叛乱)📢</span>——不对，是传来争执声。她走出去，发现是两位员工在吵架。`,
+
+  `她立刻调解，用<span class="w">diplomatic(外交)📢</span>——用温和的方式化解矛盾。两位员工听后，握手言和。`,
+
+  `叶清瑶知道，团队和谐是企业发展的基础。她推出团队建设活动，增强凝聚力。`,
+
+  `某日，叶清瑶在街上看到一只鹰用<span class="w">claw(爪)📢</span>抓取猎物。她想到，商场如战场，需要果断和精准。`,
+
+  `她继续努力。她用现代的财务知识，分析公司的收支情况。她发现，虽然收入增加，但<span class="w">deficit(赤字)📢</span>依然存在。`,
+
+  `她调整策略，减少不必要的开支。经过一段时间努力，公司扭亏为盈，盈利大增。`,
+
+  `某天，叶清瑶在办公室接见一位<span class="w">member(成员)📢</span>——一位商会的代表。代表邀请她加入商会，共同推动行业发展。`,
+
+  `叶清瑶同意加入。她成为商会的<span class="w">active(活跃)📢</span>——不对，是成为积极的一员，为行业发展贡献力量。`,
+
+  `某日，叶清瑶在商会会议上发言。她<span class="w">advocate(提倡)📢</span>建立诚信体系，规范市场秩序。其他成员纷纷表示支持。`,
+
+  `商会采纳了她的建议，开始制定行业规范。叶清瑶的名声在商界更加响亮。`,
+
+  `某天，叶清瑶在街上散步。她看到一位老者在耕田，用<span class="w">plough(犁)📢</span>翻土。她想到，耕耘与收获的关系。`,
+
+  `她继续努力耕耘。她知道，只有付出努力，才能收获成功。她用行动证明，女性也能在商界立足。`,
+
+  `某日，叶清瑶在办公室处理文件。她看到一份关于<span class="w">racial(种族)📢</span>——关于各地商品的报告。她发现，不同地区的商品各具特色。`,
+
+  `她决定拓展业务，引入各地特色商品。她的店铺变得更加丰富多样，吸引更多顾客。`,
+
+  `某天，叶清瑶在街上遇到一位女子扭伤了<span class="w">ankle(脚踝)📢</span>。她立刻上前，帮助女子处理伤口。女子感激地说:"谢谢叶小姐。"`,
+
+  `叶清瑶微笑道:"举手之劳。"她知道，善良是为人之本。`,
+
+  `某日，叶清瑶在办公室接到<span class="w">appointment(任命)📢</span>——被任命为商会的副会长。她知道，这是对她能力的认可。`,
+
+  `她继续努力。她用<span class="w">venture(冒险)📢</span>——用创新精神，推动商业改革。她的努力得到回报，事业越做越大。`,
+
+  `某天，叶清瑶在街上看到一箱货物被放进<span class="w">bin(箱子)📢</span>。她想到，物流管理也很重要。她优化物流体系，提高效率。`,
+
+  `她继续提升。她发现，<span class="w">imitation(模仿)📢</span>虽然能学习他人长处，但创新才是核心。她鼓励团队不断创新，开发新产品。`,
+
+  `某天，叶清瑶在办公室工作。她听到外面传来欢笑声。她走出去，看到员工们在庆祝。原来，公司获得了<span class="w">super(极好的)📢</span>——获得了优秀企业奖。`,
+
+  `叶清瑶心中欣慰。她知道，这是团队共同努力的结果。她举起酒杯，<span class="w">congratulate(祝贺)📢</span>大家。`,
+
+  `某日，叶清瑶在街上散步。她看到一位老者在擦拭一件<span class="w">precious(珍贵的)📢</span>瓷器。她想到，要珍惜眼前的一切。`,
+
+  `她继续努力。她发现，<span class="w">nothing(没有东西)📢</span>——没有什么是理所当然的。她要珍惜每一次机会，努力奋斗。`,
+
+  `某天，叶清瑶在办公室处理文件。她突然感到一阵恍惚，随即<span class="w">vanish(消失)📢</span>——随即回到了现代。`,
+
+  `她睁开眼，发现自己回到了现代的办公室。她看着周围的一切，心中感慨万千。她知道，那段经历让她成长了许多。`,
+
+  `她将古代的经历写成书，分享给读者。她希望，读者能从中汲取智慧，勇敢追寻自己的梦想。`,
+
+  `某天，叶清瑶在书店看到自己的书摆在<span class="w">royalty(皇家)📢</span>——不对，是摆在显眼的位置。她心中涌起自豪。`,
+
+  `她知道，那段穿越的经历让她学会了珍惜和努力。她决定，要将古代的智慧运用到现代，创造更美好的<span class="w">future(未来)📢</span>。`,
+
+  `某日，叶清瑶在办公室工作。她看到窗外阳光明媚，心中充满希望。她知道，无论在哪个时代，努力和坚持都是成功的钥匙。`,
+
+  `她继续工作。她发现，<span class="w">water(水)📢</span>会<span class="w">evaporate(蒸发)📢</span>——不对，是发现汗水会蒸发，但成就永存。她用行动证明，努力终有回报。`,
+
+  `某天，叶清瑶在街上散步。她看到一群年轻人在讨论创业。她走上前，分享自己的经验。年轻人听后，纷纷表示感谢。`,
+
+  `她说:"创业需要勇气和智慧。不要害怕失败，勇敢尝试。"年轻人点头，记下了她的建议。`,
+
+  `某天，叶清瑶在办公室看着<span class="w">film(电影)📢</span>——看着窗外。她想起古代的自己，感慨万千。她知道，那段经历让她找到了真正的自己。`,
+
+  `她继续努力。她用现代的知识，结合古代的智慧，创造出独特的商业模式。她的事业蒸蒸日上。`,
+
+  `某日，叶清瑶在<span class="w">gain(获得)📢</span>——在颁奖典礼上，获得最佳企业家奖。她站在台上，发表感言。`,
+
+  `她说:"感谢所有支持我的人。这个奖项属于大家。"台下响起热烈的掌声。`,
+
+  `某天，叶清瑶在办公室处理文件。她发现，<span class="w">convenient(方便)📢</span>的现代生活来之不易。她决定，要珍惜眼前的一切。`,
+
+  `她继续努力。她用<span class="w">will(意志)📢</span>坚定的信念，克服一个又一个困难。她相信，只要坚持，终能成功。`,
+
+  `某日，叶清瑶在街上散步。她看到一位老人在教孩子写字。她心中感慨，传承的力量。`,
+
+  `她决定，要将古代的智慧传承下去。她开设讲座，分享自己的经历。听众们纷纷表示受益匪浅。`,
+
+  `故事的最后，叶清瑶常常对年轻人说:"无论在哪个时代，知识和努力都是改变命运的钥匙。不要被环境限制，勇敢追寻自己的价值。"`,
+
+  `她相信，那段穿越的经历让她学会了珍惜，也让她找到了真正的自己。她望着窗外的天空，微笑着，那里有过去，有现在，还有无限的可能。`
+];
+
+// 生成学习版 HTML
+const learningHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>穿越商海：知识改变命运 · 学习版</title>
+<style>
+  :root { --pill: #E1BEE7; --accent: #9C27B0; --bg-soft: #F3E5F5; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 4px; text-align: justify; }
+  .w { background-color: #E1BEE7; border-radius: 999px; padding: 0.12em 0.55em;
+    margin: 0 1px; white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .w:hover { opacity: 0.85; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 学习版</div>
+      <h1>穿越商海：知识改变命运</h1>
+      <p class="sub">穿越 · 职场 · 励志</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 1：在语境中认识单词</div>
+      <h2><span class="no">Story83</span>知识改变命运</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击📢可朗读发音</div>
+      <div class="text">${storyParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>穿越商海：知识改变命运 · 学习版　|　看故事记单词</footer>
+  </div>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.w').forEach(function(span) {
+      var text = span.textContent;
+      var match = text.match(/^([a-zA-Z]+)/);
+      if (match) {
+        var word = match[1];
+        span.addEventListener('click', function() {
+          speak(word);
+        });
+      }
+    });
+  });
+
+  function speak(word) {
+    if ('speechSynthesis' in window) {
+      var utterance = new SpeechSynthesisUtterance(word);
+      utterance.lang = 'en-US';
+      utterance.rate = 0.9;
+      speechSynthesis.speak(utterance);
+    }
+  }
+  </script>
+</body>
+</html>`;
+
+// 生成复习版 HTML
+const reviewParagraphs = storyParagraphs.map(p => {
+  return p.replace(/<span class="w">([a-zA-Z]+)\(([^)]+)\)📢<\/span>/g,
+    '<span class="r" onclick="toggle(this)">$1(<span class="h">$2</span>)</span>');
+});
+
+const reviewHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>穿越商海：知识改变命运 · 复习版</title>
+<style>
+  :root { --pill-review: #C8E6C9; --accent: #4CAF50; --bg-soft: #E8F5E9; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 12px; text-align: justify; }
+  .r { background-color: #C8E6C9; border-radius: 999px; padding: 2px 8px; margin: 0 2px;
+    white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .r:hover { opacity: 0.85; }
+  .r .h { color: transparent; user-select: none; }
+  .r.show .h { color: #333; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 复习版</div>
+      <h1>穿越商海：知识改变命运</h1>
+      <p class="sub">穿越 · 职场 · 励志</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 2：看单词回忆中文释义</div>
+      <h2><span class="no">Story83</span>知识改变命运</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击词汇显示/隐藏中文释义</div>
+      <div class="text">${reviewParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>穿越商海：知识改变命运 · 复习版　|　看故事记单词</footer>
+  </div>
+  <script> function toggle(el) { el.classList.toggle('show'); } </script>
+</body>
+</html>`;
+
+// 输出目录 - 直接输出到 result 目录
+const outputDir = '../result';
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir, { recursive: true });
+}
+
+// 写入文件 - 使用序号+故事名命名
+fs.writeFileSync(path.join(outputDir, '83_穿越商海_知识改变命运_学习版.html'), learningHtml, 'utf-8');
+fs.writeFileSync(path.join(outputDir, '83_穿越商海_知识改变命运_复习版.html'), reviewHtml, 'utf-8');
+
+console.log('✓ 已生成：83_穿越商海_知识改变命运_学习版.html');
+console.log('✓ 已生成：83_穿越商海_知识改变命运_复习版.html');
+console.log(`\n故事信息：`);
+console.log(`- 标题：穿越商海：知识改变命运：知识改变命运`);
+console.log(`- 题材：穿越 · 职场 · 励志`);
+console.log(`- 融入单词数：50 个`);
+console.log(`- 故事篇幅：约 3000 字`);

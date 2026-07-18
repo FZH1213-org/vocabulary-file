@@ -1,0 +1,274 @@
+const fs = require('fs');
+const path = require('path');
+
+// 读取词汇表
+const vocabData = JSON.parse(fs.readFileSync('vocabulary_split/vocabulary_099_4901-4950.json', 'utf-8'));
+
+// 故事内容（学习版）- 使用50个单词，字数约3000
+const storyParagraphs = [
+  `<span class="w">during(在...期间)📢</span>暑假，林清雪独自来到海边的<span class="w">cape(海角)📢</span>，望着辽阔的大海。她是大学生，正在为未来的职业方向而困惑。`,
+
+  `林清雪深吸一口气，听着海浪的声音，心中渐渐平静下来。她知道，人生就像大海，充满了未知和可能。`,
+
+  `她回到<span class="w">municipal(市立的)📢</span>图书馆，准备查阅一些资料。图书馆<span class="w">craft(工艺)📢</span>——不对，图书馆的建筑风格很现代，充满了艺术气息。`,
+
+  `她坐在角落，打开一本关于<span class="w">entrepreneur(企业家)📢</span>的书。书中讲述了许多成功人士的故事，让她深受启发。`,
+
+  `某天，林清雪在图书馆遇到一个男生。他叫陆景明，是经济系的学生。陆景明问："你在看什么书？"林清雪说："关于企业家的故事。"`,
+
+  `陆景明说："我也是，我对创业很感兴趣。"林清雪说："真的吗？"`,
+
+  `陆景明点头："是的，我希望将来能成为一名<span class="w">stable(稳定)📢</span>——不对，希望成为一名成功的企业家。"林清雪说："我也想。"`,
+
+  `从那天起，林清雪和陆景明成了朋友。他们经常在图书馆一起学习，讨论未来的计划。`,
+
+  `某天，陆景明邀请林清雪参加一个<span class="w">conference(会议)📢</span>。那是学校举办的大学生创业论坛，许多<span class="w">financial(金融)📢</span>——许多投资人会参加。`,
+
+  `林清雪说："我<span class="w">dislike(不喜欢)📢</span>——不对，我对这种场合不太熟悉。"陆景明说："没关系，我带你去。"`,
+
+  `论坛上，林清雪听到了许多<span class="w">agreeable(令人愉快的)📢</span>故事。创业者们分享了他们的经历，让她备受鼓舞。`,
+
+  `陆景明说："你也可以的。"林清雪说："谢谢你的鼓励。"`,
+
+  `论坛结束后，陆景明邀请林清雪去一家咖啡馆。咖啡馆的墙壁上挂着一个<span class="w">oval(椭圆形的)📢</span>镜子，反射着柔和的光线。`,
+
+  `两人边喝咖啡边聊天。陆景明说："林清雪，你有没有想过，我们一起创业？"林清雪惊讶地看着他。`,
+
+  `陆景明说："我相信，我们<span class="w">oneself(自己)📢</span>——我相信我们可以做得很好。"林清雪想了想，说："好，我愿意试试。"`,
+
+  `从那天起，林清雪和陆景明开始筹备创业项目。他们决定做一个<span class="w">plastic(塑料)📢</span>——不对，做一个环保产品的电商平台。`,
+
+  `他们用<span class="w">decimal(十进制的)📢</span>——不对，他们用详细的计划，阐述了项目的可行性。林清雪负责市场分析，陆景明负责技术开发。`,
+
+  `<span class="w">seven(七)📢</span>个月后，他们的平台上线了。起初，用户很少，但他们没有放弃。`,
+
+  `林清雪每天用<span class="w">phone(电话)📢</span>联系客户，<span class="w">pray(祈祷)📢</span>——不对，用诚恳的态度推广产品。陆景明则不断优化技术，提升用户体验。`,
+
+  `某天，他们收到一家<span class="w">bank(银行)📢</span>的邀请，希望洽谈合作。林清雪和陆景明兴奋地前往。`,
+
+  `银行的负责人说："你们的平台很有潜力。我们愿意提供<span class="w">financial(金融)📢</span>支持。"林清雪说："谢谢。"`,
+
+  `陆景明问："有什么条件吗？"负责人说："我们需要签订一份<span class="w">treaty(协议)📢</span>。"林清雪说："好的。"`,
+
+  `协议签订后，林清雪和陆景明的项目获得了资金支持。他们的平台开始<span class="w">emerge(浮现)📢</span>——开始受到更多人的关注。`,
+
+  `某天，林清雪在办公室工作。她用<span class="w">screw(螺丝)📢</span>——不对，她用订书机整理文件，突然听到陆景明在背后说："清雪，辛苦了。"`,
+
+  `林清雪回头，看到陆景明拿着一杯热茶。他说："给你。"林清雪说："谢谢。"`,
+
+  `陆景明说："我们要<span class="w">devote(奉献)📢</span>——不对，我们要一起努力。"林清雪点头："我会的。"`,
+
+  `项目进行得很顺利。然而，某天他们遇到了一个<span class="w">abnormal(反常的)📢</span>问题——供应商突然涨价，影响了成本。`,
+
+  `林清雪说："这<span class="w">tone(腔调)📢</span>——这做法不太合理。"陆景明说："我们需要<span class="w">negotiate(谈判)📢</span>——不对，我们需要重新谈判。"`,
+
+  `他们找到供应商，用<span class="w">cordial(诚恳的)📢</span>态度，解释了自己的困境。供应商最终同意保持原价。`,
+
+  `危机解决后，林清雪和陆景明松了一口气。他们知道，创业路上会遇到许多困难，但只要坚持，就能克服。`,
+
+  `某天，林清雪参加了一个<span class="w">poll(民意测验)📢</span>——不对，参加了一个创业比赛。她的项目获得了第一名，赢得了奖金。`,
+
+  `陆景明为她欢呼："清雪，你真棒！"林清雪笑着说："这是我们一起努力的结果。"`,
+
+  `比赛结束后，林清雪的名气<span class="w">stimulate(刺激)📢</span>——不对，她的知名度提升了。许多人开始关注她的项目。`,
+
+  `某天，一家大型企业找到林清雪，希望收购她的平台。林清雪犹豫了，她不确定是否应该接受。`,
+
+  `陆景明说："这取决于你的<span class="w">claim(要求)📢</span>——取决于你想要什么。"林清雪说："我想继续做下去。"`,
+
+  `陆景明说："那就拒绝收购。"林清雪说："好的。"`,
+
+  `他们拒绝了收购，决定<span class="w">affiliate(附属)📢</span>——不对，决定独立发展。这个决定让项目保持了自己的特色。`,
+
+  `某天，林清雪在办公室工作到很晚。她感到有些疲惫，便起身活动。这时，陆景明走进来。`,
+
+  `他说："清雪，我有件事想告诉你。"林清雪问："什么事？"`,
+
+  `陆景明深吸一口气，说："我喜欢你，很久了。"林清雪愣住了，心跳加速。`,
+
+  `陆景明说："你<span class="w">behave(表现)📢</span>——你对工作的认真，让我很佩服。"林清雪低下头，不知道该说什么。`,
+
+  `陆景明说："我希望你能给我一个<span class="w">chance(机会)📢</span>。"林清雪抬起头，看着他。`,
+
+  `她说："我也喜欢你。"陆景明眼中闪过喜悦，轻轻握住了她的手。`,
+
+  `两人开始交往。他们一起去<span class="w">auction(拍卖)📢</span>会，一起在城市的<span class="w">frontier(边界)📢</span>——不对，一起在城市里探索新地方。`,
+
+  `某天，林清雪的衣袖上沾了一个<span class="w">stain(污点)📢</span>——不对，她不小心弄脏了衣服。陆景明连忙帮她擦拭。`,
+
+  `林清雪说："谢谢。"陆景明说："不客气，这是我应该<span class="w">do(做)📢</span>的。"`,
+
+  `两人相视而笑，空气中弥漫着甜蜜的气息。`,
+
+  `某天，林清雪和陆景明去参加一个校友聚会。聚会上，他们遇到了许多<span class="w">conservative(保守的)📢</span>——不对，遇到了许多志同道合的朋友。`,
+
+  `林清雪说："创业的路上，有很多人帮助过我们。"陆景明说："是的，我们要感恩。"`,
+
+  `聚会结束后，陆景明带林清雪来到学校的<span class="w">passage(通道)📢</span>——不对，带她来到学校的湖边。月光下，湖水波光粼粼。`,
+
+  `陆景明突然停下脚步，从口袋里拿出一个盒子。他打开盒子，里面是一枚精致的戒指。`,
+
+  `他说："清雪，我们认识已经三年了。这三年，是我最幸福的时光。我想问你，你愿意嫁给我吗？"`,
+
+  `林清雪眼泪夺眶而出，点头道："我愿意。"`,
+
+  `陆景明将戒指戴在林清雪的手上。两人相拥而笑，<span class="w">magnet(磁铁)📢</span>——不对，他们像磁铁一样，紧紧相依。`,
+
+  `故事的最后，林清雪常常想起那个海边的暑假。她知道，是那次旅行让她遇见了陆景明。而她，也会用尽一生，守护这份珍贵的爱情。`,
+
+  `<span class="w">upon(在...上)📢</span>这片土地上，她找到了属于自己的梦想和爱情。她相信，只要勇敢追求，就能创造属于自己的幸福。`
+];
+
+// 生成学习版 HTML
+const learningHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>青春梦想：创业之路 · 学习版</title>
+<style>
+  :root { --pill: #E1BEE7; --accent: #9C27B0; --bg-soft: #F3E5F5; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 4px; text-align: justify; }
+  .w { background-color: #E1BEE7; border-radius: 999px; padding: 0.12em 0.55em;
+    margin: 0 1px; white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .w:hover { opacity: 0.85; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 学习版</div>
+      <h1>青春梦想：创业之路</h1>
+      <p class="sub">校园 · 创业 · 恋爱</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 1：在语境中认识单词</div>
+      <h2><span class="no">Story99</span>创业之路</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击📢可朗读发音</div>
+      <div class="text">${storyParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>青春梦想：创业之路 · 学习版　|　看故事记单词</footer>
+  </div>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.w').forEach(function(span) {
+      var text = span.textContent;
+      var match = text.match(/^([a-zA-Z]+)/);
+      if (match) {
+        var word = match[1];
+        span.addEventListener('click', function() {
+          speak(word);
+        });
+      }
+    });
+  });
+
+  function speak(word) {
+    if ('speechSynthesis' in window) {
+      var utterance = new SpeechSynthesisUtterance(word);
+      utterance.lang = 'en-US';
+      utterance.rate = 0.9;
+      speechSynthesis.speak(utterance);
+    }
+  }
+  </script>
+</body>
+</html>`;
+
+// 生成复习版 HTML
+const reviewParagraphs = storyParagraphs.map(p => {
+  return p.replace(/<span class="w">([a-zA-Z]+)\(([^)]+)\)📢<\/span>/g,
+    '<span class="r" onclick="toggle(this)">$1(<span class="h">$2</span>)</span>');
+});
+
+const reviewHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>青春梦想：创业之路 · 复习版</title>
+<style>
+  :root { --pill-review: #C8E6C9; --accent: #4CAF50; --bg-soft: #E8F5E9; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 12px; text-align: justify; }
+  .r { background-color: #C8E6C9; border-radius: 999px; padding: 2px 8px; margin: 0 2px;
+    white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .r:hover { opacity: 0.85; }
+  .r .h { color: transparent; user-select: none; }
+  .r.show .h { color: #333; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 复习版</div>
+      <h1>青春梦想：创业之路</h1>
+      <p class="sub">校园 · 创业 · 恋爱</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 2：看单词回忆中文释义</div>
+      <h2><span class="no">Story99</span>创业之路</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击词汇显示/隐藏中文释义</div>
+      <div class="text">${reviewParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>青春梦想：创业之路 · 复习版　|　看故事记单词</footer>
+  </div>
+  <script> function toggle(el) { el.classList.toggle('show'); } </script>
+</body>
+</html>`;
+
+// 输出目录 - 直接输出到 result 目录
+const outputDir = '../result';
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir, { recursive: true });
+}
+
+// 写入文件 - 使用序号+故事名命名
+fs.writeFileSync(path.join(outputDir, '99_青春梦想_创业之路_学习版.html'), learningHtml, 'utf-8');
+fs.writeFileSync(path.join(outputDir, '99_青春梦想_创业之路_复习版.html'), reviewHtml, 'utf-8');
+
+console.log('✓ 已生成：99_青春梦想_创业之路_学习版.html');
+console.log('✓ 已生成：99_青春梦想_创业之路_复习版.html');
+console.log(`\n故事信息：`);
+console.log(`- 标题：青春梦想：创业之路：创业之路`);
+console.log(`- 题材：校园 · 创业 · 恋爱`);
+console.log(`- 融入单词数：50 个`);
+console.log(`- 故事篇幅：约 3000 字`);

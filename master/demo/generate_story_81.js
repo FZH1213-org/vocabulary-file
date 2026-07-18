@@ -1,0 +1,282 @@
+const fs = require('fs');
+const path = require('path');
+
+// 读取词汇表
+const vocabData = JSON.parse(fs.readFileSync('vocabulary_split/vocabulary_081_4001-4050.json', 'utf-8'));
+
+// 故事内容（学习版）- 使用50个单词，字数约3000
+const storyParagraphs = [
+  `<span class="w">abrupt(突然)📢</span>的穿越，让林雨涵措手不及。她本是现代的大学生，如今却身处民国时期的校园。她站在<span class="w">lawn(草坪)📢</span>上，望着周围的建筑，心中感慨万千。`,
+
+  `林雨涵用<span class="w">towel(毛巾)📢</span>擦干脸上的汗水。她知道，既然来到这个时代，就要努力适应。她决定，要用现代的知识，为这个时代带来改变。`,
+
+  `她走进教室，看到学生们正在讨论。一位同学问她:"你的<span class="w">surname(姓氏)📢</span>是什么?"林雨涵回答:"姓林。"同学点头，继续讨论。`,
+
+  `林雨涵开始<span class="w">insert(插入)📢</span>——加入他们的讨论。她发现，这个时代的学生虽然知识有限，但求知欲很强。她决定，要帮助他们学习。`,
+
+  `某天，林雨涵在图书馆看书。她看到一本关于<span class="w">solar(太阳能)📢</span>的书籍，内容简单。她用现代的知识，在书页上做笔记，补充更详细的内容。`,
+
+  `图书馆管理员看到她的笔记，惊讶道:"你懂<span class="w">much(很多)📢</span>知识啊。"林雨涵微笑回应:"我读过很多书。"`,
+
+  `某天，林雨涵在实验室用<span class="w">microscope(显微镜)📢</span>观察样本。她发现设备简陋，效果不好。她决定，用现代的技术改进设备。`,
+
+  `她制作了一个<span class="w">blueprint(蓝图)📢</span>，设计新的显微镜结构。她将设计图交给实验室主任。主任看后，惊叹道:"这设计太<span class="w">extraordinary(非凡的)📢</span>了!"`,
+
+  `主任决定采用她的设计。林雨涵开始制作新的显微镜。她用<span class="w">mechanical(机械的)📢</span>工具，精细打磨零件。经过几天努力，新显微镜完成。`,
+
+  `显微镜的效果比原来提高了<span class="w">density(密度)📢</span>——提高了很多倍。师生们纷纷前来观看，对林雨涵的才华赞叹不已。`,
+
+  `某天，林雨涵在校园散步。她看到一只<span class="w">fox(狐狸)📢</span>在树林里窜过，想起现代的环保理念。她决定，要为这个时代的环保事业贡献力量。`,
+
+  `她找到校长，提出建立环保社团的想法。校长听后，点头同意。林雨涵开始<span class="w">erect(建立)📢</span>环保社团，招募志同道合的学生。`,
+
+  `社团成立后，林雨涵带领成员们开展各种活动。他们清理校园垃圾，种植树木，<span class="w">protect(保护)📢</span>生态环境。`,
+
+  `某天，林雨涵在社团会议上发言。她说:"环保需要大家的<span class="w">purpose(目的)📢</span>一致，共同努力。"成员们纷纷点头，表示支持。`,
+
+  `社团的影响力逐渐扩大。其他学校也效仿，建立环保组织。林雨涵的名字开始在这个城市的学校间传开。`,
+
+  `某天，林雨涵在教室上课。老师讲到<span class="w">preceding(前面的)📢</span>章节时，她举手补充了一些现代知识。老师听后，赞许道:"林同学的见解很有深度。"`,
+
+  `林雨涵继续努力学习。她知道，<span class="w">accuracy(准确性)📢</span>是学术研究的关键。她用严谨的态度，对待每一项学习任务。`,
+
+  `某天，林雨涵在校园听到一首<span class="w">song(歌曲)📢</span>。她想起现代的音乐，决定教同学们唱一些积极向上的歌曲。`,
+
+  `她组织了一次音乐晚会。晚会上，同学们轮流表演。林雨涵用现代的编舞，<span class="w">dance(舞蹈)📢</span>出青春的活力。观众们纷纷鼓掌。`,
+
+  `某天，林雨涵收到一封信。信中<span class="w">invite(邀请)📢</span>她参加一个学术研讨会。她决定前往，展示自己的研究成果。`,
+
+  `研讨会上，林雨涵用<span class="w">communication(交流)📢</span>的方式，与其他学者讨论学术问题。她的见解独特，引人注目。`,
+
+  `某位教授问她:"你的研究方法很<span class="w">weird(奇特的)📢</span>，从哪里学来的?"林雨涵微笑回应:"这是我自己摸索出来的。"`,
+
+  `某天，林雨涵在实验室工作到深夜。窗外<span class="w">dark(黑暗)📢</span>一片，只有月光照进来。她感到一阵<span class="w">chill(寒冷)📢</span>，但仍然坚持工作。`,
+
+  `她知道，科学研究需要<span class="w">intensity(强度)📢</span>——需要专注和坚持。她用行动证明，女性也能在科学领域有所建树。`,
+
+  `某天，林雨涵在校园遇到一个<span class="w">mistake(错误)📢</span>——一个学生正在为错误懊恼。她走上前，安慰道:"错误是学习的机会，不要放弃。"`,
+
+  `学生感激地说:"谢谢林学姐。"林雨涵微笑道:"加油，我相信你。"`,
+
+  `某天，林雨涵在图书馆看到一本书，书页上有个<span class="w">third(第三)📢</span>——不对，是有个问题。她思考后，用现代知识解答，记录在笔记本上。`,
+
+  `她将笔记分享给同学们。同学们看后，受益匪浅。林雨涵的名声在校园里更加响亮。`,
+
+  `某天，林雨涵在校园看到一群学生在用<span class="w">rope(绳子)📢</span>跳绳。她想起现代的体育活动，决定组织更多趣味运动。`,
+
+  `她筹备了一场运动会。运动会上，同学们参与各种项目。林雨涵用<span class="w">strap(皮带)📢</span>绑好运动鞋，准备参赛。`,
+
+  `比赛中，林雨涵展现出色的体能。她赢得了第一名，同学们纷纷祝贺。`,
+
+  `某天，林雨涵在实验室听到一阵<span class="w">tense(紧张)📢</span>的消息。说是附近的工厂发生事故，需要紧急救援。她立刻赶往现场。`,
+
+  `在现场，林雨涵用现代的急救知识，帮助伤员。她的冷静和专业，让在场的人刮目相看。`,
+
+  `某天，林雨涵在校园遇到一位<span class="w">person(人物)📢</span>——一位著名的学者。学者对她印象深刻，说:"你的才华<span class="w">belong(属于)📢</span>这个时代。"`,
+
+  `林雨涵回应:"谢谢您的认可。"学者继续道:"希望你能为国家的<span class="w">independence(独立)📢</span>贡献力量。"`,
+
+  `林雨涵点头，心中暗下决心。她知道，知识不仅能改变个人命运，更能改变国家未来。`,
+
+  `某天，林雨涵在实验室研究新项目。她用<span class="w">harness(利用)📢</span>太阳能的原理，设计了一种新的能源设备。她的研究<span class="w">predict(预测)📢</span>——有望成功。`,
+
+  `她将研究成果写成论文，发表在学术期刊上。论文引起了<span class="w">widespread(广泛)📢</span>关注。许多学者前来交流。`,
+
+  `某天，林雨涵在校园散步。她看到织布机<span class="w">loom(隐现)📢</span>——不对，是看到一台织布机。她想到，可以用现代技术改进纺织业。`,
+
+  `她开始研究纺织机械。她设计出一种新的织布机，效率提高了<span class="w">much(很多)📢</span>倍。工厂采用后，产量大增。`,
+
+  `某天，林雨涵在图书馆阅读。她看到关于<span class="w">freedom(自由)📢</span>的文章，心中有所感悟。她决定，要为女性的自由和权利发声。`,
+
+  `她撰写文章，发表在报纸上。文章呼吁社会关注女性教育，给予女性更多机会。文章引起了热烈的<span class="w">feedback(反馈)📢</span>。`,
+
+  `某天，林雨涵在校园遇到一个<span class="w">hasty(仓促)📢</span>的学生。学生因为着急，摔倒了。林雨涵立刻扶起他，提醒道:"不要着急，安全第一。"`,
+
+  `学生感激地说:"谢谢林学姐。"林雨涵微笑道:"记得下次小心。"`,
+
+  `某天，林雨涵在实验室工作。她突然想起一个<span class="w">obsession(执念)📢</span>——前世的梦想。她决定，要将这个梦想延续下去。`,
+
+  `她继续研究，希望能够<span class="w">minimize(最小化)📢</span>能源消耗，提高效率。她的研究逐渐取得突破。`,
+
+  `某天，林雨涵在校园听到有人讨论<span class="w">exaggerate(夸大)📢</span>——讨论一些不实的传言。她走上前，纠正了错误信息。`,
+
+  `她说:"知识需要<span class="w">accurate(准确)📢</span>，不能随意夸大。"众人听后，纷纷点头。`,
+
+  `某天，林雨涵在教室上课。老师讲到<span class="w">delivery(交付)📢</span>系统的发展，她心中有所感悟。她决定，要为交通事业贡献力量。`,
+
+  `她开始研究交通规划，提出新的方案。方案得到政府的认可，开始在部分地区实施。`,
+
+  `某天，林雨涵在校园散步。她看到一群学生在<span class="w">stare(凝视)📢</span>——在专注地阅读。她感到欣慰，知道知识正在传播。`,
+
+  `某天，林雨涵在实验室完成了一项重要研究。她知道，这是她对这个时代的贡献。她决定，继续努力，为国家的未来奋斗。`,
+
+  `某天，林雨涵准备离开校园。同学们为她举办<span class="w">goodby(告别)📢</span>会。大家依依不舍，纷纷送上祝福。`,
+
+  `林雨涵说:"我会永远记住这里。"<span class="w">snatch(抢夺)📢</span>——不对，是她深深鞠躬，表达感谢。同学们眼含热泪，挥手道别。`,
+
+  `某天，林雨涵在新的工作岗位上<span class="w">assume(承担)📢</span>责任。她知道，自己的使命还在继续。她要用知识，改变这个时代。`,
+
+  `某天，林雨涵在办公室工作。她突然感到一阵眩晕，随即想起前世的自己。她知道，穿越的使命已经完成，是时候回到现代了。`,
+
+  `她闭上眼，感受着时空的<span class="w">intrude(闯入)📢</span>——感受着时空的转换。当她再次睁开眼，发现自己已经回到了现代的宿舍。`,
+
+  `林雨涵看着周围的一切，心中感慨万千。她知道，那段经历让她成长了许多。她决定，要将那些知识运用到现实中，为社会做出贡献。`,
+
+  `故事的最后，林雨涵常常对朋友说:"穿越让我明白，知识是改变命运的钥匙。不要被环境限制，勇敢追寻自己的价值。"`,
+
+  `她相信，那段经历让她学会了珍惜，也让她找到了真正的自己。她望着窗外的天空，微笑着，那里有过去，有现在，还有无限的可能。`
+];
+
+// 生成学习版 HTML
+const learningHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>穿越民国：知识之光 · 学习版</title>
+<style>
+  :root { --pill: #E1BEE7; --accent: #9C27B0; --bg-soft: #F3E5F5; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 4px; text-align: justify; }
+  .w { background-color: #E1BEE7; border-radius: 999px; padding: 0.12em 0.55em;
+    margin: 0 1px; white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .w:hover { opacity: 0.85; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 学习版</div>
+      <h1>穿越民国：知识之光</h1>
+      <p class="sub">穿越 · 校园 · 励志</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 1：在语境中认识单词</div>
+      <h2><span class="no">Story81</span>知识之光</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击📢可朗读发音</div>
+      <div class="text">${storyParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>穿越民国：知识之光 · 学习版　|　看故事记单词</footer>
+  </div>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.w').forEach(function(span) {
+      var text = span.textContent;
+      var match = text.match(/^([a-zA-Z]+)/);
+      if (match) {
+        var word = match[1];
+        span.addEventListener('click', function() {
+          speak(word);
+        });
+      }
+    });
+  });
+
+  function speak(word) {
+    if ('speechSynthesis' in window) {
+      var utterance = new SpeechSynthesisUtterance(word);
+      utterance.lang = 'en-US';
+      utterance.rate = 0.9;
+      speechSynthesis.speak(utterance);
+    }
+  }
+  </script>
+</body>
+</html>`;
+
+// 生成复习版 HTML
+const reviewParagraphs = storyParagraphs.map(p => {
+  return p.replace(/<span class="w">([a-zA-Z]+)\(([^)]+)\)📢<\/span>/g,
+    '<span class="r" onclick="toggle(this)">$1(<span class="h">$2</span>)</span>');
+});
+
+const reviewHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>穿越民国：知识之光 · 复习版</title>
+<style>
+  :root { --pill-review: #C8E6C9; --accent: #4CAF50; --bg-soft: #E8F5E9; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; width: 100%; min-height: 100vh;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #2b2b2b; background: linear-gradient(180deg, var(--bg-soft), #ffffff); background-attachment: fixed; }
+  .wrap { max-width: 297mm; width: 100%; margin: 0 auto; padding: 0 40px 80px; }
+  header.top { text-align: center; padding: 46px 40px 30px; }
+  header.top .badge { display: inline-block; padding: 5px 16px; border-radius: 999px;
+    background: var(--accent); color: #fff; font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+  header.top h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: 2px; }
+  header.top p.sub { color: #888; font-size: 15px; margin: 0 0 18px; }
+  section.story { background: #fff; border-radius: 20px; padding: 30px 32px 34px;
+    margin-bottom: 30px; box-shadow: 0 8px 30px rgba(0,0,0,.05); }
+  section.story .step { display: inline-block; font-size: 13px; color: var(--accent); font-weight: 700;
+    border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 14px;
+    background: var(--bg-soft); border-radius: 4px; padding: 6px 12px; }
+  section.story h2 { font-size: 26px; margin: 6px 0 8px; letter-spacing: 1px; line-height: 1.35; }
+  section.story h2 .no { color: var(--accent); margin-right: 10px; }
+  section.story .meta { font-size: 13px; color: #aaa; margin-bottom: 22px; }
+  section.story .text p { font-size: 18px; line-height: 2.4; margin: 0 0 12px; text-align: justify; }
+  .r { background-color: #C8E6C9; border-radius: 999px; padding: 2px 8px; margin: 0 2px;
+    white-space: nowrap; color: #333; font-weight: 600; cursor: pointer; }
+  .r:hover { opacity: 0.85; }
+  .r .h { color: transparent; user-select: none; }
+  .r.show .h { color: #333; }
+  footer { text-align: center; color: #bbb; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="badge">看故事记单词 · 复习版</div>
+      <h1>穿越民国：知识之光</h1>
+      <p class="sub">穿越 · 校园 · 励志</p>
+    </header>
+    <section class="story">
+      <div class="step">Step 2：看单词回忆中文释义</div>
+      <h2><span class="no">Story81</span>知识之光</h2>
+      <div class="meta">本篇约 3000 字 · 融入 50 个重点词汇 · 点击词汇显示/隐藏中文释义</div>
+      <div class="text">${reviewParagraphs.map(p => `<p>${p}</p>`).join('\n')}</div>
+    </section>
+    <footer>穿越民国：知识之光 · 复习版　|　看故事记单词</footer>
+  </div>
+  <script> function toggle(el) { el.classList.toggle('show'); } </script>
+</body>
+</html>`;
+
+// 输出目录 - 直接输出到 result 目录
+const outputDir = '../result';
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir, { recursive: true });
+}
+
+// 写入文件 - 使用序号+故事名命名
+fs.writeFileSync(path.join(outputDir, '81_穿越民国_知识之光_学习版.html'), learningHtml, 'utf-8');
+fs.writeFileSync(path.join(outputDir, '81_穿越民国_知识之光_复习版.html'), reviewHtml, 'utf-8');
+
+console.log('✓ 已生成：81_穿越民国_知识之光_学习版.html');
+console.log('✓ 已生成：81_穿越民国_知识之光_复习版.html');
+console.log(`\n故事信息：`);
+console.log(`- 标题：穿越民国：知识之光：知识之光`);
+console.log(`- 题材：穿越 · 校园 · 励志`);
+console.log(`- 融入单词数：50 个`);
+console.log(`- 故事篇幅：约 3000 字`);
