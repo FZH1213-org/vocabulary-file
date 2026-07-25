@@ -1,0 +1,13 @@
+{
+  "name": "html-to-pdf-converter",
+  "version": "1.0.0",
+  "description": "Convert HTML files to PDF",
+  "main": "convert_to_pdf.js",
+  "scripts": {
+    "convert": "node convert_to_pdf.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "xlsx": "^0.18.5"
+  }
+}

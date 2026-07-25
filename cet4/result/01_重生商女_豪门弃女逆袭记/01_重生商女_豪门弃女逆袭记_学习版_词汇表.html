@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>词汇学习表 - 重生商女_豪门弃女逆袭记 - 72个词汇</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;}
+        body{font-family:'Segoe UI',sans-serif;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);min-height:100vh;padding:20px;}
+        .container{max-width:1400px;margin:0 auto;}
+        h1{color:white;text-align:center;margin-bottom:20px;font-size:2.5em;text-shadow:2px 2px 4px rgba(0,0,0,0.3);}
+        .stats{background:white;padding:15px 25px;border-radius:10px;margin-bottom:20px;display:flex;justify-content:space-around;flex-wrap:wrap;gap:10px;box-shadow:0 4px 6px rgba(0,0,0,0.1);}
+        .stat-item{text-align:center;}
+        .stat-number{font-size:2em;color:#667eea;font-weight:bold;}
+        .stat-label{color:#666;font-size:0.9em;}
+        .search-box{background:white;padding:20px;border-radius:10px;margin-bottom:20px;box-shadow:0 4px 6px rgba(0,0,0,0.1);}
+        .search-controls{display:flex;gap:15px;flex-wrap:wrap;}
+        .search-input{flex:1;min-width:200px;padding:12px 20px;border:2px solid #e0e0e0;border-radius:25px;font-size:16px;}
+        .search-input:focus{outline:none;border-color:#667eea;box-shadow:0 0 10px rgba(102,126,234,0.3);}
+        .vocabulary-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(350px,1fr));gap:20px;}
+        .vocab-card{background:white;border-radius:15px;padding:20px;box-shadow:0 4px 6px rgba(0,0,0,0.1);transition:all 0.3s;}
+        .vocab-card:hover{transform:translateY(-5px);box-shadow:0 8px 15px rgba(0,0,0,0.2);}
+        .vocab-number{background:#667eea;color:white;padding:3px 10px;border-radius:12px;font-size:0.85em;font-weight:bold;}
+        .vocab-word{font-size:1.8em;color:#333;font-weight:bold;margin:10px 0 5px 0;}
+        .vocab-phonetic{display:flex;align-items:center;gap:10px;margin-bottom:12px;flex-wrap:wrap;}
+        .phonetic-text{color:#667eea;font-size:1.1em;font-style:italic;}
+        .speak-btn{background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);color:white;border:none;padding:8px 15px;border-radius:20px;cursor:pointer;font-size:0.9em;transition:all 0.3s;display:flex;align-items:center;gap:5px;}
+        .speak-btn:hover{transform:scale(1.05);box-shadow:0 4px 10px rgba(102,126,234,0.4);}
+        .vocab-pos{background:#f0f0f0;padding:8px 12px;border-radius:8px;margin-bottom:10px;}
+        .pos-label{color:#764ba2;font-weight:bold;font-size:0.85em;}
+        .pos-meaning{color:#333;margin-top:3px;}
+        .vocab-story{display:flex;justify-content:space-between;font-size:0.85em;color:#888;border-top:1px solid #e0e0e0;padding-top:10px;margin-top:10px;flex-wrap:wrap;gap:5px;}
+        .story-name{color:#667eea;font-weight:500;}
+        .no-results{text-align:center;color:white;font-size:1.2em;padding:40px;grid-column:1/-1;}
+        .pagination{display:flex;justify-content:center;align-items:center;gap:10px;margin-top:30px;flex-wrap:wrap;}
+        .page-btn{background:white;color:#667eea;border:none;padding:10px 20px;border-radius:20px;cursor:pointer;font-size:16px;transition:all 0.3s;}
+        .page-btn:hover:not(:disabled){background:#667eea;color:white;}
+        .page-btn:disabled{opacity:0.5;cursor:not-allowed;}
+        .page-info{background:white;padding:10px 20px;border-radius:20px;color:#667eea;font-weight:bold;}
+        @media(max-width:768px){.vocabulary-list{grid-template-columns:1fr;}.search-controls{flex-direction:column;}h1{font-size:1.8em;}}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📚 重生商女_豪门弃女逆袭记</h1>
+        <div class="stats">
+            <div class="stat-item"><div class="stat-number" id="total-words">72</div><div class="stat-label">总词汇数</div></div>
+            <div class="stat-item"><div class="stat-number" id="filtered-words">72</div><div class="stat-label">筛选结果</div></div>
+        </div>
+        <div class="search-box">
+            <div class="search-controls">
+                <input type="text" class="search-input" id="searchInput" placeholder="搜索单词或中文释义...">
+            </div>
+        </div>
+        <div class="vocabulary-list" id="vocabularyList"></div>
+        <div class="pagination" id="pagination"></div>
+    </div>
+    <script>
+const vocabularyData=[{"id":1,"word":"alive","translation":"活着的","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":2,"word":"furniture","translation":"家具","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":3,"word":"huge","translation":"巨大的","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":4,"word":"uncle","translation":"叔叔","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":5,"word":"uncle","translation":"叔叔","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":6,"word":"uncle","translation":"叔叔","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":7,"word":"lumber","translation":"木材","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":8,"word":"uncle","translation":"叔叔","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":9,"word":"lumber","translation":"木材","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":10,"word":"fee","translation":"费用","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":11,"word":"lumber","translation":"木材","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":12,"word":"uncle","translation":"叔叔","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":13,"word":"objective","translation":"目标","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":14,"word":"uncle","translation":"叔叔","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":15,"word":"enable","translation":"使能够","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":16,"word":"suitable","translation":"合适的","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":17,"word":"railway","translation":"铁路","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":18,"word":"meter","translation":"米","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":19,"word":"land","translation":"土地","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":20,"word":"cheap","translation":"便宜的","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":21,"word":"rapidly","translation":"迅速地","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":22,"word":"convert","translation":"转变","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":23,"word":"upward","translation":"向上的","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":24,"word":"mistake","translation":"错误","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":25,"word":"rotate","translation":"旋转","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":26,"word":"solid","translation":"可靠的","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":27,"word":"rapidly","translation":"迅速地","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":28,"word":"scale","translation":"规模","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":29,"word":"number","translation":"数字","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":30,"word":"stare","translation":"凝视","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":31,"word":"he","translation":"他","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":32,"word":"extensive","translation":"广泛的","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":33,"word":"infer","translation":"推断","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":34,"word":"intentional","translation":"故意的","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":35,"word":"unfair","translation":"不公平的","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":36,"word":"liable","translation":"有责任的","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":37,"word":"among","translation":"在...中间","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":38,"word":"naval","translation":"海军的","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":39,"word":"naval","translation":"海军的","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":40,"word":"flavour","translation":"风味","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":41,"word":"important","translation":"重要的","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":42,"word":"begin","translation":"开始","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":43,"word":"lumber","translation":"木材","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":44,"word":"pollution","translation":"污染","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":45,"word":"queer","translation":"奇怪的","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":46,"word":"rapidly","translation":"迅速地","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":47,"word":"shall","translation":"将","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":48,"word":"inventor","translation":"发明家","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":49,"word":"furniture","translation":"家具","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":50,"word":"gymnasium","translation":"体育馆","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":51,"word":"fond","translation":"喜欢的","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":52,"word":"hopeless","translation":"绝望的","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":53,"word":"pleasant","translation":"令人愉快的","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":54,"word":"alive","translation":"活着的","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":55,"word":"vacation","translation":"假期","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":56,"word":"accommodation","translation":"住宿","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":57,"word":"liter","translation":"公升","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":58,"word":"pleasant","translation":"令人愉快的","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":59,"word":"cast","translation":"投掷","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":60,"word":"toe","translation":"脚趾","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":61,"word":"accommodation","translation":"住宿","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":62,"word":"cheese","translation":"奶酪","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":63,"word":"scale","translation":"规模","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":64,"word":"mistake","translation":"错误","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":65,"word":"mistake","translation":"错误","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":66,"word":"extensive","translation":"广泛的","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":67,"word":"be","translation":"是","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":68,"word":"plough","translation":"犁","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":69,"word":"mental","translation":"精神的","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":70,"word":"inward","translation":"向内的","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":71,"word":"uncle","translation":"叔叔","storyName":"重生商女_豪门弃女逆袭记","count":1},{"id":72,"word":"trace","translation":"痕迹","storyName":"重生商女_豪门弃女逆袭记","count":1}];
+
+let currentPage=1;
+const itemsPerPage=50;
+let filteredData=[...vocabularyData];
+
+function renderVocabulary(){
+    const vocabularyList=document.getElementById('vocabularyList');
+    const start=(currentPage-1)*itemsPerPage;
+    const end=start+itemsPerPage;
+    const pageData=filteredData.slice(start,end);
+
+    if(pageData.length===0){
+        vocabularyList.innerHTML='<div class="no-results">未找到匹配的词汇</div>';
+        return;
+    }
+
+    vocabularyList.innerHTML=pageData.map(v=>{
+        return '<div class="vocab-card">'+
+            '<span class="vocab-number">#'+v.id+'</span>'+
+            '<div class="vocab-word">'+escapeHtml(v.word)+'</div>'+
+            '<div class="vocab-phonetic">'+
+                '<span class="phonetic-text">'+escapeHtml(v.word)+'</span>'+
+                '<button class="speak-btn" onclick="speak(\''+escapeHtml(v.word)+'\')">'+
+                    '🔊 发音'+
+                '</button>'+
+            '</div>'+
+            '<div class="vocab-pos">'+
+                '<div class="pos-label">中文释义</div>'+
+                '<div class="pos-meaning">'+escapeHtml(v.translation)+'</div>'+
+            '</div>'+
+            '<div class="vocab-story">'+
+                '<span class="story-name">'+escapeHtml(v.storyName)+'</span>'+
+            '</div>'+
+        '</div>';
+    }).join('');
+}
+
+function renderPagination(){
+    const pagination=document.getElementById('pagination');
+    const totalPages=Math.ceil(filteredData.length/itemsPerPage);
+
+    if(totalPages<=1){
+        pagination.innerHTML='';
+        return;
+    }
+
+    let html='';
+    html+='<button class="page-btn" onclick="changePage('+(currentPage-1)+')" '+(currentPage===1?'disabled':'')+'>上一页</button>';
+    html+='<span class="page-info">第 '+currentPage+' / '+totalPages+' 页</span>';
+    html+='<button class="page-btn" onclick="changePage('+(currentPage+1)+')" '+(currentPage===totalPages?'disabled':'')+'>下一页</button>';
+
+    pagination.innerHTML=html;
+}
+
+function changePage(page){
+    const totalPages=Math.ceil(filteredData.length/itemsPerPage);
+    if(page<1||page>totalPages)return;
+    currentPage=page;
+    renderVocabulary();
+    renderPagination();
+    window.scrollTo(0,0);
+}
+
+function speak(word){
+    const utterance=new SpeechSynthesisUtterance(word);
+    utterance.lang='en-US';
+    utterance.rate=0.8;
+    speechSynthesis.speak(utterance);
+}
+
+function escapeHtml(text){
+    const div=document.createElement('div');
+    div.textContent=text;
+    return div.innerHTML;
+}
+
+document.getElementById('searchInput').addEventListener('input',function(e){
+    const searchTerm=e.target.value.toLowerCase();
+    filteredData=vocabularyData.filter(v=>{
+        return v.word.toLowerCase().includes(searchTerm)||v.translation.includes(searchTerm);
+    });
+    currentPage=1;
+    renderVocabulary();
+    renderPagination();
+    document.getElementById('filtered-words').textContent=filteredData.length;
+});
+
+renderVocabulary();
+renderPagination();
+    </script>
+</body>
+</html>
